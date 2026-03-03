@@ -4428,3 +4428,41 @@ test("parse dual kismet activation header (no-op)", () => {
   );
   expect(result).toEqual([]);
 });
+
+test("parse passive skill level", () => {
+  const result = parseMod("+2 Passive Skill Level");
+  expect(result).toEqual([
+    { type: "SkillLevel", value: 2, skillLevelType: "passive" },
+  ]);
+});
+
+test("parse additional damage at low life", () => {
+  const result = parseMod("+22% additional damage at Low Life");
+  expect(result).toEqual([
+    {
+      type: "DmgPct",
+      value: 22,
+      dmgModType: "global",
+      addn: true,
+      resolvedCond: "at_low_life",
+    },
+  ]);
+});
+
+test("parse flat damage for every stat", () => {
+  const result = parseMod("Adds 2 - 6 Lightning Damage for every 10 Dexterity");
+  expect(result).toEqual([
+    {
+      type: "FlatDmgToAtks",
+      value: { min: 2, max: 6 },
+      dmgType: "lightning",
+      per: { stackable: "dex", amt: 10 },
+    },
+    {
+      type: "FlatDmgToSpells",
+      value: { min: 2, max: 6 },
+      dmgType: "lightning",
+      per: { stackable: "dex", amt: 10 },
+    },
+  ]);
+});

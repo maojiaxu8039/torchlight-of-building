@@ -240,6 +240,13 @@ export const allParsers = [
     addn: c.additional !== undefined,
     resolvedCond: "have_both_sealed_mana_and_life",
   })),
+  t("{value:+dec%} [additional] damage at low life").output((c) => ({
+    type: "DmgPct",
+    value: c.value,
+    dmgModType: "global",
+    addn: c.additional !== undefined,
+    resolvedCond: "at_low_life",
+  })),
   t("{value:+dec%} damage {(when|while)} focus blessing is active").output(
     (c) => ({
       type: "DmgPct",
@@ -2470,6 +2477,24 @@ export const allParsers = [
       dmgType: c.dmgType,
       per: { stackable: c.statModType, amt: c.amt },
     })),
+  t(
+    "adds {min:int} - {max:int} {dmgType:DmgChunkType} damage for every {amt:int} {statModType:StatWord}",
+  )
+    .enum("StatWord", StatWordMapping)
+    .outputMany([
+      spec((c) => ({
+        type: "FlatDmgToAtks",
+        value: { min: c.min, max: c.max },
+        dmgType: c.dmgType,
+        per: { stackable: c.statModType, amt: c.amt },
+      })),
+      spec((c) => ({
+        type: "FlatDmgToSpells",
+        value: { min: c.min, max: c.max },
+        dmgType: c.dmgType,
+        per: { stackable: c.statModType, amt: c.amt },
+      })),
+    ]),
   t(
     "adds {min:int} - {max:int} {dmgType:DmgChunkType} damage to attacks per {amt:int} armor",
   ).output((c) => ({

@@ -1551,6 +1551,7 @@ const calculateAddedSkillLevels = (
       .with("main", () => isMainSkill(skill.name, loadout))
       .with("support", () => skill.type === "Support")
       .with("active", () => skill.type === "Active")
+      .with("passive", () => skill.type === "Passive")
       .with("attack", () => skill.tags.includes("Attack"))
       .with("persistent", () => skill.tags.includes("Persistent"))
       .with("erosion", () => skill.tags.includes("Erosion"))
@@ -2292,6 +2293,10 @@ const resolveModsForOffenseSkill = (
       src: "Trinity: Elemental Penetration",
     });
   };
+  const pushLowLife = (): void => {
+    if (config.currentLifePct >= 35) return;
+    pm(...resolvedCondMods.filter((m) => m.resolvedCond === "at_low_life"));
+  };
   const pushHasSealedLifeAndManaCond = (): void => {
     const { sealedManaPct, sealedLifePct } = resourcePool.sealedResources;
     if (sealedManaPct <= 0 || sealedLifePct <= 0) return;
@@ -2436,6 +2441,7 @@ const resolveModsForOffenseSkill = (
 
   normalize("max_mana", maxMana);
   normalize("mercury_pt", mercuryPts);
+  pushLowLife();
   pushHasSealedLifeAndManaCond();
   pushPactspirits();
   const tangleSummary = pushTangle();
