@@ -1,4 +1,6 @@
+import { Trans } from "@lingui/react/macro";
 import { Modal, ModalActions, ModalButton } from "../ui/Modal";
+import { i18n } from "../../lib/i18n";
 
 interface AboutModalProps {
   isOpen: boolean;
@@ -10,7 +12,7 @@ export const AboutModal = ({
   onClose,
 }: AboutModalProps): React.ReactNode => {
   return (
-    <Modal isOpen={isOpen} onClose={onClose} title="About" maxWidth="sm">
+    <Modal isOpen={isOpen} onClose={onClose} title={i18n._("About")} maxWidth="sm">
       <div className="space-y-3 mb-6 text-sm">
         <p className="text-zinc-300">
           <a
@@ -44,7 +46,7 @@ export const AboutModal = ({
 
       <ModalActions>
         <ModalButton onClick={onClose} variant="secondary" fullWidth>
-          Close
+          <Trans>Close</Trans>
         </ModalButton>
       </ModalActions>
     </Modal>

@@ -8,6 +8,7 @@ import { ImportModal } from "../components/modals/ImportModal";
 import { decodeBuildCode } from "../lib/build-code";
 import {
   getStoredLocale,
+  i18n as i18nModule,
   type Locale,
   SUPPORTED_LOCALES,
   setStoredLocale,
@@ -224,7 +225,7 @@ function SavesPage(): React.ReactNode {
     const newSaveId = generateSaveId();
     const newMetadata: SaveMetadata = {
       id: newSaveId,
-      name: "Untitled",
+      name: i18nModule._("Untitled"),
       createdAt: now,
       updatedAt: now,
     };
@@ -322,7 +323,7 @@ function SavesPage(): React.ReactNode {
       <div className="max-w-4xl mx-auto w-full flex flex-col h-full px-6">
         <div className="flex items-center gap-3 py-6">
           <h1 className="text-3xl font-bold text-zinc-50">
-            Torchlight Of Building
+            <Trans>Torchlight Of Building</Trans>
           </h1>
           <div className="ml-auto flex items-center gap-2">
             <select
@@ -340,7 +341,7 @@ function SavesPage(): React.ReactNode {
               onClick={() => setAboutModalOpen(true)}
               className="px-3 py-1.5 bg-zinc-800 text-zinc-400 rounded-lg border border-zinc-700 text-sm hover:bg-zinc-700 hover:text-zinc-200 transition-colors"
             >
-              About
+              <Trans>About</Trans>
             </button>
           </div>
         </div>

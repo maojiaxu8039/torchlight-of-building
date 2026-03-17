@@ -14,7 +14,8 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. js-lingui-explicit-id
-#: src/components/equipment/EditGearModal.tsx:942
+#: src/components/equipment/EditGearModal.tsx:927
+#: src/components/equipment/VoraxGearModule.tsx:912
 msgid ""
 "+10% Fire Damage\n"
 "+20 to Maximum Life\n"
@@ -24,7 +25,12 @@ msgstr ""
 "+20 to Maximum Life\n"
 "+5% Attack Speed"
 
-#: src/components/equipment/EditGearModal.tsx:735
+#. js-lingui-explicit-id
+#: src/components/equipment/EquipmentSlotDropdown.tsx:130
+msgid "-- None --"
+msgstr "-- None --"
+
+#: src/components/equipment/EditGearModal.tsx:731
 msgid "Base Stats (1 max)"
 msgstr "Base Stats (1 max)"
 
@@ -32,43 +38,62 @@ msgstr "Base Stats (1 max)"
 msgid "Tree"
 msgstr "Tree"
 
-#: src/routes/index.tsx:417
+#: src/routes/index.tsx:418
 msgid "Create your first character build to get started"
 msgstr "Create your first character build to get started"
 
-#: src/components/equipment/EditGearModal.tsx:949
+#: src/components/DebugPanel.tsx:554
+msgid "Expand"
+msgstr "Expand"
+
+#: src/components/equipment/EditGearModal.tsx:934
+#: src/components/equipment/VoraxGearModule.tsx:919
 msgid "Enter raw affix text, one per line. Use this for affixes not available in the dropdowns above."
 msgstr "Enter raw affix text, one per line. Use this for affixes not available in the dropdowns above."
 
-#: src/components/equipment/EditGearModal.tsx:937
+#: src/components/equipment/EditGearModal.tsx:922
+#: src/components/equipment/VoraxGearModule.tsx:907
 msgid "Custom Affixes"
 msgstr "Custom Affixes"
 
-#: src/routes/index.tsx:167
+#: src/routes/index.tsx:168
 msgid "Rename"
 msgstr "Rename"
 
-#: src/components/equipment/VoraxGearModule.tsx:685
+#: src/components/DebugPanel.tsx:554
+msgid "Minimize"
+msgstr "Minimize"
+
+#: src/components/modals/ExportModal.tsx:77
+msgid "Show raw build code"
+msgstr "Show raw build code"
+
+#: src/components/equipment/VoraxGearModule.tsx:832
 msgid "Vorax Limb"
 msgstr "Vorax Limb"
 
-#: src/routes/index.tsx:390
+#: src/routes/index.tsx:391
 msgid "Create New"
 msgstr "Create New"
 
-#: src/routes/builder/equipment.tsx:142
+#: src/routes/builder/equipment.tsx:146
 msgid "Craft New Item"
 msgstr "Craft New Item"
 
-#: src/routes/builder/equipment.tsx:226
+#: src/routes/builder/equipment.tsx:238
 msgid "No items in inventory. Craft items above to add them here."
 msgstr "No items in inventory. Craft items above to add them here."
 
-#: src/components/equipment/EditGearModal.tsx:976
-#: src/components/equipment/LegendaryGearModule.tsx:400
-#: src/components/equipment/VoraxGearModule.tsx:769
+#: src/components/equipment/EditGearModal.tsx:966
+#: src/components/equipment/LegendaryGearModule.tsx:409
+#: src/components/equipment/VoraxGearModule.tsx:953
 msgid "Save to Inventory"
 msgstr "Save to Inventory"
+
+#. js-lingui-explicit-id
+#: src/components/modals/AboutModal.tsx:15
+msgid "About"
+msgstr "About"
 
 #. js-lingui-explicit-id
 #: src/routes/builder/skills.tsx:81
@@ -76,15 +101,88 @@ msgid "Active Skills"
 msgstr "Active Skills"
 
 #. js-lingui-explicit-id
-#: src/components/equipment/LegendaryGearModule.tsx:299
+#: src/components/equipment/LegendaryGearModule.tsx:313
 msgid "Add Legendary"
 msgstr "Add Legendary"
+
+#. js-lingui-explicit-id
+#. placeholder {0}: loadoutAffixLines.length
+#: src/components/DebugPanel.tsx:423
+msgid "Affixes"
+msgstr "Affixes"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:526
+msgid "Armor"
+msgstr "Armor"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:563
+msgid "Attack Block"
+msgstr "Attack Block"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:198
+#: src/components/builder/StatsPanel.tsx:335
+msgid "Attack Speed"
+msgstr "Attack Speed"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:334
+msgid "Attack Speed (MH)"
+msgstr "Attack Speed (MH)"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:362
+msgid "Attack Speed (OH)"
+msgstr "Attack Speed (OH)"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:289
+msgid "Average DPS"
+msgstr "Average DPS"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:305
+msgid "Avg Hit"
+msgstr "Avg Hit"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:304
+msgid "Avg Hit (MH)"
+msgstr "Avg Hit (MH)"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:344
+msgid "Avg Hit (OH)"
+msgstr "Avg Hit (OH)"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:113
+#: src/components/builder/StatsPanel.tsx:315
+msgid "Avg Hit (crit)"
+msgstr "Avg Hit (crit)"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:314
+msgid "Avg Hit crit (MH)"
+msgstr "Avg Hit crit (MH)"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:350
+msgid "Avg Hit crit (OH)"
+msgstr "Avg Hit crit (OH)"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:4
 #: src/data/translate/equipment-types.ts:5
 msgid "Belt"
 msgstr "Belt"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:573
+msgid "Block Ratio"
+msgstr "Block Ratio"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:6
@@ -112,6 +210,21 @@ msgid "Bow"
 msgstr "Bow"
 
 #. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:225
+msgid "Burst DPS"
+msgstr "Burst DPS"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:229
+msgid "Bursts/sec"
+msgstr "Bursts/sec"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:93
+msgid "CDR Bonus"
+msgstr "CDR Bonus"
+
+#. js-lingui-explicit-id
 #: src/data/translate/translate-tab.ts:11
 msgid "Calculations"
 msgstr "Calculations"
@@ -120,6 +233,11 @@ msgstr "Calculations"
 #: src/data/translate/equipment-types.ts:11
 msgid "Cane"
 msgstr "Cane"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:125
+msgid "Casts/sec"
+msgstr "Casts/sec"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:12
@@ -147,9 +265,30 @@ msgid "Claw"
 msgstr "Claw"
 
 #. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:540
+msgid "Cold Res"
+msgstr "Cold Res"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:140
+msgid "Combo DPS"
+msgstr "Combo DPS"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:144
+msgid "Combo Points"
+msgstr "Combo Points"
+
+#. js-lingui-explicit-id
 #: src/data/translate/translate-tab.ts:10
 msgid "Configuration"
 msgstr "Configuration"
+
+#. js-lingui-explicit-id
+#: src/components/modals/ExportModal.tsx:92
+#: src/components/modals/ExportModal.tsx:105
+msgid "Copied!"
+msgstr "Copied!"
 
 #. js-lingui-explicit-id
 #: src/components/talents/CoreTalentSelector.tsx:60
@@ -162,19 +301,49 @@ msgid "Core Talent 2"
 msgstr "Core Talent 2"
 
 #. js-lingui-explicit-id
-#: src/components/equipment/EditGearModal.tsx:698
+#: src/components/equipment/EditGearModal.tsx:692
 msgid "Craft New Item"
 msgstr "Craft New Item"
 
 #. js-lingui-explicit-id
 #: src/components/equipment/VoraxGearModule.tsx:677
-msgid "Craft Vorax Gear"
-msgstr "Craft Vorax Gear"
+#~ msgid "Craft Vorax Gear"
+#~ msgstr "Craft Vorax Gear"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:117
+#: src/components/builder/StatsPanel.tsx:194
+#: src/components/builder/StatsPanel.tsx:325
+msgid "Crit Chance"
+msgstr "Crit Chance"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:324
+msgid "Crit Chance (MH)"
+msgstr "Crit Chance (MH)"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:356
+msgid "Crit Chance (OH)"
+msgstr "Crit Chance (OH)"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:121
+#: src/components/builder/StatsPanel.tsx:150
+#: src/components/builder/StatsPanel.tsx:174
+#: src/components/builder/StatsPanel.tsx:296
+msgid "Crit Multiplier"
+msgstr "Crit Multiplier"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:17
 msgid "Crossbow"
 msgstr "Crossbow"
+
+#: src/components/equipment/VoraxGearModule.tsx:767
+#: src/routes/builder/equipment.tsx:154
+msgid "Normal"
+msgstr "Normal"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:18
@@ -182,11 +351,48 @@ msgid "Cudgel"
 msgstr "Cudgel"
 
 #. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:471
+msgid "DEX"
+msgstr "DEX"
+
+#. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:19
 msgid "Dagger"
 msgstr "Dagger"
 
-#: src/routes/index.tsx:426
+#. js-lingui-explicit-id
+#: src/components/builder/BuilderLayout.tsx:224
+msgid "Debug ON"
+msgstr "Debug ON"
+
+#. js-lingui-explicit-id
+#. placeholder {0}: loadoutAffixLines.length
+#: src/components/DebugPanel.tsx:415
+msgid "Debug: Affixes"
+msgstr "Debug: Affixes"
+
+#. js-lingui-explicit-id
+#: src/components/DebugPanel.tsx:413
+msgid "Debug: Loadout (Parsed)"
+msgstr "Debug: Loadout (Parsed)"
+
+#. js-lingui-explicit-id
+#: src/components/DebugPanel.tsx:411
+msgid "Debug: SaveData (Edit Mode)"
+msgstr "Debug: SaveData (Edit Mode)"
+
+#. js-lingui-explicit-id
+#: src/components/DebugPanel.tsx:412
+msgid "Debug: SaveData (Raw)"
+msgstr "Debug: SaveData (Raw)"
+
+#. js-lingui-explicit-id
+#. placeholder {0}: totalIssues
+#: src/components/DebugPanel.tsx:414
+msgid "Debug: Unimplemented"
+msgstr "Debug: Unimplemented"
+
+#: src/routes/index.tsx:427
 msgid "Create New Build"
 msgstr "Create New Build"
 
@@ -195,14 +401,33 @@ msgstr "Create New Build"
 msgid "Divinity Slate"
 msgstr "Divinity Slate"
 
-#: src/routes/index.tsx:384
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:69
+msgid "Duration"
+msgstr "Duration"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:89
+msgid "Duration Bonus"
+msgstr "Duration Bonus"
+
+#: src/components/modals/ExportModal.tsx:105
+msgid "Copy URL"
+msgstr "Copy URL"
+
+#: src/routes/index.tsx:385
 msgid "Import Build"
 msgstr "Import Build"
 
 #. js-lingui-explicit-id
-#: src/components/equipment/EditGearModal.tsx:699
+#: src/components/equipment/EditGearModal.tsx:693
 msgid "Edit {equipmentType}"
 msgstr "Edit {equipmentType}"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:520
+msgid "Energy Shield"
+msgstr "Energy Shield"
 
 #. js-lingui-explicit-id
 #: src/data/translate/translate-tab.ts:4
@@ -210,11 +435,40 @@ msgid "Equipment"
 msgstr "Equipment"
 
 #. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:555
+msgid "Erosion Res"
+msgstr "Erosion Res"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:532
+msgid "Evasion"
+msgstr "Evasion"
+
+#. js-lingui-explicit-id
+#: src/components/modals/ExportModal.tsx:60
+msgid "Export Loadout"
+msgstr "Export Loadout"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:146
+msgid "Finisher Amplification"
+msgstr "Finisher Amplification"
+
+#. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:20
 msgid "Fire Cannon"
 msgstr "Fire Cannon"
 
-#: src/components/equipment/EditGearModal.tsx:829
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:550
+msgid "Fire Res"
+msgstr "Fire Res"
+
+#: src/components/builder/BuilderLayout.tsx:232
+msgid "Export"
+msgstr "Export"
+
+#: src/components/equipment/EditGearModal.tsx:822
 msgid "Tower Sequence (1 max)"
 msgstr "Tower Sequence (1 max)"
 
@@ -263,13 +517,28 @@ msgstr "Helmet (STR)"
 msgid "Hero"
 msgstr "Hero"
 
-#: src/routes/index.tsx:414
+#: src/routes/index.tsx:415
 msgid "No builds yet"
 msgstr "No builds yet"
 
-#: src/routes/index.tsx:358
+#: src/routes/index.tsx:359
 msgid "The build code in the URL was invalid or could not be imported."
 msgstr "The build code in the URL was invalid or could not be imported."
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:475
+msgid "INT"
+msgstr "INT"
+
+#: src/components/equipment/VoraxGearModule.tsx:951
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#. js-lingui-explicit-id
+#. placeholder {0}: totalIssues
+#: src/components/DebugPanel.tsx:422
+msgid "Issues"
+msgstr "Issues"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:29
@@ -281,8 +550,13 @@ msgstr "Left Ring"
 msgid "Legendary Talent"
 msgstr "Legendary Talent"
 
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:545
+msgid "Lightning Res"
+msgstr "Lightning Res"
+
 #. placeholder {0}: formatDate(save.createdAt)
-#: src/routes/index.tsx:119
+#: src/routes/index.tsx:120
 msgid "Created: {0}"
 msgstr "Created: {0}"
 
@@ -292,14 +566,61 @@ msgid "Main Hand"
 msgstr "Main Hand"
 
 #. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:482
+msgid "Max Life"
+msgstr "Max Life"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:487
+msgid "Max Mana"
+msgstr "Max Mana"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:231
+msgid "Max Spell Burst"
+msgstr "Max Spell Burst"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:437
+msgid "Max Tangles"
+msgstr "Max Tangles"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:443
+msgid "Max Tangles/Enemy"
+msgstr "Max Tangles/Enemy"
+
+#. js-lingui-explicit-id
 #: src/components/talents/TalentNodeDisplay.tsx:83
 msgid "Medium Talent"
 msgstr "Medium Talent"
 
 #. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:511
+msgid "Mercury"
+msgstr "Mercury"
+
+#. js-lingui-explicit-id
 #: src/components/talents/TalentNodeDisplay.tsx:81
 msgid "Micro Talent"
 msgstr "Micro Talent"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:453
+msgid "Movement Speed"
+msgstr "Movement Speed"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:204
+#: src/components/builder/StatsPanel.tsx:372
+msgid "Multistrike Chance"
+msgstr "Multistrike Chance"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:208
+#: src/components/builder/StatsPanel.tsx:378
+msgid "Multistrike Dmg Inc"
+msgstr "Multistrike Dmg Inc"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:31
@@ -316,7 +637,11 @@ msgstr "Neck"
 msgid "Necklace"
 msgstr "Necklace"
 
-#: src/components/equipment/EditGearModal.tsx:785
+#: src/components/equipment/VoraxGearModule.tsx:767
+msgid "Corruption"
+msgstr "Corruption"
+
+#: src/components/equipment/EditGearModal.tsx:778
 msgid "Base Affixes (2 max)"
 msgstr "Base Affixes (2 max)"
 
@@ -340,15 +665,49 @@ msgstr "One-Handed Hammer"
 msgid "One-Handed Sword"
 msgstr "One-Handed Sword"
 
+#: src/components/builder/BuilderLayout.tsx:224
+msgid "Debug"
+msgstr "Debug"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:237
+msgid "Overload DPS"
+msgstr "Overload DPS"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:242
+msgid "Overload Interval"
+msgstr "Overload Interval"
+
 #. js-lingui-explicit-id
 #: src/data/translate/translate-tab.ts:8
 msgid "Pactspirit"
 msgstr "Pactspirit"
 
 #. js-lingui-explicit-id
+#: src/components/DebugPanel.tsx:488
+msgid "Parse error"
+msgstr "Parse error"
+
+#. js-lingui-explicit-id
+#: src/components/DebugPanel.tsx:421
+msgid "Parsed"
+msgstr "Parsed"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:64
+msgid "Persistent DPS"
+msgstr "Persistent DPS"
+
+#. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:38
 msgid "Pistol"
 msgstr "Pistol"
+
+#. js-lingui-explicit-id
+#: src/components/DebugPanel.tsx:420
+msgid "Raw"
+msgstr "Raw"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:39
@@ -366,12 +725,32 @@ msgid "Rod"
 msgstr "Rod"
 
 #. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:467
+msgid "STR"
+msgstr "STR"
+
+#. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:42
 msgid "Scepter"
 msgstr "Scepter"
 
 #. js-lingui-explicit-id
-#: src/components/equipment/EditGearModal.tsx:723
+#: src/components/builder/StatsPanel.tsx:502
+msgid "Sealed Life"
+msgstr "Sealed Life"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:493
+msgid "Sealed Mana"
+msgstr "Sealed Mana"
+
+#. js-lingui-explicit-id
+#: src/components/DebugPanel.tsx:476
+msgid "Search..."
+msgstr "Search..."
+
+#. js-lingui-explicit-id
+#: src/components/equipment/EditGearModal.tsx:719
 msgid "Select equipment type..."
 msgstr "Select equipment type..."
 
@@ -391,14 +770,59 @@ msgid "Shield (STR)"
 msgstr "Shield (STR)"
 
 #. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:279
+msgid "Skill"
+msgstr "Skill"
+
+#. js-lingui-explicit-id
 #: src/data/translate/translate-tab.ts:6
 msgid "Skills"
 msgstr "Skills"
 
 #. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:165
+msgid "Slash Strike DPS"
+msgstr "Slash Strike DPS"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:568
+msgid "Spell Block"
+msgstr "Spell Block"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:108
+msgid "Spell DPS"
+msgstr "Spell DPS"
+
+#. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:46
 msgid "Spirit Ring"
 msgstr "Spirit Ring"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:190
+msgid "Steep Avg (crit)"
+msgstr "Steep Avg (crit)"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:186
+msgid "Steep Avg Hit"
+msgstr "Steep Avg Hit"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:170
+msgid "Steep Strike Chance"
+msgstr "Steep Strike Chance"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:182
+msgid "Sweep Avg (crit)"
+msgstr "Sweep Avg (crit)"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:178
+msgid "Sweep Avg Hit"
+msgstr "Sweep Avg Hit"
 
 #. js-lingui-explicit-id
 #: src/data/translate/translate-tab.ts:5
@@ -409,6 +833,16 @@ msgstr "Talents"
 #: src/data/translate/equipment-types.ts:47
 msgid "Tin Staff"
 msgstr "Tin Staff"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:281
+msgid "Total DPS"
+msgstr "Total DPS"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:84
+msgid "Total Reap DPS"
+msgstr "Total Reap DPS"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:48
@@ -425,11 +859,22 @@ msgstr "Two-Handed Hammer"
 msgid "Two-Handed Sword"
 msgstr "Two-Handed Sword"
 
-#: src/routes/index.tsx:377
+#. js-lingui-explicit-id
+#: src/routes/index.tsx:228
+#~ msgid "Untitled"
+#~ msgstr "Untitled"
+
+#: src/routes/index.tsx:378
 msgid "My Builds"
 msgstr "My Builds"
 
-#: src/routes/builder/equipment.tsx:120
+#: src/components/equipment/EditGearModal.tsx:950
+#: src/components/equipment/LegendaryGearModule.tsx:394
+#: src/components/equipment/VoraxGearModule.tsx:935
+msgid "No affixes"
+msgstr "No affixes"
+
+#: src/routes/builder/equipment.tsx:124
 msgid "Equipment Slots"
 msgstr "Equipment Slots"
 
@@ -439,11 +884,11 @@ msgid "Wand"
 msgstr "Wand"
 
 #. placeholder {0}: formatDate(save.updatedAt)
-#: src/routes/index.tsx:123
+#: src/routes/index.tsx:124
 msgid "Updated: {0}"
 msgstr "Updated: {0}"
 
-#: src/components/equipment/EditGearModal.tsx:717
+#: src/components/equipment/EditGearModal.tsx:713
 msgid "Equipment Type"
 msgstr "Equipment Type"
 
@@ -452,40 +897,71 @@ msgid "Tree Slot"
 msgstr "Tree Slot"
 
 #: src/components/equipment/EditGearModal.tsx:961
-msgid "Select an equipment type to begin crafting"
-msgstr "Select an equipment type to begin crafting"
+#~ msgid "Select an equipment type to begin crafting"
+#~ msgstr "Select an equipment type to begin crafting"
+
+#: src/components/DebugPanel.tsx:508
+msgid "Apply Changes"
+msgstr "Apply Changes"
 
 #: src/components/calculations/SkillSelector.tsx:45
 msgid "Active Skill"
 msgstr "Active Skill"
 
-#: src/routes/builder/equipment.tsx:179
+#: src/routes/index.tsx:326
+msgid "Torchlight Of Building"
+msgstr "Torchlight Of Building"
+
+#: src/routes/builder/equipment.tsx:183
 msgid "Inventory"
 msgstr "Inventory"
 
-#: src/routes/index.tsx:145
-#: src/routes/index.tsx:179
+#: src/components/builder/StatsPanel.tsx:274
+msgid "Stats Summary"
+msgstr "Stats Summary"
+
+#. js-lingui-explicit-id
+#: src/components/DebugPanel.tsx:468
+msgid "bytes"
+msgstr "bytes"
+
+#. js-lingui-explicit-id
+#: src/components/DebugPanel.tsx:467
+msgid "chars"
+msgstr "chars"
+
+#: src/components/equipment/VoraxGearModule.tsx:735
+#: src/routes/builder/equipment.tsx:232
+#: src/routes/index.tsx:146
+#: src/routes/index.tsx:180
 msgid "Delete"
 msgstr "Delete"
 
-#: src/components/equipment/EditGearModal.tsx:893
-#: src/components/equipment/VoraxGearModule.tsx:720
+#: src/components/equipment/EditGearModal.tsx:878
+#: src/components/equipment/VoraxGearModule.tsx:871
 msgid "Prefixes (3 max)"
 msgstr "Prefixes (3 max)"
 
-#: src/components/equipment/EditGearModal.tsx:968
-#: src/components/equipment/LegendaryGearModule.tsx:393
-#: src/components/equipment/VoraxGearModule.tsx:762
-#: src/routes/index.tsx:108
-#: src/routes/index.tsx:151
+#: src/components/builder/BuilderLayout.tsx:191
+#: src/components/DebugPanel.tsx:500
+#: src/components/equipment/EditGearModal.tsx:958
+#: src/components/equipment/LegendaryGearModule.tsx:402
+#: src/components/equipment/VoraxGearModule.tsx:943
+#: src/routes/index.tsx:109
+#: src/routes/index.tsx:152
 msgid "Cancel"
 msgstr "Cancel"
 
-#: src/components/equipment/VoraxGearModule.tsx:700
+#: src/components/equipment/VoraxGearModule.tsx:847
 msgid "Base Affix"
 msgstr "Base Affix"
 
-#: src/components/equipment/EditGearModal.tsx:849
+#: src/components/DebugPanel.tsx:536
+#: src/routes/builder/equipment.tsx:208
+msgid "Edit"
+msgstr "Edit"
+
+#: src/components/equipment/EditGearModal.tsx:842
 msgid "Blending (1 max)"
 msgstr "Blending (1 max)"
 
@@ -493,26 +969,61 @@ msgstr "Blending (1 max)"
 msgid "Prisms"
 msgstr "Prisms"
 
-#: src/routes/index.tsx:173
+#: src/components/builder/StatsPanel.tsx:462
+msgid "Select an active skill in the Calculations tab to view damage stats."
+msgstr "Select an active skill in the Calculations tab to view damage stats."
+
+#: src/routes/builder/equipment.tsx:220
+#: src/routes/index.tsx:174
 msgid "Copy"
 msgstr "Copy"
 
-#: src/routes/builder/equipment.tsx:180
+#: src/routes/builder/equipment.tsx:184
 msgid "items"
 msgstr "items"
 
-#: src/components/equipment/EditGearModal.tsx:915
-#: src/components/equipment/VoraxGearModule.tsx:738
+#: src/components/equipment/EditGearModal.tsx:900
+#: src/components/equipment/VoraxGearModule.tsx:889
 msgid "Suffixes (3 max)"
 msgstr "Suffixes (3 max)"
 
-#: src/components/equipment/EditGearModal.tsx:809
+#: src/components/modals/ExportModal.tsx:92
+msgid "Copy Code"
+msgstr "Copy Code"
+
+#: src/components/equipment/EditGearModal.tsx:802
 msgid "Sweet Dream Affix (1 max)"
 msgstr "Sweet Dream Affix (1 max)"
 
+#: src/components/DebugPanel.tsx:545
+msgid "Copy JSON"
+msgstr "Copy JSON"
+
+#: src/routes/builder/equipment.tsx:175
+msgid "Import"
+msgstr "Import"
+
+#. js-lingui-explicit-id
+#: src/components/DebugPanel.tsx:481
+msgid "match"
+msgstr "match"
+
+#. js-lingui-explicit-id
+#: src/components/DebugPanel.tsx:481
+msgid "matches"
+msgstr "matches"
+
 #: src/components/equipment/VoraxGearModule.tsx:755
-msgid "Select a vorax limb to configure"
-msgstr "Select a vorax limb to configure"
+#~ msgid "Select a vorax limb to configure"
+#~ msgstr "Select a vorax limb to configure"
+
+#: src/routes/builder/equipment.tsx:168
+msgid "Vorax"
+msgstr "Vorax"
+
+#: src/components/modals/ExportModal.tsx:62
+msgid "Share your build with others using the URL below:"
+msgstr "Share your build with others using the URL below:"
 
 #: src/components/talents/CoreTalentSelector.tsx:90
 #: src/components/talents/CoreTalentSelector.tsx:102
@@ -520,23 +1031,48 @@ msgid "Core Talents"
 msgstr "Core Talents"
 
 #. placeholder {0}: save.name
-#: src/routes/index.tsx:135
+#: src/routes/index.tsx:136
 msgid "Are you sure you want to delete \"{0}\"?"
 msgstr "Are you sure you want to delete \"{0}\"?"
 
-#: src/components/equipment/LegendaryGearModule.tsx:307
+#: src/components/equipment/VoraxGearModule.tsx:779
+#: src/routes/builder/equipment.tsx:161
+msgid "Legendary"
+msgstr "Legendary"
+
+#: src/components/equipment/LegendaryGearModule.tsx:323
 msgid "Select Legendary"
 msgstr "Select Legendary"
 
-#: src/components/equipment/EditGearModal.tsx:978
-#: src/routes/index.tsx:102
+#: src/components/builder/BuilderLayout.tsx:184
+#: src/components/equipment/EditGearModal.tsx:968
+#: src/routes/index.tsx:103
 msgid "Save"
 msgstr "Save"
 
-#: src/components/equipment/EditGearModal.tsx:772
+#: src/components/builder/BuilderLayout.tsx:212
+#: src/routes/index.tsx:344
+msgid "About"
+msgstr "About"
+
+#: src/components/equipment/EditGearModal.tsx:765
 msgid "Clear"
 msgstr "Clear"
 
-#: src/routes/index.tsx:355
+#: src/components/equipment/VoraxGearModule.tsx:779
+msgid "Regular"
+msgstr "Regular"
+
+#: src/components/builder/BuilderLayout.tsx:166
+msgid "Torchlight of Building"
+msgstr "Torchlight of Building"
+
+#: src/components/DebugPanel.tsx:562
+#: src/components/modals/AboutModal.tsx:49
+#: src/components/modals/ExportModal.tsx:108
+msgid "Close"
+msgstr "Close"
+
+#: src/routes/index.tsx:356
 msgid "Import Failed"
 msgstr "Import Failed"

@@ -127,7 +127,7 @@ export const EquipmentSlotDropdown: React.FC<EquipmentSlotDropdownProps> = ({
           ),
           sublabel: `${getGearAffixes(item).length} affixes`,
         }))}
-        placeholder="-- None --"
+        placeholder={i18n._("-- None --")}
         className="min-w-0 flex-1 max-w-xs"
         renderOption={renderOption}
         renderSelectedTooltip={renderSelectedTooltip}

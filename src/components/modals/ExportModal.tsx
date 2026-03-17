@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import { Trans } from "@lingui/react/macro";
+import { i18n } from "@/src/lib/i18n";
 import {
   Modal,
   ModalActions,
@@ -55,9 +57,9 @@ export const ExportModal = ({
   }, [isOpen]);
 
   return (
-    <Modal isOpen={isOpen} onClose={onClose} title="Export Loadout">
+    <Modal isOpen={isOpen} onClose={onClose} title={i18n._("Export Loadout")}>
       <ModalDescription>
-        Share your build with others using the URL below:
+        <Trans>Share your build with others using the URL below:</Trans>
       </ModalDescription>
 
       <div className="bg-zinc-950 p-3 rounded-lg mb-4 max-h-32 overflow-auto border border-zinc-800">
@@ -72,7 +74,7 @@ export const ExportModal = ({
         onToggle={(e) => setCodeExpanded(e.currentTarget.open)}
       >
         <summary className="cursor-pointer text-sm text-zinc-400 hover:text-zinc-300 transition-colors">
-          Show raw build code
+          <Trans>Show raw build code</Trans>
         </summary>
         <div className="mt-2 bg-zinc-950 p-3 rounded-lg max-h-32 overflow-auto border border-zinc-800">
           <code className="text-sm text-zinc-500 break-all font-mono">
@@ -87,7 +89,7 @@ export const ExportModal = ({
               : "bg-zinc-700 hover:bg-zinc-600 text-zinc-50"
           }`}
         >
-          {copiedType === "code" ? "Copied!" : "Copy Code"}
+          {copiedType === "code" ? i18n._("Copied!") : <Trans>Copy Code</Trans>}
         </button>
       </details>
 
@@ -100,10 +102,10 @@ export const ExportModal = ({
               : "bg-amber-500 hover:bg-amber-600 text-zinc-950"
           }`}
         >
-          {copiedType === "url" ? "Copied!" : "Copy URL"}
+          {copiedType === "url" ? i18n._("Copied!") : <Trans>Copy URL</Trans>}
         </button>
         <ModalButton onClick={onClose} variant="secondary">
-          Close
+          <Trans>Close</Trans>
         </ModalButton>
       </ModalActions>
     </Modal>

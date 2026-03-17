@@ -151,28 +151,28 @@ function EquipmentPage(): React.ReactNode {
               onClick={() => openEditModal()}
               className="flex-1 rounded-lg bg-amber-500 px-3 py-1.5 text-sm font-medium text-zinc-950 transition-colors hover:bg-amber-600"
             >
-              Normal
+              <Trans>Normal</Trans>
             </button>
             <button
               type="button"
               onClick={() => setIsLegendaryModalOpen(true)}
               className="flex-1 rounded-lg bg-amber-500 px-3 py-1.5 text-sm font-medium text-zinc-950 transition-colors hover:bg-amber-600"
             >
-              Legendary
+              <Trans>Legendary</Trans>
             </button>
             <button
               type="button"
               onClick={() => setIsVoraxModalOpen(true)}
               className="flex-1 rounded-lg bg-amber-500 px-3 py-1.5 text-sm font-medium text-zinc-950 transition-colors hover:bg-amber-600"
             >
-              Vorax
+              <Trans>Vorax</Trans>
             </button>
             <button
               type="button"
               onClick={() => setIsImportModalOpen(true)}
               className="rounded-lg border border-zinc-600 bg-zinc-800 px-3 py-1.5 text-sm font-medium text-zinc-200 transition-colors hover:bg-zinc-700"
             >
-              Import
+              <Trans>Import</Trans>
             </button>
           </div>
         </div>
@@ -205,7 +205,7 @@ function EquipmentPage(): React.ReactNode {
                 }}
                 className="rounded bg-zinc-600 px-2 py-1 text-xs text-zinc-50 transition-colors hover:bg-zinc-500 disabled:cursor-not-allowed disabled:opacity-40"
               >
-                Edit
+                <Trans>Edit</Trans>
               </button>
               <button
                 type="button"
@@ -217,7 +217,7 @@ function EquipmentPage(): React.ReactNode {
                 }}
                 className="rounded bg-amber-500 px-2 py-1 text-xs text-zinc-950 transition-colors hover:bg-amber-600 disabled:cursor-not-allowed disabled:opacity-40"
               >
-                Copy
+                <Trans>Copy</Trans>
               </button>
               <button
                 type="button"
@@ -229,7 +229,7 @@ function EquipmentPage(): React.ReactNode {
                 }}
                 className="rounded bg-red-500 px-2 py-1 text-xs text-white transition-colors hover:bg-red-600 disabled:cursor-not-allowed disabled:opacity-40"
               >
-                Delete
+                <Trans>Delete</Trans>
               </button>
             </div>
           </div>

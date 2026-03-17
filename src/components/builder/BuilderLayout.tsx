@@ -1,4 +1,6 @@
 import { useNavigate } from "@tanstack/react-router";
+import { Trans } from "@lingui/react/macro";
+import { i18n } from "@/src/lib/i18n";
 import {
   type ReactNode,
   useCallback,
@@ -161,7 +163,7 @@ export const BuilderLayout = ({ children }: BuilderLayoutProps) => {
               </svg>
             </button>
             <h1 className="text-3xl font-bold text-zinc-50">
-              Torchlight of Building
+              <Trans>Torchlight of Building</Trans>
             </h1>
             {currentSaveName !== undefined &&
               (isRenamingBuild ? (
@@ -179,14 +181,14 @@ export const BuilderLayout = ({ children }: BuilderLayoutProps) => {
                     onClick={handleRenameSubmit}
                     className="rounded px-2 py-1 text-sm font-medium text-amber-500 transition-colors hover:bg-zinc-800"
                   >
-                    Save
+                    <Trans>Save</Trans>
                   </button>
                   <button
                     type="button"
                     onClick={handleRenameCancel}
                     className="rounded px-2 py-1 text-sm text-zinc-400 transition-colors hover:bg-zinc-800"
                   >
-                    Cancel
+                    <Trans>Cancel</Trans>
                   </button>
                 </div>
               ) : (
@@ -207,7 +209,7 @@ export const BuilderLayout = ({ children }: BuilderLayoutProps) => {
               onClick={() => setAboutModalOpen(true)}
               className="rounded-lg border border-zinc-700 bg-zinc-800 px-3 py-1 text-sm font-medium text-zinc-400 transition-colors hover:bg-zinc-700 hover:text-zinc-200"
             >
-              About
+              <Trans>About</Trans>
             </button>
             <button
               type="button"
@@ -219,7 +221,7 @@ export const BuilderLayout = ({ children }: BuilderLayoutProps) => {
               }`}
               title="Toggle Debug Mode"
             >
-              {debugMode ? "Debug ON" : "Debug"}
+              {debugMode ? i18n._("Debug ON") : <Trans>Debug</Trans>}
             </button>
             <button
               type="button"
@@ -227,7 +229,7 @@ export const BuilderLayout = ({ children }: BuilderLayoutProps) => {
               className="rounded-lg bg-green-500 px-3 py-1 text-sm font-medium text-white transition-colors hover:bg-green-600"
               title="Export Build"
             >
-              Export
+              <Trans>Export</Trans>
             </button>
           </div>
         </div>

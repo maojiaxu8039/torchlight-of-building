@@ -14,14 +14,20 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. js-lingui-explicit-id
-#: src/components/equipment/EditGearModal.tsx:942
+#: src/components/equipment/EditGearModal.tsx:927
+#: src/components/equipment/VoraxGearModule.tsx:912
 msgid ""
 "+10% Fire Damage\n"
 "+20 to Maximum Life\n"
 "+5% Attack Speed"
 msgstr ""
 
-#: src/components/equipment/EditGearModal.tsx:735
+#. js-lingui-explicit-id
+#: src/components/equipment/EquipmentSlotDropdown.tsx:130
+msgid "-- None --"
+msgstr "-- 无 --"
+
+#: src/components/equipment/EditGearModal.tsx:731
 msgid "Base Stats (1 max)"
 msgstr "基底词缀 (1 max)"
 
@@ -29,43 +35,62 @@ msgstr "基底词缀 (1 max)"
 msgid "Tree"
 msgstr ""
 
-#: src/routes/index.tsx:417
+#: src/routes/index.tsx:418
 msgid "Create your first character build to get started"
 msgstr "创建您的第一个角色流派以开始使用"
 
-#: src/components/equipment/EditGearModal.tsx:949
+#: src/components/DebugPanel.tsx:554
+msgid "Expand"
+msgstr "展开"
+
+#: src/components/equipment/EditGearModal.tsx:934
+#: src/components/equipment/VoraxGearModule.tsx:919
 msgid "Enter raw affix text, one per line. Use this for affixes not available in the dropdowns above."
 msgstr ""
 
-#: src/components/equipment/EditGearModal.tsx:937
+#: src/components/equipment/EditGearModal.tsx:922
+#: src/components/equipment/VoraxGearModule.tsx:907
 msgid "Custom Affixes"
 msgstr ""
 
-#: src/routes/index.tsx:167
+#: src/routes/index.tsx:168
 msgid "Rename"
 msgstr "重命名"
 
-#: src/components/equipment/VoraxGearModule.tsx:685
+#: src/components/DebugPanel.tsx:554
+msgid "Minimize"
+msgstr "最小化"
+
+#: src/components/modals/ExportModal.tsx:77
+msgid "Show raw build code"
+msgstr "显示原始构建代码"
+
+#: src/components/equipment/VoraxGearModule.tsx:832
 msgid "Vorax Limb"
 msgstr ""
 
-#: src/routes/index.tsx:390
+#: src/routes/index.tsx:391
 msgid "Create New"
 msgstr "新建"
 
-#: src/routes/builder/equipment.tsx:142
+#: src/routes/builder/equipment.tsx:146
 msgid "Craft New Item"
 msgstr "制作新物品"
 
-#: src/routes/builder/equipment.tsx:226
+#: src/routes/builder/equipment.tsx:238
 msgid "No items in inventory. Craft items above to add them here."
 msgstr "库存中没有物品。在上方制作物品以添加到此处。"
 
-#: src/components/equipment/EditGearModal.tsx:976
-#: src/components/equipment/LegendaryGearModule.tsx:400
-#: src/components/equipment/VoraxGearModule.tsx:769
+#: src/components/equipment/EditGearModal.tsx:966
+#: src/components/equipment/LegendaryGearModule.tsx:409
+#: src/components/equipment/VoraxGearModule.tsx:953
 msgid "Save to Inventory"
 msgstr "保存到库存"
+
+#. js-lingui-explicit-id
+#: src/components/modals/AboutModal.tsx:15
+msgid "About"
+msgstr "关于"
 
 #. js-lingui-explicit-id
 #: src/routes/builder/skills.tsx:81
@@ -73,15 +98,88 @@ msgid "Active Skills"
 msgstr "主动技能"
 
 #. js-lingui-explicit-id
-#: src/components/equipment/LegendaryGearModule.tsx:299
+#: src/components/equipment/LegendaryGearModule.tsx:313
 msgid "Add Legendary"
 msgstr ""
+
+#. js-lingui-explicit-id
+#. placeholder {0}: loadoutAffixLines.length
+#: src/components/DebugPanel.tsx:423
+msgid "Affixes"
+msgstr "词缀"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:526
+msgid "Armor"
+msgstr "护甲"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:563
+msgid "Attack Block"
+msgstr "攻击格挡"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:198
+#: src/components/builder/StatsPanel.tsx:335
+msgid "Attack Speed"
+msgstr "攻击速度"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:334
+msgid "Attack Speed (MH)"
+msgstr "攻击速度 (主手)"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:362
+msgid "Attack Speed (OH)"
+msgstr "攻击速度 (副手)"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:289
+msgid "Average DPS"
+msgstr "平均 DPS"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:305
+msgid "Avg Hit"
+msgstr "平均伤害"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:304
+msgid "Avg Hit (MH)"
+msgstr "平均伤害 (主手)"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:344
+msgid "Avg Hit (OH)"
+msgstr "平均伤害 (副手)"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:113
+#: src/components/builder/StatsPanel.tsx:315
+msgid "Avg Hit (crit)"
+msgstr "平均伤害 (暴击)"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:314
+msgid "Avg Hit crit (MH)"
+msgstr "平均暴击伤害 (主手)"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:350
+msgid "Avg Hit crit (OH)"
+msgstr "平均暴击伤害 (副手)"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:4
 #: src/data/translate/equipment-types.ts:5
 msgid "Belt"
 msgstr "腰带"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:573
+msgid "Block Ratio"
+msgstr "格挡率"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:6
@@ -109,6 +207,21 @@ msgid "Bow"
 msgstr "弓"
 
 #. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:225
+msgid "Burst DPS"
+msgstr "爆发 DPS"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:229
+msgid "Bursts/sec"
+msgstr "次/秒"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:93
+msgid "CDR Bonus"
+msgstr "冷却减免加成"
+
+#. js-lingui-explicit-id
 #: src/data/translate/translate-tab.ts:11
 msgid "Calculations"
 msgstr "计算"
@@ -117,6 +230,11 @@ msgstr "计算"
 #: src/data/translate/equipment-types.ts:11
 msgid "Cane"
 msgstr "手杖"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:125
+msgid "Casts/sec"
+msgstr "施法/秒"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:12
@@ -144,9 +262,30 @@ msgid "Claw"
 msgstr "爪"
 
 #. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:540
+msgid "Cold Res"
+msgstr "冰抗"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:140
+msgid "Combo DPS"
+msgstr "连击 DPS"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:144
+msgid "Combo Points"
+msgstr "连击点数"
+
+#. js-lingui-explicit-id
 #: src/data/translate/translate-tab.ts:10
 msgid "Configuration"
 msgstr "配置"
+
+#. js-lingui-explicit-id
+#: src/components/modals/ExportModal.tsx:92
+#: src/components/modals/ExportModal.tsx:105
+msgid "Copied!"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/components/talents/CoreTalentSelector.tsx:60
@@ -159,19 +298,49 @@ msgid "Core Talent 2"
 msgstr ""
 
 #. js-lingui-explicit-id
-#: src/components/equipment/EditGearModal.tsx:698
+#: src/components/equipment/EditGearModal.tsx:692
 msgid "Craft New Item"
 msgstr ""
 
 #. js-lingui-explicit-id
 #: src/components/equipment/VoraxGearModule.tsx:677
-msgid "Craft Vorax Gear"
-msgstr ""
+#~ msgid "Craft Vorax Gear"
+#~ msgstr ""
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:117
+#: src/components/builder/StatsPanel.tsx:194
+#: src/components/builder/StatsPanel.tsx:325
+msgid "Crit Chance"
+msgstr "暴击率"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:324
+msgid "Crit Chance (MH)"
+msgstr "暴击率 (主手)"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:356
+msgid "Crit Chance (OH)"
+msgstr "暴击率 (副手)"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:121
+#: src/components/builder/StatsPanel.tsx:150
+#: src/components/builder/StatsPanel.tsx:174
+#: src/components/builder/StatsPanel.tsx:296
+msgid "Crit Multiplier"
+msgstr "暴击伤害加成"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:17
 msgid "Crossbow"
 msgstr "弩"
+
+#: src/components/equipment/VoraxGearModule.tsx:767
+#: src/routes/builder/equipment.tsx:154
+msgid "Normal"
+msgstr "普通"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:18
@@ -179,11 +348,48 @@ msgid "Cudgel"
 msgstr "武杖"
 
 #. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:471
+msgid "DEX"
+msgstr "敏捷"
+
+#. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:19
 msgid "Dagger"
 msgstr "匕首"
 
-#: src/routes/index.tsx:426
+#. js-lingui-explicit-id
+#: src/components/builder/BuilderLayout.tsx:224
+msgid "Debug ON"
+msgstr "调试开启"
+
+#. js-lingui-explicit-id
+#. placeholder {0}: loadoutAffixLines.length
+#: src/components/DebugPanel.tsx:415
+msgid "Debug: Affixes"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: src/components/DebugPanel.tsx:413
+msgid "Debug: Loadout (Parsed)"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: src/components/DebugPanel.tsx:411
+msgid "Debug: SaveData (Edit Mode)"
+msgstr "调试：保存数据（编辑模式）"
+
+#. js-lingui-explicit-id
+#: src/components/DebugPanel.tsx:412
+msgid "Debug: SaveData (Raw)"
+msgstr "调试：保存数据（原始）"
+
+#. js-lingui-explicit-id
+#. placeholder {0}: totalIssues
+#: src/components/DebugPanel.tsx:414
+msgid "Debug: Unimplemented"
+msgstr "调试：未实现"
+
+#: src/routes/index.tsx:427
 msgid "Create New Build"
 msgstr "创建新流派"
 
@@ -192,14 +398,33 @@ msgstr "创建新流派"
 msgid "Divinity Slate"
 msgstr "神格石板"
 
-#: src/routes/index.tsx:384
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:69
+msgid "Duration"
+msgstr "持续时间"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:89
+msgid "Duration Bonus"
+msgstr "持续时间加成"
+
+#: src/components/modals/ExportModal.tsx:105
+msgid "Copy URL"
+msgstr "复制链接"
+
+#: src/routes/index.tsx:385
 msgid "Import Build"
 msgstr "导入流派"
 
 #. js-lingui-explicit-id
-#: src/components/equipment/EditGearModal.tsx:699
+#: src/components/equipment/EditGearModal.tsx:693
 msgid "Edit {equipmentType}"
 msgstr ""
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:520
+msgid "Energy Shield"
+msgstr "能量护盾"
 
 #. js-lingui-explicit-id
 #: src/data/translate/translate-tab.ts:4
@@ -207,11 +432,40 @@ msgid "Equipment"
 msgstr "装备"
 
 #. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:555
+msgid "Erosion Res"
+msgstr "腐蚀抗性"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:532
+msgid "Evasion"
+msgstr "闪避"
+
+#. js-lingui-explicit-id
+#: src/components/modals/ExportModal.tsx:60
+msgid "Export Loadout"
+msgstr "导出配装"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:146
+msgid "Finisher Amplification"
+msgstr "终结技加成"
+
+#. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:20
 msgid "Fire Cannon"
 msgstr "火炮"
 
-#: src/components/equipment/EditGearModal.tsx:829
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:550
+msgid "Fire Res"
+msgstr "火抗"
+
+#: src/components/builder/BuilderLayout.tsx:232
+msgid "Export"
+msgstr "导出"
+
+#: src/components/equipment/EditGearModal.tsx:822
 msgid "Tower Sequence (1 max)"
 msgstr "高塔词缀 (1 max)"
 
@@ -260,13 +514,28 @@ msgstr "头盔 (力量)"
 msgid "Hero"
 msgstr "英雄"
 
-#: src/routes/index.tsx:414
+#: src/routes/index.tsx:415
 msgid "No builds yet"
 msgstr "暂无流派"
 
-#: src/routes/index.tsx:358
+#: src/routes/index.tsx:359
 msgid "The build code in the URL was invalid or could not be imported."
 msgstr ""
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:475
+msgid "INT"
+msgstr "智力"
+
+#: src/components/equipment/VoraxGearModule.tsx:951
+msgid "Save Changes"
+msgstr ""
+
+#. js-lingui-explicit-id
+#. placeholder {0}: totalIssues
+#: src/components/DebugPanel.tsx:422
+msgid "Issues"
+msgstr "问题"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:29
@@ -278,8 +547,13 @@ msgstr "左戒指"
 msgid "Legendary Talent"
 msgstr "传奇天赋"
 
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:545
+msgid "Lightning Res"
+msgstr "闪电抗性"
+
 #. placeholder {0}: formatDate(save.createdAt)
-#: src/routes/index.tsx:119
+#: src/routes/index.tsx:120
 msgid "Created: {0}"
 msgstr "创建时间：{0}"
 
@@ -289,14 +563,61 @@ msgid "Main Hand"
 msgstr "主手"
 
 #. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:482
+msgid "Max Life"
+msgstr "最大生命"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:487
+msgid "Max Mana"
+msgstr "最大法力"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:231
+msgid "Max Spell Burst"
+msgstr "最大法术爆发"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:437
+msgid "Max Tangles"
+msgstr "最大缠绕"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:443
+msgid "Max Tangles/Enemy"
+msgstr "每敌人最大缠绕"
+
+#. js-lingui-explicit-id
 #: src/components/talents/TalentNodeDisplay.tsx:83
 msgid "Medium Talent"
 msgstr "中型天赋"
 
 #. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:511
+msgid "Mercury"
+msgstr "水银"
+
+#. js-lingui-explicit-id
 #: src/components/talents/TalentNodeDisplay.tsx:81
 msgid "Micro Talent"
 msgstr "微型天赋"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:453
+msgid "Movement Speed"
+msgstr "移动速度"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:204
+#: src/components/builder/StatsPanel.tsx:372
+msgid "Multistrike Chance"
+msgstr "连击几率"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:208
+#: src/components/builder/StatsPanel.tsx:378
+msgid "Multistrike Dmg Inc"
+msgstr "连击伤害加成"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:31
@@ -313,7 +634,11 @@ msgstr "项链"
 msgid "Necklace"
 msgstr "项链"
 
-#: src/components/equipment/EditGearModal.tsx:785
+#: src/components/equipment/VoraxGearModule.tsx:767
+msgid "Corruption"
+msgstr "腐蚀"
+
+#: src/components/equipment/EditGearModal.tsx:778
 msgid "Base Affixes (2 max)"
 msgstr "基础词缀 (2 max)"
 
@@ -337,15 +662,49 @@ msgstr "单手锤"
 msgid "One-Handed Sword"
 msgstr "单手剑"
 
+#: src/components/builder/BuilderLayout.tsx:224
+msgid "Debug"
+msgstr "调试"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:237
+msgid "Overload DPS"
+msgstr "超载 DPS"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:242
+msgid "Overload Interval"
+msgstr "超载间隔"
+
 #. js-lingui-explicit-id
 #: src/data/translate/translate-tab.ts:8
 msgid "Pactspirit"
 msgstr "契灵"
 
 #. js-lingui-explicit-id
+#: src/components/DebugPanel.tsx:488
+msgid "Parse error"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: src/components/DebugPanel.tsx:421
+msgid "Parsed"
+msgstr "已解析"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:64
+msgid "Persistent DPS"
+msgstr "持续 DPS"
+
+#. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:38
 msgid "Pistol"
 msgstr "手枪"
+
+#. js-lingui-explicit-id
+#: src/components/DebugPanel.tsx:420
+msgid "Raw"
+msgstr "原始"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:39
@@ -363,12 +722,32 @@ msgid "Rod"
 msgstr "灵杖"
 
 #. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:467
+msgid "STR"
+msgstr "力量"
+
+#. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:42
 msgid "Scepter"
 msgstr "魔杖"
 
 #. js-lingui-explicit-id
-#: src/components/equipment/EditGearModal.tsx:723
+#: src/components/builder/StatsPanel.tsx:502
+msgid "Sealed Life"
+msgstr "封印生命"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:493
+msgid "Sealed Mana"
+msgstr "封印法力"
+
+#. js-lingui-explicit-id
+#: src/components/DebugPanel.tsx:476
+msgid "Search..."
+msgstr "搜索..."
+
+#. js-lingui-explicit-id
+#: src/components/equipment/EditGearModal.tsx:719
 msgid "Select equipment type..."
 msgstr "选择装备类型..."
 
@@ -388,14 +767,59 @@ msgid "Shield (STR)"
 msgstr "盾牌 (力量)"
 
 #. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:279
+msgid "Skill"
+msgstr "技能"
+
+#. js-lingui-explicit-id
 #: src/data/translate/translate-tab.ts:6
 msgid "Skills"
 msgstr "技能"
 
 #. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:165
+msgid "Slash Strike DPS"
+msgstr "斩击 DPS"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:568
+msgid "Spell Block"
+msgstr "法术格挡"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:108
+msgid "Spell DPS"
+msgstr "法术 DPS"
+
+#. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:46
 msgid "Spirit Ring"
 msgstr "灵戒"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:190
+msgid "Steep Avg (crit)"
+msgstr "猛击平均 (暴击)"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:186
+msgid "Steep Avg Hit"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:170
+msgid "Steep Strike Chance"
+msgstr "猛击几率"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:182
+msgid "Sweep Avg (crit)"
+msgstr "扫击平均 (暴击)"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:178
+msgid "Sweep Avg Hit"
+msgstr "扫击平均伤害"
 
 #. js-lingui-explicit-id
 #: src/data/translate/translate-tab.ts:5
@@ -406,6 +830,16 @@ msgstr "天赋"
 #: src/data/translate/equipment-types.ts:47
 msgid "Tin Staff"
 msgstr "锡杖"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:281
+msgid "Total DPS"
+msgstr "总 DPS"
+
+#. js-lingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:84
+msgid "Total Reap DPS"
+msgstr "总夺魂 DPS"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:48
@@ -422,11 +856,22 @@ msgstr "双手锤"
 msgid "Two-Handed Sword"
 msgstr "双手剑"
 
-#: src/routes/index.tsx:377
+#. js-lingui-explicit-id
+#: src/routes/index.tsx:228
+#~ msgid "Untitled"
+#~ msgstr "未命名"
+
+#: src/routes/index.tsx:378
 msgid "My Builds"
 msgstr "我的配装"
 
-#: src/routes/builder/equipment.tsx:120
+#: src/components/equipment/EditGearModal.tsx:950
+#: src/components/equipment/LegendaryGearModule.tsx:394
+#: src/components/equipment/VoraxGearModule.tsx:935
+msgid "No affixes"
+msgstr ""
+
+#: src/routes/builder/equipment.tsx:124
 msgid "Equipment Slots"
 msgstr "装备槽位"
 
@@ -436,11 +881,11 @@ msgid "Wand"
 msgstr "法杖"
 
 #. placeholder {0}: formatDate(save.updatedAt)
-#: src/routes/index.tsx:123
+#: src/routes/index.tsx:124
 msgid "Updated: {0}"
 msgstr "更新时间: {0}"
 
-#: src/components/equipment/EditGearModal.tsx:717
+#: src/components/equipment/EditGearModal.tsx:713
 msgid "Equipment Type"
 msgstr "装备类型"
 
@@ -449,40 +894,71 @@ msgid "Tree Slot"
 msgstr ""
 
 #: src/components/equipment/EditGearModal.tsx:961
-msgid "Select an equipment type to begin crafting"
-msgstr "选择一个装备类型以开始制作"
+#~ msgid "Select an equipment type to begin crafting"
+#~ msgstr "选择一个装备类型以开始制作"
+
+#: src/components/DebugPanel.tsx:508
+msgid "Apply Changes"
+msgstr ""
 
 #: src/components/calculations/SkillSelector.tsx:45
 msgid "Active Skill"
 msgstr ""
 
-#: src/routes/builder/equipment.tsx:179
+#: src/routes/index.tsx:326
+msgid "Torchlight Of Building"
+msgstr "火炬之光BD构建"
+
+#: src/routes/builder/equipment.tsx:183
 msgid "Inventory"
 msgstr "库存"
 
-#: src/routes/index.tsx:145
-#: src/routes/index.tsx:179
+#: src/components/builder/StatsPanel.tsx:274
+msgid "Stats Summary"
+msgstr "属性概览"
+
+#. js-lingui-explicit-id
+#: src/components/DebugPanel.tsx:468
+msgid "bytes"
+msgstr "字节"
+
+#. js-lingui-explicit-id
+#: src/components/DebugPanel.tsx:467
+msgid "chars"
+msgstr "字符"
+
+#: src/components/equipment/VoraxGearModule.tsx:735
+#: src/routes/builder/equipment.tsx:232
+#: src/routes/index.tsx:146
+#: src/routes/index.tsx:180
 msgid "Delete"
 msgstr "删除"
 
-#: src/components/equipment/EditGearModal.tsx:893
-#: src/components/equipment/VoraxGearModule.tsx:720
+#: src/components/equipment/EditGearModal.tsx:878
+#: src/components/equipment/VoraxGearModule.tsx:871
 msgid "Prefixes (3 max)"
 msgstr "前缀 (3 max)"
 
-#: src/components/equipment/EditGearModal.tsx:968
-#: src/components/equipment/LegendaryGearModule.tsx:393
-#: src/components/equipment/VoraxGearModule.tsx:762
-#: src/routes/index.tsx:108
-#: src/routes/index.tsx:151
+#: src/components/builder/BuilderLayout.tsx:191
+#: src/components/DebugPanel.tsx:500
+#: src/components/equipment/EditGearModal.tsx:958
+#: src/components/equipment/LegendaryGearModule.tsx:402
+#: src/components/equipment/VoraxGearModule.tsx:943
+#: src/routes/index.tsx:109
+#: src/routes/index.tsx:152
 msgid "Cancel"
 msgstr "取消"
 
-#: src/components/equipment/VoraxGearModule.tsx:700
+#: src/components/equipment/VoraxGearModule.tsx:847
 msgid "Base Affix"
 msgstr ""
 
-#: src/components/equipment/EditGearModal.tsx:849
+#: src/components/DebugPanel.tsx:536
+#: src/routes/builder/equipment.tsx:208
+msgid "Edit"
+msgstr "编辑"
+
+#: src/components/equipment/EditGearModal.tsx:842
 msgid "Blending (1 max)"
 msgstr "调香词缀 (1 max)"
 
@@ -490,26 +966,66 @@ msgstr "调香词缀 (1 max)"
 msgid "Prisms"
 msgstr "棱镜"
 
-#: src/routes/index.tsx:173
+#. js-lingingui-explicit-id
+#: src/components/builder/StatsPanel.tsx:186
+#~ msgid "Steep Avg Hit"
+#~ msgstr "猛击平均伤害"
+
+#: src/components/builder/StatsPanel.tsx:462
+msgid "Select an active skill in the Calculations tab to view damage stats."
+msgstr "在计算标签页中选择一个主动技能来查看伤害属性。"
+
+#: src/routes/builder/equipment.tsx:220
+#: src/routes/index.tsx:174
 msgid "Copy"
 msgstr "复制"
 
-#: src/routes/builder/equipment.tsx:180
+#: src/routes/builder/equipment.tsx:184
 msgid "items"
 msgstr "物品"
 
-#: src/components/equipment/EditGearModal.tsx:915
-#: src/components/equipment/VoraxGearModule.tsx:738
+#: src/components/equipment/EditGearModal.tsx:900
+#: src/components/equipment/VoraxGearModule.tsx:889
 msgid "Suffixes (3 max)"
 msgstr "后缀 (3 max)"
 
-#: src/components/equipment/EditGearModal.tsx:809
+#: src/components/modals/ExportModal.tsx:92
+msgid "Copy Code"
+msgstr "复制代码"
+
+#: src/components/equipment/EditGearModal.tsx:802
 msgid "Sweet Dream Affix (1 max)"
 msgstr "美梦词缀 (1 max)"
 
+#: src/components/DebugPanel.tsx:545
+msgid "Copy JSON"
+msgstr "复制JSON"
+
+#: src/routes/builder/equipment.tsx:175
+msgid "Import"
+msgstr "导入"
+
+#. js-lingui-explicit-id
+#: src/components/DebugPanel.tsx:481
+msgid "match"
+msgstr "个匹配"
+
+#. js-lingui-explicit-id
+#: src/components/DebugPanel.tsx:481
+msgid "matches"
+msgstr "个匹配"
+
 #: src/components/equipment/VoraxGearModule.tsx:755
-msgid "Select a vorax limb to configure"
-msgstr ""
+#~ msgid "Select a vorax limb to configure"
+#~ msgstr ""
+
+#: src/routes/builder/equipment.tsx:168
+msgid "Vorax"
+msgstr "渴瘾"
+
+#: src/components/modals/ExportModal.tsx:62
+msgid "Share your build with others using the URL below:"
+msgstr "使用以下URL与他人分享您的流派:"
 
 #: src/components/talents/CoreTalentSelector.tsx:90
 #: src/components/talents/CoreTalentSelector.tsx:102
@@ -517,23 +1033,48 @@ msgid "Core Talents"
 msgstr "核心天赋"
 
 #. placeholder {0}: save.name
-#: src/routes/index.tsx:135
+#: src/routes/index.tsx:136
 msgid "Are you sure you want to delete \"{0}\"?"
 msgstr "您确定要删除“{0}”吗？"
 
-#: src/components/equipment/LegendaryGearModule.tsx:307
+#: src/components/equipment/VoraxGearModule.tsx:779
+#: src/routes/builder/equipment.tsx:161
+msgid "Legendary"
+msgstr "传奇"
+
+#: src/components/equipment/LegendaryGearModule.tsx:323
 msgid "Select Legendary"
 msgstr "选择一个传奇物品"
 
-#: src/components/equipment/EditGearModal.tsx:978
-#: src/routes/index.tsx:102
+#: src/components/builder/BuilderLayout.tsx:184
+#: src/components/equipment/EditGearModal.tsx:968
+#: src/routes/index.tsx:103
 msgid "Save"
 msgstr "保存"
 
-#: src/components/equipment/EditGearModal.tsx:772
+#: src/components/builder/BuilderLayout.tsx:212
+#: src/routes/index.tsx:344
+msgid "About"
+msgstr "关于"
+
+#: src/components/equipment/EditGearModal.tsx:765
 msgid "Clear"
 msgstr ""
 
-#: src/routes/index.tsx:355
+#: src/components/equipment/VoraxGearModule.tsx:779
+msgid "Regular"
+msgstr "普通"
+
+#: src/components/builder/BuilderLayout.tsx:166
+msgid "Torchlight of Building"
+msgstr "火炬之光BD构建"
+
+#: src/components/DebugPanel.tsx:562
+#: src/components/modals/AboutModal.tsx:49
+#: src/components/modals/ExportModal.tsx:108
+msgid "Close"
+msgstr "关闭"
+
+#: src/routes/index.tsx:356
 msgid "Import Failed"
-msgstr ""
+msgstr "导入失败"

@@ -1,4 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { Trans } from "@lingui/react/macro";
+import { i18n } from "@/src/lib/i18n";
 import {
   collectUnimplementedItems,
   collectUnimplementedSupportAffixes,
@@ -406,19 +408,19 @@ export const DebugPanel: React.FC<DebugPanelProps> = ({
   }, [loadoutAffixes]);
 
   const getTitle = (): string => {
-    if (editMode) return "Debug: SaveData (Edit Mode)";
-    if (view === "saveData") return "Debug: SaveData (Raw)";
-    if (view === "loadout") return "Debug: Loadout (Parsed)";
-    if (view === "unparseable") return `Debug: Unimplemented (${totalIssues})`;
-    return `Debug: Affixes (${loadoutAffixLines.length})`;
+    if (editMode) return i18n._("Debug: SaveData (Edit Mode)");
+    if (view === "saveData") return i18n._("Debug: SaveData (Raw)");
+    if (view === "loadout") return i18n._("Debug: Loadout (Parsed)");
+    if (view === "unparseable") return i18n._("Debug: Unimplemented", { 0: totalIssues });
+    return i18n._("Debug: Affixes", { 0: loadoutAffixLines.length });
   };
   const title = getTitle();
 
   const tabs: { key: DebugView; label: string }[] = [
-    { key: "saveData", label: "Raw" },
-    { key: "loadout", label: "Parsed" },
-    { key: "unparseable", label: `Issues (${totalIssues})` },
-    { key: "affixes", label: `Affixes (${loadoutAffixLines.length})` },
+    { key: "saveData", label: i18n._("Raw") },
+    { key: "loadout", label: i18n._("Parsed") },
+    { key: "unparseable", label: i18n._("Issues", { 0: totalIssues }) },
+    { key: "affixes", label: i18n._("Affixes", { 0: loadoutAffixLines.length }) },
   ];
 
   const matchingPaths = useMemo(() => {
@@ -462,8 +464,8 @@ export const DebugPanel: React.FC<DebugPanelProps> = ({
           <h3 className="font-semibold text-zinc-50">{title}</h3>
           <span className="text-xs text-zinc-500">
             {editMode
-              ? `${editText.length} chars`
-              : `${JSON.stringify(currentData).length} bytes`}
+              ? `${editText.length} ${i18n._("chars")}`
+              : `${JSON.stringify(currentData).length} ${i18n._("bytes")}`}
           </span>
           {!editMode && (
             <div className="flex items-center gap-2">
@@ -471,19 +473,19 @@ export const DebugPanel: React.FC<DebugPanelProps> = ({
                 type="text"
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                placeholder="Search..."
+                placeholder={i18n._("Search...")}
                 className="px-2 py-1 w-40 bg-zinc-800 border border-zinc-700 rounded text-sm text-zinc-50 placeholder-zinc-500 focus:outline-none focus:ring-1 focus:ring-amber-500"
               />
               {searchTerm !== "" && (
                 <span className="text-xs text-zinc-400">
-                  {matchCount} {matchCount === 1 ? "match" : "matches"}
+                  {matchCount} {matchCount === 1 ? i18n._("match") : i18n._("matches")}
                 </span>
               )}
             </div>
           )}
           {editMode && parseError !== undefined && (
             <span className="text-xs text-red-400">
-              Parse error: {parseError}
+              {i18n._("Parse error")}: {parseError}
             </span>
           )}
         </div>
@@ -495,7 +497,7 @@ export const DebugPanel: React.FC<DebugPanelProps> = ({
                 onClick={handleCancelEdit}
                 className="px-3 py-1 bg-zinc-700 hover:bg-zinc-600 text-zinc-50 text-sm rounded transition-colors"
               >
-                Cancel
+                <Trans>Cancel</Trans>
               </button>
               <button
                 type="button"
@@ -503,7 +505,7 @@ export const DebugPanel: React.FC<DebugPanelProps> = ({
                 disabled={parseError !== undefined}
                 className="px-3 py-1 bg-green-600 hover:bg-green-700 disabled:bg-zinc-700 disabled:text-zinc-500 text-white text-sm rounded transition-colors"
               >
-                Apply Changes
+                <Trans>Apply Changes</Trans>
               </button>
             </>
           ) : (
@@ -531,7 +533,7 @@ export const DebugPanel: React.FC<DebugPanelProps> = ({
                   className="px-3 py-1 bg-blue-600 hover:bg-blue-700 text-white text-sm rounded transition-colors"
                   title="Edit SaveData JSON"
                 >
-                  Edit
+                  <Trans>Edit</Trans>
                 </button>
               )}
               <button
@@ -540,7 +542,7 @@ export const DebugPanel: React.FC<DebugPanelProps> = ({
                 className="px-3 py-1 bg-amber-500 hover:bg-amber-600 text-zinc-950 text-sm rounded transition-colors"
                 title="Copy JSON to clipboard"
               >
-                Copy JSON
+                <Trans>Copy JSON</Trans>
               </button>
             </>
           )}
@@ -549,7 +551,7 @@ export const DebugPanel: React.FC<DebugPanelProps> = ({
             onClick={() => setDebugPanelExpanded(!debugPanelExpanded)}
             className="px-3 py-1 bg-zinc-800 border border-zinc-700 hover:bg-zinc-700 text-zinc-50 text-sm rounded transition-colors"
           >
-            {debugPanelExpanded ? "Minimize" : "Expand"}
+            {debugPanelExpanded ? <Trans>Minimize</Trans> : <Trans>Expand</Trans>}
           </button>
           <button
             type="button"
@@ -557,7 +559,7 @@ export const DebugPanel: React.FC<DebugPanelProps> = ({
             className="px-3 py-1 bg-red-500 hover:bg-red-600 text-white text-sm rounded transition-colors"
             title="Close debug panel"
           >
-            Close
+            <Trans>Close</Trans>
           </button>
         </div>
       </div>
