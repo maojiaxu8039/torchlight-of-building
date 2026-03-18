@@ -26,6 +26,11 @@ msgstr ""
 "+5% Attack Speed"
 
 #. js-lingui-explicit-id
+#: src/routes/builder/calculations.tsx:685
+msgid "+Max Channeled"
+msgstr "+Max Channeled"
+
+#. js-lingui-explicit-id
 #: src/components/equipment/EquipmentSlotDropdown.tsx:130
 msgid "-- None --"
 msgstr "-- None --"
@@ -150,6 +155,11 @@ msgid "Affixes"
 msgstr "Affixes"
 
 #. js-lingui-explicit-id
+#: src/routes/builder/calculations.tsx:667
+msgid "Agility Blessings"
+msgstr "Agility Blessings"
+
+#. js-lingui-explicit-id
 #: src/components/talents/InverseImageCrafter.tsx:117
 msgid "All Reflected Legendary Medium Talent Effects"
 msgstr "All Reflected Legendary Medium Talent Effects"
@@ -181,6 +191,7 @@ msgstr "Armor"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:563
+#: src/routes/builder/calculations.tsx:726
 msgid "Attack Block"
 msgstr "Attack Block"
 
@@ -242,6 +253,11 @@ msgid "Avg Hit crit (OH)"
 msgstr "Avg Hit crit (OH)"
 
 #. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:270
+msgid "Baptism of Purity"
+msgstr "Baptism of Purity"
+
+#. js-lingui-explicit-id
 #: src/components/talents/PrismCrafter.tsx:162
 msgid "Base Affix"
 msgstr "Base Affix"
@@ -254,6 +270,7 @@ msgstr "Belt"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:573
+#: src/routes/builder/calculations.tsx:736
 msgid "Block Ratio"
 msgstr "Block Ratio"
 
@@ -396,6 +413,7 @@ msgstr "Click on an empty talent node to place the prism, or click the prism aga
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:540
+#: src/routes/builder/calculations.tsx:706
 msgid "Cold Res"
 msgstr "Cold Res"
 
@@ -529,6 +547,7 @@ msgstr "Custom Affixes"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:471
+#: src/routes/builder/calculations.tsx:619
 msgid "DEX"
 msgstr "DEX"
 
@@ -538,7 +557,12 @@ msgid "Dagger"
 msgstr "Dagger"
 
 #. js-lingui-explicit-id
-#: src/components/builder/BuilderLayout.tsx:244
+#: src/components/configuration/ConfigurationTab.tsx:296
+msgid "Dance of Frost Stacks"
+msgstr "Dance of Frost Stacks"
+
+#. js-lingui-explicit-id
+#: src/components/builder/BuilderLayout.tsx:258
 msgid "Debug ON"
 msgstr "Debug ON"
 
@@ -573,6 +597,11 @@ msgstr "Debug: Unimplemented"
 #: src/components/hero/MemoryInventory.tsx:99
 msgid "Delete"
 msgstr "Delete"
+
+#. js-lingui-explicit-id
+#: src/routes/builder/calculations.tsx:678
+msgid "Desecration"
+msgstr "Desecration"
 
 #: src/routes/index.tsx:436
 msgid "Create New Build"
@@ -703,6 +732,7 @@ msgstr "Equipment"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:555
+#: src/routes/builder/calculations.tsx:721
 msgid "Erosion Res"
 msgstr "Erosion Res"
 
@@ -718,6 +748,7 @@ msgstr "Export Loadout"
 
 #. js-lingui-explicit-id
 #: src/components/configuration/ConfigurationTab.tsx:187
+#: src/routes/builder/calculations.tsx:692
 msgid "Fervor"
 msgstr "Fervor"
 
@@ -733,6 +764,7 @@ msgstr "Fire Cannon"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:550
+#: src/routes/builder/calculations.tsx:716
 msgid "Fire Res"
 msgstr "Fire Res"
 
@@ -751,7 +783,17 @@ msgstr "Flip Horizontal"
 msgid "Flip Vertical"
 msgstr "Flip Vertical"
 
-#: src/components/builder/BuilderLayout.tsx:252
+#. js-lingui-explicit-id
+#: src/routes/builder/calculations.tsx:662
+msgid "Focus Blessings"
+msgstr "Focus Blessings"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:283
+msgid "Frostbitten Heart Is Active"
+msgstr "Frostbitten Heart Is Active"
+
+#: src/components/builder/BuilderLayout.tsx:266
 msgid "Export"
 msgstr "Export"
 
@@ -863,12 +905,17 @@ msgstr "Hero"
 msgid "No builds yet"
 msgstr "No builds yet"
 
+#: src/routes/builder/calculations.tsx:702
+msgid "Defenses & Movement"
+msgstr "Defenses & Movement"
+
 #: src/routes/index.tsx:368
 msgid "The build code in the URL was invalid or could not be imported."
 msgstr "The build code in the URL was invalid or could not be imported."
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:475
+#: src/routes/builder/calculations.tsx:623
 msgid "INT"
 msgstr "INT"
 
@@ -940,6 +987,7 @@ msgstr "Level"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:545
+#: src/routes/builder/calculations.tsx:711
 msgid "Lightning Res"
 msgstr "Lightning Res"
 
@@ -965,11 +1013,13 @@ msgstr "Mana Consumed Recently"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:482
+#: src/routes/builder/calculations.tsx:627
 msgid "Max Life"
 msgstr "Max Life"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:487
+#: src/routes/builder/calculations.tsx:632
 msgid "Max Mana"
 msgstr "Max Mana"
 
@@ -1005,6 +1055,7 @@ msgstr "Memory Type"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:511
+#: src/routes/builder/calculations.tsx:656
 msgid "Mercury"
 msgstr "Mercury"
 
@@ -1015,6 +1066,7 @@ msgstr "Micro Talent"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:453
+#: src/routes/builder/calculations.tsx:742
 msgid "Movement Speed"
 msgstr "Movement Speed"
 
@@ -1121,7 +1173,7 @@ msgstr "One-Handed Hammer"
 msgid "One-Handed Sword"
 msgstr "One-Handed Sword"
 
-#: src/components/builder/BuilderLayout.tsx:244
+#: src/components/builder/BuilderLayout.tsx:258
 msgid "Debug"
 msgstr "Debug"
 
@@ -1134,6 +1186,10 @@ msgstr "Overload DPS"
 #: src/components/builder/StatsPanel.tsx:242
 msgid "Overload Interval"
 msgstr "Overload Interval"
+
+#: src/routes/builder/calculations.tsx:602
+#~ msgid "Select an active skill above to view damage calculations."
+#~ msgstr "Select an active skill above to view damage calculations."
 
 #. js-lingui-explicit-id
 #: src/components/pactspirit/PactspiritColumn.tsx:79
@@ -1269,6 +1325,7 @@ msgstr "Rotate Right"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:467
+#: src/routes/builder/calculations.tsx:615
 msgid "STR"
 msgstr "STR"
 
@@ -1279,11 +1336,13 @@ msgstr "Scepter"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:502
+#: src/routes/builder/calculations.tsx:647
 msgid "Sealed Life"
 msgstr "Sealed Life"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:493
+#: src/routes/builder/calculations.tsx:638
 msgid "Sealed Mana"
 msgstr "Sealed Mana"
 
@@ -1346,6 +1405,16 @@ msgid "Select affix..."
 msgstr "Select affix..."
 
 #. js-lingui-explicit-id
+#: src/routes/builder/calculations.tsx:603
+msgid "Select an active skill above to view damage calculations."
+msgstr "Select an active skill above to view damage calculations."
+
+#. js-lingui-explicit-id
+#: src/components/calculations/SkillSelector.tsx:51
+msgid "Select an active skill..."
+msgstr "Select an active skill..."
+
+#. js-lingui-explicit-id
 #: src/components/equipment/LegendaryAffixRow.tsx:97
 #: src/components/equipment/VoraxGearModule.tsx:297
 msgid "Select an option..."
@@ -1400,6 +1469,11 @@ msgid "Select {0} Affix {1}"
 msgstr "Select {0} Affix {1}"
 
 #. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:306
+msgid "Shadow Hits"
+msgstr "Shadow Hits"
+
+#. js-lingui-explicit-id
 #: src/components/divinity/LegendarySlateCrafter.tsx:245
 #: src/components/divinity/SlateCrafter.tsx:141
 msgid "Shape & Orientation"
@@ -1448,6 +1522,7 @@ msgstr "Slot {0}"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:568
+#: src/routes/builder/calculations.tsx:731
 msgid "Spell Block"
 msgstr "Spell Block"
 
@@ -1517,6 +1592,11 @@ msgid "Target Is Elite"
 msgstr "Target Is Elite"
 
 #. js-lingui-explicit-id
+#: src/routes/builder/calculations.tsx:672
+msgid "Tenacity Blessings"
+msgstr "Tenacity Blessings"
+
+#. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:47
 msgid "Tin Staff"
 msgstr "Tin Staff"
@@ -1545,6 +1625,10 @@ msgstr "Two-Handed Hammer"
 #: src/data/translate/equipment-types.ts:50
 msgid "Two-Handed Sword"
 msgstr "Two-Handed Sword"
+
+#: src/routes/builder/calculations.tsx:611
+msgid "Resource Pool"
+msgstr "Resource Pool"
 
 #. js-lingui-explicit-id
 #: src/routes/index.tsx:228
@@ -1635,7 +1719,7 @@ msgstr "Quality"
 msgid "Prefixes (3 max)"
 msgstr "Prefixes (3 max)"
 
-#: src/components/builder/BuilderLayout.tsx:191
+#: src/components/builder/BuilderLayout.tsx:205
 #: src/components/DebugPanel.tsx:500
 #: src/components/equipment/EditGearModal.tsx:958
 #: src/components/equipment/LegendaryGearModule.tsx:402
@@ -1755,13 +1839,13 @@ msgstr "Select Legendary"
 msgid "Equipped"
 msgstr "Equipped"
 
-#: src/components/builder/BuilderLayout.tsx:184
+#: src/components/builder/BuilderLayout.tsx:198
 #: src/components/equipment/EditGearModal.tsx:968
 #: src/routes/index.tsx:103
 msgid "Save"
 msgstr "Save"
 
-#: src/components/builder/BuilderLayout.tsx:232
+#: src/components/builder/BuilderLayout.tsx:246
 #: src/routes/index.tsx:353
 msgid "About"
 msgstr "About"
@@ -1778,11 +1862,19 @@ msgstr "Clear"
 msgid "Random Affixes (2 max)"
 msgstr "Random Affixes (2 max)"
 
+#: src/routes/builder/calculations.tsx:415
+msgid "Damage Calculations"
+msgstr "Damage Calculations"
+
 #: src/components/equipment/VoraxGearModule.tsx:779
 msgid "Regular"
 msgstr "Regular"
 
-#: src/components/builder/BuilderLayout.tsx:166
+#: src/components/calculations/SkillSelector.tsx:56
+msgid "No implemented active skills enabled. Enable an active skill in the Skills section (currently supported: Berserking Blade, Frost Spike, Spectral Slash)."
+msgstr "No implemented active skills enabled. Enable an active skill in the Skills section (currently supported: Berserking Blade, Frost Spike, Spectral Slash)."
+
+#: src/components/builder/BuilderLayout.tsx:180
 msgid "Torchlight of Building"
 msgstr "Torchlight of Building"
 

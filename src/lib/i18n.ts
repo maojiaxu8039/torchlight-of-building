@@ -69,6 +69,7 @@ export const detectBrowserLocale = (): Locale => {
 export const setStoredLocale = async (locale: Locale): Promise<void> => {
   localStorage.setItem("locale", locale);
   await loadLocale(locale);
+  window.dispatchEvent(new Event("locale-changed"));
 };
 
 // Initialize with stored locale, or auto-detect from browser language

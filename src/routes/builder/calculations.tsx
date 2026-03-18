@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Trans } from "@lingui/react/macro";
+import { i18n } from "@/src/lib/i18n";
 import { useMemo } from "react";
 import type { ImplementedActiveSkillName } from "@/src/data/skill/types";
 import type {
@@ -599,7 +600,7 @@ function CalculationsPage(): React.ReactNode {
       {selectedSkill === undefined && (
         <div className="rounded-lg border border-zinc-700 bg-zinc-900 p-4 text-center">
           <p className="text-sm text-zinc-400">
-            Select an active skill above to view damage calculations.
+            {i18n._("Select an active skill above to view damage calculations.")}
           </p>
         </div>
       )}
@@ -607,34 +608,34 @@ function CalculationsPage(): React.ReactNode {
       <div className="grid grid-cols-1 gap-3 lg:grid-cols-2">
         <div className="rounded-lg border border-zinc-700 bg-zinc-900 p-3">
           <div className="mb-2 text-sm font-semibold text-zinc-300">
-            Resource Pool
+            <Trans>Resource Pool</Trans>
           </div>
           <div className="grid grid-cols-2 gap-x-6 gap-y-0.5">
             <StatLine
-              label="STR"
+              label={i18n._("STR")}
               value={formatStatValue.integer(resourcePool.stats.str)}
             />
             <StatLine
-              label="DEX"
+              label={i18n._("DEX")}
               value={formatStatValue.integer(resourcePool.stats.dex)}
             />
             <StatLine
-              label="INT"
+              label={i18n._("INT")}
               value={formatStatValue.integer(resourcePool.stats.int)}
             />
             <StatLine
-              label="Max Life"
+              label={i18n._("Max Life")}
               value={formatStatValue.integer(resourcePool.maxLife)}
               color="text-red-400"
             />
             <StatLine
-              label="Max Mana"
+              label={i18n._("Max Mana")}
               value={formatStatValue.integer(resourcePool.maxMana)}
               color="text-blue-400"
             />
             {resourcePool.sealedResources.sealedManaPct > 0 && (
               <StatLine
-                label="Sealed Mana"
+                label={i18n._("Sealed Mana")}
                 value={formatStatValue.pct(
                   resourcePool.sealedResources.sealedManaPct,
                 )}
@@ -643,7 +644,7 @@ function CalculationsPage(): React.ReactNode {
             )}
             {resourcePool.sealedResources.sealedLifePct > 0 && (
               <StatLine
-                label="Sealed Life"
+                label={i18n._("Sealed Life")}
                 value={formatStatValue.pct(
                   resourcePool.sealedResources.sealedLifePct,
                 )}
@@ -652,43 +653,43 @@ function CalculationsPage(): React.ReactNode {
             )}
             {resourcePool.mercuryPts !== undefined && (
               <StatLine
-                label="Mercury"
+                label={i18n._("Mercury")}
                 value={formatStatValue.integer(resourcePool.mercuryPts)}
                 color="text-purple-400"
               />
             )}
             <StatLine
-              label="Focus Blessings"
+              label={i18n._("Focus Blessings")}
               value={`${resourcePool.focusBlessings}/${resourcePool.maxFocusBlessings}`}
               color="text-sky-400"
             />
             <StatLine
-              label="Agility Blessings"
+              label={i18n._("Agility Blessings")}
               value={`${resourcePool.agilityBlessings}/${resourcePool.maxAgilityBlessings}`}
               color="text-green-400"
             />
             <StatLine
-              label="Tenacity Blessings"
+              label={i18n._("Tenacity Blessings")}
               value={`${resourcePool.tenacityBlessings}/${resourcePool.maxTenacityBlessings}`}
               color="text-amber-400"
             />
             {resourcePool.desecration !== undefined && (
               <StatLine
-                label="Desecration"
+                label={i18n._("Desecration")}
                 value={resourcePool.desecration}
                 color="text-rose-400"
               />
             )}
             {resourcePool.additionalMaxChanneledStacks > 0 && (
               <StatLine
-                label="+Max Channeled"
+                label={i18n._("+Max Channeled")}
                 value={resourcePool.additionalMaxChanneledStacks}
                 color="text-teal-400"
               />
             )}
             {resourcePool.hasFervor && (
               <StatLine
-                label="Fervor"
+                label={i18n._("Fervor")}
                 value={resourcePool.fervorPts}
                 color="text-orange-400"
               />
@@ -698,47 +699,47 @@ function CalculationsPage(): React.ReactNode {
 
         <div className="rounded-lg border border-zinc-700 bg-zinc-900 p-3">
           <div className="mb-2 text-sm font-semibold text-zinc-300">
-            Defenses & Movement
+            <Trans>Defenses & Movement</Trans>
           </div>
           <div className="grid grid-cols-2 gap-x-6 gap-y-0.5">
             <StatLine
-              label="Cold Res"
+              label={i18n._("Cold Res")}
               value={formatRes(defenses.coldRes)}
               color="text-cyan-400"
             />
             <StatLine
-              label="Lightning Res"
+              label={i18n._("Lightning Res")}
               value={formatRes(defenses.lightningRes)}
               color="text-yellow-400"
             />
             <StatLine
-              label="Fire Res"
+              label={i18n._("Fire Res")}
               value={formatRes(defenses.fireRes)}
               color="text-orange-400"
             />
             <StatLine
-              label="Erosion Res"
+              label={i18n._("Erosion Res")}
               value={formatRes(defenses.erosionRes)}
               color="text-fuchsia-400"
             />
             <StatLine
-              label="Attack Block"
+              label={i18n._("Attack Block")}
               value={formatStatValue.pct(defenses.attackBlockPct)}
               color="text-slate-300"
             />
             <StatLine
-              label="Spell Block"
+              label={i18n._("Spell Block")}
               value={formatStatValue.pct(defenses.spellBlockPct)}
               color="text-slate-300"
             />
             <StatLine
-              label="Block Ratio"
+              label={i18n._("Block Ratio")}
               value={formatStatValue.pct(defenses.blockRatioPct)}
               color="text-slate-300"
             />
             {offenseSummary !== undefined && (
               <StatLine
-                label="Movement Speed"
+                label={i18n._("Movement Speed")}
                 value={formatStatValue.pct(
                   offenseSummary.movementSpeedBonusPct,
                 )}

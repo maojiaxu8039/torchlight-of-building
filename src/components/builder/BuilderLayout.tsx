@@ -59,7 +59,21 @@ export const BuilderLayout = ({ children }: BuilderLayoutProps) => {
   const [buildCode, setBuildCode] = useState("");
   const [isRenamingBuild, setIsRenamingBuild] = useState(false);
   const [renameValue, setRenameValue] = useState("");
+  const [currentLocale, setCurrentLocale] = useState(getStoredLocale());
   const renameInputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    const handleLocaleChange = () => {
+      setCurrentLocale(getStoredLocale());
+    };
+    window.addEventListener("locale-changed", handleLocaleChange);
+    return () => window.removeEventListener("locale-changed", handleLocaleChange);
+  }, []);
+
+  const handleSetLocale = (locale: string) => {
+    setStoredLocale(locale);
+    setCurrentLocale(locale);
+  };
 
   useEffect(() => {
     setDebugMode(loadDebugModeFromStorage());
@@ -205,9 +219,9 @@ export const BuilderLayout = ({ children }: BuilderLayoutProps) => {
 
           <div className="flex items-center gap-3">
             <button
-              onClick={() => setStoredLocale("zh")}
+              onClick={() => handleSetLocale("zh")}
               className={`px-3 py-1.5 rounded-lg border text-sm transition-colors ${
-                getStoredLocale() === "zh"
+                currentLocale === "zh"
                   ? "bg-amber-500 text-zinc-950 border-amber-500"
                   : "bg-zinc-800 text-zinc-400 border-zinc-700 hover:bg-zinc-700 hover:text-zinc-200"
               }`}
@@ -215,9 +229,9 @@ export const BuilderLayout = ({ children }: BuilderLayoutProps) => {
               简体中文
             </button>
             <button
-              onClick={() => setStoredLocale("en")}
+              onClick={() => handleSetLocale("en")}
               className={`px-3 py-1.5 rounded-lg border text-sm transition-colors ${
-                getStoredLocale() === "en"
+                currentLocale === "en"
                   ? "bg-amber-500 text-zinc-950 border-amber-500"
                   : "bg-zinc-800 text-zinc-400 border-zinc-700 hover:bg-zinc-700 hover:text-zinc-200"
               }`}

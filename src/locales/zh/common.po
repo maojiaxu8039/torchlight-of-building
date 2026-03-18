@@ -23,6 +23,11 @@ msgid ""
 msgstr ""
 
 #. js-lingui-explicit-id
+#: src/routes/builder/calculations.tsx:685
+msgid "+Max Channeled"
+msgstr ""
+
+#. js-lingui-explicit-id
 #: src/components/equipment/EquipmentSlotDropdown.tsx:130
 msgid "-- None --"
 msgstr "-- 无 --"
@@ -146,6 +151,10 @@ msgstr "添加传奇装备"
 msgid "Affixes"
 msgstr "词缀"
 
+#: src/routes/builder/calculations.tsx:667
+msgid "Agility Blessings"
+msgstr "敏捷祝福"
+
 #. js-lingui-explicit-id
 #: src/components/talents/InverseImageCrafter.tsx:117
 msgid "All Reflected Legendary Medium Talent Effects"
@@ -178,6 +187,7 @@ msgstr "护甲"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:563
+#: src/routes/builder/calculations.tsx:726
 msgid "Attack Block"
 msgstr "攻击格挡"
 
@@ -239,6 +249,11 @@ msgid "Avg Hit crit (OH)"
 msgstr "平均暴击伤害 (副手)"
 
 #. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:270
+msgid "Baptism of Purity"
+msgstr ""
+
+#. js-lingui-explicit-id
 #: src/components/talents/PrismCrafter.tsx:162
 msgid "Base Affix"
 msgstr "基础词缀"
@@ -251,6 +266,7 @@ msgstr "腰带"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:573
+#: src/routes/builder/calculations.tsx:736
 msgid "Block Ratio"
 msgstr "格挡率"
 
@@ -393,6 +409,7 @@ msgstr "点击空白天赋节点放置棱镜，或再次点击取消选择。"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:540
+#: src/routes/builder/calculations.tsx:706
 msgid "Cold Res"
 msgstr "冰抗"
 
@@ -526,6 +543,7 @@ msgstr "自定义词缀"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:471
+#: src/routes/builder/calculations.tsx:619
 msgid "DEX"
 msgstr "敏捷"
 
@@ -535,7 +553,12 @@ msgid "Dagger"
 msgstr "匕首"
 
 #. js-lingui-explicit-id
-#: src/components/builder/BuilderLayout.tsx:244
+#: src/components/configuration/ConfigurationTab.tsx:296
+msgid "Dance of Frost Stacks"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: src/components/builder/BuilderLayout.tsx:258
 msgid "Debug ON"
 msgstr "调试开启"
 
@@ -570,6 +593,11 @@ msgstr "调试：未实现"
 #: src/components/hero/MemoryInventory.tsx:99
 msgid "Delete"
 msgstr "删除"
+
+#. js-lingui-explicit-id
+#: src/routes/builder/calculations.tsx:678
+msgid "Desecration"
+msgstr ""
 
 #: src/routes/index.tsx:436
 msgid "Create New Build"
@@ -700,6 +728,7 @@ msgstr "装备"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:555
+#: src/routes/builder/calculations.tsx:721
 msgid "Erosion Res"
 msgstr "腐蚀抗性"
 
@@ -715,8 +744,9 @@ msgstr "导出配装"
 
 #. js-lingui-explicit-id
 #: src/components/configuration/ConfigurationTab.tsx:187
+#: src/routes/builder/calculations.tsx:692
 msgid "Fervor"
-msgstr "狂热"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:146
@@ -730,6 +760,7 @@ msgstr "火炮"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:550
+#: src/routes/builder/calculations.tsx:716
 msgid "Fire Res"
 msgstr "火抗"
 
@@ -748,7 +779,16 @@ msgstr "水平翻转"
 msgid "Flip Vertical"
 msgstr "垂直翻转"
 
-#: src/components/builder/BuilderLayout.tsx:252
+#: src/routes/builder/calculations.tsx:662
+msgid "Focus Blessings"
+msgstr "专注祝福"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:283
+msgid "Frostbitten Heart Is Active"
+msgstr ""
+
+#: src/components/builder/BuilderLayout.tsx:266
 msgid "Export"
 msgstr "导出"
 
@@ -860,12 +900,17 @@ msgstr "英雄"
 msgid "No builds yet"
 msgstr "暂无流派"
 
+#: src/routes/builder/calculations.tsx:702
+msgid "Defenses & Movement"
+msgstr "防御与移动"
+
 #: src/routes/index.tsx:368
 msgid "The build code in the URL was invalid or could not be imported."
 msgstr "URL中的构建代码无效或无法导入。"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:475
+#: src/routes/builder/calculations.tsx:623
 msgid "INT"
 msgstr "智力"
 
@@ -937,6 +982,7 @@ msgstr "等级"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:545
+#: src/routes/builder/calculations.tsx:711
 msgid "Lightning Res"
 msgstr "闪电抗性"
 
@@ -962,11 +1008,13 @@ msgstr "最近消耗法力"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:482
+#: src/routes/builder/calculations.tsx:627
 msgid "Max Life"
 msgstr "最大生命"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:487
+#: src/routes/builder/calculations.tsx:632
 msgid "Max Mana"
 msgstr "最大法力"
 
@@ -1017,6 +1065,7 @@ msgstr "记忆类型"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:511
+#: src/routes/builder/calculations.tsx:656
 msgid "Mercury"
 msgstr "水银"
 
@@ -1027,6 +1076,7 @@ msgstr "微型天赋"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:453
+#: src/routes/builder/calculations.tsx:742
 msgid "Movement Speed"
 msgstr "移动速度"
 
@@ -1133,7 +1183,7 @@ msgstr "单手锤"
 msgid "One-Handed Sword"
 msgstr "单手剑"
 
-#: src/components/builder/BuilderLayout.tsx:244
+#: src/components/builder/BuilderLayout.tsx:258
 msgid "Debug"
 msgstr "调试"
 
@@ -1281,6 +1331,7 @@ msgstr "向右旋转"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:467
+#: src/routes/builder/calculations.tsx:615
 msgid "STR"
 msgstr "力量"
 
@@ -1291,11 +1342,13 @@ msgstr "魔杖"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:502
+#: src/routes/builder/calculations.tsx:647
 msgid "Sealed Life"
 msgstr "封印生命"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:493
+#: src/routes/builder/calculations.tsx:638
 msgid "Sealed Mana"
 msgstr "封印法力"
 
@@ -1357,6 +1410,15 @@ msgstr "选择Vorax肢体..."
 msgid "Select affix..."
 msgstr "选择词缀..."
 
+#: src/routes/builder/calculations.tsx:603
+msgid "Select an active skill above to view damage calculations."
+msgstr "在上方选择主动技能以查看伤害计算。"
+
+#. js-lingui-explicit-id
+#: src/components/calculations/SkillSelector.tsx:51
+msgid "Select an active skill..."
+msgstr "选择主动技能..."
+
 #. js-lingui-explicit-id
 #: src/components/equipment/LegendaryAffixRow.tsx:97
 #: src/components/equipment/VoraxGearModule.tsx:297
@@ -1412,6 +1474,11 @@ msgid "Select {0} Affix {1}"
 msgstr "选择{0}词缀{1}"
 
 #. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:306
+msgid "Shadow Hits"
+msgstr ""
+
+#. js-lingui-explicit-id
 #: src/components/divinity/LegendarySlateCrafter.tsx:245
 #: src/components/divinity/SlateCrafter.tsx:141
 msgid "Shape & Orientation"
@@ -1460,6 +1527,7 @@ msgstr "槽位 {0}"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:568
+#: src/routes/builder/calculations.tsx:731
 msgid "Spell Block"
 msgstr "法术格挡"
 
@@ -1528,6 +1596,10 @@ msgstr "目标敌人被标记"
 msgid "Target Is Elite"
 msgstr "目标是精英"
 
+#: src/routes/builder/calculations.tsx:672
+msgid "Tenacity Blessings"
+msgstr "坚韧祝福"
+
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:47
 msgid "Tin Staff"
@@ -1557,6 +1629,10 @@ msgstr "双手锤"
 #: src/data/translate/equipment-types.ts:50
 msgid "Two-Handed Sword"
 msgstr "双手剑"
+
+#: src/routes/builder/calculations.tsx:611
+msgid "Resource Pool"
+msgstr "资源池"
 
 #. js-lingui-explicit-id
 #: src/routes/index.tsx:228
@@ -1626,6 +1702,14 @@ msgstr "属性概览"
 msgid "bytes"
 msgstr "字节"
 
+#: src/routes/builder/calculations.tsx:662
+#~ msgid "Focus Blessings"
+#~ msgstr "专注祝福"
+
+#: src/routes/builder/calculations.tsx:672
+#~ msgid "Tenacity Blessings"
+#~ msgstr "坚韧祝福"
+
 #. js-lingui-explicit-id
 #: src/components/DebugPanel.tsx:467
 msgid "chars"
@@ -1647,7 +1731,7 @@ msgstr "品质"
 msgid "Prefixes (3 max)"
 msgstr "前缀 (3 max)"
 
-#: src/components/builder/BuilderLayout.tsx:191
+#: src/components/builder/BuilderLayout.tsx:205
 #: src/components/DebugPanel.tsx:500
 #: src/components/equipment/EditGearModal.tsx:958
 #: src/components/equipment/LegendaryGearModule.tsx:402
@@ -1777,17 +1861,21 @@ msgstr "传奇"
 msgid "Select Legendary"
 msgstr "选择一个传奇物品"
 
+#: src/routes/builder/calculations.tsx:678
+#~ msgid "Desecration"
+#~ msgstr "亵渎"
+
 #: src/components/hero/HeroMemoryItem.tsx:38
 msgid "Equipped"
 msgstr "已装备"
 
-#: src/components/builder/BuilderLayout.tsx:184
+#: src/components/builder/BuilderLayout.tsx:198
 #: src/components/equipment/EditGearModal.tsx:968
 #: src/routes/index.tsx:103
 msgid "Save"
 msgstr "保存"
 
-#: src/components/builder/BuilderLayout.tsx:232
+#: src/components/builder/BuilderLayout.tsx:246
 #: src/routes/index.tsx:353
 msgid "About"
 msgstr "关于"
@@ -1795,6 +1883,10 @@ msgstr "关于"
 #: src/components/hero/HeroSelector.tsx:20
 msgid "Select Hero"
 msgstr "选择英雄"
+
+#: src/routes/builder/calculations.tsx:685
+#~ msgid "+Max Channeled"
+#~ msgstr "+最大引导"
 
 #: src/components/equipment/EditGearModal.tsx:765
 msgid "Clear"
@@ -1804,11 +1896,19 @@ msgstr "清空"
 msgid "Random Affixes (2 max)"
 msgstr "随机词缀 (2 max)"
 
+#: src/routes/builder/calculations.tsx:415
+msgid "Damage Calculations"
+msgstr "伤害计算"
+
 #: src/components/equipment/VoraxGearModule.tsx:779
 msgid "Regular"
 msgstr "普通"
 
-#: src/components/builder/BuilderLayout.tsx:166
+#: src/components/calculations/SkillSelector.tsx:56
+msgid "No implemented active skills enabled. Enable an active skill in the Skills section (currently supported: Berserking Blade, Frost Spike, Spectral Slash)."
+msgstr "没有已启用的主动技能。在技能部分启用一个主动技能（目前支持：狂战之刃、寒冰刺、光影斩）。"
+
+#: src/components/builder/BuilderLayout.tsx:180
 msgid "Torchlight of Building"
 msgstr "火炬之光BD构建"
 
@@ -1825,3 +1925,8 @@ msgstr "导入失败"
 #: src/components/talents/TalentNodeDisplay.tsx:172
 msgid "Rare"
 msgstr "稀有"
+
+#: src/components/configuration/ConfigurationTab.tsx:187
+#: src/routes/builder/calculations.tsx:692
+#~ msgid "Fervor"
+#~ msgstr "狂热"
