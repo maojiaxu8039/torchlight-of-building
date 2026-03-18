@@ -1,3 +1,4 @@
+import { i18n } from "@/src/lib/i18n";
 import type { CraftedInverseImage } from "@/src/tli/core";
 import { InverseImageInventoryItem } from "./InverseImageInventoryItem";
 
@@ -39,21 +40,21 @@ export const InverseImageInventory: React.FC<InverseImageInventoryProps> = ({
 
   const getStatusMessage = (): string => {
     if (hasInverseImagePlaced) {
-      return "An inverse image is already placed. Remove it first to place a different one.";
+      return i18n._("An inverse image is already placed. Remove it first to place a different one.");
     }
     if (selectedInverseImageId) {
       if (isOnGodGoddessTree) {
-        return "Switch to a Profession Tree (Slots 2-4) to place the inverse image.";
+        return i18n._("Switch to a Profession Tree (Slots 2-4) to place the inverse image.");
       }
       if (hasPrismPlaced) {
-        return "Switch to a tree without a prism to place the inverse image.";
+        return i18n._("Switch to a tree without a prism to place the inverse image.");
       }
       if (treeHasPoints) {
-        return "Reset the tree's points to 0 before placing an inverse image.";
+        return i18n._("Reset the tree's points to 0 before placing an inverse image.");
       }
-      return "Click on an empty talent node (not in center column) to place the inverse image, or click it again to deselect.";
+      return i18n._("Click on an empty talent node (not in center column) to place the inverse image, or click it again to deselect.");
     }
-    return "Click an inverse image to select it for placement.";
+    return i18n._("Click an inverse image to select it for placement.");
   };
 
   // Only block selection if an inverse image is already placed (only one allowed anywhere)
@@ -63,7 +64,7 @@ export const InverseImageInventory: React.FC<InverseImageInventoryProps> = ({
   return (
     <div className="rounded-lg border border-zinc-700 bg-zinc-800 p-4">
       <h3 className="mb-4 text-lg font-medium text-zinc-200">
-        Inverse Image Inventory ({inverseImages.length})
+        {i18n._("Inverse Image Inventory")} ({inverseImages.length})
       </h3>
 
       {selectionMode && (

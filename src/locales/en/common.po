@@ -38,7 +38,7 @@ msgstr "Base Stats (1 max)"
 msgid "Tree"
 msgstr "Tree"
 
-#: src/routes/index.tsx:418
+#: src/routes/index.tsx:427
 msgid "Create your first character build to get started"
 msgstr "Create your first character build to get started"
 
@@ -64,6 +64,18 @@ msgstr "Rename"
 msgid "Minimize"
 msgstr "Minimize"
 
+#: src/components/talents/PrismSection.tsx:74
+msgid "Craft Prism"
+msgstr "Craft Prism"
+
+#: src/routes/builder/skills.tsx:105
+msgid "Passive Skills"
+msgstr "Passive Skills"
+
+#: src/components/talents/TalentNodeDisplay.tsx:172
+msgid "Prism"
+msgstr "Prism"
+
 #: src/components/modals/ExportModal.tsx:77
 msgid "Show raw build code"
 msgstr "Show raw build code"
@@ -72,7 +84,7 @@ msgstr "Show raw build code"
 msgid "Vorax Limb"
 msgstr "Vorax Limb"
 
-#: src/routes/index.tsx:391
+#: src/routes/index.tsx:400
 msgid "Create New"
 msgstr "Create New"
 
@@ -83,6 +95,22 @@ msgstr "Craft New Item"
 #: src/routes/builder/equipment.tsx:238
 msgid "No items in inventory. Craft items above to add them here."
 msgstr "No items in inventory. Craft items above to add them here."
+
+#. js-lingui-explicit-id
+#: src/components/skills/SkillSlot.tsx:120
+#: src/components/skills/SupportSkillSelector.tsx:390
+msgid "<Empty slot>"
+msgstr "<Empty slot>"
+
+#. js-lingui-explicit-id
+#: src/components/pactspirit/PactspiritColumn.tsx:93
+msgid "<Select Pactspirit>"
+msgstr "<Select Pactspirit>"
+
+#. js-lingui-explicit-id
+#: src/components/talents/PrismInventory.tsx:48
+msgid "A prism is already placed. Remove it first to place a different one."
+msgstr "A prism is already placed. Remove it first to place a different one."
 
 #: src/components/equipment/EditGearModal.tsx:966
 #: src/components/equipment/LegendaryGearModule.tsx:409
@@ -96,7 +124,17 @@ msgid "About"
 msgstr "About"
 
 #. js-lingui-explicit-id
-#: src/routes/builder/skills.tsx:81
+#: src/components/skills/SupportSkillSelector.tsx:214
+msgid "Activation Medium"
+msgstr "Activation Medium"
+
+#. js-lingui-explicit-id
+#: src/routes/builder/skills.tsx:89
+msgid "Active"
+msgstr "Active"
+
+#. js-lingui-explicit-id
+#: src/routes/builder/skills.tsx:82
 msgid "Active Skills"
 msgstr "Active Skills"
 
@@ -110,6 +148,31 @@ msgstr "Add Legendary"
 #: src/components/DebugPanel.tsx:423
 msgid "Affixes"
 msgstr "Affixes"
+
+#. js-lingui-explicit-id
+#: src/components/talents/InverseImageCrafter.tsx:117
+msgid "All Reflected Legendary Medium Talent Effects"
+msgstr "All Reflected Legendary Medium Talent Effects"
+
+#. js-lingui-explicit-id
+#: src/components/talents/InverseImageCrafter.tsx:90
+msgid "All Reflected Medium Talent Effects"
+msgstr "All Reflected Medium Talent Effects"
+
+#. js-lingui-explicit-id
+#: src/components/talents/InverseImageCrafter.tsx:63
+msgid "All Reflected Micro Talent Effects"
+msgstr "All Reflected Micro Talent Effects"
+
+#. js-lingui-explicit-id
+#: src/components/talents/InverseImageInventory.tsx:43
+msgid "An inverse image is already placed. Remove it first to place a different one."
+msgstr "An inverse image is already placed. Remove it first to place a different one."
+
+#. js-lingui-explicit-id
+#: src/components/talents/PrismCrafter.tsx:178
+msgid "Area Expansion (optional)"
+msgstr "Area Expansion (optional)"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:526
@@ -136,6 +199,11 @@ msgstr "Attack Speed (MH)"
 #: src/components/builder/StatsPanel.tsx:362
 msgid "Attack Speed (OH)"
 msgstr "Attack Speed (OH)"
+
+#. js-lingui-explicit-id
+#: src/components/hero/TraitSelector.tsx:342
+msgid "Auto-selected"
+msgstr "Auto-selected"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:289
@@ -174,6 +242,11 @@ msgid "Avg Hit crit (OH)"
 msgstr "Avg Hit crit (OH)"
 
 #. js-lingui-explicit-id
+#: src/components/talents/PrismCrafter.tsx:162
+msgid "Base Affix"
+msgstr "Base Affix"
+
+#. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:4
 #: src/data/translate/equipment-types.ts:5
 msgid "Belt"
@@ -183,6 +256,11 @@ msgstr "Belt"
 #: src/components/builder/StatsPanel.tsx:573
 msgid "Block Ratio"
 msgstr "Block Ratio"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:830
+msgid "Blur Ended Recently"
+msgstr "Blur Ended Recently"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:6
@@ -230,14 +308,46 @@ msgid "Calculations"
 msgstr "Calculations"
 
 #. js-lingui-explicit-id
+#: src/components/hero/EditMemoryModal.tsx:620
+#: src/components/talents/InverseImageCrafter.tsx:169
+#: src/components/talents/PrismCrafter.tsx:271
+msgid "Cancel"
+msgstr "Cancel"
+
+#. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:11
 msgid "Cane"
 msgstr "Cane"
 
 #. js-lingui-explicit-id
+#: src/components/talents/TalentNodeDisplay.tsx:157
+msgid "Cannot remove: dependent nodes have points allocated"
+msgstr "Cannot remove: dependent nodes have points allocated"
+
+#. js-lingui-explicit-id
+#: src/components/talents/TalentNodeDisplay.tsx:270
+msgid "Cannot remove: tree must have 0 allocated points"
+msgstr "Cannot remove: tree must have 0 allocated points"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:970
+msgid "Cast Curse Recently"
+msgstr "Cast Curse Recently"
+
+#. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:125
 msgid "Casts/sec"
 msgstr "Casts/sec"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateEditToolbar.tsx:133
+msgid "Change Shape"
+msgstr "Change Shape"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:698
+msgid "Channeling"
+msgstr "Channeling"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:12
@@ -265,6 +375,26 @@ msgid "Claw"
 msgstr "Claw"
 
 #. js-lingui-explicit-id
+#: src/components/talents/PrismInventory.tsx:53
+msgid "Click a prism to select it for placement."
+msgstr "Click a prism to select it for placement."
+
+#. js-lingui-explicit-id
+#: src/components/talents/InverseImageInventory.tsx:57
+msgid "Click an inverse image to select it for placement."
+msgstr "Click an inverse image to select it for placement."
+
+#. js-lingui-explicit-id
+#: src/components/talents/InverseImageInventory.tsx:55
+msgid "Click on an empty talent node (not in center column) to place the inverse image, or click it again to deselect."
+msgstr "Click on an empty talent node (not in center column) to place the inverse image, or click it again to deselect."
+
+#. js-lingui-explicit-id
+#: src/components/talents/PrismInventory.tsx:52
+msgid "Click on an empty talent node to place the prism, or click the prism again to deselect."
+msgstr "Click on an empty talent node to place the prism, or click the prism again to deselect."
+
+#. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:540
 msgid "Cold Res"
 msgstr "Cold Res"
@@ -280,15 +410,26 @@ msgid "Combo Points"
 msgstr "Combo Points"
 
 #. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:164
 #: src/data/translate/translate-tab.ts:10
 msgid "Configuration"
 msgstr "Configuration"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:166
+msgid "Configure combat conditions and buff stacks for damage calculations."
+msgstr "Configure combat conditions and buff stacks for damage calculations."
 
 #. js-lingui-explicit-id
 #: src/components/modals/ExportModal.tsx:92
 #: src/components/modals/ExportModal.tsx:105
 msgid "Copied!"
 msgstr "Copied!"
+
+#. js-lingui-explicit-id
+#: src/components/hero/MemoryInventory.tsx:87
+msgid "Copy"
+msgstr "Copy"
 
 #. js-lingui-explicit-id
 #: src/components/talents/CoreTalentSelector.tsx:60
@@ -301,9 +442,30 @@ msgid "Core Talent 2"
 msgstr "Core Talent 2"
 
 #. js-lingui-explicit-id
+#: src/components/hero/EditMemoryModal.tsx:412
+msgid "Craft Hero Memory"
+msgstr "Craft Hero Memory"
+
+#. js-lingui-explicit-id
+#: src/components/talents/InverseImageSection.tsx:74
+#: src/components/talents/InverseImageSection.tsx:95
+msgid "Craft Inverse Image"
+msgstr "Craft Inverse Image"
+
+#. js-lingui-explicit-id
+#: src/components/hero/HeroTab.tsx:43
+msgid "Craft Memory"
+msgstr "Craft Memory"
+
+#. js-lingui-explicit-id
 #: src/components/equipment/EditGearModal.tsx:692
 msgid "Craft New Item"
 msgstr "Craft New Item"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateCrafter.tsx:117
+msgid "Craft Slate"
+msgstr "Craft Slate"
 
 #. js-lingui-explicit-id
 #: src/components/equipment/VoraxGearModule.tsx:677
@@ -340,6 +502,11 @@ msgstr "Crit Multiplier"
 msgid "Crossbow"
 msgstr "Crossbow"
 
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:235
+msgid "Cruelty Buff Stacks"
+msgstr "Cruelty Buff Stacks"
+
 #: src/components/equipment/VoraxGearModule.tsx:767
 #: src/routes/builder/equipment.tsx:154
 msgid "Normal"
@@ -349,6 +516,16 @@ msgstr "Normal"
 #: src/data/translate/equipment-types.ts:18
 msgid "Cudgel"
 msgstr "Cudgel"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:402
+msgid "Current Life %"
+msgstr "Current Life %"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:134
+msgid "Custom Affixes"
+msgstr "Custom Affixes"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:471
@@ -361,7 +538,7 @@ msgid "Dagger"
 msgstr "Dagger"
 
 #. js-lingui-explicit-id
-#: src/components/builder/BuilderLayout.tsx:224
+#: src/components/builder/BuilderLayout.tsx:244
 msgid "Debug ON"
 msgstr "Debug ON"
 
@@ -392,9 +569,19 @@ msgstr "Debug: SaveData (Raw)"
 msgid "Debug: Unimplemented"
 msgstr "Debug: Unimplemented"
 
-#: src/routes/index.tsx:427
+#. js-lingui-explicit-id
+#: src/components/hero/MemoryInventory.tsx:99
+msgid "Delete"
+msgstr "Delete"
+
+#: src/routes/index.tsx:436
 msgid "Create New Build"
 msgstr "Create New Build"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/DivinityTab.tsx:64
+msgid "Divinity Grid"
+msgstr "Divinity Grid"
 
 #. js-lingui-explicit-id
 #: src/data/translate/translate-tab.ts:9
@@ -415,14 +602,94 @@ msgstr "Duration Bonus"
 msgid "Copy URL"
 msgstr "Copy URL"
 
-#: src/routes/index.tsx:385
+#: src/routes/index.tsx:394
 msgid "Import Build"
 msgstr "Import Build"
+
+#. js-lingui-explicit-id
+#: src/components/hero/MemoryInventory.tsx:75
+msgid "Edit"
+msgstr "Edit"
+
+#. js-lingui-explicit-id
+#: src/components/skills/ActivationMediumEditModal.tsx:285
+msgid "Edit Activation Medium"
+msgstr "Edit Activation Medium"
+
+#. js-lingui-explicit-id
+#: src/components/hero/EditMemoryModal.tsx:412
+msgid "Edit Hero Memory"
+msgstr "Edit Hero Memory"
+
+#. js-lingui-explicit-id
+#: src/components/talents/InverseImageSection.tsx:94
+msgid "Edit Inverse Image"
+msgstr "Edit Inverse Image"
 
 #. js-lingui-explicit-id
 #: src/components/equipment/EditGearModal.tsx:693
 msgid "Edit {equipmentType}"
 msgstr "Edit {equipmentType}"
+
+#. js-lingui-explicit-id
+#: src/components/hero/TraitSelector.tsx:304
+msgid "Empty memory"
+msgstr "Empty memory"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:634
+msgid "Enemies Nearby"
+msgstr "Enemies Nearby"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:457
+msgid "Enemy Armor"
+msgstr "Enemy Armor"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:413
+msgid "Enemy Cold Res %"
+msgstr "Enemy Cold Res %"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:446
+msgid "Enemy Erosion Res %"
+msgstr "Enemy Erosion Res %"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:435
+msgid "Enemy Fire Res %"
+msgstr "Enemy Fire Res %"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:210
+msgid "Enemy Frostbitten"
+msgstr "Enemy Frostbitten"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:690
+msgid "Enemy Has Ailment"
+msgstr "Enemy Has Ailment"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:804
+msgid "Enemy Has Trauma"
+msgstr "Enemy Has Trauma"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:424
+msgid "Enemy Lightning Res %"
+msgstr "Enemy Lightning Res %"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:504
+msgid "Enemy Numbed"
+msgstr "Enemy Numbed"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:466
+msgid "Enemy Paralyzed"
+msgstr "Enemy Paralyzed"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:520
@@ -450,6 +717,11 @@ msgid "Export Loadout"
 msgstr "Export Loadout"
 
 #. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:187
+msgid "Fervor"
+msgstr "Fervor"
+
+#. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:146
 msgid "Finisher Amplification"
 msgstr "Finisher Amplification"
@@ -464,7 +736,22 @@ msgstr "Fire Cannon"
 msgid "Fire Res"
 msgstr "Fire Res"
 
-#: src/components/builder/BuilderLayout.tsx:232
+#. js-lingui-explicit-id
+#: src/components/hero/EditMemoryModal.tsx:62
+msgid "Fixed"
+msgstr "Fixed"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateEditToolbar.tsx:117
+msgid "Flip Horizontal"
+msgstr "Flip Horizontal"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateEditToolbar.tsx:125
+msgid "Flip Vertical"
+msgstr "Flip Vertical"
+
+#: src/components/builder/BuilderLayout.tsx:252
 msgid "Export"
 msgstr "Export"
 
@@ -493,6 +780,61 @@ msgid "Gloves (STR)"
 msgstr "Gloves (STR)"
 
 #. js-lingui-explicit-id
+#: src/components/divinity/SlateCrafter.tsx:120
+msgid "God"
+msgstr "God"
+
+#. js-lingui-explicit-id
+#: src/routes/builder/talents/$slot.tsx:423
+msgid "God/Goddess Trees"
+msgstr "God/Goddess Trees"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:340
+msgid "Has Agility Blessing"
+msgstr "Has Agility Blessing"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:822
+msgid "Has Blur"
+msgstr "Has Blur"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:664
+msgid "Has Crit Recently"
+msgstr "Has Crit Recently"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:672
+msgid "Has Elites Nearby"
+msgstr "Has Elites Nearby"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:316
+msgid "Has Focus Blessing"
+msgstr "Has Focus Blessing"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:526
+msgid "Has Full Mana"
+msgstr "Has Full Mana"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:534
+msgid "Has Low Mana"
+msgstr "Has Low Mana"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:954
+msgid "Has Moved Recently"
+msgstr "Has Moved Recently"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:365
+msgid "Has Tenacity Blessing"
+msgstr "Has Tenacity Blessing"
+
+#. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:25
 msgid "Helmet"
 msgstr "Helmet"
@@ -517,11 +859,11 @@ msgstr "Helmet (STR)"
 msgid "Hero"
 msgstr "Hero"
 
-#: src/routes/index.tsx:415
+#: src/routes/index.tsx:424
 msgid "No builds yet"
 msgstr "No builds yet"
 
-#: src/routes/index.tsx:359
+#: src/routes/index.tsx:368
 msgid "The build code in the URL was invalid or could not be imported."
 msgstr "The build code in the URL was invalid or could not be imported."
 
@@ -535,6 +877,36 @@ msgid "Save Changes"
 msgstr "Save Changes"
 
 #. js-lingui-explicit-id
+#: src/routes/builder/skills.tsx:69
+msgid "Import Skills"
+msgstr "Import Skills"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/DivinityTab.tsx:82
+msgid "Import Slates"
+msgstr "Import Slates"
+
+#. js-lingui-explicit-id
+#: src/components/modals/ImportModal.tsx:37
+msgid "Invalid build code. Please check and try again."
+msgstr "Invalid build code. Please check and try again."
+
+#. js-lingui-explicit-id
+#: src/components/talents/InverseImageInventory.tsx:67
+msgid "Inverse Image Inventory"
+msgstr "Inverse Image Inventory"
+
+#. js-lingui-explicit-id
+#: src/components/talents/InverseImageSection.tsx:68
+msgid "Inverse Images"
+msgstr "Inverse Images"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:962
+msgid "Is Moving"
+msgstr "Is Moving"
+
+#. js-lingui-explicit-id
 #. placeholder {0}: totalIssues
 #: src/components/DebugPanel.tsx:422
 msgid "Issues"
@@ -546,14 +918,35 @@ msgid "Left Ring"
 msgstr "Left Ring"
 
 #. js-lingui-explicit-id
-#: src/components/talents/TalentNodeDisplay.tsx:84
+#: src/components/talents/PrismCrafter.tsx:230
+msgid "Legendary / Mutation Affix (optional)"
+msgstr "Legendary / Mutation Affix (optional)"
+
+#. js-lingui-explicit-id
+#: src/components/talents/PrismCrafter.tsx:89
+msgid "Legendary Gauge"
+msgstr "Legendary Gauge"
+
+#. js-lingui-explicit-id
+#: src/components/talents/TalentNodeDisplay.tsx:85
 msgid "Legendary Talent"
 msgstr "Legendary Talent"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:179
+#: src/components/hero/TraitSelector.tsx:342
+msgid "Level"
+msgstr "Level"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:545
 msgid "Lightning Res"
 msgstr "Lightning Res"
+
+#. js-lingui-explicit-id
+#: src/routes/builder/talents/$slot.tsx:542
+msgid "Loading tree..."
+msgstr "Loading tree..."
 
 #. placeholder {0}: formatDate(save.createdAt)
 #: src/routes/index.tsx:120
@@ -564,6 +957,11 @@ msgstr "Created: {0}"
 #: src/data/translate/equipment-types.ts:30
 msgid "Main Hand"
 msgstr "Main Hand"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:392
+msgid "Mana Consumed Recently"
+msgstr "Mana Consumed Recently"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:482
@@ -591,9 +989,19 @@ msgid "Max Tangles/Enemy"
 msgstr "Max Tangles/Enemy"
 
 #. js-lingui-explicit-id
-#: src/components/talents/TalentNodeDisplay.tsx:83
+#: src/components/talents/TalentNodeDisplay.tsx:84
 msgid "Medium Talent"
 msgstr "Medium Talent"
+
+#. js-lingui-explicit-id
+#: src/components/hero/MemoryInventory.tsx:62
+msgid "Memory Inventory"
+msgstr "Memory Inventory"
+
+#. js-lingui-explicit-id
+#: src/components/hero/EditMemoryModal.tsx:427
+msgid "Memory Type"
+msgstr "Memory Type"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:511
@@ -601,7 +1009,7 @@ msgid "Mercury"
 msgstr "Mercury"
 
 #. js-lingui-explicit-id
-#: src/components/talents/TalentNodeDisplay.tsx:81
+#: src/components/talents/TalentNodeDisplay.tsx:82
 msgid "Micro Talent"
 msgstr "Micro Talent"
 
@@ -628,6 +1036,11 @@ msgid "Musket"
 msgstr "Musket"
 
 #. js-lingui-explicit-id
+#: src/components/talents/PrismCrafter.tsx:95
+msgid "Mutation"
+msgstr "Mutation"
+
+#. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:32
 msgid "Neck"
 msgstr "Neck"
@@ -636,6 +1049,45 @@ msgstr "Neck"
 #: src/data/translate/equipment-types.ts:33
 msgid "Necklace"
 msgstr "Necklace"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateTooltipContent.tsx:61
+#: src/components/equipment/GearTooltipContent.tsx:61
+#: src/components/skills/SupportSkillSelectedTooltipContent.tsx:116
+msgid "No affixes"
+msgstr "No affixes"
+
+#. js-lingui-explicit-id
+#: src/components/hero/MemoryInventory.tsx:105
+msgid "No memories in inventory. Click \"Craft Memory\" to add one."
+msgstr "No memories in inventory. Click \"Craft Memory\" to add one."
+
+#. js-lingui-explicit-id
+#: src/components/hero/TraitSelector.tsx:310
+msgid "No memory"
+msgstr "No memory"
+
+#. js-lingui-explicit-id
+#: src/components/talents/PrismInventory.tsx:60
+msgid "No prisms crafted yet. Create one using the crafter!"
+msgstr "No prisms crafted yet. Create one using the crafter!"
+
+#. js-lingui-explicit-id
+#: src/components/hero/TraitSelector.tsx:264
+msgid "No traits available"
+msgstr "No traits available"
+
+#. js-lingui-explicit-id
+#: src/components/hero/TraitSelector.tsx:360
+msgid "No traits available at this level"
+msgstr "No traits available at this level"
+
+#. js-lingui-explicit-id
+#: src/routes/builder/talents/$slot.tsx:390
+#: src/routes/builder/talents/$slot.tsx:421
+#: src/routes/builder/talents/$slot.tsx:468
+msgid "None"
+msgstr "None"
 
 #: src/components/equipment/VoraxGearModule.tsx:767
 msgid "Corruption"
@@ -649,6 +1101,10 @@ msgstr "Base Affixes (2 max)"
 #: src/data/translate/equipment-types.ts:34
 msgid "Off Hand"
 msgstr "Off Hand"
+
+#: src/routes/builder/talents/$slot.tsx:446
+msgid "Reset"
+msgstr "Reset"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:35
@@ -665,7 +1121,7 @@ msgstr "One-Handed Hammer"
 msgid "One-Handed Sword"
 msgstr "One-Handed Sword"
 
-#: src/components/builder/BuilderLayout.tsx:224
+#: src/components/builder/BuilderLayout.tsx:244
 msgid "Debug"
 msgstr "Debug"
 
@@ -680,6 +1136,8 @@ msgid "Overload Interval"
 msgstr "Overload Interval"
 
 #. js-lingui-explicit-id
+#: src/components/pactspirit/PactspiritColumn.tsx:79
+#: src/components/pactspirit/PactspiritColumn.tsx:84
 #: src/data/translate/translate-tab.ts:8
 msgid "Pactspirit"
 msgstr "Pactspirit"
@@ -695,6 +1153,16 @@ msgid "Parsed"
 msgstr "Parsed"
 
 #. js-lingui-explicit-id
+#: src/routes/builder/skills.tsx:111
+msgid "Passive"
+msgstr "Passive"
+
+#. js-lingui-explicit-id
+#: src/components/modals/ImportModal.tsx:60
+msgid "Paste build code here..."
+msgstr "Paste build code here..."
+
+#. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:64
 msgid "Persistent DPS"
 msgstr "Persistent DPS"
@@ -705,9 +1173,74 @@ msgid "Pistol"
 msgstr "Pistol"
 
 #. js-lingui-explicit-id
+#: src/components/modals/ImportModal.tsx:27
+msgid "Please enter a build code"
+msgstr "Please enter a build code"
+
+#. js-lingui-explicit-id
+#: src/components/talents/PrismInventory.tsx:41
+msgid "Prism Inventory"
+msgstr "Prism Inventory"
+
+#. js-lingui-explicit-id
+#: src/routes/builder/talents/$slot.tsx:431
+msgid "Profession Trees"
+msgstr "Profession Trees"
+
+#. js-lingui-explicit-id
+#: src/components/hero/EditMemoryModal.tsx:62
+msgid "Random"
+msgstr "Random"
+
+#. js-lingui-explicit-id
+#: src/components/talents/PrismCrafter.tsx:80
+msgid "Rare"
+msgstr "Rare"
+
+#. js-lingui-explicit-id
+#: src/components/talents/PrismCrafter.tsx:202
+msgid "Rare Gauge Affix (optional)"
+msgstr "Rare Gauge Affix (optional)"
+
+#. js-lingui-explicit-id
+#: src/components/talents/PrismCrafter.tsx:140
+msgid "Rarity"
+msgstr "Rarity"
+
+#. js-lingui-explicit-id
 #: src/components/DebugPanel.tsx:420
 msgid "Raw"
 msgstr "Raw"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:243
+msgid "Realm of Mercury"
+msgstr "Realm of Mercury"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateEditToolbar.tsx:141
+msgid "Remove from Grid"
+msgstr "Remove from Grid"
+
+#. js-lingui-explicit-id
+#: src/components/talents/TalentNodeDisplay.tsx:269
+msgid "Remove inverse image"
+msgstr "Remove inverse image"
+
+#. js-lingui-explicit-id
+#: src/components/talents/TalentNodeDisplay.tsx:156
+msgid "Remove prism"
+msgstr "Remove prism"
+
+#. js-lingui-explicit-id
+#: src/routes/builder/talents/$slot.tsx:145
+msgid "Reset all points in this tree? This cannot be undone."
+msgstr "Reset all points in this tree? This cannot be undone."
+
+#. js-lingui-explicit-id
+#: src/components/talents/InverseImageInventory.tsx:53
+msgid "Reset the tree's points to 0 before placing an inverse image."
+msgstr "Reset the tree's points to 0 before placing an inverse image."
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:39
@@ -723,6 +1256,16 @@ msgstr "Ring"
 #: src/data/translate/equipment-types.ts:41
 msgid "Rod"
 msgstr "Rod"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateEditToolbar.tsx:101
+msgid "Rotate Left"
+msgstr "Rotate Left"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateEditToolbar.tsx:109
+msgid "Rotate Right"
+msgstr "Rotate Right"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:467
@@ -745,14 +1288,122 @@ msgid "Sealed Mana"
 msgstr "Sealed Mana"
 
 #. js-lingui-explicit-id
+#: src/components/talents/PrismCrafter.tsx:236
+msgid "Search legendary / mutation affixes..."
+msgstr "Search legendary / mutation affixes..."
+
+#. js-lingui-explicit-id
+#: src/components/talents/PrismCrafter.tsx:208
+msgid "Search rare gauge affixes..."
+msgstr "Search rare gauge affixes..."
+
+#. js-lingui-explicit-id
 #: src/components/DebugPanel.tsx:476
 msgid "Search..."
 msgstr "Search..."
 
 #. js-lingui-explicit-id
+#: src/components/equipment/LegendaryGearModule.tsx:346
+msgid "Select a blend..."
+msgstr "Select a blend..."
+
+#. js-lingui-explicit-id
+#: src/components/hero/TraitSelector.tsx:265
+#: src/components/hero/TraitSelector.tsx:361
+msgid "Select a hero to view traits"
+msgstr "Select a hero to view traits"
+
+#. js-lingui-explicit-id
+#: src/components/hero/HeroSelector.tsx:28
+msgid "Select a hero..."
+msgstr "Select a hero..."
+
+#. js-lingui-explicit-id
+#: src/components/equipment/LegendaryGearModule.tsx:329
+msgid "Select a legendary..."
+msgstr "Select a legendary..."
+
+#. js-lingui-explicit-id
+#: src/components/hero/EditMemoryModal.tsx:138
+msgid "Select a memory type to preview"
+msgstr "Select a memory type to preview"
+
+#. js-lingui-explicit-id
+#: src/components/pactspirit/PactspiritColumn.tsx:169
+msgid "Select a pactspirit to configure ring slots"
+msgstr "Select a pactspirit to configure ring slots"
+
+#. js-lingui-explicit-id
+#: src/components/equipment/VoraxGearModule.tsx:838
+msgid "Select a vorax limb..."
+msgstr "Select a vorax limb..."
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:369
+#: src/components/divinity/SlateCrafter.tsx:226
+#: src/components/equipment/VoraxGearModule.tsx:280
+msgid "Select affix..."
+msgstr "Select affix..."
+
+#. js-lingui-explicit-id
+#: src/components/equipment/LegendaryAffixRow.tsx:97
+#: src/components/equipment/VoraxGearModule.tsx:297
+msgid "Select an option..."
+msgstr "Select an option..."
+
+#. js-lingui-explicit-id
+#: src/components/talents/PrismCrafter.tsx:184
+msgid "Select area expansion..."
+msgstr "Select area expansion..."
+
+#. js-lingui-explicit-id
+#: src/components/equipment/VoraxGearModule.tsx:853
+#: src/components/talents/PrismCrafter.tsx:167
+msgid "Select base affix..."
+msgstr "Select base affix..."
+
+#. js-lingui-explicit-id
+#: src/components/hero/EditMemoryModal.tsx:505
+msgid "Select base stat..."
+msgstr "Select base stat..."
+
+#. js-lingui-explicit-id
 #: src/components/equipment/EditGearModal.tsx:719
 msgid "Select equipment type..."
 msgstr "Select equipment type..."
+
+#. js-lingui-explicit-id
+#: src/components/equipment/VoraxGearModule.tsx:272
+msgid "Select legendary..."
+msgstr "Select legendary..."
+
+#. js-lingui-explicit-id
+#: src/components/hero/EditMemoryModal.tsx:480
+msgid "Select level..."
+msgstr "Select level..."
+
+#. js-lingui-explicit-id
+#: src/components/hero/EditMemoryModal.tsx:438
+msgid "Select memory type..."
+msgstr "Select memory type..."
+
+#. js-lingui-explicit-id
+#: src/components/hero/EditMemoryModal.tsx:461
+msgid "Select rarity..."
+msgstr "Select rarity..."
+
+#. js-lingui-explicit-id
+#. placeholder {0}: type === "fixed" ? i18n._("Fixed") : i18n._("Random")
+#. placeholder {1}: slotIndex + 1
+#: src/components/hero/EditMemoryModal.tsx:61
+msgid "Select {0} Affix {1}"
+msgstr "Select {0} Affix {1}"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:245
+#: src/components/divinity/SlateCrafter.tsx:141
+msgid "Shape & Orientation"
+msgstr "Shape & Orientation"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:43
@@ -783,6 +1434,17 @@ msgstr "Skills"
 #: src/components/builder/StatsPanel.tsx:165
 msgid "Slash Strike DPS"
 msgstr "Slash Strike DPS"
+
+#. js-lingui-explicit-id
+#: src/routes/builder/talents/$slot.tsx:393
+msgid "Slot 1"
+msgstr "Slot 1"
+
+#. js-lingui-explicit-id
+#. placeholder {0}: treeSlot.slice(-1)
+#: src/routes/builder/talents/$slot.tsx:394
+msgid "Slot {0}"
+msgstr "Slot {0}"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:568
@@ -825,9 +1487,34 @@ msgid "Sweep Avg Hit"
 msgstr "Sweep Avg Hit"
 
 #. js-lingui-explicit-id
+#: src/components/talents/InverseImageInventory.tsx:47
+msgid "Switch to a Profession Tree (Slots 2-4) to place the inverse image."
+msgstr "Switch to a Profession Tree (Slots 2-4) to place the inverse image."
+
+#. js-lingui-explicit-id
+#: src/components/talents/PrismInventory.tsx:51
+msgid "Switch to a Profession Tree (Slots 2-4) to place the prism."
+msgstr "Switch to a Profession Tree (Slots 2-4) to place the prism."
+
+#. js-lingui-explicit-id
+#: src/components/talents/InverseImageInventory.tsx:50
+msgid "Switch to a tree without a prism to place the inverse image."
+msgstr "Switch to a tree without a prism to place the inverse image."
+
+#. js-lingui-explicit-id
 #: src/data/translate/translate-tab.ts:5
 msgid "Talents"
 msgstr "Talents"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:611
+msgid "Target Enemy Marked"
+msgstr "Target Enemy Marked"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:542
+msgid "Target Is Elite"
+msgstr "Target Is Elite"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:47
@@ -864,13 +1551,15 @@ msgstr "Two-Handed Sword"
 #~ msgid "Untitled"
 #~ msgstr "Untitled"
 
-#: src/routes/index.tsx:378
+#: src/routes/index.tsx:387
 msgid "My Builds"
 msgstr "My Builds"
 
 #: src/components/equipment/EditGearModal.tsx:950
 #: src/components/equipment/LegendaryGearModule.tsx:394
 #: src/components/equipment/VoraxGearModule.tsx:935
+#: src/components/hero/HeroMemoryItem.tsx:76
+#: src/components/hero/TraitSelector.tsx:55
 msgid "No affixes"
 msgstr "No affixes"
 
@@ -937,6 +1626,10 @@ msgstr "chars"
 msgid "Delete"
 msgstr "Delete"
 
+#: src/components/hero/EditMemoryModal.tsx:72
+msgid "Quality"
+msgstr "Quality"
+
 #: src/components/equipment/EditGearModal.tsx:878
 #: src/components/equipment/VoraxGearModule.tsx:871
 msgid "Prefixes (3 max)"
@@ -965,9 +1658,17 @@ msgstr "Edit"
 msgid "Blending (1 max)"
 msgstr "Blending (1 max)"
 
-#: src/components/talents/PrismSection.tsx:66
+#: src/components/hero/EditMemoryModal.tsx:515
+msgid "Fixed Affixes (2 max)"
+msgstr "Fixed Affixes (2 max)"
+
+#: src/components/talents/PrismSection.tsx:67
 msgid "Prisms"
 msgstr "Prisms"
+
+#: src/components/hero/TraitSelector.tsx:393
+msgid "Hero Traits"
+msgstr "Hero Traits"
 
 #: src/components/builder/StatsPanel.tsx:462
 msgid "Select an active skill in the Calculations tab to view damage stats."
@@ -990,6 +1691,11 @@ msgstr "Suffixes (3 max)"
 #: src/components/modals/ExportModal.tsx:92
 msgid "Copy Code"
 msgstr "Copy Code"
+
+#. js-lingui-explicit-id
+#: src/components/hero/MemoryInventory.tsx:62
+msgid "items"
+msgstr "items"
 
 #: src/components/equipment/EditGearModal.tsx:802
 msgid "Sweet Dream Affix (1 max)"
@@ -1036,6 +1742,7 @@ msgid "Are you sure you want to delete \"{0}\"?"
 msgstr "Are you sure you want to delete \"{0}\"?"
 
 #: src/components/equipment/VoraxGearModule.tsx:779
+#: src/components/talents/TalentNodeDisplay.tsx:172
 #: src/routes/builder/equipment.tsx:161
 msgid "Legendary"
 msgstr "Legendary"
@@ -1044,20 +1751,32 @@ msgstr "Legendary"
 msgid "Select Legendary"
 msgstr "Select Legendary"
 
+#: src/components/hero/HeroMemoryItem.tsx:38
+msgid "Equipped"
+msgstr "Equipped"
+
 #: src/components/builder/BuilderLayout.tsx:184
 #: src/components/equipment/EditGearModal.tsx:968
 #: src/routes/index.tsx:103
 msgid "Save"
 msgstr "Save"
 
-#: src/components/builder/BuilderLayout.tsx:212
-#: src/routes/index.tsx:344
+#: src/components/builder/BuilderLayout.tsx:232
+#: src/routes/index.tsx:353
 msgid "About"
 msgstr "About"
+
+#: src/components/hero/HeroSelector.tsx:20
+msgid "Select Hero"
+msgstr "Select Hero"
 
 #: src/components/equipment/EditGearModal.tsx:765
 msgid "Clear"
 msgstr "Clear"
+
+#: src/components/hero/EditMemoryModal.tsx:560
+msgid "Random Affixes (2 max)"
+msgstr "Random Affixes (2 max)"
 
 #: src/components/equipment/VoraxGearModule.tsx:779
 msgid "Regular"
@@ -1073,6 +1792,10 @@ msgstr "Torchlight of Building"
 msgid "Close"
 msgstr "Close"
 
-#: src/routes/index.tsx:356
+#: src/routes/index.tsx:365
 msgid "Import Failed"
 msgstr "Import Failed"
+
+#: src/components/talents/TalentNodeDisplay.tsx:172
+msgid "Rare"
+msgstr "Rare"

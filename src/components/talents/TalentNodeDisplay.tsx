@@ -1,3 +1,4 @@
+import { Trans } from "@lingui/react/macro";
 import { i18n } from "@lingui/core";
 import {
   Tooltip,
@@ -152,8 +153,8 @@ export const TalentNodeDisplay: React.FC<TalentNodeDisplayProps> = ({
               }`}
               title={
                 canRemovePrism
-                  ? "Remove prism"
-                  : "Cannot remove: dependent nodes have points allocated"
+                  ? i18n._("Remove prism")
+                  : i18n._("Cannot remove: dependent nodes have points allocated")
               }
             >
               ×
@@ -168,7 +169,7 @@ export const TalentNodeDisplay: React.FC<TalentNodeDisplayProps> = ({
         >
           <TooltipTitle>
             <span className="text-purple-400">
-              {prism.rarity === "legendary" ? "Legendary" : "Rare"} Prism
+              {prism.rarity === "legendary" ? <Trans>Legendary</Trans> : <Trans>Rare</Trans>} <Trans>Prism</Trans>
             </span>
           </TooltipTitle>
           <TooltipContent>{prism.baseAffix}</TooltipContent>
@@ -265,8 +266,8 @@ export const TalentNodeDisplay: React.FC<TalentNodeDisplayProps> = ({
               }`}
               title={
                 canRemoveInverseImage
-                  ? "Remove inverse image"
-                  : "Cannot remove: tree must have 0 allocated points"
+                  ? i18n._("Remove inverse image")
+                  : i18n._("Cannot remove: tree must have 0 allocated points")
               }
             >
               ×

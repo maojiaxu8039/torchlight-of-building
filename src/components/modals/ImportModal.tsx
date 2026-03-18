@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { i18n } from "@/src/lib/i18n";
 import {
   Modal,
   ModalActions,
@@ -23,7 +24,7 @@ export const ImportModal = ({
   const handleImport = () => {
     const trimmed = inputValue.trim();
     if (!trimmed) {
-      setError("Please enter a build code");
+      setError(i18n._("Please enter a build code"));
       return;
     }
 
@@ -33,7 +34,7 @@ export const ImportModal = ({
       setError(undefined);
       onClose();
     } else {
-      setError("Invalid build code. Please check and try again.");
+      setError(i18n._("Invalid build code. Please check and try again."));
     }
   };
 
@@ -56,7 +57,7 @@ export const ImportModal = ({
           setInputValue(e.target.value);
           setError(undefined);
         }}
-        placeholder="Paste build code here..."
+        placeholder={i18n._("Paste build code here...")}
         className="w-full h-24 p-3 bg-zinc-800 text-zinc-50 rounded-lg border border-zinc-700 focus:outline-none focus:ring-2 focus:ring-amber-500/30 focus:border-amber-500 resize-none font-mono text-sm placeholder:text-zinc-500"
         onKeyDown={(e) => {
           if (e.key === "Enter" && (e.metaKey || e.ctrlKey)) {

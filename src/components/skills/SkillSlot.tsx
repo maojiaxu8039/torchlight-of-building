@@ -117,7 +117,7 @@ export const SkillSlot: React.FC<SkillSlotProps> = ({
                     label: i18n._(s.name),
                   }),
                 )}
-                placeholder="<Empty slot>"
+                placeholder={i18n._("<Empty slot>")}
                 size="sm"
                 className="w-48"
                 renderOption={renderOption}

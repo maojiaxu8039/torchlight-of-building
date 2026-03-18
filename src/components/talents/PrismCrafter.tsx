@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import { i18n } from "@/src/lib/i18n";
 import {
   SearchableSelect,
   type SearchableSelectOption,
@@ -76,7 +77,7 @@ export const PrismCrafter: React.FC<PrismCrafterProps> = ({
     return getRareGaugeAffixes().map((affix) => ({
       value: affix.affix,
       label: affix.affix.split("\n")[0],
-      sublabel: "Rare",
+      sublabel: i18n._("Rare"),
     }));
   }, []);
 
@@ -85,13 +86,13 @@ export const PrismCrafter: React.FC<PrismCrafterProps> = ({
       const gaugeAffixes = getLegendaryGaugeAffixes().map((affix) => ({
         value: affix.affix,
         label: affix.affix.split("\n")[0],
-        sublabel: "Legendary Gauge",
+        sublabel: i18n._("Legendary Gauge"),
       }));
 
       const mutationAffixes = getMutationAffixes().map((affix) => ({
         value: affix.affix,
         label: affix.affix.split("\n").at(-1) ?? affix.affix,
-        sublabel: "Mutation",
+        sublabel: i18n._("Mutation"),
       }));
 
       return [...gaugeAffixes, ...mutationAffixes];
@@ -136,7 +137,7 @@ export const PrismCrafter: React.FC<PrismCrafterProps> = ({
   return (
     <div>
       <div className="mb-4">
-        <label className="mb-2 block text-sm text-zinc-400">Rarity</label>
+        <label className="mb-2 block text-sm text-zinc-400">{i18n._("Rarity")}</label>
         <div className="flex gap-2">
           {PRISM_RARITIES.map((r) => (
             <button
@@ -151,19 +152,19 @@ export const PrismCrafter: React.FC<PrismCrafterProps> = ({
                   : "bg-zinc-700 text-zinc-300 hover:bg-zinc-600"
               }`}
             >
-              {r}
+              {i18n._(r === "rare" ? "Rare" : "Legendary")}
             </button>
           ))}
         </div>
       </div>
 
       <div className="mb-4">
-        <label className="mb-2 block text-sm text-zinc-400">Base Affix</label>
+        <label className="mb-2 block text-sm text-zinc-400">{i18n._("Base Affix")}</label>
         <SearchableSelect
           value={baseAffix}
           onChange={setBaseAffix}
           options={baseAffixOptions}
-          placeholder="Select base affix..."
+          placeholder={i18n._("Select base affix...")}
         />
         {baseAffix !== undefined && (
           <div className="mt-2 rounded bg-zinc-900 p-2 text-xs text-zinc-300 whitespace-pre-line">
@@ -174,13 +175,13 @@ export const PrismCrafter: React.FC<PrismCrafterProps> = ({
 
       <div className="mb-4">
         <label className="mb-2 block text-sm text-zinc-400">
-          Area Expansion (optional)
+          {i18n._("Area Expansion (optional)")}
         </label>
         <SearchableSelect
           value={areaAffix}
           onChange={setAreaAffix}
           options={areaAffixOptions}
-          placeholder="Select area expansion..."
+          placeholder={i18n._("Select area expansion...")}
         />
         {areaAffix !== undefined && (
           <div className="mt-1 flex items-center gap-2">
@@ -198,13 +199,13 @@ export const PrismCrafter: React.FC<PrismCrafterProps> = ({
 
       <div className="mb-4">
         <label className="mb-2 block text-sm text-zinc-400">
-          Rare Gauge Affix (optional)
+          {i18n._("Rare Gauge Affix (optional)")}
         </label>
         <SearchableSelect
           value={rareAffix}
           onChange={setRareAffix}
           options={rareGaugeOptions}
-          placeholder="Search rare gauge affixes..."
+          placeholder={i18n._("Search rare gauge affixes...")}
         />
         {rareAffix !== undefined && (
           <div className="mt-1 flex items-center gap-2">
@@ -226,13 +227,13 @@ export const PrismCrafter: React.FC<PrismCrafterProps> = ({
       {rarity === "legendary" && (
         <div className="mb-4">
           <label className="mb-2 block text-sm text-zinc-400">
-            Legendary / Mutation Affix (optional)
+            {i18n._("Legendary / Mutation Affix (optional)")}
           </label>
           <SearchableSelect
             value={legendaryAffix}
             onChange={setLegendaryAffix}
             options={legendaryGaugeOptions}
-            placeholder="Search legendary / mutation affixes..."
+            placeholder={i18n._("Search legendary / mutation affixes...")}
           />
           {legendaryAffix !== undefined && (
             <div className="mt-1 flex items-center gap-2">
@@ -259,7 +260,7 @@ export const PrismCrafter: React.FC<PrismCrafterProps> = ({
           disabled={!canSave}
           className="flex-1 rounded bg-amber-600 px-4 py-2 text-white transition-colors hover:bg-amber-500 disabled:cursor-not-allowed disabled:bg-zinc-600"
         >
-          {editingPrism !== undefined ? "Update Prism" : "Save to Inventory"}
+          {i18n._(editingPrism !== undefined ? "Update Prism" : "Save to Inventory")}
         </button>
         {onCancel !== undefined && (
           <button
@@ -267,7 +268,7 @@ export const PrismCrafter: React.FC<PrismCrafterProps> = ({
             onClick={onCancel}
             className="rounded bg-zinc-700 px-4 py-2 text-zinc-200 transition-colors hover:bg-zinc-600"
           >
-            Cancel
+            {i18n._("Cancel")}
           </button>
         )}
       </div>

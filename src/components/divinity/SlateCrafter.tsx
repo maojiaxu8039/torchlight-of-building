@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { i18n } from "@/src/lib/i18n";
 import {
   SearchableSelect,
   type SearchableSelectOption,
@@ -113,10 +114,10 @@ export const SlateCrafter: React.FC<SlateCrafterProps> = ({ onSave }) => {
 
   return (
     <div className="rounded-lg border border-zinc-700 bg-zinc-800 p-4">
-      <h3 className="mb-4 text-lg font-medium text-zinc-200">Craft Slate</h3>
+      <h3 className="mb-4 text-lg font-medium text-zinc-200">{i18n._("Craft Slate")}</h3>
 
       <div className="mb-4">
-        <label className="mb-2 block text-sm text-zinc-400">God</label>
+        <label className="mb-2 block text-sm text-zinc-400">{i18n._("God")}</label>
         <div className="flex flex-wrap gap-2">
           {DIVINITY_GODS.map((g) => (
             <button
@@ -137,7 +138,7 @@ export const SlateCrafter: React.FC<SlateCrafterProps> = ({ onSave }) => {
 
       <div className="mb-4">
         <label className="mb-2 block text-sm text-zinc-400">
-          Shape & Orientation
+          {i18n._("Shape & Orientation")}
         </label>
         <div className="flex gap-4 items-start">
           <div className="flex flex-col gap-2">
@@ -222,7 +223,7 @@ export const SlateCrafter: React.FC<SlateCrafterProps> = ({ onSave }) => {
                     value={affix?.effect}
                     onChange={(value) => handleSlotChange(slotIndex, value)}
                     options={getOptionsForSlot(slotIndex)}
-                    placeholder="Select affix..."
+                    placeholder={i18n._("Select affix...")}
                   />
                 </div>
                 {affix !== undefined && (

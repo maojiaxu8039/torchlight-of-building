@@ -1,4 +1,5 @@
 import { TooltipContent, TooltipTitle } from "@/src/components/ui/Tooltip";
+import { i18n } from "@/src/lib/i18n";
 import type { BaseSkill } from "@/src/data/skill/types";
 import type { BaseSupportSkillSlot, SupportAffix } from "@/src/tli/core";
 
@@ -112,7 +113,7 @@ export const SupportSkillSelectedTooltipContent: React.FC<
           })}
         </div>
       ) : (
-        <div className="text-xs text-zinc-500 italic">No affixes</div>
+        <div className="text-xs text-zinc-500 italic">{i18n._("No affixes")}</div>
       )}
     </>
   );

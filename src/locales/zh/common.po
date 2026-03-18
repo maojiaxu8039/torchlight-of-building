@@ -33,9 +33,9 @@ msgstr "基底词缀 (1 max)"
 
 #: src/routes/builder/talents/$slot.tsx:408
 msgid "Tree"
-msgstr ""
+msgstr "天赋树"
 
-#: src/routes/index.tsx:418
+#: src/routes/index.tsx:427
 msgid "Create your first character build to get started"
 msgstr "创建您的第一个角色流派以开始使用"
 
@@ -46,12 +46,12 @@ msgstr "展开"
 #: src/components/equipment/EditGearModal.tsx:934
 #: src/components/equipment/VoraxGearModule.tsx:919
 msgid "Enter raw affix text, one per line. Use this for affixes not available in the dropdowns above."
-msgstr ""
+msgstr "输入原始词缀文本，每行一个。用于下拉菜单中不可用的词缀。"
 
 #: src/components/equipment/EditGearModal.tsx:922
 #: src/components/equipment/VoraxGearModule.tsx:907
 msgid "Custom Affixes"
-msgstr ""
+msgstr "自定义词缀"
 
 #: src/routes/index.tsx:168
 msgid "Rename"
@@ -61,15 +61,27 @@ msgstr "重命名"
 msgid "Minimize"
 msgstr "最小化"
 
+#: src/components/talents/PrismSection.tsx:74
+msgid "Craft Prism"
+msgstr "制作棱镜"
+
+#: src/routes/builder/skills.tsx:105
+msgid "Passive Skills"
+msgstr "被动技能"
+
+#: src/components/talents/TalentNodeDisplay.tsx:172
+msgid "Prism"
+msgstr "棱镜"
+
 #: src/components/modals/ExportModal.tsx:77
 msgid "Show raw build code"
 msgstr "显示原始构建代码"
 
 #: src/components/equipment/VoraxGearModule.tsx:832
 msgid "Vorax Limb"
-msgstr ""
+msgstr "Vorax肢体"
 
-#: src/routes/index.tsx:391
+#: src/routes/index.tsx:400
 msgid "Create New"
 msgstr "新建"
 
@@ -80,6 +92,22 @@ msgstr "制作新物品"
 #: src/routes/builder/equipment.tsx:238
 msgid "No items in inventory. Craft items above to add them here."
 msgstr "库存中没有物品。在上方制作物品以添加到此处。"
+
+#. js-lingui-explicit-id
+#: src/components/skills/SkillSlot.tsx:120
+#: src/components/skills/SupportSkillSelector.tsx:390
+msgid "<Empty slot>"
+msgstr "空槽位"
+
+#. js-lingui-explicit-id
+#: src/components/pactspirit/PactspiritColumn.tsx:93
+msgid "<Select Pactspirit>"
+msgstr "<选择契灵>"
+
+#. js-lingui-explicit-id
+#: src/components/talents/PrismInventory.tsx:48
+msgid "A prism is already placed. Remove it first to place a different one."
+msgstr "已放置棱镜。需先移除才能放置不同的棱镜。"
 
 #: src/components/equipment/EditGearModal.tsx:966
 #: src/components/equipment/LegendaryGearModule.tsx:409
@@ -93,20 +121,55 @@ msgid "About"
 msgstr "关于"
 
 #. js-lingui-explicit-id
-#: src/routes/builder/skills.tsx:81
+#: src/components/skills/SupportSkillSelector.tsx:214
+msgid "Activation Medium"
+msgstr "触媒技能"
+
+#. js-lingui-explicit-id
+#: src/routes/builder/skills.tsx:89
+msgid "Active"
+msgstr "主动"
+
+#. js-lingui-explicit-id
+#: src/routes/builder/skills.tsx:82
 msgid "Active Skills"
 msgstr "主动技能"
 
 #. js-lingui-explicit-id
 #: src/components/equipment/LegendaryGearModule.tsx:313
 msgid "Add Legendary"
-msgstr ""
+msgstr "添加传奇装备"
 
 #. js-lingui-explicit-id
 #. placeholder {0}: loadoutAffixLines.length
 #: src/components/DebugPanel.tsx:423
 msgid "Affixes"
 msgstr "词缀"
+
+#. js-lingui-explicit-id
+#: src/components/talents/InverseImageCrafter.tsx:117
+msgid "All Reflected Legendary Medium Talent Effects"
+msgstr "所有反射传奇中型天赋效果"
+
+#. js-lingui-explicit-id
+#: src/components/talents/InverseImageCrafter.tsx:90
+msgid "All Reflected Medium Talent Effects"
+msgstr "所有反射中型天赋效果"
+
+#. js-lingui-explicit-id
+#: src/components/talents/InverseImageCrafter.tsx:63
+msgid "All Reflected Micro Talent Effects"
+msgstr "所有反射微小天赋效果"
+
+#. js-lingui-explicit-id
+#: src/components/talents/InverseImageInventory.tsx:43
+msgid "An inverse image is already placed. Remove it first to place a different one."
+msgstr "已放置反向图像。需先移除才能放置不同的反向图像。"
+
+#. js-lingui-explicit-id
+#: src/components/talents/PrismCrafter.tsx:178
+msgid "Area Expansion (optional)"
+msgstr "区域扩展（可选）"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:526
@@ -133,6 +196,11 @@ msgstr "攻击速度 (主手)"
 #: src/components/builder/StatsPanel.tsx:362
 msgid "Attack Speed (OH)"
 msgstr "攻击速度 (副手)"
+
+#. js-lingui-explicit-id
+#: src/components/hero/TraitSelector.tsx:342
+msgid "Auto-selected"
+msgstr "自动选择"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:289
@@ -171,6 +239,11 @@ msgid "Avg Hit crit (OH)"
 msgstr "平均暴击伤害 (副手)"
 
 #. js-lingui-explicit-id
+#: src/components/talents/PrismCrafter.tsx:162
+msgid "Base Affix"
+msgstr "基础词缀"
+
+#. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:4
 #: src/data/translate/equipment-types.ts:5
 msgid "Belt"
@@ -180,6 +253,11 @@ msgstr "腰带"
 #: src/components/builder/StatsPanel.tsx:573
 msgid "Block Ratio"
 msgstr "格挡率"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:830
+msgid "Blur Ended Recently"
+msgstr "模糊最近结束"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:6
@@ -227,14 +305,46 @@ msgid "Calculations"
 msgstr "计算"
 
 #. js-lingui-explicit-id
+#: src/components/hero/EditMemoryModal.tsx:620
+#: src/components/talents/InverseImageCrafter.tsx:169
+#: src/components/talents/PrismCrafter.tsx:271
+msgid "Cancel"
+msgstr "取消"
+
+#. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:11
 msgid "Cane"
 msgstr "手杖"
 
 #. js-lingui-explicit-id
+#: src/components/talents/TalentNodeDisplay.tsx:157
+msgid "Cannot remove: dependent nodes have points allocated"
+msgstr "无法移除：依赖节点已分配点数"
+
+#. js-lingui-explicit-id
+#: src/components/talents/TalentNodeDisplay.tsx:270
+msgid "Cannot remove: tree must have 0 allocated points"
+msgstr "无法移除：天赋树必须为0分配点数"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:970
+msgid "Cast Curse Recently"
+msgstr "最近施放诅咒"
+
+#. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:125
 msgid "Casts/sec"
 msgstr "施法/秒"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateEditToolbar.tsx:133
+msgid "Change Shape"
+msgstr "更改形状"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:698
+msgid "Channeling"
+msgstr "引导"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:12
@@ -262,6 +372,26 @@ msgid "Claw"
 msgstr "爪"
 
 #. js-lingui-explicit-id
+#: src/components/talents/PrismInventory.tsx:53
+msgid "Click a prism to select it for placement."
+msgstr "点击棱镜选择放置。"
+
+#. js-lingui-explicit-id
+#: src/components/talents/InverseImageInventory.tsx:57
+msgid "Click an inverse image to select it for placement."
+msgstr "点击反向图像选择放置。"
+
+#. js-lingui-explicit-id
+#: src/components/talents/InverseImageInventory.tsx:55
+msgid "Click on an empty talent node (not in center column) to place the inverse image, or click it again to deselect."
+msgstr "点击空白天赋节点（非中间列）放置反向图像，或再次点击取消选择。"
+
+#. js-lingui-explicit-id
+#: src/components/talents/PrismInventory.tsx:52
+msgid "Click on an empty talent node to place the prism, or click the prism again to deselect."
+msgstr "点击空白天赋节点放置棱镜，或再次点击取消选择。"
+
+#. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:540
 msgid "Cold Res"
 msgstr "冰抗"
@@ -277,30 +407,62 @@ msgid "Combo Points"
 msgstr "连击点数"
 
 #. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:164
 #: src/data/translate/translate-tab.ts:10
 msgid "Configuration"
 msgstr "配置"
 
 #. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:166
+msgid "Configure combat conditions and buff stacks for damage calculations."
+msgstr "配置战斗条件和增益层数用于伤害计算。"
+
+#. js-lingui-explicit-id
 #: src/components/modals/ExportModal.tsx:92
 #: src/components/modals/ExportModal.tsx:105
 msgid "Copied!"
-msgstr ""
+msgstr "已复制！"
+
+#. js-lingui-explicit-id
+#: src/components/hero/MemoryInventory.tsx:87
+msgid "Copy"
+msgstr "复制"
 
 #. js-lingui-explicit-id
 #: src/components/talents/CoreTalentSelector.tsx:60
 msgid "Core Talent 1"
-msgstr ""
+msgstr "核心天赋1"
 
 #. js-lingui-explicit-id
 #: src/components/talents/CoreTalentSelector.tsx:67
 msgid "Core Talent 2"
-msgstr ""
+msgstr "核心天赋2"
+
+#. js-lingui-explicit-id
+#: src/components/hero/EditMemoryModal.tsx:412
+msgid "Craft Hero Memory"
+msgstr "制作英雄记忆"
+
+#. js-lingui-explicit-id
+#: src/components/talents/InverseImageSection.tsx:74
+#: src/components/talents/InverseImageSection.tsx:95
+msgid "Craft Inverse Image"
+msgstr "制作反向图像"
+
+#. js-lingui-explicit-id
+#: src/components/hero/HeroTab.tsx:43
+msgid "Craft Memory"
+msgstr "制作记忆"
 
 #. js-lingui-explicit-id
 #: src/components/equipment/EditGearModal.tsx:692
 msgid "Craft New Item"
-msgstr ""
+msgstr "制作新物品"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateCrafter.tsx:117
+msgid "Craft Slate"
+msgstr "制作神板"
 
 #. js-lingui-explicit-id
 #: src/components/equipment/VoraxGearModule.tsx:677
@@ -337,6 +499,11 @@ msgstr "暴击伤害加成"
 msgid "Crossbow"
 msgstr "弩"
 
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:235
+msgid "Cruelty Buff Stacks"
+msgstr "残忍增益层数"
+
 #: src/components/equipment/VoraxGearModule.tsx:767
 #: src/routes/builder/equipment.tsx:154
 msgid "Normal"
@@ -345,7 +512,17 @@ msgstr "普通"
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:18
 msgid "Cudgel"
-msgstr "武杖"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:402
+msgid "Current Life %"
+msgstr "当前生命 %"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:134
+msgid "Custom Affixes"
+msgstr "自定义词缀"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:471
@@ -358,7 +535,7 @@ msgid "Dagger"
 msgstr "匕首"
 
 #. js-lingui-explicit-id
-#: src/components/builder/BuilderLayout.tsx:224
+#: src/components/builder/BuilderLayout.tsx:244
 msgid "Debug ON"
 msgstr "调试开启"
 
@@ -366,12 +543,12 @@ msgstr "调试开启"
 #. placeholder {0}: loadoutAffixLines.length
 #: src/components/DebugPanel.tsx:415
 msgid "Debug: Affixes"
-msgstr ""
+msgstr "调试：词缀"
 
 #. js-lingui-explicit-id
 #: src/components/DebugPanel.tsx:413
 msgid "Debug: Loadout (Parsed)"
-msgstr ""
+msgstr "调试：配装（已解析）"
 
 #. js-lingui-explicit-id
 #: src/components/DebugPanel.tsx:411
@@ -389,9 +566,19 @@ msgstr "调试：保存数据（原始）"
 msgid "Debug: Unimplemented"
 msgstr "调试：未实现"
 
-#: src/routes/index.tsx:427
+#. js-lingui-explicit-id
+#: src/components/hero/MemoryInventory.tsx:99
+msgid "Delete"
+msgstr "删除"
+
+#: src/routes/index.tsx:436
 msgid "Create New Build"
 msgstr "创建新流派"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/DivinityTab.tsx:64
+msgid "Divinity Grid"
+msgstr "神格网格"
 
 #. js-lingui-explicit-id
 #: src/data/translate/translate-tab.ts:9
@@ -412,14 +599,94 @@ msgstr "持续时间加成"
 msgid "Copy URL"
 msgstr "复制链接"
 
-#: src/routes/index.tsx:385
+#: src/routes/index.tsx:394
 msgid "Import Build"
 msgstr "导入流派"
 
 #. js-lingui-explicit-id
+#: src/components/hero/MemoryInventory.tsx:75
+msgid "Edit"
+msgstr "编辑"
+
+#. js-lingui-explicit-id
+#: src/components/skills/ActivationMediumEditModal.tsx:285
+msgid "Edit Activation Medium"
+msgstr "编辑触媒技能"
+
+#. js-lingui-explicit-id
+#: src/components/hero/EditMemoryModal.tsx:412
+msgid "Edit Hero Memory"
+msgstr "编辑英雄记忆"
+
+#. js-lingui-explicit-id
+#: src/components/talents/InverseImageSection.tsx:94
+msgid "Edit Inverse Image"
+msgstr "编辑反向图像"
+
+#. js-lingui-explicit-id
 #: src/components/equipment/EditGearModal.tsx:693
 msgid "Edit {equipmentType}"
-msgstr ""
+msgstr "编辑{equipmentType}"
+
+#. js-lingui-explicit-id
+#: src/components/hero/TraitSelector.tsx:304
+msgid "Empty memory"
+msgstr "空记忆"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:634
+msgid "Enemies Nearby"
+msgstr "附近敌人"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:457
+msgid "Enemy Armor"
+msgstr "敌人护甲"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:413
+msgid "Enemy Cold Res %"
+msgstr "敌人冰抗 %"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:446
+msgid "Enemy Erosion Res %"
+msgstr "敌人腐蚀抗性 %"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:435
+msgid "Enemy Fire Res %"
+msgstr "敌人火抗 %"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:210
+msgid "Enemy Frostbitten"
+msgstr "敌人冰冻"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:690
+msgid "Enemy Has Ailment"
+msgstr "敌人有异常"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:804
+msgid "Enemy Has Trauma"
+msgstr "敌人有创伤"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:424
+msgid "Enemy Lightning Res %"
+msgstr "敌人闪电抗性 %"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:504
+msgid "Enemy Numbed"
+msgstr "敌人麻木"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:466
+msgid "Enemy Paralyzed"
+msgstr "敌人瘫痪"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:520
@@ -447,6 +714,11 @@ msgid "Export Loadout"
 msgstr "导出配装"
 
 #. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:187
+msgid "Fervor"
+msgstr "狂热"
+
+#. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:146
 msgid "Finisher Amplification"
 msgstr "终结技加成"
@@ -461,7 +733,22 @@ msgstr "火炮"
 msgid "Fire Res"
 msgstr "火抗"
 
-#: src/components/builder/BuilderLayout.tsx:232
+#. js-lingui-explicit-id
+#: src/components/hero/EditMemoryModal.tsx:62
+msgid "Fixed"
+msgstr "固定"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateEditToolbar.tsx:117
+msgid "Flip Horizontal"
+msgstr "水平翻转"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateEditToolbar.tsx:125
+msgid "Flip Vertical"
+msgstr "垂直翻转"
+
+#: src/components/builder/BuilderLayout.tsx:252
 msgid "Export"
 msgstr "导出"
 
@@ -490,6 +777,61 @@ msgid "Gloves (STR)"
 msgstr "手套 (力量)"
 
 #. js-lingui-explicit-id
+#: src/components/divinity/SlateCrafter.tsx:120
+msgid "God"
+msgstr "神"
+
+#. js-lingui-explicit-id
+#: src/routes/builder/talents/$slot.tsx:423
+msgid "God/Goddess Trees"
+msgstr "神/女神天赋树"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:340
+msgid "Has Agility Blessing"
+msgstr "有敏捷祝福"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:822
+msgid "Has Blur"
+msgstr "有模糊"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:664
+msgid "Has Crit Recently"
+msgstr "最近暴击"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:672
+msgid "Has Elites Nearby"
+msgstr "附近有精英"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:316
+msgid "Has Focus Blessing"
+msgstr "有专注祝福"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:526
+msgid "Has Full Mana"
+msgstr "满蓝"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:534
+msgid "Has Low Mana"
+msgstr "低蓝"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:954
+msgid "Has Moved Recently"
+msgstr "最近移动"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:365
+msgid "Has Tenacity Blessing"
+msgstr "有坚韧祝福"
+
+#. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:25
 msgid "Helmet"
 msgstr "头盔"
@@ -514,13 +856,13 @@ msgstr "头盔 (力量)"
 msgid "Hero"
 msgstr "英雄"
 
-#: src/routes/index.tsx:415
+#: src/routes/index.tsx:424
 msgid "No builds yet"
 msgstr "暂无流派"
 
-#: src/routes/index.tsx:359
+#: src/routes/index.tsx:368
 msgid "The build code in the URL was invalid or could not be imported."
-msgstr ""
+msgstr "URL中的构建代码无效或无法导入。"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:475
@@ -529,7 +871,37 @@ msgstr "智力"
 
 #: src/components/equipment/VoraxGearModule.tsx:951
 msgid "Save Changes"
-msgstr ""
+msgstr "保存更改"
+
+#. js-lingui-explicit-id
+#: src/routes/builder/skills.tsx:69
+msgid "Import Skills"
+msgstr "导入技能"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/DivinityTab.tsx:82
+msgid "Import Slates"
+msgstr "导入神板"
+
+#. js-lingui-explicit-id
+#: src/components/modals/ImportModal.tsx:37
+msgid "Invalid build code. Please check and try again."
+msgstr "无效的构建代码。请检查后重试。"
+
+#. js-lingui-explicit-id
+#: src/components/talents/InverseImageInventory.tsx:67
+msgid "Inverse Image Inventory"
+msgstr "反向图像库存"
+
+#. js-lingui-explicit-id
+#: src/components/talents/InverseImageSection.tsx:68
+msgid "Inverse Images"
+msgstr "反向图像"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:962
+msgid "Is Moving"
+msgstr "正在移动"
 
 #. js-lingui-explicit-id
 #. placeholder {0}: totalIssues
@@ -543,14 +915,35 @@ msgid "Left Ring"
 msgstr "左戒指"
 
 #. js-lingui-explicit-id
-#: src/components/talents/TalentNodeDisplay.tsx:84
+#: src/components/talents/PrismCrafter.tsx:230
+msgid "Legendary / Mutation Affix (optional)"
+msgstr "传奇/变异词缀（可选）"
+
+#. js-lingui-explicit-id
+#: src/components/talents/PrismCrafter.tsx:89
+msgid "Legendary Gauge"
+msgstr "传奇计量"
+
+#. js-lingui-explicit-id
+#: src/components/talents/TalentNodeDisplay.tsx:85
 msgid "Legendary Talent"
 msgstr "传奇天赋"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:179
+#: src/components/hero/TraitSelector.tsx:342
+msgid "Level"
+msgstr "等级"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:545
 msgid "Lightning Res"
 msgstr "闪电抗性"
+
+#. js-lingui-explicit-id
+#: src/routes/builder/talents/$slot.tsx:542
+msgid "Loading tree..."
+msgstr "加载天赋树..."
 
 #. placeholder {0}: formatDate(save.createdAt)
 #: src/routes/index.tsx:120
@@ -561,6 +954,11 @@ msgstr "创建时间：{0}"
 #: src/data/translate/equipment-types.ts:30
 msgid "Main Hand"
 msgstr "主手"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:392
+msgid "Mana Consumed Recently"
+msgstr "最近消耗法力"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:482
@@ -588,9 +986,34 @@ msgid "Max Tangles/Enemy"
 msgstr "每敌人最大缠绕"
 
 #. js-lingui-explicit-id
-#: src/components/talents/TalentNodeDisplay.tsx:83
+#: src/components/talents/TalentNodeDisplay.tsx:84
 msgid "Medium Talent"
 msgstr "中型天赋"
+
+#. js-lingui-explicit-id
+#: src/components/hero/MemoryInventory.tsx:62
+msgid "Memory Inventory"
+msgstr "记忆库存"
+
+#. js-lingui-explicit-id
+#: src/components/hero/EditMemoryModal.tsx:427
+msgid "Memory Type"
+msgstr "记忆类型"
+
+#. js-lingui-explicit-id
+#: src/components/hero/HeroMemoryItem.tsx:32
+#~ msgid "Memory of Discipline"
+#~ msgstr "戒律记忆"
+
+#. js-lingui-explicit-id
+#: src/components/hero/HeroMemoryItem.tsx:32
+#~ msgid "Memory of Origin"
+#~ msgstr "起源记忆"
+
+#. js-lingui-explicit-id
+#: src/components/hero/HeroMemoryItem.tsx:32
+#~ msgid "Memory of Progress"
+#~ msgstr "进展记忆"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:511
@@ -598,7 +1021,7 @@ msgid "Mercury"
 msgstr "水银"
 
 #. js-lingui-explicit-id
-#: src/components/talents/TalentNodeDisplay.tsx:81
+#: src/components/talents/TalentNodeDisplay.tsx:82
 msgid "Micro Talent"
 msgstr "微型天赋"
 
@@ -625,6 +1048,11 @@ msgid "Musket"
 msgstr "火枪"
 
 #. js-lingui-explicit-id
+#: src/components/talents/PrismCrafter.tsx:95
+msgid "Mutation"
+msgstr "变异"
+
+#. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:32
 msgid "Neck"
 msgstr "项链"
@@ -633,6 +1061,45 @@ msgstr "项链"
 #: src/data/translate/equipment-types.ts:33
 msgid "Necklace"
 msgstr "项链"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateTooltipContent.tsx:61
+#: src/components/equipment/GearTooltipContent.tsx:61
+#: src/components/skills/SupportSkillSelectedTooltipContent.tsx:116
+msgid "No affixes"
+msgstr "无词缀"
+
+#. js-lingui-explicit-id
+#: src/components/hero/MemoryInventory.tsx:105
+msgid "No memories in inventory. Click \"Craft Memory\" to add one."
+msgstr "库存中没有记忆。点击\"制作记忆\"添加一个。"
+
+#. js-lingui-explicit-id
+#: src/components/hero/TraitSelector.tsx:310
+msgid "No memory"
+msgstr "无记忆"
+
+#. js-lingui-explicit-id
+#: src/components/talents/PrismInventory.tsx:60
+msgid "No prisms crafted yet. Create one using the crafter!"
+msgstr "尚未制作棱镜。使用制作器创建一个！"
+
+#. js-lingui-explicit-id
+#: src/components/hero/TraitSelector.tsx:264
+msgid "No traits available"
+msgstr "无可用特性"
+
+#. js-lingui-explicit-id
+#: src/components/hero/TraitSelector.tsx:360
+msgid "No traits available at this level"
+msgstr "此等级无可用特性"
+
+#. js-lingui-explicit-id
+#: src/routes/builder/talents/$slot.tsx:390
+#: src/routes/builder/talents/$slot.tsx:421
+#: src/routes/builder/talents/$slot.tsx:468
+msgid "None"
+msgstr "无"
 
 #: src/components/equipment/VoraxGearModule.tsx:767
 msgid "Corruption"
@@ -646,6 +1113,10 @@ msgstr "基础词缀 (2 max)"
 #: src/data/translate/equipment-types.ts:34
 msgid "Off Hand"
 msgstr "副手"
+
+#: src/routes/builder/talents/$slot.tsx:446
+msgid "Reset"
+msgstr "重置"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:35
@@ -662,7 +1133,7 @@ msgstr "单手锤"
 msgid "One-Handed Sword"
 msgstr "单手剑"
 
-#: src/components/builder/BuilderLayout.tsx:224
+#: src/components/builder/BuilderLayout.tsx:244
 msgid "Debug"
 msgstr "调试"
 
@@ -677,6 +1148,8 @@ msgid "Overload Interval"
 msgstr "超载间隔"
 
 #. js-lingui-explicit-id
+#: src/components/pactspirit/PactspiritColumn.tsx:79
+#: src/components/pactspirit/PactspiritColumn.tsx:84
 #: src/data/translate/translate-tab.ts:8
 msgid "Pactspirit"
 msgstr "契灵"
@@ -684,12 +1157,22 @@ msgstr "契灵"
 #. js-lingui-explicit-id
 #: src/components/DebugPanel.tsx:488
 msgid "Parse error"
-msgstr ""
+msgstr "解析错误"
 
 #. js-lingui-explicit-id
 #: src/components/DebugPanel.tsx:421
 msgid "Parsed"
 msgstr "已解析"
+
+#. js-lingui-explicit-id
+#: src/routes/builder/skills.tsx:111
+msgid "Passive"
+msgstr "被动"
+
+#. js-lingui-explicit-id
+#: src/components/modals/ImportModal.tsx:60
+msgid "Paste build code here..."
+msgstr "在此粘贴构建代码..."
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:64
@@ -702,9 +1185,74 @@ msgid "Pistol"
 msgstr "手枪"
 
 #. js-lingui-explicit-id
+#: src/components/modals/ImportModal.tsx:27
+msgid "Please enter a build code"
+msgstr "请输入构建代码"
+
+#. js-lingui-explicit-id
+#: src/components/talents/PrismInventory.tsx:41
+msgid "Prism Inventory"
+msgstr "棱镜库存"
+
+#. js-lingui-explicit-id
+#: src/routes/builder/talents/$slot.tsx:431
+msgid "Profession Trees"
+msgstr "职业天赋树"
+
+#. js-lingui-explicit-id
+#: src/components/hero/EditMemoryModal.tsx:62
+msgid "Random"
+msgstr "随机"
+
+#. js-lingui-explicit-id
+#: src/components/talents/PrismCrafter.tsx:80
+msgid "Rare"
+msgstr "稀有"
+
+#. js-lingui-explicit-id
+#: src/components/talents/PrismCrafter.tsx:202
+msgid "Rare Gauge Affix (optional)"
+msgstr "稀有计量词缀（可选）"
+
+#. js-lingui-explicit-id
+#: src/components/talents/PrismCrafter.tsx:140
+msgid "Rarity"
+msgstr "稀有度"
+
+#. js-lingui-explicit-id
 #: src/components/DebugPanel.tsx:420
 msgid "Raw"
 msgstr "原始"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:243
+msgid "Realm of Mercury"
+msgstr "水银领域"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateEditToolbar.tsx:141
+msgid "Remove from Grid"
+msgstr "从网格移除"
+
+#. js-lingui-explicit-id
+#: src/components/talents/TalentNodeDisplay.tsx:269
+msgid "Remove inverse image"
+msgstr "移除反向图像"
+
+#. js-lingui-explicit-id
+#: src/components/talents/TalentNodeDisplay.tsx:156
+msgid "Remove prism"
+msgstr "移除棱镜"
+
+#. js-lingui-explicit-id
+#: src/routes/builder/talents/$slot.tsx:145
+msgid "Reset all points in this tree? This cannot be undone."
+msgstr "重置此天赋树的所有点数？此操作无法撤销。"
+
+#. js-lingui-explicit-id
+#: src/components/talents/InverseImageInventory.tsx:53
+msgid "Reset the tree's points to 0 before placing an inverse image."
+msgstr "放置反向图像前需将天赋树点数重置为0。"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:39
@@ -720,6 +1268,16 @@ msgstr "戒指"
 #: src/data/translate/equipment-types.ts:41
 msgid "Rod"
 msgstr "灵杖"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateEditToolbar.tsx:101
+msgid "Rotate Left"
+msgstr "向左旋转"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateEditToolbar.tsx:109
+msgid "Rotate Right"
+msgstr "向右旋转"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:467
@@ -742,14 +1300,122 @@ msgid "Sealed Mana"
 msgstr "封印法力"
 
 #. js-lingui-explicit-id
+#: src/components/talents/PrismCrafter.tsx:236
+msgid "Search legendary / mutation affixes..."
+msgstr "搜索传奇/变异词缀..."
+
+#. js-lingui-explicit-id
+#: src/components/talents/PrismCrafter.tsx:208
+msgid "Search rare gauge affixes..."
+msgstr "搜索稀有计量词缀..."
+
+#. js-lingui-explicit-id
 #: src/components/DebugPanel.tsx:476
 msgid "Search..."
 msgstr "搜索..."
 
 #. js-lingui-explicit-id
+#: src/components/equipment/LegendaryGearModule.tsx:346
+msgid "Select a blend..."
+msgstr "选择调和..."
+
+#. js-lingui-explicit-id
+#: src/components/hero/TraitSelector.tsx:265
+#: src/components/hero/TraitSelector.tsx:361
+msgid "Select a hero to view traits"
+msgstr "选择英雄查看特性"
+
+#. js-lingui-explicit-id
+#: src/components/hero/HeroSelector.tsx:28
+msgid "Select a hero..."
+msgstr "选择英雄..."
+
+#. js-lingui-explicit-id
+#: src/components/equipment/LegendaryGearModule.tsx:329
+msgid "Select a legendary..."
+msgstr "选择传奇装备..."
+
+#. js-lingui-explicit-id
+#: src/components/hero/EditMemoryModal.tsx:138
+msgid "Select a memory type to preview"
+msgstr "选择一个记忆类型以预览"
+
+#. js-lingui-explicit-id
+#: src/components/pactspirit/PactspiritColumn.tsx:169
+msgid "Select a pactspirit to configure ring slots"
+msgstr "选择一个契灵来配置戒指槽"
+
+#. js-lingui-explicit-id
+#: src/components/equipment/VoraxGearModule.tsx:838
+msgid "Select a vorax limb..."
+msgstr "选择Vorax肢体..."
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:369
+#: src/components/divinity/SlateCrafter.tsx:226
+#: src/components/equipment/VoraxGearModule.tsx:280
+msgid "Select affix..."
+msgstr "选择词缀..."
+
+#. js-lingui-explicit-id
+#: src/components/equipment/LegendaryAffixRow.tsx:97
+#: src/components/equipment/VoraxGearModule.tsx:297
+msgid "Select an option..."
+msgstr "选择一个选项..."
+
+#. js-lingui-explicit-id
+#: src/components/talents/PrismCrafter.tsx:184
+msgid "Select area expansion..."
+msgstr "选择区域扩展..."
+
+#. js-lingui-explicit-id
+#: src/components/equipment/VoraxGearModule.tsx:853
+#: src/components/talents/PrismCrafter.tsx:167
+msgid "Select base affix..."
+msgstr "选择基础词缀..."
+
+#. js-lingui-explicit-id
+#: src/components/hero/EditMemoryModal.tsx:505
+msgid "Select base stat..."
+msgstr "选择基础属性..."
+
+#. js-lingui-explicit-id
 #: src/components/equipment/EditGearModal.tsx:719
 msgid "Select equipment type..."
 msgstr "选择装备类型..."
+
+#. js-lingui-explicit-id
+#: src/components/equipment/VoraxGearModule.tsx:272
+msgid "Select legendary..."
+msgstr "选择传奇装备..."
+
+#. js-lingui-explicit-id
+#: src/components/hero/EditMemoryModal.tsx:480
+msgid "Select level..."
+msgstr "选择等级..."
+
+#. js-lingui-explicit-id
+#: src/components/hero/EditMemoryModal.tsx:438
+msgid "Select memory type..."
+msgstr "选择记忆类型..."
+
+#. js-lingui-explicit-id
+#: src/components/hero/EditMemoryModal.tsx:461
+msgid "Select rarity..."
+msgstr "选择稀有度..."
+
+#. js-lingui-explicit-id
+#. placeholder {0}: type === "fixed" ? i18n._("Fixed") : i18n._("Random")
+#. placeholder {1}: slotIndex + 1
+#: src/components/hero/EditMemoryModal.tsx:61
+msgid "Select {0} Affix {1}"
+msgstr "选择{0}词缀{1}"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:245
+#: src/components/divinity/SlateCrafter.tsx:141
+msgid "Shape & Orientation"
+msgstr "形状与方向"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:43
@@ -782,6 +1448,17 @@ msgid "Slash Strike DPS"
 msgstr "斩击 DPS"
 
 #. js-lingui-explicit-id
+#: src/routes/builder/talents/$slot.tsx:393
+msgid "Slot 1"
+msgstr "槽位1"
+
+#. js-lingui-explicit-id
+#. placeholder {0}: treeSlot.slice(-1)
+#: src/routes/builder/talents/$slot.tsx:394
+msgid "Slot {0}"
+msgstr "槽位 {0}"
+
+#. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:568
 msgid "Spell Block"
 msgstr "法术格挡"
@@ -804,7 +1481,7 @@ msgstr "猛击平均 (暴击)"
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:186
 msgid "Steep Avg Hit"
-msgstr ""
+msgstr "猛击平均伤害"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:170
@@ -822,9 +1499,34 @@ msgid "Sweep Avg Hit"
 msgstr "扫击平均伤害"
 
 #. js-lingui-explicit-id
+#: src/components/talents/InverseImageInventory.tsx:47
+msgid "Switch to a Profession Tree (Slots 2-4) to place the inverse image."
+msgstr "切换到职业天赋树（槽位2-4）以放置反向图像。"
+
+#. js-lingui-explicit-id
+#: src/components/talents/PrismInventory.tsx:51
+msgid "Switch to a Profession Tree (Slots 2-4) to place the prism."
+msgstr "切换到职业天赋树（槽位2-4）以放置棱镜。"
+
+#. js-lingui-explicit-id
+#: src/components/talents/InverseImageInventory.tsx:50
+msgid "Switch to a tree without a prism to place the inverse image."
+msgstr "切换到没有棱镜的天赋树以放置反向图像。"
+
+#. js-lingui-explicit-id
 #: src/data/translate/translate-tab.ts:5
 msgid "Talents"
 msgstr "天赋"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:611
+msgid "Target Enemy Marked"
+msgstr "目标敌人被标记"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:542
+msgid "Target Is Elite"
+msgstr "目标是精英"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:47
@@ -861,15 +1563,17 @@ msgstr "双手剑"
 #~ msgid "Untitled"
 #~ msgstr "未命名"
 
-#: src/routes/index.tsx:378
+#: src/routes/index.tsx:387
 msgid "My Builds"
 msgstr "我的配装"
 
 #: src/components/equipment/EditGearModal.tsx:950
 #: src/components/equipment/LegendaryGearModule.tsx:394
 #: src/components/equipment/VoraxGearModule.tsx:935
+#: src/components/hero/HeroMemoryItem.tsx:76
+#: src/components/hero/TraitSelector.tsx:55
 msgid "No affixes"
-msgstr ""
+msgstr "无词缀"
 
 #: src/routes/builder/equipment.tsx:124
 msgid "Equipment Slots"
@@ -891,7 +1595,7 @@ msgstr "装备类型"
 
 #: src/routes/builder/talents/$slot.tsx:363
 msgid "Tree Slot"
-msgstr ""
+msgstr "天赋槽"
 
 #: src/components/equipment/EditGearModal.tsx:961
 #~ msgid "Select an equipment type to begin crafting"
@@ -899,11 +1603,11 @@ msgstr ""
 
 #: src/components/DebugPanel.tsx:508
 msgid "Apply Changes"
-msgstr ""
+msgstr "应用更改"
 
 #: src/components/calculations/SkillSelector.tsx:45
 msgid "Active Skill"
-msgstr ""
+msgstr "主动技能"
 
 #: src/routes/index.tsx:326
 msgid "Torchlight Of Building"
@@ -934,6 +1638,10 @@ msgstr "字符"
 msgid "Delete"
 msgstr "删除"
 
+#: src/components/hero/EditMemoryModal.tsx:72
+msgid "Quality"
+msgstr "品质"
+
 #: src/components/equipment/EditGearModal.tsx:878
 #: src/components/equipment/VoraxGearModule.tsx:871
 msgid "Prefixes (3 max)"
@@ -951,7 +1659,7 @@ msgstr "取消"
 
 #: src/components/equipment/VoraxGearModule.tsx:847
 msgid "Base Affix"
-msgstr ""
+msgstr "基础词缀"
 
 #: src/components/DebugPanel.tsx:536
 #: src/routes/builder/equipment.tsx:208
@@ -962,14 +1670,17 @@ msgstr "编辑"
 msgid "Blending (1 max)"
 msgstr "调香词缀 (1 max)"
 
-#: src/components/talents/PrismSection.tsx:66
+#: src/components/hero/EditMemoryModal.tsx:515
+msgid "Fixed Affixes (2 max)"
+msgstr "固定词缀 (2 max)"
+
+#: src/components/talents/PrismSection.tsx:67
 msgid "Prisms"
 msgstr "棱镜"
 
-#. js-lingingui-explicit-id
-#: src/components/builder/StatsPanel.tsx:186
-#~ msgid "Steep Avg Hit"
-#~ msgstr "猛击平均伤害"
+#: src/components/hero/TraitSelector.tsx:393
+msgid "Hero Traits"
+msgstr "英雄特性"
 
 #: src/components/builder/StatsPanel.tsx:462
 msgid "Select an active skill in the Calculations tab to view damage stats."
@@ -993,9 +1704,19 @@ msgstr "后缀 (3 max)"
 msgid "Copy Code"
 msgstr "复制代码"
 
+#. js-lingui-explicit-id
+#: src/components/hero/MemoryInventory.tsx:62
+msgid "items"
+msgstr "个"
+
 #: src/components/equipment/EditGearModal.tsx:802
 msgid "Sweet Dream Affix (1 max)"
 msgstr "美梦词缀 (1 max)"
+
+#: src/routes/builder/hero.tsx:
+#: src/data/translate/equipment-types.ts:39
+#~ msgid "Right Ring"
+#~ msgstr "右戒指"
 
 #: src/components/DebugPanel.tsx:545
 msgid "Copy JSON"
@@ -1019,6 +1740,10 @@ msgstr "个匹配"
 #~ msgid "Select a vorax limb to configure"
 #~ msgstr ""
 
+#: src/components/hero/EditMemoryModal.tsx:62
+#~ msgid "Random"
+#~ msgstr "随机"
+
 #: src/routes/builder/equipment.tsx:168
 msgid "Vorax"
 msgstr "渴瘾"
@@ -1037,7 +1762,13 @@ msgstr "核心天赋"
 msgid "Are you sure you want to delete \"{0}\"?"
 msgstr "您确定要删除“{0}”吗？"
 
+#. #. js-lingui-explicit-id
+#: src/routes/builder/talents/$slot.tsx:431
+#~ msgid "Profession Trees"
+#~ msgstr "职业天赋树"
+
 #: src/components/equipment/VoraxGearModule.tsx:779
+#: src/components/talents/TalentNodeDisplay.tsx:172
 #: src/routes/builder/equipment.tsx:161
 msgid "Legendary"
 msgstr "传奇"
@@ -1046,20 +1777,32 @@ msgstr "传奇"
 msgid "Select Legendary"
 msgstr "选择一个传奇物品"
 
+#: src/components/hero/HeroMemoryItem.tsx:38
+msgid "Equipped"
+msgstr "已装备"
+
 #: src/components/builder/BuilderLayout.tsx:184
 #: src/components/equipment/EditGearModal.tsx:968
 #: src/routes/index.tsx:103
 msgid "Save"
 msgstr "保存"
 
-#: src/components/builder/BuilderLayout.tsx:212
-#: src/routes/index.tsx:344
+#: src/components/builder/BuilderLayout.tsx:232
+#: src/routes/index.tsx:353
 msgid "About"
 msgstr "关于"
 
+#: src/components/hero/HeroSelector.tsx:20
+msgid "Select Hero"
+msgstr "选择英雄"
+
 #: src/components/equipment/EditGearModal.tsx:765
 msgid "Clear"
-msgstr ""
+msgstr "清空"
+
+#: src/components/hero/EditMemoryModal.tsx:560
+msgid "Random Affixes (2 max)"
+msgstr "随机词缀 (2 max)"
 
 #: src/components/equipment/VoraxGearModule.tsx:779
 msgid "Regular"
@@ -1075,6 +1818,10 @@ msgstr "火炬之光BD构建"
 msgid "Close"
 msgstr "关闭"
 
-#: src/routes/index.tsx:356
+#: src/routes/index.tsx:365
 msgid "Import Failed"
 msgstr "导入失败"
+
+#: src/components/talents/TalentNodeDisplay.tsx:172
+msgid "Rare"
+msgstr "稀有"

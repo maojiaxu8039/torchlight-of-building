@@ -48,14 +48,12 @@ export const SkillSelector: React.FC<SkillSelectorProps> = ({
         options={options}
         value={selectedSkill}
         onChange={handleChange}
-        placeholder="Select an active skill..."
+        placeholder={i18n._("Select an active skill...")}
         size="default"
       />
       {availableSkills.length === 0 && (
         <p className="mt-2 text-sm text-zinc-500">
-          No implemented active skills enabled. Enable an active skill in the
-          Skills section (currently supported: Berserking Blade, Frost Spike,
-          Spectral Slash).
+          <Trans>No implemented active skills enabled. Enable an active skill in the Skills section (currently supported: Berserking Blade, Frost Spike, Spectral Slash).</Trans>
         </p>
       )}
     </div>

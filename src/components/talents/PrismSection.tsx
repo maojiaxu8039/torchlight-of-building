@@ -1,4 +1,5 @@
 import { Trans } from "@lingui/react/macro";
+import { i18n } from "@/src/lib/i18n";
 import { useState } from "react";
 import type { CraftedPrism as SaveDataCraftedPrism } from "@/src/lib/save-data";
 import type { CraftedPrism } from "@/src/tli/core";
@@ -70,7 +71,7 @@ export const PrismSection: React.FC<PrismSectionProps> = ({
           onClick={handleOpenCraft}
           className="rounded-lg bg-amber-500 px-3 py-1.5 text-sm font-medium text-zinc-950 transition-colors hover:bg-amber-600"
         >
-          Craft Prism
+          <Trans>Craft Prism</Trans>
         </button>
       </div>
       <PrismInventory
@@ -86,7 +87,7 @@ export const PrismSection: React.FC<PrismSectionProps> = ({
       <Modal
         isOpen={isModalOpen}
         onClose={handleClose}
-        title={editingPrism !== undefined ? "Edit Prism" : "Craft Prism"}
+        title={i18n._(editingPrism !== undefined ? "Edit Prism" : "Craft Prism")}
         dismissible={false}
       >
         <PrismCrafter

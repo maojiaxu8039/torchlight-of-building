@@ -1,3 +1,5 @@
+import { Trans } from "@lingui/react/macro";
+import { i18n } from "@/src/lib/i18n";
 import { Tooltip, TooltipTitle } from "@/src/components/ui/Tooltip";
 import { useTooltip } from "@/src/hooks/useTooltip";
 import type { HeroMemory } from "@/src/tli/core";
@@ -27,18 +29,18 @@ export const HeroMemoryItem: React.FC<HeroMemoryItemProps> = ({
     >
       <div className="flex items-center gap-2">
         <span className="font-medium text-zinc-50 text-sm">
-          {memory.memoryType}
+          {i18n._(memory.memoryType)}
         </span>
         <span className="text-xs text-zinc-500">
           ({memory.affixes.length} affixes)
         </span>
         {isEquipped && (
-          <span className="text-xs text-green-500 font-medium">Equipped</span>
+          <span className="text-xs text-green-500 font-medium"><Trans>Equipped</Trans></span>
         )}
       </div>
 
       <Tooltip isVisible={isVisible} triggerRect={triggerRect}>
-        <TooltipTitle>{memory.memoryType}</TooltipTitle>
+        <TooltipTitle>{i18n._(memory.memoryType)}</TooltipTitle>
         <div className="text-xs text-zinc-400 mb-1">
           {memory.rarity.charAt(0).toUpperCase() + memory.rarity.slice(1)}{" "}
           &middot; Level {memory.level}
@@ -71,7 +73,7 @@ export const HeroMemoryItem: React.FC<HeroMemoryItemProps> = ({
             ))}
           </div>
         ) : (
-          <p className="text-xs text-zinc-500 italic">No affixes</p>
+          <p className="text-xs text-zinc-500 italic"><Trans>No affixes</Trans></p>
         )}
       </Tooltip>
     </div>

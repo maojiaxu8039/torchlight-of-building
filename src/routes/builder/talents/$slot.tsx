@@ -142,7 +142,7 @@ function TalentsSlotPage(): React.ReactNode {
     (treeSlot: TreeSlot) => {
       const tree = loadout.talentPage.talentTrees[treeSlot];
       if (!tree || !tree.nodes.some((n) => n.points > 0)) return;
-      if (confirm("Reset all points in this tree? This cannot be undone.")) {
+      if (confirm(i18n._("Reset all points in this tree? This cannot be undone."))) {
         resetTree(treeSlot);
       }
     },
@@ -387,11 +387,11 @@ function TalentsSlotPage(): React.ReactNode {
                     : 0;
                   const treeName = tree
                     ? i18n._(tree.name.replace(/_/g, " "))
-                    : "None";
+                    : i18n._("None");
                   const slotLabel =
                     treeSlot === "tree1"
-                      ? "Slot 1"
-                      : `Slot ${treeSlot.slice(-1)}`;
+                      ? i18n._("Slot 1")
+                      : i18n._("Slot {0}", { 0: treeSlot.slice(-1) });
                   return (
                     <option key={treeSlot} value={treeSlotToParam(treeSlot)}>
                       {slotLabel}: {treeName} ({totalPoints} pts)
@@ -418,9 +418,9 @@ function TalentsSlotPage(): React.ReactNode {
                 }
                 className="rounded-lg border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-zinc-50 disabled:cursor-not-allowed disabled:opacity-50"
               >
-                <option value="">None</option>
+                <option value="">{i18n._("None")}</option>
                 {activeTreeSlot === "tree1" ? (
-                  <optgroup label="God/Goddess Trees">
+                  <optgroup label={i18n._("God/Goddess Trees")}>
                     {GOD_GODDESS_TREES.map((tree) => (
                       <option key={tree} value={tree}>
                         {i18n._(tree.replace(/_/g, " "))}
@@ -428,7 +428,7 @@ function TalentsSlotPage(): React.ReactNode {
                     ))}
                   </optgroup>
                 ) : (
-                  <optgroup label="Profession Trees">
+                  <optgroup label={i18n._("Profession Trees")}>
                     {PROFESSION_TREES.map((tree) => (
                       <option key={tree} value={tree}>
                         {i18n._(tree.replace(/_/g, " "))}
@@ -443,7 +443,7 @@ function TalentsSlotPage(): React.ReactNode {
                 disabled={currentTreeTotalPoints === 0}
                 className="rounded-lg bg-red-500 px-3 py-2 text-sm font-medium text-white transition-colors hover:bg-red-600 disabled:cursor-not-allowed disabled:bg-zinc-700 disabled:text-zinc-500"
               >
-                Reset
+                <Trans>Reset</Trans>
               </button>
             </div>
           </div>
@@ -465,7 +465,7 @@ function TalentsSlotPage(): React.ReactNode {
                 }
                 className="rounded-lg border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm text-zinc-50"
               >
-                <option value="">None</option>
+                <option value="">{i18n._("None")}</option>
                 {slot.available.map((ct) => (
                   <option key={ct.name} value={ct.name}>
                     {i18n._(ct.name)}
@@ -539,7 +539,7 @@ function TalentsSlotPage(): React.ReactNode {
             />
           </div>
         ) : (
-          <div className="py-12 text-center text-zinc-500">Loading tree...</div>
+          <div className="py-12 text-center text-zinc-500">{i18n._("Loading tree...")}</div>
         )}
       </div>
 

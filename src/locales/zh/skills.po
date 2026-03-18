@@ -1189,7 +1189,7 @@ msgstr "寒霜地面：雪壳（华贵）"
 #. js-lingui-explicit-id
 #: src/data/translate/skills.ts:547
 msgid "Frost Terra: Winter's Bite (Noble)"
-msgstr ""
+msgstr "寒霜之地：凛冬之咬（崇高）"
 
 #. js-lingui-explicit-id
 #: src/data/translate/skills.ts:68
@@ -1254,7 +1254,7 @@ msgstr "冰川涟漪"
 #. js-lingui-explicit-id
 #: src/data/translate/skills.ts:262
 msgid "Gladiator's Roar"
-msgstr ""
+msgstr "角斗士之吼"
 
 #. js-lingui-explicit-id
 #: src/data/translate/skills.ts:71
@@ -1654,7 +1654,7 @@ msgstr "闪电转冰冷"
 #. js-lingui-explicit-id
 #: src/data/translate/skills.ts:276
 msgid "Lion's Roars"
-msgstr ""
+msgstr "雄狮之吼"
 
 #. js-lingui-explicit-id
 #: src/data/translate/skills.ts:92
@@ -3159,24 +3159,24 @@ msgstr "荆天棘地"
 #. js-lingui-explicit-id
 #: src/data/translate/skills.ts:163
 msgid "[Test] Combo Attack"
-msgstr ""
+msgstr "[测试]连击"
 
 #. js-lingui-explicit-id
 #: src/data/translate/skills.ts:159
 msgid "[Test] Simple Attack"
-msgstr ""
+msgstr "[测试]简单攻击"
 
 #. js-lingui-explicit-id
 #: src/data/translate/skills.ts:160
 msgid "[Test] Simple Persistent Spell"
-msgstr ""
+msgstr "[测试]简单持续法术"
 
 #. js-lingui-explicit-id
 #: src/data/translate/skills.ts:161
 msgid "[Test] Simple Spell"
-msgstr ""
+msgstr "[测试]简单法术"
 
 #. js-lingui-explicit-id
 #: src/data/translate/skills.ts:162
 msgid "[Test] Slash Strike Skill"
-msgstr ""
+msgstr "[测试]斩击技能"

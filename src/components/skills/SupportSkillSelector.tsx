@@ -211,7 +211,7 @@ export const SupportSkillSelector: React.FC<SupportSkillSelectorProps> = ({
     if (available.activationMedium.length > 0) {
       const filtered = filterAndMap(available.activationMedium);
       if (filtered.length > 0) {
-        grps.push({ label: "Activation Medium", options: filtered });
+        grps.push({ label: i18n._("Activation Medium"), options: filtered });
       }
     }
 
@@ -387,7 +387,7 @@ export const SupportSkillSelector: React.FC<SupportSkillSelectorProps> = ({
           onChange={handleSkillChange}
           options={options}
           groups={groups}
-          placeholder="<Empty slot>"
+          placeholder={i18n._("<Empty slot>")}
           size="sm"
           className="flex-1"
           renderOption={renderOption}

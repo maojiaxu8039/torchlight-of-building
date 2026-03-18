@@ -1,5 +1,6 @@
 import { useMemo } from "react";
 import { SearchableSelect } from "@/src/components/ui/SearchableSelect";
+import { Trans } from "@lingui/react/macro";
 import { i18n } from "@/src/lib/i18n";
 import { getUniqueHeroes } from "../../lib/hero-utils";
 
@@ -16,7 +17,7 @@ export const HeroSelector = ({
 
   return (
     <div className="bg-zinc-900 rounded-lg p-6 border border-zinc-700">
-      <h2 className="text-xl font-semibold mb-4 text-zinc-50">Select Hero</h2>
+      <h2 className="text-xl font-semibold mb-4 text-zinc-50"><Trans>Select Hero</Trans></h2>
       <SearchableSelect
         value={selectedHero}
         onChange={onHeroChange}
@@ -24,7 +25,7 @@ export const HeroSelector = ({
           value: hero,
           label: i18n._(hero),
         }))}
-        placeholder="Select a hero..."
+        placeholder={i18n._("Select a hero...")}
         size="lg"
       />
     </div>

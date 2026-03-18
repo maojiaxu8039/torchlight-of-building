@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { i18n } from "@/src/lib/i18n";
 import type { CraftedInverseImage } from "@/src/tli/core";
 import { Modal } from "../ui/Modal";
 import { InverseImageCrafter } from "./InverseImageCrafter";
@@ -64,13 +65,13 @@ export const InverseImageSection: React.FC<InverseImageSectionProps> = ({
   return (
     <div>
       <div className="mb-4 flex items-center justify-between">
-        <h2 className="text-xl font-bold text-zinc-50">Inverse Images</h2>
+        <h2 className="text-xl font-bold text-zinc-50">{i18n._("Inverse Images")}</h2>
         <button
           type="button"
           onClick={handleOpenCraft}
           className="rounded-lg bg-amber-500 px-3 py-1.5 text-sm font-medium text-zinc-950 transition-colors hover:bg-amber-600"
         >
-          Craft Inverse Image
+          {i18n._("Craft Inverse Image")}
         </button>
       </div>
       <InverseImageInventory
@@ -90,8 +91,8 @@ export const InverseImageSection: React.FC<InverseImageSectionProps> = ({
         onClose={handleClose}
         title={
           editingInverseImage !== undefined
-            ? "Edit Inverse Image"
-            : "Craft Inverse Image"
+            ? i18n._("Edit Inverse Image")
+            : i18n._("Craft Inverse Image")
         }
         dismissible={false}
       >

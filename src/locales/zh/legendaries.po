@@ -1449,7 +1449,7 @@ msgstr "静谧波澜"
 #. js-lingui-explicit-id
 #: src/data/translate/legendary-names.ts:293
 msgid "Trauma's Embrace"
-msgstr ""
+msgstr "创伤之拥"
 
 #. js-lingui-explicit-id
 #: src/data/translate/legendary-names.ts:294
@@ -1504,17 +1504,17 @@ msgstr "不灭信仰"
 #. js-lingui-explicit-id
 #: src/data/translate/legendary-names.ts:304
 msgid "Unholy Prayer (agility)"
-msgstr ""
+msgstr "邪恶祈愿（敏捷）"
 
 #. js-lingui-explicit-id
 #: src/data/translate/legendary-names.ts:305
 msgid "Unholy Prayer (focus)"
-msgstr ""
+msgstr "邪恶祈愿（专注）"
 
 #. js-lingui-explicit-id
 #: src/data/translate/legendary-names.ts:306
 msgid "Unholy Prayer (tenacity)"
-msgstr ""
+msgstr "邪恶祈愿（韧性）"
 
 #. js-lingui-explicit-id
 #: src/data/translate/legendary-names.ts:307

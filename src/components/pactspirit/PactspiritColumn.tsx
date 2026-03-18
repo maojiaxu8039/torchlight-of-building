@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { i18n } from "@/src/lib/i18n";
 import { SearchableSelect } from "@/src/components/ui/SearchableSelect";
 import { Pactspirits } from "@/src/data/pactspirit/pactspirits";
 import type { PactspiritSlot } from "@/src/tli/core";
@@ -75,12 +76,12 @@ export const PactspiritColumn: React.FC<PactspiritColumnProps> = ({
   return (
     <div className="flex-1 bg-zinc-900 rounded-lg p-4 border border-zinc-800">
       <h3 className="text-lg font-semibold text-zinc-50 mb-4">
-        Pactspirit {slotIndex}
+        {i18n._("Pactspirit")} {slotIndex}
       </h3>
 
       {/* Pactspirit Selector */}
       <div className="mb-4">
-        <label className="block text-sm text-zinc-400 mb-1">Pactspirit</label>
+        <label className="block text-sm text-zinc-400 mb-1">{i18n._("Pactspirit")}</label>
         <SearchableSelect
           value={slot?.pactspiritName}
           onChange={onPactspiritSelect}
@@ -89,7 +90,7 @@ export const PactspiritColumn: React.FC<PactspiritColumnProps> = ({
             label: p.name,
             sublabel: `${p.type}, ${p.rarity}`,
           }))}
-          placeholder="<Select Pactspirit>"
+          placeholder={i18n._("<Select Pactspirit>")}
         />
       </div>
 
@@ -165,7 +166,7 @@ export const PactspiritColumn: React.FC<PactspiritColumnProps> = ({
       {/* No pactspirit selected message */}
       {!selectedPactspirit && (
         <div className="text-center text-zinc-500 py-8">
-          Select a pactspirit to configure ring slots
+          {i18n._("Select a pactspirit to configure ring slots")}
         </div>
       )}
 

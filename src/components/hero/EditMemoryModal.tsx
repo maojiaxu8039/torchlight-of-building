@@ -1,4 +1,6 @@
 import { useEffect, useMemo } from "react";
+import { Trans } from "@lingui/react/macro";
+import { i18n } from "@/src/lib/i18n";
 import { SearchableSelect } from "@/src/components/ui/SearchableSelect";
 import type { HeroMemory, HeroMemoryType } from "@/src/lib/save-data";
 import { HERO_MEMORY_TYPES } from "@/src/lib/save-data";
@@ -56,7 +58,10 @@ const AffixSlot = ({
             label: truncated ? `${normalized.substring(0, 50)}...` : normalized,
           };
         })}
-        placeholder={`Select ${type === "fixed" ? "Fixed" : "Random"} Affix ${slotIndex + 1}`}
+        placeholder={i18n._("Select {0} Affix {1}", {
+          0: type === "fixed" ? i18n._("Fixed") : i18n._("Random"),
+          1: slotIndex + 1,
+        })}
         size="sm"
         className="mb-2"
       />
@@ -64,7 +69,7 @@ const AffixSlot = ({
       {hasSelection && (
         <>
           <div className="flex justify-between items-center mb-1">
-            <label className="text-xs text-zinc-500">Quality</label>
+            <label className="text-xs text-zinc-500"><Trans>Quality</Trans></label>
             <span className="text-xs font-medium text-zinc-50">{quality}%</span>
           </div>
           <input
@@ -130,7 +135,7 @@ const MemoryPreview = ({
   if (!hasContent) {
     return (
       <p className="text-xs italic text-zinc-500">
-        Select a memory type to preview
+        {i18n._("Select a memory type to preview")}
       </p>
     );
   }
@@ -404,7 +409,7 @@ export const EditMemoryModal = ({
     closeModal();
   };
 
-  const title = mode === "create" ? "Craft Hero Memory" : "Edit Hero Memory";
+  const title = mode === "create" ? i18n._("Craft Hero Memory") : i18n._("Edit Hero Memory");
 
   return (
     <Modal
@@ -419,7 +424,7 @@ export const EditMemoryModal = ({
         <div className="min-w-0 flex-1 space-y-3 overflow-y-auto pr-2">
           <div>
             <label className="block text-sm font-medium mb-2 text-zinc-50">
-              Memory Type
+              {i18n._("Memory Type")}
             </label>
             <SearchableSelect
               value={craftingMemoryType}
@@ -430,7 +435,7 @@ export const EditMemoryModal = ({
                 value: type,
                 label: type,
               }))}
-              placeholder="Select memory type..."
+              placeholder={i18n._("Select memory type...")}
               size="lg"
             />
           </div>
@@ -453,7 +458,7 @@ export const EditMemoryModal = ({
                       value: r,
                       label: r.charAt(0).toUpperCase() + r.slice(1),
                     }))}
-                    placeholder="Select rarity..."
+                    placeholder={i18n._("Select rarity...")}
                     size="sm"
                   />
                 </div>
@@ -472,7 +477,7 @@ export const EditMemoryModal = ({
                       value: level,
                       label: `Level ${level}`,
                     }))}
-                    placeholder="Select level..."
+                    placeholder={i18n._("Select level...")}
                     size="sm"
                   />
                 </div>
@@ -497,7 +502,7 @@ export const EditMemoryModal = ({
                           value: idx,
                           label: entry.affixTemplate,
                         }))}
-                        placeholder="Select base stat..."
+                        placeholder={i18n._("Select base stat...")}
                         size="sm"
                       />
                     </div>
@@ -507,7 +512,7 @@ export const EditMemoryModal = ({
 
               <div>
                 <h3 className="text-sm font-medium mb-2 text-zinc-50">
-                  Fixed Affixes (2 max)
+                  <Trans>Fixed Affixes (2 max)</Trans>
                 </h3>
                 <div className="space-y-3">
                   {/* Existing fixed affixes from edit mode */}
@@ -552,7 +557,7 @@ export const EditMemoryModal = ({
 
               <div>
                 <h3 className="text-sm font-medium mb-2 text-zinc-50">
-                  Random Affixes (2 max)
+                  <Trans>Random Affixes (2 max)</Trans>
                 </h3>
                 <div className="space-y-3">
                   {/* Existing random affixes from edit mode */}
@@ -612,7 +617,7 @@ export const EditMemoryModal = ({
 
       <ModalActions>
         <ModalButton variant="secondary" onClick={closeModal} fullWidth>
-          Cancel
+          {i18n._("Cancel")}
         </ModalButton>
         <ModalButton
           onClick={handleSave}
@@ -621,7 +626,7 @@ export const EditMemoryModal = ({
             craftingMemoryType === undefined || effectiveBaseStat === undefined
           }
         >
-          {mode === "create" ? "Save to Inventory" : "Save"}
+          {i18n._(mode === "create" ? "Save to Inventory" : "Save")}
         </ModalButton>
       </ModalActions>
     </Modal>

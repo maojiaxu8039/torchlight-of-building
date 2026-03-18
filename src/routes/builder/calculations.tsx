@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Trans } from "@lingui/react/macro";
 import { useMemo } from "react";
 import type { ImplementedActiveSkillName } from "@/src/data/skill/types";
 import type {
@@ -409,7 +410,9 @@ function CalculationsPage(): React.ReactNode {
   return (
     <div className="space-y-3">
       <div className="flex items-center gap-4">
-        <h2 className="text-lg font-bold text-zinc-50">Damage Calculations</h2>
+        <h2 className="text-lg font-bold text-zinc-50">
+          <Trans>Damage Calculations</Trans>
+        </h2>
         <SkillSelector
           loadout={loadout}
           selectedSkill={selectedSkill}

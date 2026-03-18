@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useMemo, useState } from "react";
+import { Trans } from "@lingui/react/macro";
 import { ActiveSkills, PassiveSkills } from "@/src/data/skill";
 import { i18n } from "@/src/lib/i18n";
 import { SkillImportModal } from "../../components/skills/SkillImportModal";
@@ -65,7 +66,7 @@ function SkillsPage(): React.ReactNode {
           onClick={() => setImportModalOpen(true)}
           className="px-3 py-1.5 text-sm bg-zinc-700 hover:bg-zinc-600 text-zinc-200 rounded-lg transition-colors"
         >
-          Import Skills
+          {i18n._("Import Skills")}
         </button>
       </div>
 
@@ -85,7 +86,7 @@ function SkillsPage(): React.ReactNode {
           {ACTIVE_SKILL_SLOT_KEYS.map((slotKey) => (
             <SkillSlot
               key={`active-${slotKey}`}
-              slotLabel={`Active ${slotKey}`}
+              slotLabel={i18n._("Active") + " " + slotKey}
               skill={loadout.skillPage.activeSkills[slotKey]}
               availableSkills={ActiveSkills}
               excludedSkillNames={selectedActiveNames}
@@ -101,13 +102,13 @@ function SkillsPage(): React.ReactNode {
       </div>
 
       <div>
-        <h2 className="mb-4 text-xl font-bold text-zinc-50">Passive Skills</h2>
+        <h2 className="mb-4 text-xl font-bold text-zinc-50"><Trans>Passive Skills</Trans></h2>
 
         <div className="space-y-3">
           {PASSIVE_SKILL_SLOT_KEYS.map((slotKey) => (
             <SkillSlot
               key={`passive-${slotKey}`}
-              slotLabel={`Passive ${slotKey}`}
+              slotLabel={i18n._("Passive") + " " + slotKey}
               skill={loadout.skillPage.passiveSkills[slotKey]}
               availableSkills={PassiveSkills}
               excludedSkillNames={selectedPassiveNames}

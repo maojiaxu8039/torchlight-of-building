@@ -1,4 +1,5 @@
 import { useMemo } from "react";
+import { i18n } from "@/src/lib/i18n";
 import type {
   HeroMemorySlot,
   HeroMemory as SaveDataHeroMemory,
@@ -39,7 +40,7 @@ const CraftMemoryButton = () => {
       onClick={() => openModal()}
       className="w-full rounded-lg bg-amber-500 px-3 py-1.5 text-sm font-semibold text-zinc-950 transition-colors hover:bg-amber-600"
     >
-      Craft Memory
+      {i18n._("Craft Memory")}
     </button>
   );
 };

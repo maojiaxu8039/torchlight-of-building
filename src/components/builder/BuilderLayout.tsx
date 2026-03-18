@@ -1,6 +1,6 @@
 import { useNavigate } from "@tanstack/react-router";
 import { Trans } from "@lingui/react/macro";
-import { i18n } from "@/src/lib/i18n";
+import { i18n, getStoredLocale, setStoredLocale } from "@/src/lib/i18n";
 import {
   type ReactNode,
   useCallback,
@@ -204,6 +204,26 @@ export const BuilderLayout = ({ children }: BuilderLayoutProps) => {
           </div>
 
           <div className="flex items-center gap-3">
+            <button
+              onClick={() => setStoredLocale("zh")}
+              className={`px-3 py-1.5 rounded-lg border text-sm transition-colors ${
+                getStoredLocale() === "zh"
+                  ? "bg-amber-500 text-zinc-950 border-amber-500"
+                  : "bg-zinc-800 text-zinc-400 border-zinc-700 hover:bg-zinc-700 hover:text-zinc-200"
+              }`}
+            >
+              简体中文
+            </button>
+            <button
+              onClick={() => setStoredLocale("en")}
+              className={`px-3 py-1.5 rounded-lg border text-sm transition-colors ${
+                getStoredLocale() === "en"
+                  ? "bg-amber-500 text-zinc-950 border-amber-500"
+                  : "bg-zinc-800 text-zinc-400 border-zinc-700 hover:bg-zinc-700 hover:text-zinc-200"
+              }`}
+            >
+              English
+            </button>
             <button
               type="button"
               onClick={() => setAboutModalOpen(true)}

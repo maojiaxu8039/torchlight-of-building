@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { createPortal } from "react-dom";
+import { i18n } from "@/src/lib/i18n";
 import { getSlateShape } from "@/src/lib/divinity-utils";
 import type { DivinitySlate } from "@/src/tli/core";
 import { SlatePreview } from "./SlatePreview";
@@ -97,7 +98,7 @@ export const SlateEditToolbar: React.FC<SlateEditToolbarProps> = ({
             type="button"
             onClick={onRotateLeft}
             className="rounded bg-zinc-700 px-2 py-1.5 text-sm text-zinc-200 hover:bg-zinc-600"
-            title="Rotate Left"
+            title={i18n._("Rotate Left")}
           >
             ↺
           </button>
@@ -105,7 +106,7 @@ export const SlateEditToolbar: React.FC<SlateEditToolbarProps> = ({
             type="button"
             onClick={onRotateRight}
             className="rounded bg-zinc-700 px-2 py-1.5 text-sm text-zinc-200 hover:bg-zinc-600"
-            title="Rotate Right"
+            title={i18n._("Rotate Right")}
           >
             ↻
           </button>
@@ -113,7 +114,7 @@ export const SlateEditToolbar: React.FC<SlateEditToolbarProps> = ({
             type="button"
             onClick={onFlipH}
             className="rounded bg-zinc-700 px-2 py-1.5 text-sm text-zinc-200 hover:bg-zinc-600"
-            title="Flip Horizontal"
+            title={i18n._("Flip Horizontal")}
           >
             ↔
           </button>
@@ -121,7 +122,7 @@ export const SlateEditToolbar: React.FC<SlateEditToolbarProps> = ({
             type="button"
             onClick={onFlipV}
             className="rounded bg-zinc-700 px-2 py-1.5 text-sm text-zinc-200 hover:bg-zinc-600"
-            title="Flip Vertical"
+            title={i18n._("Flip Vertical")}
           >
             ↕
           </button>
@@ -129,7 +130,7 @@ export const SlateEditToolbar: React.FC<SlateEditToolbarProps> = ({
             type="button"
             onClick={onChangeShape}
             className="rounded bg-zinc-700 px-2 py-1.5 text-xs text-zinc-200 hover:bg-zinc-600"
-            title="Change Shape"
+            title={i18n._("Change Shape")}
           >
             {getSlateShape(slate)}
           </button>
@@ -137,7 +138,7 @@ export const SlateEditToolbar: React.FC<SlateEditToolbarProps> = ({
             type="button"
             onClick={onRemove}
             className="rounded bg-red-700 px-2 py-1.5 text-sm text-zinc-200 hover:bg-red-600"
-            title="Remove from Grid"
+            title={i18n._("Remove from Grid")}
           >
             ✕
           </button>

@@ -269,7 +269,7 @@ const LegendarySlotEditor = ({
         value={selectedLegendaryIdx !== -1 ? selectedLegendaryIdx : undefined}
         onChange={handleLegendarySelect}
         options={legendaryOptions}
-        placeholder="Select legendary..."
+        placeholder={i18n._("Select legendary...")}
       />
 
       {selectedLegendary !== undefined && (
@@ -277,7 +277,7 @@ const LegendarySlotEditor = ({
           value={slot.affixIndex}
           onChange={handleAffixSelect}
           options={affixOptions}
-          placeholder="Select affix..."
+          placeholder={i18n._("Select affix...")}
         />
       )}
 
@@ -294,7 +294,7 @@ const LegendarySlotEditor = ({
             }}
             className="w-full rounded border border-zinc-600 bg-zinc-700 px-2 py-1.5 text-sm text-zinc-50 focus:border-amber-500 focus:outline-none"
           >
-            <option value="">Select an option...</option>
+            <option value="">{i18n._("Select an option...")}</option>
             {currentAffix.choices.map((choice, idx) => (
               <option key={idx} value={idx}>
                 {choice.replace(/\n/g, " / ").substring(0, 80)}
@@ -835,7 +835,7 @@ export const VoraxGearModule: React.FC<VoraxGearModuleProps> = ({
               value={selectedLimbIndex}
               onChange={handleLimbSelect}
               options={limbOptions}
-              placeholder="Select a vorax limb..."
+              placeholder={i18n._("Select a vorax limb...")}
             />
           </div>
 
@@ -850,7 +850,7 @@ export const VoraxGearModule: React.FC<VoraxGearModuleProps> = ({
                   value={selectedBaseAffixIndex}
                   onChange={setSelectedBaseAffixIndex}
                   options={baseAffixOptions}
-                  placeholder="Select base affix..."
+                  placeholder={i18n._("Select base affix...")}
                 />
                 {selectedBaseAffixIndex !== undefined && (
                   <div className="mt-1">

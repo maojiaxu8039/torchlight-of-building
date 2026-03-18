@@ -1,3 +1,4 @@
+import { i18n } from "@/src/lib/i18n";
 import type { CraftedPrism } from "@/src/tli/core";
 import { PrismInventoryItem } from "./PrismInventoryItem";
 
@@ -37,26 +38,26 @@ export const PrismInventory: React.FC<PrismInventoryProps> = ({
   return (
     <div className="rounded-lg border border-zinc-700 bg-zinc-800 p-4">
       <h3 className="mb-4 text-lg font-medium text-zinc-200">
-        Prism Inventory ({prisms.length})
+        {i18n._("Prism Inventory")} ({prisms.length})
       </h3>
 
       {selectionMode && (
         <div className="mb-3 p-2 rounded bg-purple-500/10 border border-purple-500/30">
           <p className="text-sm text-purple-300">
             {hasPrismPlaced
-              ? "A prism is already placed. Remove it first to place a different one."
+              ? i18n._("A prism is already placed. Remove it first to place a different one.")
               : selectedPrismId
                 ? isOnGodGoddessTree
-                  ? "Switch to a Profession Tree (Slots 2-4) to place the prism."
-                  : "Click on an empty talent node to place the prism, or click the prism again to deselect."
-                : "Click a prism to select it for placement."}
+                  ? i18n._("Switch to a Profession Tree (Slots 2-4) to place the prism.")
+                  : i18n._("Click on an empty talent node to place the prism, or click the prism again to deselect.")
+                : i18n._("Click a prism to select it for placement.")}
           </p>
         </div>
       )}
 
       {prisms.length === 0 ? (
         <p className="text-sm text-zinc-500">
-          No prisms crafted yet. Create one using the crafter!
+          {i18n._("No prisms crafted yet. Create one using the crafter!")}
         </p>
       ) : (
         <div className="flex flex-col gap-2 max-h-96 overflow-y-auto">

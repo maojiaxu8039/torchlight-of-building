@@ -1,3 +1,4 @@
+import { i18n } from "@/src/lib/i18n";
 import type {
   LegendaryAffix,
   LegendaryAffixChoice,
@@ -93,7 +94,7 @@ export const LegendaryAffixRow: React.FC<LegendaryAffixRowProps> = ({
             }}
             className="w-full rounded border border-zinc-600 bg-zinc-700 px-2 py-1.5 text-sm text-zinc-50 focus:border-amber-500 focus:outline-none"
           >
-            <option value="">Select an option...</option>
+            <option value="">{i18n._("Select an option...")}</option>
             {currentAffix.choices.map((choice, choiceIdx) => (
               <option key={choiceIdx} value={choiceIdx}>
                 {choice}

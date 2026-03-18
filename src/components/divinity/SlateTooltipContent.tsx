@@ -1,4 +1,5 @@
 import { TooltipTitle } from "@/src/components/ui/Tooltip";
+import { i18n } from "@/src/lib/i18n";
 import { getSlateDisplayName } from "@/src/lib/divinity-utils";
 import type { DivinitySlate } from "@/src/tli/core";
 
@@ -57,7 +58,7 @@ export const SlateTooltipContent: React.FC<{ slate: DivinitySlate }> = ({
           ))}
         </div>
       ) : (
-        <p className="text-xs text-zinc-500 italic">No affixes</p>
+        <p className="text-xs text-zinc-500 italic">{i18n._("No affixes")}</p>
       )}
     </>
   );

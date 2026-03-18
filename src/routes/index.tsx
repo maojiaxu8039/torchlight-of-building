@@ -326,17 +326,26 @@ function SavesPage(): React.ReactNode {
             <Trans>Torchlight Of Building</Trans>
           </h1>
           <div className="ml-auto flex items-center gap-2">
-            <select
-              value={getStoredLocale()}
-              onChange={(e) => setStoredLocale(e.target.value as Locale)}
-              className="px-3 py-1.5 bg-zinc-800 text-zinc-50 rounded-lg border border-zinc-700 text-sm focus:outline-none focus:border-amber-500"
+            <button
+              onClick={() => setStoredLocale("zh")}
+              className={`px-3 py-1.5 rounded-lg border text-sm transition-colors ${
+                getStoredLocale() === "zh"
+                  ? "bg-amber-500 text-zinc-950 border-amber-500"
+                  : "bg-zinc-800 text-zinc-400 border-zinc-700 hover:bg-zinc-700 hover:text-zinc-200"
+              }`}
             >
-              {SUPPORTED_LOCALES.map((item) => (
-                <option key={item.locale} value={item.locale}>
-                  {item.name}
-                </option>
-              ))}
-            </select>
+              简体中文
+            </button>
+            <button
+              onClick={() => setStoredLocale("en")}
+              className={`px-3 py-1.5 rounded-lg border text-sm transition-colors ${
+                getStoredLocale() === "en"
+                  ? "bg-amber-500 text-zinc-950 border-amber-500"
+                  : "bg-zinc-800 text-zinc-400 border-zinc-700 hover:bg-zinc-700 hover:text-zinc-200"
+              }`}
+            >
+              English
+            </button>
             <button
               onClick={() => setAboutModalOpen(true)}
               className="px-3 py-1.5 bg-zinc-800 text-zinc-400 rounded-lg border border-zinc-700 text-sm hover:bg-zinc-700 hover:text-zinc-200 transition-colors"

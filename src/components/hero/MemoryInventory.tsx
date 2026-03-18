@@ -1,4 +1,5 @@
 import { useCallback, useMemo, useState } from "react";
+import { i18n } from "@/src/lib/i18n";
 import { useHeroUIStore } from "@/src/stores/heroUIStore";
 import type { HeroMemory, HeroPage } from "@/src/tli/core";
 import { HeroMemoryItem } from "./HeroMemoryItem";
@@ -58,7 +59,7 @@ export const MemoryInventory = ({
     <div className="bg-zinc-900 rounded-lg p-4 border border-zinc-700">
       <div className="flex items-center justify-between mb-2">
         <h2 className="text-base font-semibold text-zinc-50">
-          Memory Inventory ({heroMemoryList.length} items)
+          {i18n._("Memory Inventory")} ({heroMemoryList.length} {i18n._("items")})
         </h2>
         <div className="flex gap-2">
           <button
@@ -71,7 +72,7 @@ export const MemoryInventory = ({
             }}
             className="rounded bg-zinc-600 px-2 py-1 text-xs text-zinc-50 transition-colors hover:bg-zinc-500 disabled:cursor-not-allowed disabled:opacity-40"
           >
-            Edit
+            {i18n._("Edit")}
           </button>
           <button
             type="button"
@@ -83,7 +84,7 @@ export const MemoryInventory = ({
             }}
             className="rounded bg-amber-500 px-2 py-1 text-xs text-zinc-950 transition-colors hover:bg-amber-600 disabled:cursor-not-allowed disabled:opacity-40"
           >
-            Copy
+            {i18n._("Copy")}
           </button>
           <button
             type="button"
@@ -95,13 +96,13 @@ export const MemoryInventory = ({
             }}
             className="rounded bg-red-500 px-2 py-1 text-xs text-white transition-colors hover:bg-red-600 disabled:cursor-not-allowed disabled:opacity-40"
           >
-            Delete
+            {i18n._("Delete")}
           </button>
         </div>
       </div>
       {heroMemoryList.length === 0 ? (
         <p className="text-zinc-500 italic text-center py-4">
-          No memories in inventory. Click "Craft Memory" to add one.
+          {i18n._("No memories in inventory. Click \"Craft Memory\" to add one.")}
         </p>
       ) : (
         <div className="space-y-1 max-h-96 overflow-y-auto">

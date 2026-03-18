@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { i18n } from "@/src/lib/i18n";
 import { NumberInput } from "@/src/components/ui/NumberInput";
 import { validateInverseImageValues } from "@/src/lib/inverse-image-utils";
 import { generateItemId } from "@/src/lib/storage";
@@ -59,7 +60,7 @@ const InverseImageCrafterInner: React.FC<InverseImageCrafterInnerProps> = ({
       <div className="space-y-4">
         <div>
           <label className="mb-2 block text-sm text-zinc-400">
-            All Reflected Micro Talent Effects ({formatModifier(microEffect)})
+            {i18n._("All Reflected Micro Talent Effects")} ({formatModifier(microEffect)})
           </label>
           <div className="flex items-center gap-3">
             <span className="text-xs text-zinc-500">-100%</span>
@@ -86,7 +87,7 @@ const InverseImageCrafterInner: React.FC<InverseImageCrafterInnerProps> = ({
 
         <div>
           <label className="mb-2 block text-sm text-zinc-400">
-            All Reflected Medium Talent Effects ({formatModifier(mediumEffect)})
+            {i18n._("All Reflected Medium Talent Effects")} ({formatModifier(mediumEffect)})
           </label>
           <div className="flex items-center gap-3">
             <span className="text-xs text-zinc-500">-100%</span>
@@ -113,7 +114,7 @@ const InverseImageCrafterInner: React.FC<InverseImageCrafterInnerProps> = ({
 
         <div>
           <label className="mb-2 block text-sm text-zinc-400">
-            All Reflected Legendary Medium Talent Effects (
+            {i18n._("All Reflected Legendary Medium Talent Effects")} (
             {formatModifier(legendaryEffect)})
           </label>
           <div className="flex items-center gap-3">
@@ -157,7 +158,7 @@ const InverseImageCrafterInner: React.FC<InverseImageCrafterInnerProps> = ({
           disabled={!validation.valid}
           className="flex-1 rounded bg-cyan-600 px-4 py-2 text-white transition-colors hover:bg-cyan-500 disabled:cursor-not-allowed disabled:bg-zinc-600"
         >
-          {editingInverseImage ? "Update Inverse Image" : "Save to Inventory"}
+          {i18n._(editingInverseImage ? "Update Inverse Image" : "Save to Inventory")}
         </button>
         {onCancel && (
           <button
@@ -165,7 +166,7 @@ const InverseImageCrafterInner: React.FC<InverseImageCrafterInnerProps> = ({
             onClick={onCancel}
             className="rounded bg-zinc-700 px-4 py-2 text-zinc-200 transition-colors hover:bg-zinc-600"
           >
-            Cancel
+            {i18n._("Cancel")}
           </button>
         )}
       </div>

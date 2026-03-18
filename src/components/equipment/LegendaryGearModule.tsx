@@ -326,7 +326,7 @@ export const LegendaryGearModule: React.FC<LegendaryGearModuleProps> = ({
               value={selectedLegendaryIndex}
               onChange={handleLegendarySelect}
               options={legendaryOptions}
-              placeholder="Select a legendary..."
+              placeholder={i18n._("Select a legendary...")}
               renderOptionTooltip={renderLegendaryTooltip}
             />
           </div>
@@ -343,7 +343,7 @@ export const LegendaryGearModule: React.FC<LegendaryGearModuleProps> = ({
                     value={selectedBlendIndex}
                     onChange={setSelectedBlendIndex}
                     options={blendOptions}
-                    placeholder="Select a blend..."
+                    placeholder={i18n._("Select a blend...")}
                   />
                   {selectedBlendIndex !== undefined && (
                     <div className="mt-1">

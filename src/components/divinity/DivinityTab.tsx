@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { i18n } from "@/src/lib/i18n";
 import { findGridCenter } from "@/src/lib/divinity-grid";
 import type { DivinitySlate as SaveDataSlate } from "@/src/lib/schemas/divinity.schema";
 import type {
@@ -60,7 +61,7 @@ export const DivinityTab: React.FC<DivinityTabProps> = ({
   return (
     <div className="flex gap-8">
       <div className="flex flex-col gap-4">
-        <h3 className="text-lg font-medium text-zinc-200">Divinity Grid</h3>
+        <h3 className="text-lg font-medium text-zinc-200">{i18n._("Divinity Grid")}</h3>
         <DivinityGrid
           divinityPage={divinityPage}
           onMoveSlate={onMoveSlate}
@@ -78,7 +79,7 @@ export const DivinityTab: React.FC<DivinityTabProps> = ({
             onClick={() => setIsImportModalOpen(true)}
             className="w-full rounded-lg border border-zinc-600 bg-zinc-800 px-4 py-3 font-semibold text-zinc-200 transition-colors hover:bg-zinc-700"
           >
-            Import Slates
+            {i18n._("Import Slates")}
           </button>
         </div>
 

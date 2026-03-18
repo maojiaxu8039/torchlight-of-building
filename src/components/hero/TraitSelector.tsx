@@ -1,3 +1,4 @@
+import { Trans } from "@lingui/react/macro";
 import { i18n } from "@lingui/core";
 import { SearchableSelect } from "@/src/components/ui/SearchableSelect";
 import {
@@ -21,7 +22,7 @@ import {
 
 const MemoryTooltipContent: React.FC<{ memory: HeroMemory }> = ({ memory }) => (
   <>
-    <TooltipTitle>{memory.memoryType}</TooltipTitle>
+    <TooltipTitle>{i18n._(memory.memoryType)}</TooltipTitle>
     <TooltipContent>
       {memory.affixes.length > 0 ? (
         <div>
@@ -51,7 +52,7 @@ const MemoryTooltipContent: React.FC<{ memory: HeroMemory }> = ({ memory }) => (
           ))}
         </div>
       ) : (
-        <p className="text-xs text-zinc-500 italic">No affixes</p>
+        <p className="text-xs text-zinc-500 italic"><Trans>No affixes</Trans></p>
       )}
     </TooltipContent>
   </>
@@ -260,8 +261,8 @@ const TraitRow = ({
       return (
         <p className="text-zinc-500 text-sm italic">
           {hero !== undefined
-            ? "No traits available"
-            : "Select a hero to view traits"}
+            ? i18n._("No traits available")
+            : i18n._("Select a hero to view traits")}
         </p>
       );
     }
@@ -300,13 +301,13 @@ const TraitRow = ({
                 const firstAffix = memory.affixes[0];
                 const affixText = firstAffix
                   ? getAffixText(firstAffix)
-                  : "Empty memory";
+                  : i18n._("Empty memory");
                 return {
                   value: memory.id,
                   label: `${affixText.substring(0, 30)}...`,
                 };
               })}
-              placeholder="No memory"
+              placeholder={i18n._("No memory")}
               size="sm"
               renderOption={(option) => {
                 const memory = memoryById.get(option.value);
@@ -338,7 +339,7 @@ const TraitRow = ({
         <div className="flex-1">
           <div className="text-sm font-semibold text-amber-400 mb-2 flex items-center gap-2">
             <span>
-              Level {level} {isLevel1 && "(Auto-selected)"}
+              {i18n._("Level")} {level} {isLevel1 && `(${i18n._("Auto-selected")})`}
             </span>
             {selectedTraitA !== undefined &&
               (() => {
@@ -356,8 +357,8 @@ const TraitRow = ({
           {traitsGroupA.length === 0 && traitsGroupB.length === 0 ? (
             <p className="text-zinc-500 text-sm italic">
               {hero !== undefined
-                ? "No traits available at this level"
-                : "Select a hero to view traits"}
+                ? i18n._("No traits available at this level")
+                : i18n._("Select a hero to view traits")}
             </p>
           ) : isLevel1 ? (
             <TraitItem
@@ -389,7 +390,7 @@ export const TraitSelector = ({
 }: TraitSelectorProps) => {
   return (
     <div className="bg-zinc-900 rounded-lg p-6 border border-zinc-700">
-      <h2 className="text-xl font-semibold mb-4 text-zinc-50">Hero Traits</h2>
+      <h2 className="text-xl font-semibold mb-4 text-zinc-50"><Trans>Hero Traits</Trans></h2>
       <div className="space-y-4">
         {TRAIT_LEVELS.map((level) => (
           <TraitRow

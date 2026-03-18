@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { i18n } from "@/src/lib/i18n";
 import { SearchableSelect } from "@/src/components/ui/SearchableSelect";
 import type {
   ActivationMediumAffixDef,
@@ -281,7 +282,7 @@ export const ActivationMediumEditModal = ({
     <Modal
       isOpen={isOpen}
       onClose={onClose}
-      title="Edit Activation Medium"
+      title={i18n._("Edit Activation Medium")}
       maxWidth="md"
       dismissible={false}
     >

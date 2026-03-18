@@ -1,4 +1,5 @@
 import { useMemo, useState } from "react";
+import { i18n } from "@/src/lib/i18n";
 import {
   SearchableSelect,
   type SearchableSelectOption,
@@ -241,7 +242,7 @@ export const LegendarySlateCrafter: React.FC<LegendarySlateCrafterProps> = ({
           {/* Shape Preview with Rotation/Flip Controls */}
           <div className="mb-4">
             <label className="mb-2 block text-sm text-zinc-400">
-              Shape & Orientation
+              {i18n._("Shape & Orientation")}
             </label>
             <div className="flex gap-4 items-start">
               <div
@@ -365,7 +366,7 @@ export const LegendarySlateCrafter: React.FC<LegendarySlateCrafterProps> = ({
                               handleSlotChange(slotIndex, value)
                             }
                             options={getOptionsForSlot(slotIndex)}
-                            placeholder="Select affix..."
+                            placeholder={i18n._("Select affix...")}
                           />
                         </div>
                         {affix !== undefined && (
