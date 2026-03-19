@@ -487,8 +487,8 @@ msgstr "Craft Slate"
 
 #. js-lingui-explicit-id
 #: src/components/equipment/VoraxGearModule.tsx:677
-#~ msgid "Craft Vorax Gear"
-#~ msgstr "Craft Vorax Gear"
+msgid "Craft Vorax Gear"
+msgstr "Craft Vorax Gear"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:117
@@ -1054,6 +1054,22 @@ msgid "Memory Type"
 msgstr "Memory Type"
 
 #. js-lingui-explicit-id
+#: src/components/hero/HeroMemoryItem.tsx:32
+msgid "Memory of Discipline"
+msgstr "Memory of Discipline"
+
+#. js-lingui-explicit-id
+#: src/components/hero/HeroMemoryItem.tsx:32
+msgid "Memory of Origin"
+msgstr "Memory of Origin"
+
+#. js-lingui-explicit-id
+#: src/components/hero/HeroMemoryItem.tsx:32
+msgid "Memory of Progress"
+msgstr "Memory of Progress"
+
+
+#. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:511
 #: src/routes/builder/calculations.tsx:656
 msgid "Mercury"
@@ -1187,9 +1203,6 @@ msgstr "Overload DPS"
 msgid "Overload Interval"
 msgstr "Overload Interval"
 
-#: src/routes/builder/calculations.tsx:602
-#~ msgid "Select an active skill above to view damage calculations."
-#~ msgstr "Select an active skill above to view damage calculations."
 
 #. js-lingui-explicit-id
 #: src/components/pactspirit/PactspiritColumn.tsx:79
@@ -1404,7 +1417,6 @@ msgstr "Select a vorax limb..."
 msgid "Select affix..."
 msgstr "Select affix..."
 
-#. js-lingui-explicit-id
 #: src/routes/builder/calculations.tsx:603
 msgid "Select an active skill above to view damage calculations."
 msgstr "Select an active skill above to view damage calculations."
@@ -1632,8 +1644,8 @@ msgstr "Resource Pool"
 
 #. js-lingui-explicit-id
 #: src/routes/index.tsx:228
-#~ msgid "Untitled"
-#~ msgstr "Untitled"
+msgid "Untitled"
+msgstr "Untitled"
 
 #: src/routes/index.tsx:387
 msgid "My Builds"
@@ -1670,8 +1682,8 @@ msgid "Tree Slot"
 msgstr "Tree Slot"
 
 #: src/components/equipment/EditGearModal.tsx:961
-#~ msgid "Select an equipment type to begin crafting"
-#~ msgstr "Select an equipment type to begin crafting"
+msgid "Select an equipment type to begin crafting"
+msgstr "Select an equipment type to begin crafting"
 
 #: src/components/DebugPanel.tsx:508
 msgid "Apply Changes"
@@ -1804,8 +1816,8 @@ msgid "matches"
 msgstr "matches"
 
 #: src/components/equipment/VoraxGearModule.tsx:755
-#~ msgid "Select a vorax limb to configure"
-#~ msgstr "Select a vorax limb to configure"
+msgid "Select a vorax limb to configure"
+msgstr "Select a vorax limb to configure"
 
 #: src/routes/builder/equipment.tsx:168
 msgid "Vorax"

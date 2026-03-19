@@ -21,11 +21,14 @@ msgid ""
 "+20 to Maximum Life\n"
 "+5% Attack Speed"
 msgstr ""
+"+10% 火伤\n"
+"+20 最大生命\n"
+"+5% 攻速"
 
 #. js-lingui-explicit-id
 #: src/routes/builder/calculations.tsx:685
 msgid "+Max Channeled"
-msgstr ""
+msgstr "+最大引导"
 
 #. js-lingui-explicit-id
 #: src/components/equipment/EquipmentSlotDropdown.tsx:130
@@ -84,7 +87,7 @@ msgstr "显示原始构建代码"
 
 #: src/components/equipment/VoraxGearModule.tsx:832
 msgid "Vorax Limb"
-msgstr "Vorax肢体"
+msgstr "渴瘾肢体"
 
 #: src/routes/index.tsx:400
 msgid "Create New"
@@ -151,6 +154,7 @@ msgstr "添加传奇装备"
 msgid "Affixes"
 msgstr "词缀"
 
+#. js-lingui-explicit-id
 #: src/routes/builder/calculations.tsx:667
 msgid "Agility Blessings"
 msgstr "敏捷祝福"
@@ -251,7 +255,7 @@ msgstr "平均暴击伤害 (副手)"
 #. js-lingui-explicit-id
 #: src/components/configuration/ConfigurationTab.tsx:270
 msgid "Baptism of Purity"
-msgstr ""
+msgstr "纯洁洗礼"
 
 #. js-lingui-explicit-id
 #: src/components/talents/PrismCrafter.tsx:162
@@ -483,8 +487,8 @@ msgstr "制作神板"
 
 #. js-lingui-explicit-id
 #: src/components/equipment/VoraxGearModule.tsx:677
-#~ msgid "Craft Vorax Gear"
-#~ msgstr ""
+msgid "Craft Vorax Gear"
+msgstr "打造渴瘾装备"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:117
@@ -529,7 +533,7 @@ msgstr "普通"
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:18
 msgid "Cudgel"
-msgstr ""
+msgstr "钉头锤"
 
 #. js-lingui-explicit-id
 #: src/components/configuration/ConfigurationTab.tsx:402
@@ -555,7 +559,7 @@ msgstr "匕首"
 #. js-lingui-explicit-id
 #: src/components/configuration/ConfigurationTab.tsx:296
 msgid "Dance of Frost Stacks"
-msgstr ""
+msgstr "冰霜之舞层数"
 
 #. js-lingui-explicit-id
 #: src/components/builder/BuilderLayout.tsx:258
@@ -597,7 +601,7 @@ msgstr "删除"
 #. js-lingui-explicit-id
 #: src/routes/builder/calculations.tsx:678
 msgid "Desecration"
-msgstr ""
+msgstr "亵渎"
 
 #: src/routes/index.tsx:436
 msgid "Create New Build"
@@ -606,7 +610,7 @@ msgstr "创建新流派"
 #. js-lingui-explicit-id
 #: src/components/divinity/DivinityTab.tsx:64
 msgid "Divinity Grid"
-msgstr "神格网格"
+msgstr "传奇神格石板"
 
 #. js-lingui-explicit-id
 #: src/data/translate/translate-tab.ts:9
@@ -746,7 +750,7 @@ msgstr "导出配装"
 #: src/components/configuration/ConfigurationTab.tsx:187
 #: src/routes/builder/calculations.tsx:692
 msgid "Fervor"
-msgstr ""
+msgstr "狂热"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:146
@@ -779,6 +783,7 @@ msgstr "水平翻转"
 msgid "Flip Vertical"
 msgstr "垂直翻转"
 
+#. js-lingui-explicit-id
 #: src/routes/builder/calculations.tsx:662
 msgid "Focus Blessings"
 msgstr "专注祝福"
@@ -786,7 +791,7 @@ msgstr "专注祝福"
 #. js-lingui-explicit-id
 #: src/components/configuration/ConfigurationTab.tsx:283
 msgid "Frostbitten Heart Is Active"
-msgstr ""
+msgstr "霜寒之心已激活"
 
 #: src/components/builder/BuilderLayout.tsx:266
 msgid "Export"
@@ -1041,7 +1046,7 @@ msgstr "中型天赋"
 #. js-lingui-explicit-id
 #: src/components/hero/MemoryInventory.tsx:62
 msgid "Memory Inventory"
-msgstr "记忆库存"
+msgstr "英雄追忆"
 
 #. js-lingui-explicit-id
 #: src/components/hero/EditMemoryModal.tsx:427
@@ -1050,18 +1055,18 @@ msgstr "记忆类型"
 
 #. js-lingui-explicit-id
 #: src/components/hero/HeroMemoryItem.tsx:32
-#~ msgid "Memory of Discipline"
-#~ msgstr "戒律记忆"
+msgid "Memory of Discipline"
+msgstr "本源的追忆"
 
 #. js-lingui-explicit-id
 #: src/components/hero/HeroMemoryItem.tsx:32
-#~ msgid "Memory of Origin"
-#~ msgstr "起源记忆"
+msgid "Memory of Origin"
+msgstr "守己的追忆"
 
 #. js-lingui-explicit-id
 #: src/components/hero/HeroMemoryItem.tsx:32
-#~ msgid "Memory of Progress"
-#~ msgstr "进展记忆"
+msgid "Memory of Progress"
+msgstr "奋进的追忆"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:511
@@ -1401,7 +1406,7 @@ msgstr "选择一个契灵来配置戒指槽"
 #. js-lingui-explicit-id
 #: src/components/equipment/VoraxGearModule.tsx:838
 msgid "Select a vorax limb..."
-msgstr "选择Vorax肢体..."
+msgstr "选择渴瘾肢体..."
 
 #. js-lingui-explicit-id
 #: src/components/divinity/LegendarySlateCrafter.tsx:369
@@ -1476,7 +1481,7 @@ msgstr "选择{0}词缀{1}"
 #. js-lingui-explicit-id
 #: src/components/configuration/ConfigurationTab.tsx:306
 msgid "Shadow Hits"
-msgstr ""
+msgstr "暗影命中"
 
 #. js-lingui-explicit-id
 #: src/components/divinity/LegendarySlateCrafter.tsx:245
@@ -1596,6 +1601,7 @@ msgstr "目标敌人被标记"
 msgid "Target Is Elite"
 msgstr "目标是精英"
 
+#. js-lingui-explicit-id
 #: src/routes/builder/calculations.tsx:672
 msgid "Tenacity Blessings"
 msgstr "坚韧祝福"
@@ -1636,8 +1642,8 @@ msgstr "资源池"
 
 #. js-lingui-explicit-id
 #: src/routes/index.tsx:228
-#~ msgid "Untitled"
-#~ msgstr "未命名"
+msgid "Untitled"
+msgstr "未命名"
 
 #: src/routes/index.tsx:387
 msgid "My Builds"
@@ -1674,8 +1680,8 @@ msgid "Tree Slot"
 msgstr "天赋槽"
 
 #: src/components/equipment/EditGearModal.tsx:961
-#~ msgid "Select an equipment type to begin crafting"
-#~ msgstr "选择一个装备类型以开始制作"
+msgid "Select an equipment type to begin crafting"
+msgstr "选择一个装备类型以开始制作"
 
 #: src/components/DebugPanel.tsx:508
 msgid "Apply Changes"
@@ -1701,14 +1707,6 @@ msgstr "属性概览"
 #: src/components/DebugPanel.tsx:468
 msgid "bytes"
 msgstr "字节"
-
-#: src/routes/builder/calculations.tsx:662
-#~ msgid "Focus Blessings"
-#~ msgstr "专注祝福"
-
-#: src/routes/builder/calculations.tsx:672
-#~ msgid "Tenacity Blessings"
-#~ msgstr "坚韧祝福"
 
 #. js-lingui-explicit-id
 #: src/components/DebugPanel.tsx:467
@@ -1797,11 +1795,6 @@ msgstr "个"
 msgid "Sweet Dream Affix (1 max)"
 msgstr "美梦词缀 (1 max)"
 
-#: src/routes/builder/hero.tsx:
-#: src/data/translate/equipment-types.ts:39
-#~ msgid "Right Ring"
-#~ msgstr "右戒指"
-
 #: src/components/DebugPanel.tsx:545
 msgid "Copy JSON"
 msgstr "复制JSON"
@@ -1821,12 +1814,9 @@ msgid "matches"
 msgstr "个匹配"
 
 #: src/components/equipment/VoraxGearModule.tsx:755
-#~ msgid "Select a vorax limb to configure"
-#~ msgstr ""
+msgid "Select a vorax limb to configure"
+msgstr "选择一个渴瘾肢体进行配置"
 
-#: src/components/hero/EditMemoryModal.tsx:62
-#~ msgid "Random"
-#~ msgstr "随机"
 
 #: src/routes/builder/equipment.tsx:168
 msgid "Vorax"
@@ -1846,10 +1836,6 @@ msgstr "核心天赋"
 msgid "Are you sure you want to delete \"{0}\"?"
 msgstr "您确定要删除“{0}”吗？"
 
-#. #. js-lingui-explicit-id
-#: src/routes/builder/talents/$slot.tsx:431
-#~ msgid "Profession Trees"
-#~ msgstr "职业天赋树"
 
 #: src/components/equipment/VoraxGearModule.tsx:779
 #: src/components/talents/TalentNodeDisplay.tsx:172
@@ -1861,9 +1847,6 @@ msgstr "传奇"
 msgid "Select Legendary"
 msgstr "选择一个传奇物品"
 
-#: src/routes/builder/calculations.tsx:678
-#~ msgid "Desecration"
-#~ msgstr "亵渎"
 
 #: src/components/hero/HeroMemoryItem.tsx:38
 msgid "Equipped"
@@ -1884,9 +1867,6 @@ msgstr "关于"
 msgid "Select Hero"
 msgstr "选择英雄"
 
-#: src/routes/builder/calculations.tsx:685
-#~ msgid "+Max Channeled"
-#~ msgstr "+最大引导"
 
 #: src/components/equipment/EditGearModal.tsx:765
 msgid "Clear"
@@ -1926,7 +1906,3 @@ msgstr "导入失败"
 msgid "Rare"
 msgstr "稀有"
 
-#: src/components/configuration/ConfigurationTab.tsx:187
-#: src/routes/builder/calculations.tsx:692
-#~ msgid "Fervor"
-#~ msgstr "狂热"
