@@ -144,6 +144,11 @@ msgid "Active Skills"
 msgstr "Active Skills"
 
 #. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:1066
+msgid "Active Tangles"
+msgstr "Active Tangles"
+
+#. js-lingui-explicit-id
 #: src/components/equipment/LegendaryGearModule.tsx:313
 msgid "Add Legendary"
 msgstr "Add Legendary"
@@ -253,7 +258,7 @@ msgid "Avg Hit crit (OH)"
 msgstr "Avg Hit crit (OH)"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:270
+#: src/components/configuration/ConfigurationTab.tsx:282
 msgid "Baptism of Purity"
 msgstr "Baptism of Purity"
 
@@ -269,13 +274,18 @@ msgid "Belt"
 msgstr "Belt"
 
 #. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:1047
+msgid "Berserking Blade Buff Stacks"
+msgstr "Berserking Blade Buff Stacks"
+
+#. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:573
 #: src/routes/builder/calculations.tsx:736
 msgid "Block Ratio"
 msgstr "Block Ratio"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:830
+#: src/components/configuration/ConfigurationTab.tsx:842
 msgid "Blur Ended Recently"
 msgstr "Blur Ended Recently"
 
@@ -347,7 +357,7 @@ msgid "Cannot remove: tree must have 0 allocated points"
 msgstr "Cannot remove: tree must have 0 allocated points"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:970
+#: src/components/configuration/ConfigurationTab.tsx:982
 msgid "Cast Curse Recently"
 msgstr "Cast Curse Recently"
 
@@ -357,12 +367,17 @@ msgid "Casts/sec"
 msgstr "Casts/sec"
 
 #. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:945
+msgid "Chain Lightning Instances on Target"
+msgstr "Chain Lightning Instances on Target"
+
+#. js-lingui-explicit-id
 #: src/components/divinity/SlateEditToolbar.tsx:133
 msgid "Change Shape"
 msgstr "Change Shape"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:698
+#: src/components/configuration/ConfigurationTab.tsx:710
 msgid "Channeling"
 msgstr "Channeling"
 
@@ -428,13 +443,13 @@ msgid "Combo Points"
 msgstr "Combo Points"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:164
+#: src/components/configuration/ConfigurationTab.tsx:176
 #: src/data/translate/translate-tab.ts:10
 msgid "Configuration"
 msgstr "Configuration"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:166
+#: src/components/configuration/ConfigurationTab.tsx:178
 msgid "Configure combat conditions and buff stacks for damage calculations."
 msgstr "Configure combat conditions and buff stacks for damage calculations."
 
@@ -487,8 +502,8 @@ msgstr "Craft Slate"
 
 #. js-lingui-explicit-id
 #: src/components/equipment/VoraxGearModule.tsx:677
-msgid "Craft Vorax Gear"
-msgstr "Craft Vorax Gear"
+#~ msgid "Craft Vorax Gear"
+#~ msgstr "Craft Vorax Gear"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:117
@@ -521,7 +536,7 @@ msgid "Crossbow"
 msgstr "Crossbow"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:235
+#: src/components/configuration/ConfigurationTab.tsx:247
 msgid "Cruelty Buff Stacks"
 msgstr "Cruelty Buff Stacks"
 
@@ -536,7 +551,7 @@ msgid "Cudgel"
 msgstr "Cudgel"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:402
+#: src/components/configuration/ConfigurationTab.tsx:414
 msgid "Current Life %"
 msgstr "Current Life %"
 
@@ -557,7 +572,7 @@ msgid "Dagger"
 msgstr "Dagger"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:296
+#: src/components/configuration/ConfigurationTab.tsx:308
 msgid "Dance of Frost Stacks"
 msgstr "Dance of Frost Stacks"
 
@@ -666,57 +681,72 @@ msgid "Empty memory"
 msgstr "Empty memory"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:634
+#: src/components/configuration/ConfigurationTab.tsx:656
+msgid "Enemies Affected by Warcry"
+msgstr "Enemies Affected by Warcry"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:646
 msgid "Enemies Nearby"
 msgstr "Enemies Nearby"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:457
+#: src/components/configuration/ConfigurationTab.tsx:469
 msgid "Enemy Armor"
 msgstr "Enemy Armor"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:413
+#: src/components/configuration/ConfigurationTab.tsx:425
 msgid "Enemy Cold Res %"
 msgstr "Enemy Cold Res %"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:446
+#: src/components/configuration/ConfigurationTab.tsx:458
 msgid "Enemy Erosion Res %"
 msgstr "Enemy Erosion Res %"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:435
+#: src/components/configuration/ConfigurationTab.tsx:447
 msgid "Enemy Fire Res %"
 msgstr "Enemy Fire Res %"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:210
+#: src/components/configuration/ConfigurationTab.tsx:222
 msgid "Enemy Frostbitten"
 msgstr "Enemy Frostbitten"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:690
+#: src/components/configuration/ConfigurationTab.tsx:781
+msgid "Enemy Has Affliction"
+msgstr "Enemy Has Affliction"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:702
 msgid "Enemy Has Ailment"
 msgstr "Enemy Has Ailment"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:804
+#: src/components/configuration/ConfigurationTab.tsx:805
+msgid "Enemy Has Desecration"
+msgstr "Enemy Has Desecration"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:816
 msgid "Enemy Has Trauma"
 msgstr "Enemy Has Trauma"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:424
+#: src/components/configuration/ConfigurationTab.tsx:436
 msgid "Enemy Lightning Res %"
 msgstr "Enemy Lightning Res %"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:504
+#: src/components/configuration/ConfigurationTab.tsx:516
 msgid "Enemy Numbed"
 msgstr "Enemy Numbed"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:466
+#: src/components/configuration/ConfigurationTab.tsx:478
 msgid "Enemy Paralyzed"
 msgstr "Enemy Paralyzed"
 
@@ -747,7 +777,7 @@ msgid "Export Loadout"
 msgstr "Export Loadout"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:187
+#: src/components/configuration/ConfigurationTab.tsx:199
 #: src/routes/builder/calculations.tsx:692
 msgid "Fervor"
 msgstr "Fervor"
@@ -789,7 +819,7 @@ msgid "Focus Blessings"
 msgstr "Focus Blessings"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:283
+#: src/components/configuration/ConfigurationTab.tsx:295
 msgid "Frostbitten Heart Is Active"
 msgstr "Frostbitten Heart Is Active"
 
@@ -832,47 +862,62 @@ msgid "God/Goddess Trees"
 msgstr "God/Goddess Trees"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:340
+#: src/components/configuration/ConfigurationTab.tsx:352
 msgid "Has Agility Blessing"
 msgstr "Has Agility Blessing"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:822
+#: src/components/configuration/ConfigurationTab.tsx:993
+msgid "Has Attack Aggression"
+msgstr "Has Attack Aggression"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:667
+msgid "Has Blocked Recently"
+msgstr "Has Blocked Recently"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:834
 msgid "Has Blur"
 msgstr "Has Blur"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:664
+#: src/components/configuration/ConfigurationTab.tsx:676
 msgid "Has Crit Recently"
 msgstr "Has Crit Recently"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:672
+#: src/components/configuration/ConfigurationTab.tsx:684
 msgid "Has Elites Nearby"
 msgstr "Has Elites Nearby"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:316
+#: src/components/configuration/ConfigurationTab.tsx:328
 msgid "Has Focus Blessing"
 msgstr "Has Focus Blessing"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:526
+#: src/components/configuration/ConfigurationTab.tsx:538
 msgid "Has Full Mana"
 msgstr "Has Full Mana"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:534
+#: src/components/configuration/ConfigurationTab.tsx:546
 msgid "Has Low Mana"
 msgstr "Has Low Mana"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:954
+#: src/components/configuration/ConfigurationTab.tsx:966
 msgid "Has Moved Recently"
 msgstr "Has Moved Recently"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:365
+#: src/components/configuration/ConfigurationTab.tsx:1005
+msgid "Has Spell Aggression"
+msgstr "Has Spell Aggression"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:377
 msgid "Has Tenacity Blessing"
 msgstr "Has Tenacity Blessing"
 
@@ -901,6 +946,11 @@ msgstr "Helmet (STR)"
 msgid "Hero"
 msgstr "Hero"
 
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:923
+msgid "Hit Enemy With Elemental Dmg Recently"
+msgstr "Hit Enemy With Elemental Dmg Recently"
+
 #: src/routes/index.tsx:424
 msgid "No builds yet"
 msgstr "No builds yet"
@@ -922,6 +972,11 @@ msgstr "INT"
 #: src/components/equipment/VoraxGearModule.tsx:951
 msgid "Save Changes"
 msgstr "Save Changes"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:1056
+msgid "Ice Puppet Stacks"
+msgstr "Ice Puppet Stacks"
 
 #. js-lingui-explicit-id
 #: src/routes/builder/skills.tsx:69
@@ -949,7 +1004,7 @@ msgid "Inverse Images"
 msgstr "Inverse Images"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:962
+#: src/components/configuration/ConfigurationTab.tsx:974
 msgid "Is Moving"
 msgstr "Is Moving"
 
@@ -980,7 +1035,7 @@ msgid "Legendary Talent"
 msgstr "Legendary Talent"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:179
+#: src/components/configuration/ConfigurationTab.tsx:191
 #: src/components/hero/TraitSelector.tsx:342
 msgid "Level"
 msgstr "Level"
@@ -1007,7 +1062,12 @@ msgid "Main Hand"
 msgstr "Main Hand"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:392
+#: src/components/configuration/ConfigurationTab.tsx:1015
+msgid "Main Spell Skills Cast Recently"
+msgstr "Main Spell Skills Cast Recently"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:404
 msgid "Mana Consumed Recently"
 msgstr "Mana Consumed Recently"
 
@@ -1022,6 +1082,11 @@ msgstr "Max Life"
 #: src/routes/builder/calculations.tsx:632
 msgid "Max Mana"
 msgstr "Max Mana"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:1027
+msgid "Max Multistrikes Recently"
+msgstr "Max Multistrikes Recently"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:231
@@ -1055,19 +1120,18 @@ msgstr "Memory Type"
 
 #. js-lingui-explicit-id
 #: src/components/hero/HeroMemoryItem.tsx:32
-msgid "Memory of Discipline"
-msgstr "Memory of Discipline"
+#~ msgid "Memory of Discipline"
+#~ msgstr "Memory of Discipline"
 
 #. js-lingui-explicit-id
 #: src/components/hero/HeroMemoryItem.tsx:32
-msgid "Memory of Origin"
-msgstr "Memory of Origin"
+#~ msgid "Memory of Origin"
+#~ msgstr "Memory of Origin"
 
 #. js-lingui-explicit-id
 #: src/components/hero/HeroMemoryItem.tsx:32
-msgid "Memory of Progress"
-msgstr "Memory of Progress"
-
+#~ msgid "Memory of Progress"
+#~ msgstr "Memory of Progress"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:511
@@ -1079,6 +1143,11 @@ msgstr "Mercury"
 #: src/components/talents/TalentNodeDisplay.tsx:82
 msgid "Micro Talent"
 msgstr "Micro Talent"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:851
+msgid "Mind Control Links Used"
+msgstr "Mind Control Links Used"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:453
@@ -1203,6 +1272,9 @@ msgstr "Overload DPS"
 msgid "Overload Interval"
 msgstr "Overload Interval"
 
+#: src/routes/builder/calculations.tsx:603
+#~ msgid "Select an active skill above to view damage calculations."
+#~ msgstr "Select an active skill above to view damage calculations."
 
 #. js-lingui-explicit-id
 #: src/components/pactspirit/PactspiritColumn.tsx:79
@@ -1282,7 +1354,7 @@ msgid "Raw"
 msgstr "Raw"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:243
+#: src/components/configuration/ConfigurationTab.tsx:255
 msgid "Realm of Mercury"
 msgstr "Realm of Mercury"
 
@@ -1343,6 +1415,26 @@ msgid "STR"
 msgstr "STR"
 
 #. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:742
+msgid "Sage's Insight (Cold)"
+msgstr "Sage's Insight (Cold)"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:768
+msgid "Sage's Insight (Erosion)"
+msgstr "Sage's Insight (Erosion)"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:729
+msgid "Sage's Insight (Fire)"
+msgstr "Sage's Insight (Fire)"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:755
+msgid "Sage's Insight (Lightning)"
+msgstr "Sage's Insight (Lightning)"
+
+#. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:42
 msgid "Scepter"
 msgstr "Scepter"
@@ -1373,6 +1465,11 @@ msgstr "Search rare gauge affixes..."
 #: src/components/DebugPanel.tsx:476
 msgid "Search..."
 msgstr "Search..."
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:693
+msgid "Seconds With Elite Nearby"
+msgstr "Seconds With Elite Nearby"
 
 #. js-lingui-explicit-id
 #: src/components/equipment/LegendaryGearModule.tsx:346
@@ -1417,6 +1514,7 @@ msgstr "Select a vorax limb..."
 msgid "Select affix..."
 msgstr "Select affix..."
 
+#. js-lingui-explicit-id
 #: src/routes/builder/calculations.tsx:603
 msgid "Select an active skill above to view damage calculations."
 msgstr "Select an active skill above to view damage calculations."
@@ -1481,7 +1579,7 @@ msgid "Select {0} Affix {1}"
 msgstr "Select {0} Affix {1}"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:306
+#: src/components/configuration/ConfigurationTab.tsx:318
 msgid "Shadow Hits"
 msgstr "Shadow Hits"
 
@@ -1544,9 +1642,19 @@ msgid "Spell DPS"
 msgstr "Spell DPS"
 
 #. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:935
+msgid "Spell Skills Used Recently"
+msgstr "Spell Skills Used Recently"
+
+#. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:46
 msgid "Spirit Ring"
 msgstr "Spirit Ring"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:719
+msgid "Stalker Stacks"
+msgstr "Stalker Stacks"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:190
@@ -1594,12 +1702,67 @@ msgid "Talents"
 msgstr "Talents"
 
 #. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:873
+msgid "Target Enemy Frozen Recently"
+msgstr "Target Enemy Frozen Recently"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:885
+msgid "Target Enemy Has Cold Infiltration"
+msgstr "Target Enemy Has Cold Infiltration"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:911
+msgid "Target Enemy Has Fire Infiltration"
+msgstr "Target Enemy Has Fire Infiltration"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:599
+msgid "Target Enemy Has Frail"
+msgstr "Target Enemy Has Frail"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:897
+msgid "Target Enemy Has Lightning Infiltration"
+msgstr "Target Enemy Has Lightning Infiltration"
+
+#. js-lingui-explicit-id
 #: src/components/configuration/ConfigurationTab.tsx:611
+msgid "Target Enemy Has Whimsy Signal"
+msgstr "Target Enemy Has Whimsy Signal"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:632
+msgid "Target Enemy Is Cursed"
+msgstr "Target Enemy Is Cursed"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:575
+msgid "Target Enemy Is Distant"
+msgstr "Target Enemy Is Distant"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:861
+msgid "Target Enemy Is Frozen"
+msgstr "Target Enemy Is Frozen"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:587
+msgid "Target Enemy Is In Proximity"
+msgstr "Target Enemy Is In Proximity"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:563
+msgid "Target Enemy Is Nearby"
+msgstr "Target Enemy Is Nearby"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:623
 msgid "Target Enemy Marked"
 msgstr "Target Enemy Marked"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:542
+#: src/components/configuration/ConfigurationTab.tsx:554
 msgid "Target Is Elite"
 msgstr "Target Is Elite"
 
@@ -1609,9 +1772,19 @@ msgid "Tenacity Blessings"
 msgstr "Tenacity Blessings"
 
 #. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:1037
+msgid "Times Regained Recently"
+msgstr "Times Regained Recently"
+
+#. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:47
 msgid "Tin Staff"
 msgstr "Tin Staff"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:825
+msgid "Torment Stacks"
+msgstr "Torment Stacks"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:281
@@ -1622,6 +1795,11 @@ msgstr "Total DPS"
 #: src/components/builder/StatsPanel.tsx:84
 msgid "Total Reap DPS"
 msgstr "Total Reap DPS"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:1076
+msgid "Twisted Spacetime Stacks"
+msgstr "Twisted Spacetime Stacks"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:48
@@ -1644,8 +1822,13 @@ msgstr "Resource Pool"
 
 #. js-lingui-explicit-id
 #: src/routes/index.tsx:228
-msgid "Untitled"
-msgstr "Untitled"
+#~ msgid "Untitled"
+#~ msgstr "Untitled"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:955
+msgid "Used Mobility Skill Recently"
+msgstr "Used Mobility Skill Recently"
 
 #: src/routes/index.tsx:387
 msgid "My Builds"
@@ -1682,8 +1865,8 @@ msgid "Tree Slot"
 msgstr "Tree Slot"
 
 #: src/components/equipment/EditGearModal.tsx:961
-msgid "Select an equipment type to begin crafting"
-msgstr "Select an equipment type to begin crafting"
+#~ msgid "Select an equipment type to begin crafting"
+#~ msgstr "Select an equipment type to begin crafting"
 
 #: src/components/DebugPanel.tsx:508
 msgid "Apply Changes"
@@ -1816,8 +1999,8 @@ msgid "matches"
 msgstr "matches"
 
 #: src/components/equipment/VoraxGearModule.tsx:755
-msgid "Select a vorax limb to configure"
-msgstr "Select a vorax limb to configure"
+#~ msgid "Select a vorax limb to configure"
+#~ msgstr "Select a vorax limb to configure"
 
 #: src/routes/builder/equipment.tsx:168
 msgid "Vorax"

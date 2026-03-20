@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, useEffect, useState } from "react";
 import { i18n } from "@/src/lib/i18n";
 import { hasPactspirit } from "../../lib/pactspirit-utils";
 import type { ConfigurationPage } from "../../lib/save-data";
@@ -158,6 +158,18 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
   onUpdate,
   loadout,
 }) => {
+  const [, forceUpdate] = useState({});
+
+  useEffect(() => {
+    const handleLocaleChange = () => {
+      forceUpdate({});
+    };
+    window.addEventListener("locale-changed", handleLocaleChange);
+    return () => {
+      window.removeEventListener("locale-changed", handleLocaleChange);
+    };
+  }, []);
+
   return (
     <div className="space-y-6">
       <div>
@@ -548,7 +560,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
           />
 
           <label className="text-right text-zinc-50">
-            Target Enemy Is Nearby
+            {i18n._("Target Enemy Is Nearby")}
           </label>
           <input
             type="checkbox"
@@ -560,7 +572,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
           />
 
           <label className="text-right text-zinc-50">
-            Target Enemy Is Distant
+            {i18n._("Target Enemy Is Distant")}
           </label>
           <input
             type="checkbox"
@@ -572,7 +584,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
           />
 
           <label className="text-right text-zinc-50">
-            Target Enemy Is In Proximity
+            {i18n._("Target Enemy Is In Proximity")}
           </label>
           <input
             type="checkbox"
@@ -584,7 +596,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
           />
 
           <label className="text-right text-zinc-50">
-            Target Enemy Has Frail
+            {i18n._("Target Enemy Has Frail")}
           </label>
           <input
             type="checkbox"
@@ -596,7 +608,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
           />
 
           <label className="text-right text-zinc-50">
-            Target Enemy Has Whimsy Signal
+            {i18n._("Target Enemy Has Whimsy Signal")}
             <InfoTooltip text="Debuff from Bing2 hero trait" />
           </label>
           <input
@@ -617,7 +629,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
           />
 
           <label className="text-right text-zinc-50">
-            Target Enemy Is Cursed
+            {i18n._("Target Enemy Is Cursed")}
             <InfoTooltip text="Defaults to true if you have a curse skill" />
           </label>
           <input
@@ -641,7 +653,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
           />
 
           <label className="text-right text-zinc-50">
-            Enemies Affected by Warcry
+            {i18n._("Enemies Affected by Warcry")}
           </label>
           <NumberInput
             value={config.numEnemiesAffectedByWarcry}
@@ -652,7 +664,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
           />
 
           <label className="text-right text-zinc-50">
-            Has Blocked Recently
+            {i18n._("Has Blocked Recently")}
           </label>
           <input
             type="checkbox"
@@ -678,7 +690,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
           />
 
           <label className="text-right text-zinc-50">
-            Seconds With Elite Nearby
+            {i18n._("Seconds With Elite Nearby")}
             <InfoTooltip text="Number of seconds with elite nearby. Defaults to 0." />
           </label>
           <NumberInput
@@ -704,7 +716,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
           />
 
           <label className="text-right text-zinc-50">
-            Stalker Stacks
+            {i18n._("Stalker Stacks")}
             <InfoTooltip text="Cateye Erika: Wind Stalker stacks. Defaults to max." />
           </label>
           <NumberInput
@@ -714,7 +726,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
           />
 
           <label className="text-right text-zinc-50">
-            Sage&apos;s Insight (Fire)
+            {i18n._("Sage's Insight (Fire)")}
             <InfoTooltip text="Enemy affected by Sage's Insight &quot;When a Spell hit inflicts Fire Damage&quot; condition" />
           </label>
           <input
@@ -727,7 +739,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
           />
 
           <label className="text-right text-zinc-50">
-            Sage&apos;s Insight (Cold)
+            {i18n._("Sage's Insight (Cold)")}
             <InfoTooltip text="Enemy affected by Sage's Insight &quot;When a Spell hit inflicts Cold Damage&quot; condition" />
           </label>
           <input
@@ -740,7 +752,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
           />
 
           <label className="text-right text-zinc-50">
-            Sage&apos;s Insight (Lightning)
+            {i18n._("Sage's Insight (Lightning)")}
             <InfoTooltip text="Enemy affected by Sage's Insight &quot;When a Spell hit inflicts Lightning Damage&quot; condition" />
           </label>
           <input
@@ -753,7 +765,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
           />
 
           <label className="text-right text-zinc-50">
-            Sage&apos;s Insight (Erosion)
+            {i18n._("Sage's Insight (Erosion)")}
             <InfoTooltip text="Enemy affected by Sage's Insight &quot;When a Spell hit inflicts Erosion Damage&quot; condition" />
           </label>
           <input
@@ -766,7 +778,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
           />
 
           <label className="text-right text-zinc-50">
-            Enemy Has Affliction
+            {i18n._("Enemy Has Affliction")}
           </label>
           <input
             type="checkbox"
@@ -790,7 +802,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
           )}
 
           <label className="text-right text-zinc-50">
-            Enemy Has Desecration
+            {i18n._("Enemy Has Desecration")}
           </label>
           <input
             type="checkbox"
@@ -810,7 +822,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
           />
 
           <label className="text-right text-zinc-50">
-            Torment Stacks
+            {i18n._("Torment Stacks")}
             <InfoTooltip text="Psychic tree legendary talent" />
           </label>
           <NumberInput
@@ -836,7 +848,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
           />
 
           <label className="text-right text-zinc-50">
-            Mind Control Links Used
+            {i18n._("Mind Control Links Used")}
             <InfoTooltip text="Defaults to max" />
           </label>
           <NumberInput
@@ -846,7 +858,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
           />
 
           <label className="text-right text-zinc-50">
-            Target Enemy Is Frozen
+            {i18n._("Target Enemy Is Frozen")}
           </label>
           <input
             type="checkbox"
@@ -858,7 +870,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
           />
 
           <label className="text-right text-zinc-50">
-            Target Enemy Frozen Recently
+            {i18n._("Target Enemy Frozen Recently")}
           </label>
           <input
             type="checkbox"
@@ -870,7 +882,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
           />
 
           <label className="text-right text-zinc-50">
-            Target Enemy Has Cold Infiltration
+            {i18n._("Target Enemy Has Cold Infiltration")}
           </label>
           <input
             type="checkbox"
@@ -882,7 +894,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
           />
 
           <label className="text-right text-zinc-50">
-            Target Enemy Has Lightning Infiltration
+            {i18n._("Target Enemy Has Lightning Infiltration")}
           </label>
           <input
             type="checkbox"
@@ -896,7 +908,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
           />
 
           <label className="text-right text-zinc-50">
-            Target Enemy Has Fire Infiltration
+            {i18n._("Target Enemy Has Fire Infiltration")}
           </label>
           <input
             type="checkbox"
@@ -908,7 +920,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
           />
 
           <label className="text-right text-zinc-50">
-            Hit Enemy With Elemental Dmg Recently
+            {i18n._("Hit Enemy With Elemental Dmg Recently")}
             <InfoTooltip text="Number of times you've hit enemy with elemental damage recently. Defaults to 0." />
           </label>
           <NumberInput
@@ -920,7 +932,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
           />
 
           <label className="text-right text-zinc-50">
-            Spell Skills Used Recently
+            {i18n._("Spell Skills Used Recently")}
             <InfoTooltip text="Number of spell skills used recently. Defaults to 0." />
           </label>
           <NumberInput
@@ -930,7 +942,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
           />
 
           <label className="text-right text-zinc-50">
-            Chain Lightning Instances on Target
+            {i18n._("Chain Lightning Instances on Target")}
             <InfoTooltip text="Number of Chain Lightning instances hitting the target. Defaults to max." />
           </label>
           <NumberInput
@@ -940,7 +952,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
           />
 
           <label className="text-right text-zinc-50">
-            Used Mobility Skill Recently
+            {i18n._("Used Mobility Skill Recently")}
           </label>
           <input
             type="checkbox"
@@ -978,7 +990,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
           />
 
           <label className="text-right text-zinc-50">
-            Has Attack Aggression
+            {i18n._("Has Attack Aggression")}
           </label>
           <input
             type="checkbox"
@@ -990,7 +1002,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
           />
 
           <label className="text-right text-zinc-50">
-            Has Spell Aggression
+            {i18n._("Has Spell Aggression")}
           </label>
           <input
             type="checkbox"
@@ -1000,7 +1012,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
           />
 
           <label className="text-right text-zinc-50">
-            Main Spell Skills Cast Recently
+            {i18n._("Main Spell Skills Cast Recently")}
             <InfoTooltip text="Number of Main Spell Skills cast recently. Defaults to 0." />
           </label>
           <NumberInput
@@ -1012,7 +1024,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
           />
 
           <label className="text-right text-zinc-50">
-            Max Multistrikes Recently
+            {i18n._("Max Multistrikes Recently")}
             <InfoTooltip text="Maximum number of multistrikes triggered recently. Defaults to 0." />
           </label>
           <NumberInput
@@ -1022,7 +1034,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
           />
 
           <label className="text-right text-zinc-50">
-            Times Regained Recently
+            {i18n._("Times Regained Recently")}
             <InfoTooltip text="Number of times you have Regained in the last 8s. Defaults to 0." />
           </label>
           <NumberInput
@@ -1032,7 +1044,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
           />
 
           <label className="text-right text-zinc-50">
-            Berserking Blade Buff Stacks
+            {i18n._("Berserking Blade Buff Stacks")}
             <InfoTooltip text="Defaults to max stacks" />
           </label>
           <NumberInput
@@ -1041,7 +1053,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
             min={0}
           />
           <label className="text-right text-zinc-50">
-            Ice Puppet Stacks
+            {i18n._("Ice Puppet Stacks")}
             <InfoTooltip text="Ice Prison debuff stacks on frostbitten enemies. Defaults to 0." />
           </label>
           <NumberInput
@@ -1051,7 +1063,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
           />
 
           <label className="text-right text-zinc-50">
-            Active Tangles
+            {i18n._("Active Tangles")}
             <InfoTooltip text="Number of active tangles. Defaults to 1." />
           </label>
           <NumberInput
@@ -1061,7 +1073,7 @@ export const ConfigurationTab: React.FC<ConfigurationTabProps> = ({
           />
 
           <label className="text-right text-zinc-50">
-            Twisted Spacetime Stacks
+            {i18n._("Twisted Spacetime Stacks")}
             <InfoTooltip text="Defaults to max stacks 5" />
           </label>
           <NumberInput

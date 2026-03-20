@@ -144,6 +144,11 @@ msgid "Active Skills"
 msgstr "主动技能"
 
 #. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:1066
+msgid "Active Tangles"
+msgstr "活跃纠缠数"
+
+#. js-lingui-explicit-id
 #: src/components/equipment/LegendaryGearModule.tsx:313
 msgid "Add Legendary"
 msgstr "添加传奇装备"
@@ -253,7 +258,7 @@ msgid "Avg Hit crit (OH)"
 msgstr "平均暴击伤害 (副手)"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:270
+#: src/components/configuration/ConfigurationTab.tsx:282
 msgid "Baptism of Purity"
 msgstr "纯洁洗礼"
 
@@ -269,13 +274,18 @@ msgid "Belt"
 msgstr "腰带"
 
 #. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:1047
+msgid "Berserking Blade Buff Stacks"
+msgstr "狂战刀buff层数"
+
+#. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:573
 #: src/routes/builder/calculations.tsx:736
 msgid "Block Ratio"
 msgstr "格挡率"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:830
+#: src/components/configuration/ConfigurationTab.tsx:842
 msgid "Blur Ended Recently"
 msgstr "模糊最近结束"
 
@@ -347,7 +357,7 @@ msgid "Cannot remove: tree must have 0 allocated points"
 msgstr "无法移除：天赋树必须为0分配点数"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:970
+#: src/components/configuration/ConfigurationTab.tsx:982
 msgid "Cast Curse Recently"
 msgstr "最近施放诅咒"
 
@@ -357,12 +367,17 @@ msgid "Casts/sec"
 msgstr "施法/秒"
 
 #. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:945
+msgid "Chain Lightning Instances on Target"
+msgstr "连锁闪电作用于目标次数"
+
+#. js-lingui-explicit-id
 #: src/components/divinity/SlateEditToolbar.tsx:133
 msgid "Change Shape"
 msgstr "更改形状"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:698
+#: src/components/configuration/ConfigurationTab.tsx:710
 msgid "Channeling"
 msgstr "引导"
 
@@ -428,13 +443,13 @@ msgid "Combo Points"
 msgstr "连击点数"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:164
+#: src/components/configuration/ConfigurationTab.tsx:176
 #: src/data/translate/translate-tab.ts:10
 msgid "Configuration"
 msgstr "配置"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:166
+#: src/components/configuration/ConfigurationTab.tsx:178
 msgid "Configure combat conditions and buff stacks for damage calculations."
 msgstr "配置战斗条件和增益层数用于伤害计算。"
 
@@ -487,8 +502,8 @@ msgstr "制作神板"
 
 #. js-lingui-explicit-id
 #: src/components/equipment/VoraxGearModule.tsx:677
-msgid "Craft Vorax Gear"
-msgstr "打造渴瘾装备"
+#~ msgid "Craft Vorax Gear"
+#~ msgstr "打造渴瘾装备"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:117
@@ -521,7 +536,7 @@ msgid "Crossbow"
 msgstr "弩"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:235
+#: src/components/configuration/ConfigurationTab.tsx:247
 msgid "Cruelty Buff Stacks"
 msgstr "残忍增益层数"
 
@@ -536,7 +551,7 @@ msgid "Cudgel"
 msgstr "钉头锤"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:402
+#: src/components/configuration/ConfigurationTab.tsx:414
 msgid "Current Life %"
 msgstr "当前生命 %"
 
@@ -557,7 +572,7 @@ msgid "Dagger"
 msgstr "匕首"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:296
+#: src/components/configuration/ConfigurationTab.tsx:308
 msgid "Dance of Frost Stacks"
 msgstr "冰霜之舞层数"
 
@@ -666,57 +681,72 @@ msgid "Empty memory"
 msgstr "空记忆"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:634
+#: src/components/configuration/ConfigurationTab.tsx:656
+msgid "Enemies Affected by Warcry"
+msgstr "战吼影响的敌人数量"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:646
 msgid "Enemies Nearby"
 msgstr "附近敌人"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:457
+#: src/components/configuration/ConfigurationTab.tsx:469
 msgid "Enemy Armor"
 msgstr "敌人护甲"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:413
+#: src/components/configuration/ConfigurationTab.tsx:425
 msgid "Enemy Cold Res %"
 msgstr "敌人冰抗 %"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:446
+#: src/components/configuration/ConfigurationTab.tsx:458
 msgid "Enemy Erosion Res %"
 msgstr "敌人腐蚀抗性 %"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:435
+#: src/components/configuration/ConfigurationTab.tsx:447
 msgid "Enemy Fire Res %"
 msgstr "敌人火抗 %"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:210
+#: src/components/configuration/ConfigurationTab.tsx:222
 msgid "Enemy Frostbitten"
 msgstr "敌人冰冻"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:690
+#: src/components/configuration/ConfigurationTab.tsx:781
+msgid "Enemy Has Affliction"
+msgstr "敌人有痛苦"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:702
 msgid "Enemy Has Ailment"
 msgstr "敌人有异常"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:804
+#: src/components/configuration/ConfigurationTab.tsx:805
+msgid "Enemy Has Desecration"
+msgstr "敌人有亵渎"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:816
 msgid "Enemy Has Trauma"
 msgstr "敌人有创伤"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:424
+#: src/components/configuration/ConfigurationTab.tsx:436
 msgid "Enemy Lightning Res %"
 msgstr "敌人闪电抗性 %"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:504
+#: src/components/configuration/ConfigurationTab.tsx:516
 msgid "Enemy Numbed"
 msgstr "敌人麻木"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:466
+#: src/components/configuration/ConfigurationTab.tsx:478
 msgid "Enemy Paralyzed"
 msgstr "敌人瘫痪"
 
@@ -747,7 +777,7 @@ msgid "Export Loadout"
 msgstr "导出配装"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:187
+#: src/components/configuration/ConfigurationTab.tsx:199
 #: src/routes/builder/calculations.tsx:692
 msgid "Fervor"
 msgstr "狂热"
@@ -789,7 +819,7 @@ msgid "Focus Blessings"
 msgstr "专注祝福"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:283
+#: src/components/configuration/ConfigurationTab.tsx:295
 msgid "Frostbitten Heart Is Active"
 msgstr "霜寒之心已激活"
 
@@ -832,47 +862,62 @@ msgid "God/Goddess Trees"
 msgstr "神/女神天赋树"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:340
+#: src/components/configuration/ConfigurationTab.tsx:352
 msgid "Has Agility Blessing"
 msgstr "有敏捷祝福"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:822
+#: src/components/configuration/ConfigurationTab.tsx:993
+msgid "Has Attack Aggression"
+msgstr "有攻击激进"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:667
+msgid "Has Blocked Recently"
+msgstr "最近格挡过"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:834
 msgid "Has Blur"
 msgstr "有模糊"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:664
+#: src/components/configuration/ConfigurationTab.tsx:676
 msgid "Has Crit Recently"
 msgstr "最近暴击"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:672
+#: src/components/configuration/ConfigurationTab.tsx:684
 msgid "Has Elites Nearby"
 msgstr "附近有精英"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:316
+#: src/components/configuration/ConfigurationTab.tsx:328
 msgid "Has Focus Blessing"
 msgstr "有专注祝福"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:526
+#: src/components/configuration/ConfigurationTab.tsx:538
 msgid "Has Full Mana"
 msgstr "满蓝"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:534
+#: src/components/configuration/ConfigurationTab.tsx:546
 msgid "Has Low Mana"
 msgstr "低蓝"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:954
+#: src/components/configuration/ConfigurationTab.tsx:966
 msgid "Has Moved Recently"
 msgstr "最近移动"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:365
+#: src/components/configuration/ConfigurationTab.tsx:1005
+msgid "Has Spell Aggression"
+msgstr "有法术激进"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:377
 msgid "Has Tenacity Blessing"
 msgstr "有坚韧祝福"
 
@@ -901,6 +946,11 @@ msgstr "头盔 (力量)"
 msgid "Hero"
 msgstr "英雄"
 
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:923
+msgid "Hit Enemy With Elemental Dmg Recently"
+msgstr "最近用元素伤害击中敌人"
+
 #: src/routes/index.tsx:424
 msgid "No builds yet"
 msgstr "暂无流派"
@@ -922,6 +972,11 @@ msgstr "智力"
 #: src/components/equipment/VoraxGearModule.tsx:951
 msgid "Save Changes"
 msgstr "保存更改"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:1056
+msgid "Ice Puppet Stacks"
+msgstr "冰偶层数"
 
 #. js-lingui-explicit-id
 #: src/routes/builder/skills.tsx:69
@@ -949,7 +1004,7 @@ msgid "Inverse Images"
 msgstr "反向图像"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:962
+#: src/components/configuration/ConfigurationTab.tsx:974
 msgid "Is Moving"
 msgstr "正在移动"
 
@@ -980,7 +1035,7 @@ msgid "Legendary Talent"
 msgstr "传奇天赋"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:179
+#: src/components/configuration/ConfigurationTab.tsx:191
 #: src/components/hero/TraitSelector.tsx:342
 msgid "Level"
 msgstr "等级"
@@ -1007,7 +1062,12 @@ msgid "Main Hand"
 msgstr "主手"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:392
+#: src/components/configuration/ConfigurationTab.tsx:1015
+msgid "Main Spell Skills Cast Recently"
+msgstr "最近释放主技能次数"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:404
 msgid "Mana Consumed Recently"
 msgstr "最近消耗法力"
 
@@ -1022,6 +1082,11 @@ msgstr "最大生命"
 #: src/routes/builder/calculations.tsx:632
 msgid "Max Mana"
 msgstr "最大法力"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:1027
+msgid "Max Multistrikes Recently"
+msgstr "最近最大连击次数"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:231
@@ -1055,18 +1120,18 @@ msgstr "记忆类型"
 
 #. js-lingui-explicit-id
 #: src/components/hero/HeroMemoryItem.tsx:32
-msgid "Memory of Discipline"
-msgstr "本源的追忆"
+#~ msgid "Memory of Discipline"
+#~ msgstr "本源的追忆"
 
 #. js-lingui-explicit-id
 #: src/components/hero/HeroMemoryItem.tsx:32
-msgid "Memory of Origin"
-msgstr "守己的追忆"
+#~ msgid "Memory of Origin"
+#~ msgstr "守己的追忆"
 
 #. js-lingui-explicit-id
 #: src/components/hero/HeroMemoryItem.tsx:32
-msgid "Memory of Progress"
-msgstr "奋进的追忆"
+#~ msgid "Memory of Progress"
+#~ msgstr "奋进的追忆"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:511
@@ -1078,6 +1143,11 @@ msgstr "水银"
 #: src/components/talents/TalentNodeDisplay.tsx:82
 msgid "Micro Talent"
 msgstr "微型天赋"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:851
+msgid "Mind Control Links Used"
+msgstr "精神控制链接使用数"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:453
@@ -1280,7 +1350,7 @@ msgid "Raw"
 msgstr "原始"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:243
+#: src/components/configuration/ConfigurationTab.tsx:255
 msgid "Realm of Mercury"
 msgstr "水银领域"
 
@@ -1341,6 +1411,26 @@ msgid "STR"
 msgstr "力量"
 
 #. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:742
+msgid "Sage's Insight (Cold)"
+msgstr "贤者洞察（冰）"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:768
+msgid "Sage's Insight (Erosion)"
+msgstr "贤者洞察（侵蚀）"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:729
+msgid "Sage's Insight (Fire)"
+msgstr "贤者洞察（火）"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:755
+msgid "Sage's Insight (Lightning)"
+msgstr "贤者洞察（电）"
+
+#. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:42
 msgid "Scepter"
 msgstr "魔杖"
@@ -1371,6 +1461,11 @@ msgstr "搜索稀有计量词缀..."
 #: src/components/DebugPanel.tsx:476
 msgid "Search..."
 msgstr "搜索..."
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:693
+msgid "Seconds With Elite Nearby"
+msgstr "精英附近秒数"
 
 #. js-lingui-explicit-id
 #: src/components/equipment/LegendaryGearModule.tsx:346
@@ -1415,6 +1510,7 @@ msgstr "选择渴瘾肢体..."
 msgid "Select affix..."
 msgstr "选择词缀..."
 
+#. js-lingui-explicit-id
 #: src/routes/builder/calculations.tsx:603
 msgid "Select an active skill above to view damage calculations."
 msgstr "在上方选择主动技能以查看伤害计算。"
@@ -1479,7 +1575,7 @@ msgid "Select {0} Affix {1}"
 msgstr "选择{0}词缀{1}"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:306
+#: src/components/configuration/ConfigurationTab.tsx:318
 msgid "Shadow Hits"
 msgstr "暗影命中"
 
@@ -1542,9 +1638,19 @@ msgid "Spell DPS"
 msgstr "法术 DPS"
 
 #. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:935
+msgid "Spell Skills Used Recently"
+msgstr "最近使用法术技能"
+
+#. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:46
 msgid "Spirit Ring"
 msgstr "灵戒"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:719
+msgid "Stalker Stacks"
+msgstr "猎手层数"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:190
@@ -1592,12 +1698,67 @@ msgid "Talents"
 msgstr "天赋"
 
 #. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:873
+msgid "Target Enemy Frozen Recently"
+msgstr "目标敌人最近被冰冻"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:885
+msgid "Target Enemy Has Cold Infiltration"
+msgstr "目标敌人有冰渗透"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:911
+msgid "Target Enemy Has Fire Infiltration"
+msgstr "目标敌人有火渗透"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:599
+msgid "Target Enemy Has Frail"
+msgstr "目标敌人脆弱"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:897
+msgid "Target Enemy Has Lightning Infiltration"
+msgstr "目标敌人有电渗透"
+
+#. js-lingui-explicit-id
 #: src/components/configuration/ConfigurationTab.tsx:611
+msgid "Target Enemy Has Whimsy Signal"
+msgstr "目标敌人有心信号"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:632
+msgid "Target Enemy Is Cursed"
+msgstr "目标敌人被诅咒"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:575
+msgid "Target Enemy Is Distant"
+msgstr "目标敌人遥远"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:861
+msgid "Target Enemy Is Frozen"
+msgstr "目标敌人被冻结"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:587
+msgid "Target Enemy Is In Proximity"
+msgstr "目标敌人近距离"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:563
+msgid "Target Enemy Is Nearby"
+msgstr "目标敌人附近"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:623
 msgid "Target Enemy Marked"
 msgstr "目标敌人被标记"
 
 #. js-lingui-explicit-id
-#: src/components/configuration/ConfigurationTab.tsx:542
+#: src/components/configuration/ConfigurationTab.tsx:554
 msgid "Target Is Elite"
 msgstr "目标是精英"
 
@@ -1607,9 +1768,19 @@ msgid "Tenacity Blessings"
 msgstr "坚韧祝福"
 
 #. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:1037
+msgid "Times Regained Recently"
+msgstr "最近回复次数"
+
+#. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:47
 msgid "Tin Staff"
 msgstr "锡杖"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:825
+msgid "Torment Stacks"
+msgstr "折磨层数"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:281
@@ -1620,6 +1791,11 @@ msgstr "总 DPS"
 #: src/components/builder/StatsPanel.tsx:84
 msgid "Total Reap DPS"
 msgstr "总夺魂 DPS"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:1076
+msgid "Twisted Spacetime Stacks"
+msgstr "扭曲时空层数"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:48
@@ -1642,8 +1818,13 @@ msgstr "资源池"
 
 #. js-lingui-explicit-id
 #: src/routes/index.tsx:228
-msgid "Untitled"
-msgstr "未命名"
+#~ msgid "Untitled"
+#~ msgstr "未命名"
+
+#. js-lingui-explicit-id
+#: src/components/configuration/ConfigurationTab.tsx:955
+msgid "Used Mobility Skill Recently"
+msgstr "最近使用位移技能"
 
 #: src/routes/index.tsx:387
 msgid "My Builds"
@@ -1680,8 +1861,8 @@ msgid "Tree Slot"
 msgstr "天赋槽"
 
 #: src/components/equipment/EditGearModal.tsx:961
-msgid "Select an equipment type to begin crafting"
-msgstr "选择一个装备类型以开始制作"
+#~ msgid "Select an equipment type to begin crafting"
+#~ msgstr "选择一个装备类型以开始制作"
 
 #: src/components/DebugPanel.tsx:508
 msgid "Apply Changes"
@@ -1814,9 +1995,8 @@ msgid "matches"
 msgstr "个匹配"
 
 #: src/components/equipment/VoraxGearModule.tsx:755
-msgid "Select a vorax limb to configure"
-msgstr "选择一个渴瘾肢体进行配置"
-
+#~ msgid "Select a vorax limb to configure"
+#~ msgstr "选择一个渴瘾肢体进行配置"
 
 #: src/routes/builder/equipment.tsx:168
 msgid "Vorax"
@@ -1836,7 +2016,6 @@ msgstr "核心天赋"
 msgid "Are you sure you want to delete \"{0}\"?"
 msgstr "您确定要删除“{0}”吗？"
 
-
 #: src/components/equipment/VoraxGearModule.tsx:779
 #: src/components/talents/TalentNodeDisplay.tsx:172
 #: src/routes/builder/equipment.tsx:161
@@ -1846,7 +2025,6 @@ msgstr "传奇"
 #: src/components/equipment/LegendaryGearModule.tsx:323
 msgid "Select Legendary"
 msgstr "选择一个传奇物品"
-
 
 #: src/components/hero/HeroMemoryItem.tsx:38
 msgid "Equipped"
@@ -1866,7 +2044,6 @@ msgstr "关于"
 #: src/components/hero/HeroSelector.tsx:20
 msgid "Select Hero"
 msgstr "选择英雄"
-
 
 #: src/components/equipment/EditGearModal.tsx:765
 msgid "Clear"
@@ -1905,4 +2082,3 @@ msgstr "导入失败"
 #: src/components/talents/TalentNodeDisplay.tsx:172
 msgid "Rare"
 msgstr "稀有"
-
