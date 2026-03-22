@@ -1,0 +1,301 @@
+{
+  "equipmentType": "Two-Handed_Sword",
+  "baseGears": [
+    {
+      "enName": "Crosser",
+      "cnName": "交错者"
+    },
+    {
+      "enName": "Crosser",
+      "cnName": "交错者"
+    },
+    {
+      "enName": "Crosser",
+      "cnName": "交错者"
+    },
+    {
+      "enName": "Crosser",
+      "cnName": "交错者"
+    },
+    {
+      "enName": "Crosser",
+      "cnName": "交错者"
+    },
+    {
+      "enName": "Circular Clearing",
+      "cnName": "环形清算"
+    },
+    {
+      "enName": "Circular Clearing",
+      "cnName": "环形清算"
+    },
+    {
+      "enName": "Circular Clearing",
+      "cnName": "环形清算"
+    },
+    {
+      "enName": "Circular Clearing",
+      "cnName": "环形清算"
+    },
+    {
+      "enName": "Circular Clearing",
+      "cnName": "环形清算"
+    },
+    {
+      "enName": "Cursed Flame",
+      "cnName": "咒焰"
+    },
+    {
+      "enName": "Cursed Flame",
+      "cnName": "咒焰"
+    },
+    {
+      "enName": "Cursed Flame",
+      "cnName": "咒焰"
+    },
+    {
+      "enName": "Cursed Flame",
+      "cnName": "咒焰"
+    },
+    {
+      "enName": "Cursed Flame",
+      "cnName": "咒焰"
+    },
+    {
+      "enName": "Shamed",
+      "cnName": "荣辱"
+    },
+    {
+      "enName": "Shamed",
+      "cnName": "荣辱"
+    },
+    {
+      "enName": "Shamed",
+      "cnName": "荣辱"
+    },
+    {
+      "enName": "Shamed",
+      "cnName": "荣辱"
+    },
+    {
+      "enName": "Will",
+      "cnName": "决意"
+    },
+    {
+      "enName": "Will",
+      "cnName": "决意"
+    },
+    {
+      "enName": "Will",
+      "cnName": "决意"
+    },
+    {
+      "enName": "Harbinger%27s Reversed Plumes",
+      "cnName": "亡鸟的逆羽"
+    },
+    {
+      "enName": "Harbinger%27s Reversed Plumes",
+      "cnName": "亡鸟的逆羽"
+    },
+    {
+      "enName": "Harbinger%27s Reversed Plumes",
+      "cnName": "亡鸟的逆羽"
+    },
+    {
+      "enName": "Harbinger%27s Reversed Plumes",
+      "cnName": "亡鸟的逆羽"
+    },
+    {
+      "enName": "Crude Wooden Sword",
+      "cnName": "粗质木剑"
+    },
+    {
+      "enName": "Rottenwood Greatsword",
+      "cnName": "朽木巨剑"
+    },
+    {
+      "enName": "Rusted Claymore",
+      "cnName": "锈斑大剑"
+    },
+    {
+      "enName": "Rock Claymore",
+      "cnName": "磐石大剑"
+    },
+    {
+      "enName": "Iron Greatsword",
+      "cnName": "精铁巨剑"
+    },
+    {
+      "enName": "Conflict Greatsword",
+      "cnName": "战争巨剑"
+    },
+    {
+      "enName": "Ripping Claymore",
+      "cnName": "撕裂重剑"
+    },
+    {
+      "enName": "Coldlight Claymore",
+      "cnName": "寒光重剑"
+    },
+    {
+      "enName": "Gladiator%27s Greatsword",
+      "cnName": "角斗巨剑"
+    },
+    {
+      "enName": "Barren Greatsword",
+      "cnName": "荒原巨剑"
+    },
+    {
+      "enName": "Tidal Claymore",
+      "cnName": "潮汐重剑"
+    },
+    {
+      "enName": "Sundering Greatsword",
+      "cnName": "碎甲巨剑"
+    },
+    {
+      "enName": "Wolfsoul Claymore",
+      "cnName": "狼魂重剑"
+    },
+    {
+      "enName": "Glory Greatsword",
+      "cnName": "荣耀巨剑"
+    },
+    {
+      "enName": "Griffin Greatsword",
+      "cnName": "狮鹫巨剑"
+    },
+    {
+      "enName": "Vindicator%27s Greatsword",
+      "cnName": "裁决巨剑"
+    },
+    {
+      "enName": "Subjugation Claymore",
+      "cnName": "镇压重剑"
+    },
+    {
+      "enName": "Red Pegasus Greatsword",
+      "cnName": "红飞马巨剑"
+    },
+    {
+      "enName": "Black Pass Claymore",
+      "cnName": "黑隘口重剑"
+    },
+    {
+      "enName": "Sky Severing Sword",
+      "cnName": "斩落长空之剑"
+    },
+    {
+      "enName": "Crosser",
+      "cnName": "交错者"
+    },
+    {
+      "enName": "Shamed",
+      "cnName": "荣辱"
+    },
+    {
+      "enName": "Will",
+      "cnName": "决意"
+    },
+    {
+      "enName": "Circular Clearing",
+      "cnName": "环形清算"
+    },
+    {
+      "enName": "Cursed Flame",
+      "cnName": "咒焰"
+    },
+    {
+      "enName": "Harbinger%27s Reversed Plumes",
+      "cnName": "亡鸟的逆羽"
+    },
+    {
+      "enName": "Crosser",
+      "cnName": "交错者"
+    },
+    {
+      "enName": "Shamed",
+      "cnName": "荣辱"
+    },
+    {
+      "enName": "Will",
+      "cnName": "决意"
+    },
+    {
+      "enName": "Circular Clearing",
+      "cnName": "环形清算"
+    },
+    {
+      "enName": "Cursed Flame",
+      "cnName": "咒焰"
+    },
+    {
+      "enName": "Harbinger%27s Reversed Plumes",
+      "cnName": "亡鸟的逆羽"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Shallow Dream Talking - Weapon",
+      "cnName": "浅白梦语-武器"
+    },
+    {
+      "enName": "Shallow Dream Talking - Weapon",
+      "cnName": "浅白梦语-武器"
+    },
+    {
+      "enName": "Shallow Dream Talking - Weapon",
+      "cnName": "浅白梦语-武器"
+    },
+    {
+      "enName": "Shallow Dream Talking - Weapon",
+      "cnName": "浅白梦语-武器"
+    },
+    {
+      "enName": "Shallow Dream Talking - Weapon",
+      "cnName": "浅白梦语-武器"
+    },
+    {
+      "enName": "Shallow Dream Talking - Weapon",
+      "cnName": "浅白梦语-武器"
+    }
+  ]
+}

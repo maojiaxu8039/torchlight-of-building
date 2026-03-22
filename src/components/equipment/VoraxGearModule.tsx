@@ -1,3 +1,5 @@
+import { getTranslatedAffixText } from "@/src/lib/affix-translator";
+
 import { i18n } from "@lingui/core";
 import { Trans } from "@lingui/react/macro";
 import { useCallback, useEffect, useMemo, useState } from "react";
@@ -737,7 +739,7 @@ export const VoraxGearModule: React.FC<VoraxGearModuleProps> = ({
           </div>
           <div className="rounded border border-zinc-700 bg-zinc-900 p-2">
             <div className="whitespace-pre-line text-sm text-amber-400">
-              {slot.text}
+              {getTranslatedAffixText(slot.text)}
             </div>
           </div>
         </div>

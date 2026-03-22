@@ -1,0 +1,409 @@
+{
+  "equipmentType": "INT_Boots",
+  "baseGears": [
+    {
+      "enName": "Grace Boots",
+      "cnName": "翩然之靴"
+    },
+    {
+      "enName": "Grace Boots",
+      "cnName": "翩然之靴"
+    },
+    {
+      "enName": "Grace Boots",
+      "cnName": "翩然之靴"
+    },
+    {
+      "enName": "Grace Boots",
+      "cnName": "翩然之靴"
+    },
+    {
+      "enName": "Grace Boots",
+      "cnName": "翩然之靴"
+    },
+    {
+      "enName": "Grace Boots",
+      "cnName": "翩然之靴"
+    },
+    {
+      "enName": "Powered Battle Greaves",
+      "cnName": "动力作战胫甲"
+    },
+    {
+      "enName": "Powered Battle Greaves",
+      "cnName": "动力作战胫甲"
+    },
+    {
+      "enName": "Powered Battle Greaves",
+      "cnName": "动力作战胫甲"
+    },
+    {
+      "enName": "Powered Battle Greaves",
+      "cnName": "动力作战胫甲"
+    },
+    {
+      "enName": "Powered Battle Greaves",
+      "cnName": "动力作战胫甲"
+    },
+    {
+      "enName": "Powered Battle Greaves",
+      "cnName": "动力作战胫甲"
+    },
+    {
+      "enName": "Guild Guard Boots",
+      "cnName": "商会护卫战靴"
+    },
+    {
+      "enName": "Guild Guard Boots",
+      "cnName": "商会护卫战靴"
+    },
+    {
+      "enName": "Guild Guard Boots",
+      "cnName": "商会护卫战靴"
+    },
+    {
+      "enName": "Guild Guard Boots",
+      "cnName": "商会护卫战靴"
+    },
+    {
+      "enName": "Guild Guard Boots",
+      "cnName": "商会护卫战靴"
+    },
+    {
+      "enName": "Guild Guard Boots",
+      "cnName": "商会护卫战靴"
+    },
+    {
+      "enName": "Guild Guard Boots",
+      "cnName": "商会护卫战靴"
+    },
+    {
+      "enName": "King%27s Boon",
+      "cnName": "君王恩赐"
+    },
+    {
+      "enName": "King%27s Boon",
+      "cnName": "君王恩赐"
+    },
+    {
+      "enName": "King%27s Boon",
+      "cnName": "君王恩赐"
+    },
+    {
+      "enName": "King%27s Boon",
+      "cnName": "君王恩赐"
+    },
+    {
+      "enName": "King%27s Boon",
+      "cnName": "君王恩赐"
+    },
+    {
+      "enName": "King%27s Boon",
+      "cnName": "君王恩赐"
+    },
+    {
+      "enName": "Awaiting",
+      "cnName": "失期"
+    },
+    {
+      "enName": "Awaiting",
+      "cnName": "失期"
+    },
+    {
+      "enName": "Awaiting",
+      "cnName": "失期"
+    },
+    {
+      "enName": "Awaiting",
+      "cnName": "失期"
+    },
+    {
+      "enName": "Fighting Stompers",
+      "cnName": "无尽斗志"
+    },
+    {
+      "enName": "Fighting Stompers",
+      "cnName": "无尽斗志"
+    },
+    {
+      "enName": "Fighting Stompers",
+      "cnName": "无尽斗志"
+    },
+    {
+      "enName": "Cold Sanctuary Prosthetics",
+      "cnName": "御寒义肢"
+    },
+    {
+      "enName": "Cold Sanctuary Prosthetics",
+      "cnName": "御寒义肢"
+    },
+    {
+      "enName": "Cold Sanctuary Prosthetics",
+      "cnName": "御寒义肢"
+    },
+    {
+      "enName": "Cold Sanctuary Prosthetics",
+      "cnName": "御寒义肢"
+    },
+    {
+      "enName": "Cold Sanctuary Prosthetics",
+      "cnName": "御寒义肢"
+    },
+    {
+      "enName": "Shadow Dance",
+      "cnName": "阴翳舞步"
+    },
+    {
+      "enName": "Shadow Dance",
+      "cnName": "阴翳舞步"
+    },
+    {
+      "enName": "Air Treaders",
+      "cnName": "破空轻履"
+    },
+    {
+      "enName": "Air Treaders",
+      "cnName": "破空轻履"
+    },
+    {
+      "enName": "Air Treaders",
+      "cnName": "破空轻履"
+    },
+    {
+      "enName": "Air Treaders",
+      "cnName": "破空轻履"
+    },
+    {
+      "enName": "Verdant Steps",
+      "cnName": "森罗行迹"
+    },
+    {
+      "enName": "Verdant Steps",
+      "cnName": "森罗行迹"
+    },
+    {
+      "enName": "Verdant Steps",
+      "cnName": "森罗行迹"
+    },
+    {
+      "enName": "Verdant Steps",
+      "cnName": "森罗行迹"
+    },
+    {
+      "enName": "Frozen Ripples",
+      "cnName": "冰海涟漪"
+    },
+    {
+      "enName": "Frozen Ripples",
+      "cnName": "冰海涟漪"
+    },
+    {
+      "enName": "Frozen Ripples",
+      "cnName": "冰海涟漪"
+    },
+    {
+      "enName": "Frozen Ripples",
+      "cnName": "冰海涟漪"
+    },
+    {
+      "enName": "Herbalist%27s Footguards",
+      "cnName": "草药师护足"
+    },
+    {
+      "enName": "Scribe%27s Boots",
+      "cnName": "抄写员的鞋子"
+    },
+    {
+      "enName": "Acolyte%27s Footwraps",
+      "cnName": "吟游者足履"
+    },
+    {
+      "enName": "Witchdoctor%27s Slippers",
+      "cnName": "巫医便鞋"
+    },
+    {
+      "enName": "Disciple%27s Cloth Boots",
+      "cnName": "学徒布靴"
+    },
+    {
+      "enName": "Shaman%27s Slippers",
+      "cnName": "萨满便鞋"
+    },
+    {
+      "enName": "Envoy%27s Soft Shoes",
+      "cnName": "神使软靴"
+    },
+    {
+      "enName": "Respected Tutor%27s Footwraps",
+      "cnName": "尊师足履"
+    },
+    {
+      "enName": "Elder Sage%27s Treads",
+      "cnName": "大贤者足靴"
+    },
+    {
+      "enName": "Imperishable Feet",
+      "cnName": "不灭者之足"
+    },
+    {
+      "enName": "All Magic Shoes",
+      "cnName": "万法之足履"
+    },
+    {
+      "enName": "Long Night Sorcerer%27s Boots",
+      "cnName": "长夜巫王魔靴"
+    },
+    {
+      "enName": "Awaiting",
+      "cnName": "失期"
+    },
+    {
+      "enName": "Cold Sanctuary Prosthetics",
+      "cnName": "御寒义肢"
+    },
+    {
+      "enName": "Grace Boots",
+      "cnName": "翩然之靴"
+    },
+    {
+      "enName": "Air Treaders",
+      "cnName": "破空轻履"
+    },
+    {
+      "enName": "Fighting Stompers",
+      "cnName": "无尽斗志"
+    },
+    {
+      "enName": "Powered Battle Greaves",
+      "cnName": "动力作战胫甲"
+    },
+    {
+      "enName": "Guild Guard Boots",
+      "cnName": "商会护卫战靴"
+    },
+    {
+      "enName": "King%27s Boon",
+      "cnName": "君王恩赐"
+    },
+    {
+      "enName": "Shadow Dance",
+      "cnName": "阴翳舞步"
+    },
+    {
+      "enName": "Verdant Steps",
+      "cnName": "森罗行迹"
+    },
+    {
+      "enName": "Frozen Ripples",
+      "cnName": "冰海涟漪"
+    },
+    {
+      "enName": "Awaiting",
+      "cnName": "失期"
+    },
+    {
+      "enName": "Cold Sanctuary Prosthetics",
+      "cnName": "御寒义肢"
+    },
+    {
+      "enName": "Grace Boots",
+      "cnName": "翩然之靴"
+    },
+    {
+      "enName": "Air Treaders",
+      "cnName": "破空轻履"
+    },
+    {
+      "enName": "Fighting Stompers",
+      "cnName": "无尽斗志"
+    },
+    {
+      "enName": "Powered Battle Greaves",
+      "cnName": "动力作战胫甲"
+    },
+    {
+      "enName": "Guild Guard Boots",
+      "cnName": "商会护卫战靴"
+    },
+    {
+      "enName": "King%27s Boon",
+      "cnName": "君王恩赐"
+    },
+    {
+      "enName": "Shadow Dance",
+      "cnName": "阴翳舞步"
+    },
+    {
+      "enName": "Verdant Steps",
+      "cnName": "森罗行迹"
+    },
+    {
+      "enName": "Frozen Ripples",
+      "cnName": "冰海涟漪"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    }
+  ]
+}

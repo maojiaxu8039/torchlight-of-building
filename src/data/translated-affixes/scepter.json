@@ -1,0 +1,1535 @@
+{
+  "equipmentType": "Scepter",
+  "affixes": [
+    {
+      "modifierId": "1503400",
+      "enText": "+(15–20) Strength",
+      "cnText": "+(15–20) 力量"
+    },
+    {
+      "modifierId": "1503401",
+      "enText": "+(15–20) Dexterity",
+      "cnText": "+(15–20) 敏捷"
+    },
+    {
+      "modifierId": "1503402",
+      "enText": "+(15–20) Intelligence",
+      "cnText": "+(15–20) 智慧"
+    },
+    {
+      "modifierId": "1503403",
+      "enText": "+(20–24)% Physical Damage",
+      "cnText": "+(20–24)% 物理伤害"
+    },
+    {
+      "modifierId": "1503404",
+      "enText": "+(20–24)% Elemental Damage",
+      "cnText": "+(20–24)% 元素伤害"
+    },
+    {
+      "modifierId": "1503405",
+      "enText": "+(20–24)% Erosion Damage",
+      "cnText": "+(20–24)% 腐蚀伤害"
+    },
+    {
+      "modifierId": "1503406",
+      "enText": "+(20–24)% Spell Damage",
+      "cnText": "+(20–24)% 法术伤害"
+    },
+    {
+      "modifierId": "1503407",
+      "enText": "+(10–14)% Affliction Effect",
+      "cnText": "+(10–14)% 加剧效果"
+    },
+    {
+      "modifierId": "1503408",
+      "enText": "+(8–10)% Reaping Duration",
+      "cnText": "+(8–10)% 收割时间"
+    },
+    {
+      "modifierId": "1503409",
+      "enText": "+(15–20)% Reaping Recovery Speed",
+      "cnText": "+(15–20)% 收割回复速度"
+    },
+    {
+      "modifierId": "1503410",
+      "enText": "+(6–8)% additional Damage Over Time",
+      "cnText": "额外 +(6–8)% 持续伤害"
+    },
+    {
+      "modifierId": "1503411",
+      "enText": "+(6–8)% Elemental and Erosion Resistance Penetration",
+      "cnText": "+(6–8)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "modifierId": "1503412",
+      "enText": "+1 to Max Agility Blessing Stacks",
+      "cnText": "+1 灵动祝福层数上限"
+    },
+    {
+      "modifierId": "1503413",
+      "enText": "+(6–8)% Blur Effect",
+      "cnText": "+(6–8)% 迷踪效果"
+    },
+    {
+      "modifierId": "1503414",
+      "enText": "+1 to Max Focus Blessing Stacks",
+      "cnText": "+1 聚能祝福层数上限"
+    },
+    {
+      "modifierId": "1503415",
+      "enText": "+1 to Max Tenacity Blessing Stacks",
+      "cnText": "+1 坚韧祝福层数上限"
+    },
+    {
+      "modifierId": "60063401",
+      "enText": "+(5–8)% chance to trigger the Main Spell Skill 1 additional time when using it",
+      "cnText": "使用核心法术技能时，+(5–8)% 几率额外触发一次"
+    },
+    {
+      "modifierId": "60063402",
+      "enText": "+(4–8)% chance to gain 1 stack of Focus Blessing on defeat",
+      "cnText": "击败时，+(4–8)% 几率获得 1 层聚能祝福"
+    },
+    {
+      "modifierId": "60063403",
+      "enText": "Damage Penetrates (5–8)% Elemental Resistance",
+      "cnText": "伤害穿透 (5–8)% 元素抗性"
+    },
+    {
+      "modifierId": "60063404",
+      "enText": "+(10–16)% Cast Speed",
+      "cnText": "+(10–16)% 施法速度"
+    },
+    {
+      "modifierId": "60063405",
+      "enText": "+(20–30)% Spell Damage",
+      "cnText": "+(20–30)% 法术伤害"
+    },
+    {
+      "modifierId": "60063406",
+      "enText": "+(30–40)% Spell Critical Strike Rating",
+      "cnText": "+(30–40)% 法术暴击值"
+    },
+    {
+      "modifierId": "60063407",
+      "enText": "+(25–32)% Critical Strike Damage",
+      "cnText": "+(25–32)% 暴击伤害"
+    },
+    {
+      "modifierId": "60063408",
+      "enText": "+(6–10)% Cooldown Recovery Speed",
+      "cnText": "+(6–10)% 冷却回复速度"
+    },
+    {
+      "modifierId": "60063409",
+      "enText": "Adds (5–8)% of Elemental Damage as Erosion Damage",
+      "cnText": "附加 (5–8)% 元素伤害的腐蚀伤害"
+    },
+    {
+      "modifierId": "104340001",
+      "enText": "+(127–180) Max Mana",
+      "cnText": "+(127–180) 最大魔力"
+    },
+    {
+      "modifierId": "107340601",
+      "enText": "+(77–108)% Damage Over Time",
+      "cnText": "+(77–108)% 持续伤害"
+    },
+    {
+      "modifierId": "116340201",
+      "enText": "+(120–144) Affliction inflicted per second",
+      "cnText": "+(120–144) 每秒施加加剧值"
+    },
+    {
+      "modifierId": "130340301",
+      "enText": "Reaps (0.13–0.18) s of Damage Over Time when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+      "cnText": "造成持续伤害时，收割 (0.13–0.18) 秒持续伤害，该效果对同一目标有 1 秒回复时间"
+    },
+    {
+      "modifierId": "140340701",
+      "enText": "+(232–330) Max Life",
+      "cnText": "+(232–330) 最大生命"
+    },
+    {
+      "modifierId": "140340801",
+      "enText": "+(369–525) Max Energy Shield",
+      "cnText": "+(369–525) 最大护盾"
+    },
+    {
+      "modifierId": "109340001",
+      "enText": "+(64–90) Intelligence",
+      "cnText": "+(64–90) 智慧"
+    },
+    {
+      "modifierId": "109340301",
+      "enText": "+(64–90) Strength",
+      "cnText": "+(64–90) 力量"
+    },
+    {
+      "modifierId": "109340401",
+      "enText": "+(64–90) Dexterity",
+      "cnText": "+(64–90) 敏捷"
+    },
+    {
+      "modifierId": "115340201",
+      "enText": "+2 Physical Skill Level",
+      "cnText": "+2 物理技能等级"
+    },
+    {
+      "modifierId": "115340301",
+      "enText": "+2 Lightning Skill Level",
+      "cnText": "+2 闪电技能等级"
+    },
+    {
+      "modifierId": "115340401",
+      "enText": "+2 Cold Skill Level",
+      "cnText": "+2 冰冷技能等级"
+    },
+    {
+      "modifierId": "115340501",
+      "enText": "+2 Fire Skill Level",
+      "cnText": "+2 火焰技能等级"
+    },
+    {
+      "modifierId": "115340601",
+      "enText": "+2 Erosion Skill Level",
+      "cnText": "+2 腐蚀技能等级"
+    },
+    {
+      "modifierId": "110340801",
+      "enText": "Max Terra Charge Stacks +2",
+      "cnText": "+2 地面蓄能层数上限"
+    },
+    {
+      "modifierId": "130340001",
+      "enText": "+3 Spell Skill Level",
+      "cnText": "+3 法术技能等级"
+    },
+    {
+      "modifierId": "130340101",
+      "enText": "+(22–30)% Elemental and Erosion Resistance Penetration",
+      "cnText": "+(22–30)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "modifierId": "130340201",
+      "enText": "(22–30)% additional damage applied to Life",
+      "cnText": "对生命造成额外 (22–30)% 伤害"
+    },
+    {
+      "modifierId": "110340301",
+      "enText": "+(18–24)% Energy Shield Charge Speed",
+      "cnText": "+(18–24)% 护盾充能速度"
+    },
+    {
+      "modifierId": "115341001",
+      "enText": "Adds 56 - 67 Base Wilt Damage",
+      "cnText": "附加 56 - 67 基础凋零伤害"
+    },
+    {
+      "modifierId": "116340301",
+      "enText": "+(54–75)% Affliction Effect",
+      "cnText": "+(54–75)% 加剧效果"
+    },
+    {
+      "modifierId": "140340001",
+      "enText": "Adds 480 - 1120 Base Trauma Damage",
+      "cnText": "附加 480 - 1120 基础创伤伤害"
+    },
+    {
+      "modifierId": "140340101",
+      "enText": "Adds 350 - 650 Base Ignite Damage",
+      "cnText": "附加 350 - 650 基础点燃伤害"
+    },
+    {
+      "modifierId": "140340901",
+      "enText": "+(78–108)% Physical Damage",
+      "cnText": "+(78–108)% 物理伤害"
+    },
+    {
+      "modifierId": "140341001",
+      "enText": "+(78–108)% Elemental Damage",
+      "cnText": "+(78–108)% 元素伤害"
+    },
+    {
+      "modifierId": "140341101",
+      "enText": "+(77–108)% Erosion Damage",
+      "cnText": "+(77–108)% 腐蚀伤害"
+    },
+    {
+      "modifierId": "110340101",
+      "enText": "+(26–36)% Cast Speed+(26–36)% Minion Cast Speed",
+      "cnText": "+(26–36)% 施法速度+(26–36)% 召唤物施法速度"
+    },
+    {
+      "modifierId": "140340301",
+      "enText": "+(36–48)% Ignite Duration",
+      "cnText": "+(36–48)% 点燃持续时间"
+    },
+    {
+      "modifierId": "140340401",
+      "enText": "+(36–48)% Trauma Duration",
+      "cnText": "+(36–48)% 创伤持续时间"
+    },
+    {
+      "modifierId": "140340501",
+      "enText": "+(36–48)% Wilt Duration",
+      "cnText": "+(36–48)% 凋零持续时间"
+    },
+    {
+      "modifierId": "140340601",
+      "enText": "+(54–75)% Reaping Duration",
+      "cnText": "+(54–75)% 收割时间"
+    },
+    {
+      "modifierId": "140341401",
+      "enText": "+(45–54)% Focus Speed",
+      "cnText": "+(45–54)% 贯注速度"
+    },
+    {
+      "modifierId": "140340201",
+      "enText": "+(89–125)% Reaping Recovery Speed",
+      "cnText": "+(89–125)% 收割回复速度"
+    },
+    {
+      "modifierId": "140341201",
+      "enText": "Max Terra Quantity +1+1% additional damage",
+      "cnText": "+1 地面数量上限额外 +1% 伤害"
+    },
+    {
+      "modifierId": "140341501",
+      "enText": "+(35–45)% Focus Damage Enhancement",
+      "cnText": "+(35–45)% 贯注伤害加深"
+    },
+    {
+      "modifierId": "140341601",
+      "enText": "+(40–50)% Combo Damage Enhancement if the Combo Finisher cast recently consumes at least 8 Combo Point(s)",
+      "cnText": "若最近释放的连携终结技至少消耗了 8 点连携点，+(40–50)% 连携伤害加深"
+    },
+    {
+      "modifierId": "140341701",
+      "enText": "+(40–50)% Ailment Damage Enhancement",
+      "cnText": "+(40–50)% 异常伤害加深"
+    },
+    {
+      "modifierId": "85034001",
+      "enText": "+(15–20) Strength",
+      "cnText": "+(15–20) 力量"
+    },
+    {
+      "modifierId": "85034011",
+      "enText": "+(15–20) Dexterity",
+      "cnText": "+(15–20) 敏捷"
+    },
+    {
+      "modifierId": "85034021",
+      "enText": "+(15–20) Intelligence",
+      "cnText": "+(15–20) 智慧"
+    },
+    {
+      "modifierId": "85034031",
+      "enText": "+(20–24)% Physical Damage",
+      "cnText": "+(20–24)% 物理伤害"
+    },
+    {
+      "modifierId": "85034041",
+      "enText": "+(20–24)% Elemental Damage",
+      "cnText": "+(20–24)% 元素伤害"
+    },
+    {
+      "modifierId": "85034051",
+      "enText": "+(20–24)% Erosion Damage",
+      "cnText": "+(20–24)% 腐蚀伤害"
+    },
+    {
+      "modifierId": "85034061",
+      "enText": "+(20–24)% Spell Damage",
+      "cnText": "+(20–24)% 法术伤害"
+    },
+    {
+      "modifierId": "85034071",
+      "enText": "+(10–14)% Affliction Effect",
+      "cnText": "+(10–14)% 加剧效果"
+    },
+    {
+      "modifierId": "85034081",
+      "enText": "+(8–10)% Reaping Duration",
+      "cnText": "+(8–10)% 收割时间"
+    },
+    {
+      "modifierId": "85034091",
+      "enText": "+(15–20)% Reaping Recovery Speed",
+      "cnText": "+(15–20)% 收割回复速度"
+    },
+    {
+      "modifierId": "85034101",
+      "enText": "+(6–8)% additional Damage Over Time",
+      "cnText": "额外 +(6–8)% 持续伤害"
+    },
+    {
+      "modifierId": "85034111",
+      "enText": "+(6–8)% Elemental and Erosion Resistance Penetration",
+      "cnText": "+(6–8)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "modifierId": "85034121",
+      "enText": "+1 to Max Agility Blessing Stacks",
+      "cnText": "+1 灵动祝福层数上限"
+    },
+    {
+      "modifierId": "85034131",
+      "enText": "+(6–8)% Blur Effect",
+      "cnText": "+(6–8)% 迷踪效果"
+    },
+    {
+      "modifierId": "85034141",
+      "enText": "+1 to Max Focus Blessing Stacks",
+      "cnText": "+1 聚能祝福层数上限"
+    },
+    {
+      "modifierId": "85034151",
+      "enText": "+1 to Max Tenacity Blessing Stacks",
+      "cnText": "+1 坚韧祝福层数上限"
+    },
+    {
+      "modifierId": "160441034",
+      "enText": "+8% additional Damage Over Time",
+      "cnText": "额外 +8% 持续伤害"
+    },
+    {
+      "modifierId": "160442034",
+      "enText": "+16 Affliction inflicted per second+24% Affliction Effect",
+      "cnText": "+16 每秒施加加剧值+24% 加剧效果"
+    },
+    {
+      "modifierId": "160443034",
+      "enText": "+25% Reaping Recovery Speed",
+      "cnText": "+25% 收割回复速度"
+    },
+    {
+      "modifierId": "160444034",
+      "enText": "+30% Reaping Duration",
+      "cnText": "+30% 收割时间"
+    },
+    {
+      "modifierId": "160445034",
+      "enText": "+10% Movement Speed",
+      "cnText": "+10% 移动速度"
+    },
+    {
+      "modifierId": "160446034",
+      "enText": "+12% Ailment Duration",
+      "cnText": "+12% 异常状态持续时间"
+    },
+    {
+      "modifierId": "160447034",
+      "enText": "Max Terra Charge Stacks -1Max Terra Quantity +1",
+      "cnText": "-1 地面蓄能层数上限+1 地面数量上限"
+    },
+    {
+      "modifierId": "160448034",
+      "enText": "+8% Blur Effect",
+      "cnText": "+8% 迷踪效果"
+    },
+    {
+      "modifierId": "160449034",
+      "enText": "-10% All Resistance when the enemy has max Affliction",
+      "cnText": "敌人加剧值达到上限时，-10% 所有抗性"
+    },
+    {
+      "modifierId": "160450034",
+      "enText": "+8% all stats",
+      "cnText": "+8% 全属性"
+    },
+    {
+      "modifierId": "160561034",
+      "enText": "Enemies have a 15% chance to explode when defeated by an Attack or Spell, dealing True Damage equal to 250% of their Max Life to enemies within a 6 m radius",
+      "cnText": "攻击或者法术击败敌人时 15% 几率爆炸，对半径 6 米内的敌人造成被击败的敌人最大生命 250% 的真实伤害"
+    },
+    {
+      "modifierId": "160562034",
+      "enText": "Triggers Lv. 30 Black Hole when moving. Interval: 1.5 s",
+      "cnText": "移动时，触发 30 级黑洞，间隔 1.5 秒"
+    },
+    {
+      "modifierId": "160563034",
+      "enText": "Main Skill is supported by Lv. 25 Cataclysm",
+      "cnText": "核心技能被 25 级催化剂辅助"
+    },
+    {
+      "modifierId": "160564034",
+      "enText": "Upon inflicting damage, +8% additional Ailment Damage (multiplies) for every type of Ailment the enemy has",
+      "cnText": "造成伤害时，敌人每有一种异常状态，额外 +8% 异常伤害（叠乘）"
+    },
+    {
+      "modifierId": "160565034",
+      "enText": "+120% Deep Pain Aura-20% additional Deep Pain Sealed Mana Compensation",
+      "cnText": "+120% 深层苦痛光环效果额外 -20% 深层苦痛魔力封印补偿"
+    },
+    {
+      "modifierId": "160566034",
+      "enText": "+20% Movement Speed when standing on a Terra Skill. The effect lasts 2s.+100% Skill Area when standing on a Terra Skill. Lasts for 2 s",
+      "cnText": "处于地面技能上时， +20% 移动速度，持续 2 秒处于地面技能上时， +100% 技能范围，持续 2 秒"
+    },
+    {
+      "modifierId": "160567034",
+      "enText": "+160 Affliction inflicted per second",
+      "cnText": "+160 每秒施加加剧值"
+    },
+    {
+      "modifierId": "160568034",
+      "enText": "+1 to Max Tenacity Blessing Stacks-1 to Max Focus Blessing Stacks+1 to Max Agility Blessing Stacks",
+      "cnText": "+1 坚韧祝福层数上限-1 聚能祝福层数上限+1 灵动祝福层数上限"
+    },
+    {
+      "modifierId": "51340871",
+      "enText": "Adds (46–48) - (55–60) Cold, Fire, Lightning, and Physical Damage to Spells",
+      "cnText": "法术附加 (46–48) - (55–60) 点冰冷，火焰，闪电和物理伤害"
+    },
+    {
+      "modifierId": "51340841",
+      "enText": "Gains 1 Throne at max channeled stacks, up to 10 stacks",
+      "cnText": "引导层数到达上限时，获得 1 层王权，最多10层"
+    },
+    {
+      "modifierId": "750000",
+      "enText": "500 Critical Strike Rating",
+      "cnText": "500 暴击值"
+    },
+    {
+      "modifierId": "750001",
+      "enText": "1.2 Attack Speed",
+      "cnText": "1.2 攻击速度"
+    },
+    {
+      "modifierId": "530001",
+      "enText": "+2% Damage Over Time",
+      "cnText": "+2% 持续伤害"
+    },
+    {
+      "modifierId": "530002",
+      "enText": "+3% Damage Over Time",
+      "cnText": "+3% 持续伤害"
+    },
+    {
+      "modifierId": "530003",
+      "enText": "+5% Damage Over Time",
+      "cnText": "+5% 持续伤害"
+    },
+    {
+      "modifierId": "530004",
+      "enText": "+7% Damage Over Time",
+      "cnText": "+7% 持续伤害"
+    },
+    {
+      "modifierId": "530005",
+      "enText": "+9% Damage Over Time",
+      "cnText": "+9% 持续伤害"
+    },
+    {
+      "modifierId": "530006",
+      "enText": "+11% Damage Over Time",
+      "cnText": "+11% 持续伤害"
+    },
+    {
+      "modifierId": "530007",
+      "enText": "+13% Damage Over Time",
+      "cnText": "+13% 持续伤害"
+    },
+    {
+      "modifierId": "530008",
+      "enText": "+15% Damage Over Time",
+      "cnText": "+15% 持续伤害"
+    },
+    {
+      "modifierId": "530009",
+      "enText": "+17% Damage Over Time",
+      "cnText": "+17% 持续伤害"
+    },
+    {
+      "modifierId": "530010",
+      "enText": "+19% Damage Over Time",
+      "cnText": "+19% 持续伤害"
+    },
+    {
+      "modifierId": "530011",
+      "enText": "+21% Damage Over Time",
+      "cnText": "+21% 持续伤害"
+    },
+    {
+      "modifierId": "530012",
+      "enText": "+23% Damage Over Time",
+      "cnText": "+23% 持续伤害"
+    },
+    {
+      "modifierId": "530013",
+      "enText": "+25% Damage Over Time",
+      "cnText": "+25% 持续伤害"
+    },
+    {
+      "modifierId": "530014",
+      "enText": "+27% Damage Over Time",
+      "cnText": "+27% 持续伤害"
+    },
+    {
+      "modifierId": "530015",
+      "enText": "+29% Damage Over Time",
+      "cnText": "+29% 持续伤害"
+    },
+    {
+      "modifierId": "530016",
+      "enText": "+31% Damage Over Time",
+      "cnText": "+31% 持续伤害"
+    },
+    {
+      "modifierId": "530017",
+      "enText": "+33% Damage Over Time",
+      "cnText": "+33% 持续伤害"
+    },
+    {
+      "modifierId": "530018",
+      "enText": "+35% Damage Over Time",
+      "cnText": "+35% 持续伤害"
+    },
+    {
+      "modifierId": "530019",
+      "enText": "+37% Damage Over Time",
+      "cnText": "+37% 持续伤害"
+    },
+    {
+      "modifierId": "530020",
+      "enText": "+39% Damage Over Time",
+      "cnText": "+39% 持续伤害"
+    },
+    {
+      "modifierId": "51340870",
+      "enText": "Adds (76–82) - (86–94) Cold, Fire, Lightning, and Physical Damage to Spells",
+      "cnText": "法术附加 (76–82) - (86–94) 点冰冷，火焰，闪电和物理伤害"
+    },
+    {
+      "modifierId": "51340840",
+      "enText": "Gains 2 stacks of Throne every 0.5 s when channeling, up to 10 stacks",
+      "cnText": "引导时，每 0.5 秒获得获得 2 层王权，最多10层"
+    },
+    {
+      "modifierId": "104340080",
+      "enText": "+(235–304) Max Mana",
+      "cnText": "+(235–304) 最大魔力"
+    },
+    {
+      "modifierId": "104340000",
+      "enText": "+(181–234) Max Mana",
+      "cnText": "+(181–234) 最大魔力"
+    },
+    {
+      "modifierId": "104340002",
+      "enText": "+(91–126) Max Mana",
+      "cnText": "+(91–126) 最大魔力"
+    },
+    {
+      "modifierId": "104340003",
+      "enText": "+(73–90) Max Mana",
+      "cnText": "+(73–90) 最大魔力"
+    },
+    {
+      "modifierId": "104340004",
+      "enText": "+(59–72) Max Mana",
+      "cnText": "+(59–72) 最大魔力"
+    },
+    {
+      "modifierId": "104340005",
+      "enText": "+(48–58) Max Mana",
+      "cnText": "+(48–58) 最大魔力"
+    },
+    {
+      "modifierId": "104340006",
+      "enText": "+(37–47) Max Mana",
+      "cnText": "+(37–47) 最大魔力"
+    },
+    {
+      "modifierId": "104340007",
+      "enText": "+(28–36) Max Mana",
+      "cnText": "+(28–36) 最大魔力"
+    },
+    {
+      "modifierId": "107340680",
+      "enText": "+(141–183)% Damage Over Time",
+      "cnText": "+(141–183)% 持续伤害"
+    },
+    {
+      "modifierId": "107340600",
+      "enText": "+(109–140)% Damage Over Time",
+      "cnText": "+(109–140)% 持续伤害"
+    },
+    {
+      "modifierId": "107340602",
+      "enText": "+(55–76)% Damage Over Time",
+      "cnText": "+(55–76)% 持续伤害"
+    },
+    {
+      "modifierId": "107340603",
+      "enText": "+(44–54)% Damage Over Time",
+      "cnText": "+(44–54)% 持续伤害"
+    },
+    {
+      "modifierId": "107340604",
+      "enText": "+(36–43)% Damage Over Time",
+      "cnText": "+(36–43)% 持续伤害"
+    },
+    {
+      "modifierId": "107340605",
+      "enText": "+(29–35)% Damage Over Time",
+      "cnText": "+(29–35)% 持续伤害"
+    },
+    {
+      "modifierId": "107340606",
+      "enText": "+(23–28)% Damage Over Time",
+      "cnText": "+(23–28)% 持续伤害"
+    },
+    {
+      "modifierId": "107340607",
+      "enText": "+(17–22)% Damage Over Time",
+      "cnText": "+(17–22)% 持续伤害"
+    },
+    {
+      "modifierId": "116340280",
+      "enText": "+(200–220) Affliction inflicted per second",
+      "cnText": "+(200–220) 每秒施加加剧值"
+    },
+    {
+      "modifierId": "116340200",
+      "enText": "+(150–188) Affliction inflicted per second",
+      "cnText": "+(150–188) 每秒施加加剧值"
+    },
+    {
+      "modifierId": "116340202",
+      "enText": "+(101–115) Affliction inflicted per second",
+      "cnText": "+(101–115) 每秒施加加剧值"
+    },
+    {
+      "modifierId": "116340203",
+      "enText": "+(85–100) Affliction inflicted per second",
+      "cnText": "+(85–100) 每秒施加加剧值"
+    },
+    {
+      "modifierId": "116340204",
+      "enText": "+(65–84) Affliction inflicted per second",
+      "cnText": "+(65–84) 每秒施加加剧值"
+    },
+    {
+      "modifierId": "130340380",
+      "enText": "Reaps (0.25–0.3) s of Damage Over Time when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+      "cnText": "造成持续伤害时，收割 (0.25–0.3) 秒持续伤害，该效果对同一目标有 1 秒回复时间"
+    },
+    {
+      "modifierId": "130340300",
+      "enText": "Reaps (0.19–0.24) s of Damage Over Time when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+      "cnText": "造成持续伤害时，收割 (0.19–0.24) 秒持续伤害，该效果对同一目标有 1 秒回复时间"
+    },
+    {
+      "modifierId": "130340302",
+      "enText": "Reaps (0.09–0.12) s of Damage Over Time when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+      "cnText": "造成持续伤害时，收割 (0.09–0.12) 秒持续伤害，该效果对同一目标有 1 秒回复时间"
+    },
+    {
+      "modifierId": "130340303",
+      "enText": "Reaps 0.08 s of Damage Over Time when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+      "cnText": "造成持续伤害时，收割 0.08 秒持续伤害，该效果对同一目标有 1 秒回复时间"
+    },
+    {
+      "modifierId": "130340304",
+      "enText": "Reaps 0.07 s of Damage Over Time when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+      "cnText": "造成持续伤害时，收割 0.07 秒持续伤害，该效果对同一目标有 1 秒回复时间"
+    },
+    {
+      "modifierId": "130340305",
+      "enText": "Reaps 0.06 s of Damage Over Time when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+      "cnText": "造成持续伤害时，收割 0.06 秒持续伤害，该效果对同一目标有 1 秒回复时间"
+    },
+    {
+      "modifierId": "130340306",
+      "enText": "Reaps 0.05 s of Damage Over Time when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+      "cnText": "造成持续伤害时，收割 0.05 秒持续伤害，该效果对同一目标有 1 秒回复时间"
+    },
+    {
+      "modifierId": "130340307",
+      "enText": "Reaps 0.04 s of Damage Over Time when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+      "cnText": "造成持续伤害时，收割 0.04 秒持续伤害，该效果对同一目标有 1 秒回复时间"
+    },
+    {
+      "modifierId": "140340780",
+      "enText": "+(430–558) Max Life",
+      "cnText": "+(430–558) 最大生命"
+    },
+    {
+      "modifierId": "140340700",
+      "enText": "+(331–429) Max Life",
+      "cnText": "+(331–429) 最大生命"
+    },
+    {
+      "modifierId": "140340702",
+      "enText": "+(166–231) Max Life",
+      "cnText": "+(166–231) 最大生命"
+    },
+    {
+      "modifierId": "140340703",
+      "enText": "+(133–165) Max Life",
+      "cnText": "+(133–165) 最大生命"
+    },
+    {
+      "modifierId": "140340704",
+      "enText": "+(107–132) Max Life",
+      "cnText": "+(107–132) 最大生命"
+    },
+    {
+      "modifierId": "140340705",
+      "enText": "+(87–106) Max Life",
+      "cnText": "+(87–106) 最大生命"
+    },
+    {
+      "modifierId": "140340706",
+      "enText": "+(67–86) Max Life",
+      "cnText": "+(67–86) 最大生命"
+    },
+    {
+      "modifierId": "140340707",
+      "enText": "+(51–66) Max Life",
+      "cnText": "+(51–66) 最大生命"
+    },
+    {
+      "modifierId": "140340880",
+      "enText": "+(684–887) Max Energy Shield",
+      "cnText": "+(684–887) 最大护盾"
+    },
+    {
+      "modifierId": "140340800",
+      "enText": "+(526–683) Max Energy Shield",
+      "cnText": "+(526–683) 最大护盾"
+    },
+    {
+      "modifierId": "140340802",
+      "enText": "+(264–368) Max Energy Shield",
+      "cnText": "+(264–368) 最大护盾"
+    },
+    {
+      "modifierId": "140340803",
+      "enText": "+(211–263) Max Energy Shield",
+      "cnText": "+(211–263) 最大护盾"
+    },
+    {
+      "modifierId": "140340804",
+      "enText": "+(169–210) Max Energy Shield",
+      "cnText": "+(169–210) 最大护盾"
+    },
+    {
+      "modifierId": "140340805",
+      "enText": "+(138–168) Max Energy Shield",
+      "cnText": "+(138–168) 最大护盾"
+    },
+    {
+      "modifierId": "140340806",
+      "enText": "+(106–137) Max Energy Shield",
+      "cnText": "+(106–137) 最大护盾"
+    },
+    {
+      "modifierId": "140340807",
+      "enText": "+(80–105) Max Energy Shield",
+      "cnText": "+(80–105) 最大护盾"
+    },
+    {
+      "modifierId": "109340080",
+      "enText": "+(118–152) Intelligence",
+      "cnText": "+(118–152) 智慧"
+    },
+    {
+      "modifierId": "109340000",
+      "enText": "+(91–117) Intelligence",
+      "cnText": "+(91–117) 智慧"
+    },
+    {
+      "modifierId": "109340002",
+      "enText": "+(46–63) Intelligence",
+      "cnText": "+(46–63) 智慧"
+    },
+    {
+      "modifierId": "109340003",
+      "enText": "+(37–45) Intelligence",
+      "cnText": "+(37–45) 智慧"
+    },
+    {
+      "modifierId": "109340004",
+      "enText": "+(30–36) Intelligence",
+      "cnText": "+(30–36) 智慧"
+    },
+    {
+      "modifierId": "109340005",
+      "enText": "+(24–29) Intelligence",
+      "cnText": "+(24–29) 智慧"
+    },
+    {
+      "modifierId": "109340006",
+      "enText": "+(19–23) Intelligence",
+      "cnText": "+(19–23) 智慧"
+    },
+    {
+      "modifierId": "109340007",
+      "enText": "+(15–18) Intelligence",
+      "cnText": "+(15–18) 智慧"
+    },
+    {
+      "modifierId": "109340380",
+      "enText": "+(118–152) Strength",
+      "cnText": "+(118–152) 力量"
+    },
+    {
+      "modifierId": "109340300",
+      "enText": "+(91–117) Strength",
+      "cnText": "+(91–117) 力量"
+    },
+    {
+      "modifierId": "109340302",
+      "enText": "+(46–63) Strength",
+      "cnText": "+(46–63) 力量"
+    },
+    {
+      "modifierId": "109340303",
+      "enText": "+(37–45) Strength",
+      "cnText": "+(37–45) 力量"
+    },
+    {
+      "modifierId": "109340304",
+      "enText": "+(30–36) Strength",
+      "cnText": "+(30–36) 力量"
+    },
+    {
+      "modifierId": "109340305",
+      "enText": "+(24–29) Strength",
+      "cnText": "+(24–29) 力量"
+    },
+    {
+      "modifierId": "109340306",
+      "enText": "+(19–23) Strength",
+      "cnText": "+(19–23) 力量"
+    },
+    {
+      "modifierId": "109340307",
+      "enText": "+(15–18) Strength",
+      "cnText": "+(15–18) 力量"
+    },
+    {
+      "modifierId": "109340480",
+      "enText": "+(118–152) Dexterity",
+      "cnText": "+(118–152) 敏捷"
+    },
+    {
+      "modifierId": "109340400",
+      "enText": "+(91–117) Dexterity",
+      "cnText": "+(91–117) 敏捷"
+    },
+    {
+      "modifierId": "109340402",
+      "enText": "+(46–63) Dexterity",
+      "cnText": "+(46–63) 敏捷"
+    },
+    {
+      "modifierId": "109340403",
+      "enText": "+(37–45) Dexterity",
+      "cnText": "+(37–45) 敏捷"
+    },
+    {
+      "modifierId": "109340404",
+      "enText": "+(30–36) Dexterity",
+      "cnText": "+(30–36) 敏捷"
+    },
+    {
+      "modifierId": "109340405",
+      "enText": "+(24–29) Dexterity",
+      "cnText": "+(24–29) 敏捷"
+    },
+    {
+      "modifierId": "109340406",
+      "enText": "+(19–23) Dexterity",
+      "cnText": "+(19–23) 敏捷"
+    },
+    {
+      "modifierId": "109340407",
+      "enText": "+(15–18) Dexterity",
+      "cnText": "+(15–18) 敏捷"
+    },
+    {
+      "modifierId": "115340280",
+      "enText": "+(3–4) Physical Skill Level",
+      "cnText": "+(3–4) 物理技能等级"
+    },
+    {
+      "modifierId": "115340200",
+      "enText": "+(2–3) Physical Skill Level",
+      "cnText": "+(2–3) 物理技能等级"
+    },
+    {
+      "modifierId": "115340380",
+      "enText": "+(3–4) Lightning Skill Level",
+      "cnText": "+(3–4) 闪电技能等级"
+    },
+    {
+      "modifierId": "115340300",
+      "enText": "+(2–3) Lightning Skill Level",
+      "cnText": "+(2–3) 闪电技能等级"
+    },
+    {
+      "modifierId": "115340480",
+      "enText": "+(3–4) Cold Skill Level",
+      "cnText": "+(3–4) 冰冷技能等级"
+    },
+    {
+      "modifierId": "115340400",
+      "enText": "+(2–3) Cold Skill Level",
+      "cnText": "+(2–3) 冰冷技能等级"
+    },
+    {
+      "modifierId": "115340580",
+      "enText": "+(3–4) Fire Skill Level",
+      "cnText": "+(3–4) 火焰技能等级"
+    },
+    {
+      "modifierId": "115340500",
+      "enText": "+(2–3) Fire Skill Level",
+      "cnText": "+(2–3) 火焰技能等级"
+    },
+    {
+      "modifierId": "115340680",
+      "enText": "+(3–4) Erosion Skill Level",
+      "cnText": "+(3–4) 腐蚀技能等级"
+    },
+    {
+      "modifierId": "115340600",
+      "enText": "+(2–3) Erosion Skill Level",
+      "cnText": "+(2–3) 腐蚀技能等级"
+    },
+    {
+      "modifierId": "110340880",
+      "enText": "Max Terra Charge Stacks +4",
+      "cnText": "+4 地面蓄能层数上限"
+    },
+    {
+      "modifierId": "110340800",
+      "enText": "Max Terra Charge Stacks +3",
+      "cnText": "+3 地面蓄能层数上限"
+    },
+    {
+      "modifierId": "110340802",
+      "enText": "Max Terra Charge Stacks +1",
+      "cnText": "+1 地面蓄能层数上限"
+    },
+    {
+      "modifierId": "130340080",
+      "enText": "+(4–5) Spell Skill Level",
+      "cnText": "+(4–5) 法术技能等级"
+    },
+    {
+      "modifierId": "130340000",
+      "enText": "+(3–4) Spell Skill Level",
+      "cnText": "+(3–4) 法术技能等级"
+    },
+    {
+      "modifierId": "130340002",
+      "enText": "+2 Spell Skill Level",
+      "cnText": "+2 法术技能等级"
+    },
+    {
+      "modifierId": "130340180",
+      "enText": "+(40–51)% Elemental and Erosion Resistance Penetration",
+      "cnText": "+(40–51)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "modifierId": "130340100",
+      "enText": "+(28–39)% Elemental and Erosion Resistance Penetration",
+      "cnText": "+(28–39)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "modifierId": "130340102",
+      "enText": "+(18–21)% Elemental and Erosion Resistance Penetration",
+      "cnText": "+(18–21)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "modifierId": "130340103",
+      "enText": "+(13–15)% Elemental and Erosion Resistance Penetration",
+      "cnText": "+(13–15)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "modifierId": "130340280",
+      "enText": "(40–51)% additional damage applied to Life",
+      "cnText": "对生命造成额外 (40–51)% 伤害"
+    },
+    {
+      "modifierId": "130340200",
+      "enText": "(31–39)% additional damage applied to Life",
+      "cnText": "对生命造成额外 (31–39)% 伤害"
+    },
+    {
+      "modifierId": "130340202",
+      "enText": "(16–21)% additional damage applied to Life",
+      "cnText": "对生命造成额外 (16–21)% 伤害"
+    },
+    {
+      "modifierId": "130340203",
+      "enText": "(12–15)% additional damage applied to Life",
+      "cnText": "对生命造成额外 (12–15)% 伤害"
+    },
+    {
+      "modifierId": "110340380",
+      "enText": "+(32–41)% Energy Shield Charge Speed",
+      "cnText": "+(32–41)% 护盾充能速度"
+    },
+    {
+      "modifierId": "110340300",
+      "enText": "+(25–31)% Energy Shield Charge Speed",
+      "cnText": "+(25–31)% 护盾充能速度"
+    },
+    {
+      "modifierId": "110340302",
+      "enText": "+(13–17)% Energy Shield Charge Speed",
+      "cnText": "+(13–17)% 护盾充能速度"
+    },
+    {
+      "modifierId": "110340303",
+      "enText": "+(10–12)% Energy Shield Charge Speed",
+      "cnText": "+(10–12)% 护盾充能速度"
+    },
+    {
+      "modifierId": "110340304",
+      "enText": "+(7–9)% Energy Shield Charge Speed",
+      "cnText": "+(7–9)% 护盾充能速度"
+    },
+    {
+      "modifierId": "110340305",
+      "enText": "+(5–6)% Energy Shield Charge Speed",
+      "cnText": "+(5–6)% 护盾充能速度"
+    },
+    {
+      "modifierId": "110340306",
+      "enText": "+4% Energy Shield Charge Speed",
+      "cnText": "+4% 护盾充能速度"
+    },
+    {
+      "modifierId": "110340307",
+      "enText": "+3% Energy Shield Charge Speed",
+      "cnText": "+3% 护盾充能速度"
+    },
+    {
+      "modifierId": "115341080",
+      "enText": "Adds 95 - 115 Base Wilt Damage",
+      "cnText": "附加 95 - 115 基础凋零伤害"
+    },
+    {
+      "modifierId": "115341000",
+      "enText": "Adds 72 - 88 Base Wilt Damage",
+      "cnText": "附加 72 - 88 基础凋零伤害"
+    },
+    {
+      "modifierId": "115341002",
+      "enText": "Adds 38 - 46 Base Wilt Damage",
+      "cnText": "附加 38 - 46 基础凋零伤害"
+    },
+    {
+      "modifierId": "115341003",
+      "enText": "Adds 28 - 35 Base Wilt Damage",
+      "cnText": "附加 28 - 35 基础凋零伤害"
+    },
+    {
+      "modifierId": "115341004",
+      "enText": "Adds 21 - 25 Base Wilt Damage",
+      "cnText": "附加 21 - 25 基础凋零伤害"
+    },
+    {
+      "modifierId": "116340380",
+      "enText": "+(99–127)% Affliction Effect",
+      "cnText": "+(99–127)% 加剧效果"
+    },
+    {
+      "modifierId": "116340300",
+      "enText": "+(76–98)% Affliction Effect",
+      "cnText": "+(76–98)% 加剧效果"
+    },
+    {
+      "modifierId": "116340302",
+      "enText": "+(39–53)% Affliction Effect",
+      "cnText": "+(39–53)% 加剧效果"
+    },
+    {
+      "modifierId": "116340303",
+      "enText": "+(31–38)% Affliction Effect",
+      "cnText": "+(31–38)% 加剧效果"
+    },
+    {
+      "modifierId": "116340304",
+      "enText": "+(25–30)% Affliction Effect",
+      "cnText": "+(25–30)% 加剧效果"
+    },
+    {
+      "modifierId": "140340080",
+      "enText": "Adds 810 - 1890 Base Trauma Damage",
+      "cnText": "附加 810 - 1890 基础创伤伤害"
+    },
+    {
+      "modifierId": "140340000",
+      "enText": "Adds 630 - 1470 Base Trauma Damage",
+      "cnText": "附加 630 - 1470 基础创伤伤害"
+    },
+    {
+      "modifierId": "140340002",
+      "enText": "Adds 330 - 770 Base Trauma Damage",
+      "cnText": "附加 330 - 770 基础创伤伤害"
+    },
+    {
+      "modifierId": "140340003",
+      "enText": "Adds 240 - 560 Base Trauma Damage",
+      "cnText": "附加 240 - 560 基础创伤伤害"
+    },
+    {
+      "modifierId": "140340004",
+      "enText": "Adds 180 - 420 Base Trauma Damage",
+      "cnText": "附加 180 - 420 基础创伤伤害"
+    },
+    {
+      "modifierId": "140340180",
+      "enText": "Adds 595 - 1105 Base Ignite Damage",
+      "cnText": "附加 595 - 1105 基础点燃伤害"
+    },
+    {
+      "modifierId": "140340100",
+      "enText": "Adds 455 - 845 Base Ignite Damage",
+      "cnText": "附加 455 - 845 基础点燃伤害"
+    },
+    {
+      "modifierId": "140340102",
+      "enText": "Adds 245 - 455 Base Ignite Damage",
+      "cnText": "附加 245 - 455 基础点燃伤害"
+    },
+    {
+      "modifierId": "140340103",
+      "enText": "Adds 175 - 325 Base Ignite Damage",
+      "cnText": "附加 175 - 325 基础点燃伤害"
+    },
+    {
+      "modifierId": "140340104",
+      "enText": "Adds 125 - 235 Base Ignite Damage",
+      "cnText": "附加 125 - 235 基础点燃伤害"
+    },
+    {
+      "modifierId": "140340980",
+      "enText": "+(141–183)% Physical Damage",
+      "cnText": "+(141–183)% 物理伤害"
+    },
+    {
+      "modifierId": "140340900",
+      "enText": "+(109–140)% Physical Damage",
+      "cnText": "+(109–140)% 物理伤害"
+    },
+    {
+      "modifierId": "140340902",
+      "enText": "+(56–77)% Physical Damage",
+      "cnText": "+(56–77)% 物理伤害"
+    },
+    {
+      "modifierId": "140340903",
+      "enText": "+(40–55)% Physical Damage",
+      "cnText": "+(40–55)% 物理伤害"
+    },
+    {
+      "modifierId": "140340904",
+      "enText": "+(27–39)% Physical Damage",
+      "cnText": "+(27–39)% 物理伤害"
+    },
+    {
+      "modifierId": "140340905",
+      "enText": "+(18–26)% Physical Damage",
+      "cnText": "+(18–26)% 物理伤害"
+    },
+    {
+      "modifierId": "140340906",
+      "enText": "+(13–17)% Physical Damage",
+      "cnText": "+(13–17)% 物理伤害"
+    },
+    {
+      "modifierId": "140340907",
+      "enText": "+(8–12)% Physical Damage",
+      "cnText": "+(8–12)% 物理伤害"
+    },
+    {
+      "modifierId": "140341080",
+      "enText": "+(141–183)% Elemental Damage",
+      "cnText": "+(141–183)% 元素伤害"
+    },
+    {
+      "modifierId": "140341000",
+      "enText": "+(109–140)% Elemental Damage",
+      "cnText": "+(109–140)% 元素伤害"
+    },
+    {
+      "modifierId": "140341002",
+      "enText": "+(56–77)% Elemental Damage",
+      "cnText": "+(56–77)% 元素伤害"
+    },
+    {
+      "modifierId": "140341003",
+      "enText": "+(40–55)% Elemental Damage",
+      "cnText": "+(40–55)% 元素伤害"
+    },
+    {
+      "modifierId": "140341004",
+      "enText": "+(27–39)% Elemental Damage",
+      "cnText": "+(27–39)% 元素伤害"
+    },
+    {
+      "modifierId": "140341005",
+      "enText": "+(18–26)% Elemental Damage",
+      "cnText": "+(18–26)% 元素伤害"
+    },
+    {
+      "modifierId": "140341006",
+      "enText": "+(13–17)% Elemental Damage",
+      "cnText": "+(13–17)% 元素伤害"
+    },
+    {
+      "modifierId": "140341007",
+      "enText": "+(8–12)% Elemental Damage",
+      "cnText": "+(8–12)% 元素伤害"
+    },
+    {
+      "modifierId": "140341180",
+      "enText": "+(141–183)% Erosion Damage",
+      "cnText": "+(141–183)% 腐蚀伤害"
+    },
+    {
+      "modifierId": "140341100",
+      "enText": "+(109–140)% Erosion Damage",
+      "cnText": "+(109–140)% 腐蚀伤害"
+    },
+    {
+      "modifierId": "140341102",
+      "enText": "+(55–76)% Erosion Damage",
+      "cnText": "+(55–76)% 腐蚀伤害"
+    },
+    {
+      "modifierId": "140341103",
+      "enText": "+(44–54)% Erosion Damage",
+      "cnText": "+(44–54)% 腐蚀伤害"
+    },
+    {
+      "modifierId": "140341104",
+      "enText": "+(36–43)% Erosion Damage",
+      "cnText": "+(36–43)% 腐蚀伤害"
+    },
+    {
+      "modifierId": "140341105",
+      "enText": "+(29–35)% Erosion Damage",
+      "cnText": "+(29–35)% 腐蚀伤害"
+    },
+    {
+      "modifierId": "140341106",
+      "enText": "+(23–28)% Erosion Damage",
+      "cnText": "+(23–28)% 腐蚀伤害"
+    },
+    {
+      "modifierId": "140341107",
+      "enText": "+(17–22)% Erosion Damage",
+      "cnText": "+(17–22)% 腐蚀伤害"
+    },
+    {
+      "modifierId": "110340180",
+      "enText": "+(48–61)% Cast Speed+(48–61)% Minion Cast Speed",
+      "cnText": "+(48–61)% 施法速度+(48–61)% 召唤物施法速度"
+    },
+    {
+      "modifierId": "110340100",
+      "enText": "+(37–47)% Cast Speed+(37–47)% Minion Cast Speed",
+      "cnText": "+(37–47)% 施法速度+(37–47)% 召唤物施法速度"
+    },
+    {
+      "modifierId": "110340102",
+      "enText": "+(19–25)% Cast Speed+(19–25)% Minion Cast Speed",
+      "cnText": "+(19–25)% 施法速度+(19–25)% 召唤物施法速度"
+    },
+    {
+      "modifierId": "140340380",
+      "enText": "+(65–80)% Ignite Duration",
+      "cnText": "+(65–80)% 点燃持续时间"
+    },
+    {
+      "modifierId": "140340300",
+      "enText": "+(50–62)% Ignite Duration",
+      "cnText": "+(50–62)% 点燃持续时间"
+    },
+    {
+      "modifierId": "140340302",
+      "enText": "+(26–34)% Ignite Duration",
+      "cnText": "+(26–34)% 点燃持续时间"
+    },
+    {
+      "modifierId": "140340480",
+      "enText": "+(65–80)% Trauma Duration",
+      "cnText": "+(65–80)% 创伤持续时间"
+    },
+    {
+      "modifierId": "140340400",
+      "enText": "+(50–62)% Trauma Duration",
+      "cnText": "+(50–62)% 创伤持续时间"
+    },
+    {
+      "modifierId": "140340402",
+      "enText": "+(26–34)% Trauma Duration",
+      "cnText": "+(26–34)% 创伤持续时间"
+    },
+    {
+      "modifierId": "140340580",
+      "enText": "+(65–80)% Wilt Duration",
+      "cnText": "+(65–80)% 凋零持续时间"
+    },
+    {
+      "modifierId": "140340500",
+      "enText": "+(50–62)% Wilt Duration",
+      "cnText": "+(50–62)% 凋零持续时间"
+    },
+    {
+      "modifierId": "140340502",
+      "enText": "+(26–34)% Wilt Duration",
+      "cnText": "+(26–34)% 凋零持续时间"
+    },
+    {
+      "modifierId": "140340680",
+      "enText": "+(99–127)% Reaping Duration",
+      "cnText": "+(99–127)% 收割时间"
+    },
+    {
+      "modifierId": "140340600",
+      "enText": "+(76–98)% Reaping Duration",
+      "cnText": "+(76–98)% 收割时间"
+    },
+    {
+      "modifierId": "140340602",
+      "enText": "+(39–53)% Reaping Duration",
+      "cnText": "+(39–53)% 收割时间"
+    },
+    {
+      "modifierId": "140340603",
+      "enText": "+(31–38)% Reaping Duration",
+      "cnText": "+(31–38)% 收割时间"
+    },
+    {
+      "modifierId": "140340604",
+      "enText": "+(25–30)% Reaping Duration",
+      "cnText": "+(25–30)% 收割时间"
+    },
+    {
+      "modifierId": "140340605",
+      "enText": "+(21–24)% Reaping Duration",
+      "cnText": "+(21–24)% 收割时间"
+    },
+    {
+      "modifierId": "140340606",
+      "enText": "+(16–20)% Reaping Duration",
+      "cnText": "+(16–20)% 收割时间"
+    },
+    {
+      "modifierId": "140340607",
+      "enText": "+(13–15)% Reaping Duration",
+      "cnText": "+(13–15)% 收割时间"
+    },
+    {
+      "modifierId": "140341480",
+      "enText": "+(75–90)% Focus Speed",
+      "cnText": "+(75–90)% 贯注速度"
+    },
+    {
+      "modifierId": "140341400",
+      "enText": "+(60–70)% Focus Speed",
+      "cnText": "+(60–70)% 贯注速度"
+    },
+    {
+      "modifierId": "140341402",
+      "enText": "+(30–40)% Focus Speed",
+      "cnText": "+(30–40)% 贯注速度"
+    },
+    {
+      "modifierId": "140340280",
+      "enText": "+(164–211)% Reaping Recovery Speed",
+      "cnText": "+(164–211)% 收割回复速度"
+    },
+    {
+      "modifierId": "140340200",
+      "enText": "+(126–163)% Reaping Recovery Speed",
+      "cnText": "+(126–163)% 收割回复速度"
+    },
+    {
+      "modifierId": "140340202",
+      "enText": "+(64–88)% Reaping Recovery Speed",
+      "cnText": "+(64–88)% 收割回复速度"
+    },
+    {
+      "modifierId": "140340203",
+      "enText": "+(51–63)% Reaping Recovery Speed",
+      "cnText": "+(51–63)% 收割回复速度"
+    },
+    {
+      "modifierId": "140341280",
+      "enText": "Max Terra Quantity +1+10% additional damage",
+      "cnText": "+1 地面数量上限额外 +10% 伤害"
+    },
+    {
+      "modifierId": "140341200",
+      "enText": "Max Terra Quantity +1+5% additional damage",
+      "cnText": "+1 地面数量上限额外 +5% 伤害"
+    },
+    {
+      "modifierId": "140341202",
+      "enText": "Max Terra Quantity +1-10% additional damage",
+      "cnText": "+1 地面数量上限额外 -10% 伤害"
+    },
+    {
+      "modifierId": "140341580",
+      "enText": "+(65–80)% Focus Damage Enhancement",
+      "cnText": "+(65–80)% 贯注伤害加深"
+    },
+    {
+      "modifierId": "140341500",
+      "enText": "+(48–60)% Focus Damage Enhancement",
+      "cnText": "+(48–60)% 贯注伤害加深"
+    },
+    {
+      "modifierId": "140341502",
+      "enText": "+(20–30)% Focus Damage Enhancement",
+      "cnText": "+(20–30)% 贯注伤害加深"
+    },
+    {
+      "modifierId": "140341680",
+      "enText": "+(70–85)% Combo Damage Enhancement if the Combo Finisher cast recently consumes at least 8 Combo Point(s)",
+      "cnText": "若最近释放的连携终结技至少消耗了 8 点连携点，+(70–85)% 连携伤害加深"
+    },
+    {
+      "modifierId": "140341600",
+      "enText": "+(55–65)% Combo Damage Enhancement if the Combo Finisher cast recently consumes at least 8 Combo Point(s)",
+      "cnText": "若最近释放的连携终结技至少消耗了 8 点连携点，+(55–65)% 连携伤害加深"
+    },
+    {
+      "modifierId": "140341602",
+      "enText": "+(25–35)% Combo Damage Enhancement if the Combo Finisher cast recently consumes at least 8 Combo Point(s)",
+      "cnText": "若最近释放的连携终结技至少消耗了 8 点连携点，+(25–35)% 连携伤害加深"
+    },
+    {
+      "modifierId": "140341780",
+      "enText": "+(70–85)% Ailment Damage Enhancement",
+      "cnText": "+(70–85)% 异常伤害加深"
+    },
+    {
+      "modifierId": "140341700",
+      "enText": "+(55–65)% Ailment Damage Enhancement",
+      "cnText": "+(55–65)% 异常伤害加深"
+    },
+    {
+      "modifierId": "140341702",
+      "enText": "+(25–35)% Ailment Damage Enhancement",
+      "cnText": "+(25–35)% 异常伤害加深"
+    }
+  ]
+}

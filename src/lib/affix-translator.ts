@@ -1,0 +1,79 @@
+import { AFFIX_NAME_TRANSLATIONS } from '@/src/data/translated-affixes/complete-affix-translations';
+import { BASE_GEAR_NAME_TRANSLATIONS } from '@/src/data/translated-affixes/base-gear-name-translations';
+
+const NUMBER_PATTERN = /([+-]?\d+(?:\.\d+)?(?:–|-)\d+(?:\.\d+)?|[+-]?\d+(?:\.\d+)?%)?/g;
+const VALUE_PATTERN = /([+-]?\d+(?:\.\d+)?(?:–|-)\d+(?:\.\d+)?|[+-]?\d+(?:\.\d+)?%)/g;
+
+function normalizeNumber(value: string): string {
+  return value.replace(/–/g, '-').replace(/\s+/g, '');
+}
+
+function textToPattern(text: string): string {
+  return text
+    .replace(/[+-]?\d+(?:\.\d+)?-\d+(?:\.\d+)?/g, '#RANGE#')
+    .replace(/[+-]?\d+(?:\.\d+)?%/g, '#PERCENT#')
+    .replace(/[+-]?\d+(?:\.\d+)?/g, '#NUM#');
+}
+
+export function translateAffixText(enText: string): string {
+  if (!enText || typeof enText !== 'string') {
+    return enText;
+  }
+
+  if (AFFIX_NAME_TRANSLATIONS[enText]) {
+    return AFFIX_NAME_TRANSLATIONS[enText];
+  }
+
+  let translatedText = enText;
+
+  const sortedKeys = Object.keys(AFFIX_NAME_TRANSLATIONS).sort((a, b) => b.length - a.length);
+
+  sortedKeys.forEach(enKey => {
+    const cnValue = AFFIX_NAME_TRANSLATIONS[enKey];
+    const regex = new RegExp(enKey.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi');
+    translatedText = translatedText.replace(regex, cnValue);
+  });
+
+  return translatedText;
+}
+
+export function getTranslatedAffixText(text: string): string {
+  if (!text) return text;
+
+  if (AFFIX_NAME_TRANSLATIONS[text]) {
+    return AFFIX_NAME_TRANSLATIONS[text];
+  }
+
+  if (BASE_GEAR_NAME_TRANSLATIONS[text]) {
+    return BASE_GEAR_NAME_TRANSLATIONS[text];
+  }
+
+  let result = text;
+
+  const sortedKeys = Object.keys(AFFIX_NAME_TRANSLATIONS).sort((a, b) => b.length - a.length);
+
+  for (const key of sortedKeys) {
+    const regex = new RegExp(`(^|\\s)${key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?=\\s|$|,)`, 'gi');
+    const replacement = `$1${AFFIX_NAME_TRANSLATIONS[key]}`;
+    result = result.replace(regex, replacement);
+  }
+
+  for (const [enName, cnName] of Object.entries(BASE_GEAR_NAME_TRANSLATIONS)) {
+    const regex = new RegExp(`(^|\\s)${enName.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?=\\s|$|,)`, 'gi');
+    result = result.replace(regex, `$1${cnName}`);
+  }
+
+  return result;
+}
+
+export function translateModValue(value: number): string {
+  return value.toString();
+}
+
+export const useAffixTranslation = () => {
+  const translate = (text: string): string => {
+    return getTranslatedAffixText(text);
+  };
+
+  return { translate };
+};

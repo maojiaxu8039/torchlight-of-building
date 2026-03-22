@@ -1,0 +1,1845 @@
+{
+  "equipmentType": "Crossbow",
+  "affixes": [
+    {
+      "modifierId": "1502900",
+      "enText": "Adds (25–30) - (33–38) Physical Damage to Attacks",
+      "cnText": "攻击附加 (25–30) - (33–38) 点物理伤害"
+    },
+    {
+      "modifierId": "1502901",
+      "enText": "Adds (24–29) - (34–39) Fire Damage to Attacks",
+      "cnText": "攻击附加 (24–29) - (34–39) 点火焰伤害"
+    },
+    {
+      "modifierId": "1502902",
+      "enText": "Adds (24–29) - (34–39) Cold Damage to Attacks",
+      "cnText": "攻击附加 (24–29) - (34–39) 点冰冷伤害"
+    },
+    {
+      "modifierId": "1502903",
+      "enText": "Adds (1–3) - (60–65) Lightning Damage to Attacks",
+      "cnText": "攻击附加 (1–3) - (60–65) 点闪电伤害"
+    },
+    {
+      "modifierId": "1502904",
+      "enText": "Adds (26–31) - (32–37) Erosion Damage to Attacks",
+      "cnText": "攻击附加 (26–31) - (32–37) 点腐蚀伤害"
+    },
+    {
+      "modifierId": "1502905",
+      "enText": "+(40–48)% Physical Damage",
+      "cnText": "+(40–48)% 物理伤害"
+    },
+    {
+      "modifierId": "1502906",
+      "enText": "+(40–48)% Elemental Damage",
+      "cnText": "+(40–48)% 元素伤害"
+    },
+    {
+      "modifierId": "1502907",
+      "enText": "+(40–48)% Erosion Damage",
+      "cnText": "+(40–48)% 腐蚀伤害"
+    },
+    {
+      "modifierId": "1502908",
+      "enText": "+(40–48)% Ranged Damage",
+      "cnText": "+(40–48)% 远程伤害"
+    },
+    {
+      "modifierId": "1502909",
+      "enText": "+(12–16)% Attack Speed",
+      "cnText": "+(12–16)% 攻击速度"
+    },
+    {
+      "modifierId": "1502910",
+      "enText": "Projectile Quantity +2",
+      "cnText": "+2 投射物数量"
+    },
+    {
+      "modifierId": "1502911",
+      "enText": "+2 Horizontal Projectile Penetration(s)",
+      "cnText": "+2 直射投射物穿透次数"
+    },
+    {
+      "modifierId": "1502912",
+      "enText": "+(12–16)% Elemental and Erosion Resistance Penetration",
+      "cnText": "+(12–16)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "modifierId": "1502913",
+      "enText": "+(10–14)% Armor DMG Mitigation Penetration",
+      "cnText": "+(10–14)% 护甲减伤穿透"
+    },
+    {
+      "modifierId": "1502914",
+      "enText": "+2 to Max Tenacity Blessing Stacks",
+      "cnText": "+2 坚韧祝福层数上限"
+    },
+    {
+      "modifierId": "1502915",
+      "enText": "+2 to Max Agility Blessing Stacks",
+      "cnText": "+2 灵动祝福层数上限"
+    },
+    {
+      "modifierId": "1502916",
+      "enText": "+2 to Max Focus Blessing Stacks",
+      "cnText": "+2 聚能祝福层数上限"
+    },
+    {
+      "modifierId": "1502917",
+      "enText": "+(48–64)% Gear Physical Damage",
+      "cnText": "+(48–64)% 该装备物理伤害"
+    },
+    {
+      "modifierId": "1502918",
+      "enText": "Adds (64–68) - (80–84) Physical Damage to the gear",
+      "cnText": "该装备附加 (64–68) - (80–84) 点物理伤害"
+    },
+    {
+      "modifierId": "1502919",
+      "enText": "Lucky Critical Strike(-50–-40)% Critical Strike Rating",
+      "cnText": "暴击幸运(-50–-40)% 暴击值"
+    },
+    {
+      "modifierId": "60062901",
+      "enText": "Enemies have a 30% chance to explode when defeated, dealing True Damage equal to (50–100)% of their Max Life to enemies within a 6 m radius",
+      "cnText": "击败敌人 30% 几率爆炸，对半径 6 米内的敌人造成被击败的敌人最大生命 (50–100)% 的真实伤害"
+    },
+    {
+      "modifierId": "60062902",
+      "enText": "+(6–12)% chance to gain 1 stack of Tenacity Blessing on defeat",
+      "cnText": "击败时，+(6–12)% 几率获得 1 层坚韧祝福"
+    },
+    {
+      "modifierId": "60062903",
+      "enText": "Adds (7–10) - (14–17) Physical Damage to the gear",
+      "cnText": "该装备附加 (7–10) - (14–17) 点物理伤害"
+    },
+    {
+      "modifierId": "60062904",
+      "enText": "+(15–25)% Gear Physical Damage",
+      "cnText": "+(15–25)% 该装备物理伤害"
+    },
+    {
+      "modifierId": "60062905",
+      "enText": "+(5–8)% gear Attack Speed",
+      "cnText": "+(5–8)% 该装备攻击速度"
+    },
+    {
+      "modifierId": "60062906",
+      "enText": "+(3–6)% Attack Critical Strike Rating for this gear",
+      "cnText": "+(3–6)% 该装备攻击暴击值"
+    },
+    {
+      "modifierId": "60062907",
+      "enText": "Eliminates enemies under (5–8)% Life upon inflicting damage",
+      "cnText": "造成伤害时，淘汰生命值低于 (5–8)% 的敌人"
+    },
+    {
+      "modifierId": "60062908",
+      "enText": "+(40–45)% Elemental Damage",
+      "cnText": "+(40–45)% 元素伤害"
+    },
+    {
+      "modifierId": "60062909",
+      "enText": "+(8–12)% chance to deal double Trauma Damage",
+      "cnText": "+(8–12)% 几率造成双倍创伤伤害"
+    },
+    {
+      "modifierId": "106290001",
+      "enText": "Adds (71–73) - (87–89) Physical Damage to the gear",
+      "cnText": "该装备附加 (71–73) - (87–89) 点物理伤害"
+    },
+    {
+      "modifierId": "106290101",
+      "enText": "Adds (152–154) - (197–208) Fire Damage to the gear",
+      "cnText": "该装备附加 (152–154) - (197–208) 点火焰伤害"
+    },
+    {
+      "modifierId": "106290201",
+      "enText": "Adds (154–156) - (204–206) Cold Damage to the gear",
+      "cnText": "该装备附加 (154–156) - (204–206) 点冰冷伤害"
+    },
+    {
+      "modifierId": "106290301",
+      "enText": "Adds (17–19) - (341–343) Lightning Damage to the gear",
+      "cnText": "该装备附加 (17–19) - (341–343) 点闪电伤害"
+    },
+    {
+      "modifierId": "106290401",
+      "enText": "Adds (165–167) - (193–195) Erosion Damage to the gear",
+      "cnText": "该装备附加 (165–167) - (193–195) 点腐蚀伤害"
+    },
+    {
+      "modifierId": "140290401",
+      "enText": "+(152–216)% Projectile Damage",
+      "cnText": "+(152–216)% 投射物伤害"
+    },
+    {
+      "modifierId": "140291901",
+      "enText": "Adds 960 - 2240 Base Trauma Damage",
+      "cnText": "附加 960 - 2240 基础创伤伤害"
+    },
+    {
+      "modifierId": "140292101",
+      "enText": "Reaps (0.25–0.36) s of Trauma Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+      "cnText": "造成持续伤害时，收割 (0.25–0.36) 秒创伤伤害，该效果对同一目标有 1 秒回复时间"
+    },
+    {
+      "modifierId": "107290001",
+      "enText": "+(49–80)% Gear Physical Damage",
+      "cnText": "+(49–80)% 该装备物理伤害"
+    },
+    {
+      "modifierId": "109290001",
+      "enText": "+(127–180) Dexterity",
+      "cnText": "+(127–180) 敏捷"
+    },
+    {
+      "modifierId": "109290101",
+      "enText": "+(127–180) Strength",
+      "cnText": "+(127–180) 力量"
+    },
+    {
+      "modifierId": "109290301",
+      "enText": "+(127–180) Intelligence",
+      "cnText": "+(127–180) 智慧"
+    },
+    {
+      "modifierId": "115290501",
+      "enText": "+(36–50)% Armor DMG Mitigation Penetration",
+      "cnText": "+(36–50)% 护甲减伤穿透"
+    },
+    {
+      "modifierId": "140290901",
+      "enText": "+6 to Attack Skill Level",
+      "cnText": "+6 攻击技能等级"
+    },
+    {
+      "modifierId": "140291801",
+      "enText": "+(43–60)% Elemental and Erosion Resistance Penetration",
+      "cnText": "+(43–60)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "modifierId": "140292201",
+      "enText": "+(77–110)% Gear Physical DamageAdds (53–55) - (65–67) Physical Damage to the gear",
+      "cnText": "+(77–110)% 该装备物理伤害该装备附加 (53–55) - (65–67) 点物理伤害"
+    },
+    {
+      "modifierId": "140292601",
+      "enText": "+(43–60)% additional Trauma Damage",
+      "cnText": "额外 +(43–60)% 创伤伤害"
+    },
+    {
+      "modifierId": "140292701",
+      "enText": "+(58–80)% Knockback distance+10% additional damage",
+      "cnText": "+(58–80)% 击退距离额外 +10% 伤害"
+    },
+    {
+      "modifierId": "149292301",
+      "enText": "Adds (59–61) - (337–339) Elemental Damage to the gear-100% Gear Physical Damage",
+      "cnText": "该装备附加 (59–61) - (337–339) 点元素伤害-100% 该装备物理伤害"
+    },
+    {
+      "modifierId": "110290101",
+      "enText": "+(23–32)% gear Attack Speed",
+      "cnText": "+(23–32)% 该装备攻击速度"
+    },
+    {
+      "modifierId": "140291001",
+      "enText": "+(22–30)% Life Regain",
+      "cnText": "+(22–30)% 生命返还"
+    },
+    {
+      "modifierId": "140291101",
+      "enText": "+(22–30)% Energy Shield Regain",
+      "cnText": "+(22–30)% 护盾返还"
+    },
+    {
+      "modifierId": "140291201",
+      "enText": "+(152–216)% Physical Damage",
+      "cnText": "+(152–216)% 物理伤害"
+    },
+    {
+      "modifierId": "140291301",
+      "enText": "+(152–216)% Elemental Damage",
+      "cnText": "+(152–216)% 元素伤害"
+    },
+    {
+      "modifierId": "140291401",
+      "enText": "+(152–216)% Erosion Damage",
+      "cnText": "+(152–216)% 腐蚀伤害"
+    },
+    {
+      "modifierId": "110290201",
+      "enText": "+(36–50)% Attack Critical Strike Rating for this gear",
+      "cnText": "+(36–50)% 该装备攻击暴击值"
+    },
+    {
+      "modifierId": "110290601",
+      "enText": "+(252–360)% Critical Strike Rating",
+      "cnText": "+(252–360)% 暴击值"
+    },
+    {
+      "modifierId": "110290701",
+      "enText": "+(51–72)% Attack and Cast Speed+(51–72)% Minion Attack and Cast Speed",
+      "cnText": "+(51–72)% 攻击与施法速度+(51–72)% 召唤物攻击与施法速度"
+    },
+    {
+      "modifierId": "111290401",
+      "enText": "+(127–180)% Critical Strike Damage",
+      "cnText": "+(127–180)% 暴击伤害"
+    },
+    {
+      "modifierId": "140291501",
+      "enText": "+(106–150)% Affliction Effect",
+      "cnText": "+(106–150)% 加剧效果"
+    },
+    {
+      "modifierId": "140292301",
+      "enText": "+(90–110)% Focus Speed",
+      "cnText": "+(90–110)% 贯注速度"
+    },
+    {
+      "modifierId": "130290101",
+      "enText": "(43–60)% additional damage applied to Life",
+      "cnText": "对生命造成额外 (43–60)% 伤害"
+    },
+    {
+      "modifierId": "140292401",
+      "enText": "+(70–90)% Focus Damage Enhancement",
+      "cnText": "+(70–90)% 贯注伤害加深"
+    },
+    {
+      "modifierId": "140292801",
+      "enText": "+(80–100)% Ailment Damage Enhancement",
+      "cnText": "+(80–100)% 异常伤害加深"
+    },
+    {
+      "modifierId": "85029001",
+      "enText": "Adds (10–13) - (14–19) Physical Damage to Attacks",
+      "cnText": "攻击附加 (10–13) - (14–19) 点物理伤害"
+    },
+    {
+      "modifierId": "85029011",
+      "enText": "Adds (9–14) - (15–20) Fire Damage to Attacks",
+      "cnText": "攻击附加 (9–14) - (15–20) 点火焰伤害"
+    },
+    {
+      "modifierId": "85029021",
+      "enText": "Adds (10–13) - (14–19) Cold Damage to Attacks",
+      "cnText": "攻击附加 (10–13) - (14–19) 点冰冷伤害"
+    },
+    {
+      "modifierId": "85029031",
+      "enText": "Adds (1–2) - (28–32) Lightning Damage to Attacks",
+      "cnText": "攻击附加 (1–2) - (28–32) 点闪电伤害"
+    },
+    {
+      "modifierId": "85029041",
+      "enText": "Adds (11–13) - (15–18) Erosion Damage to Attacks",
+      "cnText": "攻击附加 (11–13) - (15–18) 点腐蚀伤害"
+    },
+    {
+      "modifierId": "85029051",
+      "enText": "+(20–24)% Physical Damage",
+      "cnText": "+(20–24)% 物理伤害"
+    },
+    {
+      "modifierId": "85029061",
+      "enText": "+(20–24)% Elemental Damage",
+      "cnText": "+(20–24)% 元素伤害"
+    },
+    {
+      "modifierId": "85029071",
+      "enText": "+(20–24)% Erosion Damage",
+      "cnText": "+(20–24)% 腐蚀伤害"
+    },
+    {
+      "modifierId": "85029081",
+      "enText": "+(20–24)% Ranged Damage",
+      "cnText": "+(20–24)% 远程伤害"
+    },
+    {
+      "modifierId": "85029091",
+      "enText": "+(6–8)% Attack Speed",
+      "cnText": "+(6–8)% 攻击速度"
+    },
+    {
+      "modifierId": "85029101",
+      "enText": "Projectile Quantity +1",
+      "cnText": "+1 投射物数量"
+    },
+    {
+      "modifierId": "85029111",
+      "enText": "+1 Horizontal Projectile Penetration(s)",
+      "cnText": "+1 直射投射物穿透次数"
+    },
+    {
+      "modifierId": "85029121",
+      "enText": "+(6–8)% Elemental and Erosion Resistance Penetration",
+      "cnText": "+(6–8)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "modifierId": "85029131",
+      "enText": "+(5–7)% Armor DMG Mitigation Penetration",
+      "cnText": "+(5–7)% 护甲减伤穿透"
+    },
+    {
+      "modifierId": "85029141",
+      "enText": "+1 to Max Tenacity Blessing Stacks",
+      "cnText": "+1 坚韧祝福层数上限"
+    },
+    {
+      "modifierId": "85029151",
+      "enText": "+1 to Max Agility Blessing Stacks",
+      "cnText": "+1 灵动祝福层数上限"
+    },
+    {
+      "modifierId": "85029161",
+      "enText": "+1 to Max Focus Blessing Stacks",
+      "cnText": "+1 聚能祝福层数上限"
+    },
+    {
+      "modifierId": "85029171",
+      "enText": "+(24–32)% Gear Physical Damage",
+      "cnText": "+(24–32)% 该装备物理伤害"
+    },
+    {
+      "modifierId": "85029181",
+      "enText": "Adds (32–34) - (40–42) Physical Damage to the gear",
+      "cnText": "该装备附加 (32–34) - (40–42) 点物理伤害"
+    },
+    {
+      "modifierId": "85029191",
+      "enText": "Lucky Critical Strike(-80–-50)% Critical Strike Rating",
+      "cnText": "暴击幸运(-80–-50)% 暴击值"
+    },
+    {
+      "modifierId": "160411029",
+      "enText": "+16% additional damage for Main-Hand Weapons",
+      "cnText": "额外 +16% 主手武器伤害"
+    },
+    {
+      "modifierId": "160412029",
+      "enText": "+12% Armor DMG Mitigation Penetration",
+      "cnText": "+12% 护甲减伤穿透"
+    },
+    {
+      "modifierId": "160413029",
+      "enText": "+16% Fire Penetration",
+      "cnText": "+16% 火焰穿透"
+    },
+    {
+      "modifierId": "160414029",
+      "enText": "+16% Cold Penetration",
+      "cnText": "+16% 冰冷穿透"
+    },
+    {
+      "modifierId": "160415029",
+      "enText": "+16% Lightning Penetration",
+      "cnText": "+16% 闪电穿透"
+    },
+    {
+      "modifierId": "160416029",
+      "enText": "+16% Erosion Resistance Penetration",
+      "cnText": "+16% 腐蚀抗性穿透"
+    },
+    {
+      "modifierId": "160417029",
+      "enText": "+8% gear Attack Speed",
+      "cnText": "+8% 该装备攻击速度"
+    },
+    {
+      "modifierId": "160418029",
+      "enText": "+20% Attack Critical Strike Rating for this gear",
+      "cnText": "+20% 该装备攻击暴击值"
+    },
+    {
+      "modifierId": "160419029",
+      "enText": "+20% additional damage on Critical Strike",
+      "cnText": "暴击时，额外 +20% 伤害"
+    },
+    {
+      "modifierId": "160420029",
+      "enText": "+16% all stats",
+      "cnText": "+16% 全属性"
+    },
+    {
+      "modifierId": "160531029",
+      "enText": "Enemies have a 30% chance to explode when defeated by an Attack or Spell, dealing True Damage equal to 250% of their Max Life to enemies within a 6 m radius",
+      "cnText": "攻击或者法术击败敌人时 30% 几率爆炸，对半径 6 米内的敌人造成被击败的敌人最大生命 250% 的真实伤害"
+    },
+    {
+      "modifierId": "160532029",
+      "enText": "Adds 1 - 7 Lightning Damage to Attacks per 10 Dexterity",
+      "cnText": "每 10 点敏捷，攻击附加 1 - 7 点闪电伤害"
+    },
+    {
+      "modifierId": "160533029",
+      "enText": "Adds 3 - 5 Fire Damage to Attacks per 10 Strength",
+      "cnText": "每 10 点力量，攻击附加 3 - 5 点火焰伤害"
+    },
+    {
+      "modifierId": "160534029",
+      "enText": "Main Skill is supported by Lv. 25 Multiple Projectiles+25% additional Projectile Damage",
+      "cnText": "核心技能被 25 级的散射辅助额外 +25% 投射物伤害"
+    },
+    {
+      "modifierId": "160535029",
+      "enText": "Attack Horizontal Projectiles will return after reaching their max range and will hit enemies on their path again-30% additional Projectile Damage",
+      "cnText": "攻击直射投射物达到最大飞行距离后，会返回自身，并且可以再次击中路径上的敌人额外 -30% 投射物伤害"
+    },
+    {
+      "modifierId": "160536029",
+      "enText": "+200% Precise Projectiles Aura effect-30% additional Precise Projectiles Sealed Mana Compensation",
+      "cnText": "+200% 精准投射光环效果额外 -30% 精准投射魔力封印补偿"
+    },
+    {
+      "modifierId": "160537029",
+      "enText": "+80% Gear Physical Damage-20% Attack Critical Strike Rating for this gear",
+      "cnText": "+80% 该装备物理伤害-20% 该装备攻击暴击值"
+    },
+    {
+      "modifierId": "160538029",
+      "enText": "+30% additional Deterioration Damage10% chance to inflict 2 additional stack(s) of Deterioration",
+      "cnText": "额外 +30% 恶化伤害10% 几率额外造成 2 层恶化"
+    },
+    {
+      "modifierId": "160539029",
+      "enText": "+50% Gear Elemental Damage-25% Gear Physical Damage",
+      "cnText": "+50% 该装备元素伤害-25% 该装备物理伤害"
+    },
+    {
+      "modifierId": "51330311",
+      "enText": "+(100–130)% Gear Physical Damage",
+      "cnText": "+(100–130)% 该装备物理伤害"
+    },
+    {
+      "modifierId": "51330321",
+      "enText": "+(10–15)% gear Attack Speed",
+      "cnText": "+(10–15)% 该装备攻击速度"
+    },
+    {
+      "modifierId": "51330331",
+      "enText": "Restores 5% of Life on defeat",
+      "cnText": "击败时，回复 5% 生命"
+    },
+    {
+      "modifierId": "51330341",
+      "enText": "Loses (3–5) Life on hit",
+      "cnText": "击中时，失去 (3–5) 生命"
+    },
+    {
+      "modifierId": "51330351",
+      "enText": "+(60–70)% Projectile Damage",
+      "cnText": "+(60–70)% 投射物伤害"
+    },
+    {
+      "modifierId": "51330511",
+      "enText": "Adds (15–17) - (23–25) Physical Damage to the gear",
+      "cnText": "该装备附加 (15–17) - (23–25) 点物理伤害"
+    },
+    {
+      "modifierId": "51330521",
+      "enText": "+(10–15)% gear Attack Speed",
+      "cnText": "+(10–15)% 该装备攻击速度"
+    },
+    {
+      "modifierId": "51330531",
+      "enText": "Have Fervor",
+      "cnText": "拥有战意"
+    },
+    {
+      "modifierId": "51330541",
+      "enText": "+(3–4)% Projectile Damage for every point of Fervor Rating",
+      "cnText": "每点战意值，+(3–4)% 投射物伤害"
+    },
+    {
+      "modifierId": "51330611",
+      "enText": "+30% Gear Physical Damage",
+      "cnText": "+30% 该装备物理伤害"
+    },
+    {
+      "modifierId": "51330621",
+      "enText": "+(10–12)% Attack Critical Strike Rating for this gear",
+      "cnText": "+(10–12)% 该装备攻击暴击值"
+    },
+    {
+      "modifierId": "51330631",
+      "enText": "+(8–10)% gear Attack Speed",
+      "cnText": "+(8–10)% 该装备攻击速度"
+    },
+    {
+      "modifierId": "51330641",
+      "enText": "Adds 36% of Physical Damage as Lightning Damage when having at least 100000 Evasion",
+      "cnText": "至少拥有 100000 点闪避值时， 附加 36% 物理伤害的闪电伤害"
+    },
+    {
+      "modifierId": "51330651",
+      "enText": "+ 600 Critical Strike Rating when having at least 100000 Evasion",
+      "cnText": "至少拥有 100000 点闪避值时， 暴击值增加 600"
+    },
+    {
+      "modifierId": "510001",
+      "enText": "7 - 7 Physical Damage",
+      "cnText": "7 - 7 物理伤害"
+    },
+    {
+      "modifierId": "740000",
+      "enText": "500 Critical Strike Rating",
+      "cnText": "500 暴击值"
+    },
+    {
+      "modifierId": "740001",
+      "enText": "1.5 Attack Speed",
+      "cnText": "1.5 攻击速度"
+    },
+    {
+      "modifierId": "510002",
+      "enText": "8 - 8 Physical Damage",
+      "cnText": "8 - 8 物理伤害"
+    },
+    {
+      "modifierId": "510003",
+      "enText": "10 - 10 Physical Damage",
+      "cnText": "10 - 10 物理伤害"
+    },
+    {
+      "modifierId": "510004",
+      "enText": "12 - 12 Physical Damage",
+      "cnText": "12 - 12 物理伤害"
+    },
+    {
+      "modifierId": "510005",
+      "enText": "16 - 16 Physical Damage",
+      "cnText": "16 - 16 物理伤害"
+    },
+    {
+      "modifierId": "510006",
+      "enText": "20 - 20 Physical Damage",
+      "cnText": "20 - 20 物理伤害"
+    },
+    {
+      "modifierId": "510007",
+      "enText": "25 - 25 Physical Damage",
+      "cnText": "25 - 25 物理伤害"
+    },
+    {
+      "modifierId": "510008",
+      "enText": "31 - 31 Physical Damage",
+      "cnText": "31 - 31 物理伤害"
+    },
+    {
+      "modifierId": "510009",
+      "enText": "37 - 37 Physical Damage",
+      "cnText": "37 - 37 物理伤害"
+    },
+    {
+      "modifierId": "510010",
+      "enText": "43 - 43 Physical Damage",
+      "cnText": "43 - 43 物理伤害"
+    },
+    {
+      "modifierId": "510011",
+      "enText": "50 - 50 Physical Damage",
+      "cnText": "50 - 50 物理伤害"
+    },
+    {
+      "modifierId": "510012",
+      "enText": "60 - 60 Physical Damage",
+      "cnText": "60 - 60 物理伤害"
+    },
+    {
+      "modifierId": "510013",
+      "enText": "70 - 70 Physical Damage",
+      "cnText": "70 - 70 物理伤害"
+    },
+    {
+      "modifierId": "510014",
+      "enText": "90 - 90 Physical Damage",
+      "cnText": "90 - 90 物理伤害"
+    },
+    {
+      "modifierId": "510015",
+      "enText": "110 - 110 Physical Damage",
+      "cnText": "110 - 110 物理伤害"
+    },
+    {
+      "modifierId": "510016",
+      "enText": "135 - 135 Physical Damage",
+      "cnText": "135 - 135 物理伤害"
+    },
+    {
+      "modifierId": "510017",
+      "enText": "160 - 160 Physical Damage",
+      "cnText": "160 - 160 物理伤害"
+    },
+    {
+      "modifierId": "510018",
+      "enText": "175 - 175 Physical Damage",
+      "cnText": "175 - 175 物理伤害"
+    },
+    {
+      "modifierId": "510019",
+      "enText": "190 - 190 Physical Damage",
+      "cnText": "190 - 190 物理伤害"
+    },
+    {
+      "modifierId": "510020",
+      "enText": "220 - 220 Physical Damage",
+      "cnText": "220 - 220 物理伤害"
+    },
+    {
+      "modifierId": "51330510",
+      "enText": "Adds (35–38) - (42–45) Physical Damage to the gear",
+      "cnText": "该装备附加 (35–38) - (42–45) 点物理伤害"
+    },
+    {
+      "modifierId": "51330520",
+      "enText": "+(17–22)% gear Attack Speed",
+      "cnText": "+(17–22)% 该装备攻击速度"
+    },
+    {
+      "modifierId": "51330530",
+      "enText": "Have Fervor+(45–50)% Fervor effect",
+      "cnText": "拥有战意+(45–50)% 战意效果"
+    },
+    {
+      "modifierId": "51330540",
+      "enText": "+(5–6)% Projectile Damage for every point of Fervor Rating",
+      "cnText": "每点战意值，+(5–6)% 投射物伤害"
+    },
+    {
+      "modifierId": "51330310",
+      "enText": "+(150–200)% Gear Physical Damage",
+      "cnText": "+(150–200)% 该装备物理伤害"
+    },
+    {
+      "modifierId": "51330320",
+      "enText": "+(30–40)% gear Attack Speed",
+      "cnText": "+(30–40)% 该装备攻击速度"
+    },
+    {
+      "modifierId": "51330330",
+      "enText": "Restores 5% of Mana on defeat",
+      "cnText": "击败时，回复 5% 魔力"
+    },
+    {
+      "modifierId": "51330340",
+      "enText": "Loses (1–2) Life on hit",
+      "cnText": "击中时，失去 (1–2) 生命"
+    },
+    {
+      "modifierId": "51330350",
+      "enText": "+(90–110)% Projectile Damage",
+      "cnText": "+(90–110)% 投射物伤害"
+    },
+    {
+      "modifierId": "51330610",
+      "enText": "+45% Gear Physical Damage",
+      "cnText": "+45% 该装备物理伤害"
+    },
+    {
+      "modifierId": "51330620",
+      "enText": "+(15–20)% Attack Critical Strike Rating for this gear",
+      "cnText": "+(15–20)% 该装备攻击暴击值"
+    },
+    {
+      "modifierId": "51330630",
+      "enText": "+(12–15)% gear Attack Speed",
+      "cnText": "+(12–15)% 该装备攻击速度"
+    },
+    {
+      "modifierId": "51330640",
+      "enText": "Adds 46% of Physical Damage as Lightning Damage when having at least 100000 Evasion",
+      "cnText": "至少拥有 100000 点闪避值时， 附加 46% 物理伤害的闪电伤害"
+    },
+    {
+      "modifierId": "51330650",
+      "enText": "+ 700 Critical Strike Rating when having at least 100000 Evasion",
+      "cnText": "至少拥有 100000 点闪避值时， 暴击值增加 700"
+    },
+    {
+      "modifierId": "106290080",
+      "enText": "Adds (121–123) - (149–151) Physical Damage to the gear",
+      "cnText": "该装备附加 (121–123) - (149–151) 点物理伤害"
+    },
+    {
+      "modifierId": "106290000",
+      "enText": "Adds (93–95) - (113–115) Physical Damage to the gear",
+      "cnText": "该装备附加 (93–95) - (113–115) 点物理伤害"
+    },
+    {
+      "modifierId": "106290002",
+      "enText": "Adds (42–44) - (52–54) Physical Damage to the gear",
+      "cnText": "该装备附加 (42–44) - (52–54) 点物理伤害"
+    },
+    {
+      "modifierId": "106290003",
+      "enText": "Adds (28–30) - (34–36) Physical Damage to the gear",
+      "cnText": "该装备附加 (28–30) - (34–36) 点物理伤害"
+    },
+    {
+      "modifierId": "106290004",
+      "enText": "Adds (18–20) - (22–24) Physical Damage to the gear",
+      "cnText": "该装备附加 (18–20) - (22–24) 点物理伤害"
+    },
+    {
+      "modifierId": "106290005",
+      "enText": "Adds (6–8) - (8–10) Physical Damage to the gear",
+      "cnText": "该装备附加 (6–8) - (8–10) 点物理伤害"
+    },
+    {
+      "modifierId": "106290006",
+      "enText": "Adds (4–6) - (6–8) Physical Damage to the gear",
+      "cnText": "该装备附加 (4–6) - (6–8) 点物理伤害"
+    },
+    {
+      "modifierId": "106290007",
+      "enText": "Adds (2–3) - (4–6) Physical Damage to the gear",
+      "cnText": "该装备附加 (2–3) - (4–6) 点物理伤害"
+    },
+    {
+      "modifierId": "106290180",
+      "enText": "Adds (257–259) - (333–351) Fire Damage to the gear",
+      "cnText": "该装备附加 (257–259) - (333–351) 点火焰伤害"
+    },
+    {
+      "modifierId": "106290100",
+      "enText": "Adds (198–200) - (256–270) Fire Damage to the gear",
+      "cnText": "该装备附加 (198–200) - (256–270) 点火焰伤害"
+    },
+    {
+      "modifierId": "106290102",
+      "enText": "Adds (59–61) - (76–82) Fire Damage to the gear",
+      "cnText": "该装备附加 (59–61) - (76–82) 点火焰伤害"
+    },
+    {
+      "modifierId": "106290103",
+      "enText": "Adds (29–31) - (38–41) Fire Damage to the gear",
+      "cnText": "该装备附加 (29–31) - (38–41) 点火焰伤害"
+    },
+    {
+      "modifierId": "106290104",
+      "enText": "Adds (10–12) - (13–16) Fire Damage to the gear",
+      "cnText": "该装备附加 (10–12) - (13–16) 点火焰伤害"
+    },
+    {
+      "modifierId": "106290105",
+      "enText": "Adds (6–8) - (8–10) Fire Damage to the gear",
+      "cnText": "该装备附加 (6–8) - (8–10) 点火焰伤害"
+    },
+    {
+      "modifierId": "106290106",
+      "enText": "Adds (4–6) - (6–8) Fire Damage to the gear",
+      "cnText": "该装备附加 (4–6) - (6–8) 点火焰伤害"
+    },
+    {
+      "modifierId": "106290107",
+      "enText": "Adds (2–3) - (5–6) Fire Damage to the gear",
+      "cnText": "该装备附加 (2–3) - (5–6) 点火焰伤害"
+    },
+    {
+      "modifierId": "106290280",
+      "enText": "Adds (260–262) - (346–348) Cold Damage to the gear",
+      "cnText": "该装备附加 (260–262) - (346–348) 点冰冷伤害"
+    },
+    {
+      "modifierId": "106290200",
+      "enText": "Adds (200–202) - (266–268) Cold Damage to the gear",
+      "cnText": "该装备附加 (200–202) - (266–268) 点冰冷伤害"
+    },
+    {
+      "modifierId": "106290202",
+      "enText": "Adds (59–61) - (79–81) Cold Damage to the gear",
+      "cnText": "该装备附加 (59–61) - (79–81) 点冰冷伤害"
+    },
+    {
+      "modifierId": "106290203",
+      "enText": "Adds (29–31) - (39–41) Cold Damage to the gear",
+      "cnText": "该装备附加 (29–31) - (39–41) 点冰冷伤害"
+    },
+    {
+      "modifierId": "106290204",
+      "enText": "Adds (10–12) - (14–16) Cold Damage to the gear",
+      "cnText": "该装备附加 (10–12) - (14–16) 点冰冷伤害"
+    },
+    {
+      "modifierId": "106290205",
+      "enText": "Adds (6–8) - (8–10) Cold Damage to the gear",
+      "cnText": "该装备附加 (6–8) - (8–10) 点冰冷伤害"
+    },
+    {
+      "modifierId": "106290206",
+      "enText": "Adds (4–6) - (6–8) Cold Damage to the gear",
+      "cnText": "该装备附加 (4–6) - (6–8) 点冰冷伤害"
+    },
+    {
+      "modifierId": "106290207",
+      "enText": "Adds (2–4) - (4–6) Cold Damage to the gear",
+      "cnText": "该装备附加 (2–4) - (4–6) 点冰冷伤害"
+    },
+    {
+      "modifierId": "106290380",
+      "enText": "Adds (29–31) - (577–579) Lightning Damage to the gear",
+      "cnText": "该装备附加 (29–31) - (577–579) 点闪电伤害"
+    },
+    {
+      "modifierId": "106290300",
+      "enText": "Adds (22–24) - (444–446) Lightning Damage to the gear",
+      "cnText": "该装备附加 (22–24) - (444–446) 点闪电伤害"
+    },
+    {
+      "modifierId": "106290302",
+      "enText": "Adds (6–8) - (132–134) Lightning Damage to the gear",
+      "cnText": "该装备附加 (6–8) - (132–134) 点闪电伤害"
+    },
+    {
+      "modifierId": "106290303",
+      "enText": "Adds (3–5) - (66–68) Lightning Damage to the gear",
+      "cnText": "该装备附加 (3–5) - (66–68) 点闪电伤害"
+    },
+    {
+      "modifierId": "106290304",
+      "enText": "Adds (1–2) - (24–26) Lightning Damage to the gear",
+      "cnText": "该装备附加 (1–2) - (24–26) 点闪电伤害"
+    },
+    {
+      "modifierId": "106290305",
+      "enText": "Adds (1–2) - (14–16) Lightning Damage to the gear",
+      "cnText": "该装备附加 (1–2) - (14–16) 点闪电伤害"
+    },
+    {
+      "modifierId": "106290306",
+      "enText": "Adds (1–2) - (10–12) Lightning Damage to the gear",
+      "cnText": "该装备附加 (1–2) - (10–12) 点闪电伤害"
+    },
+    {
+      "modifierId": "106290307",
+      "enText": "Adds 1 - (7–9) Lightning Damage to the gear",
+      "cnText": "该装备附加 1 - (7–9) 点闪电伤害"
+    },
+    {
+      "modifierId": "106290480",
+      "enText": "Adds (279–281) - (327–329) Erosion Damage to the gear",
+      "cnText": "该装备附加 (279–281) - (327–329) 点腐蚀伤害"
+    },
+    {
+      "modifierId": "106290400",
+      "enText": "Adds (214–216) - (252–254) Erosion Damage to the gear",
+      "cnText": "该装备附加 (214–216) - (252–254) 点腐蚀伤害"
+    },
+    {
+      "modifierId": "106290402",
+      "enText": "Adds (63–65) - (75–77) Erosion Damage to the gear",
+      "cnText": "该装备附加 (63–65) - (75–77) 点腐蚀伤害"
+    },
+    {
+      "modifierId": "106290403",
+      "enText": "Adds (31–33) - (37–39) Erosion Damage to the gear",
+      "cnText": "该装备附加 (31–33) - (37–39) 点腐蚀伤害"
+    },
+    {
+      "modifierId": "106290404",
+      "enText": "Adds (11–13) - (13–15) Erosion Damage to the gear",
+      "cnText": "该装备附加 (11–13) - (13–15) 点腐蚀伤害"
+    },
+    {
+      "modifierId": "106290405",
+      "enText": "Adds (6–8) - (8–10) Erosion Damage to the gear",
+      "cnText": "该装备附加 (6–8) - (8–10) 点腐蚀伤害"
+    },
+    {
+      "modifierId": "106290406",
+      "enText": "Adds 5 - (5–7) Erosion Damage to the gear",
+      "cnText": "该装备附加 5 - (5–7) 点腐蚀伤害"
+    },
+    {
+      "modifierId": "106290407",
+      "enText": "Adds (2–3) - (4–6) Erosion Damage to the gear",
+      "cnText": "该装备附加 (2–3) - (4–6) 点腐蚀伤害"
+    },
+    {
+      "modifierId": "140290480",
+      "enText": "+(282–365)% Projectile Damage",
+      "cnText": "+(282–365)% 投射物伤害"
+    },
+    {
+      "modifierId": "140290400",
+      "enText": "+(197–281)% Projectile Damage",
+      "cnText": "+(197–281)% 投射物伤害"
+    },
+    {
+      "modifierId": "140290402",
+      "enText": "+(127–151)% Projectile Damage",
+      "cnText": "+(127–151)% 投射物伤害"
+    },
+    {
+      "modifierId": "140290403",
+      "enText": "+(91–108)% Projectile Damage",
+      "cnText": "+(91–108)% 投射物伤害"
+    },
+    {
+      "modifierId": "140290404",
+      "enText": "+(73–86)% Projectile Damage",
+      "cnText": "+(73–86)% 投射物伤害"
+    },
+    {
+      "modifierId": "140290405",
+      "enText": "+(58–69)% Projectile Damage",
+      "cnText": "+(58–69)% 投射物伤害"
+    },
+    {
+      "modifierId": "140290406",
+      "enText": "+(47–56)% Projectile Damage",
+      "cnText": "+(47–56)% 投射物伤害"
+    },
+    {
+      "modifierId": "140290407",
+      "enText": "+(36–43)% Projectile Damage",
+      "cnText": "+(36–43)% 投射物伤害"
+    },
+    {
+      "modifierId": "140291980",
+      "enText": "Adds 1620 - 3780 Base Trauma Damage",
+      "cnText": "附加 1620 - 3780 基础创伤伤害"
+    },
+    {
+      "modifierId": "140291900",
+      "enText": "Adds 1260 - 2940 Base Trauma Damage",
+      "cnText": "附加 1260 - 2940 基础创伤伤害"
+    },
+    {
+      "modifierId": "140291902",
+      "enText": "Adds 660 - 1540 Base Trauma Damage",
+      "cnText": "附加 660 - 1540 基础创伤伤害"
+    },
+    {
+      "modifierId": "140291903",
+      "enText": "Adds 480 - 1120 Base Trauma Damage",
+      "cnText": "附加 480 - 1120 基础创伤伤害"
+    },
+    {
+      "modifierId": "140291904",
+      "enText": "Adds 360 - 840 Base Trauma Damage",
+      "cnText": "附加 360 - 840 基础创伤伤害"
+    },
+    {
+      "modifierId": "140292180",
+      "enText": "Reaps (0.5–0.6) s of Trauma Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+      "cnText": "造成持续伤害时，收割 (0.5–0.6) 秒创伤伤害，该效果对同一目标有 1 秒回复时间"
+    },
+    {
+      "modifierId": "140292100",
+      "enText": "Reaps (0.37–0.48) s of Trauma Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+      "cnText": "造成持续伤害时，收割 (0.37–0.48) 秒创伤伤害，该效果对同一目标有 1 秒回复时间"
+    },
+    {
+      "modifierId": "140292102",
+      "enText": "Reaps (0.18–0.24) s of Trauma Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+      "cnText": "造成持续伤害时，收割 (0.18–0.24) 秒创伤伤害，该效果对同一目标有 1 秒回复时间"
+    },
+    {
+      "modifierId": "140292103",
+      "enText": "Reaps 0.16 s of Trauma Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+      "cnText": "造成持续伤害时，收割 0.16 秒创伤伤害，该效果对同一目标有 1 秒回复时间"
+    },
+    {
+      "modifierId": "140292104",
+      "enText": "Reaps 0.14 s of Trauma Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+      "cnText": "造成持续伤害时，收割 0.14 秒创伤伤害，该效果对同一目标有 1 秒回复时间"
+    },
+    {
+      "modifierId": "140292105",
+      "enText": "Reaps 0.12 s of Trauma Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+      "cnText": "造成持续伤害时，收割 0.12 秒创伤伤害，该效果对同一目标有 1 秒回复时间"
+    },
+    {
+      "modifierId": "140292106",
+      "enText": "Reaps 0.10 s of Trauma Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+      "cnText": "造成持续伤害时，收割 0.10 秒创伤伤害，该效果对同一目标有 1 秒回复时间"
+    },
+    {
+      "modifierId": "140292107",
+      "enText": "Reaps 0.08 s of Trauma Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+      "cnText": "造成持续伤害时，收割 0.08 秒创伤伤害，该效果对同一目标有 1 秒回复时间"
+    },
+    {
+      "modifierId": "107290080",
+      "enText": "+(105–136)% Gear Physical Damage",
+      "cnText": "+(105–136)% 该装备物理伤害"
+    },
+    {
+      "modifierId": "107290000",
+      "enText": "+(81–104)% Gear Physical Damage",
+      "cnText": "+(81–104)% 该装备物理伤害"
+    },
+    {
+      "modifierId": "107290002",
+      "enText": "+(33–48)% Gear Physical Damage",
+      "cnText": "+(33–48)% 该装备物理伤害"
+    },
+    {
+      "modifierId": "107290003",
+      "enText": "+(22–32)% Gear Physical Damage",
+      "cnText": "+(22–32)% 该装备物理伤害"
+    },
+    {
+      "modifierId": "107290004",
+      "enText": "+(9–21)% Gear Physical Damage",
+      "cnText": "+(9–21)% 该装备物理伤害"
+    },
+    {
+      "modifierId": "107290005",
+      "enText": "+(7–8)% Gear Physical Damage",
+      "cnText": "+(7–8)% 该装备物理伤害"
+    },
+    {
+      "modifierId": "107290006",
+      "enText": "+(5–6)% Gear Physical Damage",
+      "cnText": "+(5–6)% 该装备物理伤害"
+    },
+    {
+      "modifierId": "107290007",
+      "enText": "+4% Gear Physical Damage",
+      "cnText": "+4% 该装备物理伤害"
+    },
+    {
+      "modifierId": "109290080",
+      "enText": "+(235–304) Dexterity",
+      "cnText": "+(235–304) 敏捷"
+    },
+    {
+      "modifierId": "109290000",
+      "enText": "+(181–234) Dexterity",
+      "cnText": "+(181–234) 敏捷"
+    },
+    {
+      "modifierId": "109290002",
+      "enText": "+(91–126) Dexterity",
+      "cnText": "+(91–126) 敏捷"
+    },
+    {
+      "modifierId": "109290003",
+      "enText": "+(73–90) Dexterity",
+      "cnText": "+(73–90) 敏捷"
+    },
+    {
+      "modifierId": "109290004",
+      "enText": "+(59–72) Dexterity",
+      "cnText": "+(59–72) 敏捷"
+    },
+    {
+      "modifierId": "109290005",
+      "enText": "+(48–58) Dexterity",
+      "cnText": "+(48–58) 敏捷"
+    },
+    {
+      "modifierId": "109290006",
+      "enText": "+(37–47) Dexterity",
+      "cnText": "+(37–47) 敏捷"
+    },
+    {
+      "modifierId": "109290007",
+      "enText": "+(28–36) Dexterity",
+      "cnText": "+(28–36) 敏捷"
+    },
+    {
+      "modifierId": "109290180",
+      "enText": "+(235–304) Strength",
+      "cnText": "+(235–304) 力量"
+    },
+    {
+      "modifierId": "109290100",
+      "enText": "+(181–234) Strength",
+      "cnText": "+(181–234) 力量"
+    },
+    {
+      "modifierId": "109290102",
+      "enText": "+(91–126) Strength",
+      "cnText": "+(91–126) 力量"
+    },
+    {
+      "modifierId": "109290103",
+      "enText": "+(73–90) Strength",
+      "cnText": "+(73–90) 力量"
+    },
+    {
+      "modifierId": "109290104",
+      "enText": "+(59–72) Strength",
+      "cnText": "+(59–72) 力量"
+    },
+    {
+      "modifierId": "109290105",
+      "enText": "+(48–58) Strength",
+      "cnText": "+(48–58) 力量"
+    },
+    {
+      "modifierId": "109290106",
+      "enText": "+(37–47) Strength",
+      "cnText": "+(37–47) 力量"
+    },
+    {
+      "modifierId": "109290107",
+      "enText": "+(28–36) Strength",
+      "cnText": "+(28–36) 力量"
+    },
+    {
+      "modifierId": "109290380",
+      "enText": "+(235–304) Intelligence",
+      "cnText": "+(235–304) 智慧"
+    },
+    {
+      "modifierId": "109290300",
+      "enText": "+(181–234) Intelligence",
+      "cnText": "+(181–234) 智慧"
+    },
+    {
+      "modifierId": "109290302",
+      "enText": "+(91–126) Intelligence",
+      "cnText": "+(91–126) 智慧"
+    },
+    {
+      "modifierId": "109290303",
+      "enText": "+(73–90) Intelligence",
+      "cnText": "+(73–90) 智慧"
+    },
+    {
+      "modifierId": "109290304",
+      "enText": "+(59–72) Intelligence",
+      "cnText": "+(59–72) 智慧"
+    },
+    {
+      "modifierId": "109290305",
+      "enText": "+(48–58) Intelligence",
+      "cnText": "+(48–58) 智慧"
+    },
+    {
+      "modifierId": "109290306",
+      "enText": "+(37–47) Intelligence",
+      "cnText": "+(37–47) 智慧"
+    },
+    {
+      "modifierId": "109290307",
+      "enText": "+(28–36) Intelligence",
+      "cnText": "+(28–36) 智慧"
+    },
+    {
+      "modifierId": "140291780",
+      "enText": "+(60–76)% Attack and Spell Block Chance",
+      "cnText": "+(60–76)% 攻击与法术格挡率"
+    },
+    {
+      "modifierId": "140291700",
+      "enText": "+(46–59)% Attack and Spell Block Chance",
+      "cnText": "+(46–59)% 攻击与法术格挡率"
+    },
+    {
+      "modifierId": "115290580",
+      "enText": "+(66–85)% Armor DMG Mitigation Penetration",
+      "cnText": "+(66–85)% 护甲减伤穿透"
+    },
+    {
+      "modifierId": "115290500",
+      "enText": "+(51–64)% Armor DMG Mitigation Penetration",
+      "cnText": "+(51–64)% 护甲减伤穿透"
+    },
+    {
+      "modifierId": "115290502",
+      "enText": "+(30–35)% Armor DMG Mitigation Penetration",
+      "cnText": "+(30–35)% 护甲减伤穿透"
+    },
+    {
+      "modifierId": "115290503",
+      "enText": "+(22–25)% Armor DMG Mitigation Penetration",
+      "cnText": "+(22–25)% 护甲减伤穿透"
+    },
+    {
+      "modifierId": "115290504",
+      "enText": "+(17–20)% Armor DMG Mitigation Penetration",
+      "cnText": "+(17–20)% 护甲减伤穿透"
+    },
+    {
+      "modifierId": "140290980",
+      "enText": "+8 to Attack Skill Level",
+      "cnText": "+8 攻击技能等级"
+    },
+    {
+      "modifierId": "140290900",
+      "enText": "+7 to Attack Skill Level",
+      "cnText": "+7 攻击技能等级"
+    },
+    {
+      "modifierId": "140290902",
+      "enText": "+5 to Attack Skill Level",
+      "cnText": "+5 攻击技能等级"
+    },
+    {
+      "modifierId": "140291880",
+      "enText": "+(79–101)% Elemental and Erosion Resistance Penetration",
+      "cnText": "+(79–101)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "modifierId": "140291800",
+      "enText": "+(61–78)% Elemental and Erosion Resistance Penetration",
+      "cnText": "+(61–78)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "modifierId": "140291802",
+      "enText": "+(31–42)% Elemental and Erosion Resistance Penetration",
+      "cnText": "+(31–42)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "modifierId": "140291803",
+      "enText": "+(25–30)% Elemental and Erosion Resistance Penetration",
+      "cnText": "+(25–30)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "modifierId": "140291804",
+      "enText": "+(20–24)% Elemental and Erosion Resistance Penetration",
+      "cnText": "+(20–24)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "modifierId": "140291805",
+      "enText": "+(17–19)% Elemental and Erosion Resistance Penetration",
+      "cnText": "+(17–19)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "modifierId": "140291806",
+      "enText": "+(13–16)% Elemental and Erosion Resistance Penetration",
+      "cnText": "+(13–16)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "modifierId": "140291807",
+      "enText": "+(10–12)% Elemental and Erosion Resistance Penetration",
+      "cnText": "+(10–12)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "modifierId": "140292280",
+      "enText": "+(146–190)% Gear Physical DamageAdds (90–92) - (111–113) Physical Damage to the gear",
+      "cnText": "+(146–190)% 该装备物理伤害该装备附加 (90–92) - (111–113) 点物理伤害"
+    },
+    {
+      "modifierId": "140292200",
+      "enText": "+(111–145)% Gear Physical DamageAdds (69–71) - (85–87) Physical Damage to the gear",
+      "cnText": "+(111–145)% 该装备物理伤害该装备附加 (69–71) - (85–87) 点物理伤害"
+    },
+    {
+      "modifierId": "140292680",
+      "enText": "+(79–101)% additional Trauma Damage",
+      "cnText": "额外 +(79–101)% 创伤伤害"
+    },
+    {
+      "modifierId": "140292600",
+      "enText": "+(61–78)% additional Trauma Damage",
+      "cnText": "额外 +(61–78)% 创伤伤害"
+    },
+    {
+      "modifierId": "140292602",
+      "enText": "+(31–42)% additional Trauma Damage",
+      "cnText": "额外 +(31–42)% 创伤伤害"
+    },
+    {
+      "modifierId": "140292780",
+      "enText": "+(105–135)% Knockback distance+20% additional damage",
+      "cnText": "+(105–135)% 击退距离额外 +20% 伤害"
+    },
+    {
+      "modifierId": "140292700",
+      "enText": "+(81–104)% Knockback distance+14% additional damage",
+      "cnText": "+(81–104)% 击退距离额外 +14% 伤害"
+    },
+    {
+      "modifierId": "149292380",
+      "enText": "Adds (100–102) - (569–571) Elemental Damage to the gear-100% Gear Physical Damage",
+      "cnText": "该装备附加 (100–102) - (569–571) 点元素伤害-100% 该装备物理伤害"
+    },
+    {
+      "modifierId": "149292300",
+      "enText": "Adds (77–79) - (438–440) Elemental Damage to the gear-100% Gear Physical Damage",
+      "cnText": "该装备附加 (77–79) - (438–440) 点元素伤害-100% 该装备物理伤害"
+    },
+    {
+      "modifierId": "149292302",
+      "enText": "Adds (23–25) - (133–135) Elemental Damage to the gear-100% Gear Physical Damage",
+      "cnText": "该装备附加 (23–25) - (133–135) 点元素伤害-100% 该装备物理伤害"
+    },
+    {
+      "modifierId": "110290180",
+      "enText": "+(43–54)% gear Attack Speed",
+      "cnText": "+(43–54)% 该装备攻击速度"
+    },
+    {
+      "modifierId": "110290100",
+      "enText": "+(33–42)% gear Attack Speed",
+      "cnText": "+(33–42)% 该装备攻击速度"
+    },
+    {
+      "modifierId": "110290102",
+      "enText": "+(17–22)% gear Attack Speed",
+      "cnText": "+(17–22)% 该装备攻击速度"
+    },
+    {
+      "modifierId": "110290103",
+      "enText": "+(14–16)% gear Attack Speed",
+      "cnText": "+(14–16)% 该装备攻击速度"
+    },
+    {
+      "modifierId": "110290104",
+      "enText": "+(11–13)% gear Attack Speed",
+      "cnText": "+(11–13)% 该装备攻击速度"
+    },
+    {
+      "modifierId": "110290105",
+      "enText": "+(9–10)% gear Attack Speed",
+      "cnText": "+(9–10)% 该装备攻击速度"
+    },
+    {
+      "modifierId": "110290106",
+      "enText": "+(7–8)% gear Attack Speed",
+      "cnText": "+(7–8)% 该装备攻击速度"
+    },
+    {
+      "modifierId": "110290107",
+      "enText": "+6% gear Attack Speed",
+      "cnText": "+6% 该装备攻击速度"
+    },
+    {
+      "modifierId": "140291080",
+      "enText": "+(40–51)% Life Regain",
+      "cnText": "+(40–51)% 生命返还"
+    },
+    {
+      "modifierId": "140291000",
+      "enText": "+(31–39)% Life Regain",
+      "cnText": "+(31–39)% 生命返还"
+    },
+    {
+      "modifierId": "140291002",
+      "enText": "+(16–21)% Life Regain",
+      "cnText": "+(16–21)% 生命返还"
+    },
+    {
+      "modifierId": "140291003",
+      "enText": "+(13–15)% Life Regain",
+      "cnText": "+(13–15)% 生命返还"
+    },
+    {
+      "modifierId": "140291004",
+      "enText": "+(11–12)% Life Regain",
+      "cnText": "+(11–12)% 生命返还"
+    },
+    {
+      "modifierId": "140291005",
+      "enText": "+(9–10)% Life Regain",
+      "cnText": "+(9–10)% 生命返还"
+    },
+    {
+      "modifierId": "140291006",
+      "enText": "+(7–8)% Life Regain",
+      "cnText": "+(7–8)% 生命返还"
+    },
+    {
+      "modifierId": "140291007",
+      "enText": "+6% Life Regain",
+      "cnText": "+6% 生命返还"
+    },
+    {
+      "modifierId": "140291180",
+      "enText": "+(40–51)% Energy Shield Regain",
+      "cnText": "+(40–51)% 护盾返还"
+    },
+    {
+      "modifierId": "140291100",
+      "enText": "+(31–39)% Energy Shield Regain",
+      "cnText": "+(31–39)% 护盾返还"
+    },
+    {
+      "modifierId": "140291102",
+      "enText": "+(16–21)% Energy Shield Regain",
+      "cnText": "+(16–21)% 护盾返还"
+    },
+    {
+      "modifierId": "140291103",
+      "enText": "+(13–15)% Energy Shield Regain",
+      "cnText": "+(13–15)% 护盾返还"
+    },
+    {
+      "modifierId": "140291104",
+      "enText": "+(11–12)% Energy Shield Regain",
+      "cnText": "+(11–12)% 护盾返还"
+    },
+    {
+      "modifierId": "140291105",
+      "enText": "+(9–10)% Energy Shield Regain",
+      "cnText": "+(9–10)% 护盾返还"
+    },
+    {
+      "modifierId": "140291106",
+      "enText": "+(7–8)% Energy Shield Regain",
+      "cnText": "+(7–8)% 护盾返还"
+    },
+    {
+      "modifierId": "140291107",
+      "enText": "+6% Energy Shield Regain",
+      "cnText": "+6% 护盾返还"
+    },
+    {
+      "modifierId": "140291280",
+      "enText": "+(282–365)% Physical Damage",
+      "cnText": "+(282–365)% 物理伤害"
+    },
+    {
+      "modifierId": "140291200",
+      "enText": "+(217–281)% Physical Damage",
+      "cnText": "+(217–281)% 物理伤害"
+    },
+    {
+      "modifierId": "140291202",
+      "enText": "+(109–151)% Physical Damage",
+      "cnText": "+(109–151)% 物理伤害"
+    },
+    {
+      "modifierId": "140291203",
+      "enText": "+(87–108)% Physical Damage",
+      "cnText": "+(87–108)% 物理伤害"
+    },
+    {
+      "modifierId": "140291204",
+      "enText": "+(70–86)% Physical Damage",
+      "cnText": "+(70–86)% 物理伤害"
+    },
+    {
+      "modifierId": "140291205",
+      "enText": "+(57–69)% Physical Damage",
+      "cnText": "+(57–69)% 物理伤害"
+    },
+    {
+      "modifierId": "140291206",
+      "enText": "+(44–56)% Physical Damage",
+      "cnText": "+(44–56)% 物理伤害"
+    },
+    {
+      "modifierId": "140291207",
+      "enText": "+(33–43)% Physical Damage",
+      "cnText": "+(33–43)% 物理伤害"
+    },
+    {
+      "modifierId": "140291380",
+      "enText": "+(282–365)% Elemental Damage",
+      "cnText": "+(282–365)% 元素伤害"
+    },
+    {
+      "modifierId": "140291300",
+      "enText": "+(217–281)% Elemental Damage",
+      "cnText": "+(217–281)% 元素伤害"
+    },
+    {
+      "modifierId": "140291302",
+      "enText": "+(109–151)% Elemental Damage",
+      "cnText": "+(109–151)% 元素伤害"
+    },
+    {
+      "modifierId": "140291303",
+      "enText": "+(87–108)% Elemental Damage",
+      "cnText": "+(87–108)% 元素伤害"
+    },
+    {
+      "modifierId": "140291304",
+      "enText": "+(70–86)% Elemental Damage",
+      "cnText": "+(70–86)% 元素伤害"
+    },
+    {
+      "modifierId": "140291305",
+      "enText": "+(57–69)% Elemental Damage",
+      "cnText": "+(57–69)% 元素伤害"
+    },
+    {
+      "modifierId": "140291306",
+      "enText": "+(44–56)% Elemental Damage",
+      "cnText": "+(44–56)% 元素伤害"
+    },
+    {
+      "modifierId": "140291307",
+      "enText": "+(33–43)% Elemental Damage",
+      "cnText": "+(33–43)% 元素伤害"
+    },
+    {
+      "modifierId": "140291480",
+      "enText": "+(282–365)% Erosion Damage",
+      "cnText": "+(282–365)% 腐蚀伤害"
+    },
+    {
+      "modifierId": "140291400",
+      "enText": "+(217–281)% Erosion Damage",
+      "cnText": "+(217–281)% 腐蚀伤害"
+    },
+    {
+      "modifierId": "140291402",
+      "enText": "+(109–151)% Erosion Damage",
+      "cnText": "+(109–151)% 腐蚀伤害"
+    },
+    {
+      "modifierId": "140291403",
+      "enText": "+(87–108)% Erosion Damage",
+      "cnText": "+(87–108)% 腐蚀伤害"
+    },
+    {
+      "modifierId": "140291404",
+      "enText": "+(70–86)% Erosion Damage",
+      "cnText": "+(70–86)% 腐蚀伤害"
+    },
+    {
+      "modifierId": "140291405",
+      "enText": "+(57–69)% Erosion Damage",
+      "cnText": "+(57–69)% 腐蚀伤害"
+    },
+    {
+      "modifierId": "140291406",
+      "enText": "+(44–56)% Erosion Damage",
+      "cnText": "+(44–56)% 腐蚀伤害"
+    },
+    {
+      "modifierId": "140291407",
+      "enText": "+(33–43)% Erosion Damage",
+      "cnText": "+(33–43)% 腐蚀伤害"
+    },
+    {
+      "modifierId": "110290280",
+      "enText": "+(66–85)% Attack Critical Strike Rating for this gear",
+      "cnText": "+(66–85)% 该装备攻击暴击值"
+    },
+    {
+      "modifierId": "110290200",
+      "enText": "+(51–65)% Attack Critical Strike Rating for this gear",
+      "cnText": "+(51–65)% 该装备攻击暴击值"
+    },
+    {
+      "modifierId": "110290202",
+      "enText": "+(26–35)% Attack Critical Strike Rating for this gear",
+      "cnText": "+(26–35)% 该装备攻击暴击值"
+    },
+    {
+      "modifierId": "110290203",
+      "enText": "+(21–25)% Attack Critical Strike Rating for this gear",
+      "cnText": "+(21–25)% 该装备攻击暴击值"
+    },
+    {
+      "modifierId": "110290204",
+      "enText": "+(17–20)% Attack Critical Strike Rating for this gear",
+      "cnText": "+(17–20)% 该装备攻击暴击值"
+    },
+    {
+      "modifierId": "110290205",
+      "enText": "+(14–16)% Attack Critical Strike Rating for this gear",
+      "cnText": "+(14–16)% 该装备攻击暴击值"
+    },
+    {
+      "modifierId": "110290206",
+      "enText": "+(11–13)% Attack Critical Strike Rating for this gear",
+      "cnText": "+(11–13)% 该装备攻击暴击值"
+    },
+    {
+      "modifierId": "110290207",
+      "enText": "+(9–10)% Attack Critical Strike Rating for this gear",
+      "cnText": "+(9–10)% 该装备攻击暴击值"
+    },
+    {
+      "modifierId": "110290680",
+      "enText": "+(469–608)% Critical Strike Rating",
+      "cnText": "+(469–608)% 暴击值"
+    },
+    {
+      "modifierId": "110290600",
+      "enText": "+(328–468)% Critical Strike Rating",
+      "cnText": "+(328–468)% 暴击值"
+    },
+    {
+      "modifierId": "110290602",
+      "enText": "+(212–252)% Critical Strike Rating",
+      "cnText": "+(212–252)% 暴击值"
+    },
+    {
+      "modifierId": "110290603",
+      "enText": "+(151–180)% Critical Strike Rating",
+      "cnText": "+(151–180)% 暴击值"
+    },
+    {
+      "modifierId": "110290604",
+      "enText": "+(121–144)% Critical Strike Rating",
+      "cnText": "+(121–144)% 暴击值"
+    },
+    {
+      "modifierId": "110290605",
+      "enText": "+(96–115)% Critical Strike Rating",
+      "cnText": "+(96–115)% 暴击值"
+    },
+    {
+      "modifierId": "110290606",
+      "enText": "+(78–94)% Critical Strike Rating",
+      "cnText": "+(78–94)% 暴击值"
+    },
+    {
+      "modifierId": "110290780",
+      "enText": "+(95–122)% Attack and Cast Speed+(95–122)% Minion Attack and Cast Speed",
+      "cnText": "+(95–122)% 攻击与施法速度+(95–122)% 召唤物攻击与施法速度"
+    },
+    {
+      "modifierId": "110290700",
+      "enText": "+(66–94)% Attack and Cast Speed+(66–94)% Minion Attack and Cast Speed",
+      "cnText": "+(66–94)% 攻击与施法速度+(66–94)% 召唤物攻击与施法速度"
+    },
+    {
+      "modifierId": "110290702",
+      "enText": "+(43–50)% Attack and Cast Speed+(43–50)% Minion Attack and Cast Speed",
+      "cnText": "+(43–50)% 攻击与施法速度+(43–50)% 召唤物攻击与施法速度"
+    },
+    {
+      "modifierId": "110290703",
+      "enText": "+(31–36)% Attack and Cast Speed+(31–36)% Minion Attack and Cast Speed",
+      "cnText": "+(31–36)% 攻击与施法速度+(31–36)% 召唤物攻击与施法速度"
+    },
+    {
+      "modifierId": "111290480",
+      "enText": "+(235–304)% Critical Strike Damage",
+      "cnText": "+(235–304)% 暴击伤害"
+    },
+    {
+      "modifierId": "111290400",
+      "enText": "+(181–234)% Critical Strike Damage",
+      "cnText": "+(181–234)% 暴击伤害"
+    },
+    {
+      "modifierId": "111290402",
+      "enText": "+(91–126)% Critical Strike Damage",
+      "cnText": "+(91–126)% 暴击伤害"
+    },
+    {
+      "modifierId": "111290403",
+      "enText": "+(73–90)% Critical Strike Damage",
+      "cnText": "+(73–90)% 暴击伤害"
+    },
+    {
+      "modifierId": "111290404",
+      "enText": "+(59–72)% Critical Strike Damage",
+      "cnText": "+(59–72)% 暴击伤害"
+    },
+    {
+      "modifierId": "111290405",
+      "enText": "+(48–58)% Critical Strike Damage",
+      "cnText": "+(48–58)% 暴击伤害"
+    },
+    {
+      "modifierId": "111290406",
+      "enText": "+(37–47)% Critical Strike Damage",
+      "cnText": "+(37–47)% 暴击伤害"
+    },
+    {
+      "modifierId": "111290407",
+      "enText": "+(29–36)% Critical Strike Damage",
+      "cnText": "+(29–36)% 暴击伤害"
+    },
+    {
+      "modifierId": "140291580",
+      "enText": "+(196–254)% Affliction Effect",
+      "cnText": "+(196–254)% 加剧效果"
+    },
+    {
+      "modifierId": "140291500",
+      "enText": "+(151–195)% Affliction Effect",
+      "cnText": "+(151–195)% 加剧效果"
+    },
+    {
+      "modifierId": "140291502",
+      "enText": "+(76–105)% Affliction Effect",
+      "cnText": "+(76–105)% 加剧效果"
+    },
+    {
+      "modifierId": "140291503",
+      "enText": "+(61–75)% Affliction Effect",
+      "cnText": "+(61–75)% 加剧效果"
+    },
+    {
+      "modifierId": "140291504",
+      "enText": "+(49–60)% Affliction Effect",
+      "cnText": "+(49–60)% 加剧效果"
+    },
+    {
+      "modifierId": "140291505",
+      "enText": "+(40–48)% Affliction Effect",
+      "cnText": "+(40–48)% 加剧效果"
+    },
+    {
+      "modifierId": "140291506",
+      "enText": "+(31–39)% Affliction Effect",
+      "cnText": "+(31–39)% 加剧效果"
+    },
+    {
+      "modifierId": "140291507",
+      "enText": "+(24–30)% Affliction Effect",
+      "cnText": "+(24–30)% 加剧效果"
+    },
+    {
+      "modifierId": "140292380",
+      "enText": "+(150–180)% Focus Speed",
+      "cnText": "+(150–180)% 贯注速度"
+    },
+    {
+      "modifierId": "140292300",
+      "enText": "+(120–140)% Focus Speed",
+      "cnText": "+(120–140)% 贯注速度"
+    },
+    {
+      "modifierId": "140292302",
+      "enText": "+(60–80)% Focus Speed",
+      "cnText": "+(60–80)% 贯注速度"
+    },
+    {
+      "modifierId": "130290180",
+      "enText": "(79–101)% additional damage applied to Life",
+      "cnText": "对生命造成额外 (79–101)% 伤害"
+    },
+    {
+      "modifierId": "130290100",
+      "enText": "(61–78)% additional damage applied to Life",
+      "cnText": "对生命造成额外 (61–78)% 伤害"
+    },
+    {
+      "modifierId": "130290102",
+      "enText": "(31–42)% additional damage applied to Life",
+      "cnText": "对生命造成额外 (31–42)% 伤害"
+    },
+    {
+      "modifierId": "140292480",
+      "enText": "+(130–160)% Focus Damage Enhancement",
+      "cnText": "+(130–160)% 贯注伤害加深"
+    },
+    {
+      "modifierId": "140292400",
+      "enText": "+(96–120)% Focus Damage Enhancement",
+      "cnText": "+(96–120)% 贯注伤害加深"
+    },
+    {
+      "modifierId": "140292402",
+      "enText": "+(40–60)% Focus Damage Enhancement",
+      "cnText": "+(40–60)% 贯注伤害加深"
+    },
+    {
+      "modifierId": "140292880",
+      "enText": "+(150–170)% Ailment Damage Enhancement",
+      "cnText": "+(150–170)% 异常伤害加深"
+    },
+    {
+      "modifierId": "140292800",
+      "enText": "+(110–130)% Ailment Damage Enhancement",
+      "cnText": "+(110–130)% 异常伤害加深"
+    },
+    {
+      "modifierId": "140292802",
+      "enText": "+(60–70)% Ailment Damage Enhancement",
+      "cnText": "+(60–70)% 异常伤害加深"
+    }
+  ]
+}

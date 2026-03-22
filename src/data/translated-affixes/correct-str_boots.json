@@ -1,0 +1,333 @@
+{
+  "equipmentType": "STR_Boots",
+  "baseGears": [
+    {
+      "enName": "Dragon Scale Shoes",
+      "cnName": "龙鳞轻履"
+    },
+    {
+      "enName": "Dragon Scale Shoes",
+      "cnName": "龙鳞轻履"
+    },
+    {
+      "enName": "Dragon Scale Shoes",
+      "cnName": "龙鳞轻履"
+    },
+    {
+      "enName": "Dragon Scale Shoes",
+      "cnName": "龙鳞轻履"
+    },
+    {
+      "enName": "Boots of Sinned Fire",
+      "cnName": "罪火之足"
+    },
+    {
+      "enName": "Boots of Sinned Fire",
+      "cnName": "罪火之足"
+    },
+    {
+      "enName": "Boots of Sinned Fire",
+      "cnName": "罪火之足"
+    },
+    {
+      "enName": "Boots of Sinned Fire",
+      "cnName": "罪火之足"
+    },
+    {
+      "enName": "Resolution Steps",
+      "cnName": "坚定步伐"
+    },
+    {
+      "enName": "Resolution Steps",
+      "cnName": "坚定步伐"
+    },
+    {
+      "enName": "Resolution Steps",
+      "cnName": "坚定步伐"
+    },
+    {
+      "enName": "Resolution Steps",
+      "cnName": "坚定步伐"
+    },
+    {
+      "enName": "Resolution Steps",
+      "cnName": "坚定步伐"
+    },
+    {
+      "enName": "Final Bastion",
+      "cnName": "最后壁垒"
+    },
+    {
+      "enName": "Final Bastion",
+      "cnName": "最后壁垒"
+    },
+    {
+      "enName": "Final Bastion",
+      "cnName": "最后壁垒"
+    },
+    {
+      "enName": "Final Bastion",
+      "cnName": "最后壁垒"
+    },
+    {
+      "enName": "Final Bastion",
+      "cnName": "最后壁垒"
+    },
+    {
+      "enName": "Final Bastion",
+      "cnName": "最后壁垒"
+    },
+    {
+      "enName": "Mind Infusion",
+      "cnName": "心灵灌注"
+    },
+    {
+      "enName": "Mind Infusion",
+      "cnName": "心灵灌注"
+    },
+    {
+      "enName": "Mind Infusion",
+      "cnName": "心灵灌注"
+    },
+    {
+      "enName": "Mind Infusion",
+      "cnName": "心灵灌注"
+    },
+    {
+      "enName": "Mind Infusion",
+      "cnName": "心灵灌注"
+    },
+    {
+      "enName": "Fire Shielding Prosthetics",
+      "cnName": "避火义肢"
+    },
+    {
+      "enName": "Fire Shielding Prosthetics",
+      "cnName": "避火义肢"
+    },
+    {
+      "enName": "Fire Shielding Prosthetics",
+      "cnName": "避火义肢"
+    },
+    {
+      "enName": "Fire Shielding Prosthetics",
+      "cnName": "避火义肢"
+    },
+    {
+      "enName": "Fire Shielding Prosthetics",
+      "cnName": "避火义肢"
+    },
+    {
+      "enName": "Boots of Devastation",
+      "cnName": "破壁战履"
+    },
+    {
+      "enName": "Boots of Devastation",
+      "cnName": "破壁战履"
+    },
+    {
+      "enName": "Boots of Devastation",
+      "cnName": "破壁战履"
+    },
+    {
+      "enName": "Boots of Devastation",
+      "cnName": "破壁战履"
+    },
+    {
+      "enName": "Fire Lord%27s Pyric Stride",
+      "cnName": "炎魔的焚步"
+    },
+    {
+      "enName": "Fire Lord%27s Pyric Stride",
+      "cnName": "炎魔的焚步"
+    },
+    {
+      "enName": "Fire Lord%27s Pyric Stride",
+      "cnName": "炎魔的焚步"
+    },
+    {
+      "enName": "Fire Lord%27s Pyric Stride",
+      "cnName": "炎魔的焚步"
+    },
+    {
+      "enName": "Fire Lord%27s Pyric Stride",
+      "cnName": "炎魔的焚步"
+    },
+    {
+      "enName": "Brute%27s Greaves",
+      "cnName": "蛮兵护胫"
+    },
+    {
+      "enName": "Footman%27s Boots",
+      "cnName": "方阵兵之靴"
+    },
+    {
+      "enName": "Paladin%27s Iron Greaves",
+      "cnName": "圣战者铁护胫"
+    },
+    {
+      "enName": "Berserker%27s Footguards",
+      "cnName": "狂战士护足"
+    },
+    {
+      "enName": "Iron Sentry%27s Feet",
+      "cnName": "铁卫之足"
+    },
+    {
+      "enName": "Packleader Greaves",
+      "cnName": "头狼护胫"
+    },
+    {
+      "enName": "Mountain Lord%27s Feet",
+      "cnName": "高山领主之足"
+    },
+    {
+      "enName": "Divine Arbiter%27s Feet",
+      "cnName": "神圣仲裁者之足"
+    },
+    {
+      "enName": "Dragon Guardian%27s Footguards",
+      "cnName": "龙圣卫护足"
+    },
+    {
+      "enName": "Fallen Knight%27s Footguards",
+      "cnName": "堕落骑士护足"
+    },
+    {
+      "enName": "Old King%27s Sabatons",
+      "cnName": "旧日王者的铁靴"
+    },
+    {
+      "enName": "Ranger%27s Dirty Boots",
+      "cnName": "游侠的脏污马靴"
+    },
+    {
+      "enName": "Dragon Scale Shoes",
+      "cnName": "龙鳞轻履"
+    },
+    {
+      "enName": "Fire Shielding Prosthetics",
+      "cnName": "避火义肢"
+    },
+    {
+      "enName": "Boots of Sinned Fire",
+      "cnName": "罪火之足"
+    },
+    {
+      "enName": "Resolution Steps",
+      "cnName": "坚定步伐"
+    },
+    {
+      "enName": "Final Bastion",
+      "cnName": "最后壁垒"
+    },
+    {
+      "enName": "Mind Infusion",
+      "cnName": "心灵灌注"
+    },
+    {
+      "enName": "Boots of Devastation",
+      "cnName": "破壁战履"
+    },
+    {
+      "enName": "Fire Lord%27s Pyric Stride",
+      "cnName": "炎魔的焚步"
+    },
+    {
+      "enName": "Dragon Scale Shoes",
+      "cnName": "龙鳞轻履"
+    },
+    {
+      "enName": "Fire Shielding Prosthetics",
+      "cnName": "避火义肢"
+    },
+    {
+      "enName": "Boots of Sinned Fire",
+      "cnName": "罪火之足"
+    },
+    {
+      "enName": "Resolution Steps",
+      "cnName": "坚定步伐"
+    },
+    {
+      "enName": "Final Bastion",
+      "cnName": "最后壁垒"
+    },
+    {
+      "enName": "Mind Infusion",
+      "cnName": "心灵灌注"
+    },
+    {
+      "enName": "Boots of Devastation",
+      "cnName": "破壁战履"
+    },
+    {
+      "enName": "Fire Lord%27s Pyric Stride",
+      "cnName": "炎魔的焚步"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    }
+  ]
+}

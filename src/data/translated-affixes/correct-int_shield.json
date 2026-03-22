@@ -1,0 +1,197 @@
+{
+  "equipmentType": "INT_Shield",
+  "baseGears": [
+    {
+      "enName": "Arcane Shield",
+      "cnName": "奥术秘能之盾"
+    },
+    {
+      "enName": "Arcane Shield",
+      "cnName": "奥术秘能之盾"
+    },
+    {
+      "enName": "Arcane Shield",
+      "cnName": "奥术秘能之盾"
+    },
+    {
+      "enName": "Arcane Shield",
+      "cnName": "奥术秘能之盾"
+    },
+    {
+      "enName": "Arcane Shield",
+      "cnName": "奥术秘能之盾"
+    },
+    {
+      "enName": "Glacier Caster Shield",
+      "cnName": "冰川魔盾"
+    },
+    {
+      "enName": "Glacier Caster Shield",
+      "cnName": "冰川魔盾"
+    },
+    {
+      "enName": "Glacier Caster Shield",
+      "cnName": "冰川魔盾"
+    },
+    {
+      "enName": "Glacier Caster Shield",
+      "cnName": "冰川魔盾"
+    },
+    {
+      "enName": "The Coward%27s Counterfire",
+      "cnName": "怯懦者的反击"
+    },
+    {
+      "enName": "The Coward%27s Counterfire",
+      "cnName": "怯懦者的反击"
+    },
+    {
+      "enName": "The Coward%27s Counterfire",
+      "cnName": "怯懦者的反击"
+    },
+    {
+      "enName": "The Coward%27s Counterfire",
+      "cnName": "怯懦者的反击"
+    },
+    {
+      "enName": "The Coward%27s Counterfire",
+      "cnName": "怯懦者的反击"
+    },
+    {
+      "enName": "Aspiration Magic Shield",
+      "cnName": "初心法盾"
+    },
+    {
+      "enName": "Voodoo Caster Shield",
+      "cnName": "巫灵魔盾"
+    },
+    {
+      "enName": "Bard%27s Square Shield",
+      "cnName": "吟游方盾"
+    },
+    {
+      "enName": "Freedom Square Shield",
+      "cnName": "自由方盾"
+    },
+    {
+      "enName": "Nature Caster Shield",
+      "cnName": "生灵魔盾"
+    },
+    {
+      "enName": "Abyssal Square Shield",
+      "cnName": "深渊方盾"
+    },
+    {
+      "enName": "Blizzard Square Shield",
+      "cnName": "风雪方盾"
+    },
+    {
+      "enName": "Sage%27s Caster Shield",
+      "cnName": "贤者魔盾"
+    },
+    {
+      "enName": "Spirit Lord%27s Caster Shield",
+      "cnName": "灵主魔盾"
+    },
+    {
+      "enName": "Twilight Square Shield",
+      "cnName": "暮色方盾"
+    },
+    {
+      "enName": "Fraudster Magic Shield",
+      "cnName": "欺诈师法盾"
+    },
+    {
+      "enName": "Ninth Apostle%27s Magic Shield",
+      "cnName": "第九使徒的法盾"
+    },
+    {
+      "enName": "Arcane Shield",
+      "cnName": "奥术秘能之盾"
+    },
+    {
+      "enName": "Glacier Caster Shield",
+      "cnName": "冰川魔盾"
+    },
+    {
+      "enName": "The Coward%27s Counterfire",
+      "cnName": "怯懦者的反击"
+    },
+    {
+      "enName": "Arcane Shield",
+      "cnName": "奥术秘能之盾"
+    },
+    {
+      "enName": "Glacier Caster Shield",
+      "cnName": "冰川魔盾"
+    },
+    {
+      "enName": "The Coward%27s Counterfire",
+      "cnName": "怯懦者的反击"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    }
+  ]
+}

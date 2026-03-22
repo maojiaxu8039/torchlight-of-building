@@ -1,3 +1,5 @@
+import { getTranslatedAffixText } from "@/src/lib/affix-translator";
+
 import { TooltipContent, TooltipTitle } from "@/src/components/ui/Tooltip";
 import { i18n } from "@/src/lib/i18n";
 import type { BaseSkill } from "@/src/data/skill/types";
@@ -102,7 +104,7 @@ export const SupportSkillSelectedTooltipContent: React.FC<
                 key={i}
                 className={i > 0 ? "mt-1 pt-1 border-t border-zinc-800" : ""}
               >
-                <div className="text-xs text-zinc-400">{affix.text}</div>
+                <div className="text-xs text-zinc-400">{getTranslatedAffixText(affix.text)}</div>
                 {!isImplemented && (
                   <div className="text-xs text-red-500">
                     (Mod not supported in TOB yet)

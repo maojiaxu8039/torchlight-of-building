@@ -1,0 +1,229 @@
+{
+  "equipmentType": "Crossbow",
+  "baseGears": [
+    {
+      "enName": "Plain Echo",
+      "cnName": "原野回响"
+    },
+    {
+      "enName": "Plain Echo",
+      "cnName": "原野回响"
+    },
+    {
+      "enName": "Plain Echo",
+      "cnName": "原野回响"
+    },
+    {
+      "enName": "Plain Echo",
+      "cnName": "原野回响"
+    },
+    {
+      "enName": "Plain Echo",
+      "cnName": "原野回响"
+    },
+    {
+      "enName": "Ralph%27s Ambition",
+      "cnName": "雷尔夫的野心"
+    },
+    {
+      "enName": "Ralph%27s Ambition",
+      "cnName": "雷尔夫的野心"
+    },
+    {
+      "enName": "Ralph%27s Ambition",
+      "cnName": "雷尔夫的野心"
+    },
+    {
+      "enName": "Ralph%27s Ambition",
+      "cnName": "雷尔夫的野心"
+    },
+    {
+      "enName": "Dumb Voice",
+      "cnName": "喑哑"
+    },
+    {
+      "enName": "Dumb Voice",
+      "cnName": "喑哑"
+    },
+    {
+      "enName": "Dumb Voice",
+      "cnName": "喑哑"
+    },
+    {
+      "enName": "Dumb Voice",
+      "cnName": "喑哑"
+    },
+    {
+      "enName": "Dumb Voice",
+      "cnName": "喑哑"
+    },
+    {
+      "enName": "Woodvine Light Crossbow",
+      "cnName": "藤木轻弩"
+    },
+    {
+      "enName": "Rambone Short Crossbow",
+      "cnName": "羊骨短弩"
+    },
+    {
+      "enName": "Darkwoods Long Crossbow",
+      "cnName": "黑木长弩"
+    },
+    {
+      "enName": "Bronze Short Crossbow",
+      "cnName": "青铜短弩"
+    },
+    {
+      "enName": "Soldier%27s Light Crossbow",
+      "cnName": "士兵轻弩"
+    },
+    {
+      "enName": "Black Iron Crossbow",
+      "cnName": "黑铁重弩"
+    },
+    {
+      "enName": "Elven Hunting Crossbow",
+      "cnName": "精灵猎弩"
+    },
+    {
+      "enName": "Beastfang Light Crossbow",
+      "cnName": "兽牙轻弩"
+    },
+    {
+      "enName": "Jungle Hunting Bow",
+      "cnName": "密林猎弩"
+    },
+    {
+      "enName": "Segar Hunting Crossbow",
+      "cnName": "赛迦猎弩"
+    },
+    {
+      "enName": "Muddy Long Crossbow",
+      "cnName": "污泥长弩"
+    },
+    {
+      "enName": "Cursed War Crossbow",
+      "cnName": "诅咒战弩"
+    },
+    {
+      "enName": "Conflict Crossbow",
+      "cnName": "战争之弩"
+    },
+    {
+      "enName": "Blue Sea War Crossbow",
+      "cnName": "蓝海战弩"
+    },
+    {
+      "enName": "Icy War Crossbow",
+      "cnName": "寒冰战弩"
+    },
+    {
+      "enName": "Scarlet Crossbow",
+      "cnName": "猩红之弩"
+    },
+    {
+      "enName": "Flowing Blaze Crossbow",
+      "cnName": "流火之弩"
+    },
+    {
+      "enName": "Red Pegasus War Crossbow",
+      "cnName": "红飞马战弩"
+    },
+    {
+      "enName": "Black Pass Hunting Crossbow",
+      "cnName": "黑隘口猎弩"
+    },
+    {
+      "enName": "War Ranger%27s Crossbow",
+      "cnName": "战场游侠之弩"
+    },
+    {
+      "enName": "Ralph%27s Ambition",
+      "cnName": "雷尔夫的野心"
+    },
+    {
+      "enName": "Plain Echo",
+      "cnName": "原野回响"
+    },
+    {
+      "enName": "Dumb Voice",
+      "cnName": "喑哑"
+    },
+    {
+      "enName": "Ralph%27s Ambition",
+      "cnName": "雷尔夫的野心"
+    },
+    {
+      "enName": "Plain Echo",
+      "cnName": "原野回响"
+    },
+    {
+      "enName": "Dumb Voice",
+      "cnName": "喑哑"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Shallow Dream Talking - Weapon",
+      "cnName": "浅白梦语-武器"
+    },
+    {
+      "enName": "Shallow Dream Talking - Weapon",
+      "cnName": "浅白梦语-武器"
+    },
+    {
+      "enName": "Shallow Dream Talking - Weapon",
+      "cnName": "浅白梦语-武器"
+    },
+    {
+      "enName": "Shallow Dream Talking - Weapon",
+      "cnName": "浅白梦语-武器"
+    },
+    {
+      "enName": "Shallow Dream Talking - Weapon",
+      "cnName": "浅白梦语-武器"
+    },
+    {
+      "enName": "Shallow Dream Talking - Weapon",
+      "cnName": "浅白梦语-武器"
+    }
+  ]
+}

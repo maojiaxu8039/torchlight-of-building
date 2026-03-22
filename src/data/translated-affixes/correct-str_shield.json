@@ -1,0 +1,237 @@
+{
+  "equipmentType": "STR_Shield",
+  "baseGears": [
+    {
+      "enName": "Shield of Judgment",
+      "cnName": "裁决之盾"
+    },
+    {
+      "enName": "Shield of Judgment",
+      "cnName": "裁决之盾"
+    },
+    {
+      "enName": "Shield of Judgment",
+      "cnName": "裁决之盾"
+    },
+    {
+      "enName": "Shield of Judgment",
+      "cnName": "裁决之盾"
+    },
+    {
+      "enName": "Shield of Judgment",
+      "cnName": "裁决之盾"
+    },
+    {
+      "enName": "Last Stand",
+      "cnName": "背水一战"
+    },
+    {
+      "enName": "Last Stand",
+      "cnName": "背水一战"
+    },
+    {
+      "enName": "Last Stand",
+      "cnName": "背水一战"
+    },
+    {
+      "enName": "Last Stand",
+      "cnName": "背水一战"
+    },
+    {
+      "enName": "Last Stand",
+      "cnName": "背水一战"
+    },
+    {
+      "enName": "Heavy Soul",
+      "cnName": "沉重灵魂"
+    },
+    {
+      "enName": "Heavy Soul",
+      "cnName": "沉重灵魂"
+    },
+    {
+      "enName": "Heavy Soul",
+      "cnName": "沉重灵魂"
+    },
+    {
+      "enName": "Heavy Soul",
+      "cnName": "沉重灵魂"
+    },
+    {
+      "enName": "Heavy Soul",
+      "cnName": "沉重灵魂"
+    },
+    {
+      "enName": "Heavy Soul",
+      "cnName": "沉重灵魂"
+    },
+    {
+      "enName": "Cover the Sun",
+      "cnName": "蔽日"
+    },
+    {
+      "enName": "Cover the Sun",
+      "cnName": "蔽日"
+    },
+    {
+      "enName": "Cover the Sun",
+      "cnName": "蔽日"
+    },
+    {
+      "enName": "Cover the Sun",
+      "cnName": "蔽日"
+    },
+    {
+      "enName": "Cover the Sun",
+      "cnName": "蔽日"
+    },
+    {
+      "enName": "Cover the Sun",
+      "cnName": "蔽日"
+    },
+    {
+      "enName": "Aspiration Tower Shield",
+      "cnName": "初心巨盾"
+    },
+    {
+      "enName": "Starmetal Kite Shield",
+      "cnName": "星铁重盾"
+    },
+    {
+      "enName": "Griffin Tower Shield",
+      "cnName": "狮鹫巨盾"
+    },
+    {
+      "enName": "Crimson Kite Shield",
+      "cnName": "绯红重盾"
+    },
+    {
+      "enName": "Callous Kite Shield",
+      "cnName": "残酷重盾"
+    },
+    {
+      "enName": "Falling Star Tower Shield",
+      "cnName": "陨星巨盾"
+    },
+    {
+      "enName": "Warlord%27s Kite Shield",
+      "cnName": "督军重盾"
+    },
+    {
+      "enName": "Vindicator%27s Tower Shield",
+      "cnName": "裁决巨盾"
+    },
+    {
+      "enName": "Monarch%27s Kite Shield",
+      "cnName": "君主重盾"
+    },
+    {
+      "enName": "Glory Kite Shield",
+      "cnName": "荣耀重盾"
+    },
+    {
+      "enName": "Red Pegasus Kite Shield",
+      "cnName": "红飞马重盾"
+    },
+    {
+      "enName": "Future Warrior%27s Kite Shield",
+      "cnName": "末路战士的重盾"
+    },
+    {
+      "enName": "Shield of Judgment",
+      "cnName": "裁决之盾"
+    },
+    {
+      "enName": "Last Stand",
+      "cnName": "背水一战"
+    },
+    {
+      "enName": "Cover the Sun",
+      "cnName": "蔽日"
+    },
+    {
+      "enName": "Heavy Soul",
+      "cnName": "沉重灵魂"
+    },
+    {
+      "enName": "Shield of Judgment",
+      "cnName": "裁决之盾"
+    },
+    {
+      "enName": "Last Stand",
+      "cnName": "背水一战"
+    },
+    {
+      "enName": "Cover the Sun",
+      "cnName": "蔽日"
+    },
+    {
+      "enName": "Heavy Soul",
+      "cnName": "沉重灵魂"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    }
+  ]
+}

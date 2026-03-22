@@ -1,0 +1,453 @@
+{
+  "equipmentType": "STR_Helmet",
+  "baseGears": [
+    {
+      "enName": "Rock Lizard%27s Skull",
+      "cnName": "岩石巨蜥之颅"
+    },
+    {
+      "enName": "Rock Lizard%27s Skull",
+      "cnName": "岩石巨蜥之颅"
+    },
+    {
+      "enName": "Rock Lizard%27s Skull",
+      "cnName": "岩石巨蜥之颅"
+    },
+    {
+      "enName": "Rock Lizard%27s Skull",
+      "cnName": "岩石巨蜥之颅"
+    },
+    {
+      "enName": "Last Words of Chaos",
+      "cnName": "混沌遗言"
+    },
+    {
+      "enName": "Last Words of Chaos",
+      "cnName": "混沌遗言"
+    },
+    {
+      "enName": "Last Words of Chaos",
+      "cnName": "混沌遗言"
+    },
+    {
+      "enName": "Last Words of Chaos",
+      "cnName": "混沌遗言"
+    },
+    {
+      "enName": "Last Words of Chaos",
+      "cnName": "混沌遗言"
+    },
+    {
+      "enName": "Last Words of Chaos",
+      "cnName": "混沌遗言"
+    },
+    {
+      "enName": "Scarlet Decree",
+      "cnName": "猩红敕令"
+    },
+    {
+      "enName": "Scarlet Decree",
+      "cnName": "猩红敕令"
+    },
+    {
+      "enName": "Scarlet Decree",
+      "cnName": "猩红敕令"
+    },
+    {
+      "enName": "Scarlet Decree",
+      "cnName": "猩红敕令"
+    },
+    {
+      "enName": "Awakening Skull",
+      "cnName": "苏醒头颅"
+    },
+    {
+      "enName": "Awakening Skull",
+      "cnName": "苏醒头颅"
+    },
+    {
+      "enName": "Awakening Skull",
+      "cnName": "苏醒头颅"
+    },
+    {
+      "enName": "Awakening Skull",
+      "cnName": "苏醒头颅"
+    },
+    {
+      "enName": "Awakening Skull",
+      "cnName": "苏醒头颅"
+    },
+    {
+      "enName": "Tide of the Styx",
+      "cnName": "冥河潮汐"
+    },
+    {
+      "enName": "Tide of the Styx",
+      "cnName": "冥河潮汐"
+    },
+    {
+      "enName": "Tide of the Styx",
+      "cnName": "冥河潮汐"
+    },
+    {
+      "enName": "Tide of the Styx",
+      "cnName": "冥河潮汐"
+    },
+    {
+      "enName": "Tide of the Styx",
+      "cnName": "冥河潮汐"
+    },
+    {
+      "enName": "Tide of the Styx",
+      "cnName": "冥河潮汐"
+    },
+    {
+      "enName": "Sun%27s Embrace",
+      "cnName": "烈阳之拥"
+    },
+    {
+      "enName": "Sun%27s Embrace",
+      "cnName": "烈阳之拥"
+    },
+    {
+      "enName": "Sun%27s Embrace",
+      "cnName": "烈阳之拥"
+    },
+    {
+      "enName": "Sun%27s Embrace",
+      "cnName": "烈阳之拥"
+    },
+    {
+      "enName": "Fool%27s Crown",
+      "cnName": "愚人的帝冕"
+    },
+    {
+      "enName": "Fool%27s Crown",
+      "cnName": "愚人的帝冕"
+    },
+    {
+      "enName": "Fool%27s Crown",
+      "cnName": "愚人的帝冕"
+    },
+    {
+      "enName": "Fool%27s Crown",
+      "cnName": "愚人的帝冕"
+    },
+    {
+      "enName": "Fool%27s Crown",
+      "cnName": "愚人的帝冕"
+    },
+    {
+      "enName": "Divine Ember",
+      "cnName": "神躯燃烬"
+    },
+    {
+      "enName": "Divine Ember",
+      "cnName": "神躯燃烬"
+    },
+    {
+      "enName": "Divine Ember",
+      "cnName": "神躯燃烬"
+    },
+    {
+      "enName": "Divine Ember",
+      "cnName": "神躯燃烬"
+    },
+    {
+      "enName": "Boor%27s Iron Crown",
+      "cnName": "莽夫的铁冠"
+    },
+    {
+      "enName": "Boor%27s Iron Crown",
+      "cnName": "莽夫的铁冠"
+    },
+    {
+      "enName": "Boor%27s Iron Crown",
+      "cnName": "莽夫的铁冠"
+    },
+    {
+      "enName": "Magnus%27 Scar",
+      "cnName": "玛格努斯的疤面"
+    },
+    {
+      "enName": "Magnus%27 Scar",
+      "cnName": "玛格努斯的疤面"
+    },
+    {
+      "enName": "Magnus%27 Scar",
+      "cnName": "玛格努斯的疤面"
+    },
+    {
+      "enName": "Magnus%27 Scar",
+      "cnName": "玛格努斯的疤面"
+    },
+    {
+      "enName": "Mask of Infernal Iron",
+      "cnName": "业火的铁面"
+    },
+    {
+      "enName": "Mask of Infernal Iron",
+      "cnName": "业火的铁面"
+    },
+    {
+      "enName": "Mask of Infernal Iron",
+      "cnName": "业火的铁面"
+    },
+    {
+      "enName": "Mask of Infernal Iron",
+      "cnName": "业火的铁面"
+    },
+    {
+      "enName": "Mask of Infernal Iron",
+      "cnName": "业火的铁面"
+    },
+    {
+      "enName": "Kragol%27s Roar",
+      "cnName": "克拉戈尔的嘶吼"
+    },
+    {
+      "enName": "Kragol%27s Roar",
+      "cnName": "克拉戈尔的嘶吼"
+    },
+    {
+      "enName": "Kragol%27s Roar",
+      "cnName": "克拉戈尔的嘶吼"
+    },
+    {
+      "enName": "Kragol%27s Roar",
+      "cnName": "克拉戈尔的嘶吼"
+    },
+    {
+      "enName": "Iron and Bloom",
+      "cnName": "铁与花"
+    },
+    {
+      "enName": "Iron and Bloom",
+      "cnName": "铁与花"
+    },
+    {
+      "enName": "Iron and Bloom",
+      "cnName": "铁与花"
+    },
+    {
+      "enName": "Iron and Bloom",
+      "cnName": "铁与花"
+    },
+    {
+      "enName": "Brute%27s Helm",
+      "cnName": "蛮兵护盔"
+    },
+    {
+      "enName": "Footman Helmet",
+      "cnName": "方阵兵头盔"
+    },
+    {
+      "enName": "Paladin%27s Heavy Helm",
+      "cnName": "圣战者重盔"
+    },
+    {
+      "enName": "Berserker%27s Spired Helm",
+      "cnName": "狂战士角盔"
+    },
+    {
+      "enName": "Iron Sentry%27s Helmet",
+      "cnName": "铁卫罩盔"
+    },
+    {
+      "enName": "Packleader Helmet",
+      "cnName": "头狼之盔"
+    },
+    {
+      "enName": "Mountain Lord Helmet",
+      "cnName": "高山领主头盔"
+    },
+    {
+      "enName": "Divine Arbiter%27s Diadem",
+      "cnName": "神圣仲裁者冠冕"
+    },
+    {
+      "enName": "Dragon Guardian%27s Faceguard",
+      "cnName": "龙圣卫面甲"
+    },
+    {
+      "enName": "Fallen Knight Helmet",
+      "cnName": "堕落骑士头盔"
+    },
+    {
+      "enName": "Old King%27s Crown",
+      "cnName": "旧日王者的头冠"
+    },
+    {
+      "enName": "Ranger%27s Broken Mask",
+      "cnName": "游侠的破碎面甲"
+    },
+    {
+      "enName": "Rock Lizard%27s Skull",
+      "cnName": "岩石巨蜥之颅"
+    },
+    {
+      "enName": "Boor%27s Iron Crown",
+      "cnName": "莽夫的铁冠"
+    },
+    {
+      "enName": "Scarlet Decree",
+      "cnName": "猩红敕令"
+    },
+    {
+      "enName": "Last Words of Chaos",
+      "cnName": "混沌遗言"
+    },
+    {
+      "enName": "Awakening Skull",
+      "cnName": "苏醒头颅"
+    },
+    {
+      "enName": "Tide of the Styx",
+      "cnName": "冥河潮汐"
+    },
+    {
+      "enName": "Sun%27s Embrace",
+      "cnName": "烈阳之拥"
+    },
+    {
+      "enName": "Fool%27s Crown",
+      "cnName": "愚人的帝冕"
+    },
+    {
+      "enName": "Divine Ember",
+      "cnName": "神躯燃烬"
+    },
+    {
+      "enName": "Magnus%27 Scar",
+      "cnName": "玛格努斯的疤面"
+    },
+    {
+      "enName": "Mask of Infernal Iron",
+      "cnName": "业火的铁面"
+    },
+    {
+      "enName": "Kragol%27s Roar",
+      "cnName": "克拉戈尔的嘶吼"
+    },
+    {
+      "enName": "Iron and Bloom",
+      "cnName": "铁与花"
+    },
+    {
+      "enName": "Rock Lizard%27s Skull",
+      "cnName": "岩石巨蜥之颅"
+    },
+    {
+      "enName": "Boor%27s Iron Crown",
+      "cnName": "莽夫的铁冠"
+    },
+    {
+      "enName": "Scarlet Decree",
+      "cnName": "猩红敕令"
+    },
+    {
+      "enName": "Last Words of Chaos",
+      "cnName": "混沌遗言"
+    },
+    {
+      "enName": "Awakening Skull",
+      "cnName": "苏醒头颅"
+    },
+    {
+      "enName": "Tide of the Styx",
+      "cnName": "冥河潮汐"
+    },
+    {
+      "enName": "Sun%27s Embrace",
+      "cnName": "烈阳之拥"
+    },
+    {
+      "enName": "Fool%27s Crown",
+      "cnName": "愚人的帝冕"
+    },
+    {
+      "enName": "Divine Ember",
+      "cnName": "神躯燃烬"
+    },
+    {
+      "enName": "Magnus%27 Scar",
+      "cnName": "玛格努斯的疤面"
+    },
+    {
+      "enName": "Mask of Infernal Iron",
+      "cnName": "业火的铁面"
+    },
+    {
+      "enName": "Kragol%27s Roar",
+      "cnName": "克拉戈尔的嘶吼"
+    },
+    {
+      "enName": "Iron and Bloom",
+      "cnName": "铁与花"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    }
+  ]
+}

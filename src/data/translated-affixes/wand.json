@@ -1,0 +1,2060 @@
+{
+  "equipmentType": "Wand",
+  "affixes": [
+    {
+      "modifierId": "1503200",
+      "enText": "Adds (10–13) - (14–19) Physical Damage to Spells",
+      "cnText": "法术附加 (10–13) - (14–19) 点物理伤害"
+    },
+    {
+      "modifierId": "1503201",
+      "enText": "Adds (9–14) - (15–20) Fire Damage to Spells",
+      "cnText": "法术附加 (9–14) - (15–20) 点火焰伤害"
+    },
+    {
+      "modifierId": "1503202",
+      "enText": "Adds (10–13) - (14–19) Cold Damage to Spells",
+      "cnText": "法术附加 (10–13) - (14–19) 点冰冷伤害"
+    },
+    {
+      "modifierId": "1503203",
+      "enText": "Adds (1–2) - (28–32) Lightning Damage to Spells",
+      "cnText": "法术附加 (1–2) - (28–32) 点闪电伤害"
+    },
+    {
+      "modifierId": "1503204",
+      "enText": "Adds (11–13) - (15–18) Erosion Damage to Spells",
+      "cnText": "法术附加 (11–13) - (15–18) 点腐蚀伤害"
+    },
+    {
+      "modifierId": "1503205",
+      "enText": "+(20–24)% Physical Damage",
+      "cnText": "+(20–24)% 物理伤害"
+    },
+    {
+      "modifierId": "1503206",
+      "enText": "+(20–24)% Elemental Damage",
+      "cnText": "+(20–24)% 元素伤害"
+    },
+    {
+      "modifierId": "1503207",
+      "enText": "+(20–24)% Erosion Damage",
+      "cnText": "+(20–24)% 腐蚀伤害"
+    },
+    {
+      "modifierId": "1503208",
+      "enText": "+(20–24)% Spell Damage",
+      "cnText": "+(20–24)% 法术伤害"
+    },
+    {
+      "modifierId": "1503209",
+      "enText": "+(6–8)% Cast Speed",
+      "cnText": "+(6–8)% 施法速度"
+    },
+    {
+      "modifierId": "1503210",
+      "enText": "Projectile Quantity +1",
+      "cnText": "+1 投射物数量"
+    },
+    {
+      "modifierId": "1503211",
+      "enText": "+1 Parabolic Projectile Split Quantity",
+      "cnText": "+1 抛射投射物分裂数量"
+    },
+    {
+      "modifierId": "1503212",
+      "enText": "+(6–8)% Elemental and Erosion Resistance Penetration",
+      "cnText": "+(6–8)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "modifierId": "1503213",
+      "enText": "+(5–7)% Armor DMG Mitigation Penetration",
+      "cnText": "+(5–7)% 护甲减伤穿透"
+    },
+    {
+      "modifierId": "1503214",
+      "enText": "+1 to Max Tenacity Blessing Stacks",
+      "cnText": "+1 坚韧祝福层数上限"
+    },
+    {
+      "modifierId": "1503215",
+      "enText": "+1 to Max Agility Blessing Stacks",
+      "cnText": "+1 灵动祝福层数上限"
+    },
+    {
+      "modifierId": "1503216",
+      "enText": "+1 to Max Focus Blessing Stacks",
+      "cnText": "+1 聚能祝福层数上限"
+    },
+    {
+      "modifierId": "60063201",
+      "enText": "+(5–8)% chance to trigger the Main Spell Skill 1 additional time when using it",
+      "cnText": "使用核心法术技能时，+(5–8)% 几率额外触发一次"
+    },
+    {
+      "modifierId": "60063202",
+      "enText": "+(4–8)% chance to gain 1 stack of Focus Blessing on defeat",
+      "cnText": "击败时，+(4–8)% 几率获得 1 层聚能祝福"
+    },
+    {
+      "modifierId": "60063203",
+      "enText": "Damage Penetrates (5–8)% Elemental Resistance",
+      "cnText": "伤害穿透 (5–8)% 元素抗性"
+    },
+    {
+      "modifierId": "60063204",
+      "enText": "+(10–16)% Cast Speed",
+      "cnText": "+(10–16)% 施法速度"
+    },
+    {
+      "modifierId": "60063205",
+      "enText": "+(20–30)% Spell Damage",
+      "cnText": "+(20–30)% 法术伤害"
+    },
+    {
+      "modifierId": "60063206",
+      "enText": "+(30–40)% Spell Critical Strike Rating",
+      "cnText": "+(30–40)% 法术暴击值"
+    },
+    {
+      "modifierId": "60063207",
+      "enText": "+(25–32)% Critical Strike Damage",
+      "cnText": "+(25–32)% 暴击伤害"
+    },
+    {
+      "modifierId": "60063208",
+      "enText": "+(6–10)% Cooldown Recovery Speed",
+      "cnText": "+(6–10)% 冷却回复速度"
+    },
+    {
+      "modifierId": "60063209",
+      "enText": "Adds (5–8)% of Elemental Damage as Erosion Damage",
+      "cnText": "附加 (5–8)% 元素伤害的腐蚀伤害"
+    },
+    {
+      "modifierId": "104320001",
+      "enText": "+(127–180) Max Mana",
+      "cnText": "+(127–180) 最大魔力"
+    },
+    {
+      "modifierId": "106320001",
+      "enText": "Adds (63–65) - (82–87) Fire Damage to Spells",
+      "cnText": "法术附加 (63–65) - (82–87) 点火焰伤害"
+    },
+    {
+      "modifierId": "106320101",
+      "enText": "Adds (64–66) - (85–87) Cold Damage to Spells",
+      "cnText": "法术附加 (64–66) - (85–87) 点冰冷伤害"
+    },
+    {
+      "modifierId": "106320201",
+      "enText": "Adds (7–9) - (142–144) Lightning Damage to Spells",
+      "cnText": "法术附加 (7–9) - (142–144) 点闪电伤害"
+    },
+    {
+      "modifierId": "106320301",
+      "enText": "Adds (67–69) - (82–84) Erosion Damage to Spells",
+      "cnText": "法术附加 (67–69) - (82–84) 点腐蚀伤害"
+    },
+    {
+      "modifierId": "107320001",
+      "enText": "+(77–108)% Spell Damage",
+      "cnText": "+(77–108)% 法术伤害"
+    },
+    {
+      "modifierId": "140320901",
+      "enText": "Adds (67–69) - (82–84) Physical Damage to Spells",
+      "cnText": "法术附加 (67–69) - (82–84) 点物理伤害"
+    },
+    {
+      "modifierId": "109320001",
+      "enText": "+(64–90) Intelligence",
+      "cnText": "+(64–90) 智慧"
+    },
+    {
+      "modifierId": "109320301",
+      "enText": "+(64–90) Strength",
+      "cnText": "+(64–90) 力量"
+    },
+    {
+      "modifierId": "109320401",
+      "enText": "+(64–90) Dexterity",
+      "cnText": "+(64–90) 敏捷"
+    },
+    {
+      "modifierId": "115320201",
+      "enText": "+2 Physical Skill Level",
+      "cnText": "+2 物理技能等级"
+    },
+    {
+      "modifierId": "115320301",
+      "enText": "+2 Lightning Skill Level",
+      "cnText": "+2 闪电技能等级"
+    },
+    {
+      "modifierId": "115320401",
+      "enText": "+2 Cold Skill Level",
+      "cnText": "+2 冰冷技能等级"
+    },
+    {
+      "modifierId": "115320501",
+      "enText": "+2 Fire Skill Level",
+      "cnText": "+2 火焰技能等级"
+    },
+    {
+      "modifierId": "115320601",
+      "enText": "+2 Erosion Skill Level",
+      "cnText": "+2 腐蚀技能等级"
+    },
+    {
+      "modifierId": "115321201",
+      "enText": "+(18–25)% Armor DMG Mitigation Penetration",
+      "cnText": "+(18–25)% 护甲减伤穿透"
+    },
+    {
+      "modifierId": "130320001",
+      "enText": "+3 Spell Skill Level",
+      "cnText": "+3 法术技能等级"
+    },
+    {
+      "modifierId": "130320101",
+      "enText": "+(22–30)% Elemental and Erosion Resistance Penetration",
+      "cnText": "+(22–30)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "modifierId": "140321001",
+      "enText": "Max Terra Charge Stacks +2",
+      "cnText": "+2 地面蓄能层数上限"
+    },
+    {
+      "modifierId": "140321101",
+      "enText": "+2 Jumps+(8–10)% additional damage",
+      "cnText": "+2 弹射次数额外 +(8–10)% 伤害"
+    },
+    {
+      "modifierId": "110320101",
+      "enText": "+(26–36)% Cast Speed+(26–36)% Minion Cast Speed",
+      "cnText": "+(26–36)% 施法速度+(26–36)% 召唤物施法速度"
+    },
+    {
+      "modifierId": "140320101",
+      "enText": "+(78–108)% Physical Damage",
+      "cnText": "+(78–108)% 物理伤害"
+    },
+    {
+      "modifierId": "140320201",
+      "enText": "+(78–108)% Elemental Damage",
+      "cnText": "+(78–108)% 元素伤害"
+    },
+    {
+      "modifierId": "140320301",
+      "enText": "+(77–108)% Erosion Damage",
+      "cnText": "+(77–108)% 腐蚀伤害"
+    },
+    {
+      "modifierId": "140320401",
+      "enText": "+(14–18)% Life Regain",
+      "cnText": "+(14–18)% 生命返还"
+    },
+    {
+      "modifierId": "140320501",
+      "enText": "+(14–18)% Energy Shield Regain",
+      "cnText": "+(14–18)% 护盾返还"
+    },
+    {
+      "modifierId": "140322501",
+      "enText": "+(38–47)% Spell Burst Charge Speed",
+      "cnText": "+(38–47)% 法术迸发充能速度"
+    },
+    {
+      "modifierId": "104320101",
+      "enText": "+(64–90)% Mana Regeneration Speed",
+      "cnText": "+(64–90)% 魔力自然回复速度"
+    },
+    {
+      "modifierId": "104320201",
+      "enText": "+(34–48)% Max Mana",
+      "cnText": "+(34–48)% 最大魔力"
+    },
+    {
+      "modifierId": "110320301",
+      "enText": "+(89–125) Spell Critical Strike Rating",
+      "cnText": "+(89–125) 法术暴击值"
+    },
+    {
+      "modifierId": "111320501",
+      "enText": "+(64–90)% Spell Critical Strike Damage",
+      "cnText": "+(64–90)% 法术暴击伤害"
+    },
+    {
+      "modifierId": "140320801",
+      "enText": "+(127–180)% Critical Strike Rating",
+      "cnText": "+(127–180)% 暴击值"
+    },
+    {
+      "modifierId": "140322201",
+      "enText": "+(45–54)% Focus Speed",
+      "cnText": "+(45–54)% 贯注速度"
+    },
+    {
+      "modifierId": "116320601",
+      "enText": "+(48–68)% additional Hit Damage for skills cast by Spell Burst",
+      "cnText": "法术迸发释放的技能额外 +(48–68)% 击中伤害"
+    },
+    {
+      "modifierId": "130320401",
+      "enText": "+(29–40)% chance to deal Double Damage",
+      "cnText": "+(29–40)% 几率造成双倍伤害"
+    },
+    {
+      "modifierId": "140320001",
+      "enText": "+1 Parabolic Projectile Split Quantity+(12–16)% additional Projectile Damage",
+      "cnText": "+1 抛射投射物分裂数量额外 +(12–16)% 投射物伤害"
+    },
+    {
+      "modifierId": "140320601",
+      "enText": "-15% additional Cast Speed+(38–53)% additional Spell Damage",
+      "cnText": "额外 -15% 施法速度额外 +(38–53)% 法术伤害"
+    },
+    {
+      "modifierId": "140320701",
+      "enText": "Max Terra Quantity +1+1% additional damage",
+      "cnText": "+1 地面数量上限额外 +1% 伤害"
+    },
+    {
+      "modifierId": "140322301",
+      "enText": "+(35–45)% Focus Damage Enhancement",
+      "cnText": "+(35–45)% 贯注伤害加深"
+    },
+    {
+      "modifierId": "140322601",
+      "enText": "+(40–50)% Combo Damage Enhancement if the Combo Finisher cast recently consumes at least 8 Combo Point(s)",
+      "cnText": "若最近释放的连携终结技至少消耗了 8 点连携点，+(40–50)% 连携伤害加深"
+    },
+    {
+      "modifierId": "140322701",
+      "enText": "+(60–70)% Tangle Damage Enhancement",
+      "cnText": "+(60–70)% 纠缠伤害加深"
+    },
+    {
+      "modifierId": "85032001",
+      "enText": "Adds (10–13) - (14–19) Physical Damage to Spells",
+      "cnText": "法术附加 (10–13) - (14–19) 点物理伤害"
+    },
+    {
+      "modifierId": "85032011",
+      "enText": "Adds (9–14) - (15–20) Fire Damage to Spells",
+      "cnText": "法术附加 (9–14) - (15–20) 点火焰伤害"
+    },
+    {
+      "modifierId": "85032021",
+      "enText": "Adds (10–13) - (14–19) Cold Damage to Spells",
+      "cnText": "法术附加 (10–13) - (14–19) 点冰冷伤害"
+    },
+    {
+      "modifierId": "85032031",
+      "enText": "Adds (1–2) - (28–32) Lightning Damage to Spells",
+      "cnText": "法术附加 (1–2) - (28–32) 点闪电伤害"
+    },
+    {
+      "modifierId": "85032041",
+      "enText": "Adds (11–13) - (15–18) Erosion Damage to Spells",
+      "cnText": "法术附加 (11–13) - (15–18) 点腐蚀伤害"
+    },
+    {
+      "modifierId": "85032051",
+      "enText": "+(20–24)% Physical Damage",
+      "cnText": "+(20–24)% 物理伤害"
+    },
+    {
+      "modifierId": "85032061",
+      "enText": "+(20–24)% Elemental Damage",
+      "cnText": "+(20–24)% 元素伤害"
+    },
+    {
+      "modifierId": "85032071",
+      "enText": "+(20–24)% Erosion Damage",
+      "cnText": "+(20–24)% 腐蚀伤害"
+    },
+    {
+      "modifierId": "85032081",
+      "enText": "+(20–24)% Spell Damage",
+      "cnText": "+(20–24)% 法术伤害"
+    },
+    {
+      "modifierId": "85032091",
+      "enText": "+(6–8)% Cast Speed",
+      "cnText": "+(6–8)% 施法速度"
+    },
+    {
+      "modifierId": "85032101",
+      "enText": "Projectile Quantity +1",
+      "cnText": "+1 投射物数量"
+    },
+    {
+      "modifierId": "85032111",
+      "enText": "+1 Parabolic Projectile Split Quantity",
+      "cnText": "+1 抛射投射物分裂数量"
+    },
+    {
+      "modifierId": "85032121",
+      "enText": "+(6–8)% Elemental and Erosion Resistance Penetration",
+      "cnText": "+(6–8)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "modifierId": "85032131",
+      "enText": "+(5–7)% Armor DMG Mitigation Penetration",
+      "cnText": "+(5–7)% 护甲减伤穿透"
+    },
+    {
+      "modifierId": "85032141",
+      "enText": "+1 to Max Tenacity Blessing Stacks",
+      "cnText": "+1 坚韧祝福层数上限"
+    },
+    {
+      "modifierId": "85032151",
+      "enText": "+1 to Max Agility Blessing Stacks",
+      "cnText": "+1 灵动祝福层数上限"
+    },
+    {
+      "modifierId": "85032161",
+      "enText": "+1 to Max Focus Blessing Stacks",
+      "cnText": "+1 聚能祝福层数上限"
+    },
+    {
+      "modifierId": "160421032",
+      "enText": "+8% additional Spell Damage",
+      "cnText": "额外 +8% 法术伤害"
+    },
+    {
+      "modifierId": "160422032",
+      "enText": "+6% Armor DMG Mitigation Penetration",
+      "cnText": "+6% 护甲减伤穿透"
+    },
+    {
+      "modifierId": "160423032",
+      "enText": "+8% Fire Penetration",
+      "cnText": "+8% 火焰穿透"
+    },
+    {
+      "modifierId": "160424032",
+      "enText": "+8% Cold Penetration",
+      "cnText": "+8% 冰冷穿透"
+    },
+    {
+      "modifierId": "160425032",
+      "enText": "+8% Lightning Penetration",
+      "cnText": "+8% 闪电穿透"
+    },
+    {
+      "modifierId": "160426032",
+      "enText": "+8% Erosion Resistance Penetration",
+      "cnText": "+8% 腐蚀抗性穿透"
+    },
+    {
+      "modifierId": "160427032",
+      "enText": "+16% Cast Speed",
+      "cnText": "+16% 施法速度"
+    },
+    {
+      "modifierId": "160428032",
+      "enText": "+55 Spell Critical Strike Rating",
+      "cnText": "+55 法术暴击值"
+    },
+    {
+      "modifierId": "160429032",
+      "enText": "+10% additional damage on Critical Strike",
+      "cnText": "暴击时，额外 +10% 伤害"
+    },
+    {
+      "modifierId": "160430032",
+      "enText": "+8% all stats",
+      "cnText": "+8% 全属性"
+    },
+    {
+      "modifierId": "160541032",
+      "enText": "Enemies have a 15% chance to explode when defeated by an Attack or Spell, dealing True Damage equal to 250% of their Max Life to enemies within a 6 m radius",
+      "cnText": "攻击或者法术击败敌人时 15% 几率爆炸，对半径 6 米内的敌人造成被击败的敌人最大生命 250% 的真实伤害"
+    },
+    {
+      "modifierId": "160542032",
+      "enText": "+25% additional Hit Damage for skills cast by Spell Burst",
+      "cnText": "法术迸发释放的技能额外 +25% 击中伤害"
+    },
+    {
+      "modifierId": "160543032",
+      "enText": "Adds 200 - 220 Cold Damage to Spells when having at least 800 Intelligence",
+      "cnText": "至少有 800 点智慧时，法术附加 200 - 220 点冰冷伤害"
+    },
+    {
+      "modifierId": "160544032",
+      "enText": "The Main Skill is supported by Lv. 25 Control Spell",
+      "cnText": "核心技能被 25 级的法术控制辅助"
+    },
+    {
+      "modifierId": "160545032",
+      "enText": "+120% Spell Amplification Aura-20% additional Spell Amplification Sealed Mana Compensation",
+      "cnText": "+120% 法术增幅光环效果额外 -20% 法术增幅魔力封印补偿"
+    },
+    {
+      "modifierId": "160546032",
+      "enText": "+35% additional damage-10% additional Cast Speed",
+      "cnText": "额外 +35% 伤害额外 -10% 施法速度"
+    },
+    {
+      "modifierId": "160547032",
+      "enText": "+15% additional Deterioration Damage10% chance to inflict 1 additional stack(s) of Deterioration",
+      "cnText": "额外 +15% 恶化伤害10% 几率额外造成 1 层恶化"
+    },
+    {
+      "modifierId": "160548032",
+      "enText": "-1 to Max Tenacity Blessing Stacks+1 to Max Focus Blessing Stacks+1 to Max Agility Blessing Stacks",
+      "cnText": "-1 坚韧祝福层数上限+1 聚能祝福层数上限+1 灵动祝福层数上限"
+    },
+    {
+      "modifierId": "51340111",
+      "enText": "+(180–240) Max Mana",
+      "cnText": "+(180–240) 最大魔力"
+    },
+    {
+      "modifierId": "51340121",
+      "enText": "+(30–35)% Cast Speed",
+      "cnText": "+(30–35)% 施法速度"
+    },
+    {
+      "modifierId": "54340131",
+      "enText": "+30% additional Spell Damage when you have at least 6 stack(s) of Focus Blessing",
+      "cnText": "至少拥有 6 层聚能祝福时，额外 +30% 法术伤害"
+    },
+    {
+      "modifierId": "51340151",
+      "enText": "-72% Spell Damage",
+      "cnText": "-72% 法术伤害"
+    },
+    {
+      "modifierId": "51340221",
+      "enText": "+(80–100)% Spell Damage",
+      "cnText": "+(80–100)% 法术伤害"
+    },
+    {
+      "modifierId": "51340231",
+      "enText": "+(120–180)% Critical Strike Rating",
+      "cnText": "+(120–180)% 暴击值"
+    },
+    {
+      "modifierId": "52340241",
+      "enText": "Adds 1 - 50 Lightning Damage to Spells",
+      "cnText": "法术附加 1 - 50 点闪电伤害"
+    },
+    {
+      "modifierId": "52340251",
+      "enText": "Damage becomes Lucky and at least 4 stack(s) of Spell Burst Charge is consumed when Spell Burst is activated",
+      "cnText": "激活法术迸发时，至少消耗 4 层法术迸发充能时，伤害幸运"
+    },
+    {
+      "modifierId": "51340411",
+      "enText": "+(100–120)% Spell Damage",
+      "cnText": "+(100–120)% 法术伤害"
+    },
+    {
+      "modifierId": "51340421",
+      "enText": "+(15–18)% Cast Speed",
+      "cnText": "+(15–18)% 施法速度"
+    },
+    {
+      "modifierId": "51340431",
+      "enText": "Restores (16–20) Life when using skills. Interval: 0.2 s",
+      "cnText": "使用技能时，回复 (16–20) 点生命，该效果有 0.2 秒间隔"
+    },
+    {
+      "modifierId": "51340441",
+      "enText": "Restores (9–15) Mana when using skills. Interval: 0.2 s",
+      "cnText": "使用技能时，回复 (9–15) 点魔力，该效果有 0.2 秒间隔"
+    },
+    {
+      "modifierId": "51340611",
+      "enText": "+(60–80)% Spell Damage",
+      "cnText": "+(60–80)% 法术伤害"
+    },
+    {
+      "modifierId": "51340621",
+      "enText": "+17% Cast Speed",
+      "cnText": "+17% 施法速度"
+    },
+    {
+      "modifierId": "51340631",
+      "enText": "(-20–-10)% Skill Effect Duration",
+      "cnText": "(-20–-10)% 技能效果持续时间"
+    },
+    {
+      "modifierId": "51340641",
+      "enText": "+1 Max Restoration Skill Charges",
+      "cnText": "+1 回复技能充能点数上限"
+    },
+    {
+      "modifierId": "51340651",
+      "enText": "+60% Critical Strike Rating if you have cast a Restoration Skill recently.",
+      "cnText": "最近释放过回复技能， +60% 暴击值"
+    },
+    {
+      "modifierId": "51340661",
+      "enText": "+30% Critical Strike Damage while the Restoration Skill lasts",
+      "cnText": "回复技能持续时间内， +30% 暴击伤害"
+    },
+    {
+      "modifierId": "51340711",
+      "enText": "+(3–4) Spell Skill Level",
+      "cnText": "+(3–4) 法术技能等级"
+    },
+    {
+      "modifierId": "51340721",
+      "enText": "Every 4 s, gain following effects in turn: +40% Skill Area, +15% Movement Speed",
+      "cnText": "间隔 4 秒，轮流获得以下效果：+40% 技能范围，+15% 移动速度"
+    },
+    {
+      "modifierId": "54526441",
+      "enText": "+(20–30) Intelligence",
+      "cnText": "+(20–30) 智慧"
+    },
+    {
+      "modifierId": "54526451",
+      "enText": "+(30–50)% Erosion Damage",
+      "cnText": "+(30–50)% 腐蚀伤害"
+    },
+    {
+      "modifierId": "54526461",
+      "enText": "+(8–12)% Erosion Resistance Penetration",
+      "cnText": "+(8–12)% 腐蚀抗性穿透"
+    },
+    {
+      "modifierId": "51350911",
+      "enText": "+(1–2) Fire Skill Level",
+      "cnText": "+(1–2) 火焰技能等级"
+    },
+    {
+      "modifierId": "51350921",
+      "enText": "+(4–5)% Max Fire Resistance",
+      "cnText": "+(4–5)% 火焰抗性上限"
+    },
+    {
+      "modifierId": "51350931",
+      "enText": "+(150–200) Fire Spell Critical Strike Rating when at max Tenacity Blessing",
+      "cnText": "坚韧祝福达到上限时，+(150–200) 火焰法术暴击值"
+    },
+    {
+      "modifierId": "51350941",
+      "enText": "Adds 50 - 70 Fire Damage to Spells when at max Tenacity Blessing",
+      "cnText": "坚韧祝福达到上限时，法术附加50 - 70点火焰伤害"
+    },
+    {
+      "modifierId": "51350951",
+      "enText": "Gaining Tenacity Blessing triggers Lv. (15–20) Scorch. Interval: 0.2 s",
+      "cnText": "获得坚韧祝福时，触发 (15–20) 级炽热，间隔0.2秒"
+    },
+    {
+      "modifierId": "51350961",
+      "enText": "You are cursed with a Lv. (25–30) Scorch",
+      "cnText": "你受到 (25–30) 级炽热诅咒"
+    },
+    {
+      "modifierId": "750000",
+      "enText": "500 Critical Strike Rating",
+      "cnText": "500 暴击值"
+    },
+    {
+      "modifierId": "750001",
+      "enText": "1.2 Attack Speed",
+      "cnText": "1.2 攻击速度"
+    },
+    {
+      "modifierId": "520001",
+      "enText": "Adds 2 - 2 Cold Damage to Spells",
+      "cnText": "法术附加 2 - 2 点冰冷伤害"
+    },
+    {
+      "modifierId": "520002",
+      "enText": "Adds 3 - 3 Lightning Damage to Spells",
+      "cnText": "法术附加 3 - 3 点闪电伤害"
+    },
+    {
+      "modifierId": "520003",
+      "enText": "Adds 4 - 4 Erosion Damage to Spells",
+      "cnText": "法术附加 4 - 4 点腐蚀伤害"
+    },
+    {
+      "modifierId": "520004",
+      "enText": "Adds 5 - 5 Fire Damage to Spells",
+      "cnText": "法术附加 5 - 5 点火焰伤害"
+    },
+    {
+      "modifierId": "520005",
+      "enText": "Adds 6 - 6 Cold Damage to Spells",
+      "cnText": "法术附加 6 - 6 点冰冷伤害"
+    },
+    {
+      "modifierId": "520006",
+      "enText": "Adds 7 - 7 Lightning Damage to Spells",
+      "cnText": "法术附加 7 - 7 点闪电伤害"
+    },
+    {
+      "modifierId": "520007",
+      "enText": "Adds 8 - 8 Erosion Damage to Spells",
+      "cnText": "法术附加 8 - 8 点腐蚀伤害"
+    },
+    {
+      "modifierId": "520008",
+      "enText": "Adds 9 - 9 Fire Damage to Spells",
+      "cnText": "法术附加 9 - 9 点火焰伤害"
+    },
+    {
+      "modifierId": "520009",
+      "enText": "Adds 10 - 10 Cold Damage to Spells",
+      "cnText": "法术附加 10 - 10 点冰冷伤害"
+    },
+    {
+      "modifierId": "520010",
+      "enText": "Adds 12 - 12 Lightning Damage to Spells",
+      "cnText": "法术附加 12 - 12 点闪电伤害"
+    },
+    {
+      "modifierId": "520011",
+      "enText": "Adds 14 - 14 Erosion Damage to Spells",
+      "cnText": "法术附加 14 - 14 点腐蚀伤害"
+    },
+    {
+      "modifierId": "520012",
+      "enText": "Adds 16 - 16 Fire Damage to Spells",
+      "cnText": "法术附加 16 - 16 点火焰伤害"
+    },
+    {
+      "modifierId": "520013",
+      "enText": "Adds 18 - 18 Cold Damage to Spells",
+      "cnText": "法术附加 18 - 18 点冰冷伤害"
+    },
+    {
+      "modifierId": "520014",
+      "enText": "Adds 20 - 20 Lightning Damage to Spells",
+      "cnText": "法术附加 20 - 20 点闪电伤害"
+    },
+    {
+      "modifierId": "520015",
+      "enText": "Adds 22 - 22 Erosion Damage to Spells",
+      "cnText": "法术附加 22 - 22 点腐蚀伤害"
+    },
+    {
+      "modifierId": "520016",
+      "enText": "Adds 24 - 24 Fire Damage to Spells",
+      "cnText": "法术附加 24 - 24 点火焰伤害"
+    },
+    {
+      "modifierId": "520017",
+      "enText": "Adds 26 - 26 Cold Damage to Spells",
+      "cnText": "法术附加 26 - 26 点冰冷伤害"
+    },
+    {
+      "modifierId": "520018",
+      "enText": "Adds 28 - 28 Lightning Damage to Spells",
+      "cnText": "法术附加 28 - 28 点闪电伤害"
+    },
+    {
+      "modifierId": "520019",
+      "enText": "Adds 30 - 30 Erosion Damage to Spells",
+      "cnText": "法术附加 30 - 30 点腐蚀伤害"
+    },
+    {
+      "modifierId": "520020",
+      "enText": "Adds 32 - 32 Cold Damage to Spells",
+      "cnText": "法术附加 32 - 32 点冰冷伤害"
+    },
+    {
+      "modifierId": "51340410",
+      "enText": "+(150–180)% Spell Damage",
+      "cnText": "+(150–180)% 法术伤害"
+    },
+    {
+      "modifierId": "51340420",
+      "enText": "+(20–24)% Cast Speed",
+      "cnText": "+(20–24)% 施法速度"
+    },
+    {
+      "modifierId": "51340430",
+      "enText": "Restores (1–2)% Life when casting a Spell Skill. Interval: 0.2 s",
+      "cnText": "使用法术技能时，回复 (1–2)% 生命，该效果有 0.2 秒间隔"
+    },
+    {
+      "modifierId": "51340440",
+      "enText": "Restores (2–3)% Mana when casting a Spell Skill. Interval: 0.2 s",
+      "cnText": "使用法术技能时，回复 (2–3)% 魔力，该效果有 0.2 秒间隔"
+    },
+    {
+      "modifierId": "54526440",
+      "enText": "+(31–40) Intelligence",
+      "cnText": "+(31–40) 智慧"
+    },
+    {
+      "modifierId": "54526450",
+      "enText": "+(51–65)% Erosion Damage",
+      "cnText": "+(51–65)% 腐蚀伤害"
+    },
+    {
+      "modifierId": "54526460",
+      "enText": "+(13–16)% Erosion Resistance Penetration",
+      "cnText": "+(13–16)% 腐蚀抗性穿透"
+    },
+    {
+      "modifierId": "51340610",
+      "enText": "+(100–120)% Spell Damage",
+      "cnText": "+(100–120)% 法术伤害"
+    },
+    {
+      "modifierId": "51340620",
+      "enText": "+30% Cast Speed",
+      "cnText": "+30% 施法速度"
+    },
+    {
+      "modifierId": "51340630",
+      "enText": "+(10–20)% Skill Effect Duration",
+      "cnText": "+(10–20)% 技能效果持续时间"
+    },
+    {
+      "modifierId": "51340640",
+      "enText": "+(1–2) Max Restoration Skill Charges",
+      "cnText": "+(1–2) 回复技能充能点数上限"
+    },
+    {
+      "modifierId": "51340650",
+      "enText": "+120% Critical Strike Rating if you have cast a Restoration Skill recently.",
+      "cnText": "最近释放过回复技能， +120% 暴击值"
+    },
+    {
+      "modifierId": "51340660",
+      "enText": "+60% Critical Strike Damage while the Restoration Skill lasts",
+      "cnText": "回复技能持续时间内， +60% 暴击伤害"
+    },
+    {
+      "modifierId": "51340110",
+      "enText": "+(250–360) Max Mana",
+      "cnText": "+(250–360) 最大魔力"
+    },
+    {
+      "modifierId": "51340120",
+      "enText": "+(40–45)% Cast Speed",
+      "cnText": "+(40–45)% 施法速度"
+    },
+    {
+      "modifierId": "54340130",
+      "enText": "+35% additional Spell Damage when you have at least 8 stack(s) of Focus Blessing",
+      "cnText": "至少拥有 8 层聚能祝福时，额外 +35% 法术伤害"
+    },
+    {
+      "modifierId": "51340150",
+      "enText": "-36% Spell Damage",
+      "cnText": "-36% 法术伤害"
+    },
+    {
+      "modifierId": "51340220",
+      "enText": "+(120–150)% Spell Damage",
+      "cnText": "+(120–150)% 法术伤害"
+    },
+    {
+      "modifierId": "51340230",
+      "enText": "+(200–270)% Critical Strike Rating",
+      "cnText": "+(200–270)% 暴击值"
+    },
+    {
+      "modifierId": "52340240",
+      "enText": "Adds 1 - 60 Lightning Damage to Spells",
+      "cnText": "法术附加 1 - 60 点闪电伤害"
+    },
+    {
+      "modifierId": "52340250",
+      "enText": "Damage becomes Lucky and at least 2 stack(s) of Spell Burst Charge is consumed when Spell Burst is activated",
+      "cnText": "激活法术迸发时，至少消耗 2 层法术迸发充能时，伤害幸运"
+    },
+    {
+      "modifierId": "51340710",
+      "enText": "+(4–5) Spell Skill Level",
+      "cnText": "+(4–5) 法术技能等级"
+    },
+    {
+      "modifierId": "51340720",
+      "enText": "Every 4 s, gain following effects in turn: +60% Skill Area, +20% Movement Speed",
+      "cnText": "间隔 4 秒，轮流获得以下效果：+60% 技能范围，+20% 移动速度"
+    },
+    {
+      "modifierId": "51350910",
+      "enText": "+(2–3) Fire Skill Level",
+      "cnText": "+(2–3) 火焰技能等级"
+    },
+    {
+      "modifierId": "51350920",
+      "enText": "+(6–7)% Max Fire Resistance",
+      "cnText": "+(6–7)% 火焰抗性上限"
+    },
+    {
+      "modifierId": "51350930",
+      "enText": "+(230–260) Fire Spell Critical Strike Rating when at max Tenacity Blessing",
+      "cnText": "坚韧祝福达到上限时，+(230–260) 火焰法术暴击值"
+    },
+    {
+      "modifierId": "51350940",
+      "enText": "Adds 100 - 120 Fire Damage to Spells when at max Tenacity Blessing",
+      "cnText": "坚韧祝福达到上限时，法术附加100 - 120点火焰伤害"
+    },
+    {
+      "modifierId": "51350950",
+      "enText": "Gaining Tenacity Blessing triggers Lv. (25–30) Scorch. Interval: 0.2 s",
+      "cnText": "获得坚韧祝福时，触发 (25–30) 级炽热，间隔0.2秒"
+    },
+    {
+      "modifierId": "51350960",
+      "enText": "You are cursed with a Lv. (10–15) Scorch",
+      "cnText": "你受到 (10–15) 级炽热诅咒"
+    },
+    {
+      "modifierId": "104320080",
+      "enText": "+(235–304) Max Mana",
+      "cnText": "+(235–304) 最大魔力"
+    },
+    {
+      "modifierId": "104320000",
+      "enText": "+(181–234) Max Mana",
+      "cnText": "+(181–234) 最大魔力"
+    },
+    {
+      "modifierId": "104320002",
+      "enText": "+(91–126) Max Mana",
+      "cnText": "+(91–126) 最大魔力"
+    },
+    {
+      "modifierId": "104320003",
+      "enText": "+(73–90) Max Mana",
+      "cnText": "+(73–90) 最大魔力"
+    },
+    {
+      "modifierId": "104320004",
+      "enText": "+(59–72) Max Mana",
+      "cnText": "+(59–72) 最大魔力"
+    },
+    {
+      "modifierId": "104320005",
+      "enText": "+(48–58) Max Mana",
+      "cnText": "+(48–58) 最大魔力"
+    },
+    {
+      "modifierId": "104320006",
+      "enText": "+(37–47) Max Mana",
+      "cnText": "+(37–47) 最大魔力"
+    },
+    {
+      "modifierId": "104320007",
+      "enText": "+(28–36) Max Mana",
+      "cnText": "+(28–36) 最大魔力"
+    },
+    {
+      "modifierId": "106320080",
+      "enText": "Adds (107–109) - (139–147) Fire Damage to Spells",
+      "cnText": "法术附加 (107–109) - (139–147) 点火焰伤害"
+    },
+    {
+      "modifierId": "106320000",
+      "enText": "Adds (82–84) - (106–113) Fire Damage to Spells",
+      "cnText": "法术附加 (82–84) - (106–113) 点火焰伤害"
+    },
+    {
+      "modifierId": "106320002",
+      "enText": "Adds (41–43) - (53–58) Fire Damage to Spells",
+      "cnText": "法术附加 (41–43) - (53–58) 点火焰伤害"
+    },
+    {
+      "modifierId": "106320003",
+      "enText": "Adds (30–32) - (39–42) Fire Damage to Spells",
+      "cnText": "法术附加 (30–32) - (39–42) 点火焰伤害"
+    },
+    {
+      "modifierId": "106320004",
+      "enText": "Adds (22–24) - (29–32) Fire Damage to Spells",
+      "cnText": "法术附加 (22–24) - (29–32) 点火焰伤害"
+    },
+    {
+      "modifierId": "106320005",
+      "enText": "Adds (14–16) - (19–22) Fire Damage to Spells",
+      "cnText": "法术附加 (14–16) - (19–22) 点火焰伤害"
+    },
+    {
+      "modifierId": "106320006",
+      "enText": "Adds (10–12) - (14–17) Fire Damage to Spells",
+      "cnText": "法术附加 (10–12) - (14–17) 点火焰伤害"
+    },
+    {
+      "modifierId": "106320007",
+      "enText": "Adds (2–3) - (5–6) Fire Damage to Spells",
+      "cnText": "法术附加 (2–3) - (5–6) 点火焰伤害"
+    },
+    {
+      "modifierId": "106320180",
+      "enText": "Adds (108–110) - (144–146) Cold Damage to Spells",
+      "cnText": "法术附加 (108–110) - (144–146) 点冰冷伤害"
+    },
+    {
+      "modifierId": "106320100",
+      "enText": "Adds (83–85) - (110–112) Cold Damage to Spells",
+      "cnText": "法术附加 (83–85) - (110–112) 点冰冷伤害"
+    },
+    {
+      "modifierId": "106320102",
+      "enText": "Adds (42–44) - (55–57) Cold Damage to Spells",
+      "cnText": "法术附加 (42–44) - (55–57) 点冰冷伤害"
+    },
+    {
+      "modifierId": "106320103",
+      "enText": "Adds (30–32) - (40–42) Cold Damage to Spells",
+      "cnText": "法术附加 (30–32) - (40–42) 点冰冷伤害"
+    },
+    {
+      "modifierId": "106320104",
+      "enText": "Adds (22–24) - (30–32) Cold Damage to Spells",
+      "cnText": "法术附加 (22–24) - (30–32) 点冰冷伤害"
+    },
+    {
+      "modifierId": "106320105",
+      "enText": "Adds (14–16) - (20–22) Cold Damage to Spells",
+      "cnText": "法术附加 (14–16) - (20–22) 点冰冷伤害"
+    },
+    {
+      "modifierId": "106320106",
+      "enText": "Adds (11–13) - (14–16) Cold Damage to Spells",
+      "cnText": "法术附加 (11–13) - (14–16) 点冰冷伤害"
+    },
+    {
+      "modifierId": "106320107",
+      "enText": "Adds (2–3) - (5–6) Cold Damage to Spells",
+      "cnText": "法术附加 (2–3) - (5–6) 点冰冷伤害"
+    },
+    {
+      "modifierId": "106320280",
+      "enText": "Adds (12–14) - (240–242) Lightning Damage to Spells",
+      "cnText": "法术附加 (12–14) - (240–242) 点闪电伤害"
+    },
+    {
+      "modifierId": "106320200",
+      "enText": "Adds (9–11) - (184–186) Lightning Damage to Spells",
+      "cnText": "法术附加 (9–11) - (184–186) 点闪电伤害"
+    },
+    {
+      "modifierId": "106320202",
+      "enText": "Adds (4–6) - (93–95) Lightning Damage to Spells",
+      "cnText": "法术附加 (4–6) - (93–95) 点闪电伤害"
+    },
+    {
+      "modifierId": "106320203",
+      "enText": "Adds (3–5) - (67–69) Lightning Damage to Spells",
+      "cnText": "法术附加 (3–5) - (67–69) 点闪电伤害"
+    },
+    {
+      "modifierId": "106320204",
+      "enText": "Adds (1–4) - (50–52) Lightning Damage to Spells",
+      "cnText": "法术附加 (1–4) - (50–52) 点闪电伤害"
+    },
+    {
+      "modifierId": "106320205",
+      "enText": "Adds (1–3) - (33–35) Lightning Damage to Spells",
+      "cnText": "法术附加 (1–3) - (33–35) 点闪电伤害"
+    },
+    {
+      "modifierId": "106320206",
+      "enText": "Adds (1–2) - (25–27) Lightning Damage to Spells",
+      "cnText": "法术附加 (1–2) - (25–27) 点闪电伤害"
+    },
+    {
+      "modifierId": "106320207",
+      "enText": "Adds (1–2) - (16–18) Lightning Damage to Spells",
+      "cnText": "法术附加 (1–2) - (16–18) 点闪电伤害"
+    },
+    {
+      "modifierId": "106320380",
+      "enText": "Adds (116–118) - (136–138) Erosion Damage to Spells",
+      "cnText": "法术附加 (116–118) - (136–138) 点腐蚀伤害"
+    },
+    {
+      "modifierId": "106320300",
+      "enText": "Adds (87–89) - (106–108) Erosion Damage to Spells",
+      "cnText": "法术附加 (87–89) - (106–108) 点腐蚀伤害"
+    },
+    {
+      "modifierId": "106320302",
+      "enText": "Adds (44–46) - (53–55) Erosion Damage to Spells",
+      "cnText": "法术附加 (44–46) - (53–55) 点腐蚀伤害"
+    },
+    {
+      "modifierId": "106320303",
+      "enText": "Adds (31–33) - (39–41) Erosion Damage to Spells",
+      "cnText": "法术附加 (31–33) - (39–41) 点腐蚀伤害"
+    },
+    {
+      "modifierId": "106320304",
+      "enText": "Adds (23–25) - (29–31) Erosion Damage to Spells",
+      "cnText": "法术附加 (23–25) - (29–31) 点腐蚀伤害"
+    },
+    {
+      "modifierId": "106320305",
+      "enText": "Adds (15–17) - (19–21) Erosion Damage to Spells",
+      "cnText": "法术附加 (15–17) - (19–21) 点腐蚀伤害"
+    },
+    {
+      "modifierId": "106320306",
+      "enText": "Adds (11–13) - (14–16) Erosion Damage to Spells",
+      "cnText": "法术附加 (11–13) - (14–16) 点腐蚀伤害"
+    },
+    {
+      "modifierId": "106320307",
+      "enText": "Adds (2–3) - (5–6) Erosion Damage to Spells",
+      "cnText": "法术附加 (2–3) - (5–6) 点腐蚀伤害"
+    },
+    {
+      "modifierId": "107320080",
+      "enText": "+(141–183)% Spell Damage",
+      "cnText": "+(141–183)% 法术伤害"
+    },
+    {
+      "modifierId": "107320000",
+      "enText": "+(109–140)% Spell Damage",
+      "cnText": "+(109–140)% 法术伤害"
+    },
+    {
+      "modifierId": "107320002",
+      "enText": "+(55–76)% Spell Damage",
+      "cnText": "+(55–76)% 法术伤害"
+    },
+    {
+      "modifierId": "107320003",
+      "enText": "+(44–54)% Spell Damage",
+      "cnText": "+(44–54)% 法术伤害"
+    },
+    {
+      "modifierId": "107320004",
+      "enText": "+(36–43)% Spell Damage",
+      "cnText": "+(36–43)% 法术伤害"
+    },
+    {
+      "modifierId": "107320005",
+      "enText": "+(29–35)% Spell Damage",
+      "cnText": "+(29–35)% 法术伤害"
+    },
+    {
+      "modifierId": "107320006",
+      "enText": "+(23–28)% Spell Damage",
+      "cnText": "+(23–28)% 法术伤害"
+    },
+    {
+      "modifierId": "107320007",
+      "enText": "+(17–22)% Spell Damage",
+      "cnText": "+(17–22)% 法术伤害"
+    },
+    {
+      "modifierId": "140320980",
+      "enText": "Adds (113–115) - (138–140) Physical Damage to Spells",
+      "cnText": "法术附加 (113–115) - (138–140) 点物理伤害"
+    },
+    {
+      "modifierId": "140320900",
+      "enText": "Adds (87–89) - (106–108) Physical Damage to Spells",
+      "cnText": "法术附加 (87–89) - (106–108) 点物理伤害"
+    },
+    {
+      "modifierId": "140320902",
+      "enText": "Adds (44–46) - (53–55) Physical Damage to Spells",
+      "cnText": "法术附加 (44–46) - (53–55) 点物理伤害"
+    },
+    {
+      "modifierId": "140320903",
+      "enText": "Adds (31–33) - (39–41) Physical Damage to Spells",
+      "cnText": "法术附加 (31–33) - (39–41) 点物理伤害"
+    },
+    {
+      "modifierId": "140320904",
+      "enText": "Adds (23–25) - (29–31) Physical Damage to Spells",
+      "cnText": "法术附加 (23–25) - (29–31) 点物理伤害"
+    },
+    {
+      "modifierId": "140320905",
+      "enText": "Adds (15–17) - (19–21) Physical Damage to Spells",
+      "cnText": "法术附加 (15–17) - (19–21) 点物理伤害"
+    },
+    {
+      "modifierId": "140320906",
+      "enText": "Adds (11–13) - (14–16) Physical Damage to Spells",
+      "cnText": "法术附加 (11–13) - (14–16) 点物理伤害"
+    },
+    {
+      "modifierId": "140320907",
+      "enText": "Adds (7–9) - (9–11) Physical Damage to Spells",
+      "cnText": "法术附加 (7–9) - (9–11) 点物理伤害"
+    },
+    {
+      "modifierId": "109320080",
+      "enText": "+(118–152) Intelligence",
+      "cnText": "+(118–152) 智慧"
+    },
+    {
+      "modifierId": "109320000",
+      "enText": "+(91–117) Intelligence",
+      "cnText": "+(91–117) 智慧"
+    },
+    {
+      "modifierId": "109320002",
+      "enText": "+(46–63) Intelligence",
+      "cnText": "+(46–63) 智慧"
+    },
+    {
+      "modifierId": "109320003",
+      "enText": "+(37–45) Intelligence",
+      "cnText": "+(37–45) 智慧"
+    },
+    {
+      "modifierId": "109320004",
+      "enText": "+(30–36) Intelligence",
+      "cnText": "+(30–36) 智慧"
+    },
+    {
+      "modifierId": "109320005",
+      "enText": "+(24–29) Intelligence",
+      "cnText": "+(24–29) 智慧"
+    },
+    {
+      "modifierId": "109320006",
+      "enText": "+(19–23) Intelligence",
+      "cnText": "+(19–23) 智慧"
+    },
+    {
+      "modifierId": "109320007",
+      "enText": "+(15–18) Intelligence",
+      "cnText": "+(15–18) 智慧"
+    },
+    {
+      "modifierId": "109320380",
+      "enText": "+(118–152) Strength",
+      "cnText": "+(118–152) 力量"
+    },
+    {
+      "modifierId": "109320300",
+      "enText": "+(91–117) Strength",
+      "cnText": "+(91–117) 力量"
+    },
+    {
+      "modifierId": "109320302",
+      "enText": "+(46–63) Strength",
+      "cnText": "+(46–63) 力量"
+    },
+    {
+      "modifierId": "109320303",
+      "enText": "+(37–45) Strength",
+      "cnText": "+(37–45) 力量"
+    },
+    {
+      "modifierId": "109320304",
+      "enText": "+(30–36) Strength",
+      "cnText": "+(30–36) 力量"
+    },
+    {
+      "modifierId": "109320305",
+      "enText": "+(24–29) Strength",
+      "cnText": "+(24–29) 力量"
+    },
+    {
+      "modifierId": "109320306",
+      "enText": "+(19–23) Strength",
+      "cnText": "+(19–23) 力量"
+    },
+    {
+      "modifierId": "109320307",
+      "enText": "+(15–18) Strength",
+      "cnText": "+(15–18) 力量"
+    },
+    {
+      "modifierId": "109320480",
+      "enText": "+(118–152) Dexterity",
+      "cnText": "+(118–152) 敏捷"
+    },
+    {
+      "modifierId": "109320400",
+      "enText": "+(91–117) Dexterity",
+      "cnText": "+(91–117) 敏捷"
+    },
+    {
+      "modifierId": "109320402",
+      "enText": "+(46–63) Dexterity",
+      "cnText": "+(46–63) 敏捷"
+    },
+    {
+      "modifierId": "109320403",
+      "enText": "+(37–45) Dexterity",
+      "cnText": "+(37–45) 敏捷"
+    },
+    {
+      "modifierId": "109320404",
+      "enText": "+(30–36) Dexterity",
+      "cnText": "+(30–36) 敏捷"
+    },
+    {
+      "modifierId": "109320405",
+      "enText": "+(24–29) Dexterity",
+      "cnText": "+(24–29) 敏捷"
+    },
+    {
+      "modifierId": "109320406",
+      "enText": "+(19–23) Dexterity",
+      "cnText": "+(19–23) 敏捷"
+    },
+    {
+      "modifierId": "109320407",
+      "enText": "+(15–18) Dexterity",
+      "cnText": "+(15–18) 敏捷"
+    },
+    {
+      "modifierId": "115320280",
+      "enText": "+(3–4) Physical Skill Level",
+      "cnText": "+(3–4) 物理技能等级"
+    },
+    {
+      "modifierId": "115320200",
+      "enText": "+(2–3) Physical Skill Level",
+      "cnText": "+(2–3) 物理技能等级"
+    },
+    {
+      "modifierId": "115320380",
+      "enText": "+(3–4) Lightning Skill Level",
+      "cnText": "+(3–4) 闪电技能等级"
+    },
+    {
+      "modifierId": "115320300",
+      "enText": "+(2–3) Lightning Skill Level",
+      "cnText": "+(2–3) 闪电技能等级"
+    },
+    {
+      "modifierId": "115320480",
+      "enText": "+(3–4) Cold Skill Level",
+      "cnText": "+(3–4) 冰冷技能等级"
+    },
+    {
+      "modifierId": "115320400",
+      "enText": "+(2–3) Cold Skill Level",
+      "cnText": "+(2–3) 冰冷技能等级"
+    },
+    {
+      "modifierId": "115320580",
+      "enText": "+(3–4) Fire Skill Level",
+      "cnText": "+(3–4) 火焰技能等级"
+    },
+    {
+      "modifierId": "115320500",
+      "enText": "+(2–3) Fire Skill Level",
+      "cnText": "+(2–3) 火焰技能等级"
+    },
+    {
+      "modifierId": "115320680",
+      "enText": "+(3–4) Erosion Skill Level",
+      "cnText": "+(3–4) 腐蚀技能等级"
+    },
+    {
+      "modifierId": "115320600",
+      "enText": "+(2–3) Erosion Skill Level",
+      "cnText": "+(2–3) 腐蚀技能等级"
+    },
+    {
+      "modifierId": "115320602",
+      "enText": "+1 Erosion Skill Level",
+      "cnText": "+1 腐蚀技能等级"
+    },
+    {
+      "modifierId": "115321280",
+      "enText": "+(34–42)% Armor DMG Mitigation Penetration",
+      "cnText": "+(34–42)% 护甲减伤穿透"
+    },
+    {
+      "modifierId": "115321200",
+      "enText": "+(26–36)% Armor DMG Mitigation Penetration",
+      "cnText": "+(26–36)% 护甲减伤穿透"
+    },
+    {
+      "modifierId": "115321202",
+      "enText": "+(12–17)% Armor DMG Mitigation Penetration",
+      "cnText": "+(12–17)% 护甲减伤穿透"
+    },
+    {
+      "modifierId": "115321203",
+      "enText": "+(7–11)% Armor DMG Mitigation Penetration",
+      "cnText": "+(7–11)% 护甲减伤穿透"
+    },
+    {
+      "modifierId": "115321204",
+      "enText": "+(5–6)% Armor DMG Mitigation Penetration",
+      "cnText": "+(5–6)% 护甲减伤穿透"
+    },
+    {
+      "modifierId": "130320080",
+      "enText": "+(4–5) Spell Skill Level",
+      "cnText": "+(4–5) 法术技能等级"
+    },
+    {
+      "modifierId": "130320000",
+      "enText": "+(3–4) Spell Skill Level",
+      "cnText": "+(3–4) 法术技能等级"
+    },
+    {
+      "modifierId": "130320002",
+      "enText": "+2 Spell Skill Level",
+      "cnText": "+2 法术技能等级"
+    },
+    {
+      "modifierId": "130320180",
+      "enText": "+(40–51)% Elemental and Erosion Resistance Penetration",
+      "cnText": "+(40–51)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "modifierId": "130320100",
+      "enText": "+(28–39)% Elemental and Erosion Resistance Penetration",
+      "cnText": "+(28–39)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "modifierId": "130320102",
+      "enText": "+(18–21)% Elemental and Erosion Resistance Penetration",
+      "cnText": "+(18–21)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "modifierId": "130320103",
+      "enText": "+(13–15)% Elemental and Erosion Resistance Penetration",
+      "cnText": "+(13–15)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "modifierId": "140321080",
+      "enText": "Max Terra Charge Stacks +4",
+      "cnText": "+4 地面蓄能层数上限"
+    },
+    {
+      "modifierId": "140321000",
+      "enText": "Max Terra Charge Stacks +3",
+      "cnText": "+3 地面蓄能层数上限"
+    },
+    {
+      "modifierId": "140321002",
+      "enText": "Max Terra Charge Stacks +1",
+      "cnText": "+1 地面蓄能层数上限"
+    },
+    {
+      "modifierId": "140321180",
+      "enText": "+2 Jumps+(20–24)% additional damage",
+      "cnText": "+2 弹射次数额外 +(20–24)% 伤害"
+    },
+    {
+      "modifierId": "140321100",
+      "enText": "+2 Jumps+(12–16)% additional damage",
+      "cnText": "+2 弹射次数额外 +(12–16)% 伤害"
+    },
+    {
+      "modifierId": "110320180",
+      "enText": "+(48–61)% Cast Speed+(48–61)% Minion Cast Speed",
+      "cnText": "+(48–61)% 施法速度+(48–61)% 召唤物施法速度"
+    },
+    {
+      "modifierId": "110320100",
+      "enText": "+(34–47)% Cast Speed+(34–47)% Minion Cast Speed",
+      "cnText": "+(34–47)% 施法速度+(34–47)% 召唤物施法速度"
+    },
+    {
+      "modifierId": "110320102",
+      "enText": "+(22–25)% Cast Speed+(22–25)% Minion Cast Speed",
+      "cnText": "+(22–25)% 施法速度+(22–25)% 召唤物施法速度"
+    },
+    {
+      "modifierId": "110320103",
+      "enText": "+(16–18)% Cast Speed+(16–18)% Minion Cast Speed",
+      "cnText": "+(16–18)% 施法速度+(16–18)% 召唤物施法速度"
+    },
+    {
+      "modifierId": "140320180",
+      "enText": "+(141–183)% Physical Damage",
+      "cnText": "+(141–183)% 物理伤害"
+    },
+    {
+      "modifierId": "140320100",
+      "enText": "+(109–140)% Physical Damage",
+      "cnText": "+(109–140)% 物理伤害"
+    },
+    {
+      "modifierId": "140320102",
+      "enText": "+(56–77)% Physical Damage",
+      "cnText": "+(56–77)% 物理伤害"
+    },
+    {
+      "modifierId": "140320103",
+      "enText": "+(40–55)% Physical Damage",
+      "cnText": "+(40–55)% 物理伤害"
+    },
+    {
+      "modifierId": "140320104",
+      "enText": "+(27–39)% Physical Damage",
+      "cnText": "+(27–39)% 物理伤害"
+    },
+    {
+      "modifierId": "140320105",
+      "enText": "+(18–26)% Physical Damage",
+      "cnText": "+(18–26)% 物理伤害"
+    },
+    {
+      "modifierId": "140320106",
+      "enText": "+(13–17)% Physical Damage",
+      "cnText": "+(13–17)% 物理伤害"
+    },
+    {
+      "modifierId": "140320107",
+      "enText": "+(8–12)% Physical Damage",
+      "cnText": "+(8–12)% 物理伤害"
+    },
+    {
+      "modifierId": "140320280",
+      "enText": "+(141–183)% Elemental Damage",
+      "cnText": "+(141–183)% 元素伤害"
+    },
+    {
+      "modifierId": "140320200",
+      "enText": "+(109–140)% Elemental Damage",
+      "cnText": "+(109–140)% 元素伤害"
+    },
+    {
+      "modifierId": "140320202",
+      "enText": "+(56–77)% Elemental Damage",
+      "cnText": "+(56–77)% 元素伤害"
+    },
+    {
+      "modifierId": "140320203",
+      "enText": "+(40–55)% Elemental Damage",
+      "cnText": "+(40–55)% 元素伤害"
+    },
+    {
+      "modifierId": "140320204",
+      "enText": "+(27–39)% Elemental Damage",
+      "cnText": "+(27–39)% 元素伤害"
+    },
+    {
+      "modifierId": "140320205",
+      "enText": "+(18–26)% Elemental Damage",
+      "cnText": "+(18–26)% 元素伤害"
+    },
+    {
+      "modifierId": "140320206",
+      "enText": "+(13–17)% Elemental Damage",
+      "cnText": "+(13–17)% 元素伤害"
+    },
+    {
+      "modifierId": "140320207",
+      "enText": "+(8–12)% Elemental Damage",
+      "cnText": "+(8–12)% 元素伤害"
+    },
+    {
+      "modifierId": "140320380",
+      "enText": "+(141–183)% Erosion Damage",
+      "cnText": "+(141–183)% 腐蚀伤害"
+    },
+    {
+      "modifierId": "140320300",
+      "enText": "+(109–140)% Erosion Damage",
+      "cnText": "+(109–140)% 腐蚀伤害"
+    },
+    {
+      "modifierId": "140320302",
+      "enText": "+(55–76)% Erosion Damage",
+      "cnText": "+(55–76)% 腐蚀伤害"
+    },
+    {
+      "modifierId": "140320303",
+      "enText": "+(44–54)% Erosion Damage",
+      "cnText": "+(44–54)% 腐蚀伤害"
+    },
+    {
+      "modifierId": "140320304",
+      "enText": "+(36–43)% Erosion Damage",
+      "cnText": "+(36–43)% 腐蚀伤害"
+    },
+    {
+      "modifierId": "140320305",
+      "enText": "+(29–35)% Erosion Damage",
+      "cnText": "+(29–35)% 腐蚀伤害"
+    },
+    {
+      "modifierId": "140320306",
+      "enText": "+(23–28)% Erosion Damage",
+      "cnText": "+(23–28)% 腐蚀伤害"
+    },
+    {
+      "modifierId": "140320307",
+      "enText": "+(17–22)% Erosion Damage",
+      "cnText": "+(17–22)% 腐蚀伤害"
+    },
+    {
+      "modifierId": "140320480",
+      "enText": "+(24–30)% Life Regain",
+      "cnText": "+(24–30)% 生命返还"
+    },
+    {
+      "modifierId": "140320400",
+      "enText": "+(19–23)% Life Regain",
+      "cnText": "+(19–23)% 生命返还"
+    },
+    {
+      "modifierId": "140320402",
+      "enText": "+(10–13)% Life Regain",
+      "cnText": "+(10–13)% 生命返还"
+    },
+    {
+      "modifierId": "140320403",
+      "enText": "+(8–9)% Life Regain",
+      "cnText": "+(8–9)% 生命返还"
+    },
+    {
+      "modifierId": "140320404",
+      "enText": "+7% Life Regain",
+      "cnText": "+7% 生命返还"
+    },
+    {
+      "modifierId": "140320405",
+      "enText": "+6% Life Regain",
+      "cnText": "+6% 生命返还"
+    },
+    {
+      "modifierId": "140320406",
+      "enText": "+5% Life Regain",
+      "cnText": "+5% 生命返还"
+    },
+    {
+      "modifierId": "140320407",
+      "enText": "+4% Life Regain",
+      "cnText": "+4% 生命返还"
+    },
+    {
+      "modifierId": "140320580",
+      "enText": "+(24–30)% Energy Shield Regain",
+      "cnText": "+(24–30)% 护盾返还"
+    },
+    {
+      "modifierId": "140320500",
+      "enText": "+(19–23)% Energy Shield Regain",
+      "cnText": "+(19–23)% 护盾返还"
+    },
+    {
+      "modifierId": "140320502",
+      "enText": "+(10–13)% Energy Shield Regain",
+      "cnText": "+(10–13)% 护盾返还"
+    },
+    {
+      "modifierId": "140320503",
+      "enText": "+(8–9)% Energy Shield Regain",
+      "cnText": "+(8–9)% 护盾返还"
+    },
+    {
+      "modifierId": "140320504",
+      "enText": "+7% Energy Shield Regain",
+      "cnText": "+7% 护盾返还"
+    },
+    {
+      "modifierId": "140320505",
+      "enText": "+6% Energy Shield Regain",
+      "cnText": "+6% 护盾返还"
+    },
+    {
+      "modifierId": "140320506",
+      "enText": "+5% Energy Shield Regain",
+      "cnText": "+5% 护盾返还"
+    },
+    {
+      "modifierId": "140320507",
+      "enText": "+4% Energy Shield Regain",
+      "cnText": "+4% 护盾返还"
+    },
+    {
+      "modifierId": "140322580",
+      "enText": "+(68–84)% Spell Burst Charge Speed",
+      "cnText": "+(68–84)% 法术迸发充能速度"
+    },
+    {
+      "modifierId": "140322500",
+      "enText": "+(50–64)% Spell Burst Charge Speed",
+      "cnText": "+(50–64)% 法术迸发充能速度"
+    },
+    {
+      "modifierId": "140322502",
+      "enText": "+(26–36)% Spell Burst Charge Speed",
+      "cnText": "+(26–36)% 法术迸发充能速度"
+    },
+    {
+      "modifierId": "140322503",
+      "enText": "+(22–25)% Spell Burst Charge Speed",
+      "cnText": "+(22–25)% 法术迸发充能速度"
+    },
+    {
+      "modifierId": "140322504",
+      "enText": "+(16–18)% Spell Burst Charge Speed",
+      "cnText": "+(16–18)% 法术迸发充能速度"
+    },
+    {
+      "modifierId": "104320180",
+      "enText": "+(118–152)% Mana Regeneration Speed",
+      "cnText": "+(118–152)% 魔力自然回复速度"
+    },
+    {
+      "modifierId": "104320100",
+      "enText": "+(91–117)% Mana Regeneration Speed",
+      "cnText": "+(91–117)% 魔力自然回复速度"
+    },
+    {
+      "modifierId": "104320102",
+      "enText": "+(46–63)% Mana Regeneration Speed",
+      "cnText": "+(46–63)% 魔力自然回复速度"
+    },
+    {
+      "modifierId": "104320103",
+      "enText": "+(37–45)% Mana Regeneration Speed",
+      "cnText": "+(37–45)% 魔力自然回复速度"
+    },
+    {
+      "modifierId": "104320104",
+      "enText": "+(30–36)% Mana Regeneration Speed",
+      "cnText": "+(30–36)% 魔力自然回复速度"
+    },
+    {
+      "modifierId": "104320105",
+      "enText": "+(24–29)% Mana Regeneration Speed",
+      "cnText": "+(24–29)% 魔力自然回复速度"
+    },
+    {
+      "modifierId": "104320106",
+      "enText": "+(19–23)% Mana Regeneration Speed",
+      "cnText": "+(19–23)% 魔力自然回复速度"
+    },
+    {
+      "modifierId": "104320107",
+      "enText": "+(15–18)% Mana Regeneration Speed",
+      "cnText": "+(15–18)% 魔力自然回复速度"
+    },
+    {
+      "modifierId": "104320280",
+      "enText": "+(63–81)% Max Mana",
+      "cnText": "+(63–81)% 最大魔力"
+    },
+    {
+      "modifierId": "104320200",
+      "enText": "+(44–62)% Max Mana",
+      "cnText": "+(44–62)% 最大魔力"
+    },
+    {
+      "modifierId": "104320202",
+      "enText": "+(28–34)% Max Mana",
+      "cnText": "+(28–34)% 最大魔力"
+    },
+    {
+      "modifierId": "104320203",
+      "enText": "+(20–24)% Max Mana",
+      "cnText": "+(20–24)% 最大魔力"
+    },
+    {
+      "modifierId": "104320204",
+      "enText": "+(16–19)% Max Mana",
+      "cnText": "+(16–19)% 最大魔力"
+    },
+    {
+      "modifierId": "104320205",
+      "enText": "+(13–15)% Max Mana",
+      "cnText": "+(13–15)% 最大魔力"
+    },
+    {
+      "modifierId": "104320206",
+      "enText": "+(10–12)% Max Mana",
+      "cnText": "+(10–12)% 最大魔力"
+    },
+    {
+      "modifierId": "104320207",
+      "enText": "+(8–10)% Max Mana",
+      "cnText": "+(8–10)% 最大魔力"
+    },
+    {
+      "modifierId": "110320380",
+      "enText": "+(164–211) Spell Critical Strike Rating",
+      "cnText": "+(164–211) 法术暴击值"
+    },
+    {
+      "modifierId": "110320300",
+      "enText": "+(126–163) Spell Critical Strike Rating",
+      "cnText": "+(126–163) 法术暴击值"
+    },
+    {
+      "modifierId": "110320302",
+      "enText": "+(64–88) Spell Critical Strike Rating",
+      "cnText": "+(64–88) 法术暴击值"
+    },
+    {
+      "modifierId": "110320303",
+      "enText": "+(51–63) Spell Critical Strike Rating",
+      "cnText": "+(51–63) 法术暴击值"
+    },
+    {
+      "modifierId": "110320304",
+      "enText": "+(41–50) Spell Critical Strike Rating",
+      "cnText": "+(41–50) 法术暴击值"
+    },
+    {
+      "modifierId": "110320305",
+      "enText": "+(34–40) Spell Critical Strike Rating",
+      "cnText": "+(34–40) 法术暴击值"
+    },
+    {
+      "modifierId": "110320306",
+      "enText": "+(26–33) Spell Critical Strike Rating",
+      "cnText": "+(26–33) 法术暴击值"
+    },
+    {
+      "modifierId": "110320307",
+      "enText": "+(20–25) Spell Critical Strike Rating",
+      "cnText": "+(20–25) 法术暴击值"
+    },
+    {
+      "modifierId": "111320580",
+      "enText": "+(118–152)% Spell Critical Strike Damage",
+      "cnText": "+(118–152)% 法术暴击伤害"
+    },
+    {
+      "modifierId": "111320500",
+      "enText": "+(91–117)% Spell Critical Strike Damage",
+      "cnText": "+(91–117)% 法术暴击伤害"
+    },
+    {
+      "modifierId": "111320502",
+      "enText": "+(46–63)% Spell Critical Strike Damage",
+      "cnText": "+(46–63)% 法术暴击伤害"
+    },
+    {
+      "modifierId": "111320503",
+      "enText": "+(37–45)% Spell Critical Strike Damage",
+      "cnText": "+(37–45)% 法术暴击伤害"
+    },
+    {
+      "modifierId": "111320504",
+      "enText": "+(30–36)% Spell Critical Strike Damage",
+      "cnText": "+(30–36)% 法术暴击伤害"
+    },
+    {
+      "modifierId": "111320505",
+      "enText": "+(24–29)% Spell Critical Strike Damage",
+      "cnText": "+(24–29)% 法术暴击伤害"
+    },
+    {
+      "modifierId": "111320506",
+      "enText": "+(19–23)% Spell Critical Strike Damage",
+      "cnText": "+(19–23)% 法术暴击伤害"
+    },
+    {
+      "modifierId": "140320880",
+      "enText": "+(235–304)% Critical Strike Rating",
+      "cnText": "+(235–304)% 暴击值"
+    },
+    {
+      "modifierId": "140320800",
+      "enText": "+(181–234)% Critical Strike Rating",
+      "cnText": "+(181–234)% 暴击值"
+    },
+    {
+      "modifierId": "140320802",
+      "enText": "+(91–126)% Critical Strike Rating",
+      "cnText": "+(91–126)% 暴击值"
+    },
+    {
+      "modifierId": "140320803",
+      "enText": "+(73–90)% Critical Strike Rating",
+      "cnText": "+(73–90)% 暴击值"
+    },
+    {
+      "modifierId": "140320804",
+      "enText": "+(59–72)% Critical Strike Rating",
+      "cnText": "+(59–72)% 暴击值"
+    },
+    {
+      "modifierId": "140320805",
+      "enText": "+(48–58)% Critical Strike Rating",
+      "cnText": "+(48–58)% 暴击值"
+    },
+    {
+      "modifierId": "140320806",
+      "enText": "+(37–47)% Critical Strike Rating",
+      "cnText": "+(37–47)% 暴击值"
+    },
+    {
+      "modifierId": "140320807",
+      "enText": "+(28–36)% Critical Strike Rating",
+      "cnText": "+(28–36)% 暴击值"
+    },
+    {
+      "modifierId": "140322280",
+      "enText": "+(75–90)% Focus Speed",
+      "cnText": "+(75–90)% 贯注速度"
+    },
+    {
+      "modifierId": "140322200",
+      "enText": "+(60–70)% Focus Speed",
+      "cnText": "+(60–70)% 贯注速度"
+    },
+    {
+      "modifierId": "140322202",
+      "enText": "+(30–40)% Focus Speed",
+      "cnText": "+(30–40)% 贯注速度"
+    },
+    {
+      "modifierId": "116320680",
+      "enText": "+(89–115)% additional Hit Damage for skills cast by Spell Burst",
+      "cnText": "法术迸发释放的技能额外 +(89–115)% 击中伤害"
+    },
+    {
+      "modifierId": "116320600",
+      "enText": "+(62–88)% additional Hit Damage for skills cast by Spell Burst",
+      "cnText": "法术迸发释放的技能额外 +(62–88)% 击中伤害"
+    },
+    {
+      "modifierId": "116320602",
+      "enText": "+(40–47)% additional Hit Damage for skills cast by Spell Burst",
+      "cnText": "法术迸发释放的技能额外 +(40–47)% 击中伤害"
+    },
+    {
+      "modifierId": "116320603",
+      "enText": "+(29–34)% additional Hit Damage for skills cast by Spell Burst",
+      "cnText": "法术迸发释放的技能额外 +(29–34)% 击中伤害"
+    },
+    {
+      "modifierId": "130320480",
+      "enText": "+(53–68)% chance to deal Double Damage",
+      "cnText": "+(53–68)% 几率造成双倍伤害"
+    },
+    {
+      "modifierId": "130320400",
+      "enText": "+(41–52)% chance to deal Double Damage",
+      "cnText": "+(41–52)% 几率造成双倍伤害"
+    },
+    {
+      "modifierId": "130320402",
+      "enText": "+(21–28)% chance to deal Double Damage",
+      "cnText": "+(21–28)% 几率造成双倍伤害"
+    },
+    {
+      "modifierId": "130320403",
+      "enText": "+(17–20)% chance to deal Double Damage",
+      "cnText": "+(17–20)% 几率造成双倍伤害"
+    },
+    {
+      "modifierId": "140320080",
+      "enText": "+2 Parabolic Projectile Split Quantity+(16–21)% additional Projectile Damage",
+      "cnText": "+2 抛射投射物分裂数量额外 +(16–21)% 投射物伤害"
+    },
+    {
+      "modifierId": "140320000",
+      "enText": "+2 Parabolic Projectile Split Quantity+(8–12)% additional Projectile Damage",
+      "cnText": "+2 抛射投射物分裂数量额外 +(8–12)% 投射物伤害"
+    },
+    {
+      "modifierId": "140320680",
+      "enText": "-15% additional Cast Speed+(70–90)% additional Spell Damage",
+      "cnText": "额外 -15% 施法速度额外 +(70–90)% 法术伤害"
+    },
+    {
+      "modifierId": "140320600",
+      "enText": "-15% additional Cast Speed+(54–69)% additional Spell Damage",
+      "cnText": "额外 -15% 施法速度额外 +(54–69)% 法术伤害"
+    },
+    {
+      "modifierId": "140320602",
+      "enText": "-15% additional Cast Speed+(28–37)% additional Spell Damage",
+      "cnText": "额外 -15% 施法速度额外 +(28–37)% 法术伤害"
+    },
+    {
+      "modifierId": "140320603",
+      "enText": "-15% additional Cast Speed+(22–27)% additional Spell Damage",
+      "cnText": "额外 -15% 施法速度额外 +(22–27)% 法术伤害"
+    },
+    {
+      "modifierId": "140320604",
+      "enText": "-15% additional Cast Speed+(18–21)% additional Spell Damage",
+      "cnText": "额外 -15% 施法速度额外 +(18–21)% 法术伤害"
+    },
+    {
+      "modifierId": "140320605",
+      "enText": "-15% additional Cast Speed+(15–17)% additional Spell Damage",
+      "cnText": "额外 -15% 施法速度额外 +(15–17)% 法术伤害"
+    },
+    {
+      "modifierId": "140320606",
+      "enText": "-15% additional Cast Speed+(12–14)% additional Spell Damage",
+      "cnText": "额外 -15% 施法速度额外 +(12–14)% 法术伤害"
+    },
+    {
+      "modifierId": "140320607",
+      "enText": "-15% additional Cast Speed+(9–11)% additional Spell Damage",
+      "cnText": "额外 -15% 施法速度额外 +(9–11)% 法术伤害"
+    },
+    {
+      "modifierId": "140320780",
+      "enText": "Max Terra Quantity +1+10% additional damage",
+      "cnText": "+1 地面数量上限额外 +10% 伤害"
+    },
+    {
+      "modifierId": "140320700",
+      "enText": "Max Terra Quantity +1+5% additional damage",
+      "cnText": "+1 地面数量上限额外 +5% 伤害"
+    },
+    {
+      "modifierId": "140320702",
+      "enText": "Max Terra Quantity +1-10% additional damage",
+      "cnText": "+1 地面数量上限额外 -10% 伤害"
+    },
+    {
+      "modifierId": "140322380",
+      "enText": "+(65–80)% Focus Damage Enhancement",
+      "cnText": "+(65–80)% 贯注伤害加深"
+    },
+    {
+      "modifierId": "140322300",
+      "enText": "+(48–60)% Focus Damage Enhancement",
+      "cnText": "+(48–60)% 贯注伤害加深"
+    },
+    {
+      "modifierId": "140322302",
+      "enText": "+(20–30)% Focus Damage Enhancement",
+      "cnText": "+(20–30)% 贯注伤害加深"
+    },
+    {
+      "modifierId": "140322680",
+      "enText": "+(70–85)% Combo Damage Enhancement if the Combo Finisher cast recently consumes at least 8 Combo Point(s)",
+      "cnText": "若最近释放的连携终结技至少消耗了 8 点连携点，+(70–85)% 连携伤害加深"
+    },
+    {
+      "modifierId": "140322600",
+      "enText": "+(55–65)% Combo Damage Enhancement if the Combo Finisher cast recently consumes at least 8 Combo Point(s)",
+      "cnText": "若最近释放的连携终结技至少消耗了 8 点连携点，+(55–65)% 连携伤害加深"
+    },
+    {
+      "modifierId": "140322602",
+      "enText": "+(25–35)% Combo Damage Enhancement if the Combo Finisher cast recently consumes at least 8 Combo Point(s)",
+      "cnText": "若最近释放的连携终结技至少消耗了 8 点连携点，+(25–35)% 连携伤害加深"
+    },
+    {
+      "modifierId": "140322780",
+      "enText": "+(90–100)% Tangle Damage Enhancement",
+      "cnText": "+(90–100)% 纠缠伤害加深"
+    },
+    {
+      "modifierId": "140322700",
+      "enText": "+(75–85)% Tangle Damage Enhancement",
+      "cnText": "+(75–85)% 纠缠伤害加深"
+    },
+    {
+      "modifierId": "140322702",
+      "enText": "+(40–55)% Tangle Damage Enhancement",
+      "cnText": "+(40–55)% 纠缠伤害加深"
+    }
+  ]
+}

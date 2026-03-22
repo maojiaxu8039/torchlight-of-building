@@ -1,0 +1,265 @@
+{
+  "equipmentType": "Pistol",
+  "baseGears": [
+    {
+      "enName": "Severed Wrist",
+      "cnName": "断腕"
+    },
+    {
+      "enName": "Severed Wrist",
+      "cnName": "断腕"
+    },
+    {
+      "enName": "Severed Wrist",
+      "cnName": "断腕"
+    },
+    {
+      "enName": "Severed Wrist",
+      "cnName": "断腕"
+    },
+    {
+      "enName": "Severed Wrist",
+      "cnName": "断腕"
+    },
+    {
+      "enName": "Frozen Sight",
+      "cnName": "冰冻目光"
+    },
+    {
+      "enName": "Frozen Sight",
+      "cnName": "冰冻目光"
+    },
+    {
+      "enName": "Frozen Sight",
+      "cnName": "冰冻目光"
+    },
+    {
+      "enName": "Frozen Sight",
+      "cnName": "冰冻目光"
+    },
+    {
+      "enName": "Frozen Sight",
+      "cnName": "冰冻目光"
+    },
+    {
+      "enName": "Buzzing",
+      "cnName": "蜂鸣"
+    },
+    {
+      "enName": "Buzzing",
+      "cnName": "蜂鸣"
+    },
+    {
+      "enName": "Buzzing",
+      "cnName": "蜂鸣"
+    },
+    {
+      "enName": "Buzzing",
+      "cnName": "蜂鸣"
+    },
+    {
+      "enName": "Buzzing",
+      "cnName": "蜂鸣"
+    },
+    {
+      "enName": "Gravel",
+      "cnName": "砂砾"
+    },
+    {
+      "enName": "Gravel",
+      "cnName": "砂砾"
+    },
+    {
+      "enName": "Gravel",
+      "cnName": "砂砾"
+    },
+    {
+      "enName": "Gravel",
+      "cnName": "砂砾"
+    },
+    {
+      "enName": "Gravel",
+      "cnName": "砂砾"
+    },
+    {
+      "enName": "Gravel",
+      "cnName": "砂砾"
+    },
+    {
+      "enName": "Rusted Pistol",
+      "cnName": "锈铁手枪"
+    },
+    {
+      "enName": "Blackrock Zapper",
+      "cnName": "黑石魔枪"
+    },
+    {
+      "enName": "Pocket Boomstick",
+      "cnName": "袖珍短枪"
+    },
+    {
+      "enName": "Iron Pistol",
+      "cnName": "精铁手枪"
+    },
+    {
+      "enName": "Black Feather Zapper",
+      "cnName": "黑羽魔枪"
+    },
+    {
+      "enName": "Rottenbone Zapper",
+      "cnName": "朽骨魔枪"
+    },
+    {
+      "enName": "Thorny Boomstick",
+      "cnName": "荆棘短枪"
+    },
+    {
+      "enName": "Warden%27s Boomstick",
+      "cnName": "狱卒短枪"
+    },
+    {
+      "enName": "Unholy Zapper",
+      "cnName": "污秽魔枪"
+    },
+    {
+      "enName": "Cursed Boomstick",
+      "cnName": "诅咒短枪"
+    },
+    {
+      "enName": "Viper Zapper",
+      "cnName": "蝮蛇魔枪"
+    },
+    {
+      "enName": "Voodoo Boomstick",
+      "cnName": "巫灵短枪"
+    },
+    {
+      "enName": "Bloodclaw Zapper",
+      "cnName": "恶爪魔枪"
+    },
+    {
+      "enName": "Swarm Pistol",
+      "cnName": "虫豺手枪"
+    },
+    {
+      "enName": "Shadow Boomstick",
+      "cnName": "暗影短枪"
+    },
+    {
+      "enName": "Dragonsoul Zapper",
+      "cnName": "龙魂魔枪"
+    },
+    {
+      "enName": "Final Battle Boomstick",
+      "cnName": "决战短枪"
+    },
+    {
+      "enName": "Terminator Boomstick",
+      "cnName": "终结者短枪"
+    },
+    {
+      "enName": "Kingslayer Boomstick",
+      "cnName": "弑君者短枪"
+    },
+    {
+      "enName": "War Ender%27s Boomstick",
+      "cnName": "止战之徒的短枪"
+    },
+    {
+      "enName": "Frozen Sight",
+      "cnName": "冰冻目光"
+    },
+    {
+      "enName": "Severed Wrist",
+      "cnName": "断腕"
+    },
+    {
+      "enName": "Buzzing",
+      "cnName": "蜂鸣"
+    },
+    {
+      "enName": "Gravel",
+      "cnName": "砂砾"
+    },
+    {
+      "enName": "Frozen Sight",
+      "cnName": "冰冻目光"
+    },
+    {
+      "enName": "Severed Wrist",
+      "cnName": "断腕"
+    },
+    {
+      "enName": "Buzzing",
+      "cnName": "蜂鸣"
+    },
+    {
+      "enName": "Gravel",
+      "cnName": "砂砾"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Shallow Dream Talking - Weapon",
+      "cnName": "浅白梦语-武器"
+    },
+    {
+      "enName": "Shallow Dream Talking - Weapon",
+      "cnName": "浅白梦语-武器"
+    },
+    {
+      "enName": "Shallow Dream Talking - Weapon",
+      "cnName": "浅白梦语-武器"
+    },
+    {
+      "enName": "Shallow Dream Talking - Weapon",
+      "cnName": "浅白梦语-武器"
+    },
+    {
+      "enName": "Shallow Dream Talking - Weapon",
+      "cnName": "浅白梦语-武器"
+    },
+    {
+      "enName": "Shallow Dream Talking - Weapon",
+      "cnName": "浅白梦语-武器"
+    }
+  ]
+}

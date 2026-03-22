@@ -9,6 +9,7 @@ import { getGearAffixes } from "@/src/tli/calcs/affix-collectors";
 import type { Gear } from "@/src/tli/core";
 import type { GearSlot } from "../../lib/types";
 import { GearTooltipContent } from "./GearTooltipContent";
+import { getBaseGearNameTranslation } from "@/src/data/translated-affixes/base-gear-name-translations";
 
 interface OptionWithTooltipProps {
   item: Gear;
@@ -38,7 +39,7 @@ const OptionWithTooltip: React.FC<OptionWithTooltipProps> = ({
       onMouseLeave={() => setIsHovered(false)}
     >
       <span className={selected ? "text-amber-400" : ""}>
-        {item.legendaryName ?? item.baseGearName ?? item.equipmentType}
+        {item.legendaryName ?? getBaseGearNameTranslation(item.baseGearName) ?? item.equipmentType}
       </span>
       {isLegendary && (
         <span className="text-amber-400 ml-2 text-xs">Legendary</span>
@@ -123,7 +124,7 @@ export const EquipmentSlotDropdown: React.FC<EquipmentSlotDropdownProps> = ({
           // biome-ignore lint/style/noNonNullAssertion: inventory items always have id
           value: item.id!,
           label: i18n._(
-            item.legendaryName ?? item.baseGearName ?? item.equipmentType,
+            item.legendaryName ?? getBaseGearNameTranslation(item.baseGearName) ?? item.equipmentType,
           ),
           sublabel: `${getGearAffixes(item).length} affixes`,
         }))}

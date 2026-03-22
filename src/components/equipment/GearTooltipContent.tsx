@@ -2,6 +2,8 @@ import { TooltipTitle } from "@/src/components/ui/Tooltip";
 import { i18n } from "@/src/lib/i18n";
 import { getGearAffixes } from "@/src/tli/calcs/affix-collectors";
 import type { Gear } from "@/src/tli/core";
+import { getTranslatedAffixText } from "@/src/lib/affix-translator";
+import { getBaseGearNameTranslation } from "@/src/data/translated-affixes/base-gear-name-translations";
 
 export const GearTooltipContent: React.FC<{ item: Gear }> = ({ item }) => {
   const isLegendary = item.rarity === "legendary";
@@ -10,7 +12,7 @@ export const GearTooltipContent: React.FC<{ item: Gear }> = ({ item }) => {
   return (
     <>
       <TooltipTitle>
-        {item.legendaryName ?? item.baseGearName ?? item.equipmentType}
+        {item.legendaryName ?? getBaseGearNameTranslation(item.baseGearName) ?? item.equipmentType}
       </TooltipTitle>
       {isLegendary && (
         <div className="text-xs text-zinc-500 mb-2">{item.equipmentType}</div>
@@ -41,7 +43,7 @@ export const GearTooltipContent: React.FC<{ item: Gear }> = ({ item }) => {
                     lineIdx > 0 ? "mt-1 pt-1 border-t border-zinc-800" : ""
                   }
                 >
-                  <div className="text-xs text-zinc-400">{line.text}</div>
+                  <div className="text-xs text-zinc-400">{getTranslatedAffixText(line.text)}</div>
                   {line.mods === undefined && (
                     <div className="text-xs text-red-500">
                       (Mod not supported in TOB yet)

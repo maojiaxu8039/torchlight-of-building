@@ -1,0 +1,1550 @@
+{
+  "equipmentType": "Rod",
+  "affixes": [
+    {
+      "modifierId": "1503300",
+      "enText": "Adds (10–13) - (14–19) Physical Damage to Minions",
+      "cnText": "召唤物附加 (10–13) - (14–19) 点物理伤害"
+    },
+    {
+      "modifierId": "1503301",
+      "enText": "Adds (9–14) - (15–20) Fire Damage to Minions",
+      "cnText": "召唤物附加 (9–14) - (15–20) 点火焰伤害"
+    },
+    {
+      "modifierId": "1503302",
+      "enText": "Adds (10–13) - (14–19) Cold Damage to Minions",
+      "cnText": "召唤物附加 (10–13) - (14–19) 点冰冷伤害"
+    },
+    {
+      "modifierId": "1503303",
+      "enText": "Adds (1–2) - (28–32) Lightning Damage to Minions",
+      "cnText": "召唤物附加 (1–2) - (28–32) 点闪电伤害"
+    },
+    {
+      "modifierId": "1503304",
+      "enText": "Adds (11–13) - (15–18) Erosion Damage to Minions",
+      "cnText": "召唤物附加 (11–13) - (15–18) 点腐蚀伤害"
+    },
+    {
+      "modifierId": "1503305",
+      "enText": "+(15–20) Strength",
+      "cnText": "+(15–20) 力量"
+    },
+    {
+      "modifierId": "1503306",
+      "enText": "+(15–20) Dexterity",
+      "cnText": "+(15–20) 敏捷"
+    },
+    {
+      "modifierId": "1503307",
+      "enText": "+(15–20) Intelligence",
+      "cnText": "+(15–20) 智慧"
+    },
+    {
+      "modifierId": "1503308",
+      "enText": "+(20–24)% Minion Damage",
+      "cnText": "+(20–24)% 召唤物伤害"
+    },
+    {
+      "modifierId": "1503309",
+      "enText": "+(6–8)% Minion Attack and Cast Speed",
+      "cnText": "+(6–8)% 召唤物攻击与施法速度"
+    },
+    {
+      "modifierId": "1503310",
+      "enText": "+100% chance to gain 1 stack of Tenacity Blessing when casting a skill. Interval: 1 s",
+      "cnText": "释放召唤技能时，+100% 几率获得 1 层坚韧祝福，间隔 1 秒"
+    },
+    {
+      "modifierId": "1503311",
+      "enText": "+100% chance to gain 1 stack of Focus Blessing when casting a Summon Skill. Interval: 1 s",
+      "cnText": "释放召唤技能时，+100% 几率获得 1 层聚能祝福，间隔 1 秒"
+    },
+    {
+      "modifierId": "1503312",
+      "enText": "+(6–8)% additional Minion Damage",
+      "cnText": "额外 +(6–8)% 召唤物伤害"
+    },
+    {
+      "modifierId": "1503313",
+      "enText": "Minion Damage penetrates (6–8)% Elemental Resistance",
+      "cnText": "召唤物伤害穿透 (6–8)% 元素抗性"
+    },
+    {
+      "modifierId": "1503314",
+      "enText": "+(5–7)% Armor DMG Mitigation Penetration for Minions",
+      "cnText": "召唤物 +(5–7)% 护甲减伤穿透"
+    },
+    {
+      "modifierId": "1503315",
+      "enText": "+1 to Max Focus Blessing Stacks",
+      "cnText": "+1 聚能祝福层数上限"
+    },
+    {
+      "modifierId": "60063301",
+      "enText": "+(5–8)% chance to trigger the Main Spell Skill 1 additional time when using it",
+      "cnText": "使用核心法术技能时，+(5–8)% 几率额外触发一次"
+    },
+    {
+      "modifierId": "60063302",
+      "enText": "+(4–8)% chance to gain 1 stack of Focus Blessing on defeat",
+      "cnText": "击败时，+(4–8)% 几率获得 1 层聚能祝福"
+    },
+    {
+      "modifierId": "60063303",
+      "enText": "+(5–8)% Elemental and Erosion Resistance Penetration for Minions",
+      "cnText": "召唤物 +(5–8)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "modifierId": "60063304",
+      "enText": "+(10–16)% Cast Speed",
+      "cnText": "+(10–16)% 施法速度"
+    },
+    {
+      "modifierId": "60063305",
+      "enText": "+(20–30)% Minion Damage",
+      "cnText": "+(20–30)% 召唤物伤害"
+    },
+    {
+      "modifierId": "60063306",
+      "enText": "+(30–40)% Minion Critical Strike Rating",
+      "cnText": "+(30–40)% 召唤物暴击值"
+    },
+    {
+      "modifierId": "60063307",
+      "enText": "+(25–32)% Minion Critical Strike Damage",
+      "cnText": "+(25–32)% 召唤物暴击伤害"
+    },
+    {
+      "modifierId": "60063308",
+      "enText": "+(6–10)% Cooldown Recovery Speed",
+      "cnText": "+(6–10)% 冷却回复速度"
+    },
+    {
+      "modifierId": "60063309",
+      "enText": "Adds (5–8)% of Elemental Damage as Erosion Damage",
+      "cnText": "附加 (5–8)% 元素伤害的腐蚀伤害"
+    },
+    {
+      "modifierId": "106330001",
+      "enText": "Adds (63–65) - (82–87) Fire Damage to Minions",
+      "cnText": "召唤物附加 (63–65) - (82–87) 点火焰伤害"
+    },
+    {
+      "modifierId": "106330101",
+      "enText": "Adds (64–66) - (85–87) Cold Damage to Minions",
+      "cnText": "召唤物附加 (64–66) - (85–87) 点冰冷伤害"
+    },
+    {
+      "modifierId": "106330201",
+      "enText": "Adds (7–9) - (142–144) Lightning Damage to Minions",
+      "cnText": "召唤物附加 (7–9) - (142–144) 点闪电伤害"
+    },
+    {
+      "modifierId": "106330301",
+      "enText": "Adds (67–69) - (82–84) Erosion Damage to Minions",
+      "cnText": "召唤物附加 (67–69) - (82–84) 点腐蚀伤害"
+    },
+    {
+      "modifierId": "107330101",
+      "enText": "+(77–108)% Minion Damage",
+      "cnText": "+(77–108)% 召唤物伤害"
+    },
+    {
+      "modifierId": "140330701",
+      "enText": "Adds (67–69) - (82–84) Physical Damage to Minions",
+      "cnText": "召唤物附加 (67–69) - (82–84) 点物理伤害"
+    },
+    {
+      "modifierId": "140330801",
+      "enText": "+(33–45)% Minion Max Life",
+      "cnText": "+(33–45)% 召唤物最大生命"
+    },
+    {
+      "modifierId": "109330001",
+      "enText": "+(64–90) Intelligence",
+      "cnText": "+(64–90) 智慧"
+    },
+    {
+      "modifierId": "109330301",
+      "enText": "+(64–90) Strength",
+      "cnText": "+(64–90) 力量"
+    },
+    {
+      "modifierId": "109330401",
+      "enText": "+(64–90) Dexterity",
+      "cnText": "+(64–90) 敏捷"
+    },
+    {
+      "modifierId": "140330001",
+      "enText": "+(22–30)% chance for Spirit Magi to use an Enhanced Skill",
+      "cnText": "魔灵 +(22–30)% 强化技能使用几率"
+    },
+    {
+      "modifierId": "140330101",
+      "enText": "+1 to Max Summonable Synthetic Troops+(6–8)% additional Minion Damage",
+      "cnText": "+1 智械召唤物数量上限额外 +(6–8)% 召唤物伤害"
+    },
+    {
+      "modifierId": "115330701",
+      "enText": "+3 Minion Skill Level",
+      "cnText": "+3 召唤召唤物的技能等级"
+    },
+    {
+      "modifierId": "115331201",
+      "enText": "+(18–25)% Armor DMG Mitigation Penetration for Minions",
+      "cnText": "召唤物 +(18–25)% 护甲减伤穿透"
+    },
+    {
+      "modifierId": "130330001",
+      "enText": "+3 Main Skill Level",
+      "cnText": "+3 核心技能等级"
+    },
+    {
+      "modifierId": "130330101",
+      "enText": "+(22–30)% Elemental and Erosion Resistance Penetration for Minions",
+      "cnText": "召唤物 +(22–30)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "modifierId": "107330001",
+      "enText": "+(77–108)% Physical Damage for Minions",
+      "cnText": "召唤物 +(77–108)% 物理伤害"
+    },
+    {
+      "modifierId": "107330201",
+      "enText": "+(77–108)% Minion Elemental Damage",
+      "cnText": "+(77–108)% 召唤物元素伤害"
+    },
+    {
+      "modifierId": "107330601",
+      "enText": "+(77–108)% Minion Erosion Damage",
+      "cnText": "+(77–108)% 召唤物腐蚀伤害"
+    },
+    {
+      "modifierId": "110330001",
+      "enText": "+(27–36)% Attack and Cast Speed+(27–36)% Minion Attack and Cast Speed",
+      "cnText": "+(27–36)% 攻击与施法速度+(27–36)% 召唤物攻击与施法速度"
+    },
+    {
+      "modifierId": "140330201",
+      "enText": "Regenerates (130–180) Life per second",
+      "cnText": "每秒自然回复 (130–180) 生命"
+    },
+    {
+      "modifierId": "140330301",
+      "enText": "+(18–24)% Energy Shield Charge Speed",
+      "cnText": "+(18–24)% 护盾充能速度"
+    },
+    {
+      "modifierId": "110330601",
+      "enText": "+(127–180)% Minion Critical Strike Rating",
+      "cnText": "+(127–180)% 召唤物暴击值"
+    },
+    {
+      "modifierId": "140330401",
+      "enText": "+(89–125) Minion Critical Strike Rating",
+      "cnText": "+(89–125) 召唤物暴击值"
+    },
+    {
+      "modifierId": "140330501",
+      "enText": "+(51–72)% Minion Skill Area",
+      "cnText": "+(51–72)% 召唤物技能范围"
+    },
+    {
+      "modifierId": "110330701",
+      "enText": "+(106–150)% Minion Critical Strike Damage",
+      "cnText": "+(106–150)% 召唤物暴击伤害"
+    },
+    {
+      "modifierId": "116330801",
+      "enText": "+(29–40)% additional Spirit Magus Enhanced Skill Damage and Ailment Damage dealt by Enhanced Skills",
+      "cnText": "额外 +(29–40)%魔灵强化技能伤害和强化技能造成的异常伤害"
+    },
+    {
+      "modifierId": "116330901",
+      "enText": "+(43–60)% additional Spirit Magus Ultimate Damage and Ailment Damage dealt by Ultimate.",
+      "cnText": "额外 +(43–60)% 魔灵终极技能伤害和终极技能造成的异常伤害"
+    },
+    {
+      "modifierId": "130330501",
+      "enText": "+(29–40)% chance for Minions to deal Double Damage",
+      "cnText": "召唤物 +(29–40)% 几率造成双倍伤害"
+    },
+    {
+      "modifierId": "140330601",
+      "enText": "+(26–35)% additional damage for Synthetic Troop Minions when having at least 40 Command",
+      "cnText": "至少拥有 40 点统御值时，智械召唤物额外 +(26–35)% 伤害"
+    },
+    {
+      "modifierId": "85033001",
+      "enText": "Adds (10–13) - (14–19) Physical Damage to Minions",
+      "cnText": "召唤物附加 (10–13) - (14–19) 点物理伤害"
+    },
+    {
+      "modifierId": "85033011",
+      "enText": "Adds (9–14) - (15–20) Fire Damage to Minions",
+      "cnText": "召唤物附加 (9–14) - (15–20) 点火焰伤害"
+    },
+    {
+      "modifierId": "85033021",
+      "enText": "Adds (10–13) - (14–19) Cold Damage to Minions",
+      "cnText": "召唤物附加 (10–13) - (14–19) 点冰冷伤害"
+    },
+    {
+      "modifierId": "85033031",
+      "enText": "Adds (1–2) - (28–32) Lightning Damage to Minions",
+      "cnText": "召唤物附加 (1–2) - (28–32) 点闪电伤害"
+    },
+    {
+      "modifierId": "85033041",
+      "enText": "Adds (11–13) - (15–18) Erosion Damage to Minions",
+      "cnText": "召唤物附加 (11–13) - (15–18) 点腐蚀伤害"
+    },
+    {
+      "modifierId": "85033051",
+      "enText": "+(15–20) Strength",
+      "cnText": "+(15–20) 力量"
+    },
+    {
+      "modifierId": "85033061",
+      "enText": "+(15–20) Dexterity",
+      "cnText": "+(15–20) 敏捷"
+    },
+    {
+      "modifierId": "85033071",
+      "enText": "+(15–20) Intelligence",
+      "cnText": "+(15–20) 智慧"
+    },
+    {
+      "modifierId": "85033081",
+      "enText": "+(20–24)% Minion Damage",
+      "cnText": "+(20–24)% 召唤物伤害"
+    },
+    {
+      "modifierId": "85033091",
+      "enText": "+(6–8)% Minion Attack and Cast Speed",
+      "cnText": "+(6–8)% 召唤物攻击与施法速度"
+    },
+    {
+      "modifierId": "85033101",
+      "enText": "+100% chance to gain 1 stack of Tenacity Blessing when casting a skill. Interval: 1 s",
+      "cnText": "释放召唤技能时，+100% 几率获得 1 层坚韧祝福，间隔 1 秒"
+    },
+    {
+      "modifierId": "85033111",
+      "enText": "+100% chance to gain 1 stack of Focus Blessing when casting a Summon Skill. Interval: 1 s",
+      "cnText": "释放召唤技能时，+100% 几率获得 1 层聚能祝福，间隔 1 秒"
+    },
+    {
+      "modifierId": "85033121",
+      "enText": "+(6–8)% additional Minion Damage",
+      "cnText": "额外 +(6–8)% 召唤物伤害"
+    },
+    {
+      "modifierId": "85033131",
+      "enText": "Minion Damage penetrates (6–8)% Elemental Resistance",
+      "cnText": "召唤物伤害穿透 (6–8)% 元素抗性"
+    },
+    {
+      "modifierId": "85033141",
+      "enText": "+(5–7)% Armor DMG Mitigation Penetration for Minions",
+      "cnText": "召唤物 +(5–7)% 护甲减伤穿透"
+    },
+    {
+      "modifierId": "85033151",
+      "enText": "+1 to Max Focus Blessing Stacks",
+      "cnText": "+1 聚能祝福层数上限"
+    },
+    {
+      "modifierId": "160451033",
+      "enText": "+8% additional Minion Damage",
+      "cnText": "额外 +8% 召唤物伤害"
+    },
+    {
+      "modifierId": "160452033",
+      "enText": "+6% Armor DMG Mitigation Penetration for Minions",
+      "cnText": "召唤物 +6% 护甲减伤穿透"
+    },
+    {
+      "modifierId": "160453033",
+      "enText": "+8% Minion Fire Penetration",
+      "cnText": "召唤物 +8% 火焰穿透"
+    },
+    {
+      "modifierId": "160454033",
+      "enText": "+8% Cold Penetration for Minions",
+      "cnText": "召唤物 +8% 冰冷穿透"
+    },
+    {
+      "modifierId": "160455033",
+      "enText": "+8% Lightning Penetration for Minions",
+      "cnText": "召唤物 +8% 闪电穿透"
+    },
+    {
+      "modifierId": "160456033",
+      "enText": "+8% Erosion Penetration for Minions",
+      "cnText": "召唤物 +8% 腐蚀穿透"
+    },
+    {
+      "modifierId": "160457033",
+      "enText": "+16% Minion Attack and Cast Speed",
+      "cnText": "+16% 召唤物攻击与施法速度"
+    },
+    {
+      "modifierId": "160458033",
+      "enText": "+55 Minion Critical Strike Rating",
+      "cnText": "+55 召唤物暴击值"
+    },
+    {
+      "modifierId": "160459033",
+      "enText": "+40% Minion Critical Strike Damage",
+      "cnText": "+40% 召唤物暴击伤害"
+    },
+    {
+      "modifierId": "160460033",
+      "enText": "+8% all stats",
+      "cnText": "+8% 全属性"
+    },
+    {
+      "modifierId": "160571033",
+      "enText": "+80 initial Growth for Spirit Magi",
+      "cnText": "魔灵 +80 初始生长值"
+    },
+    {
+      "modifierId": "160572033",
+      "enText": "+ 10 Command per second",
+      "cnText": "每秒统御值增加 10 点"
+    },
+    {
+      "modifierId": "160573033",
+      "enText": "Triggers Lv. 10 Entangled Pain Curse and Timid Curse when a Minion deals damage. Cooldown: 1 sMinions can cast 1 additional Curse(s)",
+      "cnText": "召唤物造成伤害时，触发 10 级苦痛纠缠诅咒和胆怯诅咒，冷却时间为 1 秒召唤物可以施加 1 个额外诅咒"
+    },
+    {
+      "modifierId": "160574033",
+      "enText": "The Main Skill is supported by a Lv. 25 Servant Damage",
+      "cnText": "核心技能被 25 级的仆从伤害辅助"
+    },
+    {
+      "modifierId": "160575033",
+      "enText": "-80 Minion Critical Strike Rating+200% Minion Critical Strike Damage",
+      "cnText": "-80 召唤物暴击值+200% 召唤物暴击伤害"
+    },
+    {
+      "modifierId": "160576033",
+      "enText": "+120% Radical Order Aura Effect-20% additional Radical Order Sealed Mana Compensation",
+      "cnText": "+120% 激进号令光环效果额外 -20% 激进号令魔力封印补偿"
+    },
+    {
+      "modifierId": "160577033",
+      "enText": "Triggers Lv. 20 Dark Gate when moving. Interval: 4 s",
+      "cnText": "移动时，触发 20 级黑暗之门，间隔 4 秒"
+    },
+    {
+      "modifierId": "160578033",
+      "enText": "When Minions deal damage, inflicts Fire Infiltration. Interval for each enemy: 1 sWhen Minions deal damage, inflicts Lightning Infiltration. Interval for each enemy: 1 sWhen Minions deal damage, inflicts Cold Infiltration. Interval for each enemy: 1 s",
+      "cnText": "召唤物造成伤害时，施加火焰渗透，对每个敌人拥有 1 秒间隔时间召唤物造成伤害时，施加闪电渗透，对每个敌人拥有 1 秒间隔时间召唤物造成伤害时，施加冰冷渗透，对每个敌人拥有 1 秒间隔时间"
+    },
+    {
+      "modifierId": "750000",
+      "enText": "500 Critical Strike Rating",
+      "cnText": "500 暴击值"
+    },
+    {
+      "modifierId": "750001",
+      "enText": "1.2 Attack Speed",
+      "cnText": "1.2 攻击速度"
+    },
+    {
+      "modifierId": "540001",
+      "enText": "+2% Minion Damage",
+      "cnText": "+2% 召唤物伤害"
+    },
+    {
+      "modifierId": "540002",
+      "enText": "+3% Minion Damage",
+      "cnText": "+3% 召唤物伤害"
+    },
+    {
+      "modifierId": "540003",
+      "enText": "+5% Minion Damage",
+      "cnText": "+5% 召唤物伤害"
+    },
+    {
+      "modifierId": "540004",
+      "enText": "+7% Minion Damage",
+      "cnText": "+7% 召唤物伤害"
+    },
+    {
+      "modifierId": "540005",
+      "enText": "+9% Minion Damage",
+      "cnText": "+9% 召唤物伤害"
+    },
+    {
+      "modifierId": "540006",
+      "enText": "+11% Minion Damage",
+      "cnText": "+11% 召唤物伤害"
+    },
+    {
+      "modifierId": "540007",
+      "enText": "+13% Minion Damage",
+      "cnText": "+13% 召唤物伤害"
+    },
+    {
+      "modifierId": "540008",
+      "enText": "+15% Minion Damage",
+      "cnText": "+15% 召唤物伤害"
+    },
+    {
+      "modifierId": "540009",
+      "enText": "+17% Minion Damage",
+      "cnText": "+17% 召唤物伤害"
+    },
+    {
+      "modifierId": "540010",
+      "enText": "+19% Minion Damage",
+      "cnText": "+19% 召唤物伤害"
+    },
+    {
+      "modifierId": "540011",
+      "enText": "+21% Minion Damage",
+      "cnText": "+21% 召唤物伤害"
+    },
+    {
+      "modifierId": "540012",
+      "enText": "+23% Minion Damage",
+      "cnText": "+23% 召唤物伤害"
+    },
+    {
+      "modifierId": "540013",
+      "enText": "+25% Minion Damage",
+      "cnText": "+25% 召唤物伤害"
+    },
+    {
+      "modifierId": "540014",
+      "enText": "+27% Minion Damage",
+      "cnText": "+27% 召唤物伤害"
+    },
+    {
+      "modifierId": "540015",
+      "enText": "+29% Minion Damage",
+      "cnText": "+29% 召唤物伤害"
+    },
+    {
+      "modifierId": "540016",
+      "enText": "+31% Minion Damage",
+      "cnText": "+31% 召唤物伤害"
+    },
+    {
+      "modifierId": "540017",
+      "enText": "+33% Minion Damage",
+      "cnText": "+33% 召唤物伤害"
+    },
+    {
+      "modifierId": "540018",
+      "enText": "+35% Minion Damage",
+      "cnText": "+35% 召唤物伤害"
+    },
+    {
+      "modifierId": "540019",
+      "enText": "+37% Minion Damage",
+      "cnText": "+37% 召唤物伤害"
+    },
+    {
+      "modifierId": "540020",
+      "enText": "+39% Minion Damage",
+      "cnText": "+39% 召唤物伤害"
+    },
+    {
+      "modifierId": "106330080",
+      "enText": "Adds (107–109) - (139–147) Fire Damage to Minions",
+      "cnText": "召唤物附加 (107–109) - (139–147) 点火焰伤害"
+    },
+    {
+      "modifierId": "106330000",
+      "enText": "Adds (82–84) - (106–113) Fire Damage to Minions",
+      "cnText": "召唤物附加 (82–84) - (106–113) 点火焰伤害"
+    },
+    {
+      "modifierId": "106330002",
+      "enText": "Adds (41–43) - (53–58) Fire Damage to Minions",
+      "cnText": "召唤物附加 (41–43) - (53–58) 点火焰伤害"
+    },
+    {
+      "modifierId": "106330003",
+      "enText": "Adds (30–32) - (39–42) Fire Damage to Minions",
+      "cnText": "召唤物附加 (30–32) - (39–42) 点火焰伤害"
+    },
+    {
+      "modifierId": "106330004",
+      "enText": "Adds (22–24) - (29–32) Fire Damage to Minions",
+      "cnText": "召唤物附加 (22–24) - (29–32) 点火焰伤害"
+    },
+    {
+      "modifierId": "106330005",
+      "enText": "Adds (14–16) - (19–22) Fire Damage to Minions",
+      "cnText": "召唤物附加 (14–16) - (19–22) 点火焰伤害"
+    },
+    {
+      "modifierId": "106330006",
+      "enText": "Adds (10–12) - (14–17) Fire Damage to Minions",
+      "cnText": "召唤物附加 (10–12) - (14–17) 点火焰伤害"
+    },
+    {
+      "modifierId": "106330007",
+      "enText": "Adds 4 - (5–6) Fire Damage to Minions",
+      "cnText": "召唤物附加 4 - (5–6) 点火焰伤害"
+    },
+    {
+      "modifierId": "106330180",
+      "enText": "Adds (108–110) - (144–146) Cold Damage to Minions",
+      "cnText": "召唤物附加 (108–110) - (144–146) 点冰冷伤害"
+    },
+    {
+      "modifierId": "106330100",
+      "enText": "Adds (83–85) - (110–112) Cold Damage to Minions",
+      "cnText": "召唤物附加 (83–85) - (110–112) 点冰冷伤害"
+    },
+    {
+      "modifierId": "106330102",
+      "enText": "Adds (42–44) - (55–57) Cold Damage to Minions",
+      "cnText": "召唤物附加 (42–44) - (55–57) 点冰冷伤害"
+    },
+    {
+      "modifierId": "106330103",
+      "enText": "Adds (30–32) - (40–42) Cold Damage to Minions",
+      "cnText": "召唤物附加 (30–32) - (40–42) 点冰冷伤害"
+    },
+    {
+      "modifierId": "106330104",
+      "enText": "Adds (22–24) - (30–32) Cold Damage to Minions",
+      "cnText": "召唤物附加 (22–24) - (30–32) 点冰冷伤害"
+    },
+    {
+      "modifierId": "106330105",
+      "enText": "Adds (14–16) - (20–22) Cold Damage to Minions",
+      "cnText": "召唤物附加 (14–16) - (20–22) 点冰冷伤害"
+    },
+    {
+      "modifierId": "106330106",
+      "enText": "Adds (11–13) - (14–16) Cold Damage to Minions",
+      "cnText": "召唤物附加 (11–13) - (14–16) 点冰冷伤害"
+    },
+    {
+      "modifierId": "106330107",
+      "enText": "Adds 4 - (5–6) Cold Damage to Minions",
+      "cnText": "召唤物附加 4 - (5–6) 点冰冷伤害"
+    },
+    {
+      "modifierId": "106330280",
+      "enText": "Adds (12–14) - (240–242) Lightning Damage to Minions",
+      "cnText": "召唤物附加 (12–14) - (240–242) 点闪电伤害"
+    },
+    {
+      "modifierId": "106330200",
+      "enText": "Adds (9–11) - (184–186) Lightning Damage to Minions",
+      "cnText": "召唤物附加 (9–11) - (184–186) 点闪电伤害"
+    },
+    {
+      "modifierId": "106330202",
+      "enText": "Adds (4–6) - (93–95) Lightning Damage to Minions",
+      "cnText": "召唤物附加 (4–6) - (93–95) 点闪电伤害"
+    },
+    {
+      "modifierId": "106330203",
+      "enText": "Adds (3–5) - (67–69) Lightning Damage to Minions",
+      "cnText": "召唤物附加 (3–5) - (67–69) 点闪电伤害"
+    },
+    {
+      "modifierId": "106330204",
+      "enText": "Adds (1–4) - (50–52) Lightning Damage to Minions",
+      "cnText": "召唤物附加 (1–4) - (50–52) 点闪电伤害"
+    },
+    {
+      "modifierId": "106330205",
+      "enText": "Adds (1–3) - (33–35) Lightning Damage to Minions",
+      "cnText": "召唤物附加 (1–3) - (33–35) 点闪电伤害"
+    },
+    {
+      "modifierId": "106330206",
+      "enText": "Adds (1–2) - (25–27) Lightning Damage to Minions",
+      "cnText": "召唤物附加 (1–2) - (25–27) 点闪电伤害"
+    },
+    {
+      "modifierId": "106330207",
+      "enText": "Adds (1–2) - (16–18) Lightning Damage to Minions",
+      "cnText": "召唤物附加 (1–2) - (16–18) 点闪电伤害"
+    },
+    {
+      "modifierId": "106330380",
+      "enText": "Adds (116–118) - (136–138) Erosion Damage to Minions",
+      "cnText": "召唤物附加 (116–118) - (136–138) 点腐蚀伤害"
+    },
+    {
+      "modifierId": "106330300",
+      "enText": "Adds (87–89) - (106–108) Erosion Damage to Minions",
+      "cnText": "召唤物附加 (87–89) - (106–108) 点腐蚀伤害"
+    },
+    {
+      "modifierId": "106330302",
+      "enText": "Adds (44–46) - (53–55) Erosion Damage to Minions",
+      "cnText": "召唤物附加 (44–46) - (53–55) 点腐蚀伤害"
+    },
+    {
+      "modifierId": "106330303",
+      "enText": "Adds (31–33) - (39–41) Erosion Damage to Minions",
+      "cnText": "召唤物附加 (31–33) - (39–41) 点腐蚀伤害"
+    },
+    {
+      "modifierId": "106330304",
+      "enText": "Adds (23–25) - (29–31) Erosion Damage to Minions",
+      "cnText": "召唤物附加 (23–25) - (29–31) 点腐蚀伤害"
+    },
+    {
+      "modifierId": "106330305",
+      "enText": "Adds (15–17) - (19–21) Erosion Damage to Minions",
+      "cnText": "召唤物附加 (15–17) - (19–21) 点腐蚀伤害"
+    },
+    {
+      "modifierId": "106330306",
+      "enText": "Adds (11–13) - (14–16) Erosion Damage to Minions",
+      "cnText": "召唤物附加 (11–13) - (14–16) 点腐蚀伤害"
+    },
+    {
+      "modifierId": "106330307",
+      "enText": "Adds 4 - (5–6) Erosion Damage to Minions",
+      "cnText": "召唤物附加 4 - (5–6) 点腐蚀伤害"
+    },
+    {
+      "modifierId": "107330180",
+      "enText": "+(141–183)% Minion Damage",
+      "cnText": "+(141–183)% 召唤物伤害"
+    },
+    {
+      "modifierId": "107330100",
+      "enText": "+(109–140)% Minion Damage",
+      "cnText": "+(109–140)% 召唤物伤害"
+    },
+    {
+      "modifierId": "107330102",
+      "enText": "+(55–76)% Minion Damage",
+      "cnText": "+(55–76)% 召唤物伤害"
+    },
+    {
+      "modifierId": "107330103",
+      "enText": "+(44–54)% Minion Damage",
+      "cnText": "+(44–54)% 召唤物伤害"
+    },
+    {
+      "modifierId": "107330104",
+      "enText": "+(36–43)% Minion Damage",
+      "cnText": "+(36–43)% 召唤物伤害"
+    },
+    {
+      "modifierId": "107330105",
+      "enText": "+(29–35)% Minion Damage",
+      "cnText": "+(29–35)% 召唤物伤害"
+    },
+    {
+      "modifierId": "107330106",
+      "enText": "+(23–28)% Minion Damage",
+      "cnText": "+(23–28)% 召唤物伤害"
+    },
+    {
+      "modifierId": "107330107",
+      "enText": "+(17–22)% Minion Damage",
+      "cnText": "+(17–22)% 召唤物伤害"
+    },
+    {
+      "modifierId": "140330780",
+      "enText": "Adds (113–115) - (138–140) Physical Damage to Minions",
+      "cnText": "召唤物附加 (113–115) - (138–140) 点物理伤害"
+    },
+    {
+      "modifierId": "140330700",
+      "enText": "Adds (87–89) - (106–108) Physical Damage to Minions",
+      "cnText": "召唤物附加 (87–89) - (106–108) 点物理伤害"
+    },
+    {
+      "modifierId": "140330702",
+      "enText": "Adds (44–46) - (53–55) Physical Damage to Minions",
+      "cnText": "召唤物附加 (44–46) - (53–55) 点物理伤害"
+    },
+    {
+      "modifierId": "140330703",
+      "enText": "Adds (31–33) - (39–41) Physical Damage to Minions",
+      "cnText": "召唤物附加 (31–33) - (39–41) 点物理伤害"
+    },
+    {
+      "modifierId": "140330704",
+      "enText": "Adds (23–25) - (29–31) Physical Damage to Minions",
+      "cnText": "召唤物附加 (23–25) - (29–31) 点物理伤害"
+    },
+    {
+      "modifierId": "140330705",
+      "enText": "Adds (15–17) - (19–21) Physical Damage to Minions",
+      "cnText": "召唤物附加 (15–17) - (19–21) 点物理伤害"
+    },
+    {
+      "modifierId": "140330706",
+      "enText": "Adds (11–13) - (14–16) Physical Damage to Minions",
+      "cnText": "召唤物附加 (11–13) - (14–16) 点物理伤害"
+    },
+    {
+      "modifierId": "140330707",
+      "enText": "Adds (7–9) - (9–11) Physical Damage to Minions",
+      "cnText": "召唤物附加 (7–9) - (9–11) 点物理伤害"
+    },
+    {
+      "modifierId": "140330880",
+      "enText": "+(60–76)% Minion Max Life",
+      "cnText": "+(60–76)% 召唤物最大生命"
+    },
+    {
+      "modifierId": "140330800",
+      "enText": "+(46–59)% Minion Max Life",
+      "cnText": "+(46–59)% 召唤物最大生命"
+    },
+    {
+      "modifierId": "140330802",
+      "enText": "+(24–32)% Minion Max Life",
+      "cnText": "+(24–32)% 召唤物最大生命"
+    },
+    {
+      "modifierId": "140330803",
+      "enText": "+(19–23)% Minion Max Life",
+      "cnText": "+(19–23)% 召唤物最大生命"
+    },
+    {
+      "modifierId": "140330804",
+      "enText": "+(15–18)% Minion Max Life",
+      "cnText": "+(15–18)% 召唤物最大生命"
+    },
+    {
+      "modifierId": "140330805",
+      "enText": "+(13–14)% Minion Max Life",
+      "cnText": "+(13–14)% 召唤物最大生命"
+    },
+    {
+      "modifierId": "140330806",
+      "enText": "+(10–12)% Minion Max Life",
+      "cnText": "+(10–12)% 召唤物最大生命"
+    },
+    {
+      "modifierId": "140330807",
+      "enText": "+(8–9)% Minion Max Life",
+      "cnText": "+(8–9)% 召唤物最大生命"
+    },
+    {
+      "modifierId": "109330080",
+      "enText": "+(118–152) Intelligence",
+      "cnText": "+(118–152) 智慧"
+    },
+    {
+      "modifierId": "109330000",
+      "enText": "+(91–117) Intelligence",
+      "cnText": "+(91–117) 智慧"
+    },
+    {
+      "modifierId": "109330002",
+      "enText": "+(46–63) Intelligence",
+      "cnText": "+(46–63) 智慧"
+    },
+    {
+      "modifierId": "109330003",
+      "enText": "+(37–45) Intelligence",
+      "cnText": "+(37–45) 智慧"
+    },
+    {
+      "modifierId": "109330004",
+      "enText": "+(30–36) Intelligence",
+      "cnText": "+(30–36) 智慧"
+    },
+    {
+      "modifierId": "109330005",
+      "enText": "+(24–29) Intelligence",
+      "cnText": "+(24–29) 智慧"
+    },
+    {
+      "modifierId": "109330006",
+      "enText": "+(19–23) Intelligence",
+      "cnText": "+(19–23) 智慧"
+    },
+    {
+      "modifierId": "109330007",
+      "enText": "+(15–18) Intelligence",
+      "cnText": "+(15–18) 智慧"
+    },
+    {
+      "modifierId": "109330380",
+      "enText": "+(118–152) Strength",
+      "cnText": "+(118–152) 力量"
+    },
+    {
+      "modifierId": "109330300",
+      "enText": "+(91–117) Strength",
+      "cnText": "+(91–117) 力量"
+    },
+    {
+      "modifierId": "109330302",
+      "enText": "+(46–63) Strength",
+      "cnText": "+(46–63) 力量"
+    },
+    {
+      "modifierId": "109330303",
+      "enText": "+(37–45) Strength",
+      "cnText": "+(37–45) 力量"
+    },
+    {
+      "modifierId": "109330304",
+      "enText": "+(30–36) Strength",
+      "cnText": "+(30–36) 力量"
+    },
+    {
+      "modifierId": "109330305",
+      "enText": "+(24–29) Strength",
+      "cnText": "+(24–29) 力量"
+    },
+    {
+      "modifierId": "109330306",
+      "enText": "+(19–23) Strength",
+      "cnText": "+(19–23) 力量"
+    },
+    {
+      "modifierId": "109330307",
+      "enText": "+(15–18) Strength",
+      "cnText": "+(15–18) 力量"
+    },
+    {
+      "modifierId": "109330480",
+      "enText": "+(118–152) Dexterity",
+      "cnText": "+(118–152) 敏捷"
+    },
+    {
+      "modifierId": "109330400",
+      "enText": "+(91–117) Dexterity",
+      "cnText": "+(91–117) 敏捷"
+    },
+    {
+      "modifierId": "109330402",
+      "enText": "+(46–63) Dexterity",
+      "cnText": "+(46–63) 敏捷"
+    },
+    {
+      "modifierId": "109330403",
+      "enText": "+(37–45) Dexterity",
+      "cnText": "+(37–45) 敏捷"
+    },
+    {
+      "modifierId": "109330404",
+      "enText": "+(30–36) Dexterity",
+      "cnText": "+(30–36) 敏捷"
+    },
+    {
+      "modifierId": "109330405",
+      "enText": "+(24–29) Dexterity",
+      "cnText": "+(24–29) 敏捷"
+    },
+    {
+      "modifierId": "109330406",
+      "enText": "+(19–23) Dexterity",
+      "cnText": "+(19–23) 敏捷"
+    },
+    {
+      "modifierId": "109330407",
+      "enText": "+(15–18) Dexterity",
+      "cnText": "+(15–18) 敏捷"
+    },
+    {
+      "modifierId": "140330080",
+      "enText": "+(52–66)% chance for Spirit Magi to use an Enhanced Skill",
+      "cnText": "魔灵 +(52–66)% 强化技能使用几率"
+    },
+    {
+      "modifierId": "140330000",
+      "enText": "+(31–39)% chance for Spirit Magi to use an Enhanced Skill",
+      "cnText": "魔灵 +(31–39)% 强化技能使用几率"
+    },
+    {
+      "modifierId": "140330002",
+      "enText": "+(16–21)% chance for Spirit Magi to use an Enhanced Skill",
+      "cnText": "魔灵 +(16–21)% 强化技能使用几率"
+    },
+    {
+      "modifierId": "140330003",
+      "enText": "+(13–15)% chance for Spirit Magi to use an Enhanced Skill",
+      "cnText": "魔灵 +(13–15)% 强化技能使用几率"
+    },
+    {
+      "modifierId": "140330004",
+      "enText": "+(11–12)% chance for Spirit Magi to use an Enhanced Skill",
+      "cnText": "魔灵 +(11–12)% 强化技能使用几率"
+    },
+    {
+      "modifierId": "140330180",
+      "enText": "+1 to Max Summonable Synthetic Troops+(14–18)% additional Minion Damage",
+      "cnText": "+1 智械召唤物数量上限额外 +(14–18)% 召唤物伤害"
+    },
+    {
+      "modifierId": "140330100",
+      "enText": "+1 to Max Summonable Synthetic Troops+(10–12)% additional Minion Damage",
+      "cnText": "+1 智械召唤物数量上限额外 +(10–12)% 召唤物伤害"
+    },
+    {
+      "modifierId": "115330780",
+      "enText": "+(4–5) Minion Skill Level",
+      "cnText": "+(4–5) 召唤召唤物的技能等级"
+    },
+    {
+      "modifierId": "115330700",
+      "enText": "+(3–4) Minion Skill Level",
+      "cnText": "+(3–4) 召唤召唤物的技能等级"
+    },
+    {
+      "modifierId": "115330702",
+      "enText": "+2 Minion Skill Level",
+      "cnText": "+2 召唤召唤物的技能等级"
+    },
+    {
+      "modifierId": "115331280",
+      "enText": "+(34–42)% Armor DMG Mitigation Penetration for Minions",
+      "cnText": "召唤物 +(34–42)% 护甲减伤穿透"
+    },
+    {
+      "modifierId": "115331200",
+      "enText": "+(26–36)% Armor DMG Mitigation Penetration for Minions",
+      "cnText": "召唤物 +(26–36)% 护甲减伤穿透"
+    },
+    {
+      "modifierId": "115331202",
+      "enText": "+(12–17)% Armor DMG Mitigation Penetration for Minions",
+      "cnText": "召唤物 +(12–17)% 护甲减伤穿透"
+    },
+    {
+      "modifierId": "115331203",
+      "enText": "+(7–11)% Armor DMG Mitigation Penetration for Minions",
+      "cnText": "召唤物 +(7–11)% 护甲减伤穿透"
+    },
+    {
+      "modifierId": "115331204",
+      "enText": "+(5–6)% Armor DMG Mitigation Penetration for Minions",
+      "cnText": "召唤物 +(5–6)% 护甲减伤穿透"
+    },
+    {
+      "modifierId": "130330080",
+      "enText": "+(4–5) Main Skill Level",
+      "cnText": "+(4–5) 核心技能等级"
+    },
+    {
+      "modifierId": "130330000",
+      "enText": "+(3–4) Main Skill Level",
+      "cnText": "+(3–4) 核心技能等级"
+    },
+    {
+      "modifierId": "130330002",
+      "enText": "+2 Main Skill Level",
+      "cnText": "+2 核心技能等级"
+    },
+    {
+      "modifierId": "130330180",
+      "enText": "+(40–51)% Elemental and Erosion Resistance Penetration for Minions",
+      "cnText": "召唤物 +(40–51)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "modifierId": "130330100",
+      "enText": "+(28–39)% Elemental and Erosion Resistance Penetration for Minions",
+      "cnText": "召唤物 +(28–39)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "modifierId": "130330102",
+      "enText": "+(18–21)% Elemental and Erosion Resistance Penetration for Minions",
+      "cnText": "召唤物 +(18–21)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "modifierId": "130330103",
+      "enText": "+(13–15)% Elemental and Erosion Resistance Penetration for Minions",
+      "cnText": "召唤物 +(13–15)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "modifierId": "107330080",
+      "enText": "+(141–183)% Physical Damage for Minions",
+      "cnText": "召唤物 +(141–183)% 物理伤害"
+    },
+    {
+      "modifierId": "107330000",
+      "enText": "+(109–140)% Physical Damage for Minions",
+      "cnText": "召唤物 +(109–140)% 物理伤害"
+    },
+    {
+      "modifierId": "107330002",
+      "enText": "+(55–76)% Physical Damage for Minions",
+      "cnText": "召唤物 +(55–76)% 物理伤害"
+    },
+    {
+      "modifierId": "107330003",
+      "enText": "+(44–54)% Physical Damage for Minions",
+      "cnText": "召唤物 +(44–54)% 物理伤害"
+    },
+    {
+      "modifierId": "107330004",
+      "enText": "+(36–43)% Physical Damage for Minions",
+      "cnText": "召唤物 +(36–43)% 物理伤害"
+    },
+    {
+      "modifierId": "107330005",
+      "enText": "+(29–35)% Physical Damage for Minions",
+      "cnText": "召唤物 +(29–35)% 物理伤害"
+    },
+    {
+      "modifierId": "107330006",
+      "enText": "+(23–28)% Physical Damage for Minions",
+      "cnText": "召唤物 +(23–28)% 物理伤害"
+    },
+    {
+      "modifierId": "107330007",
+      "enText": "+(17–22)% Physical Damage for Minions",
+      "cnText": "召唤物 +(17–22)% 物理伤害"
+    },
+    {
+      "modifierId": "107330280",
+      "enText": "+(141–183)% Minion Elemental Damage",
+      "cnText": "+(141–183)% 召唤物元素伤害"
+    },
+    {
+      "modifierId": "107330200",
+      "enText": "+(109–140)% Minion Elemental Damage",
+      "cnText": "+(109–140)% 召唤物元素伤害"
+    },
+    {
+      "modifierId": "107330202",
+      "enText": "+(55–76)% Minion Elemental Damage",
+      "cnText": "+(55–76)% 召唤物元素伤害"
+    },
+    {
+      "modifierId": "107330203",
+      "enText": "+(44–54)% Minion Elemental Damage",
+      "cnText": "+(44–54)% 召唤物元素伤害"
+    },
+    {
+      "modifierId": "107330204",
+      "enText": "+(36–43)% Minion Elemental Damage",
+      "cnText": "+(36–43)% 召唤物元素伤害"
+    },
+    {
+      "modifierId": "107330205",
+      "enText": "+(29–35)% Minion Elemental Damage",
+      "cnText": "+(29–35)% 召唤物元素伤害"
+    },
+    {
+      "modifierId": "107330206",
+      "enText": "+(23–28)% Minion Elemental Damage",
+      "cnText": "+(23–28)% 召唤物元素伤害"
+    },
+    {
+      "modifierId": "107330207",
+      "enText": "+(17–22)% Minion Elemental Damage",
+      "cnText": "+(17–22)% 召唤物元素伤害"
+    },
+    {
+      "modifierId": "107330680",
+      "enText": "+(141–183)% Minion Erosion Damage",
+      "cnText": "+(141–183)% 召唤物腐蚀伤害"
+    },
+    {
+      "modifierId": "107330600",
+      "enText": "+(109–140)% Minion Erosion Damage",
+      "cnText": "+(109–140)% 召唤物腐蚀伤害"
+    },
+    {
+      "modifierId": "107330602",
+      "enText": "+(55–76)% Minion Erosion Damage",
+      "cnText": "+(55–76)% 召唤物腐蚀伤害"
+    },
+    {
+      "modifierId": "107330603",
+      "enText": "+(44–54)% Minion Erosion Damage",
+      "cnText": "+(44–54)% 召唤物腐蚀伤害"
+    },
+    {
+      "modifierId": "107330604",
+      "enText": "+(36–43)% Minion Erosion Damage",
+      "cnText": "+(36–43)% 召唤物腐蚀伤害"
+    },
+    {
+      "modifierId": "107330605",
+      "enText": "+(29–35)% Minion Erosion Damage",
+      "cnText": "+(29–35)% 召唤物腐蚀伤害"
+    },
+    {
+      "modifierId": "107330606",
+      "enText": "+(23–28)% Minion Erosion Damage",
+      "cnText": "+(23–28)% 召唤物腐蚀伤害"
+    },
+    {
+      "modifierId": "107330607",
+      "enText": "+(17–22)% Minion Erosion Damage",
+      "cnText": "+(17–22)% 召唤物腐蚀伤害"
+    },
+    {
+      "modifierId": "110330080",
+      "enText": "+(48–61)% Attack and Cast Speed+(48–61)% Minion Attack and Cast Speed",
+      "cnText": "+(48–61)% 攻击与施法速度+(48–61)% 召唤物攻击与施法速度"
+    },
+    {
+      "modifierId": "110330000",
+      "enText": "+(37–47)% Attack and Cast Speed+(37–47)% Minion Attack and Cast Speed",
+      "cnText": "+(37–47)% 攻击与施法速度+(37–47)% 召唤物攻击与施法速度"
+    },
+    {
+      "modifierId": "110330002",
+      "enText": "+(19–26)% Attack and Cast Speed+(19–26)% Minion Attack and Cast Speed",
+      "cnText": "+(19–26)% 攻击与施法速度+(19–26)% 召唤物攻击与施法速度"
+    },
+    {
+      "modifierId": "110330003",
+      "enText": "+(14–18)% Attack and Cast Speed+(14–18)% Minion Attack and Cast Speed",
+      "cnText": "+(14–18)% 攻击与施法速度+(14–18)% 召唤物攻击与施法速度"
+    },
+    {
+      "modifierId": "110330004",
+      "enText": "+(10–13)% Attack and Cast Speed+(10–13)% Minion Attack and Cast Speed",
+      "cnText": "+(10–13)% 攻击与施法速度+(10–13)% 召唤物攻击与施法速度"
+    },
+    {
+      "modifierId": "110330005",
+      "enText": "+(7–9)% Attack and Cast Speed+(7–9)% Minion Attack and Cast Speed",
+      "cnText": "+(7–9)% 攻击与施法速度+(7–9)% 召唤物攻击与施法速度"
+    },
+    {
+      "modifierId": "110330006",
+      "enText": "+(5–6)% Attack and Cast Speed+(5–6)% Minion Attack and Cast Speed",
+      "cnText": "+(5–6)% 攻击与施法速度+(5–6)% 召唤物攻击与施法速度"
+    },
+    {
+      "modifierId": "140330280",
+      "enText": "Regenerates (235–304) Life per second",
+      "cnText": "每秒自然回复 (235–304) 生命"
+    },
+    {
+      "modifierId": "140330200",
+      "enText": "Regenerates (181–234) Life per second",
+      "cnText": "每秒自然回复 (181–234) 生命"
+    },
+    {
+      "modifierId": "140330202",
+      "enText": "Regenerates (93–129) Life per second",
+      "cnText": "每秒自然回复 (93–129) 生命"
+    },
+    {
+      "modifierId": "140330203",
+      "enText": "Regenerates (67–92) Life per second",
+      "cnText": "每秒自然回复 (67–92) 生命"
+    },
+    {
+      "modifierId": "140330204",
+      "enText": "Regenerates (45–66) Life per second",
+      "cnText": "每秒自然回复 (45–66) 生命"
+    },
+    {
+      "modifierId": "140330205",
+      "enText": "Regenerates (30–44) Life per second",
+      "cnText": "每秒自然回复 (30–44) 生命"
+    },
+    {
+      "modifierId": "140330206",
+      "enText": "Regenerates (20–29) Life per second",
+      "cnText": "每秒自然回复 (20–29) 生命"
+    },
+    {
+      "modifierId": "140330207",
+      "enText": "Regenerates (13–19) Life per second",
+      "cnText": "每秒自然回复 (13–19) 生命"
+    },
+    {
+      "modifierId": "140330380",
+      "enText": "+(32–41)% Energy Shield Charge Speed",
+      "cnText": "+(32–41)% 护盾充能速度"
+    },
+    {
+      "modifierId": "140330300",
+      "enText": "+(25–31)% Energy Shield Charge Speed",
+      "cnText": "+(25–31)% 护盾充能速度"
+    },
+    {
+      "modifierId": "140330302",
+      "enText": "+(13–17)% Energy Shield Charge Speed",
+      "cnText": "+(13–17)% 护盾充能速度"
+    },
+    {
+      "modifierId": "140330303",
+      "enText": "+(10–12)% Energy Shield Charge Speed",
+      "cnText": "+(10–12)% 护盾充能速度"
+    },
+    {
+      "modifierId": "140330304",
+      "enText": "+(7–9)% Energy Shield Charge Speed",
+      "cnText": "+(7–9)% 护盾充能速度"
+    },
+    {
+      "modifierId": "140330305",
+      "enText": "+(5–6)% Energy Shield Charge Speed",
+      "cnText": "+(5–6)% 护盾充能速度"
+    },
+    {
+      "modifierId": "140330306",
+      "enText": "+4% Energy Shield Charge Speed",
+      "cnText": "+4% 护盾充能速度"
+    },
+    {
+      "modifierId": "140330307",
+      "enText": "+3% Energy Shield Charge Speed",
+      "cnText": "+3% 护盾充能速度"
+    },
+    {
+      "modifierId": "110330680",
+      "enText": "+(251–325)% Minion Critical Strike Rating",
+      "cnText": "+(251–325)% 召唤物暴击值"
+    },
+    {
+      "modifierId": "110330600",
+      "enText": "+(181–234)% Minion Critical Strike Rating",
+      "cnText": "+(181–234)% 召唤物暴击值"
+    },
+    {
+      "modifierId": "110330602",
+      "enText": "+(91–126)% Minion Critical Strike Rating",
+      "cnText": "+(91–126)% 召唤物暴击值"
+    },
+    {
+      "modifierId": "110330603",
+      "enText": "+(73–90)% Minion Critical Strike Rating",
+      "cnText": "+(73–90)% 召唤物暴击值"
+    },
+    {
+      "modifierId": "110330604",
+      "enText": "+(59–72)% Minion Critical Strike Rating",
+      "cnText": "+(59–72)% 召唤物暴击值"
+    },
+    {
+      "modifierId": "110330605",
+      "enText": "+(48–58)% Minion Critical Strike Rating",
+      "cnText": "+(48–58)% 召唤物暴击值"
+    },
+    {
+      "modifierId": "110330606",
+      "enText": "+(37–47)% Minion Critical Strike Rating",
+      "cnText": "+(37–47)% 召唤物暴击值"
+    },
+    {
+      "modifierId": "140330480",
+      "enText": "+(164–211) Minion Critical Strike Rating",
+      "cnText": "+(164–211) 召唤物暴击值"
+    },
+    {
+      "modifierId": "140330400",
+      "enText": "+(126–163) Minion Critical Strike Rating",
+      "cnText": "+(126–163) 召唤物暴击值"
+    },
+    {
+      "modifierId": "140330402",
+      "enText": "+(64–88) Minion Critical Strike Rating",
+      "cnText": "+(64–88) 召唤物暴击值"
+    },
+    {
+      "modifierId": "140330403",
+      "enText": "+(51–63) Minion Critical Strike Rating",
+      "cnText": "+(51–63) 召唤物暴击值"
+    },
+    {
+      "modifierId": "140330404",
+      "enText": "+(41–50) Minion Critical Strike Rating",
+      "cnText": "+(41–50) 召唤物暴击值"
+    },
+    {
+      "modifierId": "140330405",
+      "enText": "+(34–40) Minion Critical Strike Rating",
+      "cnText": "+(34–40) 召唤物暴击值"
+    },
+    {
+      "modifierId": "140330406",
+      "enText": "+(26–33) Minion Critical Strike Rating",
+      "cnText": "+(26–33) 召唤物暴击值"
+    },
+    {
+      "modifierId": "140330407",
+      "enText": "+(20–25) Minion Critical Strike Rating",
+      "cnText": "+(20–25) 召唤物暴击值"
+    },
+    {
+      "modifierId": "140330580",
+      "enText": "+(95–122)% Minion Skill Area",
+      "cnText": "+(95–122)% 召唤物技能范围"
+    },
+    {
+      "modifierId": "140330500",
+      "enText": "+(73–94)% Minion Skill Area",
+      "cnText": "+(73–94)% 召唤物技能范围"
+    },
+    {
+      "modifierId": "140330502",
+      "enText": "+(37–50)% Minion Skill Area",
+      "cnText": "+(37–50)% 召唤物技能范围"
+    },
+    {
+      "modifierId": "140330503",
+      "enText": "+(30–36)% Minion Skill Area",
+      "cnText": "+(30–36)% 召唤物技能范围"
+    },
+    {
+      "modifierId": "140330504",
+      "enText": "+(24–29)% Minion Skill Area",
+      "cnText": "+(24–29)% 召唤物技能范围"
+    },
+    {
+      "modifierId": "140330505",
+      "enText": "+(20–23)% Minion Skill Area",
+      "cnText": "+(20–23)% 召唤物技能范围"
+    },
+    {
+      "modifierId": "140330506",
+      "enText": "+(15–19)% Minion Skill Area",
+      "cnText": "+(15–19)% 召唤物技能范围"
+    },
+    {
+      "modifierId": "140330507",
+      "enText": "+(12–14)% Minion Skill Area",
+      "cnText": "+(12–14)% 召唤物技能范围"
+    },
+    {
+      "modifierId": "110330780",
+      "enText": "+(196–254)% Minion Critical Strike Damage",
+      "cnText": "+(196–254)% 召唤物暴击伤害"
+    },
+    {
+      "modifierId": "110330700",
+      "enText": "+(151–195)% Minion Critical Strike Damage",
+      "cnText": "+(151–195)% 召唤物暴击伤害"
+    },
+    {
+      "modifierId": "110330702",
+      "enText": "+(76–105)% Minion Critical Strike Damage",
+      "cnText": "+(76–105)% 召唤物暴击伤害"
+    },
+    {
+      "modifierId": "110330703",
+      "enText": "+(61–75)% Minion Critical Strike Damage",
+      "cnText": "+(61–75)% 召唤物暴击伤害"
+    },
+    {
+      "modifierId": "110330704",
+      "enText": "+(49–60)% Minion Critical Strike Damage",
+      "cnText": "+(49–60)% 召唤物暴击伤害"
+    },
+    {
+      "modifierId": "110330705",
+      "enText": "+(40–48)% Minion Critical Strike Damage",
+      "cnText": "+(40–48)% 召唤物暴击伤害"
+    },
+    {
+      "modifierId": "110330706",
+      "enText": "+(31–39)% Minion Critical Strike Damage",
+      "cnText": "+(31–39)% 召唤物暴击伤害"
+    },
+    {
+      "modifierId": "116330880",
+      "enText": "+(53–68)% additional Spirit Magus Enhanced Skill Damage and Ailment Damage dealt by Enhanced Skills",
+      "cnText": "额外 +(53–68)%魔灵强化技能伤害和强化技能造成的异常伤害"
+    },
+    {
+      "modifierId": "116330800",
+      "enText": "+(41–52)% additional Spirit Magus Enhanced Skill Damage and Ailment Damage dealt by Enhanced Skills",
+      "cnText": "额外 +(41–52)%魔灵强化技能伤害和强化技能造成的异常伤害"
+    },
+    {
+      "modifierId": "116330802",
+      "enText": "+(21–28)% additional Spirit Magus Enhanced Skill Damage and Ailment Damage dealt by Enhanced Skills",
+      "cnText": "额外 +(21–28)%魔灵强化技能伤害和强化技能造成的异常伤害"
+    },
+    {
+      "modifierId": "116330803",
+      "enText": "+(17–20)% additional Spirit Magus Enhanced Skill Damage and Ailment Damage dealt by Enhanced Skills",
+      "cnText": "额外 +(17–20)%魔灵强化技能伤害和强化技能造成的异常伤害"
+    },
+    {
+      "modifierId": "116330804",
+      "enText": "+(14–16)% additional Spirit Magus Enhanced Skill Damage and Ailment Damage dealt by Enhanced Skills",
+      "cnText": "额外 +(14–16)%魔灵强化技能伤害和强化技能造成的异常伤害"
+    },
+    {
+      "modifierId": "116330980",
+      "enText": "+(79–101)% additional Spirit Magus Ultimate Damage and Ailment Damage dealt by Ultimate.",
+      "cnText": "额外 +(79–101)% 魔灵终极技能伤害和终极技能造成的异常伤害"
+    },
+    {
+      "modifierId": "116330900",
+      "enText": "+(61–78)% additional Spirit Magus Ultimate Damage and Ailment Damage dealt by Ultimate.",
+      "cnText": "额外 +(61–78)% 魔灵终极技能伤害和终极技能造成的异常伤害"
+    },
+    {
+      "modifierId": "116330902",
+      "enText": "+(31–42)% additional Spirit Magus Ultimate Damage and Ailment Damage dealt by Ultimate.",
+      "cnText": "额外 +(31–42)% 魔灵终极技能伤害和终极技能造成的异常伤害"
+    },
+    {
+      "modifierId": "116330903",
+      "enText": "+(25–30)% additional Spirit Magus Ultimate Damage and Ailment Damage dealt by Ultimate.",
+      "cnText": "额外 +(25–30)% 魔灵终极技能伤害和终极技能造成的异常伤害"
+    },
+    {
+      "modifierId": "116330904",
+      "enText": "+(20–24)% additional Spirit Magus Ultimate Damage and Ailment Damage dealt by Ultimate.",
+      "cnText": "额外 +(20–24)% 魔灵终极技能伤害和终极技能造成的异常伤害"
+    },
+    {
+      "modifierId": "130330580",
+      "enText": "+(53–68)% chance for Minions to deal Double Damage",
+      "cnText": "召唤物 +(53–68)% 几率造成双倍伤害"
+    },
+    {
+      "modifierId": "130330500",
+      "enText": "+(41–52)% chance for Minions to deal Double Damage",
+      "cnText": "召唤物 +(41–52)% 几率造成双倍伤害"
+    },
+    {
+      "modifierId": "130330502",
+      "enText": "+(21–28)% chance for Minions to deal Double Damage",
+      "cnText": "召唤物 +(21–28)% 几率造成双倍伤害"
+    },
+    {
+      "modifierId": "130330503",
+      "enText": "+(17–20)% chance for Minions to deal Double Damage",
+      "cnText": "召唤物 +(17–20)% 几率造成双倍伤害"
+    },
+    {
+      "modifierId": "140330680",
+      "enText": "+(47–59)% additional damage for Synthetic Troop Minions when having at least 40 Command",
+      "cnText": "至少拥有 40 点统御值时，智械召唤物额外 +(47–59)% 伤害"
+    },
+    {
+      "modifierId": "140330600",
+      "enText": "+(36–46)% additional damage for Synthetic Troop Minions when having at least 40 Command",
+      "cnText": "至少拥有 40 点统御值时，智械召唤物额外 +(36–46)% 伤害"
+    },
+    {
+      "modifierId": "140330602",
+      "enText": "+(19–25)% additional damage for Synthetic Troop Minions when having at least 40 Command",
+      "cnText": "至少拥有 40 点统御值时，智械召唤物额外 +(19–25)% 伤害"
+    },
+    {
+      "modifierId": "140330603",
+      "enText": "+(14–18)% additional damage for Synthetic Troop Minions when having at least 40 Command",
+      "cnText": "至少拥有 40 点统御值时，智械召唤物额外 +(14–18)% 伤害"
+    },
+    {
+      "modifierId": "140330604",
+      "enText": "+(10–13)% additional damage for Synthetic Troop Minions when having at least 40 Command",
+      "cnText": "至少拥有 40 点统御值时，智械召唤物额外 +(10–13)% 伤害"
+    }
+  ]
+}

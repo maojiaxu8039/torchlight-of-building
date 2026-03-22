@@ -1,0 +1,149 @@
+{
+  "equipmentType": "Rod",
+  "baseGears": [
+    {
+      "enName": "Bud Rod",
+      "cnName": "萌芽灵杖"
+    },
+    {
+      "enName": "Thriving Rod",
+      "cnName": "生长灵杖"
+    },
+    {
+      "enName": "Vine Rod",
+      "cnName": "藤蔓灵杖"
+    },
+    {
+      "enName": "Storm Rod",
+      "cnName": "风雨灵杖"
+    },
+    {
+      "enName": "Waning Moon Rod",
+      "cnName": "落月灵杖"
+    },
+    {
+      "enName": "Flying Bird Rod",
+      "cnName": "飞鸟灵杖"
+    },
+    {
+      "enName": "Swimming Fish Rod",
+      "cnName": "游鱼灵杖"
+    },
+    {
+      "enName": "Shepherdess Rod",
+      "cnName": "牧羊女灵杖"
+    },
+    {
+      "enName": "River Rod",
+      "cnName": "河谷灵杖"
+    },
+    {
+      "enName": "Harvest Rod",
+      "cnName": "丰收灵杖"
+    },
+    {
+      "enName": "Daylight Rod",
+      "cnName": "日光灵杖"
+    },
+    {
+      "enName": "Full Moon Rod",
+      "cnName": "满月灵杖"
+    },
+    {
+      "enName": "Shooting Star Rod",
+      "cnName": "流星灵杖"
+    },
+    {
+      "enName": "Beast King Rod",
+      "cnName": "兽王灵杖"
+    },
+    {
+      "enName": "Celestial Rod",
+      "cnName": "星空灵杖"
+    },
+    {
+      "enName": "Cosmic Rod",
+      "cnName": "寰宇灵杖"
+    },
+    {
+      "enName": "Star Ocean Rod",
+      "cnName": "星海灵杖"
+    },
+    {
+      "enName": "Astrologer Rod",
+      "cnName": "星象师灵杖"
+    },
+    {
+      "enName": "Bard Rod",
+      "cnName": "吟游诗人灵杖"
+    },
+    {
+      "enName": "Heart of All Rod",
+      "cnName": "万物之心灵杖"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Shallow Dream Talking - Weapon",
+      "cnName": "浅白梦语-武器"
+    },
+    {
+      "enName": "Shallow Dream Talking - Weapon",
+      "cnName": "浅白梦语-武器"
+    },
+    {
+      "enName": "Shallow Dream Talking - Weapon",
+      "cnName": "浅白梦语-武器"
+    },
+    {
+      "enName": "Shallow Dream Talking - Weapon",
+      "cnName": "浅白梦语-武器"
+    },
+    {
+      "enName": "Shallow Dream Talking - Weapon",
+      "cnName": "浅白梦语-武器"
+    },
+    {
+      "enName": "Shallow Dream Talking - Weapon",
+      "cnName": "浅白梦语-武器"
+    }
+  ]
+}

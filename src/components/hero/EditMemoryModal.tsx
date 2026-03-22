@@ -1,3 +1,5 @@
+import { getTranslatedAffixText } from "@/src/lib/affix-translator";
+
 import { useEffect, useMemo } from "react";
 import { Trans } from "@lingui/react/macro";
 import { i18n } from "@/src/lib/i18n";
@@ -168,7 +170,7 @@ const MemoryPreview = ({
             >
               <div className="text-xs text-zinc-500 mb-0.5">{line.label}</div>
               <div className="text-xs text-zinc-300 whitespace-pre-wrap">
-                {line.text}
+                {getTranslatedAffixText(line.text)}
               </div>
             </div>
           ))}

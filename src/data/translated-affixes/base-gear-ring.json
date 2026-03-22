@@ -1,0 +1,769 @@
+{
+  "equipmentType": "Ring",
+  "baseGears": [
+    {
+      "enName": "Born in Fire",
+      "cnName": "火焰降生"
+    },
+    {
+      "enName": "Born in Fire",
+      "cnName": "火焰降生"
+    },
+    {
+      "enName": "Born in Fire",
+      "cnName": "火焰降生"
+    },
+    {
+      "enName": "Fury Heart",
+      "cnName": "狂怒之心"
+    },
+    {
+      "enName": "Fury Heart",
+      "cnName": "狂怒之心"
+    },
+    {
+      "enName": "Fury Heart",
+      "cnName": "狂怒之心"
+    },
+    {
+      "enName": "Fury Heart",
+      "cnName": "狂怒之心"
+    },
+    {
+      "enName": "Fury Heart",
+      "cnName": "狂怒之心"
+    },
+    {
+      "enName": "Restless Glacier",
+      "cnName": "躁动冰河"
+    },
+    {
+      "enName": "Restless Glacier",
+      "cnName": "躁动冰河"
+    },
+    {
+      "enName": "Restless Glacier",
+      "cnName": "躁动冰河"
+    },
+    {
+      "enName": "Restless Glacier",
+      "cnName": "躁动冰河"
+    },
+    {
+      "enName": "Chaotic Ending",
+      "cnName": "混乱终焉"
+    },
+    {
+      "enName": "Chaotic Ending",
+      "cnName": "混乱终焉"
+    },
+    {
+      "enName": "Chaotic Ending",
+      "cnName": "混乱终焉"
+    },
+    {
+      "enName": "Chaotic Ending",
+      "cnName": "混乱终焉"
+    },
+    {
+      "enName": "Chaotic Ending",
+      "cnName": "混乱终焉"
+    },
+    {
+      "enName": "Chaotic Ending",
+      "cnName": "混乱终焉"
+    },
+    {
+      "enName": "Searing Finger Bone",
+      "cnName": "灼热指骨"
+    },
+    {
+      "enName": "Searing Finger Bone",
+      "cnName": "灼热指骨"
+    },
+    {
+      "enName": "Searing Finger Bone",
+      "cnName": "灼热指骨"
+    },
+    {
+      "enName": "Exemption Thunderhell",
+      "cnName": "破厄雷狱"
+    },
+    {
+      "enName": "Exemption Thunderhell",
+      "cnName": "破厄雷狱"
+    },
+    {
+      "enName": "Exemption Thunderhell",
+      "cnName": "破厄雷狱"
+    },
+    {
+      "enName": "Exemption Thunderhell",
+      "cnName": "破厄雷狱"
+    },
+    {
+      "enName": "Exemption Thunderhell",
+      "cnName": "破厄雷狱"
+    },
+    {
+      "enName": "Frozen Lightning",
+      "cnName": "冰结雷光"
+    },
+    {
+      "enName": "Frozen Lightning",
+      "cnName": "冰结雷光"
+    },
+    {
+      "enName": "Frozen Lightning",
+      "cnName": "冰结雷光"
+    },
+    {
+      "enName": "Frozen Lightning",
+      "cnName": "冰结雷光"
+    },
+    {
+      "enName": "Frozen Lightning",
+      "cnName": "冰结雷光"
+    },
+    {
+      "enName": "Lone Survivor",
+      "cnName": "独活"
+    },
+    {
+      "enName": "Lone Survivor",
+      "cnName": "独活"
+    },
+    {
+      "enName": "Lone Survivor",
+      "cnName": "独活"
+    },
+    {
+      "enName": "Lone Survivor",
+      "cnName": "独活"
+    },
+    {
+      "enName": "Lone Survivor",
+      "cnName": "独活"
+    },
+    {
+      "enName": "Lonesome",
+      "cnName": "孤胆"
+    },
+    {
+      "enName": "Lonesome",
+      "cnName": "孤胆"
+    },
+    {
+      "enName": "Lonesome",
+      "cnName": "孤胆"
+    },
+    {
+      "enName": "Lonesome",
+      "cnName": "孤胆"
+    },
+    {
+      "enName": "Lonesome",
+      "cnName": "孤胆"
+    },
+    {
+      "enName": "Stream of Steel",
+      "cnName": "钢铁涓流"
+    },
+    {
+      "enName": "Stream of Steel",
+      "cnName": "钢铁涓流"
+    },
+    {
+      "enName": "Stream of Steel",
+      "cnName": "钢铁涓流"
+    },
+    {
+      "enName": "Frozen Flame",
+      "cnName": "不燃之火"
+    },
+    {
+      "enName": "Frozen Flame",
+      "cnName": "不燃之火"
+    },
+    {
+      "enName": "Frozen Flame",
+      "cnName": "不燃之火"
+    },
+    {
+      "enName": "Frozen Flame",
+      "cnName": "不燃之火"
+    },
+    {
+      "enName": "Frozen Flame",
+      "cnName": "不燃之火"
+    },
+    {
+      "enName": "Burning Ice",
+      "cnName": "不冻之冰"
+    },
+    {
+      "enName": "Burning Ice",
+      "cnName": "不冻之冰"
+    },
+    {
+      "enName": "Burning Ice",
+      "cnName": "不冻之冰"
+    },
+    {
+      "enName": "Burning Ice",
+      "cnName": "不冻之冰"
+    },
+    {
+      "enName": "Burning Ice",
+      "cnName": "不冻之冰"
+    },
+    {
+      "enName": "Windbreath Convergence",
+      "cnName": "风息之引"
+    },
+    {
+      "enName": "Windbreath Convergence",
+      "cnName": "风息之引"
+    },
+    {
+      "enName": "Windbreath Convergence",
+      "cnName": "风息之引"
+    },
+    {
+      "enName": "Windbreath Convergence",
+      "cnName": "风息之引"
+    },
+    {
+      "enName": "Windbreath Convergence",
+      "cnName": "风息之引"
+    },
+    {
+      "enName": "Windbreath Dispersion",
+      "cnName": "风息之散"
+    },
+    {
+      "enName": "Windbreath Dispersion",
+      "cnName": "风息之散"
+    },
+    {
+      "enName": "Windbreath Dispersion",
+      "cnName": "风息之散"
+    },
+    {
+      "enName": "Windbreath Dispersion",
+      "cnName": "风息之散"
+    },
+    {
+      "enName": "Windbreath Dispersion",
+      "cnName": "风息之散"
+    },
+    {
+      "enName": "Traceless Pain",
+      "cnName": "清净幻痛"
+    },
+    {
+      "enName": "Traceless Pain",
+      "cnName": "清净幻痛"
+    },
+    {
+      "enName": "Traceless Pain",
+      "cnName": "清净幻痛"
+    },
+    {
+      "enName": "Traceless Pain",
+      "cnName": "清净幻痛"
+    },
+    {
+      "enName": "Kaleidoscope",
+      "cnName": "世界流转"
+    },
+    {
+      "enName": "Kaleidoscope",
+      "cnName": "世界流转"
+    },
+    {
+      "enName": "Kaleidoscope",
+      "cnName": "世界流转"
+    },
+    {
+      "enName": "Clay Doll%27s Broken Finger",
+      "cnName": "泥偶的断指"
+    },
+    {
+      "enName": "Clay Doll%27s Broken Finger",
+      "cnName": "泥偶的断指"
+    },
+    {
+      "enName": "Clay Doll%27s Broken Finger",
+      "cnName": "泥偶的断指"
+    },
+    {
+      "enName": "Clay Doll%27s Broken Finger",
+      "cnName": "泥偶的断指"
+    },
+    {
+      "enName": "Folklore of Locking Fingers",
+      "cnName": "勾指怪谈"
+    },
+    {
+      "enName": "Folklore of Locking Fingers",
+      "cnName": "勾指怪谈"
+    },
+    {
+      "enName": "Folklore of Locking Fingers",
+      "cnName": "勾指怪谈"
+    },
+    {
+      "enName": "Folklore of Locking Fingers",
+      "cnName": "勾指怪谈"
+    },
+    {
+      "enName": "Passing of Time",
+      "cnName": "时之逝"
+    },
+    {
+      "enName": "Passing of Time",
+      "cnName": "时之逝"
+    },
+    {
+      "enName": "Passing of Time",
+      "cnName": "时之逝"
+    },
+    {
+      "enName": "Time of Vow",
+      "cnName": "誓之时"
+    },
+    {
+      "enName": "Time of Vow",
+      "cnName": "誓之时"
+    },
+    {
+      "enName": "Time of Vow",
+      "cnName": "誓之时"
+    },
+    {
+      "enName": "Unholy Prayer",
+      "cnName": "污秽祝祷"
+    },
+    {
+      "enName": "Unholy Prayer",
+      "cnName": "污秽祝祷"
+    },
+    {
+      "enName": "Unholy Prayer",
+      "cnName": "污秽祝祷"
+    },
+    {
+      "enName": "Unholy Prayer",
+      "cnName": "污秽祝祷"
+    },
+    {
+      "enName": "Unholy Prayer",
+      "cnName": "污秽祝祷"
+    },
+    {
+      "enName": "Unholy Prayer",
+      "cnName": "污秽祝祷"
+    },
+    {
+      "enName": "Heart of Rock",
+      "cnName": "顽石之心"
+    },
+    {
+      "enName": "Heart of Rock",
+      "cnName": "顽石之心"
+    },
+    {
+      "enName": "Heart of Rock",
+      "cnName": "顽石之心"
+    },
+    {
+      "enName": "Heart of Rock",
+      "cnName": "顽石之心"
+    },
+    {
+      "enName": "Heart of Magic",
+      "cnName": "万法之心"
+    },
+    {
+      "enName": "Heart of Magic",
+      "cnName": "万法之心"
+    },
+    {
+      "enName": "Heart of Magic",
+      "cnName": "万法之心"
+    },
+    {
+      "enName": "Heart of Magic",
+      "cnName": "万法之心"
+    },
+    {
+      "enName": "Silver Frost",
+      "cnName": "银霜"
+    },
+    {
+      "enName": "Silver Frost",
+      "cnName": "银霜"
+    },
+    {
+      "enName": "Silver Frost",
+      "cnName": "银霜"
+    },
+    {
+      "enName": "Revered Light",
+      "cnName": "崇光"
+    },
+    {
+      "enName": "Revered Light",
+      "cnName": "崇光"
+    },
+    {
+      "enName": "Burning Flame Ring",
+      "cnName": "灼烧炎戒"
+    },
+    {
+      "enName": "Biting Wind Ice Ring",
+      "cnName": "寒风冰戒"
+    },
+    {
+      "enName": "Calamity Lightning Ring",
+      "cnName": "万厄雷戒"
+    },
+    {
+      "enName": "Abyss Darkness Ring",
+      "cnName": "深渊暗戒"
+    },
+    {
+      "enName": "Heated Flame Ring",
+      "cnName": "淬火炎戒"
+    },
+    {
+      "enName": "Blight Ice Ring",
+      "cnName": "凝霜冰戒"
+    },
+    {
+      "enName": "Dazzling Lightning Ring",
+      "cnName": "耀眼雷戒"
+    },
+    {
+      "enName": "Agony Darkness Ring",
+      "cnName": "苦痛暗戒"
+    },
+    {
+      "enName": "Raging Boil Flame Ring",
+      "cnName": "沸腾炎戒"
+    },
+    {
+      "enName": "Snow Ice Ring",
+      "cnName": "雪染冰戒"
+    },
+    {
+      "enName": "Chilling Lightning Ring",
+      "cnName": "彻骨雷戒"
+    },
+    {
+      "enName": "Rotten Darkness Ring",
+      "cnName": "腐坏暗戒"
+    },
+    {
+      "enName": "Frozen Ring",
+      "cnName": "凝冰戒指"
+    },
+    {
+      "enName": "Firestorm Flame Ring",
+      "cnName": "火海炎戒"
+    },
+    {
+      "enName": "Frost City Ice Ring",
+      "cnName": "霜城冰戒"
+    },
+    {
+      "enName": "High Heavens Lightning Ring",
+      "cnName": "高天雷戒"
+    },
+    {
+      "enName": "Evernight Darkness Ring",
+      "cnName": "长夜暗戒"
+    },
+    {
+      "enName": "Torched Flame Ring",
+      "cnName": "被焚灼的炎戒"
+    },
+    {
+      "enName": "Sealed Ice Ring",
+      "cnName": "被封藏的冰戒"
+    },
+    {
+      "enName": "Punished Lightning Ring",
+      "cnName": "被刑罚的雷戒"
+    },
+    {
+      "enName": "Imprisoned Darkness Ring",
+      "cnName": "被幽囚的暗戒"
+    },
+    {
+      "enName": "Depicted Ward Ring",
+      "cnName": "被描绘的佑戒"
+    },
+    {
+      "enName": "Perishing Inferno Flame Ring",
+      "cnName": "众火沉沦之炎戒"
+    },
+    {
+      "enName": "Eternal Sleep Ice Ring",
+      "cnName": "极冬永眠之冰戒"
+    },
+    {
+      "enName": "Thunder Tempered Lightning Ring",
+      "cnName": "万雷入骨之雷戒"
+    },
+    {
+      "enName": "Eternal Gloom Darkness Ring",
+      "cnName": "星河无渡之暗戒"
+    },
+    {
+      "enName": "Myriad Radiance Ward Ring",
+      "cnName": "千虹辉映之佑戒"
+    },
+    {
+      "enName": "Lone Survivor",
+      "cnName": "独活"
+    },
+    {
+      "enName": "Lonesome",
+      "cnName": "孤胆"
+    },
+    {
+      "enName": "Revered Light",
+      "cnName": "崇光"
+    },
+    {
+      "enName": "Born in Fire",
+      "cnName": "火焰降生"
+    },
+    {
+      "enName": "Silver Frost",
+      "cnName": "银霜"
+    },
+    {
+      "enName": "Searing Finger Bone",
+      "cnName": "灼热指骨"
+    },
+    {
+      "enName": "Unholy Prayer",
+      "cnName": "污秽祝祷"
+    },
+    {
+      "enName": "Unholy Prayer",
+      "cnName": "污秽祝祷"
+    },
+    {
+      "enName": "Unholy Prayer",
+      "cnName": "污秽祝祷"
+    },
+    {
+      "enName": "Frozen Lightning",
+      "cnName": "冰结雷光"
+    },
+    {
+      "enName": "Clay Doll%27s Broken Finger",
+      "cnName": "泥偶的断指"
+    },
+    {
+      "enName": "Fury Heart",
+      "cnName": "狂怒之心"
+    },
+    {
+      "enName": "Restless Glacier",
+      "cnName": "躁动冰河"
+    },
+    {
+      "enName": "Chaotic Ending",
+      "cnName": "混乱终焉"
+    },
+    {
+      "enName": "Exemption Thunderhell",
+      "cnName": "破厄雷狱"
+    },
+    {
+      "enName": "Stream of Steel",
+      "cnName": "钢铁涓流"
+    },
+    {
+      "enName": "Frozen Flame",
+      "cnName": "不燃之火"
+    },
+    {
+      "enName": "Burning Ice",
+      "cnName": "不冻之冰"
+    },
+    {
+      "enName": "Windbreath Convergence",
+      "cnName": "风息之引"
+    },
+    {
+      "enName": "Windbreath Dispersion",
+      "cnName": "风息之散"
+    },
+    {
+      "enName": "Traceless Pain",
+      "cnName": "清净幻痛"
+    },
+    {
+      "enName": "Kaleidoscope",
+      "cnName": "世界流转"
+    },
+    {
+      "enName": "Folklore of Locking Fingers",
+      "cnName": "勾指怪谈"
+    },
+    {
+      "enName": "Passing of Time",
+      "cnName": "时之逝"
+    },
+    {
+      "enName": "Time of Vow",
+      "cnName": "誓之时"
+    },
+    {
+      "enName": "Heart of Rock",
+      "cnName": "顽石之心"
+    },
+    {
+      "enName": "Heart of Magic",
+      "cnName": "万法之心"
+    },
+    {
+      "enName": "Lone Survivor",
+      "cnName": "独活"
+    },
+    {
+      "enName": "Lonesome",
+      "cnName": "孤胆"
+    },
+    {
+      "enName": "Revered Light",
+      "cnName": "崇光"
+    },
+    {
+      "enName": "Born in Fire",
+      "cnName": "火焰降生"
+    },
+    {
+      "enName": "Silver Frost",
+      "cnName": "银霜"
+    },
+    {
+      "enName": "Searing Finger Bone",
+      "cnName": "灼热指骨"
+    },
+    {
+      "enName": "Unholy Prayer",
+      "cnName": "污秽祝祷"
+    },
+    {
+      "enName": "Unholy Prayer",
+      "cnName": "污秽祝祷"
+    },
+    {
+      "enName": "Unholy Prayer",
+      "cnName": "污秽祝祷"
+    },
+    {
+      "enName": "Frozen Lightning",
+      "cnName": "冰结雷光"
+    },
+    {
+      "enName": "Clay Doll%27s Broken Finger",
+      "cnName": "泥偶的断指"
+    },
+    {
+      "enName": "Fury Heart",
+      "cnName": "狂怒之心"
+    },
+    {
+      "enName": "Restless Glacier",
+      "cnName": "躁动冰河"
+    },
+    {
+      "enName": "Chaotic Ending",
+      "cnName": "混乱终焉"
+    },
+    {
+      "enName": "Exemption Thunderhell",
+      "cnName": "破厄雷狱"
+    },
+    {
+      "enName": "Stream of Steel",
+      "cnName": "钢铁涓流"
+    },
+    {
+      "enName": "Frozen Flame",
+      "cnName": "不燃之火"
+    },
+    {
+      "enName": "Burning Ice",
+      "cnName": "不冻之冰"
+    },
+    {
+      "enName": "Windbreath Convergence",
+      "cnName": "风息之引"
+    },
+    {
+      "enName": "Windbreath Dispersion",
+      "cnName": "风息之散"
+    },
+    {
+      "enName": "Traceless Pain",
+      "cnName": "清净幻痛"
+    },
+    {
+      "enName": "Kaleidoscope",
+      "cnName": "世界流转"
+    },
+    {
+      "enName": "Folklore of Locking Fingers",
+      "cnName": "勾指怪谈"
+    },
+    {
+      "enName": "Passing of Time",
+      "cnName": "时之逝"
+    },
+    {
+      "enName": "Time of Vow",
+      "cnName": "誓之时"
+    },
+    {
+      "enName": "Heart of Rock",
+      "cnName": "顽石之心"
+    },
+    {
+      "enName": "Heart of Magic",
+      "cnName": "万法之心"
+    },
+    {
+      "enName": "Shallow Dream Talking - Trinket",
+      "cnName": "浅白梦语-饰品"
+    },
+    {
+      "enName": "Shallow Dream Talking - Trinket",
+      "cnName": "浅白梦语-饰品"
+    },
+    {
+      "enName": "Shallow Dream Talking - Trinket",
+      "cnName": "浅白梦语-饰品"
+    },
+    {
+      "enName": "Shallow Dream Talking - Trinket",
+      "cnName": "浅白梦语-饰品"
+    },
+    {
+      "enName": "Shallow Dream Talking - Trinket",
+      "cnName": "浅白梦语-饰品"
+    },
+    {
+      "enName": "Shallow Dream Talking - Trinket",
+      "cnName": "浅白梦语-饰品"
+    }
+  ]
+}

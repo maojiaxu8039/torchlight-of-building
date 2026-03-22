@@ -1,3 +1,5 @@
+import { getTranslatedAffixText } from "@/src/lib/affix-translator";
+
 import { Tooltip, TooltipTitle } from "@/src/components/ui/Tooltip";
 import { useTooltip } from "@/src/hooks/useTooltip";
 import {
@@ -131,7 +133,7 @@ export const PrismInventoryItem: React.FC<PrismInventoryItemProps> = ({
         {areaAffix !== undefined && (
           <div className="mb-1 text-xs text-zinc-400">
             <span className="text-zinc-500">Area: </span>
-            {areaAffix.text}
+            {getTranslatedAffixText(areaAffix.text)}
           </div>
         )}
         {nonAreaAffixes.length > 0 && (
@@ -149,7 +151,7 @@ export const PrismInventoryItem: React.FC<PrismInventoryItemProps> = ({
                     }`}
                   />
                   <span className="text-xs text-zinc-300 whitespace-pre-line">
-                    {affix.text}
+                    {getTranslatedAffixText(affix.text)}
                   </span>
                 </div>
               );

@@ -1,3 +1,5 @@
+import { getTranslatedAffixText } from "@/src/lib/affix-translator";
+
 import { Trans } from "@lingui/react/macro";
 import { i18n } from "@/src/lib/i18n";
 import { Tooltip, TooltipTitle } from "@/src/components/ui/Tooltip";
@@ -61,7 +63,7 @@ export const HeroMemoryItem: React.FC<HeroMemoryItemProps> = ({
                       lineIdx > 0 ? "mt-1 pt-1 border-t border-zinc-800" : ""
                     }
                   >
-                    <div className="text-xs text-zinc-400">{line.text}</div>
+                    <div className="text-xs text-zinc-400">{getTranslatedAffixText(line.text)}</div>
                     {line.mods === undefined && (
                       <div className="text-xs text-red-500">
                         (Mod not supported in TOB yet)

@@ -1,0 +1,297 @@
+{
+  "equipmentType": "Bow",
+  "baseGears": [
+    {
+      "enName": "Mountain Howling",
+      "cnName": "山峦尖啸"
+    },
+    {
+      "enName": "Mountain Howling",
+      "cnName": "山峦尖啸"
+    },
+    {
+      "enName": "Mountain Howling",
+      "cnName": "山峦尖啸"
+    },
+    {
+      "enName": "Mountain Howling",
+      "cnName": "山峦尖啸"
+    },
+    {
+      "enName": "Mountain Howling",
+      "cnName": "山峦尖啸"
+    },
+    {
+      "enName": "Mountain Howling",
+      "cnName": "山峦尖啸"
+    },
+    {
+      "enName": "Mountain Howling",
+      "cnName": "山峦尖啸"
+    },
+    {
+      "enName": "Bow of Endless Dusk",
+      "cnName": "无尽黄昏之弓"
+    },
+    {
+      "enName": "Bow of Endless Dusk",
+      "cnName": "无尽黄昏之弓"
+    },
+    {
+      "enName": "Bow of Endless Dusk",
+      "cnName": "无尽黄昏之弓"
+    },
+    {
+      "enName": "Bow of Endless Dusk",
+      "cnName": "无尽黄昏之弓"
+    },
+    {
+      "enName": "Bow of Endless Dusk",
+      "cnName": "无尽黄昏之弓"
+    },
+    {
+      "enName": "Sun-shooter Long Bow",
+      "cnName": "射日长弓"
+    },
+    {
+      "enName": "Sun-shooter Long Bow",
+      "cnName": "射日长弓"
+    },
+    {
+      "enName": "Sun-shooter Long Bow",
+      "cnName": "射日长弓"
+    },
+    {
+      "enName": "Sun-shooter Long Bow",
+      "cnName": "射日长弓"
+    },
+    {
+      "enName": "Sun-shooter Long Bow",
+      "cnName": "射日长弓"
+    },
+    {
+      "enName": "Shadow of Thunderlight%27s Touch",
+      "cnName": "雷光绝影之触"
+    },
+    {
+      "enName": "Shadow of Thunderlight%27s Touch",
+      "cnName": "雷光绝影之触"
+    },
+    {
+      "enName": "Shadow of Thunderlight%27s Touch",
+      "cnName": "雷光绝影之触"
+    },
+    {
+      "enName": "Shadow of Thunderlight%27s Touch",
+      "cnName": "雷光绝影之触"
+    },
+    {
+      "enName": "Shadow of Thunderlight%27s Touch",
+      "cnName": "雷光绝影之触"
+    },
+    {
+      "enName": "Glacial Abyss Arrow",
+      "cnName": "寒渊箭影"
+    },
+    {
+      "enName": "Glacial Abyss Arrow",
+      "cnName": "寒渊箭影"
+    },
+    {
+      "enName": "Glacial Abyss Arrow",
+      "cnName": "寒渊箭影"
+    },
+    {
+      "enName": "Glacial Abyss Arrow",
+      "cnName": "寒渊箭影"
+    },
+    {
+      "enName": "Glacial Abyss Arrow",
+      "cnName": "寒渊箭影"
+    },
+    {
+      "enName": "Rottenwood Bow",
+      "cnName": "朽木弓"
+    },
+    {
+      "enName": "Vitex Bow",
+      "cnName": "荆条弓"
+    },
+    {
+      "enName": "Beastbone Bow",
+      "cnName": "兽骨弓"
+    },
+    {
+      "enName": "Thorny Curve Bow",
+      "cnName": "荆棘弯弓"
+    },
+    {
+      "enName": "Bonewood Hunting Bow",
+      "cnName": "骨木猎弓"
+    },
+    {
+      "enName": "Segar Hunting Bow",
+      "cnName": "赛迦猎弓"
+    },
+    {
+      "enName": "Griffin Long Bow",
+      "cnName": "狮鹫长弓"
+    },
+    {
+      "enName": "White Wolf Curve Bow",
+      "cnName": "白狼弯弓"
+    },
+    {
+      "enName": "Raider%27s Bow",
+      "cnName": "掠夺之弓"
+    },
+    {
+      "enName": "White Feather Hunting Bow",
+      "cnName": "白羽猎弓"
+    },
+    {
+      "enName": "Piercer Bow",
+      "cnName": "穿刺之弓"
+    },
+    {
+      "enName": "Bloody Curve Bow",
+      "cnName": "赤红弯弓"
+    },
+    {
+      "enName": "Black Feather Long Bow",
+      "cnName": "黑羽长弓"
+    },
+    {
+      "enName": "Twilight Curve Bow",
+      "cnName": "暮色弯弓"
+    },
+    {
+      "enName": "Unholy Hunting Bow",
+      "cnName": "污秽猎弓"
+    },
+    {
+      "enName": "Thunder Long Bow",
+      "cnName": "雷霆长弓"
+    },
+    {
+      "enName": "Starfall Long Bow",
+      "cnName": "星落长弓"
+    },
+    {
+      "enName": "Demon Hunter Long Bow",
+      "cnName": "狩魔人长弓"
+    },
+    {
+      "enName": "Godseeker Long Bow",
+      "cnName": "寻神者长弓"
+    },
+    {
+      "enName": "Lonely Hunter%27s Bow",
+      "cnName": "孤狩群星之弓"
+    },
+    {
+      "enName": "Shadow of Thunderlight%27s Touch",
+      "cnName": "雷光绝影之触"
+    },
+    {
+      "enName": "Sun-shooter Long Bow",
+      "cnName": "射日长弓"
+    },
+    {
+      "enName": "Mountain Howling",
+      "cnName": "山峦尖啸"
+    },
+    {
+      "enName": "Bow of Endless Dusk",
+      "cnName": "无尽黄昏之弓"
+    },
+    {
+      "enName": "Glacial Abyss Arrow",
+      "cnName": "寒渊箭影"
+    },
+    {
+      "enName": "Shadow of Thunderlight%27s Touch",
+      "cnName": "雷光绝影之触"
+    },
+    {
+      "enName": "Sun-shooter Long Bow",
+      "cnName": "射日长弓"
+    },
+    {
+      "enName": "Mountain Howling",
+      "cnName": "山峦尖啸"
+    },
+    {
+      "enName": "Bow of Endless Dusk",
+      "cnName": "无尽黄昏之弓"
+    },
+    {
+      "enName": "Glacial Abyss Arrow",
+      "cnName": "寒渊箭影"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Shallow Dream Talking - Weapon",
+      "cnName": "浅白梦语-武器"
+    },
+    {
+      "enName": "Shallow Dream Talking - Weapon",
+      "cnName": "浅白梦语-武器"
+    },
+    {
+      "enName": "Shallow Dream Talking - Weapon",
+      "cnName": "浅白梦语-武器"
+    },
+    {
+      "enName": "Shallow Dream Talking - Weapon",
+      "cnName": "浅白梦语-武器"
+    },
+    {
+      "enName": "Shallow Dream Talking - Weapon",
+      "cnName": "浅白梦语-武器"
+    },
+    {
+      "enName": "Shallow Dream Talking - Weapon",
+      "cnName": "浅白梦语-武器"
+    }
+  ]
+}

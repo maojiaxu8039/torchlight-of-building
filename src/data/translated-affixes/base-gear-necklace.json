@@ -1,0 +1,1189 @@
+{
+  "equipmentType": "Necklace",
+  "baseGears": [
+    {
+      "enName": "Despised Shadow",
+      "cnName": "渎影"
+    },
+    {
+      "enName": "Despised Shadow",
+      "cnName": "渎影"
+    },
+    {
+      "enName": "Despised Shadow",
+      "cnName": "渎影"
+    },
+    {
+      "enName": "Despised Shadow",
+      "cnName": "渎影"
+    },
+    {
+      "enName": "Chain of Resistance",
+      "cnName": "抗争铁链"
+    },
+    {
+      "enName": "Chain of Resistance",
+      "cnName": "抗争铁链"
+    },
+    {
+      "enName": "Chain of Resistance",
+      "cnName": "抗争铁链"
+    },
+    {
+      "enName": "Chain of Resistance",
+      "cnName": "抗争铁链"
+    },
+    {
+      "enName": "Forlorn Crystal",
+      "cnName": "荒芜结晶"
+    },
+    {
+      "enName": "Forlorn Crystal",
+      "cnName": "荒芜结晶"
+    },
+    {
+      "enName": "Forlorn Crystal",
+      "cnName": "荒芜结晶"
+    },
+    {
+      "enName": "Forlorn Crystal",
+      "cnName": "荒芜结晶"
+    },
+    {
+      "enName": "Vortex Heart",
+      "cnName": "旋流之心"
+    },
+    {
+      "enName": "Vortex Heart",
+      "cnName": "旋流之心"
+    },
+    {
+      "enName": "Vortex Heart",
+      "cnName": "旋流之心"
+    },
+    {
+      "enName": "Vortex Heart",
+      "cnName": "旋流之心"
+    },
+    {
+      "enName": "Vortex Heart",
+      "cnName": "旋流之心"
+    },
+    {
+      "enName": "Master Defender Pendant",
+      "cnName": "防御宗师吊坠"
+    },
+    {
+      "enName": "Master Defender Pendant",
+      "cnName": "防御宗师吊坠"
+    },
+    {
+      "enName": "Master Defender Pendant",
+      "cnName": "防御宗师吊坠"
+    },
+    {
+      "enName": "Master Defender Pendant",
+      "cnName": "防御宗师吊坠"
+    },
+    {
+      "enName": "Magnus%27 Mindflame",
+      "cnName": "玛格努斯的心火"
+    },
+    {
+      "enName": "Magnus%27 Mindflame",
+      "cnName": "玛格努斯的心火"
+    },
+    {
+      "enName": "Magnus%27 Mindflame",
+      "cnName": "玛格努斯的心火"
+    },
+    {
+      "enName": "Magnus%27 Mindflame",
+      "cnName": "玛格努斯的心火"
+    },
+    {
+      "enName": "Magnus%27 Mindflame",
+      "cnName": "玛格努斯的心火"
+    },
+    {
+      "enName": "Truth",
+      "cnName": "真理"
+    },
+    {
+      "enName": "Truth",
+      "cnName": "真理"
+    },
+    {
+      "enName": "Warden%27s Breastpin",
+      "cnName": "典狱官的胸针"
+    },
+    {
+      "enName": "Warden%27s Breastpin",
+      "cnName": "典狱官的胸针"
+    },
+    {
+      "enName": "Warden%27s Breastpin",
+      "cnName": "典狱官的胸针"
+    },
+    {
+      "enName": "Warden%27s Breastpin",
+      "cnName": "典狱官的胸针"
+    },
+    {
+      "enName": "Warden%27s Breastpin",
+      "cnName": "典狱官的胸针"
+    },
+    {
+      "enName": "Ocean of Rock",
+      "cnName": "磐岩的汪洋"
+    },
+    {
+      "enName": "Ocean of Rock",
+      "cnName": "磐岩的汪洋"
+    },
+    {
+      "enName": "Ocean of Rock",
+      "cnName": "磐岩的汪洋"
+    },
+    {
+      "enName": "Ocean of Rock",
+      "cnName": "磐岩的汪洋"
+    },
+    {
+      "enName": "Blessing Pendant",
+      "cnName": "灵佑之坠"
+    },
+    {
+      "enName": "Blessing Pendant",
+      "cnName": "灵佑之坠"
+    },
+    {
+      "enName": "Blessing Pendant",
+      "cnName": "灵佑之坠"
+    },
+    {
+      "enName": "Blessing Pendant",
+      "cnName": "灵佑之坠"
+    },
+    {
+      "enName": "Pentagram Astrolabe",
+      "cnName": "五芒星盘"
+    },
+    {
+      "enName": "Pentagram Astrolabe",
+      "cnName": "五芒星盘"
+    },
+    {
+      "enName": "Pentagram Astrolabe",
+      "cnName": "五芒星盘"
+    },
+    {
+      "enName": "Pentagram Astrolabe",
+      "cnName": "五芒星盘"
+    },
+    {
+      "enName": "Pentagram Astrolabe",
+      "cnName": "五芒星盘"
+    },
+    {
+      "enName": "Necklace of Firebird",
+      "cnName": "淬火之鸟的颈链"
+    },
+    {
+      "enName": "Necklace of Firebird",
+      "cnName": "淬火之鸟的颈链"
+    },
+    {
+      "enName": "Necklace of Firebird",
+      "cnName": "淬火之鸟的颈链"
+    },
+    {
+      "enName": "Necklace of Firebird",
+      "cnName": "淬火之鸟的颈链"
+    },
+    {
+      "enName": "Ownerless",
+      "cnName": "无主"
+    },
+    {
+      "enName": "Ownerless",
+      "cnName": "无主"
+    },
+    {
+      "enName": "Ownerless",
+      "cnName": "无主"
+    },
+    {
+      "enName": "Ownerless",
+      "cnName": "无主"
+    },
+    {
+      "enName": "Ownerless",
+      "cnName": "无主"
+    },
+    {
+      "enName": "Sage%27s Shackle",
+      "cnName": "贤者的铁枷"
+    },
+    {
+      "enName": "Sage%27s Shackle",
+      "cnName": "贤者的铁枷"
+    },
+    {
+      "enName": "Sage%27s Shackle",
+      "cnName": "贤者的铁枷"
+    },
+    {
+      "enName": "Sage%27s Shackle",
+      "cnName": "贤者的铁枷"
+    },
+    {
+      "enName": "Sage%27s Shackle",
+      "cnName": "贤者的铁枷"
+    },
+    {
+      "enName": "Phantom",
+      "cnName": "幻影"
+    },
+    {
+      "enName": "Phantom",
+      "cnName": "幻影"
+    },
+    {
+      "enName": "Phantom",
+      "cnName": "幻影"
+    },
+    {
+      "enName": "Phantom",
+      "cnName": "幻影"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Iron Rain",
+      "cnName": "幻海缠丝-铁雨"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Iron Rain",
+      "cnName": "幻海缠丝-铁雨"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Iron Rain",
+      "cnName": "幻海缠丝-铁雨"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Iron Rain",
+      "cnName": "幻海缠丝-铁雨"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Iron Rain",
+      "cnName": "幻海缠丝-铁雨"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Iron Rain",
+      "cnName": "幻海缠丝-铁雨"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Ash",
+      "cnName": "幻海缠丝-劫灰"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Ash",
+      "cnName": "幻海缠丝-劫灰"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Ash",
+      "cnName": "幻海缠丝-劫灰"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Ash",
+      "cnName": "幻海缠丝-劫灰"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Ash",
+      "cnName": "幻海缠丝-劫灰"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Ash",
+      "cnName": "幻海缠丝-劫灰"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Thunder",
+      "cnName": "幻海缠丝-厉雷"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Thunder",
+      "cnName": "幻海缠丝-厉雷"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Thunder",
+      "cnName": "幻海缠丝-厉雷"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Thunder",
+      "cnName": "幻海缠丝-厉雷"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Thunder",
+      "cnName": "幻海缠丝-厉雷"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Thunder",
+      "cnName": "幻海缠丝-厉雷"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Chilly",
+      "cnName": "幻海缠丝-苦寒"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Chilly",
+      "cnName": "幻海缠丝-苦寒"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Chilly",
+      "cnName": "幻海缠丝-苦寒"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Chilly",
+      "cnName": "幻海缠丝-苦寒"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Chilly",
+      "cnName": "幻海缠丝-苦寒"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Chilly",
+      "cnName": "幻海缠丝-苦寒"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Unreal",
+      "cnName": "幻海缠丝-虚妄"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Unreal",
+      "cnName": "幻海缠丝-虚妄"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Unreal",
+      "cnName": "幻海缠丝-虚妄"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Unreal",
+      "cnName": "幻海缠丝-虚妄"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Unreal",
+      "cnName": "幻海缠丝-虚妄"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Unreal",
+      "cnName": "幻海缠丝-虚妄"
+    },
+    {
+      "enName": "Broken Sun Ring",
+      "cnName": "破碎日环"
+    },
+    {
+      "enName": "Broken Sun Ring",
+      "cnName": "破碎日环"
+    },
+    {
+      "enName": "Broken Sun Ring",
+      "cnName": "破碎日环"
+    },
+    {
+      "enName": "Broken Sun Ring",
+      "cnName": "破碎日环"
+    },
+    {
+      "enName": "Mother Goddess%27 Paddock",
+      "cnName": "母神围场"
+    },
+    {
+      "enName": "Mother Goddess%27 Paddock",
+      "cnName": "母神围场"
+    },
+    {
+      "enName": "Mother Goddess%27 Paddock",
+      "cnName": "母神围场"
+    },
+    {
+      "enName": "Mother Goddess%27 Paddock",
+      "cnName": "母神围场"
+    },
+    {
+      "enName": "Mother Goddess%27 Paddock",
+      "cnName": "母神围场"
+    },
+    {
+      "enName": "Clarity",
+      "cnName": "洞明"
+    },
+    {
+      "enName": "Clarity",
+      "cnName": "洞明"
+    },
+    {
+      "enName": "Clarity",
+      "cnName": "洞明"
+    },
+    {
+      "enName": "Clarity",
+      "cnName": "洞明"
+    },
+    {
+      "enName": "Chain behind the Curtain",
+      "cnName": "操幕之链"
+    },
+    {
+      "enName": "Chain behind the Curtain",
+      "cnName": "操幕之链"
+    },
+    {
+      "enName": "Chain behind the Curtain",
+      "cnName": "操幕之链"
+    },
+    {
+      "enName": "Chain behind the Curtain",
+      "cnName": "操幕之链"
+    },
+    {
+      "enName": "Chain behind the Curtain",
+      "cnName": "操幕之链"
+    },
+    {
+      "enName": "Strange Snow",
+      "cnName": "畸雪"
+    },
+    {
+      "enName": "Strange Snow",
+      "cnName": "畸雪"
+    },
+    {
+      "enName": "Strange Snow",
+      "cnName": "畸雪"
+    },
+    {
+      "enName": "Strange Snow",
+      "cnName": "畸雪"
+    },
+    {
+      "enName": "False God%27s Skin",
+      "cnName": "伪神之蜕"
+    },
+    {
+      "enName": "False God%27s Skin",
+      "cnName": "伪神之蜕"
+    },
+    {
+      "enName": "False God%27s Skin",
+      "cnName": "伪神之蜕"
+    },
+    {
+      "enName": "False God%27s Skin",
+      "cnName": "伪神之蜕"
+    },
+    {
+      "enName": "False God%27s Skin",
+      "cnName": "伪神之蜕"
+    },
+    {
+      "enName": "Rat King%27s Megagon Dice",
+      "cnName": "鼠王的百面骰"
+    },
+    {
+      "enName": "Rat King%27s Megagon Dice",
+      "cnName": "鼠王的百面骰"
+    },
+    {
+      "enName": "Rat King%27s Megagon Dice",
+      "cnName": "鼠王的百面骰"
+    },
+    {
+      "enName": "Rat King%27s Megagon Dice",
+      "cnName": "鼠王的百面骰"
+    },
+    {
+      "enName": "Iron Nest",
+      "cnName": "铁巢"
+    },
+    {
+      "enName": "Iron Nest",
+      "cnName": "铁巢"
+    },
+    {
+      "enName": "Iron Nest",
+      "cnName": "铁巢"
+    },
+    {
+      "enName": "Iron Nest",
+      "cnName": "铁巢"
+    },
+    {
+      "enName": "Iron Nest",
+      "cnName": "铁巢"
+    },
+    {
+      "enName": "Iron Nest",
+      "cnName": "铁巢"
+    },
+    {
+      "enName": "Elegy of Immortality",
+      "cnName": "永生挽歌"
+    },
+    {
+      "enName": "Elegy of Immortality",
+      "cnName": "永生挽歌"
+    },
+    {
+      "enName": "Elegy of Immortality",
+      "cnName": "永生挽歌"
+    },
+    {
+      "enName": "Elegy of Immortality",
+      "cnName": "永生挽歌"
+    },
+    {
+      "enName": "Elegy of Immortality",
+      "cnName": "永生挽歌"
+    },
+    {
+      "enName": "Photophobia",
+      "cnName": "厌光"
+    },
+    {
+      "enName": "Photophobia",
+      "cnName": "厌光"
+    },
+    {
+      "enName": "Howling Wind",
+      "cnName": "劲风起时"
+    },
+    {
+      "enName": "Howling Wind",
+      "cnName": "劲风起时"
+    },
+    {
+      "enName": "Howling Wind",
+      "cnName": "劲风起时"
+    },
+    {
+      "enName": "Lady%27s Tears",
+      "cnName": "铃兰"
+    },
+    {
+      "enName": "Lady%27s Tears",
+      "cnName": "铃兰"
+    },
+    {
+      "enName": "Lady%27s Tears",
+      "cnName": "铃兰"
+    },
+    {
+      "enName": "Lady%27s Tears",
+      "cnName": "铃兰"
+    },
+    {
+      "enName": "Decaying Blessing",
+      "cnName": "腐殖恩泽"
+    },
+    {
+      "enName": "Decaying Blessing",
+      "cnName": "腐殖恩泽"
+    },
+    {
+      "enName": "Decaying Blessing",
+      "cnName": "腐殖恩泽"
+    },
+    {
+      "enName": "Decaying Blessing",
+      "cnName": "腐殖恩泽"
+    },
+    {
+      "enName": "Heart of the Storm",
+      "cnName": "风暴之心"
+    },
+    {
+      "enName": "Heart of the Storm",
+      "cnName": "风暴之心"
+    },
+    {
+      "enName": "Heart of the Storm",
+      "cnName": "风暴之心"
+    },
+    {
+      "enName": "Prayer Bead of Evil",
+      "cnName": "颂恶念珠"
+    },
+    {
+      "enName": "Prayer Bead of Evil",
+      "cnName": "颂恶念珠"
+    },
+    {
+      "enName": "Prayer Bead of Evil",
+      "cnName": "颂恶念珠"
+    },
+    {
+      "enName": "Coldness Tracer%27s Tear",
+      "cnName": "溯寒者的鸣泣"
+    },
+    {
+      "enName": "Coldness Tracer%27s Tear",
+      "cnName": "溯寒者的鸣泣"
+    },
+    {
+      "enName": "Coldness Tracer%27s Tear",
+      "cnName": "溯寒者的鸣泣"
+    },
+    {
+      "enName": "Coldness Tracer%27s Tear",
+      "cnName": "溯寒者的鸣泣"
+    },
+    {
+      "enName": "Mercurial Torment",
+      "cnName": "汞海极刑"
+    },
+    {
+      "enName": "Mercurial Torment",
+      "cnName": "汞海极刑"
+    },
+    {
+      "enName": "Mortal%27s Reverie",
+      "cnName": "凡夫的梦"
+    },
+    {
+      "enName": "Mortal%27s Reverie",
+      "cnName": "凡夫的梦"
+    },
+    {
+      "enName": "Mortal%27s Reverie",
+      "cnName": "凡夫的梦"
+    },
+    {
+      "enName": "Mortal%27s Reverie",
+      "cnName": "凡夫的梦"
+    },
+    {
+      "enName": "Heart of Animitta",
+      "cnName": "无相禅心"
+    },
+    {
+      "enName": "Heart of Animitta",
+      "cnName": "无相禅心"
+    },
+    {
+      "enName": "Heart of Animitta",
+      "cnName": "无相禅心"
+    },
+    {
+      "enName": "Heart of Animitta",
+      "cnName": "无相禅心"
+    },
+    {
+      "enName": "Heart of Animitta",
+      "cnName": "无相禅心"
+    },
+    {
+      "enName": "Necklace of Inverse",
+      "cnName": "逆反"
+    },
+    {
+      "enName": "Necklace of Inverse",
+      "cnName": "逆反"
+    },
+    {
+      "enName": "Necklace of Inverse",
+      "cnName": "逆反"
+    },
+    {
+      "enName": "Frostbolt",
+      "cnName": "霜狱雷鸣"
+    },
+    {
+      "enName": "Frostbolt",
+      "cnName": "霜狱雷鸣"
+    },
+    {
+      "enName": "Frostbolt",
+      "cnName": "霜狱雷鸣"
+    },
+    {
+      "enName": "Frostbolt",
+      "cnName": "霜狱雷鸣"
+    },
+    {
+      "enName": "Law of Greed",
+      "cnName": "不轨律"
+    },
+    {
+      "enName": "Law of Greed",
+      "cnName": "不轨律"
+    },
+    {
+      "enName": "Law of Greed",
+      "cnName": "不轨律"
+    },
+    {
+      "enName": "Law of Greed",
+      "cnName": "不轨律"
+    },
+    {
+      "enName": "Old Grudge",
+      "cnName": "旧怨"
+    },
+    {
+      "enName": "Old Grudge",
+      "cnName": "旧怨"
+    },
+    {
+      "enName": "Old Grudge",
+      "cnName": "旧怨"
+    },
+    {
+      "enName": "Old Grudge",
+      "cnName": "旧怨"
+    },
+    {
+      "enName": "Tortoiseshell Amulet",
+      "cnName": "玳瑁护符"
+    },
+    {
+      "enName": "Cinnabar Pendant",
+      "cnName": "辰砂吊坠"
+    },
+    {
+      "enName": "Obsidian Necklace",
+      "cnName": "黑曜颈链"
+    },
+    {
+      "enName": "Cataclysm Amulet",
+      "cnName": "天灾护符"
+    },
+    {
+      "enName": "Sunlight Pendant",
+      "cnName": "日耀吊坠"
+    },
+    {
+      "enName": "Shaman%27s Necklace",
+      "cnName": "萨满颈链"
+    },
+    {
+      "enName": "Flare Amulet",
+      "cnName": "焰光护符"
+    },
+    {
+      "enName": "Ripple Pendant",
+      "cnName": "涟漪吊坠"
+    },
+    {
+      "enName": "Lunar Corona Necklace",
+      "cnName": "月华颈链"
+    },
+    {
+      "enName": "Sunlight Amulet",
+      "cnName": "日耀护符"
+    },
+    {
+      "enName": "Red Crystal Amulet",
+      "cnName": "红水晶护符"
+    },
+    {
+      "enName": "Opal Pendant",
+      "cnName": "猫眼石吊坠"
+    },
+    {
+      "enName": "Moonstone Necklace",
+      "cnName": "月长石颈链"
+    },
+    {
+      "enName": "Hero%27s Amulet",
+      "cnName": "勇者的护符"
+    },
+    {
+      "enName": "Assassin%27s Pendant",
+      "cnName": "刺客的吊坠"
+    },
+    {
+      "enName": "Sage%27s Necklace",
+      "cnName": "贤者的颈链"
+    },
+    {
+      "enName": "Destroyer%27s Amulet",
+      "cnName": "破环者护符"
+    },
+    {
+      "enName": "Onslaughter%27s Pendant",
+      "cnName": "进击者吊坠"
+    },
+    {
+      "enName": "Sacrificer%27s Necklace",
+      "cnName": "献祭者颈链"
+    },
+    {
+      "enName": "Blessing Pendant",
+      "cnName": "灵佑之坠"
+    },
+    {
+      "enName": "Pentagram Astrolabe",
+      "cnName": "五芒星盘"
+    },
+    {
+      "enName": "Despised Shadow",
+      "cnName": "渎影"
+    },
+    {
+      "enName": "Ownerless",
+      "cnName": "无主"
+    },
+    {
+      "enName": "Photophobia",
+      "cnName": "厌光"
+    },
+    {
+      "enName": "Lady%27s Tears",
+      "cnName": "铃兰"
+    },
+    {
+      "enName": "Chain of Resistance",
+      "cnName": "抗争铁链"
+    },
+    {
+      "enName": "Mercurial Torment",
+      "cnName": "汞海极刑"
+    },
+    {
+      "enName": "Sage%27s Shackle",
+      "cnName": "贤者的铁枷"
+    },
+    {
+      "enName": "Prayer Bead of Evil",
+      "cnName": "颂恶念珠"
+    },
+    {
+      "enName": "Necklace of Inverse",
+      "cnName": "逆反"
+    },
+    {
+      "enName": "Frostbolt",
+      "cnName": "霜狱雷鸣"
+    },
+    {
+      "enName": "Forlorn Crystal",
+      "cnName": "荒芜结晶"
+    },
+    {
+      "enName": "Vortex Heart",
+      "cnName": "旋流之心"
+    },
+    {
+      "enName": "Master Defender Pendant",
+      "cnName": "防御宗师吊坠"
+    },
+    {
+      "enName": "Magnus%27 Mindflame",
+      "cnName": "玛格努斯的心火"
+    },
+    {
+      "enName": "Truth",
+      "cnName": "真理"
+    },
+    {
+      "enName": "Warden%27s Breastpin",
+      "cnName": "典狱官的胸针"
+    },
+    {
+      "enName": "Ocean of Rock",
+      "cnName": "磐岩的汪洋"
+    },
+    {
+      "enName": "Necklace of Firebird",
+      "cnName": "淬火之鸟的颈链"
+    },
+    {
+      "enName": "Phantom",
+      "cnName": "幻影"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Iron Rain",
+      "cnName": "幻海缠丝-铁雨"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Ash",
+      "cnName": "幻海缠丝-劫灰"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Thunder",
+      "cnName": "幻海缠丝-厉雷"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Chilly",
+      "cnName": "幻海缠丝-苦寒"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Unreal",
+      "cnName": "幻海缠丝-虚妄"
+    },
+    {
+      "enName": "Broken Sun Ring",
+      "cnName": "破碎日环"
+    },
+    {
+      "enName": "Mother Goddess%27 Paddock",
+      "cnName": "母神围场"
+    },
+    {
+      "enName": "Clarity",
+      "cnName": "洞明"
+    },
+    {
+      "enName": "Chain behind the Curtain",
+      "cnName": "操幕之链"
+    },
+    {
+      "enName": "Strange Snow",
+      "cnName": "畸雪"
+    },
+    {
+      "enName": "False God%27s Skin",
+      "cnName": "伪神之蜕"
+    },
+    {
+      "enName": "Rat King%27s Megagon Dice",
+      "cnName": "鼠王的百面骰"
+    },
+    {
+      "enName": "Iron Nest",
+      "cnName": "铁巢"
+    },
+    {
+      "enName": "Elegy of Immortality",
+      "cnName": "永生挽歌"
+    },
+    {
+      "enName": "Howling Wind",
+      "cnName": "劲风起时"
+    },
+    {
+      "enName": "Decaying Blessing",
+      "cnName": "腐殖恩泽"
+    },
+    {
+      "enName": "Heart of the Storm",
+      "cnName": "风暴之心"
+    },
+    {
+      "enName": "Coldness Tracer%27s Tear",
+      "cnName": "溯寒者的鸣泣"
+    },
+    {
+      "enName": "Mortal%27s Reverie",
+      "cnName": "凡夫的梦"
+    },
+    {
+      "enName": "Heart of Animitta",
+      "cnName": "无相禅心"
+    },
+    {
+      "enName": "Law of Greed",
+      "cnName": "不轨律"
+    },
+    {
+      "enName": "Old Grudge",
+      "cnName": "旧怨"
+    },
+    {
+      "enName": "Blessing Pendant",
+      "cnName": "灵佑之坠"
+    },
+    {
+      "enName": "Pentagram Astrolabe",
+      "cnName": "五芒星盘"
+    },
+    {
+      "enName": "Despised Shadow",
+      "cnName": "渎影"
+    },
+    {
+      "enName": "Ownerless",
+      "cnName": "无主"
+    },
+    {
+      "enName": "Photophobia",
+      "cnName": "厌光"
+    },
+    {
+      "enName": "Lady%27s Tears",
+      "cnName": "铃兰"
+    },
+    {
+      "enName": "Chain of Resistance",
+      "cnName": "抗争铁链"
+    },
+    {
+      "enName": "Mercurial Torment",
+      "cnName": "汞海极刑"
+    },
+    {
+      "enName": "Sage%27s Shackle",
+      "cnName": "贤者的铁枷"
+    },
+    {
+      "enName": "Prayer Bead of Evil",
+      "cnName": "颂恶念珠"
+    },
+    {
+      "enName": "Necklace of Inverse",
+      "cnName": "逆反"
+    },
+    {
+      "enName": "Frostbolt",
+      "cnName": "霜狱雷鸣"
+    },
+    {
+      "enName": "Forlorn Crystal",
+      "cnName": "荒芜结晶"
+    },
+    {
+      "enName": "Vortex Heart",
+      "cnName": "旋流之心"
+    },
+    {
+      "enName": "Master Defender Pendant",
+      "cnName": "防御宗师吊坠"
+    },
+    {
+      "enName": "Magnus%27 Mindflame",
+      "cnName": "玛格努斯的心火"
+    },
+    {
+      "enName": "Truth",
+      "cnName": "真理"
+    },
+    {
+      "enName": "Warden%27s Breastpin",
+      "cnName": "典狱官的胸针"
+    },
+    {
+      "enName": "Ocean of Rock",
+      "cnName": "磐岩的汪洋"
+    },
+    {
+      "enName": "Necklace of Firebird",
+      "cnName": "淬火之鸟的颈链"
+    },
+    {
+      "enName": "Phantom",
+      "cnName": "幻影"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Iron Rain",
+      "cnName": "幻海缠丝-铁雨"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Ash",
+      "cnName": "幻海缠丝-劫灰"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Thunder",
+      "cnName": "幻海缠丝-厉雷"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Chilly",
+      "cnName": "幻海缠丝-苦寒"
+    },
+    {
+      "enName": "Illusory Ocean Silk - Unreal",
+      "cnName": "幻海缠丝-虚妄"
+    },
+    {
+      "enName": "Broken Sun Ring",
+      "cnName": "破碎日环"
+    },
+    {
+      "enName": "Mother Goddess%27 Paddock",
+      "cnName": "母神围场"
+    },
+    {
+      "enName": "Clarity",
+      "cnName": "洞明"
+    },
+    {
+      "enName": "Chain behind the Curtain",
+      "cnName": "操幕之链"
+    },
+    {
+      "enName": "Strange Snow",
+      "cnName": "畸雪"
+    },
+    {
+      "enName": "False God%27s Skin",
+      "cnName": "伪神之蜕"
+    },
+    {
+      "enName": "Rat King%27s Megagon Dice",
+      "cnName": "鼠王的百面骰"
+    },
+    {
+      "enName": "Iron Nest",
+      "cnName": "铁巢"
+    },
+    {
+      "enName": "Elegy of Immortality",
+      "cnName": "永生挽歌"
+    },
+    {
+      "enName": "Howling Wind",
+      "cnName": "劲风起时"
+    },
+    {
+      "enName": "Decaying Blessing",
+      "cnName": "腐殖恩泽"
+    },
+    {
+      "enName": "Heart of the Storm",
+      "cnName": "风暴之心"
+    },
+    {
+      "enName": "Coldness Tracer%27s Tear",
+      "cnName": "溯寒者的鸣泣"
+    },
+    {
+      "enName": "Mortal%27s Reverie",
+      "cnName": "凡夫的梦"
+    },
+    {
+      "enName": "Heart of Animitta",
+      "cnName": "无相禅心"
+    },
+    {
+      "enName": "Law of Greed",
+      "cnName": "不轨律"
+    },
+    {
+      "enName": "Old Grudge",
+      "cnName": "旧怨"
+    },
+    {
+      "enName": "Shallow Dream Talking - Trinket",
+      "cnName": "浅白梦语-饰品"
+    },
+    {
+      "enName": "Shallow Dream Talking - Trinket",
+      "cnName": "浅白梦语-饰品"
+    },
+    {
+      "enName": "Shallow Dream Talking - Trinket",
+      "cnName": "浅白梦语-饰品"
+    },
+    {
+      "enName": "Shallow Dream Talking - Trinket",
+      "cnName": "浅白梦语-饰品"
+    },
+    {
+      "enName": "Shallow Dream Talking - Trinket",
+      "cnName": "浅白梦语-饰品"
+    },
+    {
+      "enName": "Shallow Dream Talking - Trinket",
+      "cnName": "浅白梦语-饰品"
+    }
+  ]
+}

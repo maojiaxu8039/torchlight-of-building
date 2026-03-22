@@ -1,0 +1,381 @@
+{
+  "equipmentType": "DEX_Helmet",
+  "baseGears": [
+    {
+      "enName": "Legendary Soldier Spectacles",
+      "cnName": "传奇战士护目镜"
+    },
+    {
+      "enName": "Legendary Soldier Spectacles",
+      "cnName": "传奇战士护目镜"
+    },
+    {
+      "enName": "Legendary Soldier Spectacles",
+      "cnName": "传奇战士护目镜"
+    },
+    {
+      "enName": "Legendary Soldier Spectacles",
+      "cnName": "传奇战士护目镜"
+    },
+    {
+      "enName": "Legendary Soldier Spectacles",
+      "cnName": "传奇战士护目镜"
+    },
+    {
+      "enName": "Machine Lord",
+      "cnName": "机械领主"
+    },
+    {
+      "enName": "Machine Lord",
+      "cnName": "机械领主"
+    },
+    {
+      "enName": "Machine Lord",
+      "cnName": "机械领主"
+    },
+    {
+      "enName": "Machine Lord",
+      "cnName": "机械领主"
+    },
+    {
+      "enName": "Machine Lord",
+      "cnName": "机械领主"
+    },
+    {
+      "enName": "Opening Heart",
+      "cnName": "敞开心扉"
+    },
+    {
+      "enName": "Opening Heart",
+      "cnName": "敞开心扉"
+    },
+    {
+      "enName": "Opening Heart",
+      "cnName": "敞开心扉"
+    },
+    {
+      "enName": "Opening Heart",
+      "cnName": "敞开心扉"
+    },
+    {
+      "enName": "Blind Vision",
+      "cnName": "盲眼之视"
+    },
+    {
+      "enName": "Blind Vision",
+      "cnName": "盲眼之视"
+    },
+    {
+      "enName": "Blind Vision",
+      "cnName": "盲眼之视"
+    },
+    {
+      "enName": "Blind Vision",
+      "cnName": "盲眼之视"
+    },
+    {
+      "enName": "Thunder Jawbone",
+      "cnName": "万雷颚骨"
+    },
+    {
+      "enName": "Thunder Jawbone",
+      "cnName": "万雷颚骨"
+    },
+    {
+      "enName": "Thunder Jawbone",
+      "cnName": "万雷颚骨"
+    },
+    {
+      "enName": "Thunder Jawbone",
+      "cnName": "万雷颚骨"
+    },
+    {
+      "enName": "Corrupted Marrow",
+      "cnName": "蚀髓"
+    },
+    {
+      "enName": "Corrupted Marrow",
+      "cnName": "蚀髓"
+    },
+    {
+      "enName": "Corrupted Marrow",
+      "cnName": "蚀髓"
+    },
+    {
+      "enName": "Corrupted Marrow",
+      "cnName": "蚀髓"
+    },
+    {
+      "enName": "Corrupted Marrow",
+      "cnName": "蚀髓"
+    },
+    {
+      "enName": "Hunting the Eye of the Kraken",
+      "cnName": "追猎海妖之眼"
+    },
+    {
+      "enName": "Hunting the Eye of the Kraken",
+      "cnName": "追猎海妖之眼"
+    },
+    {
+      "enName": "Hunting the Eye of the Kraken",
+      "cnName": "追猎海妖之眼"
+    },
+    {
+      "enName": "Hunting the Eye of the Kraken",
+      "cnName": "追猎海妖之眼"
+    },
+    {
+      "enName": "Hunting the Eye of the Kraken",
+      "cnName": "追猎海妖之眼"
+    },
+    {
+      "enName": "Flying Light at Daybreak",
+      "cnName": "飞光破晓"
+    },
+    {
+      "enName": "Flying Light at Daybreak",
+      "cnName": "飞光破晓"
+    },
+    {
+      "enName": "Flying Light at Daybreak",
+      "cnName": "飞光破晓"
+    },
+    {
+      "enName": "Flying Light at Daybreak",
+      "cnName": "飞光破晓"
+    },
+    {
+      "enName": "Flying Light at Daybreak",
+      "cnName": "飞光破晓"
+    },
+    {
+      "enName": "Flying Light at Daybreak",
+      "cnName": "飞光破晓"
+    },
+    {
+      "enName": "Legless Bird%27s Lament",
+      "cnName": "无脚鸟的悲啼"
+    },
+    {
+      "enName": "Legless Bird%27s Lament",
+      "cnName": "无脚鸟的悲啼"
+    },
+    {
+      "enName": "Legless Bird%27s Lament",
+      "cnName": "无脚鸟的悲啼"
+    },
+    {
+      "enName": "Legless Bird%27s Lament",
+      "cnName": "无脚鸟的悲啼"
+    },
+    {
+      "enName": "Hanging Two-Tone Mask",
+      "cnName": "倒吊的半面"
+    },
+    {
+      "enName": "Hanging Two-Tone Mask",
+      "cnName": "倒吊的半面"
+    },
+    {
+      "enName": "Hanging Two-Tone Mask",
+      "cnName": "倒吊的半面"
+    },
+    {
+      "enName": "Hanging Two-Tone Mask",
+      "cnName": "倒吊的半面"
+    },
+    {
+      "enName": "Rogue%27s Hood",
+      "cnName": "游荡者罩帽"
+    },
+    {
+      "enName": "Scout%27s Hood",
+      "cnName": "斥候头罩"
+    },
+    {
+      "enName": "Skirmisher%27s Mask",
+      "cnName": "散兵面具"
+    },
+    {
+      "enName": "Hunter%27s Hood",
+      "cnName": "猎手兜帽"
+    },
+    {
+      "enName": "Prospector%27s Hat",
+      "cnName": "勘探者之帽"
+    },
+    {
+      "enName": "Wild Dominator Headdress",
+      "cnName": "荒野主宰头饰"
+    },
+    {
+      "enName": "Grand Explorer%27s Fez",
+      "cnName": "大探险家毡帽"
+    },
+    {
+      "enName": "Watcher%27s Gaze",
+      "cnName": "监视者的凝视"
+    },
+    {
+      "enName": "Eternal Night Stalker%27s Hood",
+      "cnName": "永夜追猎者罩帽"
+    },
+    {
+      "enName": "Mask of Calamity",
+      "cnName": "灾厄面具"
+    },
+    {
+      "enName": "Demon Slayer%27s Eyes",
+      "cnName": "除魔者之眼"
+    },
+    {
+      "enName": "Secret Shadow%27s Mask",
+      "cnName": "秘影面具"
+    },
+    {
+      "enName": "Corrupted Marrow",
+      "cnName": "蚀髓"
+    },
+    {
+      "enName": "Legendary Soldier Spectacles",
+      "cnName": "传奇战士护目镜"
+    },
+    {
+      "enName": "Machine Lord",
+      "cnName": "机械领主"
+    },
+    {
+      "enName": "Opening Heart",
+      "cnName": "敞开心扉"
+    },
+    {
+      "enName": "Blind Vision",
+      "cnName": "盲眼之视"
+    },
+    {
+      "enName": "Thunder Jawbone",
+      "cnName": "万雷颚骨"
+    },
+    {
+      "enName": "Hunting the Eye of the Kraken",
+      "cnName": "追猎海妖之眼"
+    },
+    {
+      "enName": "Flying Light at Daybreak",
+      "cnName": "飞光破晓"
+    },
+    {
+      "enName": "Legless Bird%27s Lament",
+      "cnName": "无脚鸟的悲啼"
+    },
+    {
+      "enName": "Hanging Two-Tone Mask",
+      "cnName": "倒吊的半面"
+    },
+    {
+      "enName": "Corrupted Marrow",
+      "cnName": "蚀髓"
+    },
+    {
+      "enName": "Legendary Soldier Spectacles",
+      "cnName": "传奇战士护目镜"
+    },
+    {
+      "enName": "Machine Lord",
+      "cnName": "机械领主"
+    },
+    {
+      "enName": "Opening Heart",
+      "cnName": "敞开心扉"
+    },
+    {
+      "enName": "Blind Vision",
+      "cnName": "盲眼之视"
+    },
+    {
+      "enName": "Thunder Jawbone",
+      "cnName": "万雷颚骨"
+    },
+    {
+      "enName": "Hunting the Eye of the Kraken",
+      "cnName": "追猎海妖之眼"
+    },
+    {
+      "enName": "Flying Light at Daybreak",
+      "cnName": "飞光破晓"
+    },
+    {
+      "enName": "Legless Bird%27s Lament",
+      "cnName": "无脚鸟的悲啼"
+    },
+    {
+      "enName": "Hanging Two-Tone Mask",
+      "cnName": "倒吊的半面"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Energy Core",
+      "cnName": "能量核心"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    },
+    {
+      "enName": "Shallow Dream Talking - Armor",
+      "cnName": "浅白梦语-防具"
+    }
+  ]
+}

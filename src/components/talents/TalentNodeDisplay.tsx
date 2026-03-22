@@ -1,3 +1,5 @@
+import { getTranslatedAffixText } from "@/src/lib/affix-translator";
+
 import { Trans } from "@lingui/react/macro";
 import { i18n } from "@lingui/core";
 import {
@@ -175,14 +177,14 @@ export const TalentNodeDisplay: React.FC<TalentNodeDisplayProps> = ({
           <TooltipContent>{prism.baseAffix}</TooltipContent>
           {prism.gaugeAffixes.map((affix, idx) => (
             <div
-              key={affix.text}
+              key={getTranslatedAffixText(affix.text)}
               className={
                 idx > 0
                   ? "mt-1 pt-1 border-t border-zinc-800"
                   : "mt-2 pt-2 border-t border-zinc-700"
               }
             >
-              <div className="text-xs text-zinc-400">{affix.text}</div>
+              <div className="text-xs text-zinc-400">{getTranslatedAffixText(affix.text)}</div>
               {affix.type === "unsupported" && (
                 <div className="text-xs text-red-500">
                   (Mod not supported in TOB yet)
@@ -356,7 +358,7 @@ export const TalentNodeDisplay: React.FC<TalentNodeDisplayProps> = ({
                 key={idx}
                 className={idx > 0 ? "mt-1 pt-1 border-t border-zinc-800" : ""}
               >
-                <div>{line.text}</div>
+                <div>{getTranslatedAffixText(line.text)}</div>
                 {!line.mods && (
                   <div className="text-xs text-red-500">
                     (Mod not supported in TOB yet)
@@ -453,7 +455,7 @@ export const TalentNodeDisplay: React.FC<TalentNodeDisplayProps> = ({
               key={idx}
               className={idx > 0 ? "mt-1 pt-1 border-t border-zinc-800" : ""}
             >
-              <div>{line.text}</div>
+              <div>{getTranslatedAffixText(line.text)}</div>
               {!line.mods && (
                 <div className="text-xs text-red-500">
                   (Mod not supported in TOB yet)

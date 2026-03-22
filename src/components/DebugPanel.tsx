@@ -1,3 +1,5 @@
+import { getTranslatedAffixText } from "@/src/lib/affix-translator";
+
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Trans } from "@lingui/react/macro";
 import { i18n } from "@/src/lib/i18n";
@@ -615,7 +617,7 @@ export const DebugPanel: React.FC<DebugPanelProps> = ({
                           {affix.skillName}
                         </span>
                         <span className="font-mono text-purple-400">
-                          {affix.text}
+                          {getTranslatedAffixText(affix.text)}
                         </span>
                       </div>
                     ))}
@@ -639,7 +641,7 @@ export const DebugPanel: React.FC<DebugPanelProps> = ({
                           {affix.src}
                         </span>
                         <span className="font-mono text-red-400">
-                          {affix.text}
+                          {getTranslatedAffixText(affix.text)}
                         </span>
                       </div>
                     ))}
@@ -664,7 +666,7 @@ export const DebugPanel: React.FC<DebugPanelProps> = ({
               )}
               {filteredAffixLines.map((line, idx) => (
                 <div
-                  key={`${line.src}-${line.text}-${idx}`}
+                  key={`${line.src}-${getTranslatedAffixText(line.text)}-${idx}`}
                   className="flex items-start gap-2 text-sm"
                 >
                   <span className="shrink-0 px-2 py-0.5 bg-blue-900/50 text-blue-300 rounded text-xs font-medium">
@@ -673,7 +675,7 @@ export const DebugPanel: React.FC<DebugPanelProps> = ({
                   <span
                     className={`font-mono ${line.hasMods ? "text-zinc-50" : "text-red-400"}`}
                   >
-                    {line.text}
+                    {getTranslatedAffixText(line.text)}
                   </span>
                 </div>
               ))}

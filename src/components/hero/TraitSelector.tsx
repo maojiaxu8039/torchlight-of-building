@@ -1,3 +1,5 @@
+import { getTranslatedAffixText } from "@/src/lib/affix-translator";
+
 import { Trans } from "@lingui/react/macro";
 import { i18n } from "@lingui/core";
 import { SearchableSelect } from "@/src/components/ui/SearchableSelect";
@@ -40,7 +42,7 @@ const MemoryTooltipContent: React.FC<{ memory: HeroMemory }> = ({ memory }) => (
                     lineIdx > 0 ? "mt-1 pt-1 border-t border-zinc-800" : ""
                   }
                 >
-                  <div className="text-xs text-zinc-400">{line.text}</div>
+                  <div className="text-xs text-zinc-400">{getTranslatedAffixText(line.text)}</div>
                   {line.mods === undefined && (
                     <div className="text-xs text-red-500">
                       (Mod not supported in TOB yet)

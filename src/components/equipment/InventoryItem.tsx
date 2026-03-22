@@ -4,6 +4,7 @@ import { i18n } from "@/src/lib/i18n";
 import { getGearAffixes } from "@/src/tli/calcs/affix-collectors";
 import type { Gear } from "@/src/tli/core";
 import { GearTooltipContent } from "./GearTooltipContent";
+import { getBaseGearNameTranslation } from "@/src/data/translated-affixes/base-gear-name-translations";
 
 interface InventoryItemProps {
   item: Gear;
@@ -38,7 +39,7 @@ export const InventoryItem: React.FC<InventoryItemProps> = ({
       <div className="flex items-center gap-2">
         <span className="font-medium text-zinc-50 text-sm">
           {i18n._(
-            item.legendaryName ?? item.baseGearName ?? item.equipmentType,
+            item.legendaryName ?? getBaseGearNameTranslation(item.baseGearName) ?? item.equipmentType,
           )}
         </span>
         {isLegendary && (

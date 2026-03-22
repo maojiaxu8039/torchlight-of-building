@@ -1,3 +1,5 @@
+import { getTranslatedAffixText } from "@/src/lib/affix-translator";
+
 import type React from "react";
 import type { TreeSlot } from "@/src/lib/types";
 import { useTalentTree } from "@/src/stores/builderStore";
@@ -53,7 +55,7 @@ export const PrismCoreTalentEffect: React.FC<PrismCoreTalentEffectProps> = ({
               key={idx}
               className={idx > 0 ? "mt-1 pt-1 border-t border-zinc-800" : ""}
             >
-              <div className="text-sm text-blue-400">{line.text}</div>
+              <div className="text-sm text-blue-400">{getTranslatedAffixText(line.text)}</div>
               {line.mods === undefined && (
                 <div className="text-xs text-red-500">
                   (Mod not supported in TOB yet)
@@ -85,7 +87,7 @@ export const PrismCoreTalentEffect: React.FC<PrismCoreTalentEffectProps> = ({
               key={idx}
               className={idx > 0 ? "mt-1 pt-1 border-t border-zinc-800" : ""}
             >
-              <div className="text-sm text-blue-400">{line.text}</div>
+              <div className="text-sm text-blue-400">{getTranslatedAffixText(line.text)}</div>
               {line.mods === undefined && (
                 <div className="text-xs text-red-500">
                   (Mod not supported in TOB yet)
