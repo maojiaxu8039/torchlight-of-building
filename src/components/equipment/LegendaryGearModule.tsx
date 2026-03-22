@@ -1,6 +1,6 @@
 import { i18n } from "@lingui/core";
 import { Trans } from "@lingui/react/macro";
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { Legendaries } from "@/src/data/legendary/legendaries";
 import type { LegendaryAffix } from "@/src/data/legendary/types";
 import type { Gear } from "@/src/lib/save-data";
@@ -79,6 +79,18 @@ export const LegendaryGearModule: React.FC<LegendaryGearModuleProps> = ({
   onClose,
   onSaveToInventory,
 }) => {
+  const [, forceUpdate] = useState({});
+
+  useEffect(() => {
+    const handleLocaleChange = () => {
+      forceUpdate({});
+    };
+    window.addEventListener("locale-changed", handleLocaleChange);
+    return () => {
+      window.removeEventListener("locale-changed", handleLocaleChange);
+    };
+  }, []);
+
   const [selectedLegendaryIndex, setSelectedLegendaryIndex] = useState<
     number | undefined
   >(undefined);

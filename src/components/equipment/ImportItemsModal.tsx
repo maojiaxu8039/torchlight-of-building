@@ -5,6 +5,7 @@ import { ALL_VORAX_LIMBS } from "../../data/vorax/all-vorax-limbs";
 import type { Gear } from "../../lib/save-data";
 import { generateItemId } from "../../lib/storage";
 import { EQUIPMENT_TYPES, type EquipmentType } from "../../tli/gear-data-types";
+import { i18n } from "@/src/lib/i18n";
 import {
   Modal,
   ModalActions,
@@ -158,14 +159,14 @@ export const ImportItemsModal = ({
   const handleImport = (): void => {
     const trimmed = inputValue.trim();
     if (trimmed.length === 0) {
-      setError("Please paste item JSON");
+      setError(i18n._("Please paste item JSON"));
       return;
     }
 
     const { items, errors } = parseImportedItems(trimmed);
 
     if (items.length === 0) {
-      setError(errors.length > 0 ? errors.join("\n") : "No valid items found");
+      setError(errors.length > 0 ? errors.join("\n") : i18n._("No valid items found"));
       return;
     }
 
@@ -175,7 +176,7 @@ export const ImportItemsModal = ({
 
     if (errors.length > 0) {
       setWarning(
-        `Imported ${items.length} item(s). The following could not be imported:\n${errors.join("\n")}`,
+        `${i18n._("Imported items count", { count: items.length })} ${i18n._("The following could not be imported")}:\n${errors.join("\n")}`,
       );
     } else {
       setWarning(undefined);
@@ -192,19 +193,9 @@ export const ImportItemsModal = ({
   }, [isOpen]);
 
   return (
-    <Modal isOpen={isOpen} onClose={onClose} title="Import Items">
+    <Modal isOpen={isOpen} onClose={onClose} title={i18n._("Import Items")}>
       <ModalDescription>
-        See the{" "}
-        <a
-          href="https://aclinia.github.io/torchlight-of-building/import-items/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-amber-400 underline hover:text-amber-300"
-        >
-          user guide
-        </a>{" "}
-        for instructions on how to generate item descriptions from in-game
-        screenshots.
+        {i18n._("See the user guide for instructions on how to generate item descriptions from in-game screenshots.")}
       </ModalDescription>
 
       <textarea
@@ -213,7 +204,7 @@ export const ImportItemsModal = ({
           setInputValue(e.target.value);
           setError(undefined);
         }}
-        placeholder={`[{\n  "name": "Ranger's Rusted Gauntlets",\n  "equipmentType": "STR Gloves",\n  "equipmentSlot": "Hands",\n  "affixes": ["+10 Strength"]\n}]`}
+        placeholder={i18n._("Item JSON placeholder")}
         className="h-48 w-full resize-none rounded-lg border border-zinc-700 bg-zinc-800 p-3 font-mono text-sm text-zinc-50 placeholder:text-zinc-500 focus:border-amber-500 focus:outline-none focus:ring-2 focus:ring-amber-500/30"
         onKeyDown={(e) => {
           if (e.key === "Enter" && (e.metaKey || e.ctrlKey)) {
@@ -234,10 +225,10 @@ export const ImportItemsModal = ({
 
       <ModalActions>
         <ModalButton onClick={handleImport} fullWidth>
-          Import
+          {i18n._("Import")}
         </ModalButton>
         <ModalButton onClick={onClose} variant="secondary">
-          Cancel
+          {i18n._("Cancel")}
         </ModalButton>
       </ModalActions>
     </Modal>

@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { i18n } from "@/src/lib/i18n";
 import type { CraftedInverseImage } from "@/src/tli/core";
 import { InverseImageInventoryItem } from "./InverseImageInventoryItem";
@@ -27,6 +28,18 @@ export const InverseImageInventory: React.FC<InverseImageInventoryProps> = ({
   isOnGodGoddessTree = false,
   treeHasPoints = false,
 }) => {
+  const [, forceUpdate] = useState({});
+
+  useEffect(() => {
+    const handleLocaleChange = () => {
+      forceUpdate({});
+    };
+    window.addEventListener("locale-changed", handleLocaleChange);
+    return () => {
+      window.removeEventListener("locale-changed", handleLocaleChange);
+    };
+  }, []);
+
   const selectionMode = !!onSelectInverseImage;
 
   const handleSelect = (inverseImageId: string) => {
@@ -75,7 +88,7 @@ export const InverseImageInventory: React.FC<InverseImageInventoryProps> = ({
 
       {inverseImages.length === 0 ? (
         <p className="text-sm text-zinc-500">
-          No inverse images crafted yet. Create one using the crafter!
+          {i18n._("No inverse images crafted yet. Create one using the crafter!")}
         </p>
       ) : (
         <div className="flex flex-col gap-2 max-h-96 overflow-y-auto">

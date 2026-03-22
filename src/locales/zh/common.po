@@ -51,6 +51,21 @@ msgstr "创建您的第一个角色流派以开始使用"
 msgid "Expand"
 msgstr "展开"
 
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:41
+msgid "1x1 slate that copies a talent from an adjacent direction"
+msgstr "1x1 神板，复制相邻方向的天赋"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:45
+msgid "1x1 slate that copies talents from all adjacent slates"
+msgstr "1x1 神板，复制所有相邻神板的天赋"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:53
+msgid "2-cell vertical shape with 4 mixed affixes"
+msgstr "2格垂直形状，4个混合词缀"
+
 #: src/components/equipment/EditGearModal.tsx:934
 #: src/components/equipment/VoraxGearModule.tsx:919
 msgid "Enter raw affix text, one per line. Use this for affixes not available in the dropdowns above."
@@ -65,11 +80,16 @@ msgstr "自定义词缀"
 msgid "Rename"
 msgstr "重命名"
 
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:49
+msgid "3-cell L-shape with up to 2 Legendary Medium affixes"
+msgstr "3格L形状，最多2个传奇中型词缀"
+
 #: src/components/DebugPanel.tsx:554
 msgid "Minimize"
 msgstr "最小化"
 
-#: src/components/talents/PrismSection.tsx:74
+#: src/components/talents/PrismSection.tsx:86
 msgid "Craft Prism"
 msgstr "制作棱镜"
 
@@ -80,6 +100,11 @@ msgstr "被动技能"
 #: src/components/talents/TalentNodeDisplay.tsx:172
 msgid "Prism"
 msgstr "棱镜"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:57
+msgid "7-cell shape with 4 affixes including core talents"
+msgstr "7格形状，4个词缀，包含核心天赋"
 
 #: src/components/modals/ExportModal.tsx:77
 msgid "Show raw build code"
@@ -113,12 +138,17 @@ msgid "<Select Pactspirit>"
 msgstr "<选择契灵>"
 
 #. js-lingui-explicit-id
-#: src/components/talents/PrismInventory.tsx:48
+#: src/components/divinity/LegendarySlateCrafter.tsx:48
+msgid "A Corner of Divinity"
+msgstr "神性角落"
+
+#. js-lingui-explicit-id
+#: src/components/talents/PrismInventory.tsx:61
 msgid "A prism is already placed. Remove it first to place a different one."
 msgstr "已放置棱镜。需先移除才能放置不同的棱镜。"
 
 #: src/components/equipment/EditGearModal.tsx:966
-#: src/components/equipment/LegendaryGearModule.tsx:409
+#: src/components/equipment/LegendaryGearModule.tsx:421
 #: src/components/equipment/VoraxGearModule.tsx:953
 msgid "Save to Inventory"
 msgstr "保存到库存"
@@ -127,6 +157,11 @@ msgstr "保存到库存"
 #: src/components/modals/AboutModal.tsx:15
 msgid "About"
 msgstr "关于"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:62
+msgid "Above"
+msgstr "上方"
 
 #. js-lingui-explicit-id
 #: src/components/skills/SupportSkillSelector.tsx:214
@@ -149,13 +184,14 @@ msgid "Active Tangles"
 msgstr "活跃纠缠数"
 
 #. js-lingui-explicit-id
-#: src/components/equipment/LegendaryGearModule.tsx:313
+#: src/components/equipment/LegendaryGearModule.tsx:325
 msgid "Add Legendary"
 msgstr "添加传奇装备"
 
 #. js-lingui-explicit-id
 #. placeholder {0}: loadoutAffixLines.length
 #: src/components/DebugPanel.tsx:423
+#: src/components/divinity/LegendarySlateCrafter.tsx:417
 msgid "Affixes"
 msgstr "词缀"
 
@@ -180,7 +216,7 @@ msgid "All Reflected Micro Talent Effects"
 msgstr "所有反射微小天赋效果"
 
 #. js-lingui-explicit-id
-#: src/components/talents/InverseImageInventory.tsx:43
+#: src/components/talents/InverseImageInventory.tsx:56
 msgid "An inverse image is already placed. Remove it first to place a different one."
 msgstr "已放置反向图像。需先移除才能放置不同的反向图像。"
 
@@ -268,6 +304,11 @@ msgid "Base Affix"
 msgstr "基础词缀"
 
 #. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:63
+msgid "Below"
+msgstr "下方"
+
+#. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:4
 #: src/data/translate/equipment-types.ts:5
 msgid "Belt"
@@ -335,7 +376,9 @@ msgid "Calculations"
 msgstr "计算"
 
 #. js-lingui-explicit-id
+#: src/components/equipment/ImportItemsModal.tsx:231
 #: src/components/hero/EditMemoryModal.tsx:620
+#: src/components/skills/SkillImportModal.tsx:105
 #: src/components/talents/InverseImageCrafter.tsx:169
 #: src/components/talents/PrismCrafter.tsx:271
 msgid "Cancel"
@@ -407,22 +450,22 @@ msgid "Claw"
 msgstr "爪"
 
 #. js-lingui-explicit-id
-#: src/components/talents/PrismInventory.tsx:53
+#: src/components/talents/PrismInventory.tsx:66
 msgid "Click a prism to select it for placement."
 msgstr "点击棱镜选择放置。"
 
 #. js-lingui-explicit-id
-#: src/components/talents/InverseImageInventory.tsx:57
+#: src/components/talents/InverseImageInventory.tsx:70
 msgid "Click an inverse image to select it for placement."
 msgstr "点击反向图像选择放置。"
 
 #. js-lingui-explicit-id
-#: src/components/talents/InverseImageInventory.tsx:55
+#: src/components/talents/InverseImageInventory.tsx:68
 msgid "Click on an empty talent node (not in center column) to place the inverse image, or click it again to deselect."
 msgstr "点击空白天赋节点（非中间列）放置反向图像，或再次点击取消选择。"
 
 #. js-lingui-explicit-id
-#: src/components/talents/PrismInventory.tsx:52
+#: src/components/talents/PrismInventory.tsx:65
 msgid "Click on an empty talent node to place the prism, or click the prism again to deselect."
 msgstr "点击空白天赋节点放置棱镜，或再次点击取消选择。"
 
@@ -460,17 +503,59 @@ msgid "Copied!"
 msgstr "已复制！"
 
 #. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:93
+msgid "Copies the last Talent on all adjacent slates. Unable to copy Core Talents."
+msgstr "复制所有相邻神板上的最后一个天赋。无法复制核心天赋。"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:89
+msgid "Copies the last Talent on the adjacent slate above to this slate. Unable to copy the Core Talent."
+msgstr "复制上方相邻神板上的最后一个天赋到本神板。无法复制核心天赋。"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:91
+msgid "Copies the last Talent on the adjacent slate below this slate. Unable to copy the Core Talents."
+msgstr "复制下方相邻神板上的最后一个天赋到本神板。无法复制核心天赋。"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:90
+msgid "Copies the last Talent on the adjacent slate on the left to this slate. Unable to copy the Core Talent."
+msgstr "复制左侧相邻神板上的最后一个天赋到本神板。无法复制核心天赋。"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:92
+msgid "Copies the last Talent on the adjacent slate on the right to this slate. Unable to copy the Core Talent."
+msgstr "复制右侧相邻神板上的最后一个天赋到本神板。无法复制核心天赋。"
+
+#. js-lingui-explicit-id
 #: src/components/hero/MemoryInventory.tsx:87
 msgid "Copy"
 msgstr "复制"
 
 #. js-lingui-explicit-id
-#: src/components/talents/CoreTalentSelector.tsx:60
+#: src/components/divinity/LegendarySlateCrafter.tsx:375
+msgid "Copy Direction"
+msgstr "复制方向"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:79
+msgid "Core"
+msgstr "核心"
+
+#. js-lingui-explicit-id
+#: src/components/talents/CoreTalentSelector.tsx:66
+msgid "Core Talent"
+msgstr "核心天赋"
+
+#. js-lingui-explicit-id
+#: src/components/talents/CoreTalentSelector.tsx:64
+#: src/routes/builder/talents/$slot.tsx:329
 msgid "Core Talent 1"
 msgstr "核心天赋1"
 
 #. js-lingui-explicit-id
-#: src/components/talents/CoreTalentSelector.tsx:67
+#: src/components/talents/CoreTalentSelector.tsx:65
+#: src/routes/builder/talents/$slot.tsx:335
 msgid "Core Talent 2"
 msgstr "核心天赋2"
 
@@ -480,10 +565,15 @@ msgid "Craft Hero Memory"
 msgstr "制作英雄记忆"
 
 #. js-lingui-explicit-id
-#: src/components/talents/InverseImageSection.tsx:74
-#: src/components/talents/InverseImageSection.tsx:95
+#: src/components/talents/InverseImageSection.tsx:86
+#: src/components/talents/InverseImageSection.tsx:107
 msgid "Craft Inverse Image"
 msgstr "制作反向图像"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:272
+msgid "Craft Legendary Slate"
+msgstr "制作传奇神板"
 
 #. js-lingui-explicit-id
 #: src/components/hero/HeroTab.tsx:43
@@ -496,7 +586,12 @@ msgid "Craft New Item"
 msgstr "制作新物品"
 
 #. js-lingui-explicit-id
-#: src/components/divinity/SlateCrafter.tsx:117
+#: src/components/talents/PrismSection.tsx:102
+msgid "Craft Prism"
+msgstr "制作棱镜"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateCrafter.tsx:134
 msgid "Craft Slate"
 msgstr "制作神板"
 
@@ -609,6 +704,11 @@ msgid "Debug: Unimplemented"
 msgstr "调试：未实现"
 
 #. js-lingui-explicit-id
+#: src/components/divinity/SlateCrafter.tsx:31
+msgid "Deception"
+msgstr "欺骗"
+
+#. js-lingui-explicit-id
 #: src/components/hero/MemoryInventory.tsx:99
 msgid "Delete"
 msgstr "删除"
@@ -666,9 +766,14 @@ msgid "Edit Hero Memory"
 msgstr "编辑英雄记忆"
 
 #. js-lingui-explicit-id
-#: src/components/talents/InverseImageSection.tsx:94
+#: src/components/talents/InverseImageSection.tsx:106
 msgid "Edit Inverse Image"
 msgstr "编辑反向图像"
+
+#. js-lingui-explicit-id
+#: src/components/talents/PrismSection.tsx:102
+msgid "Edit Prism"
+msgstr "编辑棱镜"
 
 #. js-lingui-explicit-id
 #: src/components/equipment/EditGearModal.tsx:693
@@ -772,9 +877,19 @@ msgid "Evasion"
 msgstr "闪避"
 
 #. js-lingui-explicit-id
+#: src/components/skills/SkillImportModal.tsx:45
+msgid "Expected a JSON array of skill entries."
+msgstr "需要 JSON 技能条目数组。"
+
+#. js-lingui-explicit-id
 #: src/components/modals/ExportModal.tsx:60
 msgid "Export Loadout"
 msgstr "导出配装"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:52
+msgid "Fallen Starlight"
+msgstr "陨落星光"
 
 #. js-lingui-explicit-id
 #: src/components/configuration/ConfigurationTab.tsx:199
@@ -804,9 +919,24 @@ msgid "Fixed"
 msgstr "固定"
 
 #. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:405
+msgid "Fixed Affix"
+msgstr "固定词缀"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:70
+msgid "Flip H"
+msgstr "水平翻转"
+
+#. js-lingui-explicit-id
 #: src/components/divinity/SlateEditToolbar.tsx:117
 msgid "Flip Horizontal"
 msgstr "水平翻转"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:71
+msgid "Flip V"
+msgstr "垂直翻转"
 
 #. js-lingui-explicit-id
 #: src/components/divinity/SlateEditToolbar.tsx:125
@@ -852,7 +982,7 @@ msgid "Gloves (STR)"
 msgstr "手套 (力量)"
 
 #. js-lingui-explicit-id
-#: src/components/divinity/SlateCrafter.tsx:120
+#: src/components/divinity/SlateCrafter.tsx:137
 msgid "God"
 msgstr "神"
 
@@ -955,6 +1085,11 @@ msgstr "最近用元素伤害击中敌人"
 msgid "No builds yet"
 msgstr "暂无流派"
 
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateCrafter.tsx:32
+msgid "Hunting"
+msgstr "狩猎"
+
 #: src/routes/builder/calculations.tsx:702
 msgid "Defenses & Movement"
 msgstr "防御与移动"
@@ -979,6 +1114,18 @@ msgid "Ice Puppet Stacks"
 msgstr "冰偶层数"
 
 #. js-lingui-explicit-id
+#: src/components/equipment/ImportItemsModal.tsx:228
+#: src/components/skills/SkillImportModal.tsx:102
+msgid "Import"
+msgstr "导入"
+
+#. js-lingui-explicit-id
+#: src/components/equipment/ImportItemsModal.tsx:196
+msgid "Import Items"
+msgstr "导入物品"
+
+#. js-lingui-explicit-id
+#: src/components/skills/SkillImportModal.tsx:66
 #: src/routes/builder/skills.tsx:69
 msgid "Import Skills"
 msgstr "导入技能"
@@ -989,17 +1136,27 @@ msgid "Import Slates"
 msgstr "导入神板"
 
 #. js-lingui-explicit-id
+#: src/components/equipment/ImportItemsModal.tsx:179
+msgid "Imported items count"
+msgstr "已导入 {count} 个物品"
+
+#. js-lingui-explicit-id
+#: src/components/skills/SkillImportModal.tsx:40
+msgid "Invalid JSON. Please check your input."
+msgstr "无效的 JSON。请检查您的输入。"
+
+#. js-lingui-explicit-id
 #: src/components/modals/ImportModal.tsx:37
 msgid "Invalid build code. Please check and try again."
 msgstr "无效的构建代码。请检查后重试。"
 
 #. js-lingui-explicit-id
-#: src/components/talents/InverseImageInventory.tsx:67
+#: src/components/talents/InverseImageInventory.tsx:80
 msgid "Inverse Image Inventory"
 msgstr "反向图像库存"
 
 #. js-lingui-explicit-id
-#: src/components/talents/InverseImageSection.tsx:68
+#: src/components/talents/InverseImageSection.tsx:80
 msgid "Inverse Images"
 msgstr "反向图像"
 
@@ -1015,9 +1172,29 @@ msgid "Issues"
 msgstr "问题"
 
 #. js-lingui-explicit-id
+#: src/components/equipment/ImportItemsModal.tsx:207
+msgid "Item JSON placeholder"
+msgstr "[{\"name\": \"游侠生锈的护手\", \"equipmentType\": \"力量护手\", \"equipmentSlot\": \"手部\", \"affixes\": [\"+10 力量\"]}]"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateCrafter.tsx:33
+msgid "Knowledge"
+msgstr "知识"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:64
+msgid "Left"
+msgstr "左侧"
+
+#. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:29
 msgid "Left Ring"
 msgstr "左戒指"
+
+#. js-lingui-explicit-id
+#: src/components/talents/PrismCrafter.tsx:155
+msgid "Legendary"
+msgstr "传奇"
 
 #. js-lingui-explicit-id
 #: src/components/talents/PrismCrafter.tsx:230
@@ -1030,9 +1207,19 @@ msgid "Legendary Gauge"
 msgstr "传奇计量"
 
 #. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:78
+msgid "Legendary Medium"
+msgstr "传奇中型"
+
+#. js-lingui-explicit-id
 #: src/components/talents/TalentNodeDisplay.tsx:85
 msgid "Legendary Talent"
 msgstr "传奇天赋"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:278
+msgid "Legendary Template"
+msgstr "传奇模板"
 
 #. js-lingui-explicit-id
 #: src/components/configuration/ConfigurationTab.tsx:191
@@ -1055,6 +1242,11 @@ msgstr "加载天赋树..."
 #: src/routes/index.tsx:120
 msgid "Created: {0}"
 msgstr "创建时间：{0}"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateCrafter.tsx:34
+msgid "Machines"
+msgstr "机械"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:30
@@ -1104,9 +1296,24 @@ msgid "Max Tangles/Enemy"
 msgstr "每敌人最大缠绕"
 
 #. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:77
+msgid "Medium"
+msgstr "中型"
+
+#. js-lingui-explicit-id
 #: src/components/talents/TalentNodeDisplay.tsx:84
 msgid "Medium Talent"
 msgstr "中型天赋"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:81
+msgid "Medium/Legendary"
+msgstr "中型/传奇"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:82
+msgid "Medium/Legendary/Core"
+msgstr "中型/传奇/核心"
 
 #. js-lingui-explicit-id
 #: src/components/hero/MemoryInventory.tsx:62
@@ -1140,9 +1347,24 @@ msgid "Mercury"
 msgstr "水银"
 
 #. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:76
+msgid "Micro"
+msgstr "微型"
+
+#. js-lingui-explicit-id
 #: src/components/talents/TalentNodeDisplay.tsx:82
 msgid "Micro Talent"
 msgstr "微型天赋"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:80
+msgid "Micro/Medium/Legendary"
+msgstr "微型/中型/传奇"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateCrafter.tsx:35
+msgid "Might"
+msgstr "力量"
 
 #. js-lingui-explicit-id
 #: src/components/configuration/ConfigurationTab.tsx:851
@@ -1195,6 +1417,11 @@ msgid "No affixes"
 msgstr "无词缀"
 
 #. js-lingui-explicit-id
+#: src/components/talents/InverseImageInventory.tsx:91
+msgid "No inverse images crafted yet. Create one using the crafter!"
+msgstr "尚未制作反向图像。使用制作器创建一个！"
+
+#. js-lingui-explicit-id
 #: src/components/hero/MemoryInventory.tsx:105
 msgid "No memories in inventory. Click \"Craft Memory\" to add one."
 msgstr "库存中没有记忆。点击\"制作记忆\"添加一个。"
@@ -1205,9 +1432,14 @@ msgid "No memory"
 msgstr "无记忆"
 
 #. js-lingui-explicit-id
-#: src/components/talents/PrismInventory.tsx:60
+#: src/components/talents/PrismInventory.tsx:73
 msgid "No prisms crafted yet. Create one using the crafter!"
 msgstr "尚未制作棱镜。使用制作器创建一个！"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateInventory.tsx:28
+msgid "No slates crafted yet. Create one above!"
+msgstr "尚未制作神板。在上方创建一个！"
 
 #. js-lingui-explicit-id
 #: src/components/hero/TraitSelector.tsx:264
@@ -1218,6 +1450,11 @@ msgstr "无可用特性"
 #: src/components/hero/TraitSelector.tsx:360
 msgid "No traits available at this level"
 msgstr "此等级无可用特性"
+
+#. js-lingui-explicit-id
+#: src/components/equipment/ImportItemsModal.tsx:169
+msgid "No valid items found"
+msgstr "未找到有效物品"
 
 #. js-lingui-explicit-id
 #: src/routes/builder/talents/$slot.tsx:390
@@ -1300,6 +1537,11 @@ msgid "Paste build code here..."
 msgstr "在此粘贴构建代码..."
 
 #. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:56
+msgid "Pedigree of Gods"
+msgstr "神族谱系"
+
+#. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:64
 msgid "Persistent DPS"
 msgstr "持续 DPS"
@@ -1315,7 +1557,17 @@ msgid "Please enter a build code"
 msgstr "请输入构建代码"
 
 #. js-lingui-explicit-id
-#: src/components/talents/PrismInventory.tsx:41
+#: src/components/skills/SkillImportModal.tsx:32
+msgid "Please enter skill JSON"
+msgstr "请输入技能 JSON"
+
+#. js-lingui-explicit-id
+#: src/components/equipment/ImportItemsModal.tsx:162
+msgid "Please paste item JSON"
+msgstr "请粘贴物品 JSON"
+
+#. js-lingui-explicit-id
+#: src/components/talents/PrismInventory.tsx:54
 msgid "Prism Inventory"
 msgstr "棱镜库存"
 
@@ -1331,6 +1583,7 @@ msgstr "随机"
 
 #. js-lingui-explicit-id
 #: src/components/talents/PrismCrafter.tsx:80
+#: src/components/talents/PrismCrafter.tsx:155
 msgid "Rare"
 msgstr "稀有"
 
@@ -1375,9 +1628,14 @@ msgid "Reset all points in this tree? This cannot be undone."
 msgstr "重置此天赋树的所有点数？此操作无法撤销。"
 
 #. js-lingui-explicit-id
-#: src/components/talents/InverseImageInventory.tsx:53
+#: src/components/talents/InverseImageInventory.tsx:66
 msgid "Reset the tree's points to 0 before placing an inverse image."
 msgstr "放置反向图像前需将天赋树点数重置为0。"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:65
+msgid "Right"
+msgstr "右侧"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:39
@@ -1393,6 +1651,11 @@ msgstr "戒指"
 #: src/data/translate/equipment-types.ts:41
 msgid "Rod"
 msgstr "灵杖"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:69
+msgid "Rotate"
+msgstr "旋转"
 
 #. js-lingui-explicit-id
 #: src/components/divinity/SlateEditToolbar.tsx:101
@@ -1429,6 +1692,20 @@ msgstr "贤者洞察（火）"
 #: src/components/configuration/ConfigurationTab.tsx:755
 msgid "Sage's Insight (Lightning)"
 msgstr "贤者洞察（电）"
+
+#. js-lingui-explicit-id
+#: src/components/hero/EditMemoryModal.tsx:629
+msgid "Save"
+msgstr "保存"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:471
+#: src/components/divinity/SlateCrafter.tsx:281
+#: src/components/hero/EditMemoryModal.tsx:629
+#: src/components/talents/InverseImageCrafter.tsx:161
+#: src/components/talents/PrismCrafter.tsx:263
+msgid "Save to Inventory"
+msgstr "保存到库存"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:42
@@ -1468,7 +1745,17 @@ msgid "Seconds With Elite Nearby"
 msgstr "精英附近秒数"
 
 #. js-lingui-explicit-id
-#: src/components/equipment/LegendaryGearModule.tsx:346
+#: src/components/equipment/ImportItemsModal.tsx:198
+msgid "See the user guide for instructions on how to generate item descriptions from in-game screenshots."
+msgstr "请参阅用户指南，了解如何从游戏截图生成物品描述。"
+
+#. js-lingui-explicit-id
+#: src/components/skills/SkillImportModal.tsx:68
+msgid "See the user guide for instructions on how to generate skill data from in-game screenshots."
+msgstr "请参阅用户指南，了解如何从游戏截图生成技能数据。"
+
+#. js-lingui-explicit-id
+#: src/components/equipment/LegendaryGearModule.tsx:358
 msgid "Select a blend..."
 msgstr "选择调和..."
 
@@ -1484,7 +1771,7 @@ msgid "Select a hero..."
 msgstr "选择英雄..."
 
 #. js-lingui-explicit-id
-#: src/components/equipment/LegendaryGearModule.tsx:329
+#: src/components/equipment/LegendaryGearModule.tsx:341
 msgid "Select a legendary..."
 msgstr "选择传奇装备..."
 
@@ -1504,8 +1791,8 @@ msgid "Select a vorax limb..."
 msgstr "选择渴瘾肢体..."
 
 #. js-lingui-explicit-id
-#: src/components/divinity/LegendarySlateCrafter.tsx:369
-#: src/components/divinity/SlateCrafter.tsx:226
+#: src/components/divinity/LegendarySlateCrafter.tsx:435
+#: src/components/divinity/SlateCrafter.tsx:243
 #: src/components/equipment/VoraxGearModule.tsx:280
 msgid "Select affix..."
 msgstr "选择词缀..."
@@ -1580,8 +1867,8 @@ msgid "Shadow Hits"
 msgstr "暗影命中"
 
 #. js-lingui-explicit-id
-#: src/components/divinity/LegendarySlateCrafter.tsx:245
-#: src/components/divinity/SlateCrafter.tsx:141
+#: src/components/divinity/LegendarySlateCrafter.tsx:311
+#: src/components/divinity/SlateCrafter.tsx:158
 msgid "Shape & Orientation"
 msgstr "形状与方向"
 
@@ -1606,6 +1893,17 @@ msgid "Skill"
 msgstr "技能"
 
 #. js-lingui-explicit-id
+#: src/components/skills/SkillImportModal.tsx:77
+msgid "Skill JSON placeholder"
+msgstr ""
+"[{\n"
+"  \"skillType\": \"active\", \"slot\": 1, \"name\": \"狂战之刃\",\n"
+"  \"supports\": [{ \"slot\": 1, \"name\": \"触媒技能: 静止攻击\" }, ...] },\n"
+"  { \"skillType\": \"passive\", \"slot\": 1, \"name\": \"精准: 残忍\",\n"
+"    \"supports\": [{ \"slot\": 1, \"name\": \"光环放大...\" }] }\n"
+"]"
+
+#. js-lingui-explicit-id
 #: src/data/translate/translate-tab.ts:6
 msgid "Skills"
 msgstr "技能"
@@ -1616,15 +1914,46 @@ msgid "Slash Strike DPS"
 msgstr "斩击 DPS"
 
 #. js-lingui-explicit-id
+#: src/components/divinity/SlateInventory.tsx:23
+msgid "Slate Inventory"
+msgstr "神板库存"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateCrafter.tsx:40
 #: src/routes/builder/talents/$slot.tsx:393
 msgid "Slot 1"
 msgstr "槽位1"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateCrafter.tsx:41
+msgid "Slot 2"
+msgstr "槽位2"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateCrafter.tsx:42
+msgid "Slot 3"
+msgstr "槽位3"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateCrafter.tsx:43
+msgid "Slot 4"
+msgstr "槽位4"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateCrafter.tsx:44
+msgid "Slot 5"
+msgstr "槽位5"
 
 #. js-lingui-explicit-id
 #. placeholder {0}: treeSlot.slice(-1)
 #: src/routes/builder/talents/$slot.tsx:394
 msgid "Slot {0}"
 msgstr "槽位 {0}"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:40
+msgid "Sparks of Moth Fire"
+msgstr "飞蛾火花"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:568
@@ -1678,17 +2007,17 @@ msgid "Sweep Avg Hit"
 msgstr "扫击平均伤害"
 
 #. js-lingui-explicit-id
-#: src/components/talents/InverseImageInventory.tsx:47
+#: src/components/talents/InverseImageInventory.tsx:60
 msgid "Switch to a Profession Tree (Slots 2-4) to place the inverse image."
 msgstr "切换到职业天赋树（槽位2-4）以放置反向图像。"
 
 #. js-lingui-explicit-id
-#: src/components/talents/PrismInventory.tsx:51
+#: src/components/talents/PrismInventory.tsx:64
 msgid "Switch to a Profession Tree (Slots 2-4) to place the prism."
 msgstr "切换到职业天赋树（槽位2-4）以放置棱镜。"
 
 #. js-lingui-explicit-id
-#: src/components/talents/InverseImageInventory.tsx:50
+#: src/components/talents/InverseImageInventory.tsx:63
 msgid "Switch to a tree without a prism to place the inverse image."
 msgstr "切换到没有棱镜的天赋树以放置反向图像。"
 
@@ -1768,6 +2097,11 @@ msgid "Tenacity Blessings"
 msgstr "坚韧祝福"
 
 #. js-lingui-explicit-id
+#: src/components/equipment/ImportItemsModal.tsx:179
+msgid "The following could not be imported"
+msgstr "以下项目无法导入"
+
+#. js-lingui-explicit-id
 #: src/components/configuration/ConfigurationTab.tsx:1037
 msgid "Times Regained Recently"
 msgstr "最近回复次数"
@@ -1822,6 +2156,16 @@ msgstr "资源池"
 #~ msgstr "未命名"
 
 #. js-lingui-explicit-id
+#: src/components/talents/InverseImageCrafter.tsx:161
+msgid "Update Inverse Image"
+msgstr "更新反向图像"
+
+#. js-lingui-explicit-id
+#: src/components/talents/PrismCrafter.tsx:263
+msgid "Update Prism"
+msgstr "更新棱镜"
+
+#. js-lingui-explicit-id
 #: src/components/configuration/ConfigurationTab.tsx:955
 msgid "Used Mobility Skill Recently"
 msgstr "最近使用位移技能"
@@ -1831,7 +2175,7 @@ msgid "My Builds"
 msgstr "我的配装"
 
 #: src/components/equipment/EditGearModal.tsx:950
-#: src/components/equipment/LegendaryGearModule.tsx:394
+#: src/components/equipment/LegendaryGearModule.tsx:406
 #: src/components/equipment/VoraxGearModule.tsx:935
 #: src/components/hero/HeroMemoryItem.tsx:76
 #: src/components/hero/TraitSelector.tsx:55
@@ -1851,6 +2195,16 @@ msgstr "法杖"
 #: src/routes/index.tsx:124
 msgid "Updated: {0}"
 msgstr "更新时间: {0}"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateCrafter.tsx:36
+msgid "War"
+msgstr "战争"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:44
+msgid "When Sparks Set the Prairie Ablaze"
+msgstr "星火燎原"
 
 #: src/components/equipment/EditGearModal.tsx:713
 msgid "Equipment Type"
@@ -1913,7 +2267,7 @@ msgstr "前缀 (3 max)"
 #: src/components/builder/BuilderLayout.tsx:205
 #: src/components/DebugPanel.tsx:500
 #: src/components/equipment/EditGearModal.tsx:958
-#: src/components/equipment/LegendaryGearModule.tsx:402
+#: src/components/equipment/LegendaryGearModule.tsx:414
 #: src/components/equipment/VoraxGearModule.tsx:943
 #: src/routes/index.tsx:109
 #: src/routes/index.tsx:152
@@ -1937,7 +2291,7 @@ msgstr "调香词缀 (1 max)"
 msgid "Fixed Affixes (2 max)"
 msgstr "固定词缀 (2 max)"
 
-#: src/components/talents/PrismSection.tsx:67
+#: src/components/talents/PrismSection.tsx:79
 msgid "Prisms"
 msgstr "棱镜"
 
@@ -2006,8 +2360,8 @@ msgstr "渴瘾"
 msgid "Share your build with others using the URL below:"
 msgstr "使用以下URL与他人分享您的流派:"
 
-#: src/components/talents/CoreTalentSelector.tsx:90
-#: src/components/talents/CoreTalentSelector.tsx:102
+#: src/components/talents/CoreTalentSelector.tsx:108
+#: src/components/talents/CoreTalentSelector.tsx:120
 msgid "Core Talents"
 msgstr "核心天赋"
 
@@ -2016,13 +2370,17 @@ msgstr "核心天赋"
 msgid "Are you sure you want to delete \"{0}\"?"
 msgstr "您确定要删除“{0}”吗？"
 
+#: src/components/talents/CoreTalentSelector.tsx:73
+#~ msgid "Core Talent 1"
+#~ msgstr "核心天赋1"
+
 #: src/components/equipment/VoraxGearModule.tsx:779
 #: src/components/talents/TalentNodeDisplay.tsx:172
 #: src/routes/builder/equipment.tsx:161
 msgid "Legendary"
 msgstr "传奇"
 
-#: src/components/equipment/LegendaryGearModule.tsx:323
+#: src/components/equipment/LegendaryGearModule.tsx:335
 msgid "Select Legendary"
 msgstr "选择一个传奇物品"
 
@@ -2078,6 +2436,10 @@ msgstr "关闭"
 #: src/routes/index.tsx:365
 msgid "Import Failed"
 msgstr "导入失败"
+
+#: src/components/talents/CoreTalentSelector.tsx:80
+#~ msgid "Core Talent 2"
+#~ msgstr "核心天赋2"
 
 #: src/components/talents/TalentNodeDisplay.tsx:172
 msgid "Rare"

@@ -35,11 +35,66 @@ const createMinimalAffix = (text: string): Affix => ({
   affixLines: text.split(/\n/).map((line) => ({ text: line })),
 });
 
+const LEGENDARY_SLATE_TRANSLATIONS: Record<string, { displayName: string; description: string }> = {
+  "sparks-of-moth-fire": {
+    displayName: i18n._("Sparks of Moth Fire"),
+    description: i18n._("1x1 slate that copies a talent from an adjacent direction"),
+  },
+  "sparks-set-prairie": {
+    displayName: i18n._("When Sparks Set the Prairie Ablaze"),
+    description: i18n._("1x1 slate that copies talents from all adjacent slates"),
+  },
+  "corner-of-divinity": {
+    displayName: i18n._("A Corner of Divinity"),
+    description: i18n._("3-cell L-shape with up to 2 Legendary Medium affixes"),
+  },
+  "fallen-starlight": {
+    displayName: i18n._("Fallen Starlight"),
+    description: i18n._("2-cell vertical shape with 4 mixed affixes"),
+  },
+  "pedigree-of-gods": {
+    displayName: i18n._("Pedigree of Gods"),
+    description: i18n._("7-cell shape with 4 affixes including core talents"),
+  },
+};
+
 const DIRECTION_LABELS: Record<CopyDirection, string> = {
-  up: "Above",
-  down: "Below",
-  left: "Left",
-  right: "Right",
+  up: i18n._("Above"),
+  down: i18n._("Below"),
+  left: i18n._("Left"),
+  right: i18n._("Right"),
+};
+
+const SLATE_TRANSFORM_LABELS = {
+  rotate: i18n._("Rotate"),
+  flipH: i18n._("Flip H"),
+  flipV: i18n._("Flip V"),
+};
+
+const AFFIX_TYPE_LABELS: Record<string, string> = {
+  "Micro": i18n._("Micro"),
+  "Medium": i18n._("Medium"),
+  "Legendary Medium": i18n._("Legendary Medium"),
+  "Core": i18n._("Core"),
+  "Micro/Medium/Legendary": i18n._("Micro/Medium/Legendary"),
+  "Medium/Legendary": i18n._("Medium/Legendary"),
+  "Medium/Legendary/Core": i18n._("Medium/Legendary/Core"),
+};
+
+const translateAffixLabel = (label: string): string => {
+  return AFFIX_TYPE_LABELS[label] ?? label;
+};
+
+const FIXED_AFFIX_TRANSLATIONS: Record<string, string> = {
+  "Copies the last Talent on the adjacent slate above to this slate. Unable to copy the Core Talent.": i18n._("Copies the last Talent on the adjacent slate above to this slate. Unable to copy the Core Talent."),
+  "Copies the last Talent on the adjacent slate on the left to this slate. Unable to copy the Core Talent.": i18n._("Copies the last Talent on the adjacent slate on the left to this slate. Unable to copy the Core Talent."),
+  "Copies the last Talent on the adjacent slate below this slate. Unable to copy the Core Talents.": i18n._("Copies the last Talent on the adjacent slate below this slate. Unable to copy the Core Talents."),
+  "Copies the last Talent on the adjacent slate on the right to this slate. Unable to copy the Core Talent.": i18n._("Copies the last Talent on the adjacent slate on the right to this slate. Unable to copy the Core Talent."),
+  "Copies the last Talent on all adjacent slates. Unable to copy Core Talents.": i18n._("Copies the last Talent on all adjacent slates. Unable to copy Core Talents."),
+};
+
+const translateFixedAffix = (text: string): string => {
+  return FIXED_AFFIX_TRANSLATIONS[text] ?? text;
 };
 
 interface LegendarySlateCrafterProps {
@@ -143,6 +198,17 @@ export const LegendarySlateCrafter: React.FC<LegendarySlateCrafterProps> = ({
     return template.fixedAffixes[0]?.text ?? "";
   };
 
+  const getTranslatedFixedAffixText = (): string => {
+    if (template?.fixedAffixes === undefined) return "";
+    if (hasCopyDirection) {
+      const affix = template.fixedAffixes.find(
+        (fa) => fa.direction === selectedDirection,
+      );
+      return translateFixedAffix(affix?.text ?? "");
+    }
+    return translateFixedAffix(template.fixedAffixes[0]?.text ?? "");
+  };
+
   const canSave = (): boolean => {
     if (template === undefined) return false;
     if (hasFixedAffixes) return true;
@@ -203,13 +269,13 @@ export const LegendarySlateCrafter: React.FC<LegendarySlateCrafterProps> = ({
       className={`rounded-lg border ${LEGENDARY_SLATE_BORDER} bg-zinc-800 p-4`}
     >
       <h3 className={`mb-4 text-lg font-medium ${LEGENDARY_SLATE_TEXT}`}>
-        Craft Legendary Slate
+        {i18n._("Craft Legendary Slate")}
       </h3>
 
       {/* Template Selection */}
       <div className="mb-4">
         <label className="mb-2 block text-sm text-zinc-400">
-          Legendary Template
+          {i18n._("Legendary Template")}
         </label>
         <div className="flex flex-col gap-2">
           {LEGENDARY_SLATE_KEYS.map((key) => {
@@ -225,10 +291,10 @@ export const LegendarySlateCrafter: React.FC<LegendarySlateCrafterProps> = ({
                     : "bg-zinc-700 text-zinc-300 hover:bg-zinc-600"
                 }`}
               >
-                <div className="font-medium">{tmpl.displayName}</div>
+                <div className="font-medium">{LEGENDARY_SLATE_TRANSLATIONS[key]?.displayName ?? tmpl.displayName}</div>
                 {tmpl.description !== undefined && (
                   <div className="text-xs text-zinc-400 mt-0.5">
-                    {tmpl.description}
+                    {LEGENDARY_SLATE_TRANSLATIONS[key]?.description ?? tmpl.description}
                   </div>
                 )}
               </button>
@@ -266,7 +332,7 @@ export const LegendarySlateCrafter: React.FC<LegendarySlateCrafterProps> = ({
                       className="rounded bg-zinc-700 px-2 py-1 text-xs text-zinc-200 hover:bg-zinc-600"
                       title="Rotate 90°"
                     >
-                      ↻ Rotate
+                      ↻ {SLATE_TRANSFORM_LABELS.rotate}
                     </button>
                   )}
                   {template.canFlip && (
@@ -281,7 +347,7 @@ export const LegendarySlateCrafter: React.FC<LegendarySlateCrafterProps> = ({
                         }`}
                         title="Flip Horizontal"
                       >
-                        ↔ Flip H
+                        ↔ {SLATE_TRANSFORM_LABELS.flipH}
                       </button>
                       <button
                         type="button"
@@ -293,7 +359,7 @@ export const LegendarySlateCrafter: React.FC<LegendarySlateCrafterProps> = ({
                         }`}
                         title="Flip Vertical"
                       >
-                        ↕ Flip V
+                        ↕ {SLATE_TRANSFORM_LABELS.flipV}
                       </button>
                     </>
                   )}
@@ -306,7 +372,7 @@ export const LegendarySlateCrafter: React.FC<LegendarySlateCrafterProps> = ({
           {hasCopyDirection && (
             <div className="mb-4">
               <label className="mb-2 block text-sm text-zinc-400">
-                Copy Direction
+                {i18n._("Copy Direction")}
               </label>
               <div className="flex flex-wrap gap-2">
                 {(["up", "left", "down", "right"] as CopyDirection[]).map(
@@ -327,7 +393,7 @@ export const LegendarySlateCrafter: React.FC<LegendarySlateCrafterProps> = ({
                 )}
               </div>
               <div className="mt-2 rounded bg-zinc-700 p-2 text-xs text-zinc-300">
-                {getFixedAffixText()}
+                {getTranslatedFixedAffixText()}
               </div>
             </div>
           )}
@@ -336,10 +402,10 @@ export const LegendarySlateCrafter: React.FC<LegendarySlateCrafterProps> = ({
           {hasFixedAffixes && !hasCopyDirection && (
             <div className="mb-4">
               <label className="mb-2 block text-sm text-zinc-400">
-                Fixed Affix
+                {i18n._("Fixed Affix")}
               </label>
               <div className="rounded bg-zinc-700 p-2 text-sm text-zinc-300">
-                {getFixedAffixText()}
+                {getTranslatedFixedAffixText()}
               </div>
             </div>
           )}
@@ -348,7 +414,7 @@ export const LegendarySlateCrafter: React.FC<LegendarySlateCrafterProps> = ({
           {!hasFixedAffixes && (
             <div className="mb-4">
               <label className="mb-2 block text-sm text-zinc-400">
-                Affixes ({selectedAffixes.length}/{template.affixSlots.length})
+                {i18n._("Affixes")} ({selectedAffixes.length}/{template.affixSlots.length})
               </label>
               <div className="flex flex-col gap-2">
                 {affixSlots.map((affix, slotIndex) => {
@@ -357,7 +423,7 @@ export const LegendarySlateCrafter: React.FC<LegendarySlateCrafterProps> = ({
                     <div key={slotIndex} className="flex flex-col gap-1">
                       <div className="flex items-center gap-2">
                         <span className="text-xs text-zinc-500 w-24 truncate">
-                          {constraint.label}
+                          {translateAffixLabel(constraint.label)}
                         </span>
                         <div className="flex-1">
                           <SearchableSelect
@@ -402,7 +468,7 @@ export const LegendarySlateCrafter: React.FC<LegendarySlateCrafterProps> = ({
             disabled={!canSave()}
             className={`w-full rounded ${LEGENDARY_SLATE_COLOR} px-4 py-2 text-white transition-colors hover:bg-orange-500 disabled:bg-zinc-600 disabled:cursor-not-allowed`}
           >
-            Save to Inventory
+            {i18n._("Save to Inventory")}
           </button>
         </>
       )}

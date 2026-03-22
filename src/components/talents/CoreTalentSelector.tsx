@@ -1,5 +1,6 @@
 import { Trans } from "@lingui/react/macro";
-import React from "react";
+import { useLingui } from "@lingui/react";
+import React, { useEffect, useState, useMemo } from "react";
 import { Tooltip, TooltipTitle } from "@/src/components/ui/Tooltip";
 import type { BaseCoreTalent } from "@/src/data/core-talent";
 import { CoreTalents } from "@/src/data/core-talent/core-talents";
@@ -44,8 +45,25 @@ export const CoreTalentSelector: React.FC<CoreTalentSelectorProps> = ({
   onSelectCoreTalent,
   replacedByPrism,
 }) => {
+  const { i18n } = useLingui();
+  const [, forceUpdate] = useState({});
+
+  useEffect(() => {
+    const handleLocaleChange = () => {
+      forceUpdate({});
+    };
+    window.addEventListener("locale-changed", handleLocaleChange);
+    return () => {
+      window.removeEventListener("locale-changed", handleLocaleChange);
+    };
+  }, []);
+
   const isGodTree = isGodGoddessTree(treeName);
   const maxSlots = getMaxCoreTalentSlots(treeSlot);
+
+  const coreTalent1Label = i18n._("Core Talent 1");
+  const coreTalent2Label = i18n._("Core Talent 2");
+  const coreTalentLabel = i18n._("Core Talent");
 
   const slots: SlotConfig[] = [];
 
@@ -57,14 +75,14 @@ export const CoreTalentSelector: React.FC<CoreTalentSelectorProps> = ({
 
     slots.push({
       index: 0,
-      label: i18n._("Core Talent 1"),
+      label: coreTalent1Label,
       available: firstSlot,
       selected: selectedCoreTalents[0],
     });
 
     slots.push({
       index: 1,
-      label: i18n._("Core Talent 2"),
+      label: coreTalent2Label,
       available: secondSlot,
       selected: selectedCoreTalents[1],
     });
@@ -76,7 +94,7 @@ export const CoreTalentSelector: React.FC<CoreTalentSelectorProps> = ({
 
     slots.push({
       index: 0,
-      label: "Core Talent",
+      label: coreTalentLabel,
       available,
       selected: selectedCoreTalents[0],
     });
@@ -153,7 +171,7 @@ const CoreTalentSlot: React.FC<CoreTalentSlotProps> = ({
       }`}
       ref={triggerRef}
     >
-      <div className="text-xs text-zinc-400 mb-2">{i18n._(label)}</div>
+      <div className="text-xs text-zinc-400 mb-2">{label}</div>
 
       <div className="space-y-1">
         {available.map((ct) => {

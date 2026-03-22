@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { i18n } from "@/src/lib/i18n";
 import type { CraftedPrism } from "@/src/tli/core";
 import { PrismInventoryItem } from "./PrismInventoryItem";
@@ -23,6 +24,18 @@ export const PrismInventory: React.FC<PrismInventoryProps> = ({
   hasPrismPlaced = false,
   isOnGodGoddessTree = false,
 }) => {
+  const [, forceUpdate] = useState({});
+
+  useEffect(() => {
+    const handleLocaleChange = () => {
+      forceUpdate({});
+    };
+    window.addEventListener("locale-changed", handleLocaleChange);
+    return () => {
+      window.removeEventListener("locale-changed", handleLocaleChange);
+    };
+  }, []);
+
   const selectionMode = !!onSelectPrism;
 
   const handleSelect = (prismId: string) => {

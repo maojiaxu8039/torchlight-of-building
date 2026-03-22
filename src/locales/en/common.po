@@ -51,6 +51,21 @@ msgstr "Create your first character build to get started"
 msgid "Expand"
 msgstr "Expand"
 
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:41
+msgid "1x1 slate that copies a talent from an adjacent direction"
+msgstr "1x1 slate that copies a talent from an adjacent direction"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:45
+msgid "1x1 slate that copies talents from all adjacent slates"
+msgstr "1x1 slate that copies talents from all adjacent slates"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:53
+msgid "2-cell vertical shape with 4 mixed affixes"
+msgstr "2-cell vertical shape with 4 mixed affixes"
+
 #: src/components/equipment/EditGearModal.tsx:934
 #: src/components/equipment/VoraxGearModule.tsx:919
 msgid "Enter raw affix text, one per line. Use this for affixes not available in the dropdowns above."
@@ -65,11 +80,16 @@ msgstr "Custom Affixes"
 msgid "Rename"
 msgstr "Rename"
 
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:49
+msgid "3-cell L-shape with up to 2 Legendary Medium affixes"
+msgstr "3-cell L-shape with up to 2 Legendary Medium affixes"
+
 #: src/components/DebugPanel.tsx:554
 msgid "Minimize"
 msgstr "Minimize"
 
-#: src/components/talents/PrismSection.tsx:74
+#: src/components/talents/PrismSection.tsx:86
 msgid "Craft Prism"
 msgstr "Craft Prism"
 
@@ -80,6 +100,11 @@ msgstr "Passive Skills"
 #: src/components/talents/TalentNodeDisplay.tsx:172
 msgid "Prism"
 msgstr "Prism"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:57
+msgid "7-cell shape with 4 affixes including core talents"
+msgstr "7-cell shape with 4 affixes including core talents"
 
 #: src/components/modals/ExportModal.tsx:77
 msgid "Show raw build code"
@@ -113,12 +138,17 @@ msgid "<Select Pactspirit>"
 msgstr "<Select Pactspirit>"
 
 #. js-lingui-explicit-id
-#: src/components/talents/PrismInventory.tsx:48
+#: src/components/divinity/LegendarySlateCrafter.tsx:48
+msgid "A Corner of Divinity"
+msgstr "A Corner of Divinity"
+
+#. js-lingui-explicit-id
+#: src/components/talents/PrismInventory.tsx:61
 msgid "A prism is already placed. Remove it first to place a different one."
 msgstr "A prism is already placed. Remove it first to place a different one."
 
 #: src/components/equipment/EditGearModal.tsx:966
-#: src/components/equipment/LegendaryGearModule.tsx:409
+#: src/components/equipment/LegendaryGearModule.tsx:421
 #: src/components/equipment/VoraxGearModule.tsx:953
 msgid "Save to Inventory"
 msgstr "Save to Inventory"
@@ -127,6 +157,11 @@ msgstr "Save to Inventory"
 #: src/components/modals/AboutModal.tsx:15
 msgid "About"
 msgstr "About"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:62
+msgid "Above"
+msgstr "Above"
 
 #. js-lingui-explicit-id
 #: src/components/skills/SupportSkillSelector.tsx:214
@@ -149,13 +184,14 @@ msgid "Active Tangles"
 msgstr "Active Tangles"
 
 #. js-lingui-explicit-id
-#: src/components/equipment/LegendaryGearModule.tsx:313
+#: src/components/equipment/LegendaryGearModule.tsx:325
 msgid "Add Legendary"
 msgstr "Add Legendary"
 
 #. js-lingui-explicit-id
 #. placeholder {0}: loadoutAffixLines.length
 #: src/components/DebugPanel.tsx:423
+#: src/components/divinity/LegendarySlateCrafter.tsx:417
 msgid "Affixes"
 msgstr "Affixes"
 
@@ -180,7 +216,7 @@ msgid "All Reflected Micro Talent Effects"
 msgstr "All Reflected Micro Talent Effects"
 
 #. js-lingui-explicit-id
-#: src/components/talents/InverseImageInventory.tsx:43
+#: src/components/talents/InverseImageInventory.tsx:56
 msgid "An inverse image is already placed. Remove it first to place a different one."
 msgstr "An inverse image is already placed. Remove it first to place a different one."
 
@@ -268,6 +304,11 @@ msgid "Base Affix"
 msgstr "Base Affix"
 
 #. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:63
+msgid "Below"
+msgstr "Below"
+
+#. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:4
 #: src/data/translate/equipment-types.ts:5
 msgid "Belt"
@@ -335,7 +376,9 @@ msgid "Calculations"
 msgstr "Calculations"
 
 #. js-lingui-explicit-id
+#: src/components/equipment/ImportItemsModal.tsx:231
 #: src/components/hero/EditMemoryModal.tsx:620
+#: src/components/skills/SkillImportModal.tsx:105
 #: src/components/talents/InverseImageCrafter.tsx:169
 #: src/components/talents/PrismCrafter.tsx:271
 msgid "Cancel"
@@ -407,22 +450,22 @@ msgid "Claw"
 msgstr "Claw"
 
 #. js-lingui-explicit-id
-#: src/components/talents/PrismInventory.tsx:53
+#: src/components/talents/PrismInventory.tsx:66
 msgid "Click a prism to select it for placement."
 msgstr "Click a prism to select it for placement."
 
 #. js-lingui-explicit-id
-#: src/components/talents/InverseImageInventory.tsx:57
+#: src/components/talents/InverseImageInventory.tsx:70
 msgid "Click an inverse image to select it for placement."
 msgstr "Click an inverse image to select it for placement."
 
 #. js-lingui-explicit-id
-#: src/components/talents/InverseImageInventory.tsx:55
+#: src/components/talents/InverseImageInventory.tsx:68
 msgid "Click on an empty talent node (not in center column) to place the inverse image, or click it again to deselect."
 msgstr "Click on an empty talent node (not in center column) to place the inverse image, or click it again to deselect."
 
 #. js-lingui-explicit-id
-#: src/components/talents/PrismInventory.tsx:52
+#: src/components/talents/PrismInventory.tsx:65
 msgid "Click on an empty talent node to place the prism, or click the prism again to deselect."
 msgstr "Click on an empty talent node to place the prism, or click the prism again to deselect."
 
@@ -460,17 +503,59 @@ msgid "Copied!"
 msgstr "Copied!"
 
 #. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:93
+msgid "Copies the last Talent on all adjacent slates. Unable to copy Core Talents."
+msgstr "Copies the last Talent on all adjacent slates. Unable to copy Core Talents."
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:89
+msgid "Copies the last Talent on the adjacent slate above to this slate. Unable to copy the Core Talent."
+msgstr "Copies the last Talent on the adjacent slate above to this slate. Unable to copy the Core Talent."
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:91
+msgid "Copies the last Talent on the adjacent slate below this slate. Unable to copy the Core Talents."
+msgstr "Copies the last Talent on the adjacent slate below this slate. Unable to copy the Core Talents."
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:90
+msgid "Copies the last Talent on the adjacent slate on the left to this slate. Unable to copy the Core Talent."
+msgstr "Copies the last Talent on the adjacent slate on the left to this slate. Unable to copy the Core Talent."
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:92
+msgid "Copies the last Talent on the adjacent slate on the right to this slate. Unable to copy the Core Talent."
+msgstr "Copies the last Talent on the adjacent slate on the right to this slate. Unable to copy the Core Talent."
+
+#. js-lingui-explicit-id
 #: src/components/hero/MemoryInventory.tsx:87
 msgid "Copy"
 msgstr "Copy"
 
 #. js-lingui-explicit-id
-#: src/components/talents/CoreTalentSelector.tsx:60
+#: src/components/divinity/LegendarySlateCrafter.tsx:375
+msgid "Copy Direction"
+msgstr "Copy Direction"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:78
+msgid "Core"
+msgstr "Core"
+
+#. js-lingui-explicit-id
+#: src/components/talents/CoreTalentSelector.tsx:66
+msgid "Core Talent"
+msgstr "Core Talent"
+
+#. js-lingui-explicit-id
+#: src/components/talents/CoreTalentSelector.tsx:64
+#: src/routes/builder/talents/$slot.tsx:329
 msgid "Core Talent 1"
 msgstr "Core Talent 1"
 
 #. js-lingui-explicit-id
-#: src/components/talents/CoreTalentSelector.tsx:67
+#: src/components/talents/CoreTalentSelector.tsx:65
+#: src/routes/builder/talents/$slot.tsx:335
 msgid "Core Talent 2"
 msgstr "Core Talent 2"
 
@@ -480,10 +565,15 @@ msgid "Craft Hero Memory"
 msgstr "Craft Hero Memory"
 
 #. js-lingui-explicit-id
-#: src/components/talents/InverseImageSection.tsx:74
-#: src/components/talents/InverseImageSection.tsx:95
+#: src/components/talents/InverseImageSection.tsx:86
+#: src/components/talents/InverseImageSection.tsx:107
 msgid "Craft Inverse Image"
 msgstr "Craft Inverse Image"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:272
+msgid "Craft Legendary Slate"
+msgstr "Craft Legendary Slate"
 
 #. js-lingui-explicit-id
 #: src/components/hero/HeroTab.tsx:43
@@ -496,7 +586,12 @@ msgid "Craft New Item"
 msgstr "Craft New Item"
 
 #. js-lingui-explicit-id
-#: src/components/divinity/SlateCrafter.tsx:117
+#: src/components/talents/PrismSection.tsx:102
+msgid "Craft Prism"
+msgstr "Craft Prism"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateCrafter.tsx:134
 msgid "Craft Slate"
 msgstr "Craft Slate"
 
@@ -609,6 +704,11 @@ msgid "Debug: Unimplemented"
 msgstr "Debug: Unimplemented"
 
 #. js-lingui-explicit-id
+#: src/components/divinity/SlateCrafter.tsx:31
+msgid "Deception"
+msgstr "Deception"
+
+#. js-lingui-explicit-id
 #: src/components/hero/MemoryInventory.tsx:99
 msgid "Delete"
 msgstr "Delete"
@@ -666,9 +766,14 @@ msgid "Edit Hero Memory"
 msgstr "Edit Hero Memory"
 
 #. js-lingui-explicit-id
-#: src/components/talents/InverseImageSection.tsx:94
+#: src/components/talents/InverseImageSection.tsx:106
 msgid "Edit Inverse Image"
 msgstr "Edit Inverse Image"
+
+#. js-lingui-explicit-id
+#: src/components/talents/PrismSection.tsx:102
+msgid "Edit Prism"
+msgstr "Edit Prism"
 
 #. js-lingui-explicit-id
 #: src/components/equipment/EditGearModal.tsx:693
@@ -772,9 +877,19 @@ msgid "Evasion"
 msgstr "Evasion"
 
 #. js-lingui-explicit-id
+#: src/components/skills/SkillImportModal.tsx:45
+msgid "Expected a JSON array of skill entries."
+msgstr "Expected a JSON array of skill entries."
+
+#. js-lingui-explicit-id
 #: src/components/modals/ExportModal.tsx:60
 msgid "Export Loadout"
 msgstr "Export Loadout"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:52
+msgid "Fallen Starlight"
+msgstr "Fallen Starlight"
 
 #. js-lingui-explicit-id
 #: src/components/configuration/ConfigurationTab.tsx:199
@@ -804,9 +919,24 @@ msgid "Fixed"
 msgstr "Fixed"
 
 #. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:405
+msgid "Fixed Affix"
+msgstr "Fixed Affix"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:70
+msgid "Flip H"
+msgstr "Flip H"
+
+#. js-lingui-explicit-id
 #: src/components/divinity/SlateEditToolbar.tsx:117
 msgid "Flip Horizontal"
 msgstr "Flip Horizontal"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:71
+msgid "Flip V"
+msgstr "Flip V"
 
 #. js-lingui-explicit-id
 #: src/components/divinity/SlateEditToolbar.tsx:125
@@ -852,7 +982,7 @@ msgid "Gloves (STR)"
 msgstr "Gloves (STR)"
 
 #. js-lingui-explicit-id
-#: src/components/divinity/SlateCrafter.tsx:120
+#: src/components/divinity/SlateCrafter.tsx:137
 msgid "God"
 msgstr "God"
 
@@ -955,6 +1085,11 @@ msgstr "Hit Enemy With Elemental Dmg Recently"
 msgid "No builds yet"
 msgstr "No builds yet"
 
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateCrafter.tsx:32
+msgid "Hunting"
+msgstr "Hunting"
+
 #: src/routes/builder/calculations.tsx:702
 msgid "Defenses & Movement"
 msgstr "Defenses & Movement"
@@ -979,6 +1114,18 @@ msgid "Ice Puppet Stacks"
 msgstr "Ice Puppet Stacks"
 
 #. js-lingui-explicit-id
+#: src/components/equipment/ImportItemsModal.tsx:228
+#: src/components/skills/SkillImportModal.tsx:102
+msgid "Import"
+msgstr "Import"
+
+#. js-lingui-explicit-id
+#: src/components/equipment/ImportItemsModal.tsx:196
+msgid "Import Items"
+msgstr "Import Items"
+
+#. js-lingui-explicit-id
+#: src/components/skills/SkillImportModal.tsx:66
 #: src/routes/builder/skills.tsx:69
 msgid "Import Skills"
 msgstr "Import Skills"
@@ -989,17 +1136,27 @@ msgid "Import Slates"
 msgstr "Import Slates"
 
 #. js-lingui-explicit-id
+#: src/components/equipment/ImportItemsModal.tsx:179
+msgid "Imported items count"
+msgstr "Imported items count"
+
+#. js-lingui-explicit-id
+#: src/components/skills/SkillImportModal.tsx:40
+msgid "Invalid JSON. Please check your input."
+msgstr "Invalid JSON. Please check your input."
+
+#. js-lingui-explicit-id
 #: src/components/modals/ImportModal.tsx:37
 msgid "Invalid build code. Please check and try again."
 msgstr "Invalid build code. Please check and try again."
 
 #. js-lingui-explicit-id
-#: src/components/talents/InverseImageInventory.tsx:67
+#: src/components/talents/InverseImageInventory.tsx:80
 msgid "Inverse Image Inventory"
 msgstr "Inverse Image Inventory"
 
 #. js-lingui-explicit-id
-#: src/components/talents/InverseImageSection.tsx:68
+#: src/components/talents/InverseImageSection.tsx:80
 msgid "Inverse Images"
 msgstr "Inverse Images"
 
@@ -1015,9 +1172,29 @@ msgid "Issues"
 msgstr "Issues"
 
 #. js-lingui-explicit-id
+#: src/components/equipment/ImportItemsModal.tsx:207
+msgid "Item JSON placeholder"
+msgstr "Item JSON placeholder"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateCrafter.tsx:33
+msgid "Knowledge"
+msgstr "Knowledge"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:64
+msgid "Left"
+msgstr "Left"
+
+#. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:29
 msgid "Left Ring"
 msgstr "Left Ring"
+
+#. js-lingui-explicit-id
+#: src/components/talents/PrismCrafter.tsx:155
+msgid "Legendary"
+msgstr "Legendary"
 
 #. js-lingui-explicit-id
 #: src/components/talents/PrismCrafter.tsx:230
@@ -1030,9 +1207,19 @@ msgid "Legendary Gauge"
 msgstr "Legendary Gauge"
 
 #. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:77
+msgid "Legendary Medium"
+msgstr "Legendary Medium"
+
+#. js-lingui-explicit-id
 #: src/components/talents/TalentNodeDisplay.tsx:85
 msgid "Legendary Talent"
 msgstr "Legendary Talent"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:278
+msgid "Legendary Template"
+msgstr "Legendary Template"
 
 #. js-lingui-explicit-id
 #: src/components/configuration/ConfigurationTab.tsx:191
@@ -1055,6 +1242,11 @@ msgstr "Loading tree..."
 #: src/routes/index.tsx:120
 msgid "Created: {0}"
 msgstr "Created: {0}"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateCrafter.tsx:34
+msgid "Machines"
+msgstr "Machines"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:30
@@ -1104,9 +1296,24 @@ msgid "Max Tangles/Enemy"
 msgstr "Max Tangles/Enemy"
 
 #. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:76
+msgid "Medium"
+msgstr "Medium"
+
+#. js-lingui-explicit-id
 #: src/components/talents/TalentNodeDisplay.tsx:84
 msgid "Medium Talent"
 msgstr "Medium Talent"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:80
+msgid "Medium/Legendary"
+msgstr "Medium/Legendary"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:81
+msgid "Medium/Legendary/Core"
+msgstr "Medium/Legendary/Core"
 
 #. js-lingui-explicit-id
 #: src/components/hero/MemoryInventory.tsx:62
@@ -1140,9 +1347,24 @@ msgid "Mercury"
 msgstr "Mercury"
 
 #. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:75
+msgid "Micro"
+msgstr "Micro"
+
+#. js-lingui-explicit-id
 #: src/components/talents/TalentNodeDisplay.tsx:82
 msgid "Micro Talent"
 msgstr "Micro Talent"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:79
+msgid "Micro/Medium/Legendary"
+msgstr "Micro/Medium/Legendary"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateCrafter.tsx:35
+msgid "Might"
+msgstr "Might"
 
 #. js-lingui-explicit-id
 #: src/components/configuration/ConfigurationTab.tsx:851
@@ -1195,6 +1417,11 @@ msgid "No affixes"
 msgstr "No affixes"
 
 #. js-lingui-explicit-id
+#: src/components/talents/InverseImageInventory.tsx:91
+msgid "No inverse images crafted yet. Create one using the crafter!"
+msgstr "No inverse images crafted yet. Create one using the crafter!"
+
+#. js-lingui-explicit-id
 #: src/components/hero/MemoryInventory.tsx:105
 msgid "No memories in inventory. Click \"Craft Memory\" to add one."
 msgstr "No memories in inventory. Click \"Craft Memory\" to add one."
@@ -1205,9 +1432,14 @@ msgid "No memory"
 msgstr "No memory"
 
 #. js-lingui-explicit-id
-#: src/components/talents/PrismInventory.tsx:60
+#: src/components/talents/PrismInventory.tsx:73
 msgid "No prisms crafted yet. Create one using the crafter!"
 msgstr "No prisms crafted yet. Create one using the crafter!"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateInventory.tsx:28
+msgid "No slates crafted yet. Create one above!"
+msgstr "No slates crafted yet. Create one above!"
 
 #. js-lingui-explicit-id
 #: src/components/hero/TraitSelector.tsx:264
@@ -1218,6 +1450,11 @@ msgstr "No traits available"
 #: src/components/hero/TraitSelector.tsx:360
 msgid "No traits available at this level"
 msgstr "No traits available at this level"
+
+#. js-lingui-explicit-id
+#: src/components/equipment/ImportItemsModal.tsx:169
+msgid "No valid items found"
+msgstr "No valid items found"
 
 #. js-lingui-explicit-id
 #: src/routes/builder/talents/$slot.tsx:390
@@ -1304,6 +1541,11 @@ msgid "Paste build code here..."
 msgstr "Paste build code here..."
 
 #. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:56
+msgid "Pedigree of Gods"
+msgstr "Pedigree of Gods"
+
+#. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:64
 msgid "Persistent DPS"
 msgstr "Persistent DPS"
@@ -1319,7 +1561,17 @@ msgid "Please enter a build code"
 msgstr "Please enter a build code"
 
 #. js-lingui-explicit-id
-#: src/components/talents/PrismInventory.tsx:41
+#: src/components/skills/SkillImportModal.tsx:32
+msgid "Please enter skill JSON"
+msgstr "Please enter skill JSON"
+
+#. js-lingui-explicit-id
+#: src/components/equipment/ImportItemsModal.tsx:162
+msgid "Please paste item JSON"
+msgstr "Please paste item JSON"
+
+#. js-lingui-explicit-id
+#: src/components/talents/PrismInventory.tsx:54
 msgid "Prism Inventory"
 msgstr "Prism Inventory"
 
@@ -1335,6 +1587,7 @@ msgstr "Random"
 
 #. js-lingui-explicit-id
 #: src/components/talents/PrismCrafter.tsx:80
+#: src/components/talents/PrismCrafter.tsx:155
 msgid "Rare"
 msgstr "Rare"
 
@@ -1379,9 +1632,14 @@ msgid "Reset all points in this tree? This cannot be undone."
 msgstr "Reset all points in this tree? This cannot be undone."
 
 #. js-lingui-explicit-id
-#: src/components/talents/InverseImageInventory.tsx:53
+#: src/components/talents/InverseImageInventory.tsx:66
 msgid "Reset the tree's points to 0 before placing an inverse image."
 msgstr "Reset the tree's points to 0 before placing an inverse image."
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:65
+msgid "Right"
+msgstr "Right"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:39
@@ -1397,6 +1655,11 @@ msgstr "Ring"
 #: src/data/translate/equipment-types.ts:41
 msgid "Rod"
 msgstr "Rod"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:69
+msgid "Rotate"
+msgstr "Rotate"
 
 #. js-lingui-explicit-id
 #: src/components/divinity/SlateEditToolbar.tsx:101
@@ -1433,6 +1696,20 @@ msgstr "Sage's Insight (Fire)"
 #: src/components/configuration/ConfigurationTab.tsx:755
 msgid "Sage's Insight (Lightning)"
 msgstr "Sage's Insight (Lightning)"
+
+#. js-lingui-explicit-id
+#: src/components/hero/EditMemoryModal.tsx:629
+msgid "Save"
+msgstr "Save"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:471
+#: src/components/divinity/SlateCrafter.tsx:281
+#: src/components/hero/EditMemoryModal.tsx:629
+#: src/components/talents/InverseImageCrafter.tsx:161
+#: src/components/talents/PrismCrafter.tsx:263
+msgid "Save to Inventory"
+msgstr "Save to Inventory"
 
 #. js-lingui-explicit-id
 #: src/data/translate/equipment-types.ts:42
@@ -1472,7 +1749,17 @@ msgid "Seconds With Elite Nearby"
 msgstr "Seconds With Elite Nearby"
 
 #. js-lingui-explicit-id
-#: src/components/equipment/LegendaryGearModule.tsx:346
+#: src/components/equipment/ImportItemsModal.tsx:198
+msgid "See the user guide for instructions on how to generate item descriptions from in-game screenshots."
+msgstr "See the user guide for instructions on how to generate item descriptions from in-game screenshots."
+
+#. js-lingui-explicit-id
+#: src/components/skills/SkillImportModal.tsx:68
+msgid "See the user guide for instructions on how to generate skill data from in-game screenshots."
+msgstr "See the user guide for instructions on how to generate skill data from in-game screenshots."
+
+#. js-lingui-explicit-id
+#: src/components/equipment/LegendaryGearModule.tsx:358
 msgid "Select a blend..."
 msgstr "Select a blend..."
 
@@ -1488,7 +1775,7 @@ msgid "Select a hero..."
 msgstr "Select a hero..."
 
 #. js-lingui-explicit-id
-#: src/components/equipment/LegendaryGearModule.tsx:329
+#: src/components/equipment/LegendaryGearModule.tsx:341
 msgid "Select a legendary..."
 msgstr "Select a legendary..."
 
@@ -1508,8 +1795,8 @@ msgid "Select a vorax limb..."
 msgstr "Select a vorax limb..."
 
 #. js-lingui-explicit-id
-#: src/components/divinity/LegendarySlateCrafter.tsx:369
-#: src/components/divinity/SlateCrafter.tsx:226
+#: src/components/divinity/LegendarySlateCrafter.tsx:435
+#: src/components/divinity/SlateCrafter.tsx:243
 #: src/components/equipment/VoraxGearModule.tsx:280
 msgid "Select affix..."
 msgstr "Select affix..."
@@ -1584,8 +1871,8 @@ msgid "Shadow Hits"
 msgstr "Shadow Hits"
 
 #. js-lingui-explicit-id
-#: src/components/divinity/LegendarySlateCrafter.tsx:245
-#: src/components/divinity/SlateCrafter.tsx:141
+#: src/components/divinity/LegendarySlateCrafter.tsx:311
+#: src/components/divinity/SlateCrafter.tsx:158
 msgid "Shape & Orientation"
 msgstr "Shape & Orientation"
 
@@ -1610,6 +1897,11 @@ msgid "Skill"
 msgstr "Skill"
 
 #. js-lingui-explicit-id
+#: src/components/skills/SkillImportModal.tsx:77
+msgid "Skill JSON placeholder"
+msgstr "Skill JSON placeholder"
+
+#. js-lingui-explicit-id
 #: src/data/translate/translate-tab.ts:6
 msgid "Skills"
 msgstr "Skills"
@@ -1620,15 +1912,46 @@ msgid "Slash Strike DPS"
 msgstr "Slash Strike DPS"
 
 #. js-lingui-explicit-id
+#: src/components/divinity/SlateInventory.tsx:23
+msgid "Slate Inventory"
+msgstr "Slate Inventory"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateCrafter.tsx:40
 #: src/routes/builder/talents/$slot.tsx:393
 msgid "Slot 1"
 msgstr "Slot 1"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateCrafter.tsx:41
+msgid "Slot 2"
+msgstr "Slot 2"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateCrafter.tsx:42
+msgid "Slot 3"
+msgstr "Slot 3"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateCrafter.tsx:43
+msgid "Slot 4"
+msgstr "Slot 4"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateCrafter.tsx:44
+msgid "Slot 5"
+msgstr "Slot 5"
 
 #. js-lingui-explicit-id
 #. placeholder {0}: treeSlot.slice(-1)
 #: src/routes/builder/talents/$slot.tsx:394
 msgid "Slot {0}"
 msgstr "Slot {0}"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:40
+msgid "Sparks of Moth Fire"
+msgstr "Sparks of Moth Fire"
 
 #. js-lingui-explicit-id
 #: src/components/builder/StatsPanel.tsx:568
@@ -1682,17 +2005,17 @@ msgid "Sweep Avg Hit"
 msgstr "Sweep Avg Hit"
 
 #. js-lingui-explicit-id
-#: src/components/talents/InverseImageInventory.tsx:47
+#: src/components/talents/InverseImageInventory.tsx:60
 msgid "Switch to a Profession Tree (Slots 2-4) to place the inverse image."
 msgstr "Switch to a Profession Tree (Slots 2-4) to place the inverse image."
 
 #. js-lingui-explicit-id
-#: src/components/talents/PrismInventory.tsx:51
+#: src/components/talents/PrismInventory.tsx:64
 msgid "Switch to a Profession Tree (Slots 2-4) to place the prism."
 msgstr "Switch to a Profession Tree (Slots 2-4) to place the prism."
 
 #. js-lingui-explicit-id
-#: src/components/talents/InverseImageInventory.tsx:50
+#: src/components/talents/InverseImageInventory.tsx:63
 msgid "Switch to a tree without a prism to place the inverse image."
 msgstr "Switch to a tree without a prism to place the inverse image."
 
@@ -1772,6 +2095,11 @@ msgid "Tenacity Blessings"
 msgstr "Tenacity Blessings"
 
 #. js-lingui-explicit-id
+#: src/components/equipment/ImportItemsModal.tsx:179
+msgid "The following could not be imported"
+msgstr "The following could not be imported"
+
+#. js-lingui-explicit-id
 #: src/components/configuration/ConfigurationTab.tsx:1037
 msgid "Times Regained Recently"
 msgstr "Times Regained Recently"
@@ -1826,6 +2154,16 @@ msgstr "Resource Pool"
 #~ msgstr "Untitled"
 
 #. js-lingui-explicit-id
+#: src/components/talents/InverseImageCrafter.tsx:161
+msgid "Update Inverse Image"
+msgstr "Update Inverse Image"
+
+#. js-lingui-explicit-id
+#: src/components/talents/PrismCrafter.tsx:263
+msgid "Update Prism"
+msgstr "Update Prism"
+
+#. js-lingui-explicit-id
 #: src/components/configuration/ConfigurationTab.tsx:955
 msgid "Used Mobility Skill Recently"
 msgstr "Used Mobility Skill Recently"
@@ -1835,7 +2173,7 @@ msgid "My Builds"
 msgstr "My Builds"
 
 #: src/components/equipment/EditGearModal.tsx:950
-#: src/components/equipment/LegendaryGearModule.tsx:394
+#: src/components/equipment/LegendaryGearModule.tsx:406
 #: src/components/equipment/VoraxGearModule.tsx:935
 #: src/components/hero/HeroMemoryItem.tsx:76
 #: src/components/hero/TraitSelector.tsx:55
@@ -1855,6 +2193,16 @@ msgstr "Wand"
 #: src/routes/index.tsx:124
 msgid "Updated: {0}"
 msgstr "Updated: {0}"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/SlateCrafter.tsx:36
+msgid "War"
+msgstr "War"
+
+#. js-lingui-explicit-id
+#: src/components/divinity/LegendarySlateCrafter.tsx:44
+msgid "When Sparks Set the Prairie Ablaze"
+msgstr "When Sparks Set the Prairie Ablaze"
 
 #: src/components/equipment/EditGearModal.tsx:713
 msgid "Equipment Type"
@@ -1917,7 +2265,7 @@ msgstr "Prefixes (3 max)"
 #: src/components/builder/BuilderLayout.tsx:205
 #: src/components/DebugPanel.tsx:500
 #: src/components/equipment/EditGearModal.tsx:958
-#: src/components/equipment/LegendaryGearModule.tsx:402
+#: src/components/equipment/LegendaryGearModule.tsx:414
 #: src/components/equipment/VoraxGearModule.tsx:943
 #: src/routes/index.tsx:109
 #: src/routes/index.tsx:152
@@ -1941,7 +2289,7 @@ msgstr "Blending (1 max)"
 msgid "Fixed Affixes (2 max)"
 msgstr "Fixed Affixes (2 max)"
 
-#: src/components/talents/PrismSection.tsx:67
+#: src/components/talents/PrismSection.tsx:79
 msgid "Prisms"
 msgstr "Prisms"
 
@@ -2010,8 +2358,8 @@ msgstr "Vorax"
 msgid "Share your build with others using the URL below:"
 msgstr "Share your build with others using the URL below:"
 
-#: src/components/talents/CoreTalentSelector.tsx:90
-#: src/components/talents/CoreTalentSelector.tsx:102
+#: src/components/talents/CoreTalentSelector.tsx:108
+#: src/components/talents/CoreTalentSelector.tsx:120
 msgid "Core Talents"
 msgstr "Core Talents"
 
@@ -2026,7 +2374,7 @@ msgstr "Are you sure you want to delete \"{0}\"?"
 msgid "Legendary"
 msgstr "Legendary"
 
-#: src/components/equipment/LegendaryGearModule.tsx:323
+#: src/components/equipment/LegendaryGearModule.tsx:335
 msgid "Select Legendary"
 msgstr "Select Legendary"
 

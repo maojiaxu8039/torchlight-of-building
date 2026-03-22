@@ -27,6 +27,23 @@ import { SlatePreview } from "./SlatePreview";
 // Regular shapes only - excludes legendary shapes (Single, CornerL, Vertical2, Pedigree)
 const CRAFTABLE_SHAPES: SlateShape[] = ["O", "L", "Z", "T"];
 
+const GOD_DISPLAY_NAMES: Record<DivinityGod, string> = {
+  Deception: i18n._("Deception"),
+  Hunting: i18n._("Hunting"),
+  Knowledge: i18n._("Knowledge"),
+  Machines: i18n._("Machines"),
+  Might: i18n._("Might"),
+  War: i18n._("War"),
+};
+
+const SLOT_DISPLAY_NAMES: Record<number, string> = {
+  1: i18n._("Slot 1"),
+  2: i18n._("Slot 2"),
+  3: i18n._("Slot 3"),
+  4: i18n._("Slot 4"),
+  5: i18n._("Slot 5"),
+};
+
 const createMinimalAffix = (text: string): Affix => ({
   affixLines: text.split(/\n/).map((line) => ({ text: line })),
 });
@@ -130,7 +147,7 @@ export const SlateCrafter: React.FC<SlateCrafterProps> = ({ onSave }) => {
                   : "bg-zinc-700 text-zinc-300 hover:bg-zinc-600"
               }`}
             >
-              {g}
+              {GOD_DISPLAY_NAMES[g]}
             </button>
           ))}
         </div>
@@ -209,14 +226,14 @@ export const SlateCrafter: React.FC<SlateCrafterProps> = ({ onSave }) => {
 
       <div className="mb-4">
         <label className="mb-2 block text-sm text-zinc-400">
-          Affixes ({selectedAffixes.length}/{MAX_SLATE_AFFIXES})
+          {i18n._("Affixes")} ({selectedAffixes.length}/{MAX_SLATE_AFFIXES})
         </label>
         <div className="flex flex-col gap-2">
           {affixSlots.map((affix, slotIndex) => (
             <div key={slotIndex} className="flex flex-col gap-1">
               <div className="flex items-center gap-2">
                 <span className="text-xs text-zinc-500 w-12">
-                  Slot {slotIndex + 1}
+                  {SLOT_DISPLAY_NAMES[slotIndex + 1]}
                 </span>
                 <div className="flex-1">
                   <SearchableSelect
@@ -261,7 +278,7 @@ export const SlateCrafter: React.FC<SlateCrafterProps> = ({ onSave }) => {
         disabled={selectedAffixes.length === 0}
         className="w-full rounded bg-amber-600 px-4 py-2 text-white transition-colors hover:bg-amber-500 disabled:bg-zinc-600 disabled:cursor-not-allowed"
       >
-        Save to Inventory
+        {i18n._("Save to Inventory")}
       </button>
     </div>
   );

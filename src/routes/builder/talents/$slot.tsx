@@ -326,13 +326,13 @@ function TalentsSlotPage(): React.ReactNode {
       return [
         {
           index: 0,
-          label: "Core Talent 1",
+          label: i18n._("Core Talent 1"),
           available: firstSlot,
           selected: selectedCoreTalents[0],
         },
         {
           index: 1,
-          label: "Core Talent 2",
+          label: i18n._("Core Talent 2"),
           available: secondSlot,
           selected: selectedCoreTalents[1],
         },

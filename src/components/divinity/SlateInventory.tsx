@@ -1,3 +1,4 @@
+import { i18n } from "@/src/lib/i18n";
 import type { DivinitySlate } from "@/src/tli/core";
 import { SlateInventoryItem } from "./SlateInventoryItem";
 
@@ -19,12 +20,12 @@ export const SlateInventory: React.FC<SlateInventoryProps> = ({
   return (
     <div className="rounded-lg border border-zinc-700 bg-zinc-800 p-4">
       <h3 className="mb-4 text-lg font-medium text-zinc-200">
-        Slate Inventory ({slates.length})
+        {i18n._("Slate Inventory")} ({slates.length})
       </h3>
 
       {slates.length === 0 ? (
         <p className="text-sm text-zinc-500">
-          No slates crafted yet. Create one above!
+          {i18n._("No slates crafted yet. Create one above!")}
         </p>
       ) : (
         <div className="flex flex-col gap-2 max-h-64 overflow-y-auto">

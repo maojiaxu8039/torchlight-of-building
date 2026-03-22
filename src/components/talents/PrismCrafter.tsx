@@ -152,7 +152,7 @@ export const PrismCrafter: React.FC<PrismCrafterProps> = ({
                   : "bg-zinc-700 text-zinc-300 hover:bg-zinc-600"
               }`}
             >
-              {i18n._(r === "rare" ? "Rare" : "Legendary")}
+              {r === "rare" ? i18n._("Rare") : i18n._("Legendary")}
             </button>
           ))}
         </div>
@@ -260,7 +260,7 @@ export const PrismCrafter: React.FC<PrismCrafterProps> = ({
           disabled={!canSave}
           className="flex-1 rounded bg-amber-600 px-4 py-2 text-white transition-colors hover:bg-amber-500 disabled:cursor-not-allowed disabled:bg-zinc-600"
         >
-          {i18n._(editingPrism !== undefined ? "Update Prism" : "Save to Inventory")}
+          {editingPrism !== undefined ? i18n._("Update Prism") : i18n._("Save to Inventory")}
         </button>
         {onCancel !== undefined && (
           <button

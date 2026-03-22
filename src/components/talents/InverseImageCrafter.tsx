@@ -158,7 +158,7 @@ const InverseImageCrafterInner: React.FC<InverseImageCrafterInnerProps> = ({
           disabled={!validation.valid}
           className="flex-1 rounded bg-cyan-600 px-4 py-2 text-white transition-colors hover:bg-cyan-500 disabled:cursor-not-allowed disabled:bg-zinc-600"
         >
-          {i18n._(editingInverseImage ? "Update Inverse Image" : "Save to Inventory")}
+          {editingInverseImage ? i18n._("Update Inverse Image") : i18n._("Save to Inventory")}
         </button>
         {onCancel && (
           <button

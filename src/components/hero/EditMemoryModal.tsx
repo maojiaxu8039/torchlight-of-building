@@ -143,7 +143,7 @@ const MemoryPreview = ({
   return (
     <div className="space-y-2">
       {memoryType !== undefined && (
-        <div className="text-sm font-semibold text-amber-400">{memoryType}</div>
+        <div className="text-sm font-semibold text-amber-400">{i18n._(memoryType)}</div>
       )}
 
       {baseStat !== undefined && (
@@ -626,7 +626,7 @@ export const EditMemoryModal = ({
             craftingMemoryType === undefined || effectiveBaseStat === undefined
           }
         >
-          {i18n._(mode === "create" ? "Save to Inventory" : "Save")}
+          {mode === "create" ? i18n._("Save to Inventory") : i18n._("Save")}
         </ModalButton>
       </ModalActions>
     </Modal>

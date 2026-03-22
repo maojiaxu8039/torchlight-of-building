@@ -293,7 +293,7 @@ const TraitRow = ({
       <div className="flex items-start gap-4">
         {!isLevel1 && slot !== undefined && (
           <div className="w-48 flex-shrink-0">
-            <div className="text-xs text-zinc-500 mb-2">{memoryType}</div>
+            <div className="text-xs text-zinc-500 mb-2">{i18n._(memoryType)}</div>
             <SearchableSelect
               value={equippedMemory?.id}
               onChange={(value) => onMemoryEquip(slot, value)}

@@ -1,6 +1,6 @@
 import { Trans } from "@lingui/react/macro";
 import { i18n } from "@/src/lib/i18n";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import type { CraftedPrism as SaveDataCraftedPrism } from "@/src/lib/save-data";
 import type { CraftedPrism } from "@/src/tli/core";
 import { Modal } from "../ui/Modal";
@@ -30,6 +30,18 @@ export const PrismSection: React.FC<PrismSectionProps> = ({
   hasPrismPlaced = false,
   isOnGodGoddessTree = false,
 }) => {
+  const [, forceUpdate] = useState({});
+
+  useEffect(() => {
+    const handleLocaleChange = () => {
+      forceUpdate({});
+    };
+    window.addEventListener("locale-changed", handleLocaleChange);
+    return () => {
+      window.removeEventListener("locale-changed", handleLocaleChange);
+    };
+  }, []);
+
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [editingPrism, setEditingPrism] = useState<CraftedPrism | undefined>(
     undefined,
@@ -87,7 +99,7 @@ export const PrismSection: React.FC<PrismSectionProps> = ({
       <Modal
         isOpen={isModalOpen}
         onClose={handleClose}
-        title={i18n._(editingPrism !== undefined ? "Edit Prism" : "Craft Prism")}
+        title={editingPrism !== undefined ? i18n._("Edit Prism") : i18n._("Craft Prism")}
         dismissible={false}
       >
         <PrismCrafter

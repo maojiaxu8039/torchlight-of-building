@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import type { SkillPage } from "@/src/lib/save-data";
 import { type ImportedSkill, importSkills } from "@/src/lib/skill-import";
+import { i18n } from "@/src/lib/i18n";
 import {
   Modal,
   ModalActions,
@@ -28,7 +29,7 @@ export const SkillImportModal = ({
   const handleImport = (): void => {
     const trimmed = inputValue.trim();
     if (trimmed.length === 0) {
-      setError("Please enter skill JSON");
+      setError(i18n._("Please enter skill JSON"));
       return;
     }
 
@@ -36,12 +37,12 @@ export const SkillImportModal = ({
     try {
       parsed = JSON.parse(trimmed);
     } catch {
-      setError("Invalid JSON. Please check your input.");
+      setError(i18n._("Invalid JSON. Please check your input."));
       return;
     }
 
     if (!Array.isArray(parsed)) {
-      setError("Expected a JSON array of skill entries.");
+      setError(i18n._("Expected a JSON array of skill entries."));
       return;
     }
 
@@ -62,18 +63,9 @@ export const SkillImportModal = ({
   }, [isOpen]);
 
   return (
-    <Modal isOpen={isOpen} onClose={onClose} title="Import Skills">
+    <Modal isOpen={isOpen} onClose={onClose} title={i18n._("Import Skills")}>
       <ModalDescription>
-        See the{" "}
-        <a
-          href="https://aclinia.github.io/torchlight-of-building/import-skills/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-amber-400 underline hover:text-amber-300"
-        >
-          user guide
-        </a>{" "}
-        for instructions on how to generate skill data from in-game screenshots.
+        {i18n._("See the user guide for instructions on how to generate skill data from in-game screenshots.")}
       </ModalDescription>
 
       <textarea
@@ -82,9 +74,7 @@ export const SkillImportModal = ({
           setInputValue(e.target.value);
           setError(undefined);
         }}
-        placeholder={
-          '[\n  { "skillType": "active", "slot": 1, "name": "Berserking Blade",\n    "supports": [{ "slot": 1, "name": "Activation Medium: Still Attack" }, ...] },\n  { "skillType": "passive", "slot": 1, "name": "Precise: Cruelty",\n    "supports": [{ "slot": 1, "name": "Aura Amplificat..." }] }\n]'
-        }
+        placeholder={i18n._("Skill JSON placeholder")}
         className="w-full h-32 p-3 bg-zinc-800 text-zinc-50 rounded-lg border border-zinc-700 focus:outline-none focus:ring-2 focus:ring-amber-500/30 focus:border-amber-500 resize-none font-mono text-sm placeholder:text-zinc-500"
         onKeyDown={(e) => {
           if (e.key === "Enter" && (e.metaKey || e.ctrlKey)) {
@@ -109,10 +99,10 @@ export const SkillImportModal = ({
 
       <ModalActions>
         <ModalButton onClick={handleImport} fullWidth>
-          Import
+          {i18n._("Import")}
         </ModalButton>
         <ModalButton onClick={onClose} variant="secondary">
-          Cancel
+          {i18n._("Cancel")}
         </ModalButton>
       </ModalActions>
     </Modal>

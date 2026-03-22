@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { i18n } from "@/src/lib/i18n";
 import type { CraftedInverseImage } from "@/src/tli/core";
 import { Modal } from "../ui/Modal";
@@ -32,6 +32,18 @@ export const InverseImageSection: React.FC<InverseImageSectionProps> = ({
   isOnGodGoddessTree = false,
   treeHasPoints = false,
 }) => {
+  const [, forceUpdate] = useState({});
+
+  useEffect(() => {
+    const handleLocaleChange = () => {
+      forceUpdate({});
+    };
+    window.addEventListener("locale-changed", handleLocaleChange);
+    return () => {
+      window.removeEventListener("locale-changed", handleLocaleChange);
+    };
+  }, []);
+
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [editingInverseImage, setEditingInverseImage] = useState<
     CraftedInverseImage | undefined
