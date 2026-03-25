@@ -5,6 +5,7 @@ import type {
   BaseGearAffix,
   EquipmentType,
 } from "@/src/tli/gear-data-types";
+import { getTranslatedAffixText } from "@/src/lib/affix-translator";
 
 export const FILTER_AFFIX_TYPES = [
   "Prefix",
@@ -62,7 +63,7 @@ export interface CollapsedAffixGroup {
 }
 
 export const formatAffixOption = (affix: BaseGearAffix): string => {
-  let display = affix.craftableAffix;
+  let display = getTranslatedAffixText(affix.craftableAffix);
   display = display.replace(/\n/g, "/");
   if (display.length > 80) {
     display = `${display.substring(0, 77)}...`;
@@ -187,8 +188,9 @@ export const getSortedGroups = (affixGroups: CollapsedAffixGroup[]) => {
 export const getOptionsWithHeaders = (affixGroups: CollapsedAffixGroup[]) => {
   // Add the Basic, Advanced and Ultimate into the options as headers
   return affixGroups.map((group, index, array) => {
+    const translatedLabel = getTranslatedAffixText(group.affixBaseName);
     const option: { label: string; value: number; header?: string } = {
-      label: group.affixBaseName,
+      label: translatedLabel,
       value: index,
     };
 

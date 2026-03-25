@@ -2,6 +2,8 @@
 // Generated from tlidb.com CN translations
 // Merged base gear name translations (all equipment types)
 
+import { AFFIX_NAME_TRANSLATIONS } from "./complete-affix-translations";
+
 export const BASE_GEAR_NAME_TRANSLATIONS: Record<string, string> = {
   'Abyss Darkness Ring': '深渊暗戒',
   'Abyssal Blaster': '深渊巨炮',
@@ -861,5 +863,13 @@ export const BASE_GEAR_NAME_TRANSLATIONS: Record<string, string> = {
 
 export const getBaseGearNameTranslation = (enName: string | undefined): string => {
   if (!enName) return enName ?? '';
-  return BASE_GEAR_NAME_TRANSLATIONS[enName] ?? enName;
+  // First check BASE_GEAR_NAME_TRANSLATIONS
+  if (BASE_GEAR_NAME_TRANSLATIONS[enName]) {
+    return BASE_GEAR_NAME_TRANSLATIONS[enName];
+  }
+  // Then check AFFIX_NAME_TRANSLATIONS (for Vorax Limb, etc.)
+  if (AFFIX_NAME_TRANSLATIONS[enName]) {
+    return AFFIX_NAME_TRANSLATIONS[enName];
+  }
+  return enName;
 };

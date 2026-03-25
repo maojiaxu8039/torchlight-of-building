@@ -33,6 +33,8 @@ import { AffixSlotComponent } from "./AffixSlotComponent";
 import { ExistingAffixDisplay } from "./ExistingAffixDisplay";
 import { GearTooltipContent } from "./GearTooltipContent";
 import { GroupedAffixSlotComponent } from "./GroupedAffixSlotComponent";
+import { getBaseGearNameTranslation } from "@/src/data/translated-affixes/base-gear-name-translations";
+import { getTranslatedAffixText } from "@/src/lib/affix-translator";
 
 interface EditableAffixSlot {
   type: "existing" | "new";
@@ -746,16 +748,16 @@ export const EditGearModal = ({
                         options={baseGearOptions.map(
                           (gear: BaseGear, idx: number) => ({
                             value: idx,
-                            label: `${gear.name} — ${gear.stats.replace(/\n/g, "/")}`,
+                            label: `${getBaseGearNameTranslation(gear.name)} — ${getTranslatedAffixText(gear.stats.replace(/\n/g, "/"))}`,
                           }),
                         )}
-                        placeholder={`<Select Base Stats>`}
+                        placeholder={i18n._("<Select Base Stats>")}
                       />
                       {baseStats.affixIndex !== undefined &&
                         baseGearOptions[baseStats.affixIndex] !== undefined && (
                           <div className="mt-1 flex items-center gap-2">
                             <span className="text-xs text-zinc-400">
-                              {baseGearOptions[baseStats.affixIndex].name}
+                              {getBaseGearNameTranslation(baseGearOptions[baseStats.affixIndex].name)}
                             </span>
                             <button
                               type="button"

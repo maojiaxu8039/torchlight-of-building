@@ -1895,6 +1895,67 @@ msgstr "技能"
 #. js-lingui-explicit-id
 #: src/components/skills/SkillImportModal.tsx:77
 msgid "Skill JSON placeholder"
+
+#. js-lingui-explicit-id
+#: src/components/equipment/EditGearModal.tsx:754
+msgid "<Select Base Stats>"
+msgstr "<选择基底词缀>"
+
+#. js-lingui-explicit-id
+#: src/components/equipment
+msgid "<Select Suffix>"
+msgstr "<选择后缀>"
+
+#. js-lingui-explicit-id
+#: src/components/equipment
+msgid "<Select Prefix>"
+msgstr "<选择前缀>"
+
+#. js-lingui-explicit-id
+#: src/components/equipment
+msgid "<Select Blend>"
+msgstr "<选择混合词缀>"
+
+#. js-lingui-explicit-id
+#: src/components/equipment
+msgid "<Select Tower Sequence>"
+msgstr "<选择高塔序列>"
+
+#. js-lingui-explicit-id
+#: src/components/equipment
+msgid "<Select Sweet Dream Affix>"
+msgstr "<选择甜蜜梦境词缀>"
+
+#. js-lingui-explicit-id
+#: src/components/equipment
+msgid "<Select Base Affix>"
+msgstr "<选择基底词缀>"
+
+#. js-lingui-explicit-id
+#. js-lingui-explicit-id
+#: src/components/equipment/AffixSlotComponent.tsx
+msgid "<Select {affixType}>"
+msgstr "<选择 {affixType}>"
+
+#. js-lingui-explicit-id
+#: src/components/modals/DestinySelectionModal.tsx
+msgid "<Select Destiny>"
+msgstr "<选择命运>"
+
+#. js-lingui-explicit-id
+#: src/components/skills/SpecialSupportEditModal.tsx
+msgid "Select tier"
+msgstr "选择等级"
+
+#. js-lingui-explicit-id
+#: src/components/skills/SpecialSupportEditModal.tsx
+msgid "Select rank"
+msgstr "选择等级"
+
+#. js-lingui-explicit-id
+#: src/components/skills/ActivationMediumEditModal.tsx
+msgid "Select option"
+msgstr "选择选项"
 msgstr ""
 "[{\n"
 "  \"skillType\": \"active\", \"slot\": 1, \"name\": \"狂战之刃\",\n"

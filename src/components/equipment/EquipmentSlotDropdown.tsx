@@ -10,6 +10,8 @@ import type { Gear } from "@/src/tli/core";
 import type { GearSlot } from "../../lib/types";
 import { GearTooltipContent } from "./GearTooltipContent";
 import { getBaseGearNameTranslation } from "@/src/data/translated-affixes/base-gear-name-translations";
+import { getTranslatedAffixText } from "@/src/lib/affix-translator";
+import { ALL_BASE_GEAR } from "@/src/data/gear-base/all-base-gear";
 
 interface OptionWithTooltipProps {
   item: Gear;
@@ -27,6 +29,9 @@ const OptionWithTooltip: React.FC<OptionWithTooltipProps> = ({
   const isLegendary = item.rarity === "legendary";
   const affixes = getGearAffixes(item);
 
+  const baseGear = ALL_BASE_GEAR.find(g => g.name === item.baseGearName);
+  const statsText = baseGear?.stats ?? (affixes.length > 0 && affixes[0].affixLines.length > 0 ? affixes[0].affixLines[0].text : null);
+
   return (
     <div
       ref={ref}
@@ -41,12 +46,14 @@ const OptionWithTooltip: React.FC<OptionWithTooltipProps> = ({
       <span className={selected ? "text-amber-400" : ""}>
         {item.legendaryName ?? getBaseGearNameTranslation(item.baseGearName) ?? item.equipmentType}
       </span>
+      {statsText && (
+        <span className="text-zinc-500 ml-2 text-xs">
+          - {getTranslatedAffixText(statsText)}
+        </span>
+      )}
       {isLegendary && (
         <span className="text-amber-400 ml-2 text-xs">Legendary</span>
       )}
-      <span className="text-zinc-500 ml-2 text-xs">
-        ({affixes.length} affixes)
-      </span>
 
       <Tooltip
         isVisible={isHovered}
@@ -120,14 +127,20 @@ export const EquipmentSlotDropdown: React.FC<EquipmentSlotDropdownProps> = ({
         size="sm"
         value={selectedItemId ?? undefined}
         onChange={(value) => onSelectItem(slot, value ?? null)}
-        options={compatibleItems.map((item) => ({
-          // biome-ignore lint/style/noNonNullAssertion: inventory items always have id
-          value: item.id!,
-          label: i18n._(
-            item.legendaryName ?? getBaseGearNameTranslation(item.baseGearName) ?? item.equipmentType,
-          ),
-          sublabel: `${getGearAffixes(item).length} affixes`,
-        }))}
+        options={compatibleItems.map((item) => {
+          const affixes = getGearAffixes(item);
+          const baseGear = ALL_BASE_GEAR.find(g => g.name === item.baseGearName);
+          const statsText = baseGear?.stats ?? (affixes.length > 0 && affixes[0].affixLines.length > 0 ? affixes[0].affixLines[0].text : null);
+          const translatedStatsText = statsText ? getTranslatedAffixText(statsText) : null;
+          return {
+            // biome-ignore lint/style/noNonNullAssertion: inventory items always have id
+            value: item.id!,
+            label: i18n._(
+              item.legendaryName ?? getBaseGearNameTranslation(item.baseGearName) ?? item.equipmentType,
+            ),
+            sublabel: translatedStatsText ? `${translatedStatsText} (${affixes.length})` : `${affixes.length} affixes`,
+          };
+        })}
         placeholder={i18n._("-- None --")}
         className="min-w-0 flex-1 max-w-xs"
         renderOption={renderOption}

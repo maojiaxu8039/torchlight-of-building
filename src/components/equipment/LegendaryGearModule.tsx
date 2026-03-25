@@ -1,3 +1,6 @@
+import { getBaseGearNameTranslation } from "@/src/data/translated-affixes/base-gear-name-translations";
+import { getTranslatedAffixText } from "@/src/lib/affix-translator";
+
 import { i18n } from "@lingui/core";
 import { Trans } from "@lingui/react/macro";
 import { useCallback, useEffect, useMemo, useState } from "react";

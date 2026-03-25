@@ -458,7 +458,7 @@ export const VoraxGearModule: React.FC<VoraxGearModuleProps> = ({
     () =>
       ALL_VORAX_LIMBS.map((limb, idx) => ({
         value: idx,
-        label: i18n._(limb.name),
+        label: getTranslatedAffixText(limb.name),
       })),
     [],
   );

@@ -1,3 +1,6 @@
+import { getBaseGearNameTranslation } from "@/src/data/translated-affixes/base-gear-name-translations";
+import { getTranslatedAffixText } from "@/src/lib/affix-translator";
+
 import { useMemo } from "react";
 import {
   SearchableSelect,

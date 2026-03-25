@@ -1,3 +1,7 @@
+import { getBaseGearNameTranslation } from "@/src/data/translated-affixes/base-gear-name-translations";
+import { getTranslatedAffixText } from "@/src/lib/affix-translator";
+
+import { i18n } from "@lingui/core";
 import { SearchableSelect } from "@/src/components/ui/SearchableSelect";
 import type { BaseGearAffix } from "@/src/tli/gear-data-types";
 import {
@@ -99,7 +103,7 @@ export const GroupedAffixSlotComponent = ({
           }
         }}
         options={sortedOptionsWithHeaders}
-        placeholder={`<Select ${affixType}>`}
+        placeholder={i18n._("<Select {affixType}>", { affixType })}
       />
 
       {selectedAffix !== undefined && (
