@@ -130,7 +130,7 @@ export const ROD_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Basic",
     tier: "0",
     craftableAffix:
-      "+(37-47)% Attack and Cast Speed\n+(37-47)% Minion Attack and Cast Speed",
+      "+(37-47)% Attack and Cast Speed +(37-47)% Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "One-Handed",
@@ -139,7 +139,7 @@ export const ROD_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Basic",
     tier: "1",
     craftableAffix:
-      "+(27-36)% Attack and Cast Speed\n+(27-36)% Minion Attack and Cast Speed",
+      "+(27-36)% Attack and Cast Speed +(27-36)% Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "One-Handed",
@@ -148,7 +148,7 @@ export const ROD_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Basic",
     tier: "2",
     craftableAffix:
-      "+(19-26)% Attack and Cast Speed\n+(19-26)% Minion Attack and Cast Speed",
+      "+(19-26)% Attack and Cast Speed +(19-26)% Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "One-Handed",
@@ -157,7 +157,7 @@ export const ROD_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Basic",
     tier: "3",
     craftableAffix:
-      "+(14-18)% Attack and Cast Speed\n+(14-18)% Minion Attack and Cast Speed",
+      "+(14-18)% Attack and Cast Speed +(14-18)% Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "One-Handed",
@@ -166,7 +166,7 @@ export const ROD_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Basic",
     tier: "4",
     craftableAffix:
-      "+(10-13)% Attack and Cast Speed\n+(10-13)% Minion Attack and Cast Speed",
+      "+(10-13)% Attack and Cast Speed +(10-13)% Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "One-Handed",

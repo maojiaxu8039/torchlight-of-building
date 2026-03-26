@@ -116,7 +116,7 @@ export const TIN_STAFF_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "",
     tier: "0",
     craftableAffix:
-      "The Main Skill is supported by Lv. 25 Control Spell\n+25% additional Spell Damage",
+      "The Main Skill is supported by Lv. 25 Control Spell +25% additional Spell Damage",
   },
   {
     equipmentSlot: "Two-Handed",
@@ -125,7 +125,7 @@ export const TIN_STAFF_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "",
     tier: "0",
     craftableAffix:
-      "+200% Spell Amplification Aura\n-30% additional Spell Amplification Sealed Mana Compensation",
+      "+200% Spell Amplification Aura -30% additional Spell Amplification Sealed Mana Compensation",
   },
   {
     equipmentSlot: "Two-Handed",
@@ -133,16 +133,7 @@ export const TIN_STAFF_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Tower Sequence",
     craftingPool: "",
     tier: "0",
-    craftableAffix: "+70% additional damage\n-10% additional Cast Speed",
-  },
-  {
-    equipmentSlot: "Two-Handed",
-    equipmentType: "Tin Staff",
-    affixType: "Tower Sequence",
-    craftingPool: "",
-    tier: "0",
-    craftableAffix:
-      "+30% additional Deterioration Damage\n10% chance to inflict 2 additional stack(s) of Deterioration",
+    craftableAffix: "+70% additional damage -10% additional Cast Speed",
   },
   {
     equipmentSlot: "Two-Handed",
@@ -151,6 +142,15 @@ export const TIN_STAFF_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "",
     tier: "0",
     craftableAffix:
-      "-2 to Max Tenacity Blessing Stacks\n+2 to Max Focus Blessing Stacks\n+2 to Max Agility Blessing Stacks",
+      "+30% additional Deterioration Damage 10% chance to inflict 2 additional stack(s) of Deterioration",
+  },
+  {
+    equipmentSlot: "Two-Handed",
+    equipmentType: "Tin Staff",
+    affixType: "Tower Sequence",
+    craftingPool: "",
+    tier: "0",
+    craftableAffix:
+      "-2 to Max Tenacity Blessing Stacks +2 to Max Focus Blessing Stacks +2 to Max Agility Blessing Stacks",
   },
 ];

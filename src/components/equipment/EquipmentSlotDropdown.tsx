@@ -29,8 +29,16 @@ const OptionWithTooltip: React.FC<OptionWithTooltipProps> = ({
   const isLegendary = item.rarity === "legendary";
   const affixes = getGearAffixes(item);
 
-  const baseGear = ALL_BASE_GEAR.find(g => g.name === item.baseGearName);
-  const statsText = baseGear?.stats ?? (affixes.length > 0 && affixes[0].affixLines.length > 0 ? affixes[0].affixLines[0].text : null);
+  // 直接使用 affixes[0].affixLines[0].text，和 OptionWithTooltip 完全相同
+  const statsText = useMemo(
+    () => (affixes.length > 0 && affixes[0].affixLines.length > 0 ? affixes[0].affixLines[0].text : null),
+    [affixes]
+  );
+
+  const translatedStatsText = useMemo(
+    () => statsText ? getTranslatedAffixText(statsText) : null,
+    [statsText]
+  );
 
   return (
     <div
@@ -46,9 +54,9 @@ const OptionWithTooltip: React.FC<OptionWithTooltipProps> = ({
       <span className={selected ? "text-amber-400" : ""}>
         {item.legendaryName ?? getBaseGearNameTranslation(item.baseGearName) ?? item.equipmentType}
       </span>
-      {statsText && (
+      {translatedStatsText && (
         <span className="text-zinc-500 ml-2 text-xs">
-          - {getTranslatedAffixText(statsText)}
+          - {translatedStatsText}
         </span>
       )}
       {isLegendary && (
@@ -81,40 +89,56 @@ export const EquipmentSlotDropdown: React.FC<EquipmentSlotDropdownProps> = ({
   compatibleItems,
   onSelectItem,
 }) => {
-  const itemsById = useMemo(() => {
-    const map = new Map<string, Gear>();
-    for (const item of compatibleItems) {
-      if (item.id) {
-        map.set(item.id, item);
-      }
-    }
-    return map;
-  }, [compatibleItems]);
+  // 使用和 OptionWithTooltip 完全相同的计算逻辑
+  const options = useMemo(
+    () => compatibleItems.map((item) => {
+      const affixes = getGearAffixes(item);
+      // 直接使用 affixes[0].affixLines[0].text
+      const statsText = (affixes.length > 0 && affixes[0].affixLines.length > 0 ? affixes[0].affixLines[0].text : null);
+      const translatedStatsText = statsText ? getTranslatedAffixText(statsText) : null;
+      
+      return {
+        // biome-ignore lint/style/noNonNullAssertion: inventory items always have id
+        value: item.id!,
+        label: item.legendaryName ?? getBaseGearNameTranslation(item.baseGearName) ?? item.equipmentType,
+        // 使用和 OptionWithTooltip 完全相同的翻译结果
+        sublabel: translatedStatsText ? `${translatedStatsText} (${affixes.length})` : `${affixes.length} affixes`,
+      };
+    }),
+    [compatibleItems]
+  );
 
   const renderOption = (
     option: SearchableSelectOption<string>,
-    { selected }: { active: boolean; selected: boolean },
+    { active, selected }: { active: boolean; selected: boolean },
   ) => {
-    const item = itemsById.get(option.value);
+    const item = compatibleItems.find((i) => i.id === option.value);
     if (!item) return null;
-    return <OptionWithTooltip item={item} selected={selected} />;
+
+    return (
+      <OptionWithTooltip key={option.value} item={item} selected={selected} />
+    );
   };
 
   const renderSelectedTooltip = (
     option: SearchableSelectOption<string>,
     triggerRect: DOMRect,
-  ): React.ReactNode => {
-    const item = itemsById.get(option.value);
-    if (item === undefined) return null;
-    const isLegendary = item.rarity === "legendary";
+  ) => {
+    const item = compatibleItems.find((i) => i.id === option.value);
+    if (!item) return null;
+
     return (
-      <Tooltip
-        isVisible={true}
-        triggerRect={triggerRect}
-        variant={isLegendary ? "legendary" : "default"}
+      <div
+        style={{
+          position: "absolute",
+          left: triggerRect.left,
+          top: triggerRect.bottom + 8,
+          width: 400,
+        }}
+        className="rounded-lg border border-zinc-700 bg-zinc-800 p-3 shadow-lg"
       >
         <GearTooltipContent item={item} />
-      </Tooltip>
+      </div>
     );
   };
 
@@ -127,20 +151,7 @@ export const EquipmentSlotDropdown: React.FC<EquipmentSlotDropdownProps> = ({
         size="sm"
         value={selectedItemId ?? undefined}
         onChange={(value) => onSelectItem(slot, value ?? null)}
-        options={compatibleItems.map((item) => {
-          const affixes = getGearAffixes(item);
-          const baseGear = ALL_BASE_GEAR.find(g => g.name === item.baseGearName);
-          const statsText = baseGear?.stats ?? (affixes.length > 0 && affixes[0].affixLines.length > 0 ? affixes[0].affixLines[0].text : null);
-          const translatedStatsText = statsText ? getTranslatedAffixText(statsText) : null;
-          return {
-            // biome-ignore lint/style/noNonNullAssertion: inventory items always have id
-            value: item.id!,
-            label: i18n._(
-              item.legendaryName ?? getBaseGearNameTranslation(item.baseGearName) ?? item.equipmentType,
-            ),
-            sublabel: translatedStatsText ? `${translatedStatsText} (${affixes.length})` : `${affixes.length} affixes`,
-          };
-        })}
+        options={options}
         placeholder={i18n._("-- None --")}
         className="min-w-0 flex-1 max-w-xs"
         renderOption={renderOption}

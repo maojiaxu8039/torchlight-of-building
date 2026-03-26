@@ -648,7 +648,7 @@ export const RING_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Prefix",
     craftingPool: "Ultimate",
     tier: "0",
-    craftableAffix: "+1 to Max Tenacity Blessing Stacks\n+5% additional damage",
+    craftableAffix: "+1 to Max Tenacity Blessing Stacks +5% additional damage",
   },
   {
     equipmentSlot: "Trinket",
@@ -664,7 +664,7 @@ export const RING_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Prefix",
     craftingPool: "Ultimate",
     tier: "0",
-    craftableAffix: "+1 to Max Agility Blessing Stacks\n+5% additional damage",
+    craftableAffix: "+1 to Max Agility Blessing Stacks +5% additional damage",
   },
   {
     equipmentSlot: "Trinket",
@@ -680,7 +680,7 @@ export const RING_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Prefix",
     craftingPool: "Ultimate",
     tier: "0",
-    craftableAffix: "+1 to Max Focus Blessing Stacks\n+5% additional damage",
+    craftableAffix: "+1 to Max Focus Blessing Stacks +5% additional damage",
   },
   {
     equipmentSlot: "Trinket",

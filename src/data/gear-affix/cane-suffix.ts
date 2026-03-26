@@ -330,7 +330,7 @@ export const CANE_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "0",
     craftableAffix:
-      "+(33-47)% Attack and Cast Speed\n+(33-47)% Minion Attack and Cast Speed",
+      "+(33-47)% Attack and Cast Speed +(33-47)% Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "One-Handed",
@@ -339,7 +339,7 @@ export const CANE_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "1",
     craftableAffix:
-      "+(26-36)% Attack and Cast Speed\n+(26-36)% Minion Attack and Cast Speed",
+      "+(26-36)% Attack and Cast Speed +(26-36)% Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "One-Handed",
@@ -348,7 +348,7 @@ export const CANE_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "2",
     craftableAffix:
-      "+(21-25)% Attack and Cast Speed\n+(21-25)% Minion Attack and Cast Speed",
+      "+(21-25)% Attack and Cast Speed +(21-25)% Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "One-Handed",
@@ -357,7 +357,7 @@ export const CANE_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "3",
     craftableAffix:
-      "+(15-18)% Attack and Cast Speed\n+(15-18)% Minion Attack and Cast Speed",
+      "+(15-18)% Attack and Cast Speed +(15-18)% Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "One-Handed",

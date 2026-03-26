@@ -184,9 +184,12 @@ export const SearchableSelect = <T extends string | number>({
                 ${isEmpty ? "text-zinc-500" : "text-zinc-50"}
                 ${disabled ? "opacity-50 cursor-not-allowed" : ""}
               `}
-              displayValue={(opt: SearchableSelectOption<T> | null) =>
-                isInputFocused ? query : (opt?.label ?? "")
-              }
+              displayValue={(opt: SearchableSelectOption<T> | null) => {
+                if (isInputFocused) return query;
+                const label = opt?.label ?? "";
+                const sublabel = opt?.sublabel ?? "";
+                return sublabel ? `${label} ${sublabel}` : label;
+              }}
               onChange={(e) => setQuery(e.target.value)}
               onFocus={() => {
                 setIsInputFocused(true);

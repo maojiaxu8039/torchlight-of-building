@@ -335,7 +335,7 @@ export const ONE_HANDED_HAMMER_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "0",
     craftableAffix:
-      "+(33-47)% Attack and Cast Speed\n+(33-47)% Minion Attack and Cast Speed",
+      "+(33-47)% Attack and Cast Speed +(33-47)% Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "One-Handed",
@@ -344,7 +344,7 @@ export const ONE_HANDED_HAMMER_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "1",
     craftableAffix:
-      "+(26-36)% Attack and Cast Speed\n+(26-36)% Minion Attack and Cast Speed",
+      "+(26-36)% Attack and Cast Speed +(26-36)% Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "One-Handed",
@@ -353,7 +353,7 @@ export const ONE_HANDED_HAMMER_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "2",
     craftableAffix:
-      "+(21-25)% Attack and Cast Speed\n+(21-25)% Minion Attack and Cast Speed",
+      "+(21-25)% Attack and Cast Speed +(21-25)% Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "One-Handed",
@@ -362,7 +362,7 @@ export const ONE_HANDED_HAMMER_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "3",
     craftableAffix:
-      "+(15-18)% Attack and Cast Speed\n+(15-18)% Minion Attack and Cast Speed",
+      "+(15-18)% Attack and Cast Speed +(15-18)% Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "One-Handed",
@@ -571,7 +571,7 @@ export const ONE_HANDED_HAMMER_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "0",
     craftableAffix:
-      "+30% Steep Strike chance.\n+(23-29)% additional Steep Strike Damage",
+      "+30% Steep Strike chance. +(23-29)% additional Steep Strike Damage",
   },
   {
     equipmentSlot: "One-Handed",
@@ -580,7 +580,7 @@ export const ONE_HANDED_HAMMER_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "1",
     craftableAffix:
-      "+23% Steep Strike chance.\n+(16-22)% additional Steep Strike Damage",
+      "+23% Steep Strike chance. +(16-22)% additional Steep Strike Damage",
   },
   {
     equipmentSlot: "One-Handed",
@@ -589,7 +589,7 @@ export const ONE_HANDED_HAMMER_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "2",
     craftableAffix:
-      "+16% Steep Strike chance.\n+(12-15)% additional Steep Strike Damage",
+      "+16% Steep Strike chance. +(12-15)% additional Steep Strike Damage",
   },
   {
     equipmentSlot: "One-Handed",
@@ -598,7 +598,7 @@ export const ONE_HANDED_HAMMER_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "3",
     craftableAffix:
-      "+12% Steep Strike chance.\n+(10-11)% additional Steep Strike Damage",
+      "+12% Steep Strike chance. +(10-11)% additional Steep Strike Damage",
   },
   {
     equipmentSlot: "One-Handed",
@@ -607,7 +607,7 @@ export const ONE_HANDED_HAMMER_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "4",
     craftableAffix:
-      "+9% Steep Strike chance.\n+(8-9)% additional Steep Strike Damage",
+      "+9% Steep Strike chance. +(8-9)% additional Steep Strike Damage",
   },
   {
     equipmentSlot: "One-Handed",

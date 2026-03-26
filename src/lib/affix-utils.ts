@@ -188,7 +188,9 @@ export const getSortedGroups = (affixGroups: CollapsedAffixGroup[]) => {
 export const getOptionsWithHeaders = (affixGroups: CollapsedAffixGroup[]) => {
   // Add the Basic, Advanced and Ultimate into the options as headers
   return affixGroups.map((group, index, array) => {
-    const translatedLabel = getTranslatedAffixText(group.affixBaseName);
+    // 使用 affix.craftableAffix 生成翻译（和 AffixPreviewSection 保持一致）
+    const firstAffix = group.affixes[0];
+    const translatedLabel = firstAffix ? getTranslatedAffixText(firstAffix.craftableAffix) : getTranslatedAffixText(group.affixBaseName);
     const option: { label: string; value: number; header?: string } = {
       label: translatedLabel,
       value: index,

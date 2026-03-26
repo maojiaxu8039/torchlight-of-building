@@ -593,7 +593,7 @@ export const TIN_STAFF_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Prefix",
     craftingPool: "Ultimate",
     tier: "0",
-    craftableAffix: "+4 Jumps\n+(25-30)% additional damage",
+    craftableAffix: "+4 Jumps +(25-30)% additional damage",
   },
   {
     equipmentSlot: "Two-Handed",
@@ -601,6 +601,6 @@ export const TIN_STAFF_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Prefix",
     craftingPool: "Ultimate",
     tier: "1",
-    craftableAffix: "+4 Jumps\n+(18-20)% additional damage",
+    craftableAffix: "+4 Jumps +(18-20)% additional damage",
   },
 ];

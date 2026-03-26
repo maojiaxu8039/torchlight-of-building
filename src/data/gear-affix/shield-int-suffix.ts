@@ -266,7 +266,7 @@ export const SHIELD_INT_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "0",
     craftableAffix:
-      "+(34-47)% Attack and Cast Speed\n+(34-47)% Minion Attack and Cast Speed",
+      "+(34-47)% Attack and Cast Speed +(34-47)% Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "Shield",
@@ -275,7 +275,7 @@ export const SHIELD_INT_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "1",
     craftableAffix:
-      "+(26-36)% Attack and Cast Speed\n+(26-36)% Minion Attack and Cast Speed",
+      "+(26-36)% Attack and Cast Speed +(26-36)% Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "Shield",
@@ -284,7 +284,7 @@ export const SHIELD_INT_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "2",
     craftableAffix:
-      "+(22-25)% Attack and Cast Speed\n+(22-25)% Minion Attack and Cast Speed",
+      "+(22-25)% Attack and Cast Speed +(22-25)% Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "Shield",
@@ -293,7 +293,7 @@ export const SHIELD_INT_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "3",
     craftableAffix:
-      "+(16-18)% Attack and Cast Speed\n+(16-18)% Minion Attack and Cast Speed",
+      "+(16-18)% Attack and Cast Speed +(16-18)% Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "Shield",
@@ -485,7 +485,7 @@ export const SHIELD_INT_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Suffix",
     craftingPool: "Ultimate",
     tier: "0",
-    craftableAffix: "Max Sentry Quantity +1\n+5% additional damage",
+    craftableAffix: "Max Sentry Quantity +1 +5% additional damage",
   },
   {
     equipmentSlot: "Shield",

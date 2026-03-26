@@ -161,7 +161,7 @@ export const BOW_SWEET_DREAM_AFFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Sweet Dream Affix",
     craftingPool: "",
     tier: "0",
-    craftableAffix: "Lucky Critical Strike\n(-80--50)% Critical Strike Rating",
+    craftableAffix: "Lucky Critical Strike (-80--50)% Critical Strike Rating",
   },
   {
     equipmentSlot: "Two-Handed",

@@ -105,7 +105,7 @@ export const SHIELD_INT_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Prefix",
     craftingPool: "Basic",
     tier: "0",
-    craftableAffix: "+(109-140)% damage\n+(109-140)% Minion Damage",
+    craftableAffix: "+(109-140)% damage +(109-140)% Minion Damage",
   },
   {
     equipmentSlot: "Shield",
@@ -113,7 +113,7 @@ export const SHIELD_INT_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Prefix",
     craftingPool: "Basic",
     tier: "1",
-    craftableAffix: "+(77-108)% damage\n+(77-108)% Minion Damage",
+    craftableAffix: "+(77-108)% damage +(77-108)% Minion Damage",
   },
   {
     equipmentSlot: "Shield",
@@ -121,7 +121,7 @@ export const SHIELD_INT_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Prefix",
     craftingPool: "Basic",
     tier: "2",
-    craftableAffix: "+(55-76)% damage\n+(55-76)% Minion Damage",
+    craftableAffix: "+(55-76)% damage +(55-76)% Minion Damage",
   },
   {
     equipmentSlot: "Shield",
@@ -129,7 +129,7 @@ export const SHIELD_INT_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Prefix",
     craftingPool: "Basic",
     tier: "3",
-    craftableAffix: "+(44-54)% damage\n+(44-54)% Minion Damage",
+    craftableAffix: "+(44-54)% damage +(44-54)% Minion Damage",
   },
   {
     equipmentSlot: "Shield",
@@ -137,7 +137,7 @@ export const SHIELD_INT_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Prefix",
     craftingPool: "Basic",
     tier: "4",
-    craftableAffix: "+(36-43)% damage\n+(36-43)% Minion Damage",
+    craftableAffix: "+(36-43)% damage +(36-43)% Minion Damage",
   },
   {
     equipmentSlot: "Shield",
@@ -378,7 +378,7 @@ export const SHIELD_INT_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "0",
     craftableAffix:
-      "+(29-39)% Elemental and Erosion Resistance Penetration\nMinion Damage penetrates (29-39)% Elemental Resistance",
+      "+(29-39)% Elemental and Erosion Resistance Penetration Minion Damage penetrates (29-39)% Elemental Resistance",
   },
   {
     equipmentSlot: "Shield",
@@ -387,7 +387,7 @@ export const SHIELD_INT_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "1",
     craftableAffix:
-      "+(22-30)% Elemental and Erosion Resistance Penetration\nMinion Damage penetrates (22-30)% Elemental Resistance",
+      "+(22-30)% Elemental and Erosion Resistance Penetration Minion Damage penetrates (22-30)% Elemental Resistance",
   },
   {
     equipmentSlot: "Shield",
@@ -396,7 +396,7 @@ export const SHIELD_INT_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "2",
     craftableAffix:
-      "+(18-21)% Elemental and Erosion Resistance Penetration\nMinion Damage penetrates (18-21)% Elemental Resistance",
+      "+(18-21)% Elemental and Erosion Resistance Penetration Minion Damage penetrates (18-21)% Elemental Resistance",
   },
   {
     equipmentSlot: "Shield",
@@ -405,7 +405,7 @@ export const SHIELD_INT_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "3",
     craftableAffix:
-      "+(13-15)% Elemental and Erosion Resistance Penetration\nMinion Damage penetrates (13-15)% Elemental Resistance",
+      "+(13-15)% Elemental and Erosion Resistance Penetration Minion Damage penetrates (13-15)% Elemental Resistance",
   },
   {
     equipmentSlot: "Shield",
@@ -430,7 +430,7 @@ export const SHIELD_INT_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "0",
     craftableAffix:
-      "+(26-33)% Armor DMG Mitigation Penetration\n+(26-33)% Armor DMG Mitigation Penetration for Minions",
+      "+(26-33)% Armor DMG Mitigation Penetration +(26-33)% Armor DMG Mitigation Penetration for Minions",
   },
   {
     equipmentSlot: "Shield",
@@ -439,7 +439,7 @@ export const SHIELD_INT_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "1",
     craftableAffix:
-      "+(19-25)% Armor DMG Mitigation Penetration\n+(19-25)% Armor DMG Mitigation Penetration for Minions",
+      "+(19-25)% Armor DMG Mitigation Penetration +(19-25)% Armor DMG Mitigation Penetration for Minions",
   },
   {
     equipmentSlot: "Shield",
@@ -448,7 +448,7 @@ export const SHIELD_INT_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "2",
     craftableAffix:
-      "+(14-18)% Armor DMG Mitigation Penetration\n+(14-18)% Armor DMG Mitigation Penetration for Minions",
+      "+(14-18)% Armor DMG Mitigation Penetration +(14-18)% Armor DMG Mitigation Penetration for Minions",
   },
   {
     equipmentSlot: "Shield",
@@ -457,6 +457,6 @@ export const SHIELD_INT_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "3",
     craftableAffix:
-      "+(11-13)% Armor DMG Mitigation Penetration\n+(11-13)% Armor DMG Mitigation Penetration for Minions",
+      "+(11-13)% Armor DMG Mitigation Penetration +(11-13)% Armor DMG Mitigation Penetration for Minions",
   },
 ];

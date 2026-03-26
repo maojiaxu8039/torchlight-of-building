@@ -515,7 +515,7 @@ export const HELMET_DEX_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "0",
     craftableAffix:
-      "+1 Max Spell Burst\n+10% additional Hit Damage for skills cast by Spell Burst",
+      "+1 Max Spell Burst +10% additional Hit Damage for skills cast by Spell Burst",
   },
   {
     equipmentSlot: "Helmet",
@@ -532,7 +532,7 @@ export const HELMET_DEX_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "0",
     craftableAffix:
-      "Max Terra Charge Stacks +1\n+30% Terra Charge Recovery Speed",
+      "Max Terra Charge Stacks +1 +30% Terra Charge Recovery Speed",
   },
   {
     equipmentSlot: "Helmet",

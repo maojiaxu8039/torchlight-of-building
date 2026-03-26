@@ -376,7 +376,7 @@ export const BELT_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Suffix",
     craftingPool: "Advanced",
     tier: "0",
-    craftableAffix: "Warcry is cast immediately\n+2 Max Warcry Skill Charges",
+    craftableAffix: "Warcry is cast immediately +2 Max Warcry Skill Charges",
   },
   {
     equipmentSlot: "Trinket",
@@ -384,7 +384,7 @@ export const BELT_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Suffix",
     craftingPool: "Advanced",
     tier: "1",
-    craftableAffix: "Warcry is cast immediately\n+1 Max Warcry Skill Charges",
+    craftableAffix: "Warcry is cast immediately +1 Max Warcry Skill Charges",
   },
   {
     equipmentSlot: "Trinket",
@@ -393,7 +393,7 @@ export const BELT_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "0",
     craftableAffix:
-      "+(10-12)% Elemental Resistance\n+(12-15)% chance to avoid Elemental Ailment",
+      "+(10-12)% Elemental Resistance +(12-15)% chance to avoid Elemental Ailment",
   },
   {
     equipmentSlot: "Trinket",
@@ -402,7 +402,7 @@ export const BELT_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "1",
     craftableAffix:
-      "+(7-9)% Elemental Resistance\n+(12-15)% chance to avoid Elemental Ailment",
+      "+(7-9)% Elemental Resistance +(12-15)% chance to avoid Elemental Ailment",
   },
   {
     equipmentSlot: "Trinket",
@@ -411,7 +411,7 @@ export const BELT_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "2",
     craftableAffix:
-      "+6% Elemental Resistance\n+(9-11)% chance to avoid Elemental Ailment",
+      "+6% Elemental Resistance +(9-11)% chance to avoid Elemental Ailment",
   },
   {
     equipmentSlot: "Trinket",
@@ -420,7 +420,7 @@ export const BELT_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "3",
     craftableAffix:
-      "+(4-5)% Elemental Resistance\n+(6-8)% chance to avoid Elemental Ailment",
+      "+(4-5)% Elemental Resistance +(6-8)% chance to avoid Elemental Ailment",
   },
   {
     equipmentSlot: "Trinket",

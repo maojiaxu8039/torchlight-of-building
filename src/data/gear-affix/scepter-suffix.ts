@@ -329,7 +329,7 @@ export const SCEPTER_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Suffix",
     craftingPool: "Advanced",
     tier: "0",
-    craftableAffix: "+(37-47)% Cast Speed\n+(37-47)% Minion Cast Speed",
+    craftableAffix: "+(37-47)% Cast Speed +(37-47)% Minion Cast Speed",
   },
   {
     equipmentSlot: "One-Handed",
@@ -337,7 +337,7 @@ export const SCEPTER_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Suffix",
     craftingPool: "Advanced",
     tier: "1",
-    craftableAffix: "+(26-36)% Cast Speed\n+(26-36)% Minion Cast Speed",
+    craftableAffix: "+(26-36)% Cast Speed +(26-36)% Minion Cast Speed",
   },
   {
     equipmentSlot: "One-Handed",
@@ -345,7 +345,7 @@ export const SCEPTER_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Suffix",
     craftingPool: "Advanced",
     tier: "2",
-    craftableAffix: "+(19-25)% Cast Speed\n+(19-25)% Minion Cast Speed",
+    craftableAffix: "+(19-25)% Cast Speed +(19-25)% Minion Cast Speed",
   },
   {
     equipmentSlot: "One-Handed",
@@ -521,7 +521,7 @@ export const SCEPTER_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Suffix",
     craftingPool: "Ultimate",
     tier: "0",
-    craftableAffix: "Max Terra Quantity +1\n+5% additional damage",
+    craftableAffix: "Max Terra Quantity +1 +5% additional damage",
   },
   {
     equipmentSlot: "One-Handed",
@@ -529,7 +529,7 @@ export const SCEPTER_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Suffix",
     craftingPool: "Ultimate",
     tier: "1",
-    craftableAffix: "Max Terra Quantity +1\n+1% additional damage",
+    craftableAffix: "Max Terra Quantity +1 +1% additional damage",
   },
   {
     equipmentSlot: "One-Handed",
@@ -537,7 +537,7 @@ export const SCEPTER_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Suffix",
     craftingPool: "Ultimate",
     tier: "2",
-    craftableAffix: "Max Terra Quantity +1\n-10% additional damage",
+    craftableAffix: "Max Terra Quantity +1 -10% additional damage",
   },
   {
     equipmentSlot: "One-Handed",

@@ -378,7 +378,7 @@ export const RING_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "0",
     craftableAffix:
-      "+1 Combo Points gained from Combo Starters\n+(3-5)% additional damage",
+      "+1 Combo Points gained from Combo Starters +(3-5)% additional damage",
   },
   {
     equipmentSlot: "Trinket",
@@ -387,7 +387,7 @@ export const RING_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "1",
     craftableAffix:
-      "+1 Combo Points gained from Combo Starters\n+(1-2)% additional damage",
+      "+1 Combo Points gained from Combo Starters +(1-2)% additional damage",
   },
   {
     equipmentSlot: "Trinket",
@@ -396,7 +396,7 @@ export const RING_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "2",
     craftableAffix:
-      "+1 Combo Points gained from Combo Starters\n(-5--3)% additional damage",
+      "+1 Combo Points gained from Combo Starters (-5--3)% additional damage",
   },
   {
     equipmentSlot: "Trinket",
@@ -485,7 +485,7 @@ export const RING_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "0",
     craftableAffix:
-      "100% chance to gain a Barrier for every 5 m you move\n+25% Barrier Shield",
+      "100% chance to gain a Barrier for every 5 m you move +25% Barrier Shield",
   },
   {
     equipmentSlot: "Trinket",
@@ -534,7 +534,7 @@ export const RING_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "0",
     craftableAffix:
-      "+(13-16)% Elemental Resistance\n+(13-16)% Erosion Resistance",
+      "+(13-16)% Elemental Resistance +(13-16)% Erosion Resistance",
   },
   {
     equipmentSlot: "Trinket",
@@ -543,7 +543,7 @@ export const RING_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "1",
     craftableAffix:
-      "+(9-12)% Elemental Resistance\n+(9-12)% Erosion Resistance",
+      "+(9-12)% Elemental Resistance +(9-12)% Erosion Resistance",
   },
   {
     equipmentSlot: "Trinket",
@@ -551,7 +551,7 @@ export const RING_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Suffix",
     craftingPool: "Ultimate",
     tier: "2",
-    craftableAffix: "+(7-8)% Elemental Resistance\n+(7-8)% Erosion Resistance",
+    craftableAffix: "+(7-8)% Elemental Resistance +(7-8)% Erosion Resistance",
   },
   {
     equipmentSlot: "Trinket",

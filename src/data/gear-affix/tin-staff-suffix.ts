@@ -9,7 +9,7 @@ export const TIN_STAFF_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Suffix",
     craftingPool: "Basic",
     tier: "0",
-    craftableAffix: "+(73-94)% Cast Speed\n+(73-94)% Minion Cast Speed",
+    craftableAffix: "+(73-94)% Cast Speed +(73-94)% Minion Cast Speed",
   },
   {
     equipmentSlot: "Two-Handed",
@@ -17,7 +17,7 @@ export const TIN_STAFF_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Suffix",
     craftingPool: "Basic",
     tier: "1",
-    craftableAffix: "+(51-72)% Cast Speed\n+(51-72)% Minion Cast Speed",
+    craftableAffix: "+(51-72)% Cast Speed +(51-72)% Minion Cast Speed",
   },
   {
     equipmentSlot: "Two-Handed",
@@ -25,7 +25,7 @@ export const TIN_STAFF_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Suffix",
     craftingPool: "Basic",
     tier: "2",
-    craftableAffix: "+(37-50)% Cast Speed\n+(37-50)% Minion Cast Speed",
+    craftableAffix: "+(37-50)% Cast Speed +(37-50)% Minion Cast Speed",
   },
   {
     equipmentSlot: "Two-Handed",
@@ -33,7 +33,7 @@ export const TIN_STAFF_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Suffix",
     craftingPool: "Basic",
     tier: "3",
-    craftableAffix: "+(30-36)% Cast Speed\n+(30-36)% Minion Cast Speed",
+    craftableAffix: "+(30-36)% Cast Speed +(30-36)% Minion Cast Speed",
   },
   {
     equipmentSlot: "Two-Handed",
@@ -505,7 +505,7 @@ export const TIN_STAFF_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Suffix",
     craftingPool: "Ultimate",
     tier: "0",
-    craftableAffix: "+4 Beams\n+(20-30)% additional damage",
+    craftableAffix: "+4 Beams +(20-30)% additional damage",
   },
   {
     equipmentSlot: "Two-Handed",
@@ -513,7 +513,7 @@ export const TIN_STAFF_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Suffix",
     craftingPool: "Ultimate",
     tier: "1",
-    craftableAffix: "+4 Beams\n+(5-10)% additional damage",
+    craftableAffix: "+4 Beams +(5-10)% additional damage",
   },
   {
     equipmentSlot: "Two-Handed",
@@ -521,7 +521,7 @@ export const TIN_STAFF_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Suffix",
     craftingPool: "Ultimate",
     tier: "2",
-    craftableAffix: "+4 Beams\n(-20--10)% additional damage",
+    craftableAffix: "+4 Beams (-20--10)% additional damage",
   },
   {
     equipmentSlot: "Two-Handed",
@@ -585,7 +585,7 @@ export const TIN_STAFF_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Suffix",
     craftingPool: "Ultimate",
     tier: "0",
-    craftableAffix: "Max Terra Quantity +2\n+10% additional damage",
+    craftableAffix: "Max Terra Quantity +2 +10% additional damage",
   },
   {
     equipmentSlot: "Two-Handed",
@@ -593,7 +593,7 @@ export const TIN_STAFF_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Suffix",
     craftingPool: "Ultimate",
     tier: "1",
-    craftableAffix: "Max Terra Quantity +2\n+1% additional damage",
+    craftableAffix: "Max Terra Quantity +2 +1% additional damage",
   },
   {
     equipmentSlot: "Two-Handed",
@@ -601,7 +601,7 @@ export const TIN_STAFF_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Suffix",
     craftingPool: "Ultimate",
     tier: "2",
-    craftableAffix: "Max Terra Quantity +2\n-20% additional damage",
+    craftableAffix: "Max Terra Quantity +2 -20% additional damage",
   },
   {
     equipmentSlot: "Two-Handed",

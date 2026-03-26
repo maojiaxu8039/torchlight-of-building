@@ -599,7 +599,7 @@ export const ONE_HANDED_AXE_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "0",
     craftableAffix:
-      "Adds (62-64) - (356-358) Elemental Damage to the gear\n-100% Gear Physical Damage",
+      "Adds (62-64) - (356-358) Elemental Damage to the gear -100% Gear Physical Damage",
   },
   {
     equipmentSlot: "One-Handed",
@@ -608,7 +608,7 @@ export const ONE_HANDED_AXE_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "1",
     craftableAffix:
-      "Adds (47-49) - (272-274) Elemental Damage to the gear\n-100% Gear Physical Damage",
+      "Adds (47-49) - (272-274) Elemental Damage to the gear -100% Gear Physical Damage",
   },
   {
     equipmentSlot: "One-Handed",
@@ -617,7 +617,7 @@ export const ONE_HANDED_AXE_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "2",
     craftableAffix:
-      "Adds (18-20) - (107-109) Elemental Damage to the gear\n-100% Gear Physical Damage",
+      "Adds (18-20) - (107-109) Elemental Damage to the gear -100% Gear Physical Damage",
   },
   {
     equipmentSlot: "One-Handed",

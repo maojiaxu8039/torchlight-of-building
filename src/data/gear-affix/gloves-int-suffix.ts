@@ -290,7 +290,7 @@ export const GLOVES_INT_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "0",
     craftableAffix:
-      "+(22-31)% Attack and Cast Speed\n+(22-31)% Minion Attack and Cast Speed",
+      "+(22-31)% Attack and Cast Speed +(22-31)% Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "Gloves",
@@ -299,7 +299,7 @@ export const GLOVES_INT_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "1",
     craftableAffix:
-      "+(17-24)% Attack and Cast Speed\n+(17-24)% Minion Attack and Cast Speed",
+      "+(17-24)% Attack and Cast Speed +(17-24)% Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "Gloves",
@@ -308,7 +308,7 @@ export const GLOVES_INT_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "2",
     craftableAffix:
-      "+(14-17)% Attack and Cast Speed\n+(14-17)% Minion Attack and Cast Speed",
+      "+(14-17)% Attack and Cast Speed +(14-17)% Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "Gloves",
@@ -317,7 +317,7 @@ export const GLOVES_INT_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "3",
     craftableAffix:
-      "+(10-12)% Attack and Cast Speed\n+(10-12)% Minion Attack and Cast Speed",
+      "+(10-12)% Attack and Cast Speed +(10-12)% Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "Gloves",
@@ -357,7 +357,7 @@ export const GLOVES_INT_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Suffix",
     craftingPool: "Advanced",
     tier: "0",
-    craftableAffix: "+(49-62)% Skill Area\n+(49-62)% Minion Skill Area",
+    craftableAffix: "+(49-62)% Skill Area +(49-62)% Minion Skill Area",
   },
   {
     equipmentSlot: "Gloves",
@@ -365,7 +365,7 @@ export const GLOVES_INT_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Suffix",
     craftingPool: "Advanced",
     tier: "1",
-    craftableAffix: "+(35-48)% Skill Area\n+(35-48)% Minion Skill Area",
+    craftableAffix: "+(35-48)% Skill Area +(35-48)% Minion Skill Area",
   },
   {
     equipmentSlot: "Gloves",
@@ -373,7 +373,7 @@ export const GLOVES_INT_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Suffix",
     craftingPool: "Advanced",
     tier: "2",
-    craftableAffix: "+(25-34)% Skill Area\n+(25-34)% Minion Skill Area",
+    craftableAffix: "+(25-34)% Skill Area +(25-34)% Minion Skill Area",
   },
   {
     equipmentSlot: "Gloves",
@@ -381,7 +381,7 @@ export const GLOVES_INT_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Suffix",
     craftingPool: "Advanced",
     tier: "3",
-    craftableAffix: "+(20-24)% Skill Area\n+(20-24)% Minion Skill Area",
+    craftableAffix: "+(20-24)% Skill Area +(20-24)% Minion Skill Area",
   },
   {
     equipmentSlot: "Gloves",
@@ -389,7 +389,7 @@ export const GLOVES_INT_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Suffix",
     craftingPool: "Advanced",
     tier: "4",
-    craftableAffix: "+(16-19)% Skill Area\n+(16-19)% Minion Skill Area",
+    craftableAffix: "+(16-19)% Skill Area +(16-19)% Minion Skill Area",
   },
   {
     equipmentSlot: "Gloves",
@@ -430,7 +430,7 @@ export const GLOVES_INT_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "0",
     craftableAffix:
-      "+1 Jumps\n+6% additional damage for every Jump (multiplies)",
+      "+1 Jumps +6% additional damage for every Jump (multiplies)",
   },
   {
     equipmentSlot: "Gloves",
@@ -439,7 +439,7 @@ export const GLOVES_INT_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "1",
     craftableAffix:
-      "+1 Jumps\n+(4-5)% additional damage for every Jump (multiplies)",
+      "+1 Jumps +(4-5)% additional damage for every Jump (multiplies)",
   },
   {
     equipmentSlot: "Gloves",
@@ -448,7 +448,7 @@ export const GLOVES_INT_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "2",
     craftableAffix:
-      "+1 Jumps\n+(2-3)% additional damage for every Jump (multiplies)",
+      "+1 Jumps +(2-3)% additional damage for every Jump (multiplies)",
   },
   {
     equipmentSlot: "Gloves",
@@ -481,7 +481,7 @@ export const GLOVES_INT_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "0",
     craftableAffix:
-      "+(16-20)% Blur Effect\nGains Blur for 1 s after losing Blur",
+      "+(16-20)% Blur Effect Gains Blur for 1 s after losing Blur",
   },
   {
     equipmentSlot: "Gloves",
@@ -490,7 +490,7 @@ export const GLOVES_INT_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "1",
     craftableAffix:
-      "+(12-15)% Blur Effect\nGains Blur for 1 s after losing Blur",
+      "+(12-15)% Blur Effect Gains Blur for 1 s after losing Blur",
   },
   {
     equipmentSlot: "Gloves",
@@ -499,6 +499,6 @@ export const GLOVES_INT_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "2",
     craftableAffix:
-      "+(8-10)% Blur Effect\nGains Blur for 1 s after losing Blur",
+      "+(8-10)% Blur Effect Gains Blur for 1 s after losing Blur",
   },
 ];

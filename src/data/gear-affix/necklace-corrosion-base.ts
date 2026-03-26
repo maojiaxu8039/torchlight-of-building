@@ -25,7 +25,7 @@ export const NECKLACE_CORROSION_BASE_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Corrosion Base",
     craftingPool: "",
     tier: "0",
-    craftableAffix: "Immune to Frostbite\nImmune to Numbed",
+    craftableAffix: "Immune to Frostbite Immune to Numbed",
   },
   {
     equipmentSlot: "Trinket",
@@ -33,7 +33,7 @@ export const NECKLACE_CORROSION_BASE_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Corrosion Base",
     craftingPool: "",
     tier: "0",
-    craftableAffix: "Immune to Ignite\nImmune to Numbed",
+    craftableAffix: "Immune to Ignite Immune to Numbed",
   },
   {
     equipmentSlot: "Trinket",

@@ -161,6 +161,6 @@ export const MUSKET_BASE_AFFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Base Affix",
     craftingPool: "",
     tier: "0",
-    craftableAffix: "Lucky Critical Strike\n(-50--40)% Critical Strike Rating",
+    craftableAffix: "Lucky Critical Strike (-50--40)% Critical Strike Rating",
   },
 ];

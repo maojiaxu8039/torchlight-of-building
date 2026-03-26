@@ -471,7 +471,7 @@ export const BELT_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "0",
     craftableAffix:
-      "Gains a stack of Fortitude when using a Melee Skill\n(-8--6)% additional damage taken",
+      "Gains a stack of Fortitude when using a Melee Skill (-8--6)% additional damage taken",
   },
   {
     equipmentSlot: "Trinket",
@@ -480,7 +480,7 @@ export const BELT_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "1",
     craftableAffix:
-      "Gains a stack of Fortitude when using a Melee Skill\n(-5--3)% additional damage taken",
+      "Gains a stack of Fortitude when using a Melee Skill (-5--3)% additional damage taken",
   },
   {
     equipmentSlot: "Trinket",
@@ -489,7 +489,7 @@ export const BELT_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "2",
     craftableAffix:
-      "Gains a stack of Fortitude when using a Melee Skill\n(-2--1)% additional damage taken",
+      "Gains a stack of Fortitude when using a Melee Skill (-2--1)% additional damage taken",
   },
   {
     equipmentSlot: "Trinket",
@@ -498,7 +498,7 @@ export const BELT_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "0",
     craftableAffix:
-      "Has Profane. Minions have Profane\n+(40-50)% Erosion Damage\n+(40-50)% Minion Erosion Damage",
+      "Has Profane. Minions have Profane +(40-50)% Erosion Damage +(40-50)% Minion Erosion Damage",
   },
   {
     equipmentSlot: "Trinket",
@@ -507,7 +507,7 @@ export const BELT_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "1",
     craftableAffix:
-      "Has Profane. Minions have Profane\n+(20-30)% Erosion Damage\n+(20-30)% Minion Erosion Damage",
+      "Has Profane. Minions have Profane +(20-30)% Erosion Damage +(20-30)% Minion Erosion Damage",
   },
   {
     equipmentSlot: "Trinket",
@@ -604,7 +604,7 @@ export const BELT_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "0",
     craftableAffix:
-      "+(386-500)% Critical Strike Rating against Traumatized enemies\n-30% additional Hit Damage",
+      "+(386-500)% Critical Strike Rating against Traumatized enemies -30% additional Hit Damage",
   },
   {
     equipmentSlot: "Trinket",
@@ -613,7 +613,7 @@ export const BELT_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "1",
     craftableAffix:
-      "+(271-385)% Critical Strike Rating against Traumatized enemies\n-30% additional Hit Damage",
+      "+(271-385)% Critical Strike Rating against Traumatized enemies -30% additional Hit Damage",
   },
   {
     equipmentSlot: "Trinket",
@@ -622,7 +622,7 @@ export const BELT_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "2",
     craftableAffix:
-      "+(194-270)% Critical Strike Rating against Traumatized enemies\n-30% additional Hit Damage",
+      "+(194-270)% Critical Strike Rating against Traumatized enemies -30% additional Hit Damage",
   },
   {
     equipmentSlot: "Trinket",
@@ -631,7 +631,7 @@ export const BELT_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "3",
     craftableAffix:
-      "+(155-193)% Critical Strike Rating against Traumatized enemies\n-30% additional Hit Damage",
+      "+(155-193)% Critical Strike Rating against Traumatized enemies -30% additional Hit Damage",
   },
   {
     equipmentSlot: "Trinket",
@@ -640,7 +640,7 @@ export const BELT_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "4",
     craftableAffix:
-      "+(124-154)% Critical Strike Rating against Traumatized enemies\n-30% additional Hit Damage",
+      "+(124-154)% Critical Strike Rating against Traumatized enemies -30% additional Hit Damage",
   },
   {
     equipmentSlot: "Trinket",
@@ -648,7 +648,7 @@ export const BELT_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Prefix",
     craftingPool: "Ultimate",
     tier: "0",
-    craftableAffix: "+1 Ignite limit\n+5% additional Ignite Damage",
+    craftableAffix: "+1 Ignite limit +5% additional Ignite Damage",
   },
   {
     equipmentSlot: "Trinket",

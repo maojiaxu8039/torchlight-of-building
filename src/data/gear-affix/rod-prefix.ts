@@ -450,7 +450,7 @@ export const ROD_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "0",
     craftableAffix:
-      "+1 to Max Summonable Synthetic Troops\n+(10-12)% additional Minion Damage",
+      "+1 to Max Summonable Synthetic Troops +(10-12)% additional Minion Damage",
   },
   {
     equipmentSlot: "One-Handed",
@@ -459,7 +459,7 @@ export const ROD_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "1",
     craftableAffix:
-      "+1 to Max Summonable Synthetic Troops\n+(6-8)% additional Minion Damage",
+      "+1 to Max Summonable Synthetic Troops +(6-8)% additional Minion Damage",
   },
   {
     equipmentSlot: "One-Handed",

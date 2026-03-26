@@ -617,7 +617,7 @@ export const WAND_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Prefix",
     craftingPool: "Ultimate",
     tier: "0",
-    craftableAffix: "+2 Jumps\n+(12-16)% additional damage",
+    craftableAffix: "+2 Jumps +(12-16)% additional damage",
   },
   {
     equipmentSlot: "One-Handed",
@@ -625,6 +625,6 @@ export const WAND_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Prefix",
     craftingPool: "Ultimate",
     tier: "1",
-    craftableAffix: "+2 Jumps\n+(8-10)% additional damage",
+    craftableAffix: "+2 Jumps +(8-10)% additional damage",
   },
 ];

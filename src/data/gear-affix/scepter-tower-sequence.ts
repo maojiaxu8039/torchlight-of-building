@@ -18,7 +18,7 @@ export const SCEPTER_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "",
     tier: "1",
     craftableAffix:
-      "+16 Affliction inflicted per second\n+24% Affliction Effect",
+      "+16 Affliction inflicted per second +24% Affliction Effect",
   },
   {
     equipmentSlot: "One-Handed",
@@ -58,7 +58,7 @@ export const SCEPTER_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Tower Sequence",
     craftingPool: "",
     tier: "1",
-    craftableAffix: "Max Terra Charge Stacks -1\nMax Terra Quantity +1",
+    craftableAffix: "Max Terra Charge Stacks -1 Max Terra Quantity +1",
   },
   {
     equipmentSlot: "One-Handed",
@@ -125,7 +125,7 @@ export const SCEPTER_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "",
     tier: "0",
     craftableAffix:
-      "+120% Deep Pain Aura\n-20% additional Deep Pain Sealed Mana Compensation",
+      "+120% Deep Pain Aura -20% additional Deep Pain Sealed Mana Compensation",
   },
   {
     equipmentSlot: "One-Handed",
@@ -134,7 +134,7 @@ export const SCEPTER_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "",
     tier: "0",
     craftableAffix:
-      "+20% Movement Speed when standing on a Terra Skill. The effect lasts 2s.\n+100% Skill Area when standing on a Terra Skill. Lasts for 2 s",
+      "+20% Movement Speed when standing on a Terra Skill. The effect lasts 2s. +100% Skill Area when standing on a Terra Skill. Lasts for 2 s",
   },
   {
     equipmentSlot: "One-Handed",
@@ -151,6 +151,6 @@ export const SCEPTER_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "",
     tier: "0",
     craftableAffix:
-      "+1 to Max Tenacity Blessing Stacks\n-1 to Max Focus Blessing Stacks\n+1 to Max Agility Blessing Stacks",
+      "+1 to Max Tenacity Blessing Stacks -1 to Max Focus Blessing Stacks +1 to Max Agility Blessing Stacks",
   },
 ];

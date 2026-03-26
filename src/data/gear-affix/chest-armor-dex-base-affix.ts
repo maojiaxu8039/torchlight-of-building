@@ -90,7 +90,7 @@ export const CHEST_ARMOR_DEX_BASE_AFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "",
     tier: "1",
     craftableAffix:
-      "+(6-8)% Elemental and Erosion Resistance Penetration\n+(6-8)% Elemental and Erosion Resistance Penetration for Minions",
+      "+(6-8)% Elemental and Erosion Resistance Penetration +(6-8)% Elemental and Erosion Resistance Penetration for Minions",
   },
   {
     equipmentSlot: "Chest Armor",
@@ -99,7 +99,7 @@ export const CHEST_ARMOR_DEX_BASE_AFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "",
     tier: "1",
     craftableAffix:
-      "+(5-7)% Armor DMG Mitigation Penetration\n+(5-7)% Armor DMG Mitigation Penetration for Minions",
+      "+(5-7)% Armor DMG Mitigation Penetration +(5-7)% Armor DMG Mitigation Penetration for Minions",
   },
   {
     equipmentSlot: "Chest Armor",

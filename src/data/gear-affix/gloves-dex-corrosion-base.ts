@@ -97,7 +97,7 @@ export const GLOVES_DEX_CORROSION_BASE_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Corrosion Base",
     craftingPool: "",
     tier: "0",
-    craftableAffix: "Lucky Critical Strike\n(-150--120) Critical Strike Rating",
+    craftableAffix: "Lucky Critical Strike (-150--120) Critical Strike Rating",
   },
   {
     equipmentSlot: "Gloves",

@@ -115,7 +115,7 @@ export const SHIELD_STR_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "",
     tier: "0",
     craftableAffix:
-      "Converts 25% of Physical Damage taken to random Elemental Damage\n-25% Defense",
+      "Converts 25% of Physical Damage taken to random Elemental Damage -25% Defense",
   },
   {
     equipmentSlot: "Shield",
@@ -124,7 +124,7 @@ export const SHIELD_STR_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "",
     tier: "0",
     craftableAffix:
-      "+15% Armor Effective Rate for Non-Physical Damage\n+2400 Gear Armor",
+      "+15% Armor Effective Rate for Non-Physical Damage +2400 Gear Armor",
   },
   {
     equipmentSlot: "Shield",
@@ -133,7 +133,7 @@ export const SHIELD_STR_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "",
     tier: "0",
     craftableAffix:
-      "Spell Damage will not further reduce Evasion by default\n+1680 gear Evasion",
+      "Spell Damage will not further reduce Evasion by default +1680 gear Evasion",
   },
   {
     equipmentSlot: "Shield",
@@ -142,6 +142,6 @@ export const SHIELD_STR_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "",
     tier: "0",
     craftableAffix:
-      "Energy Shield starts to Charge when Blocking\n+40% Energy Shield Charge Speed",
+      "Energy Shield starts to Charge when Blocking +40% Energy Shield Charge Speed",
   },
 ];

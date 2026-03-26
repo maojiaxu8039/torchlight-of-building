@@ -106,7 +106,7 @@ export const ROD_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "",
     tier: "0",
     craftableAffix:
-      "Triggers Lv. 10 Entangled Pain Curse and Timid Curse when a Minion deals damage. Cooldown: 1 s\nMinions can cast 1 additional Curse(s)",
+      "Triggers Lv. 10 Entangled Pain Curse and Timid Curse when a Minion deals damage. Cooldown: 1 s Minions can cast 1 additional Curse(s)",
   },
   {
     equipmentSlot: "One-Handed",
@@ -123,7 +123,7 @@ export const ROD_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "",
     tier: "0",
     craftableAffix:
-      "-80 Minion Critical Strike Rating\n+200% Minion Critical Strike Damage",
+      "-80 Minion Critical Strike Rating +200% Minion Critical Strike Damage",
   },
   {
     equipmentSlot: "One-Handed",
@@ -132,7 +132,7 @@ export const ROD_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "",
     tier: "0",
     craftableAffix:
-      "+120% Radical Order Aura Effect\n-20% additional Radical Order Sealed Mana Compensation",
+      "+120% Radical Order Aura Effect -20% additional Radical Order Sealed Mana Compensation",
   },
   {
     equipmentSlot: "One-Handed",
@@ -149,6 +149,6 @@ export const ROD_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "",
     tier: "0",
     craftableAffix:
-      "When Minions deal damage, inflicts Fire Infiltration. Interval for each enemy: 1 s\nWhen Minions deal damage, inflicts Lightning Infiltration. Interval for each enemy: 1 s\nWhen Minions deal damage, inflicts Cold Infiltration. Interval for each enemy: 1 s",
+      "When Minions deal damage, inflicts Fire Infiltration. Interval for each enemy: 1 s When Minions deal damage, inflicts Lightning Infiltration. Interval for each enemy: 1 s When Minions deal damage, inflicts Cold Infiltration. Interval for each enemy: 1 s",
   },
 ];

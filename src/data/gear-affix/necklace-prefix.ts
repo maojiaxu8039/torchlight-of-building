@@ -610,7 +610,7 @@ export const NECKLACE_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "0",
     craftableAffix:
-      "Gains Attack Aggression when casting an Attack Skill\n+(40-60)% Attack Aggression Effect",
+      "Gains Attack Aggression when casting an Attack Skill +(40-60)% Attack Aggression Effect",
   },
   {
     equipmentSlot: "Trinket",
@@ -619,7 +619,7 @@ export const NECKLACE_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "1",
     craftableAffix:
-      "Gains Attack Aggression when casting an Attack Skill\n+(10-30)% Attack Aggression Effect",
+      "Gains Attack Aggression when casting an Attack Skill +(10-30)% Attack Aggression Effect",
   },
   {
     equipmentSlot: "Trinket",
@@ -628,7 +628,7 @@ export const NECKLACE_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "0",
     craftableAffix:
-      "Gains Spell Aggression when casting a Spell Skill\n+(40-60)% Spell Aggression Effect",
+      "Gains Spell Aggression when casting a Spell Skill +(40-60)% Spell Aggression Effect",
   },
   {
     equipmentSlot: "Trinket",
@@ -637,7 +637,7 @@ export const NECKLACE_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "1",
     craftableAffix:
-      "Gains Spell Aggression when casting a Spell Skill\n+(10-30)% Spell Aggression Effect",
+      "Gains Spell Aggression when casting a Spell Skill +(10-30)% Spell Aggression Effect",
   },
   {
     equipmentSlot: "Trinket",
@@ -646,7 +646,7 @@ export const NECKLACE_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "0",
     craftableAffix:
-      "Has Profane. Minions have Profane\n+(40-50)% Erosion Damage\n+(40-50)% Minion Erosion Damage",
+      "Has Profane. Minions have Profane +(40-50)% Erosion Damage +(40-50)% Minion Erosion Damage",
   },
   {
     equipmentSlot: "Trinket",
@@ -655,7 +655,7 @@ export const NECKLACE_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "1",
     craftableAffix:
-      "Has Profane. Minions have Profane\n+(20-30)% Erosion Damage\n+(20-30)% Minion Erosion Damage",
+      "Has Profane. Minions have Profane +(20-30)% Erosion Damage +(20-30)% Minion Erosion Damage",
   },
   {
     equipmentSlot: "Trinket",
@@ -743,7 +743,7 @@ export const NECKLACE_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Prefix",
     craftingPool: "Ultimate",
     tier: "0",
-    craftableAffix: "Have Fervor\n+5% additional damage",
+    craftableAffix: "Have Fervor +5% additional damage",
   },
   {
     equipmentSlot: "Trinket",
@@ -792,7 +792,7 @@ export const NECKLACE_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "0",
     craftableAffix:
-      "You can apply 1 additional Tangle(s) to enemies\n+(12-15)% Tangle Damage Enhancement",
+      "You can apply 1 additional Tangle(s) to enemies +(12-15)% Tangle Damage Enhancement",
   },
   {
     equipmentSlot: "Trinket",
@@ -801,7 +801,7 @@ export const NECKLACE_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "1",
     craftableAffix:
-      "You can apply 1 additional Tangle(s) to enemies\n+(5-8)% Tangle Damage Enhancement",
+      "You can apply 1 additional Tangle(s) to enemies +(5-8)% Tangle Damage Enhancement",
   },
   {
     equipmentSlot: "Trinket",

@@ -116,7 +116,7 @@ export const TWO_HANDED_SWORD_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] =
       craftingPool: "",
       tier: "0",
       craftableAffix:
-        "Main Skill is supported by Lv. 25 Steamroll\n+25% additional Melee Damage",
+        "Main Skill is supported by Lv. 25 Steamroll +25% additional Melee Damage",
     },
     {
       equipmentSlot: "Two-Handed",
@@ -133,7 +133,7 @@ export const TWO_HANDED_SWORD_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] =
       craftingPool: "",
       tier: "0",
       craftableAffix:
-        "+200% Fearless Aura\n-30% additional Fearless Sealed Mana Compensation",
+        "+200% Fearless Aura -30% additional Fearless Sealed Mana Compensation",
     },
     {
       equipmentSlot: "Two-Handed",
@@ -142,7 +142,7 @@ export const TWO_HANDED_SWORD_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] =
       craftingPool: "",
       tier: "0",
       craftableAffix:
-        "+120% Gear Physical Damage\n-20% Attack Critical Strike Rating for this gear",
+        "+120% Gear Physical Damage -20% Attack Critical Strike Rating for this gear",
     },
     {
       equipmentSlot: "Two-Handed",
@@ -151,7 +151,7 @@ export const TWO_HANDED_SWORD_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] =
       craftingPool: "",
       tier: "0",
       craftableAffix:
-        "+30% additional Deterioration Damage\n10% chance to inflict 2 additional stack(s) of Deterioration",
+        "+30% additional Deterioration Damage 10% chance to inflict 2 additional stack(s) of Deterioration",
     },
     {
       equipmentSlot: "Two-Handed",
@@ -159,6 +159,6 @@ export const TWO_HANDED_SWORD_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] =
       affixType: "Tower Sequence",
       craftingPool: "",
       tier: "0",
-      craftableAffix: "+50% Gear Elemental Damage\n-25% Gear Physical Damage",
+      craftableAffix: "+50% Gear Elemental Damage -25% Gear Physical Damage",
     },
   ];

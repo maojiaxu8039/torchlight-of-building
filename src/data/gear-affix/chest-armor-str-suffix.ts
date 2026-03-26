@@ -306,7 +306,7 @@ export const CHEST_ARMOR_STR_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "0",
     craftableAffix:
-      "+(25-31)% Attack and Cast Speed\n+(25-31)% Minion Attack and Cast Speed",
+      "+(25-31)% Attack and Cast Speed +(25-31)% Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "Chest Armor",
@@ -315,7 +315,7 @@ export const CHEST_ARMOR_STR_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "1",
     craftableAffix:
-      "+(18-24)% Attack and Cast Speed\n+(18-24)% Minion Attack and Cast Speed",
+      "+(18-24)% Attack and Cast Speed +(18-24)% Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "Chest Armor",
@@ -324,7 +324,7 @@ export const CHEST_ARMOR_STR_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "2",
     craftableAffix:
-      "+(13-17)% Attack and Cast Speed\n+(13-17)% Minion Attack and Cast Speed",
+      "+(13-17)% Attack and Cast Speed +(13-17)% Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "Chest Armor",
@@ -333,7 +333,7 @@ export const CHEST_ARMOR_STR_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "3",
     craftableAffix:
-      "+(10-12)% Attack and Cast Speed\n+(10-12)% Minion Attack and Cast Speed",
+      "+(10-12)% Attack and Cast Speed +(10-12)% Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "Chest Armor",
@@ -462,7 +462,7 @@ export const CHEST_ARMOR_STR_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "0",
     craftableAffix:
-      "When dealing damage, inflicts Fire Infiltration. Interval for each enemy: 1 s\nWhen Minions deal damage, inflicts Fire Infiltration. Interval for each enemy: 1 s\n+(40-60)% Fire Infiltration Effect",
+      "When dealing damage, inflicts Fire Infiltration. Interval for each enemy: 1 s When Minions deal damage, inflicts Fire Infiltration. Interval for each enemy: 1 s +(40-60)% Fire Infiltration Effect",
   },
   {
     equipmentSlot: "Chest Armor",
@@ -471,7 +471,7 @@ export const CHEST_ARMOR_STR_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "1",
     craftableAffix:
-      "When dealing damage, inflicts Fire Infiltration. Interval for each enemy: 1 s\nWhen Minions deal damage, inflicts Fire Infiltration. Interval for each enemy: 1 s\n+(10-30)% Fire Infiltration Effect",
+      "When dealing damage, inflicts Fire Infiltration. Interval for each enemy: 1 s When Minions deal damage, inflicts Fire Infiltration. Interval for each enemy: 1 s +(10-30)% Fire Infiltration Effect",
   },
   {
     equipmentSlot: "Chest Armor",

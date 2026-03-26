@@ -115,7 +115,7 @@ export const BOW_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "",
     tier: "0",
     craftableAffix:
-      "Main Skill is supported by Lv. 25 Multiple Projectiles\n+25% additional Projectile Damage",
+      "Main Skill is supported by Lv. 25 Multiple Projectiles +25% additional Projectile Damage",
   },
   {
     equipmentSlot: "Two-Handed",
@@ -124,7 +124,7 @@ export const BOW_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "",
     tier: "0",
     craftableAffix:
-      "Attack Horizontal Projectiles will return after reaching their max range and will hit enemies on their path again\n-30% additional Projectile Damage",
+      "Attack Horizontal Projectiles will return after reaching their max range and will hit enemies on their path again -30% additional Projectile Damage",
   },
   {
     equipmentSlot: "Two-Handed",
@@ -133,7 +133,7 @@ export const BOW_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "",
     tier: "0",
     craftableAffix:
-      "+200% Precise Projectiles Aura effect\n-30% additional Precise Projectiles Sealed Mana Compensation",
+      "+200% Precise Projectiles Aura effect -30% additional Precise Projectiles Sealed Mana Compensation",
   },
   {
     equipmentSlot: "Two-Handed",
@@ -142,7 +142,7 @@ export const BOW_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "",
     tier: "0",
     craftableAffix:
-      "+80% Gear Physical Damage\n-20% Attack Critical Strike Rating for this gear",
+      "+80% Gear Physical Damage -20% Attack Critical Strike Rating for this gear",
   },
   {
     equipmentSlot: "Two-Handed",
@@ -151,7 +151,7 @@ export const BOW_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "",
     tier: "0",
     craftableAffix:
-      "+30% additional Deterioration Damage\n10% chance to inflict 2 additional stack(s) of Deterioration",
+      "+30% additional Deterioration Damage 10% chance to inflict 2 additional stack(s) of Deterioration",
   },
   {
     equipmentSlot: "Two-Handed",
@@ -159,6 +159,6 @@ export const BOW_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Tower Sequence",
     craftingPool: "",
     tier: "0",
-    craftableAffix: "+50% Gear Elemental Damage\n-25% Gear Physical Damage",
+    craftableAffix: "+50% Gear Elemental Damage -25% Gear Physical Damage",
   },
 ];

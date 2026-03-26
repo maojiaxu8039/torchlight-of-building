@@ -124,7 +124,7 @@ export const WAND_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "",
     tier: "0",
     craftableAffix:
-      "+120% Spell Amplification Aura\n-20% additional Spell Amplification Sealed Mana Compensation",
+      "+120% Spell Amplification Aura -20% additional Spell Amplification Sealed Mana Compensation",
   },
   {
     equipmentSlot: "One-Handed",
@@ -132,16 +132,7 @@ export const WAND_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Tower Sequence",
     craftingPool: "",
     tier: "0",
-    craftableAffix: "+35% additional damage\n-10% additional Cast Speed",
-  },
-  {
-    equipmentSlot: "One-Handed",
-    equipmentType: "Wand",
-    affixType: "Tower Sequence",
-    craftingPool: "",
-    tier: "0",
-    craftableAffix:
-      "+15% additional Deterioration Damage\n10% chance to inflict 1 additional stack(s) of Deterioration",
+    craftableAffix: "+35% additional damage -10% additional Cast Speed",
   },
   {
     equipmentSlot: "One-Handed",
@@ -150,6 +141,15 @@ export const WAND_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "",
     tier: "0",
     craftableAffix:
-      "-1 to Max Tenacity Blessing Stacks\n+1 to Max Focus Blessing Stacks\n+1 to Max Agility Blessing Stacks",
+      "+15% additional Deterioration Damage 10% chance to inflict 1 additional stack(s) of Deterioration",
+  },
+  {
+    equipmentSlot: "One-Handed",
+    equipmentType: "Wand",
+    affixType: "Tower Sequence",
+    craftingPool: "",
+    tier: "0",
+    craftableAffix:
+      "-1 to Max Tenacity Blessing Stacks +1 to Max Focus Blessing Stacks +1 to Max Agility Blessing Stacks",
   },
 ];

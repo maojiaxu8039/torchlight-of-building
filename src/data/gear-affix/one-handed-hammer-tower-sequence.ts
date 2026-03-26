@@ -132,7 +132,7 @@ export const ONE_HANDED_HAMMER_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] 
       craftingPool: "",
       tier: "0",
       craftableAffix:
-        "+120% Fearless Aura\n-20% additional Fearless Sealed Mana Compensation",
+        "+120% Fearless Aura -20% additional Fearless Sealed Mana Compensation",
     },
     {
       equipmentSlot: "One-Handed",
@@ -141,7 +141,7 @@ export const ONE_HANDED_HAMMER_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] 
       craftingPool: "",
       tier: "0",
       craftableAffix:
-        "+80% Gear Physical Damage\n-20% Attack Critical Strike Rating for this gear",
+        "+80% Gear Physical Damage -20% Attack Critical Strike Rating for this gear",
     },
     {
       equipmentSlot: "One-Handed",
@@ -150,7 +150,7 @@ export const ONE_HANDED_HAMMER_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] 
       craftingPool: "",
       tier: "0",
       craftableAffix:
-        "+15% additional Deterioration Damage\n10% chance to inflict 1 additional stack(s) of Deterioration",
+        "+15% additional Deterioration Damage 10% chance to inflict 1 additional stack(s) of Deterioration",
     },
     {
       equipmentSlot: "One-Handed",
@@ -158,6 +158,6 @@ export const ONE_HANDED_HAMMER_TOWER_SEQUENCE_AFFIXES: readonly BaseGearAffix[] 
       affixType: "Tower Sequence",
       craftingPool: "",
       tier: "0",
-      craftableAffix: "+25% Gear Elemental Damage\n-25% Gear Physical Damage",
+      craftableAffix: "+25% Gear Elemental Damage -25% Gear Physical Damage",
     },
   ];

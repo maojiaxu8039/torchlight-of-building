@@ -255,7 +255,7 @@ export const TWO_HANDED_HAMMER_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "0",
     craftableAffix:
-      "+(66-94)% Attack and Cast Speed\n+(66-94)% Minion Attack and Cast Speed",
+      "+(66-94)% Attack and Cast Speed +(66-94)% Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "Two-Handed",
@@ -264,7 +264,7 @@ export const TWO_HANDED_HAMMER_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "1",
     craftableAffix:
-      "+(51-72)% Attack and Cast Speed\n+(51-72)% Minion Attack and Cast Speed",
+      "+(51-72)% Attack and Cast Speed +(51-72)% Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "Two-Handed",
@@ -273,7 +273,7 @@ export const TWO_HANDED_HAMMER_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "2",
     craftableAffix:
-      "+(43-50)% Attack and Cast Speed\n+(43-50)% Minion Attack and Cast Speed",
+      "+(43-50)% Attack and Cast Speed +(43-50)% Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "Two-Handed",
@@ -282,7 +282,7 @@ export const TWO_HANDED_HAMMER_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "3",
     craftableAffix:
-      "+(31-36)% Attack and Cast Speed\n+(31-36)% Minion Attack and Cast Speed",
+      "+(31-36)% Attack and Cast Speed +(31-36)% Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "Two-Handed",
@@ -603,7 +603,7 @@ export const TWO_HANDED_HAMMER_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "0",
     craftableAffix:
-      "+60% Steep Strike chance.\n+(49-62)% additional Steep Strike Damage",
+      "+60% Steep Strike chance. +(49-62)% additional Steep Strike Damage",
   },
   {
     equipmentSlot: "Two-Handed",
@@ -612,7 +612,7 @@ export const TWO_HANDED_HAMMER_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "1",
     craftableAffix:
-      "+46% Steep Strike chance.\n+(35-48)% additional Steep Strike Damage",
+      "+46% Steep Strike chance. +(35-48)% additional Steep Strike Damage",
   },
   {
     equipmentSlot: "Two-Handed",
@@ -621,7 +621,7 @@ export const TWO_HANDED_HAMMER_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "2",
     craftableAffix:
-      "+32% Steep Strike chance.\n+(25-34)% additional Steep Strike Damage",
+      "+32% Steep Strike chance. +(25-34)% additional Steep Strike Damage",
   },
   {
     equipmentSlot: "Two-Handed",
@@ -630,7 +630,7 @@ export const TWO_HANDED_HAMMER_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "3",
     craftableAffix:
-      "+24% Steep Strike chance.\n+(20-24)% additional Steep Strike Damage",
+      "+24% Steep Strike chance. +(20-24)% additional Steep Strike Damage",
   },
   {
     equipmentSlot: "Two-Handed",
@@ -639,7 +639,7 @@ export const TWO_HANDED_HAMMER_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "4",
     craftableAffix:
-      "+18% Steep Strike chance.\n+(16-19)% additional Steep Strike Damage",
+      "+18% Steep Strike chance. +(16-19)% additional Steep Strike Damage",
   },
   {
     equipmentSlot: "Two-Handed",

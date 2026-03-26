@@ -89,7 +89,7 @@ export const NECKLACE_SWEET_DREAM_AFFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Sweet Dream Affix",
     craftingPool: "",
     tier: "2",
-    craftableAffix: "+(20-24)% damage\n+(20-24)% Minion Damage",
+    craftableAffix: "+(20-24)% damage +(20-24)% Minion Damage",
   },
   {
     equipmentSlot: "Trinket",

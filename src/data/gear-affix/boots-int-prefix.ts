@@ -554,7 +554,7 @@ export const BOOTS_INT_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "0",
     craftableAffix:
-      "+(31-40)% Spell Burst Charge Speed\n+10% chance to immediately gain 1 stack(s) of Spell Burst Charge when using a skill. Interval: 0.03s",
+      "+(31-40)% Spell Burst Charge Speed +10% chance to immediately gain 1 stack(s) of Spell Burst Charge when using a skill. Interval: 0.03s",
   },
   {
     equipmentSlot: "Boots",
@@ -563,7 +563,7 @@ export const BOOTS_INT_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "1",
     craftableAffix:
-      "+(21-30)% Spell Burst Charge Speed\n+10% chance to immediately gain 1 stack(s) of Spell Burst Charge when using a skill. Interval: 0.03s",
+      "+(21-30)% Spell Burst Charge Speed +10% chance to immediately gain 1 stack(s) of Spell Burst Charge when using a skill. Interval: 0.03s",
   },
   {
     equipmentSlot: "Boots",
@@ -572,7 +572,7 @@ export const BOOTS_INT_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "2",
     craftableAffix:
-      "+(10-20)% Spell Burst Charge Speed\n+10% chance to immediately gain 1 stack(s) of Spell Burst Charge when using a skill. Interval: 0.03s",
+      "+(10-20)% Spell Burst Charge Speed +10% chance to immediately gain 1 stack(s) of Spell Burst Charge when using a skill. Interval: 0.03s",
   },
   {
     equipmentSlot: "Boots",

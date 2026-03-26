@@ -105,7 +105,7 @@ export const BELT_BASE_AFFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Base Affix",
     craftingPool: "",
     tier: "1",
-    craftableAffix: "Immune to Paralysis\nImmune to Blinding",
+    craftableAffix: "Immune to Paralysis Immune to Blinding",
   },
   {
     equipmentSlot: "Trinket",
@@ -113,7 +113,7 @@ export const BELT_BASE_AFFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Base Affix",
     craftingPool: "",
     tier: "1",
-    craftableAffix: "Immune to Slow\nImmune to Weaken",
+    craftableAffix: "Immune to Slow Immune to Weaken",
   },
   {
     equipmentSlot: "Trinket",

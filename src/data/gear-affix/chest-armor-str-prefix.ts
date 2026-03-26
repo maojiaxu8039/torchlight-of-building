@@ -529,7 +529,7 @@ export const CHEST_ARMOR_STR_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Prefix",
     craftingPool: "Ultimate",
     tier: "0",
-    craftableAffix: "You can cast 1 additional Curses\n+(8-10)% Curse Effect",
+    craftableAffix: "You can cast 1 additional Curses +(8-10)% Curse Effect",
   },
   {
     equipmentSlot: "Chest Armor",

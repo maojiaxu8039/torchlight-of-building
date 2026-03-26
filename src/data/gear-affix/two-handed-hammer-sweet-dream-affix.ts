@@ -165,7 +165,7 @@ export const TWO_HANDED_HAMMER_SWEET_DREAM_AFFIX_AFFIXES: readonly BaseGearAffix
       craftingPool: "",
       tier: "0",
       craftableAffix:
-        "Lucky Critical Strike\n(-80--50)% Critical Strike Rating",
+        "Lucky Critical Strike (-80--50)% Critical Strike Rating",
     },
     {
       equipmentSlot: "Two-Handed",

@@ -546,7 +546,7 @@ export const BOW_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "0",
     craftableAffix:
-      "+(111-145)% Gear Physical Damage\nAdds (69-71) - (85-87) Physical Damage to the gear",
+      "+(111-145)% Gear Physical Damage Adds (69-71) - (85-87) Physical Damage to the gear",
   },
   {
     equipmentSlot: "Two-Handed",
@@ -555,7 +555,7 @@ export const BOW_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "1",
     craftableAffix:
-      "+(77-110)% Gear Physical Damage\nAdds (53-55) - (65-67) Physical Damage to the gear",
+      "+(77-110)% Gear Physical Damage Adds (53-55) - (65-67) Physical Damage to the gear",
   },
   {
     equipmentSlot: "Two-Handed",
@@ -564,7 +564,7 @@ export const BOW_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "0",
     craftableAffix:
-      "Adds (77-79) - (438-440) Elemental Damage to the gear\n-100% Gear Physical Damage",
+      "Adds (77-79) - (438-440) Elemental Damage to the gear -100% Gear Physical Damage",
   },
   {
     equipmentSlot: "Two-Handed",
@@ -573,7 +573,7 @@ export const BOW_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "1",
     craftableAffix:
-      "Adds (59-61) - (337-339) Elemental Damage to the gear\n-100% Gear Physical Damage",
+      "Adds (59-61) - (337-339) Elemental Damage to the gear -100% Gear Physical Damage",
   },
   {
     equipmentSlot: "Two-Handed",
@@ -582,6 +582,6 @@ export const BOW_PREFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "2",
     craftableAffix:
-      "Adds (23-25) - (133-135) Elemental Damage to the gear\n-100% Gear Physical Damage",
+      "Adds (23-25) - (133-135) Elemental Damage to the gear -100% Gear Physical Damage",
   },
 ];

@@ -250,7 +250,7 @@ export const SPIRIT_RING_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "0",
     craftableAffix:
-      "+(25-31)% Attack and Cast Speed\n+(25-31)% Minion Attack and Cast Speed",
+      "+(25-31)% Attack and Cast Speed +(25-31)% Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "Trinket",
@@ -259,7 +259,7 @@ export const SPIRIT_RING_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "1",
     craftableAffix:
-      "+(18-24)% Attack and Cast Speed\n+(18-24)% Minion Attack and Cast Speed",
+      "+(18-24)% Attack and Cast Speed +(18-24)% Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "Trinket",
@@ -268,7 +268,7 @@ export const SPIRIT_RING_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "2",
     craftableAffix:
-      "+(13-17)% Attack and Cast Speed\n+(13-17)% Minion Attack and Cast Speed",
+      "+(13-17)% Attack and Cast Speed +(13-17)% Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "Trinket",
@@ -277,7 +277,7 @@ export const SPIRIT_RING_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "3",
     craftableAffix:
-      "+(10-12)% Attack and Cast Speed\n+(10-12)% Minion Attack and Cast Speed",
+      "+(10-12)% Attack and Cast Speed +(10-12)% Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "Trinket",
@@ -286,7 +286,7 @@ export const SPIRIT_RING_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "4",
     craftableAffix:
-      "+(7-9)% Attack and Cast Speed\n+(7-9)% Minion Attack and Cast Speed",
+      "+(7-9)% Attack and Cast Speed +(7-9)% Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "Trinket",
@@ -371,7 +371,7 @@ export const SPIRIT_RING_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "0",
     craftableAffix:
-      "Gains Hasten when Minions land a Critical Strike\n+(5-8)% additional Minion Attack and Cast Speed",
+      "Gains Hasten when Minions land a Critical Strike +(5-8)% additional Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "Trinket",
@@ -380,7 +380,7 @@ export const SPIRIT_RING_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Advanced",
     tier: "1",
     craftableAffix:
-      "Gains Hasten when Minions land a Critical Strike\n+(3-4)% additional Minion Attack and Cast Speed",
+      "Gains Hasten when Minions land a Critical Strike +(3-4)% additional Minion Attack and Cast Speed",
   },
   {
     equipmentSlot: "Trinket",
@@ -461,7 +461,7 @@ export const SPIRIT_RING_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "0",
     craftableAffix:
-      "+(13-16)% Elemental Resistance\n+(13-16)% Erosion Resistance",
+      "+(13-16)% Elemental Resistance +(13-16)% Erosion Resistance",
   },
   {
     equipmentSlot: "Trinket",
@@ -470,7 +470,7 @@ export const SPIRIT_RING_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     craftingPool: "Ultimate",
     tier: "1",
     craftableAffix:
-      "+(9-12)% Elemental Resistance\n+(9-12)% Erosion Resistance",
+      "+(9-12)% Elemental Resistance +(9-12)% Erosion Resistance",
   },
   {
     equipmentSlot: "Trinket",
@@ -478,7 +478,7 @@ export const SPIRIT_RING_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Suffix",
     craftingPool: "Ultimate",
     tier: "2",
-    craftableAffix: "+(7-8)% Elemental Resistance\n+(7-8)% Erosion Resistance",
+    craftableAffix: "+(7-8)% Elemental Resistance +(7-8)% Erosion Resistance",
   },
   {
     equipmentSlot: "Trinket",
@@ -486,7 +486,7 @@ export const SPIRIT_RING_SUFFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Suffix",
     craftingPool: "Ultimate",
     tier: "3",
-    craftableAffix: "+6% Elemental Resistance\n+6% Erosion Resistance",
+    craftableAffix: "+6% Elemental Resistance +6% Erosion Resistance",
   },
   {
     equipmentSlot: "Trinket",

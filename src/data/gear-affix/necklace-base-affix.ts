@@ -89,7 +89,7 @@ export const NECKLACE_BASE_AFFIX_AFFIXES: readonly BaseGearAffix[] = [
     affixType: "Base Affix",
     craftingPool: "",
     tier: "2",
-    craftableAffix: "+(20-24)% damage\n+(20-24)% Minion Damage",
+    craftableAffix: "+(20-24)% damage +(20-24)% Minion Damage",
   },
   {
     equipmentSlot: "Trinket",

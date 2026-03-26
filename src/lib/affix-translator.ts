@@ -53,8 +53,12 @@ export function getTranslatedAffixText(text: string): string {
   const sortedKeys = Object.keys(AFFIX_NAME_TRANSLATIONS).sort((a, b) => b.length - a.length);
 
   for (const key of sortedKeys) {
-    const regex = new RegExp(`(^|\\s)${key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?=\\s|$|,)`, 'gi');
-    const replacement = `$1${AFFIX_NAME_TRANSLATIONS[key]}`;
+    const escapedKey = key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    // 匹配开头或空格后面跟着 key
+    const regex = new RegExp(`(^|(?<=\\s))(${escapedKey})(?=\\s|$|,)`, 'gi');
+    const replacement = (match: string, lookbehind: string, matchedText: string) => {
+      return (AFFIX_NAME_TRANSLATIONS[matchedText] || matchedText);
+    };
     result = result.replace(regex, replacement);
   }
 
