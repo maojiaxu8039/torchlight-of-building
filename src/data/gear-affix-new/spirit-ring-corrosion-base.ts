@@ -1,0 +1,77 @@
+// Auto-generated from tlidb.com
+import type { BaseGearAffix } from "../../tli/gear-data-types";
+
+export const SPIRIT_RING_CORROSION_BASE_AFFIXES: readonly BaseGearAffix[] = [
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "Spirit-Ring",
+    affixType: "Corrosion Base",
+    craftingPool: "Basic",
+    tier: "1",
+    craftableAffix: "+5% XP earned",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "Spirit-Ring",
+    affixType: "Corrosion Base",
+    craftingPool: "Basic",
+    tier: "1",
+    craftableAffix: "+5% Movement Speed",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "Spirit-Ring",
+    affixType: "Corrosion Base",
+    craftingPool: "Basic",
+    tier: "1",
+    craftableAffix: "Immune to TraumaImmune to Wilt",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "Spirit-Ring",
+    affixType: "Corrosion Base",
+    craftingPool: "Basic",
+    tier: "1",
+    craftableAffix: "+(8-10)% Strength",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "Spirit-Ring",
+    affixType: "Corrosion Base",
+    craftingPool: "Basic",
+    tier: "1",
+    craftableAffix: "+(8-10)% Dexterity",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "Spirit-Ring",
+    affixType: "Corrosion Base",
+    craftingPool: "Basic",
+    tier: "1",
+    craftableAffix: "+(8-10)% Intelligence",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "Spirit-Ring",
+    affixType: "Corrosion Base",
+    craftingPool: "Basic",
+    tier: "1",
+    craftableAffix: "+(50-70)% damage",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "Spirit-Ring",
+    affixType: "Corrosion Base",
+    craftingPool: "Basic",
+    tier: "1",
+    craftableAffix: "+(15-25)% Max Life",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "Spirit-Ring",
+    affixType: "Corrosion Base",
+    craftingPool: "Basic",
+    tier: "1",
+    craftableAffix: "+(15-25)% Max Energy Shield",
+  },
+] as const;

@@ -1,0 +1,77 @@
+// This file is machine-generated. Do not modify manually.
+import type { BaseGearAffix } from "../../tli/gear-data-types";
+
+export const HELMET_STR_CORROSION_BASE_AFFIXES: readonly BaseGearAffix[] = [
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "HelmetStr",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "+1 to Max Focus Blessing Stacks STR",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "HelmetStr",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "+(10-15) % Sealed Mana Compensation STR",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "HelmetStr",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "Triggers Lv. (15-20) Timid Curse upon inflicting damage. Cooldown: 0.3 s STR",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "HelmetStr",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "Triggers Lv. (15-20) Entangled Pain Curse upon inflicting damage. Cooldown: 0.3 s STR",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "HelmetStr",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "Immune to Blinding Immune to Paralysis STR",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "HelmetStr",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "+(15-20) % Max Energy STR",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "HelmetStr",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "+(15-20) % Max Life STR",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "HelmetStr",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "+(30-50) % Gear Armor STR",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "HelmetStr",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "+(50-70) % damage STR",
+  },
+] as const;

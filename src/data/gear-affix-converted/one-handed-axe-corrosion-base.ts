@@ -1,0 +1,77 @@
+// This file is machine-generated. Do not modify manually.
+import type { BaseGearAffix } from "../../tli/gear-data-types";
+
+export const ONE_HANDED_AXE_CORROSION_BASE_AFFIXES: readonly BaseGearAffix[] = [
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "OneHandedAxe",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "Enemies have a 30 % chance to explode when defeated, dealing True Damage equal to (50-100) % of their Max Life to enemies within a 6 m radius One-Handed",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "OneHandedAxe",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "+(4-8) % chance to gain 1 stack of Tenacity Blessing on defeat One-Handed",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "OneHandedAxe",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "Adds (2-4) - (8-10) Physical Damage to the gear One-Handed",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "OneHandedAxe",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "+(15-25) % Gear Physical Damage One-Handed",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "OneHandedAxe",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "+(5-8) % gear Attack Speed One-Handed",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "OneHandedAxe",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "+(3-6) % Attack Critical Strike Rating for this gear One-Handed",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "OneHandedAxe",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "Eliminates enemies under (5-8) % Life upon inflicting damage One-Handed",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "OneHandedAxe",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "+(10-15) % Skill Area One-Handed",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "OneHandedAxe",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "+(25-30) % Elemental Damage One-Handed",
+  },
+] as const;

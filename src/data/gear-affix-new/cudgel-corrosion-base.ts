@@ -1,0 +1,77 @@
+// Auto-generated from tlidb.com
+import type { BaseGearAffix } from "../../tli/gear-data-types";
+
+export const CUDGEL_CORROSION_BASE_AFFIXES: readonly BaseGearAffix[] = [
+  {
+    equipmentSlot: "Weapon",
+    equipmentType: "Cudgel",
+    affixType: "Corrosion Base",
+    craftingPool: "Basic",
+    tier: "1",
+    craftableAffix: "+(6-12)% chance to gain 1 stack of Focus Blessing on defeat",
+  },
+  {
+    equipmentSlot: "Weapon",
+    equipmentType: "Cudgel",
+    affixType: "Corrosion Base",
+    craftingPool: "Basic",
+    tier: "1",
+    craftableAffix: "Damage Penetrates (8-12)% Elemental Resistance",
+  },
+  {
+    equipmentSlot: "Weapon",
+    equipmentType: "Cudgel",
+    affixType: "Corrosion Base",
+    craftingPool: "Basic",
+    tier: "1",
+    craftableAffix: "+(18-24)% Cast Speed",
+  },
+  {
+    equipmentSlot: "Weapon",
+    equipmentType: "Cudgel",
+    affixType: "Corrosion Base",
+    craftingPool: "Basic",
+    tier: "1",
+    craftableAffix: "+(35-45)% Spell Damage",
+  },
+  {
+    equipmentSlot: "Weapon",
+    equipmentType: "Cudgel",
+    affixType: "Corrosion Base",
+    craftingPool: "Basic",
+    tier: "1",
+    craftableAffix: "+(50-60)% Spell Critical Strike Rating",
+  },
+  {
+    equipmentSlot: "Weapon",
+    equipmentType: "Cudgel",
+    affixType: "Corrosion Base",
+    craftingPool: "Basic",
+    tier: "1",
+    craftableAffix: "+(40-48)% Critical Strike Damage",
+  },
+  {
+    equipmentSlot: "Weapon",
+    equipmentType: "Cudgel",
+    affixType: "Corrosion Base",
+    craftingPool: "Basic",
+    tier: "1",
+    craftableAffix: "+(8-15)% Cooldown Recovery Speed",
+  },
+  {
+    equipmentSlot: "Weapon",
+    equipmentType: "Cudgel",
+    affixType: "Corrosion Base",
+    craftingPool: "Basic",
+    tier: "1",
+    craftableAffix: "Adds (7-12)% of Elemental Damage as Erosion Damage",
+  },
+  {
+    equipmentSlot: "Weapon",
+    equipmentType: "Cudgel",
+    affixType: "Corrosion Base",
+    craftingPool: "Basic",
+    tier: "1",
+    craftableAffix: "+(1-2) Support Skill Level",
+  },
+] as const;

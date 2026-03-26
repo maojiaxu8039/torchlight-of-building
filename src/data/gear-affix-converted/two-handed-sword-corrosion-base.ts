@@ -1,0 +1,77 @@
+// This file is machine-generated. Do not modify manually.
+import type { BaseGearAffix } from "../../tli/gear-data-types";
+
+export const TWO_HANDED_SWORD_CORROSION_BASE_AFFIXES: readonly BaseGearAffix[] = [
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "TwoHandedSword",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "+1 Melee Skill Level Two-Handed",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "TwoHandedSword",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "+(6-12) % chance to gain 1 stack of Tenacity Blessing on defeat Two-Handed",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "TwoHandedSword",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "Adds (7-10) - (14-17) Physical Damage to the gear Two-Handed",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "TwoHandedSword",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "+(15-25) % Gear Physical Damage Two-Handed",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "TwoHandedSword",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "+(5-8) % gear Attack Speed Two-Handed",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "TwoHandedSword",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "+(3-6) % Attack Critical Strike Rating for this gear Two-Handed",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "TwoHandedSword",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "+(40-45) % Elemental Damage Two-Handed",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "TwoHandedSword",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "Damage Penetrates (8-12) % Elemental Resistance Two-Handed",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "TwoHandedSword",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "+(10-15) % Skill Area Two-Handed",
+  },
+] as const;

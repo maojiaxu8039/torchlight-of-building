@@ -1,0 +1,77 @@
+// Auto-generated from tlidb.com
+import type { BaseGearAffix } from "../../tli/gear-data-types";
+
+export const HELMET_STR_CORROSION_BASE_AFFIXES: readonly BaseGearAffix[] = [
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "Helmet-Str",
+    affixType: "Corrosion Base",
+    craftingPool: "Basic",
+    tier: "1",
+    craftableAffix: "+1 to Max Focus Blessing Stacks",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "Helmet-Str",
+    affixType: "Corrosion Base",
+    craftingPool: "Basic",
+    tier: "1",
+    craftableAffix: "+(10-15)% Sealed Mana Compensation",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "Helmet-Str",
+    affixType: "Corrosion Base",
+    craftingPool: "Basic",
+    tier: "1",
+    craftableAffix: "Triggers Lv. (15-20) Timid Curse upon inflicting damage. Cooldown: 0.3 s",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "Helmet-Str",
+    affixType: "Corrosion Base",
+    craftingPool: "Basic",
+    tier: "1",
+    craftableAffix: "Triggers Lv. (15-20) Entangled Pain Curse upon inflicting damage. Cooldown: 0.3 s",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "Helmet-Str",
+    affixType: "Corrosion Base",
+    craftingPool: "Basic",
+    tier: "1",
+    craftableAffix: "Immune to BlindingImmune to Paralysis",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "Helmet-Str",
+    affixType: "Corrosion Base",
+    craftingPool: "Basic",
+    tier: "1",
+    craftableAffix: "+(15-20)% Max Energy Shield",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "Helmet-Str",
+    affixType: "Corrosion Base",
+    craftingPool: "Basic",
+    tier: "1",
+    craftableAffix: "+(15-20)% Max Life",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "Helmet-Str",
+    affixType: "Corrosion Base",
+    craftingPool: "Basic",
+    tier: "1",
+    craftableAffix: "+(30-50)% Gear Armor",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "Helmet-Str",
+    affixType: "Corrosion Base",
+    craftingPool: "Basic",
+    tier: "1",
+    craftableAffix: "+(50-70)% damage",
+  },
+] as const;

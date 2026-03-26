@@ -1,0 +1,77 @@
+// This file is machine-generated. Do not modify manually.
+import type { BaseGearAffix } from "../../tli/gear-data-types";
+
+export const RING_CORROSION_BASE_AFFIXES: readonly BaseGearAffix[] = [
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "Ring",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "+5 % XP earned",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "Ring",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "+5 % Movement Speed",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "Ring",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "Immune to Trauma Immune to Wilt",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "Ring",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "+(8-10) % Strength",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "Ring",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "+(8-10) % Dexterity",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "Ring",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "+(8-10) % Intelligence",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "Ring",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "+(50-70) % damage",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "Ring",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "+(15-25) % Max Life",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "Ring",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "+(15-25) % Max Energy",
+  },
+] as const;

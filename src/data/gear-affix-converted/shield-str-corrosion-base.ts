@@ -1,0 +1,77 @@
+// This file is machine-generated. Do not modify manually.
+import type { BaseGearAffix } from "../../tli/gear-data-types";
+
+export const SHIELD_STR_CORROSION_BASE_AFFIXES: readonly BaseGearAffix[] = [
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "ShieldStr",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "+(1-2) % Max Fire Resistance STR",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "ShieldStr",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "+(1-2) % Max Cold Resistance STR",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "ShieldStr",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "+(1-2) % Max Lightning Resistance STR",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "ShieldStr",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "Has a (5-10) % chance to avoid Blocked damage STR",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "ShieldStr",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "+(5-8) % Block Ratio STR",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "ShieldStr",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "+(8-12) % Attack Block Chance STR",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "ShieldStr",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "+(12-15) % Spell Block Chance STR",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "ShieldStr",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "+(3-5) % Max Energy STR",
+  },
+  {
+    equipmentSlot: "Trinket",
+    equipmentType: "ShieldStr",
+    affixType: "Corrosion Base",
+    craftingPool: "",
+    tier: "2",
+    craftableAffix: "+(3-5) % Max Life STR",
+  },
+] as const;
