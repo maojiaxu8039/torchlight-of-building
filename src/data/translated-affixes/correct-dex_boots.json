@@ -1,493 +1,130 @@
 {
   "equipmentType": "DEX_Boots",
   "baseGears": [
-    {
-      "enName": "Lone Walker%27s Boots",
-      "cnName": "独行者之靴"
-    },
-    {
-      "enName": "Lone Walker%27s Boots",
-      "cnName": "独行者之靴"
-    },
-    {
-      "enName": "Lone Walker%27s Boots",
-      "cnName": "独行者之靴"
-    },
-    {
-      "enName": "Lone Walker%27s Boots",
-      "cnName": "独行者之靴"
-    },
-    {
-      "enName": "Valerie%27s Night Stroll",
-      "cnName": "瓦里哀的夜行"
-    },
-    {
-      "enName": "Valerie%27s Night Stroll",
-      "cnName": "瓦里哀的夜行"
-    },
-    {
-      "enName": "Valerie%27s Night Stroll",
-      "cnName": "瓦里哀的夜行"
-    },
-    {
-      "enName": "Valerie%27s Night Stroll",
-      "cnName": "瓦里哀的夜行"
-    },
-    {
-      "enName": "Valerie%27s Night Stroll",
-      "cnName": "瓦里哀的夜行"
-    },
-    {
-      "enName": "Valerie%27s Night Stroll",
-      "cnName": "瓦里哀的夜行"
-    },
-    {
-      "enName": "Royal Guard%27s Boots",
-      "cnName": "皇家禁卫之靴"
-    },
-    {
-      "enName": "Royal Guard%27s Boots",
-      "cnName": "皇家禁卫之靴"
-    },
-    {
-      "enName": "Royal Guard%27s Boots",
-      "cnName": "皇家禁卫之靴"
-    },
-    {
-      "enName": "Royal Guard%27s Boots",
-      "cnName": "皇家禁卫之靴"
-    },
-    {
-      "enName": "Blade-dancer%27s Steps",
-      "cnName": "舞锋者的轻踏"
-    },
-    {
-      "enName": "Blade-dancer%27s Steps",
-      "cnName": "舞锋者的轻踏"
-    },
-    {
-      "enName": "Blade-dancer%27s Steps",
-      "cnName": "舞锋者的轻踏"
-    },
-    {
-      "enName": "Blade-dancer%27s Steps",
-      "cnName": "舞锋者的轻踏"
-    },
-    {
-      "enName": "Ralph%27s Footsteps",
-      "cnName": "雷尔夫的足迹"
-    },
-    {
-      "enName": "Ralph%27s Footsteps",
-      "cnName": "雷尔夫的足迹"
-    },
-    {
-      "enName": "Ralph%27s Footsteps",
-      "cnName": "雷尔夫的足迹"
-    },
-    {
-      "enName": "Ralph%27s Footsteps",
-      "cnName": "雷尔夫的足迹"
-    },
-    {
-      "enName": "Feline Steps",
-      "cnName": "灵猫步伐"
-    },
-    {
-      "enName": "Feline Steps",
-      "cnName": "灵猫步伐"
-    },
-    {
-      "enName": "Feline Steps",
-      "cnName": "灵猫步伐"
-    },
-    {
-      "enName": "Feline Steps",
-      "cnName": "灵猫步伐"
-    },
-    {
-      "enName": "Feline Steps",
-      "cnName": "灵猫步伐"
-    },
-    {
-      "enName": "Feline Steps",
-      "cnName": "灵猫步伐"
-    },
-    {
-      "enName": "Rat King%27s Escape Show",
-      "cnName": "鼠王的逃生秀"
-    },
-    {
-      "enName": "Rat King%27s Escape Show",
-      "cnName": "鼠王的逃生秀"
-    },
-    {
-      "enName": "Rat King%27s Escape Show",
-      "cnName": "鼠王的逃生秀"
-    },
-    {
-      "enName": "Rat King%27s Escape Show",
-      "cnName": "鼠王的逃生秀"
-    },
-    {
-      "enName": "Rat King%27s Escape Show",
-      "cnName": "鼠王的逃生秀"
-    },
-    {
-      "enName": "Crow%27s Plume",
-      "cnName": "暮鸦尾翎"
-    },
-    {
-      "enName": "Crow%27s Plume",
-      "cnName": "暮鸦尾翎"
-    },
-    {
-      "enName": "Crow%27s Plume",
-      "cnName": "暮鸦尾翎"
-    },
-    {
-      "enName": "Crow%27s Plume",
-      "cnName": "暮鸦尾翎"
-    },
-    {
-      "enName": "Crow%27s Plume",
-      "cnName": "暮鸦尾翎"
-    },
-    {
-      "enName": "Crow%27s Plume",
-      "cnName": "暮鸦尾翎"
-    },
-    {
-      "enName": "Thunder Channeling Prosthetics",
-      "cnName": "引雷义肢"
-    },
-    {
-      "enName": "Thunder Channeling Prosthetics",
-      "cnName": "引雷义肢"
-    },
-    {
-      "enName": "Thunder Channeling Prosthetics",
-      "cnName": "引雷义肢"
-    },
-    {
-      "enName": "Thunder Channeling Prosthetics",
-      "cnName": "引雷义肢"
-    },
-    {
-      "enName": "Thunder Channeling Prosthetics",
-      "cnName": "引雷义肢"
-    },
-    {
-      "enName": "Wind Chasers",
-      "cnName": "追风步履"
-    },
-    {
-      "enName": "Wind Chasers",
-      "cnName": "追风步履"
-    },
-    {
-      "enName": "Wind Chasers",
-      "cnName": "追风步履"
-    },
-    {
-      "enName": "Wriggling Tango",
-      "cnName": "蠕行探戈"
-    },
-    {
-      "enName": "Wriggling Tango",
-      "cnName": "蠕行探戈"
-    },
-    {
-      "enName": "Wriggling Tango",
-      "cnName": "蠕行探戈"
-    },
-    {
-      "enName": "Heels of Hands",
-      "cnName": "三步舞"
-    },
-    {
-      "enName": "Heels of Hands",
-      "cnName": "三步舞"
-    },
-    {
-      "enName": "Heels of Hands",
-      "cnName": "三步舞"
-    },
-    {
-      "enName": "Ralph%27s Journey",
-      "cnName": "雷尔夫的苦旅"
-    },
-    {
-      "enName": "Ralph%27s Journey",
-      "cnName": "雷尔夫的苦旅"
-    },
-    {
-      "enName": "Ralph%27s Journey",
-      "cnName": "雷尔夫的苦旅"
-    },
-    {
-      "enName": "Ralph%27s Journey",
-      "cnName": "雷尔夫的苦旅"
-    },
-    {
-      "enName": "Pathfinder%27s Path",
-      "cnName": "追迹者步履"
-    },
-    {
-      "enName": "Pathfinder%27s Path",
-      "cnName": "追迹者步履"
-    },
-    {
-      "enName": "Pathfinder%27s Path",
-      "cnName": "追迹者步履"
-    },
-    {
-      "enName": "Pathfinder%27s Path",
-      "cnName": "追迹者步履"
-    },
-    {
-      "enName": "Trickster%27s Tread",
-      "cnName": "诡行步"
-    },
-    {
-      "enName": "Trickster%27s Tread",
-      "cnName": "诡行步"
-    },
-    {
-      "enName": "Trickster%27s Tread",
-      "cnName": "诡行步"
-    },
-    {
-      "enName": "Rogue%27s Long Boots",
-      "cnName": "游荡者长靴"
-    },
-    {
-      "enName": "Scout%27s Short Boots",
-      "cnName": "斥候短靴"
-    },
-    {
-      "enName": "Skirmisher%27s Leather Boots",
-      "cnName": "散兵皮靴"
-    },
-    {
-      "enName": "Hunter%27s Leather Boots",
-      "cnName": "猎手皮靴"
-    },
-    {
-      "enName": "Prospector%27s Short Boots",
-      "cnName": "勘探者短靴"
-    },
-    {
-      "enName": "Wild Dominator Long Boots",
-      "cnName": "荒野主宰长靴"
-    },
-    {
-      "enName": "Grand Explorer%27s Heavy Boots",
-      "cnName": "大探险家厚底靴"
-    },
-    {
-      "enName": "Watcher%27s Trail",
-      "cnName": "监视者的足迹"
-    },
+    { "enName": "Lone Walker%27s Boots", "cnName": "独行者之靴" },
+    { "enName": "Lone Walker%27s Boots", "cnName": "独行者之靴" },
+    { "enName": "Lone Walker%27s Boots", "cnName": "独行者之靴" },
+    { "enName": "Lone Walker%27s Boots", "cnName": "独行者之靴" },
+    { "enName": "Valerie%27s Night Stroll", "cnName": "瓦里哀的夜行" },
+    { "enName": "Valerie%27s Night Stroll", "cnName": "瓦里哀的夜行" },
+    { "enName": "Valerie%27s Night Stroll", "cnName": "瓦里哀的夜行" },
+    { "enName": "Valerie%27s Night Stroll", "cnName": "瓦里哀的夜行" },
+    { "enName": "Valerie%27s Night Stroll", "cnName": "瓦里哀的夜行" },
+    { "enName": "Valerie%27s Night Stroll", "cnName": "瓦里哀的夜行" },
+    { "enName": "Royal Guard%27s Boots", "cnName": "皇家禁卫之靴" },
+    { "enName": "Royal Guard%27s Boots", "cnName": "皇家禁卫之靴" },
+    { "enName": "Royal Guard%27s Boots", "cnName": "皇家禁卫之靴" },
+    { "enName": "Royal Guard%27s Boots", "cnName": "皇家禁卫之靴" },
+    { "enName": "Blade-dancer%27s Steps", "cnName": "舞锋者的轻踏" },
+    { "enName": "Blade-dancer%27s Steps", "cnName": "舞锋者的轻踏" },
+    { "enName": "Blade-dancer%27s Steps", "cnName": "舞锋者的轻踏" },
+    { "enName": "Blade-dancer%27s Steps", "cnName": "舞锋者的轻踏" },
+    { "enName": "Ralph%27s Footsteps", "cnName": "雷尔夫的足迹" },
+    { "enName": "Ralph%27s Footsteps", "cnName": "雷尔夫的足迹" },
+    { "enName": "Ralph%27s Footsteps", "cnName": "雷尔夫的足迹" },
+    { "enName": "Ralph%27s Footsteps", "cnName": "雷尔夫的足迹" },
+    { "enName": "Feline Steps", "cnName": "灵猫步伐" },
+    { "enName": "Feline Steps", "cnName": "灵猫步伐" },
+    { "enName": "Feline Steps", "cnName": "灵猫步伐" },
+    { "enName": "Feline Steps", "cnName": "灵猫步伐" },
+    { "enName": "Feline Steps", "cnName": "灵猫步伐" },
+    { "enName": "Feline Steps", "cnName": "灵猫步伐" },
+    { "enName": "Rat King%27s Escape Show", "cnName": "鼠王的逃生秀" },
+    { "enName": "Rat King%27s Escape Show", "cnName": "鼠王的逃生秀" },
+    { "enName": "Rat King%27s Escape Show", "cnName": "鼠王的逃生秀" },
+    { "enName": "Rat King%27s Escape Show", "cnName": "鼠王的逃生秀" },
+    { "enName": "Rat King%27s Escape Show", "cnName": "鼠王的逃生秀" },
+    { "enName": "Crow%27s Plume", "cnName": "暮鸦尾翎" },
+    { "enName": "Crow%27s Plume", "cnName": "暮鸦尾翎" },
+    { "enName": "Crow%27s Plume", "cnName": "暮鸦尾翎" },
+    { "enName": "Crow%27s Plume", "cnName": "暮鸦尾翎" },
+    { "enName": "Crow%27s Plume", "cnName": "暮鸦尾翎" },
+    { "enName": "Crow%27s Plume", "cnName": "暮鸦尾翎" },
+    { "enName": "Thunder Channeling Prosthetics", "cnName": "引雷义肢" },
+    { "enName": "Thunder Channeling Prosthetics", "cnName": "引雷义肢" },
+    { "enName": "Thunder Channeling Prosthetics", "cnName": "引雷义肢" },
+    { "enName": "Thunder Channeling Prosthetics", "cnName": "引雷义肢" },
+    { "enName": "Thunder Channeling Prosthetics", "cnName": "引雷义肢" },
+    { "enName": "Wind Chasers", "cnName": "追风步履" },
+    { "enName": "Wind Chasers", "cnName": "追风步履" },
+    { "enName": "Wind Chasers", "cnName": "追风步履" },
+    { "enName": "Wriggling Tango", "cnName": "蠕行探戈" },
+    { "enName": "Wriggling Tango", "cnName": "蠕行探戈" },
+    { "enName": "Wriggling Tango", "cnName": "蠕行探戈" },
+    { "enName": "Heels of Hands", "cnName": "三步舞" },
+    { "enName": "Heels of Hands", "cnName": "三步舞" },
+    { "enName": "Heels of Hands", "cnName": "三步舞" },
+    { "enName": "Ralph%27s Journey", "cnName": "雷尔夫的苦旅" },
+    { "enName": "Ralph%27s Journey", "cnName": "雷尔夫的苦旅" },
+    { "enName": "Ralph%27s Journey", "cnName": "雷尔夫的苦旅" },
+    { "enName": "Ralph%27s Journey", "cnName": "雷尔夫的苦旅" },
+    { "enName": "Pathfinder%27s Path", "cnName": "追迹者步履" },
+    { "enName": "Pathfinder%27s Path", "cnName": "追迹者步履" },
+    { "enName": "Pathfinder%27s Path", "cnName": "追迹者步履" },
+    { "enName": "Pathfinder%27s Path", "cnName": "追迹者步履" },
+    { "enName": "Trickster%27s Tread", "cnName": "诡行步" },
+    { "enName": "Trickster%27s Tread", "cnName": "诡行步" },
+    { "enName": "Trickster%27s Tread", "cnName": "诡行步" },
+    { "enName": "Rogue%27s Long Boots", "cnName": "游荡者长靴" },
+    { "enName": "Scout%27s Short Boots", "cnName": "斥候短靴" },
+    { "enName": "Skirmisher%27s Leather Boots", "cnName": "散兵皮靴" },
+    { "enName": "Hunter%27s Leather Boots", "cnName": "猎手皮靴" },
+    { "enName": "Prospector%27s Short Boots", "cnName": "勘探者短靴" },
+    { "enName": "Wild Dominator Long Boots", "cnName": "荒野主宰长靴" },
+    { "enName": "Grand Explorer%27s Heavy Boots", "cnName": "大探险家厚底靴" },
+    { "enName": "Watcher%27s Trail", "cnName": "监视者的足迹" },
     {
       "enName": "Eternal Night Stalker%27s Long Boots",
       "cnName": "永夜追猎者长靴"
     },
-    {
-      "enName": "Boots of Calamity",
-      "cnName": "灾厄之履"
-    },
-    {
-      "enName": "Demon Slayer%27s Feet",
-      "cnName": "除魔者之足"
-    },
-    {
-      "enName": "Secret Shadow%27s Shoes",
-      "cnName": "秘影之履"
-    },
-    {
-      "enName": "Thunder Channeling Prosthetics",
-      "cnName": "引雷义肢"
-    },
-    {
-      "enName": "Wind Chasers",
-      "cnName": "追风步履"
-    },
-    {
-      "enName": "Ralph%27s Journey",
-      "cnName": "雷尔夫的苦旅"
-    },
-    {
-      "enName": "Royal Guard%27s Boots",
-      "cnName": "皇家禁卫之靴"
-    },
-    {
-      "enName": "Trickster%27s Tread",
-      "cnName": "诡行步"
-    },
-    {
-      "enName": "Pathfinder%27s Path",
-      "cnName": "追迹者步履"
-    },
-    {
-      "enName": "Lone Walker%27s Boots",
-      "cnName": "独行者之靴"
-    },
-    {
-      "enName": "Valerie%27s Night Stroll",
-      "cnName": "瓦里哀的夜行"
-    },
-    {
-      "enName": "Blade-dancer%27s Steps",
-      "cnName": "舞锋者的轻踏"
-    },
-    {
-      "enName": "Ralph%27s Footsteps",
-      "cnName": "雷尔夫的足迹"
-    },
-    {
-      "enName": "Feline Steps",
-      "cnName": "灵猫步伐"
-    },
-    {
-      "enName": "Rat King%27s Escape Show",
-      "cnName": "鼠王的逃生秀"
-    },
-    {
-      "enName": "Crow%27s Plume",
-      "cnName": "暮鸦尾翎"
-    },
-    {
-      "enName": "Wriggling Tango",
-      "cnName": "蠕行探戈"
-    },
-    {
-      "enName": "Heels of Hands",
-      "cnName": "三步舞"
-    },
-    {
-      "enName": "Thunder Channeling Prosthetics",
-      "cnName": "引雷义肢"
-    },
-    {
-      "enName": "Wind Chasers",
-      "cnName": "追风步履"
-    },
-    {
-      "enName": "Ralph%27s Journey",
-      "cnName": "雷尔夫的苦旅"
-    },
-    {
-      "enName": "Royal Guard%27s Boots",
-      "cnName": "皇家禁卫之靴"
-    },
-    {
-      "enName": "Trickster%27s Tread",
-      "cnName": "诡行步"
-    },
-    {
-      "enName": "Pathfinder%27s Path",
-      "cnName": "追迹者步履"
-    },
-    {
-      "enName": "Lone Walker%27s Boots",
-      "cnName": "独行者之靴"
-    },
-    {
-      "enName": "Valerie%27s Night Stroll",
-      "cnName": "瓦里哀的夜行"
-    },
-    {
-      "enName": "Blade-dancer%27s Steps",
-      "cnName": "舞锋者的轻踏"
-    },
-    {
-      "enName": "Ralph%27s Footsteps",
-      "cnName": "雷尔夫的足迹"
-    },
-    {
-      "enName": "Feline Steps",
-      "cnName": "灵猫步伐"
-    },
-    {
-      "enName": "Rat King%27s Escape Show",
-      "cnName": "鼠王的逃生秀"
-    },
-    {
-      "enName": "Crow%27s Plume",
-      "cnName": "暮鸦尾翎"
-    },
-    {
-      "enName": "Wriggling Tango",
-      "cnName": "蠕行探戈"
-    },
-    {
-      "enName": "Heels of Hands",
-      "cnName": "三步舞"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    }
+    { "enName": "Boots of Calamity", "cnName": "灾厄之履" },
+    { "enName": "Demon Slayer%27s Feet", "cnName": "除魔者之足" },
+    { "enName": "Secret Shadow%27s Shoes", "cnName": "秘影之履" },
+    { "enName": "Thunder Channeling Prosthetics", "cnName": "引雷义肢" },
+    { "enName": "Wind Chasers", "cnName": "追风步履" },
+    { "enName": "Ralph%27s Journey", "cnName": "雷尔夫的苦旅" },
+    { "enName": "Royal Guard%27s Boots", "cnName": "皇家禁卫之靴" },
+    { "enName": "Trickster%27s Tread", "cnName": "诡行步" },
+    { "enName": "Pathfinder%27s Path", "cnName": "追迹者步履" },
+    { "enName": "Lone Walker%27s Boots", "cnName": "独行者之靴" },
+    { "enName": "Valerie%27s Night Stroll", "cnName": "瓦里哀的夜行" },
+    { "enName": "Blade-dancer%27s Steps", "cnName": "舞锋者的轻踏" },
+    { "enName": "Ralph%27s Footsteps", "cnName": "雷尔夫的足迹" },
+    { "enName": "Feline Steps", "cnName": "灵猫步伐" },
+    { "enName": "Rat King%27s Escape Show", "cnName": "鼠王的逃生秀" },
+    { "enName": "Crow%27s Plume", "cnName": "暮鸦尾翎" },
+    { "enName": "Wriggling Tango", "cnName": "蠕行探戈" },
+    { "enName": "Heels of Hands", "cnName": "三步舞" },
+    { "enName": "Thunder Channeling Prosthetics", "cnName": "引雷义肢" },
+    { "enName": "Wind Chasers", "cnName": "追风步履" },
+    { "enName": "Ralph%27s Journey", "cnName": "雷尔夫的苦旅" },
+    { "enName": "Royal Guard%27s Boots", "cnName": "皇家禁卫之靴" },
+    { "enName": "Trickster%27s Tread", "cnName": "诡行步" },
+    { "enName": "Pathfinder%27s Path", "cnName": "追迹者步履" },
+    { "enName": "Lone Walker%27s Boots", "cnName": "独行者之靴" },
+    { "enName": "Valerie%27s Night Stroll", "cnName": "瓦里哀的夜行" },
+    { "enName": "Blade-dancer%27s Steps", "cnName": "舞锋者的轻踏" },
+    { "enName": "Ralph%27s Footsteps", "cnName": "雷尔夫的足迹" },
+    { "enName": "Feline Steps", "cnName": "灵猫步伐" },
+    { "enName": "Rat King%27s Escape Show", "cnName": "鼠王的逃生秀" },
+    { "enName": "Crow%27s Plume", "cnName": "暮鸦尾翎" },
+    { "enName": "Wriggling Tango", "cnName": "蠕行探戈" },
+    { "enName": "Heels of Hands", "cnName": "三步舞" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" }
   ]
 }

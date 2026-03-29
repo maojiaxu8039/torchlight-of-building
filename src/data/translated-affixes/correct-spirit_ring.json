@@ -1,105 +1,30 @@
 {
   "equipmentType": "Spirit_Ring",
   "baseGears": [
-    {
-      "enName": "Horn Ring",
-      "cnName": "号令指环"
-    },
-    {
-      "enName": "Horn Ring",
-      "cnName": "号令指环"
-    },
-    {
-      "enName": "Horn Ring",
-      "cnName": "号令指环"
-    },
-    {
-      "enName": "Horn Ring",
-      "cnName": "号令指环"
-    },
-    {
-      "enName": "Decayed Mind",
-      "cnName": "喑腐神智"
-    },
-    {
-      "enName": "Decayed Mind",
-      "cnName": "喑腐神智"
-    },
-    {
-      "enName": "Decayed Mind",
-      "cnName": "喑腐神智"
-    },
-    {
-      "enName": "Decayed Mind",
-      "cnName": "喑腐神智"
-    },
-    {
-      "enName": "Decayed Mind",
-      "cnName": "喑腐神智"
-    },
-    {
-      "enName": "Budding Spirit Ring",
-      "cnName": "萌动灵戒"
-    },
-    {
-      "enName": "Thriving Spirit Ring",
-      "cnName": "生长灵戒"
-    },
-    {
-      "enName": "Command Spirit Ring",
-      "cnName": "统御灵戒"
-    },
-    {
-      "enName": "Harvest Spirit Ring",
-      "cnName": "丰收灵戒"
-    },
-    {
-      "enName": "Championed Spirit Ring",
-      "cnName": "被拥戴的灵戒"
-    },
-    {
-      "enName": "Essence Spirit Ring",
-      "cnName": "万物归心之灵戒"
-    },
-    {
-      "enName": "Horn Ring",
-      "cnName": "号令指环"
-    },
-    {
-      "enName": "Decayed Mind",
-      "cnName": "喑腐神智"
-    },
-    {
-      "enName": "Horn Ring",
-      "cnName": "号令指环"
-    },
-    {
-      "enName": "Decayed Mind",
-      "cnName": "喑腐神智"
-    },
-    {
-      "enName": "Shallow Dream Talking - Trinket",
-      "cnName": "浅白梦语-饰品"
-    },
-    {
-      "enName": "Shallow Dream Talking - Trinket",
-      "cnName": "浅白梦语-饰品"
-    },
-    {
-      "enName": "Shallow Dream Talking - Trinket",
-      "cnName": "浅白梦语-饰品"
-    },
-    {
-      "enName": "Shallow Dream Talking - Trinket",
-      "cnName": "浅白梦语-饰品"
-    },
-    {
-      "enName": "Shallow Dream Talking - Trinket",
-      "cnName": "浅白梦语-饰品"
-    },
-    {
-      "enName": "Shallow Dream Talking - Trinket",
-      "cnName": "浅白梦语-饰品"
-    }
+    { "enName": "Horn Ring", "cnName": "号令指环" },
+    { "enName": "Horn Ring", "cnName": "号令指环" },
+    { "enName": "Horn Ring", "cnName": "号令指环" },
+    { "enName": "Horn Ring", "cnName": "号令指环" },
+    { "enName": "Decayed Mind", "cnName": "喑腐神智" },
+    { "enName": "Decayed Mind", "cnName": "喑腐神智" },
+    { "enName": "Decayed Mind", "cnName": "喑腐神智" },
+    { "enName": "Decayed Mind", "cnName": "喑腐神智" },
+    { "enName": "Decayed Mind", "cnName": "喑腐神智" },
+    { "enName": "Budding Spirit Ring", "cnName": "萌动灵戒" },
+    { "enName": "Thriving Spirit Ring", "cnName": "生长灵戒" },
+    { "enName": "Command Spirit Ring", "cnName": "统御灵戒" },
+    { "enName": "Harvest Spirit Ring", "cnName": "丰收灵戒" },
+    { "enName": "Championed Spirit Ring", "cnName": "被拥戴的灵戒" },
+    { "enName": "Essence Spirit Ring", "cnName": "万物归心之灵戒" },
+    { "enName": "Horn Ring", "cnName": "号令指环" },
+    { "enName": "Decayed Mind", "cnName": "喑腐神智" },
+    { "enName": "Horn Ring", "cnName": "号令指环" },
+    { "enName": "Decayed Mind", "cnName": "喑腐神智" },
+    { "enName": "Shallow Dream Talking - Trinket", "cnName": "浅白梦语-饰品" },
+    { "enName": "Shallow Dream Talking - Trinket", "cnName": "浅白梦语-饰品" },
+    { "enName": "Shallow Dream Talking - Trinket", "cnName": "浅白梦语-饰品" },
+    { "enName": "Shallow Dream Talking - Trinket", "cnName": "浅白梦语-饰品" },
+    { "enName": "Shallow Dream Talking - Trinket", "cnName": "浅白梦语-饰品" },
+    { "enName": "Shallow Dream Talking - Trinket", "cnName": "浅白梦语-饰品" }
   ]
 }

@@ -1,461 +1,119 @@
 {
   "equipmentType": "DEX_Gloves",
   "baseGears": [
-    {
-      "enName": "Berserker Bracer",
-      "cnName": "狂猎者护腕"
-    },
-    {
-      "enName": "Berserker Bracer",
-      "cnName": "狂猎者护腕"
-    },
-    {
-      "enName": "Berserker Bracer",
-      "cnName": "狂猎者护腕"
-    },
-    {
-      "enName": "Feline Gloves",
-      "cnName": "灵猫手套"
-    },
-    {
-      "enName": "Feline Gloves",
-      "cnName": "灵猫手套"
-    },
-    {
-      "enName": "Feline Gloves",
-      "cnName": "灵猫手套"
-    },
-    {
-      "enName": "Feline Gloves",
-      "cnName": "灵猫手套"
-    },
-    {
-      "enName": "Feline Gloves",
-      "cnName": "灵猫手套"
-    },
-    {
-      "enName": "Chaos Abyss",
-      "cnName": "混沌深渊"
-    },
-    {
-      "enName": "Chaos Abyss",
-      "cnName": "混沌深渊"
-    },
-    {
-      "enName": "Chaos Abyss",
-      "cnName": "混沌深渊"
-    },
-    {
-      "enName": "Chaos Abyss",
-      "cnName": "混沌深渊"
-    },
-    {
-      "enName": "Chaos Abyss",
-      "cnName": "混沌深渊"
-    },
-    {
-      "enName": "Marksman Bracers",
-      "cnName": "神射手护腕"
-    },
-    {
-      "enName": "Marksman Bracers",
-      "cnName": "神射手护腕"
-    },
-    {
-      "enName": "Marksman Bracers",
-      "cnName": "神射手护腕"
-    },
-    {
-      "enName": "Marksman Bracers",
-      "cnName": "神射手护腕"
-    },
-    {
-      "enName": "Marksman Bracers",
-      "cnName": "神射手护腕"
-    },
-    {
-      "enName": "Thunder Manipulator",
-      "cnName": "雷霆操纵者"
-    },
-    {
-      "enName": "Thunder Manipulator",
-      "cnName": "雷霆操纵者"
-    },
-    {
-      "enName": "Thunder Manipulator",
-      "cnName": "雷霆操纵者"
-    },
-    {
-      "enName": "Thunder Manipulator",
-      "cnName": "雷霆操纵者"
-    },
-    {
-      "enName": "Thunder Manipulator",
-      "cnName": "雷霆操纵者"
-    },
-    {
-      "enName": "Blinding Bracers",
-      "cnName": "灼眼战腕"
-    },
-    {
-      "enName": "Blinding Bracers",
-      "cnName": "灼眼战腕"
-    },
-    {
-      "enName": "Blinding Bracers",
-      "cnName": "灼眼战腕"
-    },
-    {
-      "enName": "Blinding Bracers",
-      "cnName": "灼眼战腕"
-    },
-    {
-      "enName": "Torturer%27s Touch",
-      "cnName": "刑求之触"
-    },
-    {
-      "enName": "Torturer%27s Touch",
-      "cnName": "刑求之触"
-    },
-    {
-      "enName": "Torturer%27s Touch",
-      "cnName": "刑求之触"
-    },
-    {
-      "enName": "Torturer%27s Touch",
-      "cnName": "刑求之触"
-    },
-    {
-      "enName": "Torturer%27s Touch",
-      "cnName": "刑求之触"
-    },
-    {
-      "enName": "Wings of Light",
-      "cnName": "趋光之翼"
-    },
-    {
-      "enName": "Wings of Light",
-      "cnName": "趋光之翼"
-    },
-    {
-      "enName": "Wings of Light",
-      "cnName": "趋光之翼"
-    },
-    {
-      "enName": "Wings of Light",
-      "cnName": "趋光之翼"
-    },
-    {
-      "enName": "Sea Splitter",
-      "cnName": "断海"
-    },
-    {
-      "enName": "Sea Splitter",
-      "cnName": "断海"
-    },
-    {
-      "enName": "Sea Splitter",
-      "cnName": "断海"
-    },
-    {
-      "enName": "Ralph%27s Laws",
-      "cnName": "雷尔夫的旧律"
-    },
-    {
-      "enName": "Ralph%27s Laws",
-      "cnName": "雷尔夫的旧律"
-    },
-    {
-      "enName": "Ralph%27s Laws",
-      "cnName": "雷尔夫的旧律"
-    },
-    {
-      "enName": "Ralph%27s Laws",
-      "cnName": "雷尔夫的旧律"
-    },
-    {
-      "enName": "Tyrant%27s Smoldering Hold",
-      "cnName": "暴君的凶焰"
-    },
-    {
-      "enName": "Tyrant%27s Smoldering Hold",
-      "cnName": "暴君的凶焰"
-    },
-    {
-      "enName": "Tyrant%27s Smoldering Hold",
-      "cnName": "暴君的凶焰"
-    },
-    {
-      "enName": "Tyrant%27s Smoldering Hold",
-      "cnName": "暴君的凶焰"
-    },
-    {
-      "enName": "Stray Bird%27s Return",
-      "cnName": "迷鸟的归栖"
-    },
-    {
-      "enName": "Stray Bird%27s Return",
-      "cnName": "迷鸟的归栖"
-    },
-    {
-      "enName": "Stray Bird%27s Return",
-      "cnName": "迷鸟的归栖"
-    },
-    {
-      "enName": "Stray Bird%27s Return",
-      "cnName": "迷鸟的归栖"
-    },
-    {
-      "enName": "Vajra Handguards",
-      "cnName": "金刚护手"
-    },
-    {
-      "enName": "Vajra Handguards",
-      "cnName": "金刚护手"
-    },
-    {
-      "enName": "Vajra Handguards",
-      "cnName": "金刚护手"
-    },
-    {
-      "enName": "Vajra Handguards",
-      "cnName": "金刚护手"
-    },
-    {
-      "enName": "Vendetta%27s Sleeve-Blade",
-      "cnName": "仇弑袖剑"
-    },
-    {
-      "enName": "Vendetta%27s Sleeve-Blade",
-      "cnName": "仇弑袖剑"
-    },
-    {
-      "enName": "Vendetta%27s Sleeve-Blade",
-      "cnName": "仇弑袖剑"
-    },
-    {
-      "enName": "Rogue%27s Gloves",
-      "cnName": "游荡者手套"
-    },
-    {
-      "enName": "Scout%27s Gloves",
-      "cnName": "斥候手套"
-    },
-    {
-      "enName": "Skirmisher%27s Gloves",
-      "cnName": "散兵手套"
-    },
-    {
-      "enName": "Hunter%27s Gloves",
-      "cnName": "猎手手套"
-    },
-    {
-      "enName": "Prospector Handguards",
-      "cnName": "勘探者护手"
-    },
-    {
-      "enName": "Wild Dominator Handguards",
-      "cnName": "荒野主宰护手"
-    },
-    {
-      "enName": "Grand Explorer%27s Gloves",
-      "cnName": "大探险家手套"
-    },
-    {
-      "enName": "Watcher%27s Hold",
-      "cnName": "监视者之握"
-    },
-    {
-      "enName": "Eternal Night Stalker%27s Hands",
-      "cnName": "永夜追猎者之手"
-    },
-    {
-      "enName": "Hands of Calamity",
-      "cnName": "灾厄之手"
-    },
-    {
-      "enName": "Demon Slayer%27s Hands",
-      "cnName": "除魔者之手"
-    },
-    {
-      "enName": "Secret Shadow%27s Wrists",
-      "cnName": "秘影手腕"
-    },
-    {
-      "enName": "Berserker Bracer",
-      "cnName": "狂猎者护腕"
-    },
-    {
-      "enName": "Feline Gloves",
-      "cnName": "灵猫手套"
-    },
-    {
-      "enName": "Vendetta%27s Sleeve-Blade",
-      "cnName": "仇弑袖剑"
-    },
-    {
-      "enName": "Marksman Bracers",
-      "cnName": "神射手护腕"
-    },
-    {
-      "enName": "Sea Splitter",
-      "cnName": "断海"
-    },
-    {
-      "enName": "Tyrant%27s Smoldering Hold",
-      "cnName": "暴君的凶焰"
-    },
-    {
-      "enName": "Chaos Abyss",
-      "cnName": "混沌深渊"
-    },
-    {
-      "enName": "Thunder Manipulator",
-      "cnName": "雷霆操纵者"
-    },
-    {
-      "enName": "Blinding Bracers",
-      "cnName": "灼眼战腕"
-    },
-    {
-      "enName": "Torturer%27s Touch",
-      "cnName": "刑求之触"
-    },
-    {
-      "enName": "Wings of Light",
-      "cnName": "趋光之翼"
-    },
-    {
-      "enName": "Ralph%27s Laws",
-      "cnName": "雷尔夫的旧律"
-    },
-    {
-      "enName": "Stray Bird%27s Return",
-      "cnName": "迷鸟的归栖"
-    },
-    {
-      "enName": "Vajra Handguards",
-      "cnName": "金刚护手"
-    },
-    {
-      "enName": "Berserker Bracer",
-      "cnName": "狂猎者护腕"
-    },
-    {
-      "enName": "Feline Gloves",
-      "cnName": "灵猫手套"
-    },
-    {
-      "enName": "Vendetta%27s Sleeve-Blade",
-      "cnName": "仇弑袖剑"
-    },
-    {
-      "enName": "Marksman Bracers",
-      "cnName": "神射手护腕"
-    },
-    {
-      "enName": "Sea Splitter",
-      "cnName": "断海"
-    },
-    {
-      "enName": "Tyrant%27s Smoldering Hold",
-      "cnName": "暴君的凶焰"
-    },
-    {
-      "enName": "Chaos Abyss",
-      "cnName": "混沌深渊"
-    },
-    {
-      "enName": "Thunder Manipulator",
-      "cnName": "雷霆操纵者"
-    },
-    {
-      "enName": "Blinding Bracers",
-      "cnName": "灼眼战腕"
-    },
-    {
-      "enName": "Torturer%27s Touch",
-      "cnName": "刑求之触"
-    },
-    {
-      "enName": "Wings of Light",
-      "cnName": "趋光之翼"
-    },
-    {
-      "enName": "Ralph%27s Laws",
-      "cnName": "雷尔夫的旧律"
-    },
-    {
-      "enName": "Stray Bird%27s Return",
-      "cnName": "迷鸟的归栖"
-    },
-    {
-      "enName": "Vajra Handguards",
-      "cnName": "金刚护手"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    }
+    { "enName": "Berserker Bracer", "cnName": "狂猎者护腕" },
+    { "enName": "Berserker Bracer", "cnName": "狂猎者护腕" },
+    { "enName": "Berserker Bracer", "cnName": "狂猎者护腕" },
+    { "enName": "Feline Gloves", "cnName": "灵猫手套" },
+    { "enName": "Feline Gloves", "cnName": "灵猫手套" },
+    { "enName": "Feline Gloves", "cnName": "灵猫手套" },
+    { "enName": "Feline Gloves", "cnName": "灵猫手套" },
+    { "enName": "Feline Gloves", "cnName": "灵猫手套" },
+    { "enName": "Chaos Abyss", "cnName": "混沌深渊" },
+    { "enName": "Chaos Abyss", "cnName": "混沌深渊" },
+    { "enName": "Chaos Abyss", "cnName": "混沌深渊" },
+    { "enName": "Chaos Abyss", "cnName": "混沌深渊" },
+    { "enName": "Chaos Abyss", "cnName": "混沌深渊" },
+    { "enName": "Marksman Bracers", "cnName": "神射手护腕" },
+    { "enName": "Marksman Bracers", "cnName": "神射手护腕" },
+    { "enName": "Marksman Bracers", "cnName": "神射手护腕" },
+    { "enName": "Marksman Bracers", "cnName": "神射手护腕" },
+    { "enName": "Marksman Bracers", "cnName": "神射手护腕" },
+    { "enName": "Thunder Manipulator", "cnName": "雷霆操纵者" },
+    { "enName": "Thunder Manipulator", "cnName": "雷霆操纵者" },
+    { "enName": "Thunder Manipulator", "cnName": "雷霆操纵者" },
+    { "enName": "Thunder Manipulator", "cnName": "雷霆操纵者" },
+    { "enName": "Thunder Manipulator", "cnName": "雷霆操纵者" },
+    { "enName": "Blinding Bracers", "cnName": "灼眼战腕" },
+    { "enName": "Blinding Bracers", "cnName": "灼眼战腕" },
+    { "enName": "Blinding Bracers", "cnName": "灼眼战腕" },
+    { "enName": "Blinding Bracers", "cnName": "灼眼战腕" },
+    { "enName": "Torturer%27s Touch", "cnName": "刑求之触" },
+    { "enName": "Torturer%27s Touch", "cnName": "刑求之触" },
+    { "enName": "Torturer%27s Touch", "cnName": "刑求之触" },
+    { "enName": "Torturer%27s Touch", "cnName": "刑求之触" },
+    { "enName": "Torturer%27s Touch", "cnName": "刑求之触" },
+    { "enName": "Wings of Light", "cnName": "趋光之翼" },
+    { "enName": "Wings of Light", "cnName": "趋光之翼" },
+    { "enName": "Wings of Light", "cnName": "趋光之翼" },
+    { "enName": "Wings of Light", "cnName": "趋光之翼" },
+    { "enName": "Sea Splitter", "cnName": "断海" },
+    { "enName": "Sea Splitter", "cnName": "断海" },
+    { "enName": "Sea Splitter", "cnName": "断海" },
+    { "enName": "Ralph%27s Laws", "cnName": "雷尔夫的旧律" },
+    { "enName": "Ralph%27s Laws", "cnName": "雷尔夫的旧律" },
+    { "enName": "Ralph%27s Laws", "cnName": "雷尔夫的旧律" },
+    { "enName": "Ralph%27s Laws", "cnName": "雷尔夫的旧律" },
+    { "enName": "Tyrant%27s Smoldering Hold", "cnName": "暴君的凶焰" },
+    { "enName": "Tyrant%27s Smoldering Hold", "cnName": "暴君的凶焰" },
+    { "enName": "Tyrant%27s Smoldering Hold", "cnName": "暴君的凶焰" },
+    { "enName": "Tyrant%27s Smoldering Hold", "cnName": "暴君的凶焰" },
+    { "enName": "Stray Bird%27s Return", "cnName": "迷鸟的归栖" },
+    { "enName": "Stray Bird%27s Return", "cnName": "迷鸟的归栖" },
+    { "enName": "Stray Bird%27s Return", "cnName": "迷鸟的归栖" },
+    { "enName": "Stray Bird%27s Return", "cnName": "迷鸟的归栖" },
+    { "enName": "Vajra Handguards", "cnName": "金刚护手" },
+    { "enName": "Vajra Handguards", "cnName": "金刚护手" },
+    { "enName": "Vajra Handguards", "cnName": "金刚护手" },
+    { "enName": "Vajra Handguards", "cnName": "金刚护手" },
+    { "enName": "Vendetta%27s Sleeve-Blade", "cnName": "仇弑袖剑" },
+    { "enName": "Vendetta%27s Sleeve-Blade", "cnName": "仇弑袖剑" },
+    { "enName": "Vendetta%27s Sleeve-Blade", "cnName": "仇弑袖剑" },
+    { "enName": "Rogue%27s Gloves", "cnName": "游荡者手套" },
+    { "enName": "Scout%27s Gloves", "cnName": "斥候手套" },
+    { "enName": "Skirmisher%27s Gloves", "cnName": "散兵手套" },
+    { "enName": "Hunter%27s Gloves", "cnName": "猎手手套" },
+    { "enName": "Prospector Handguards", "cnName": "勘探者护手" },
+    { "enName": "Wild Dominator Handguards", "cnName": "荒野主宰护手" },
+    { "enName": "Grand Explorer%27s Gloves", "cnName": "大探险家手套" },
+    { "enName": "Watcher%27s Hold", "cnName": "监视者之握" },
+    { "enName": "Eternal Night Stalker%27s Hands", "cnName": "永夜追猎者之手" },
+    { "enName": "Hands of Calamity", "cnName": "灾厄之手" },
+    { "enName": "Demon Slayer%27s Hands", "cnName": "除魔者之手" },
+    { "enName": "Secret Shadow%27s Wrists", "cnName": "秘影手腕" },
+    { "enName": "Berserker Bracer", "cnName": "狂猎者护腕" },
+    { "enName": "Feline Gloves", "cnName": "灵猫手套" },
+    { "enName": "Vendetta%27s Sleeve-Blade", "cnName": "仇弑袖剑" },
+    { "enName": "Marksman Bracers", "cnName": "神射手护腕" },
+    { "enName": "Sea Splitter", "cnName": "断海" },
+    { "enName": "Tyrant%27s Smoldering Hold", "cnName": "暴君的凶焰" },
+    { "enName": "Chaos Abyss", "cnName": "混沌深渊" },
+    { "enName": "Thunder Manipulator", "cnName": "雷霆操纵者" },
+    { "enName": "Blinding Bracers", "cnName": "灼眼战腕" },
+    { "enName": "Torturer%27s Touch", "cnName": "刑求之触" },
+    { "enName": "Wings of Light", "cnName": "趋光之翼" },
+    { "enName": "Ralph%27s Laws", "cnName": "雷尔夫的旧律" },
+    { "enName": "Stray Bird%27s Return", "cnName": "迷鸟的归栖" },
+    { "enName": "Vajra Handguards", "cnName": "金刚护手" },
+    { "enName": "Berserker Bracer", "cnName": "狂猎者护腕" },
+    { "enName": "Feline Gloves", "cnName": "灵猫手套" },
+    { "enName": "Vendetta%27s Sleeve-Blade", "cnName": "仇弑袖剑" },
+    { "enName": "Marksman Bracers", "cnName": "神射手护腕" },
+    { "enName": "Sea Splitter", "cnName": "断海" },
+    { "enName": "Tyrant%27s Smoldering Hold", "cnName": "暴君的凶焰" },
+    { "enName": "Chaos Abyss", "cnName": "混沌深渊" },
+    { "enName": "Thunder Manipulator", "cnName": "雷霆操纵者" },
+    { "enName": "Blinding Bracers", "cnName": "灼眼战腕" },
+    { "enName": "Torturer%27s Touch", "cnName": "刑求之触" },
+    { "enName": "Wings of Light", "cnName": "趋光之翼" },
+    { "enName": "Ralph%27s Laws", "cnName": "雷尔夫的旧律" },
+    { "enName": "Stray Bird%27s Return", "cnName": "迷鸟的归栖" },
+    { "enName": "Vajra Handguards", "cnName": "金刚护手" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" }
   ]
 }

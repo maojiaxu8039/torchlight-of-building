@@ -1,69 +1,17 @@
 [
-  {
-    "slug": "Hero",
-    "name": "Hero",
-    "locale": "en"
-  },
-  {
-    "slug": "Talent",
-    "name": "Talent",
-    "locale": "en"
-  },
-  {
-    "slug": "Inventory",
-    "name": "Stash",
-    "locale": "en"
-  },
-  {
-    "slug": "Legendary_Gear",
-    "name": "Legendary Gear",
-    "locale": "en"
-  },
-  {
-    "slug": "Recipe",
-    "name": "Recipe",
-    "locale": "en"
-  },
-  {
-    "slug": "Pactspirit",
-    "name": "Pactspirit",
-    "locale": "en"
-  },
-  {
-    "slug": "Black_Market",
-    "name": "Black Market",
-    "locale": "en"
-  },
-  {
-    "slug": "Drop_Source",
-    "name": "Drop Source",
-    "locale": "en"
-  },
-  {
-    "slug": "Destiny",
-    "name": "Destiny",
-    "locale": "en"
-  },
-  {
-    "slug": "Active_Skill",
-    "name": "Active Skill",
-    "locale": "en"
-  },
-  {
-    "slug": "Support_Skill",
-    "name": "Support Skill",
-    "locale": "en"
-  },
-  {
-    "slug": "Passive_Skill",
-    "name": "Passive Skill",
-    "locale": "en"
-  },
-  {
-    "slug": "Triggered_Skill",
-    "name": "Triggered Skill",
-    "locale": "en"
-  },
+  { "slug": "Hero", "name": "Hero", "locale": "en" },
+  { "slug": "Talent", "name": "Talent", "locale": "en" },
+  { "slug": "Inventory", "name": "Stash", "locale": "en" },
+  { "slug": "Legendary_Gear", "name": "Legendary Gear", "locale": "en" },
+  { "slug": "Recipe", "name": "Recipe", "locale": "en" },
+  { "slug": "Pactspirit", "name": "Pactspirit", "locale": "en" },
+  { "slug": "Black_Market", "name": "Black Market", "locale": "en" },
+  { "slug": "Drop_Source", "name": "Drop Source", "locale": "en" },
+  { "slug": "Destiny", "name": "Destiny", "locale": "en" },
+  { "slug": "Active_Skill", "name": "Active Skill", "locale": "en" },
+  { "slug": "Support_Skill", "name": "Support Skill", "locale": "en" },
+  { "slug": "Passive_Skill", "name": "Passive Skill", "locale": "en" },
+  { "slug": "Triggered_Skill", "name": "Triggered Skill", "locale": "en" },
   {
     "slug": "Activation_Medium_Skill",
     "name": "Activation Medium Skill",
@@ -79,41 +27,13 @@
     "name": "Magnificent Support Skill",
     "locale": "en"
   },
-  {
-    "slug": "Tip",
-    "name": "Tip",
-    "locale": "en"
-  },
-  {
-    "slug": "Hyperlink",
-    "name": "Hyperlink",
-    "locale": "en"
-  },
-  {
-    "slug": "Craft",
-    "name": "Craft",
-    "locale": "en"
-  },
-  {
-    "slug": "Enchant",
-    "name": "Enchant",
-    "locale": "en"
-  },
-  {
-    "slug": "Corrosion",
-    "name": "Corrosion",
-    "locale": "en"
-  },
-  {
-    "slug": "Gear_Empowerment",
-    "name": "Gear Empowerment",
-    "locale": "en"
-  },
-  {
-    "slug": "Dream_Talking",
-    "name": "Dream Talking",
-    "locale": "en"
-  },
+  { "slug": "Tip", "name": "Tip", "locale": "en" },
+  { "slug": "Hyperlink", "name": "Hyperlink", "locale": "en" },
+  { "slug": "Craft", "name": "Craft", "locale": "en" },
+  { "slug": "Enchant", "name": "Enchant", "locale": "en" },
+  { "slug": "Corrosion", "name": "Corrosion", "locale": "en" },
+  { "slug": "Gear_Empowerment", "name": "Gear Empowerment", "locale": "en" },
+  { "slug": "Dream_Talking", "name": "Dream Talking", "locale": "en" },
   {
     "slug": "Path_of_Achievements",
     "name": "Path of Achievements",
@@ -124,79 +44,23 @@
     "name": "Path of Progression",
     "locale": "en"
   },
-  {
-    "slug": "Dark_Surge_Season",
-    "name": "Dark Surge Season",
-    "locale": "en"
-  },
-  {
-    "slug": "Season_Pass",
-    "name": "Season Pass",
-    "locale": "en"
-  },
-  {
-    "slug": "Event",
-    "name": "Event",
-    "locale": "en"
-  },
-  {
-    "slug": "Codex",
-    "name": "Codex",
-    "locale": "en"
-  },
-  {
-    "slug": "Netherrealm",
-    "name": "Netherrealm",
-    "locale": "en"
-  },
-  {
-    "slug": "Trait_Decks",
-    "name": "Trait Decks",
-    "locale": "en"
-  },
+  { "slug": "Dark_Surge_Season", "name": "Dark Surge Season", "locale": "en" },
+  { "slug": "Season_Pass", "name": "Season Pass", "locale": "en" },
+  { "slug": "Event", "name": "Event", "locale": "en" },
+  { "slug": "Codex", "name": "Codex", "locale": "en" },
+  { "slug": "Netherrealm", "name": "Netherrealm", "locale": "en" },
+  { "slug": "Trait_Decks", "name": "Trait Decks", "locale": "en" },
   {
     "slug": "Confusion_Card_Library",
     "name": "Confusion Card Library",
     "locale": "en"
   },
-  {
-    "slug": "Void_Chart",
-    "name": "Void Chart",
-    "locale": "en"
-  },
-  {
-    "slug": "Compass",
-    "name": "Compass",
-    "locale": "en"
-  },
-  {
-    "slug": "Probe",
-    "name": "Probe",
-    "locale": "en"
-  },
-  {
-    "slug": "Path_of_the_Brave",
-    "name": "Path of the Brave",
-    "locale": "en"
-  },
-  {
-    "slug": "Shop",
-    "name": "Shop",
-    "locale": "en"
-  },
-  {
-    "slug": "Outfit",
-    "name": "Outfit",
-    "locale": "en"
-  },
-  {
-    "slug": "Commodity",
-    "name": "Commodity",
-    "locale": "en"
-  },
-  {
-    "slug": "Boon",
-    "name": "Boon",
-    "locale": "en"
-  }
+  { "slug": "Void_Chart", "name": "Void Chart", "locale": "en" },
+  { "slug": "Compass", "name": "Compass", "locale": "en" },
+  { "slug": "Probe", "name": "Probe", "locale": "en" },
+  { "slug": "Path_of_the_Brave", "name": "Path of the Brave", "locale": "en" },
+  { "slug": "Shop", "name": "Shop", "locale": "en" },
+  { "slug": "Outfit", "name": "Outfit", "locale": "en" },
+  { "slug": "Commodity", "name": "Commodity", "locale": "en" },
+  { "slug": "Boon", "name": "Boon", "locale": "en" }
 ]

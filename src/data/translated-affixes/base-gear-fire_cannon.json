@@ -1,149 +1,41 @@
 {
   "equipmentType": "Fire_Cannon",
   "baseGears": [
-    {
-      "enName": "Witherbark Cannon",
-      "cnName": "枯木重炮"
-    },
-    {
-      "enName": "Rusted Blaster",
-      "cnName": "锈斑巨炮"
-    },
-    {
-      "enName": "Black Iron Cannon",
-      "cnName": "黑铁重炮"
-    },
-    {
-      "enName": "Iron Cannon",
-      "cnName": "精铁炮"
-    },
-    {
-      "enName": "Wolf Hunter%27s Cannon",
-      "cnName": "猎狼重炮"
-    },
-    {
-      "enName": "Starmetal Cannon",
-      "cnName": "星铁重炮"
-    },
-    {
-      "enName": "Unholy Blaster",
-      "cnName": "污秽巨炮"
-    },
-    {
-      "enName": "Warden%27s Blaster",
-      "cnName": "狱卒巨炮"
-    },
-    {
-      "enName": "Griffin Blaster",
-      "cnName": "狮鹫巨炮"
-    },
-    {
-      "enName": "Blazing Cannon",
-      "cnName": "炙热重炮"
-    },
-    {
-      "enName": "Unyielding Cannon",
-      "cnName": "不屈重炮"
-    },
-    {
-      "enName": "Wailing Blaster",
-      "cnName": "哀鸣巨炮"
-    },
-    {
-      "enName": "Abyssal Blaster",
-      "cnName": "深渊巨炮"
-    },
-    {
-      "enName": "Monarch%27s Cannon",
-      "cnName": "君主重炮"
-    },
-    {
-      "enName": "Solar Flame Cannon",
-      "cnName": "阳炎重炮"
-    },
-    {
-      "enName": "Viking Blaster",
-      "cnName": "维京巨炮"
-    },
-    {
-      "enName": "Dark Ravine Cannon",
-      "cnName": "黑峡巨炮"
-    },
-    {
-      "enName": "Fire Worshiper Cannon",
-      "cnName": "拜火者巨炮"
-    },
-    {
-      "enName": "Fire Eater Cannon",
-      "cnName": "食火者巨炮"
-    },
-    {
-      "enName": "Sun Fall Cannon",
-      "cnName": "烈阳陨落巨炮"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    }
+    { "enName": "Witherbark Cannon", "cnName": "枯木重炮" },
+    { "enName": "Rusted Blaster", "cnName": "锈斑巨炮" },
+    { "enName": "Black Iron Cannon", "cnName": "黑铁重炮" },
+    { "enName": "Iron Cannon", "cnName": "精铁炮" },
+    { "enName": "Wolf Hunter%27s Cannon", "cnName": "猎狼重炮" },
+    { "enName": "Starmetal Cannon", "cnName": "星铁重炮" },
+    { "enName": "Unholy Blaster", "cnName": "污秽巨炮" },
+    { "enName": "Warden%27s Blaster", "cnName": "狱卒巨炮" },
+    { "enName": "Griffin Blaster", "cnName": "狮鹫巨炮" },
+    { "enName": "Blazing Cannon", "cnName": "炙热重炮" },
+    { "enName": "Unyielding Cannon", "cnName": "不屈重炮" },
+    { "enName": "Wailing Blaster", "cnName": "哀鸣巨炮" },
+    { "enName": "Abyssal Blaster", "cnName": "深渊巨炮" },
+    { "enName": "Monarch%27s Cannon", "cnName": "君主重炮" },
+    { "enName": "Solar Flame Cannon", "cnName": "阳炎重炮" },
+    { "enName": "Viking Blaster", "cnName": "维京巨炮" },
+    { "enName": "Dark Ravine Cannon", "cnName": "黑峡巨炮" },
+    { "enName": "Fire Worshiper Cannon", "cnName": "拜火者巨炮" },
+    { "enName": "Fire Eater Cannon", "cnName": "食火者巨炮" },
+    { "enName": "Sun Fall Cannon", "cnName": "烈阳陨落巨炮" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" }
   ]
 }

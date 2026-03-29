@@ -1,25 +1,27 @@
-const fs = require('fs');
-const path = require('path');
-const https = require('https');
+const fs = require("fs");
+const path = require("path");
+const https = require("https");
 
 function fetchUrl(url) {
   return new Promise((resolve, reject) => {
-    https.get(url, (res) => {
-      let data = '';
-      res.on('data', chunk => data += chunk);
-      res.on('end', () => resolve(data));
-      res.on('error', reject);
-    }).on('error', reject);
+    https
+      .get(url, (res) => {
+        let data = "";
+        res.on("data", (chunk) => (data += chunk));
+        res.on("end", () => resolve(data));
+        res.on("error", reject);
+      })
+      .on("error", reject);
   });
 }
 
 // 从网站抓取 Craft 页面
 async function scrapeCraft() {
-  console.log('📄 Scraping Craft pages from tlidb.com...\n');
+  console.log("📄 Scraping Craft pages from tlidb.com...\n");
 
   const [enHtml, cnHtml] = await Promise.all([
-    fetchUrl('https://tlidb.com/en/Craft'),
-    fetchUrl('https://tlidb.com/cn/Craft'),
+    fetchUrl("https://tlidb.com/en/Craft"),
+    fetchUrl("https://tlidb.com/cn/Craft"),
   ]);
 
   console.log(`  EN HTML size: ${enHtml.length}`);
@@ -39,7 +41,10 @@ async function scrapeCraft() {
       const tdMatch = trMatch[1].match(/<td[^>]*>([\s\S]*?)<\/td>/gi);
       if (tdMatch && tdMatch.length > 0) {
         const lastTd = tdMatch[tdMatch.length - 1];
-        const text = lastTd.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+        const text = lastTd
+          .replace(/<[^>]+>/g, " ")
+          .replace(/\s+/g, " ")
+          .trim();
         if (text && text.length > 2) {
           enById[idMatch[1]] = text;
         }
@@ -54,7 +59,10 @@ async function scrapeCraft() {
       const tdMatch = trMatch[1].match(/<td[^>]*>([\s\S]*?)<\/td>/gi);
       if (tdMatch && tdMatch.length > 0) {
         const lastTd = tdMatch[tdMatch.length - 1];
-        const text = lastTd.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+        const text = lastTd
+          .replace(/<[^>]+>/g, " ")
+          .replace(/\s+/g, " ")
+          .trim();
         if (text && text.length > 2) {
           cnById[idMatch[1]] = text;
         }
@@ -68,13 +76,13 @@ async function scrapeCraft() {
   // 匹配
   const translations = {};
   let matched = 0;
-  let alreadyExists = 0;
+  const alreadyExists = 0;
 
   Object.entries(enById).forEach(([id, enText]) => {
     if (cnById[id] && enText !== cnById[id]) {
       // 验证是否为有效翻译
-      const enLen = enText.replace(/[\d\.\-\–\—\(\)\%]/g, '').length;
-      const cnLen = cnById[id].replace(/[\d\u4e00-\u9fa5]/g, '').length;
+      const enLen = enText.replace(/[\d.\-–—()%]/g, "").length;
+      const cnLen = cnById[id].replace(/[\d\u4e00-\u9fa5]/g, "").length;
 
       if (enLen > 3 && cnLen > 0) {
         if (!translations[enText]) {
@@ -91,20 +99,22 @@ async function scrapeCraft() {
 }
 
 async function main() {
-  console.log('🚀 Starting Craft page scrape...\n');
+  console.log("🚀 Starting Craft page scrape...\n");
 
-  const outDir = path.join(__dirname, '../src/data/translated-affixes');
+  const outDir = path.join(__dirname, "../src/data/translated-affixes");
 
   // 1. 从网站下载
   const newTranslations = await scrapeCraft();
 
   // 2. 加载现有的翻译
-  const existingFile = path.join(outDir, 'merged-all-translations.json');
+  const existingFile = path.join(outDir, "merged-all-translations.json");
   const existingTranslations = fs.existsSync(existingFile)
-    ? JSON.parse(fs.readFileSync(existingFile, 'utf8'))
+    ? JSON.parse(fs.readFileSync(existingFile, "utf8"))
     : {};
 
-  console.log(`\n📚 Existing translations: ${Object.keys(existingTranslations).length}`);
+  console.log(
+    `\n📚 Existing translations: ${Object.keys(existingTranslations).length}`,
+  );
 
   // 3. 找出新的翻译
   const toAdd = {};
@@ -130,9 +140,9 @@ async function main() {
 
     // 5. 保存
     fs.writeFileSync(
-      path.join(outDir, 'merged-all-translations.json'),
+      path.join(outDir, "merged-all-translations.json"),
       JSON.stringify(merged, null, 2),
-      'utf-8'
+      "utf-8",
     );
 
     console.log(`\n✅ Added ${newCount} new translations`);
@@ -140,15 +150,15 @@ async function main() {
 
     // 6. 保存新的 Craft 翻译
     fs.writeFileSync(
-      path.join(outDir, 'craft-new-translations.json'),
+      path.join(outDir, "craft-new-translations.json"),
       JSON.stringify(toAdd, null, 2),
-      'utf-8'
+      "utf-8",
     );
   } else {
     console.log(`\n✅ All Craft translations already matched!`);
   }
 
-  console.log('\n✅ Done!');
+  console.log("\n✅ Done!");
 }
 
 main().catch(console.error);

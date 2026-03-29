@@ -926,11 +926,7 @@
       "enText": "+(9–12)% Elemental Resistance",
       "cnText": "+(9–12)% 元素抗性"
     },
-    {
-      "modifierId": "51525151",
-      "enText": "Solar Ring",
-      "cnText": "日环"
-    },
+    { "modifierId": "51525151", "enText": "Solar Ring", "cnText": "日环" },
     {
       "modifierId": "51525211",
       "enText": "+(30–40)% Defense",
@@ -1346,91 +1342,43 @@
       "enText": "+(50–80) Tangle Critical Strike Rating",
       "cnText": "+(50–80) 纠缠暴击值"
     },
-    {
-      "modifierId": "630000",
-      "enText": "+3 Strength",
-      "cnText": "+3 力量"
-    },
-    {
-      "modifierId": "640000",
-      "enText": "+3 Dexterity",
-      "cnText": "+3 敏捷"
-    },
+    { "modifierId": "630000", "enText": "+3 Strength", "cnText": "+3 力量" },
+    { "modifierId": "640000", "enText": "+3 Dexterity", "cnText": "+3 敏捷" },
     {
       "modifierId": "650000",
       "enText": "+3 Intelligence",
       "cnText": "+3 智慧"
     },
-    {
-      "modifierId": "630001",
-      "enText": "+5 Strength",
-      "cnText": "+5 力量"
-    },
-    {
-      "modifierId": "640001",
-      "enText": "+5 Dexterity",
-      "cnText": "+5 敏捷"
-    },
+    { "modifierId": "630001", "enText": "+5 Strength", "cnText": "+5 力量" },
+    { "modifierId": "640001", "enText": "+5 Dexterity", "cnText": "+5 敏捷" },
     {
       "modifierId": "650001",
       "enText": "+5 Intelligence",
       "cnText": "+5 智慧"
     },
-    {
-      "modifierId": "630002",
-      "enText": "+8 Strength",
-      "cnText": "+8 力量"
-    },
-    {
-      "modifierId": "640002",
-      "enText": "+8 Dexterity",
-      "cnText": "+8 敏捷"
-    },
+    { "modifierId": "630002", "enText": "+8 Strength", "cnText": "+8 力量" },
+    { "modifierId": "640002", "enText": "+8 Dexterity", "cnText": "+8 敏捷" },
     {
       "modifierId": "650002",
       "enText": "+8 Intelligence",
       "cnText": "+8 智慧"
     },
-    {
-      "modifierId": "630003",
-      "enText": "+12 Strength",
-      "cnText": "+12 力量"
-    },
-    {
-      "modifierId": "640003",
-      "enText": "+12 Dexterity",
-      "cnText": "+12 敏捷"
-    },
+    { "modifierId": "630003", "enText": "+12 Strength", "cnText": "+12 力量" },
+    { "modifierId": "640003", "enText": "+12 Dexterity", "cnText": "+12 敏捷" },
     {
       "modifierId": "650003",
       "enText": "+12 Intelligence",
       "cnText": "+12 智慧"
     },
-    {
-      "modifierId": "630004",
-      "enText": "+18 Strength",
-      "cnText": "+18 力量"
-    },
-    {
-      "modifierId": "640004",
-      "enText": "+18 Dexterity",
-      "cnText": "+18 敏捷"
-    },
+    { "modifierId": "630004", "enText": "+18 Strength", "cnText": "+18 力量" },
+    { "modifierId": "640004", "enText": "+18 Dexterity", "cnText": "+18 敏捷" },
     {
       "modifierId": "650004",
       "enText": "+18 Intelligence",
       "cnText": "+18 智慧"
     },
-    {
-      "modifierId": "630005",
-      "enText": "+24 Strength",
-      "cnText": "+24 力量"
-    },
-    {
-      "modifierId": "640005",
-      "enText": "+24 Dexterity",
-      "cnText": "+24 敏捷"
-    },
+    { "modifierId": "630005", "enText": "+24 Strength", "cnText": "+24 力量" },
+    { "modifierId": "640005", "enText": "+24 Dexterity", "cnText": "+24 敏捷" },
     {
       "modifierId": "650005",
       "enText": "+24 Intelligence",
@@ -1971,11 +1919,7 @@
       "enText": "+(15–20)% Elemental Resistance",
       "cnText": "+(15–20)% 元素抗性"
     },
-    {
-      "modifierId": "51525150",
-      "enText": "Corona",
-      "cnText": "日冕"
-    },
+    { "modifierId": "51525150", "enText": "Corona", "cnText": "日冕" },
     {
       "modifierId": "51525210",
       "enText": "+(40–50)% Defense",

@@ -1,225 +1,60 @@
 {
   "equipmentType": "Two-Handed_Axe",
   "baseGears": [
-    {
-      "enName": "Arminius Guillotine",
-      "cnName": "阿米尼乌斯断头台"
-    },
-    {
-      "enName": "Arminius Guillotine",
-      "cnName": "阿米尼乌斯断头台"
-    },
-    {
-      "enName": "Arminius Guillotine",
-      "cnName": "阿米尼乌斯断头台"
-    },
-    {
-      "enName": "Arminius Guillotine",
-      "cnName": "阿米尼乌斯断头台"
-    },
-    {
-      "enName": "Arminius Guillotine",
-      "cnName": "阿米尼乌斯断头台"
-    },
-    {
-      "enName": "Varagon%27s Attack",
-      "cnName": "瓦拉冈的狂袭"
-    },
-    {
-      "enName": "Varagon%27s Attack",
-      "cnName": "瓦拉冈的狂袭"
-    },
-    {
-      "enName": "Varagon%27s Attack",
-      "cnName": "瓦拉冈的狂袭"
-    },
-    {
-      "enName": "Varagon%27s Attack",
-      "cnName": "瓦拉冈的狂袭"
-    },
-    {
-      "enName": "Highest Glance",
-      "cnName": "至高一瞥"
-    },
-    {
-      "enName": "Highest Glance",
-      "cnName": "至高一瞥"
-    },
-    {
-      "enName": "Highest Glance",
-      "cnName": "至高一瞥"
-    },
-    {
-      "enName": "Highest Glance",
-      "cnName": "至高一瞥"
-    },
-    {
-      "enName": "Shattered Iron Axe",
-      "cnName": "破碎铁斧"
-    },
-    {
-      "enName": "Gigantic Stone Axe",
-      "cnName": "巨型石斧"
-    },
-    {
-      "enName": "Iron Battle Axe",
-      "cnName": "精铁战斧"
-    },
-    {
-      "enName": "Hardrock Stone Axe",
-      "cnName": "坚岩石斧"
-    },
-    {
-      "enName": "Coldlight Greataxe",
-      "cnName": "寒光巨斧"
-    },
-    {
-      "enName": "Gilt Board Axe",
-      "cnName": "鎏金重斧"
-    },
-    {
-      "enName": "Marsh Greataxe",
-      "cnName": "沼泽巨斧"
-    },
-    {
-      "enName": "Blazing Greataxe",
-      "cnName": "炙热巨斧"
-    },
-    {
-      "enName": "Giant%27s Board Axe",
-      "cnName": "巨人重斧"
-    },
-    {
-      "enName": "Doomsday Board Axe",
-      "cnName": "末日重斧"
-    },
-    {
-      "enName": "Redgold Greataxe",
-      "cnName": "赤金巨斧"
-    },
-    {
-      "enName": "Unpredictable Board Axe",
-      "cnName": "诡谲重斧"
-    },
-    {
-      "enName": "Griffin Greataxe",
-      "cnName": "狮鹫巨斧"
-    },
-    {
-      "enName": "Blue Sea Greataxe",
-      "cnName": "蓝海巨斧"
-    },
-    {
-      "enName": "Ripping Greataxe",
-      "cnName": "撕裂巨斧"
-    },
-    {
-      "enName": "Lava Board Axe",
-      "cnName": "熔岩重斧"
-    },
-    {
-      "enName": "Fallen Star Greataxe",
-      "cnName": "陨星巨斧"
-    },
-    {
-      "enName": "Red Pegasus Greataxe",
-      "cnName": "红飞马巨斧"
-    },
-    {
-      "enName": "Black Pass Board Axe",
-      "cnName": "黑隘口重斧"
-    },
-    {
-      "enName": "Earthrending Axe",
-      "cnName": "切割大地之斧"
-    },
-    {
-      "enName": "Varagon%27s Attack",
-      "cnName": "瓦拉冈的狂袭"
-    },
-    {
-      "enName": "Arminius Guillotine",
-      "cnName": "阿米尼乌斯断头台"
-    },
-    {
-      "enName": "Highest Glance",
-      "cnName": "至高一瞥"
-    },
-    {
-      "enName": "Varagon%27s Attack",
-      "cnName": "瓦拉冈的狂袭"
-    },
-    {
-      "enName": "Arminius Guillotine",
-      "cnName": "阿米尼乌斯断头台"
-    },
-    {
-      "enName": "Highest Glance",
-      "cnName": "至高一瞥"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    }
+    { "enName": "Arminius Guillotine", "cnName": "阿米尼乌斯断头台" },
+    { "enName": "Arminius Guillotine", "cnName": "阿米尼乌斯断头台" },
+    { "enName": "Arminius Guillotine", "cnName": "阿米尼乌斯断头台" },
+    { "enName": "Arminius Guillotine", "cnName": "阿米尼乌斯断头台" },
+    { "enName": "Arminius Guillotine", "cnName": "阿米尼乌斯断头台" },
+    { "enName": "Varagon%27s Attack", "cnName": "瓦拉冈的狂袭" },
+    { "enName": "Varagon%27s Attack", "cnName": "瓦拉冈的狂袭" },
+    { "enName": "Varagon%27s Attack", "cnName": "瓦拉冈的狂袭" },
+    { "enName": "Varagon%27s Attack", "cnName": "瓦拉冈的狂袭" },
+    { "enName": "Highest Glance", "cnName": "至高一瞥" },
+    { "enName": "Highest Glance", "cnName": "至高一瞥" },
+    { "enName": "Highest Glance", "cnName": "至高一瞥" },
+    { "enName": "Highest Glance", "cnName": "至高一瞥" },
+    { "enName": "Shattered Iron Axe", "cnName": "破碎铁斧" },
+    { "enName": "Gigantic Stone Axe", "cnName": "巨型石斧" },
+    { "enName": "Iron Battle Axe", "cnName": "精铁战斧" },
+    { "enName": "Hardrock Stone Axe", "cnName": "坚岩石斧" },
+    { "enName": "Coldlight Greataxe", "cnName": "寒光巨斧" },
+    { "enName": "Gilt Board Axe", "cnName": "鎏金重斧" },
+    { "enName": "Marsh Greataxe", "cnName": "沼泽巨斧" },
+    { "enName": "Blazing Greataxe", "cnName": "炙热巨斧" },
+    { "enName": "Giant%27s Board Axe", "cnName": "巨人重斧" },
+    { "enName": "Doomsday Board Axe", "cnName": "末日重斧" },
+    { "enName": "Redgold Greataxe", "cnName": "赤金巨斧" },
+    { "enName": "Unpredictable Board Axe", "cnName": "诡谲重斧" },
+    { "enName": "Griffin Greataxe", "cnName": "狮鹫巨斧" },
+    { "enName": "Blue Sea Greataxe", "cnName": "蓝海巨斧" },
+    { "enName": "Ripping Greataxe", "cnName": "撕裂巨斧" },
+    { "enName": "Lava Board Axe", "cnName": "熔岩重斧" },
+    { "enName": "Fallen Star Greataxe", "cnName": "陨星巨斧" },
+    { "enName": "Red Pegasus Greataxe", "cnName": "红飞马巨斧" },
+    { "enName": "Black Pass Board Axe", "cnName": "黑隘口重斧" },
+    { "enName": "Earthrending Axe", "cnName": "切割大地之斧" },
+    { "enName": "Varagon%27s Attack", "cnName": "瓦拉冈的狂袭" },
+    { "enName": "Arminius Guillotine", "cnName": "阿米尼乌斯断头台" },
+    { "enName": "Highest Glance", "cnName": "至高一瞥" },
+    { "enName": "Varagon%27s Attack", "cnName": "瓦拉冈的狂袭" },
+    { "enName": "Arminius Guillotine", "cnName": "阿米尼乌斯断头台" },
+    { "enName": "Highest Glance", "cnName": "至高一瞥" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" }
   ]
 }

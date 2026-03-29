@@ -1,265 +1,70 @@
 {
   "equipmentType": "Claw",
   "baseGears": [
-    {
-      "enName": "Elemental Whirl",
-      "cnName": "元素洄旋"
-    },
-    {
-      "enName": "Elemental Whirl",
-      "cnName": "元素洄旋"
-    },
-    {
-      "enName": "Elemental Whirl",
-      "cnName": "元素洄旋"
-    },
-    {
-      "enName": "Elemental Whirl",
-      "cnName": "元素洄旋"
-    },
-    {
-      "enName": "Elemental Whirl",
-      "cnName": "元素洄旋"
-    },
-    {
-      "enName": "Elemental Whirl",
-      "cnName": "元素洄旋"
-    },
-    {
-      "enName": "Elemental Whirl",
-      "cnName": "元素洄旋"
-    },
-    {
-      "enName": "Eternal Moon",
-      "cnName": "不落之月"
-    },
-    {
-      "enName": "Eternal Moon",
-      "cnName": "不落之月"
-    },
-    {
-      "enName": "Eternal Moon",
-      "cnName": "不落之月"
-    },
-    {
-      "enName": "Eternal Moon",
-      "cnName": "不落之月"
-    },
-    {
-      "enName": "Eternal Moon",
-      "cnName": "不落之月"
-    },
-    {
-      "enName": "Flying Bird",
-      "cnName": "飞鸟"
-    },
-    {
-      "enName": "Flying Bird",
-      "cnName": "飞鸟"
-    },
-    {
-      "enName": "Flying Bird",
-      "cnName": "飞鸟"
-    },
-    {
-      "enName": "Flying Bird",
-      "cnName": "飞鸟"
-    },
-    {
-      "enName": "Flying Bird",
-      "cnName": "飞鸟"
-    },
-    {
-      "enName": "Throat-Slasher",
-      "cnName": "刎颈之刻"
-    },
-    {
-      "enName": "Throat-Slasher",
-      "cnName": "刎颈之刻"
-    },
-    {
-      "enName": "Throat-Slasher",
-      "cnName": "刎颈之刻"
-    },
-    {
-      "enName": "Throat-Slasher",
-      "cnName": "刎颈之刻"
-    },
-    {
-      "enName": "Nailclaw",
-      "cnName": "钉爪"
-    },
-    {
-      "enName": "Shark Tooth",
-      "cnName": "恶鲨之牙"
-    },
-    {
-      "enName": "Pickaxe Claw",
-      "cnName": "凿石之爪"
-    },
-    {
-      "enName": "Black Cat Claw",
-      "cnName": "黑猫爪"
-    },
-    {
-      "enName": "Eyestinger Claw",
-      "cnName": "刺目钩爪"
-    },
-    {
-      "enName": "Berserker Claw",
-      "cnName": "狂战之爪"
-    },
-    {
-      "enName": "Sandstorm Katar",
-      "cnName": "狂沙爪刃"
-    },
-    {
-      "enName": "Wailing Claw",
-      "cnName": "哀鸣之爪"
-    },
-    {
-      "enName": "Two-Headed Claw",
-      "cnName": "双头利爪"
-    },
-    {
-      "enName": "Direwolf Fang",
-      "cnName": "恶狼尖牙"
-    },
-    {
-      "enName": "Spinesplitter Katar",
-      "cnName": "裂脊爪刃"
-    },
-    {
-      "enName": "Crimson Tiger Sting",
-      "cnName": "赤虎骨刺"
-    },
-    {
-      "enName": "Scarlet River Claw",
-      "cnName": "绯河赤爪"
-    },
-    {
-      "enName": "Primeval War Claw",
-      "cnName": "上古战爪"
-    },
-    {
-      "enName": "Jadebone Katar",
-      "cnName": "骨玉爪刃"
-    },
-    {
-      "enName": "Eagle Claw",
-      "cnName": "白鹰利爪"
-    },
-    {
-      "enName": "Delusion Claw",
-      "cnName": "虚妄之爪"
-    },
-    {
-      "enName": "Three-tailed Cat Claw",
-      "cnName": "三尾猫之爪"
-    },
-    {
-      "enName": "Dragon Hunter Claw",
-      "cnName": "猎龙者利爪"
-    },
-    {
-      "enName": "Silence Piercing Claw",
-      "cnName": "寂夜破空之爪"
-    },
-    {
-      "enName": "Eternal Moon",
-      "cnName": "不落之月"
-    },
-    {
-      "enName": "Throat-Slasher",
-      "cnName": "刎颈之刻"
-    },
-    {
-      "enName": "Elemental Whirl",
-      "cnName": "元素洄旋"
-    },
-    {
-      "enName": "Flying Bird",
-      "cnName": "飞鸟"
-    },
-    {
-      "enName": "Eternal Moon",
-      "cnName": "不落之月"
-    },
-    {
-      "enName": "Throat-Slasher",
-      "cnName": "刎颈之刻"
-    },
-    {
-      "enName": "Elemental Whirl",
-      "cnName": "元素洄旋"
-    },
-    {
-      "enName": "Flying Bird",
-      "cnName": "飞鸟"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    }
+    { "enName": "Elemental Whirl", "cnName": "元素洄旋" },
+    { "enName": "Elemental Whirl", "cnName": "元素洄旋" },
+    { "enName": "Elemental Whirl", "cnName": "元素洄旋" },
+    { "enName": "Elemental Whirl", "cnName": "元素洄旋" },
+    { "enName": "Elemental Whirl", "cnName": "元素洄旋" },
+    { "enName": "Elemental Whirl", "cnName": "元素洄旋" },
+    { "enName": "Elemental Whirl", "cnName": "元素洄旋" },
+    { "enName": "Eternal Moon", "cnName": "不落之月" },
+    { "enName": "Eternal Moon", "cnName": "不落之月" },
+    { "enName": "Eternal Moon", "cnName": "不落之月" },
+    { "enName": "Eternal Moon", "cnName": "不落之月" },
+    { "enName": "Eternal Moon", "cnName": "不落之月" },
+    { "enName": "Flying Bird", "cnName": "飞鸟" },
+    { "enName": "Flying Bird", "cnName": "飞鸟" },
+    { "enName": "Flying Bird", "cnName": "飞鸟" },
+    { "enName": "Flying Bird", "cnName": "飞鸟" },
+    { "enName": "Flying Bird", "cnName": "飞鸟" },
+    { "enName": "Throat-Slasher", "cnName": "刎颈之刻" },
+    { "enName": "Throat-Slasher", "cnName": "刎颈之刻" },
+    { "enName": "Throat-Slasher", "cnName": "刎颈之刻" },
+    { "enName": "Throat-Slasher", "cnName": "刎颈之刻" },
+    { "enName": "Nailclaw", "cnName": "钉爪" },
+    { "enName": "Shark Tooth", "cnName": "恶鲨之牙" },
+    { "enName": "Pickaxe Claw", "cnName": "凿石之爪" },
+    { "enName": "Black Cat Claw", "cnName": "黑猫爪" },
+    { "enName": "Eyestinger Claw", "cnName": "刺目钩爪" },
+    { "enName": "Berserker Claw", "cnName": "狂战之爪" },
+    { "enName": "Sandstorm Katar", "cnName": "狂沙爪刃" },
+    { "enName": "Wailing Claw", "cnName": "哀鸣之爪" },
+    { "enName": "Two-Headed Claw", "cnName": "双头利爪" },
+    { "enName": "Direwolf Fang", "cnName": "恶狼尖牙" },
+    { "enName": "Spinesplitter Katar", "cnName": "裂脊爪刃" },
+    { "enName": "Crimson Tiger Sting", "cnName": "赤虎骨刺" },
+    { "enName": "Scarlet River Claw", "cnName": "绯河赤爪" },
+    { "enName": "Primeval War Claw", "cnName": "上古战爪" },
+    { "enName": "Jadebone Katar", "cnName": "骨玉爪刃" },
+    { "enName": "Eagle Claw", "cnName": "白鹰利爪" },
+    { "enName": "Delusion Claw", "cnName": "虚妄之爪" },
+    { "enName": "Three-tailed Cat Claw", "cnName": "三尾猫之爪" },
+    { "enName": "Dragon Hunter Claw", "cnName": "猎龙者利爪" },
+    { "enName": "Silence Piercing Claw", "cnName": "寂夜破空之爪" },
+    { "enName": "Eternal Moon", "cnName": "不落之月" },
+    { "enName": "Throat-Slasher", "cnName": "刎颈之刻" },
+    { "enName": "Elemental Whirl", "cnName": "元素洄旋" },
+    { "enName": "Flying Bird", "cnName": "飞鸟" },
+    { "enName": "Eternal Moon", "cnName": "不落之月" },
+    { "enName": "Throat-Slasher", "cnName": "刎颈之刻" },
+    { "enName": "Elemental Whirl", "cnName": "元素洄旋" },
+    { "enName": "Flying Bird", "cnName": "飞鸟" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" }
   ]
 }

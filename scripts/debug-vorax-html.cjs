@@ -1,21 +1,23 @@
-const https = require('https');
+const https = require("https");
 
 function fetchUrl(url) {
   return new Promise((resolve, reject) => {
-    https.get(url, (res) => {
-      let data = '';
-      res.on('data', chunk => data += chunk);
-      res.on('end', () => resolve(data));
-      res.on('error', reject);
-    }).on('error', reject);
+    https
+      .get(url, (res) => {
+        let data = "";
+        res.on("data", (chunk) => (data += chunk));
+        res.on("end", () => resolve(data));
+        res.on("error", reject);
+      })
+      .on("error", reject);
   });
 }
 
 async function debugVoraxLimb() {
-  console.log('=== Debugging Vorax Limb: Hands ===\n');
+  console.log("=== Debugging Vorax Limb: Hands ===\n");
 
   try {
-    const html = await fetchUrl('https://tlidb.com/en/Vorax_Limb%3A_Hands');
+    const html = await fetchUrl("https://tlidb.com/en/Vorax_Limb%3A_Hands");
 
     console.log(`HTML size: ${html.length}`);
 
@@ -32,7 +34,7 @@ async function debugVoraxLimb() {
     console.log(`<td> count: ${tds}`);
 
     // Check for the specific text
-    if (html.includes('Vorax Limb')) {
+    if (html.includes("Vorax Limb")) {
       console.log('\n✅ Found "Vorax Limb" in HTML');
     }
 
@@ -45,7 +47,6 @@ async function debugVoraxLimb() {
     // Try to find the actual content structure
     const tables = (html.match(/<table/g) || []).length;
     console.log(`<table> count: ${tables}`);
-
   } catch (error) {
     console.log(`❌ Error: ${error.message}`);
   }

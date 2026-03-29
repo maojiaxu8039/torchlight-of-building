@@ -1,193 +1,52 @@
 {
   "equipmentType": "One-Handed_Axe",
   "baseGears": [
-    {
-      "enName": "End Night Banquet",
-      "cnName": "终夜狂宴"
-    },
-    {
-      "enName": "End Night Banquet",
-      "cnName": "终夜狂宴"
-    },
-    {
-      "enName": "End Night Banquet",
-      "cnName": "终夜狂宴"
-    },
-    {
-      "enName": "End Night Banquet",
-      "cnName": "终夜狂宴"
-    },
-    {
-      "enName": "Ominous Gift",
-      "cnName": "不详馈赠"
-    },
-    {
-      "enName": "Ominous Gift",
-      "cnName": "不详馈赠"
-    },
-    {
-      "enName": "Ominous Gift",
-      "cnName": "不详馈赠"
-    },
-    {
-      "enName": "Rusted Iron Axe",
-      "cnName": "锈斑铁斧"
-    },
-    {
-      "enName": "Twisted Copper Axe",
-      "cnName": "扭曲铜斧"
-    },
-    {
-      "enName": "Iron Hatchet",
-      "cnName": "精铁手斧"
-    },
-    {
-      "enName": "Sharpened Iron Axe",
-      "cnName": "锋利铁斧"
-    },
-    {
-      "enName": "Alloy Board Axe",
-      "cnName": "合金重斧"
-    },
-    {
-      "enName": "War Axe",
-      "cnName": "激战之斧"
-    },
-    {
-      "enName": "Scoundrel%27s Axe",
-      "cnName": "恶徒之斧"
-    },
-    {
-      "enName": "Earthsplitter Axe",
-      "cnName": "裂地之斧"
-    },
-    {
-      "enName": "Savage Axe",
-      "cnName": "蛮荒之斧"
-    },
-    {
-      "enName": "Valagon Axe",
-      "cnName": "瓦拉岗之斧"
-    },
-    {
-      "enName": "Cursed Axe",
-      "cnName": "诅咒之斧"
-    },
-    {
-      "enName": "Bonecrusher Greataxe",
-      "cnName": "碎骨巨斧"
-    },
-    {
-      "enName": "Conflict War Axe",
-      "cnName": "战争利斧"
-    },
-    {
-      "enName": "Frenzy Battle Axe",
-      "cnName": "狂暴战斧"
-    },
-    {
-      "enName": "Scarlet Axe",
-      "cnName": "猩红之斧"
-    },
-    {
-      "enName": "Ritual Greataxe",
-      "cnName": "祭祀巨斧"
-    },
-    {
-      "enName": "Vengeance Axe",
-      "cnName": "雪恨之斧"
-    },
-    {
-      "enName": "Suppressor Axe",
-      "cnName": "镇压者手斧"
-    },
-    {
-      "enName": "Rebel Axe",
-      "cnName": "反抗者手斧"
-    },
-    {
-      "enName": "Hollow Rift Axe",
-      "cnName": "空洞裂隙手斧"
-    },
-    {
-      "enName": "End Night Banquet",
-      "cnName": "终夜狂宴"
-    },
-    {
-      "enName": "Ominous Gift",
-      "cnName": "不详馈赠"
-    },
-    {
-      "enName": "End Night Banquet",
-      "cnName": "终夜狂宴"
-    },
-    {
-      "enName": "Ominous Gift",
-      "cnName": "不详馈赠"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    }
+    { "enName": "End Night Banquet", "cnName": "终夜狂宴" },
+    { "enName": "End Night Banquet", "cnName": "终夜狂宴" },
+    { "enName": "End Night Banquet", "cnName": "终夜狂宴" },
+    { "enName": "End Night Banquet", "cnName": "终夜狂宴" },
+    { "enName": "Ominous Gift", "cnName": "不详馈赠" },
+    { "enName": "Ominous Gift", "cnName": "不详馈赠" },
+    { "enName": "Ominous Gift", "cnName": "不详馈赠" },
+    { "enName": "Rusted Iron Axe", "cnName": "锈斑铁斧" },
+    { "enName": "Twisted Copper Axe", "cnName": "扭曲铜斧" },
+    { "enName": "Iron Hatchet", "cnName": "精铁手斧" },
+    { "enName": "Sharpened Iron Axe", "cnName": "锋利铁斧" },
+    { "enName": "Alloy Board Axe", "cnName": "合金重斧" },
+    { "enName": "War Axe", "cnName": "激战之斧" },
+    { "enName": "Scoundrel%27s Axe", "cnName": "恶徒之斧" },
+    { "enName": "Earthsplitter Axe", "cnName": "裂地之斧" },
+    { "enName": "Savage Axe", "cnName": "蛮荒之斧" },
+    { "enName": "Valagon Axe", "cnName": "瓦拉岗之斧" },
+    { "enName": "Cursed Axe", "cnName": "诅咒之斧" },
+    { "enName": "Bonecrusher Greataxe", "cnName": "碎骨巨斧" },
+    { "enName": "Conflict War Axe", "cnName": "战争利斧" },
+    { "enName": "Frenzy Battle Axe", "cnName": "狂暴战斧" },
+    { "enName": "Scarlet Axe", "cnName": "猩红之斧" },
+    { "enName": "Ritual Greataxe", "cnName": "祭祀巨斧" },
+    { "enName": "Vengeance Axe", "cnName": "雪恨之斧" },
+    { "enName": "Suppressor Axe", "cnName": "镇压者手斧" },
+    { "enName": "Rebel Axe", "cnName": "反抗者手斧" },
+    { "enName": "Hollow Rift Axe", "cnName": "空洞裂隙手斧" },
+    { "enName": "End Night Banquet", "cnName": "终夜狂宴" },
+    { "enName": "Ominous Gift", "cnName": "不详馈赠" },
+    { "enName": "End Night Banquet", "cnName": "终夜狂宴" },
+    { "enName": "Ominous Gift", "cnName": "不详馈赠" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" }
   ]
 }

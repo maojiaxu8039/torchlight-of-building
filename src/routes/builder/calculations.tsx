@@ -600,7 +600,9 @@ function CalculationsPage(): React.ReactNode {
       {selectedSkill === undefined && (
         <div className="rounded-lg border border-zinc-700 bg-zinc-900 p-4 text-center">
           <p className="text-sm text-zinc-400">
-            {i18n._("Select an active skill above to view damage calculations.")}
+            {i18n._(
+              "Select an active skill above to view damage calculations.",
+            )}
           </p>
         </div>
       )}

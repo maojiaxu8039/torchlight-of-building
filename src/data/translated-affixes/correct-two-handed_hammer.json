@@ -1,165 +1,45 @@
 {
   "equipmentType": "Two-Handed_Hammer",
   "baseGears": [
-    {
-      "enName": "Incorrect Arbitration",
-      "cnName": "错误仲裁"
-    },
-    {
-      "enName": "Incorrect Arbitration",
-      "cnName": "错误仲裁"
-    },
-    {
-      "enName": "Crude Iron Maul",
-      "cnName": "粗铁重锤"
-    },
-    {
-      "enName": "Hardrock Mallet",
-      "cnName": "坚岩巨锤"
-    },
-    {
-      "enName": "Iron Maul",
-      "cnName": "精铁重锤"
-    },
-    {
-      "enName": "Icefrost Mallet",
-      "cnName": "冰霜巨锤"
-    },
-    {
-      "enName": "Beastfang Mallet",
-      "cnName": "兽牙巨锤"
-    },
-    {
-      "enName": "Scarlet Maul",
-      "cnName": "猩红重锤"
-    },
-    {
-      "enName": "Lonewolf Maul",
-      "cnName": "孤狼重锤"
-    },
-    {
-      "enName": "Valagon Mallet",
-      "cnName": "瓦拉岗巨锤"
-    },
-    {
-      "enName": "Crushing Mallet",
-      "cnName": "粉碎巨锤"
-    },
-    {
-      "enName": "Devastating Mallet",
-      "cnName": "毁灭巨锤"
-    },
-    {
-      "enName": "Doomsday Maul",
-      "cnName": "末日重锤"
-    },
-    {
-      "enName": "Conflict Maul",
-      "cnName": "战争重锤"
-    },
-    {
-      "enName": "Vindicator Maul",
-      "cnName": "裁决重锤"
-    },
-    {
-      "enName": "Vanquisher Mallet",
-      "cnName": "扫荡巨锤"
-    },
-    {
-      "enName": "Platinum Mallet",
-      "cnName": "白金巨锤"
-    },
-    {
-      "enName": "Lava Maul",
-      "cnName": "熔岩重锤"
-    },
-    {
-      "enName": "Crumbling Maul",
-      "cnName": "崩山重锤"
-    },
-    {
-      "enName": "Destroyer Mallet",
-      "cnName": "毁灭者巨锤"
-    },
-    {
-      "enName": "Forger%27s Maul",
-      "cnName": "锻神者重锤"
-    },
-    {
-      "enName": "Sierra Reverberation Maul",
-      "cnName": "群山回响重锤"
-    },
-    {
-      "enName": "Incorrect Arbitration",
-      "cnName": "错误仲裁"
-    },
-    {
-      "enName": "Incorrect Arbitration",
-      "cnName": "错误仲裁"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    }
+    { "enName": "Incorrect Arbitration", "cnName": "错误仲裁" },
+    { "enName": "Incorrect Arbitration", "cnName": "错误仲裁" },
+    { "enName": "Crude Iron Maul", "cnName": "粗铁重锤" },
+    { "enName": "Hardrock Mallet", "cnName": "坚岩巨锤" },
+    { "enName": "Iron Maul", "cnName": "精铁重锤" },
+    { "enName": "Icefrost Mallet", "cnName": "冰霜巨锤" },
+    { "enName": "Beastfang Mallet", "cnName": "兽牙巨锤" },
+    { "enName": "Scarlet Maul", "cnName": "猩红重锤" },
+    { "enName": "Lonewolf Maul", "cnName": "孤狼重锤" },
+    { "enName": "Valagon Mallet", "cnName": "瓦拉岗巨锤" },
+    { "enName": "Crushing Mallet", "cnName": "粉碎巨锤" },
+    { "enName": "Devastating Mallet", "cnName": "毁灭巨锤" },
+    { "enName": "Doomsday Maul", "cnName": "末日重锤" },
+    { "enName": "Conflict Maul", "cnName": "战争重锤" },
+    { "enName": "Vindicator Maul", "cnName": "裁决重锤" },
+    { "enName": "Vanquisher Mallet", "cnName": "扫荡巨锤" },
+    { "enName": "Platinum Mallet", "cnName": "白金巨锤" },
+    { "enName": "Lava Maul", "cnName": "熔岩重锤" },
+    { "enName": "Crumbling Maul", "cnName": "崩山重锤" },
+    { "enName": "Destroyer Mallet", "cnName": "毁灭者巨锤" },
+    { "enName": "Forger%27s Maul", "cnName": "锻神者重锤" },
+    { "enName": "Sierra Reverberation Maul", "cnName": "群山回响重锤" },
+    { "enName": "Incorrect Arbitration", "cnName": "错误仲裁" },
+    { "enName": "Incorrect Arbitration", "cnName": "错误仲裁" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" }
   ]
 }

@@ -1,269 +1,71 @@
 {
   "equipmentType": "Dagger",
   "baseGears": [
-    {
-      "enName": "Memory",
-      "cnName": "追忆"
-    },
-    {
-      "enName": "Memory",
-      "cnName": "追忆"
-    },
-    {
-      "enName": "Memory",
-      "cnName": "追忆"
-    },
-    {
-      "enName": "Memory",
-      "cnName": "追忆"
-    },
-    {
-      "enName": "Memory",
-      "cnName": "追忆"
-    },
-    {
-      "enName": "Memory",
-      "cnName": "追忆"
-    },
-    {
-      "enName": "Imploration Dagger",
-      "cnName": "求告匕首"
-    },
-    {
-      "enName": "Imploration Dagger",
-      "cnName": "求告匕首"
-    },
-    {
-      "enName": "Imploration Dagger",
-      "cnName": "求告匕首"
-    },
-    {
-      "enName": "Imploration Dagger",
-      "cnName": "求告匕首"
-    },
-    {
-      "enName": "Imploration Dagger",
-      "cnName": "求告匕首"
-    },
-    {
-      "enName": "Shadow of Thunderlight%27s Eyes",
-      "cnName": "雷光绝影的冷眼"
-    },
-    {
-      "enName": "Shadow of Thunderlight%27s Eyes",
-      "cnName": "雷光绝影的冷眼"
-    },
-    {
-      "enName": "Shadow of Thunderlight%27s Eyes",
-      "cnName": "雷光绝影的冷眼"
-    },
-    {
-      "enName": "Shadow of Thunderlight%27s Eyes",
-      "cnName": "雷光绝影的冷眼"
-    },
-    {
-      "enName": "Frantic Shadow",
-      "cnName": "乱影"
-    },
-    {
-      "enName": "Frantic Shadow",
-      "cnName": "乱影"
-    },
-    {
-      "enName": "Frantic Shadow",
-      "cnName": "乱影"
-    },
-    {
-      "enName": "Frantic Shadow",
-      "cnName": "乱影"
-    },
-    {
-      "enName": "Frantic Shadow",
-      "cnName": "乱影"
-    },
-    {
-      "enName": "Frantic Shadow",
-      "cnName": "乱影"
-    },
-    {
-      "enName": "Frantic Shadow",
-      "cnName": "乱影"
-    },
-    {
-      "enName": "Thief Short Dagger",
-      "cnName": "窃贼短匕"
-    },
-    {
-      "enName": "Rusted Dagger",
-      "cnName": "锈斑匕首"
-    },
-    {
-      "enName": "Slaughter Short Dagger",
-      "cnName": "暗卫短匕"
-    },
-    {
-      "enName": "Poisoned Dagger",
-      "cnName": "镀铅匕首"
-    },
-    {
-      "enName": "Assassin Short Dagger",
-      "cnName": "刺客短匕"
-    },
-    {
-      "enName": "Voodoo Dagger",
-      "cnName": "阴蛊匕首"
-    },
-    {
-      "enName": "Resentment Dirk",
-      "cnName": "幽怨长匕"
-    },
-    {
-      "enName": "Violence Short Dagger",
-      "cnName": "凶行短匕"
-    },
-    {
-      "enName": "Nightshade Dagger",
-      "cnName": "夜瘴匕首"
-    },
-    {
-      "enName": "Kingslayer Short Dagger",
-      "cnName": "弑君短匕"
-    },
-    {
-      "enName": "Cursed Dagger",
-      "cnName": "受诅匕首"
-    },
-    {
-      "enName": "Godslaughter Short Dagger",
-      "cnName": "诛灭短匕"
-    },
-    {
-      "enName": "Sorcerer%27s Dagger",
-      "cnName": "巫王匕首"
-    },
-    {
-      "enName": "Hatred Dirk",
-      "cnName": "深恨长匕"
-    },
-    {
-      "enName": "Esoteric Dagger",
-      "cnName": "秘传之匕首"
-    },
-    {
-      "enName": "Illusory Dirk",
-      "cnName": "虚幻长匕"
-    },
-    {
-      "enName": "Disillusion Dagger",
-      "cnName": "幻灭之匕"
-    },
-    {
-      "enName": "Fools%27 Dagger",
-      "cnName": "愚众之匕首"
-    },
-    {
-      "enName": "Blind Faith Dagger",
-      "cnName": "盲信之匕首"
-    },
-    {
-      "enName": "Truth Speaker%27s Dagger",
-      "cnName": "真理喉舌的匕首"
-    },
-    {
-      "enName": "Imploration Dagger",
-      "cnName": "求告匕首"
-    },
-    {
-      "enName": "Memory",
-      "cnName": "追忆"
-    },
-    {
-      "enName": "Shadow of Thunderlight%27s Eyes",
-      "cnName": "雷光绝影的冷眼"
-    },
-    {
-      "enName": "Frantic Shadow",
-      "cnName": "乱影"
-    },
-    {
-      "enName": "Imploration Dagger",
-      "cnName": "求告匕首"
-    },
-    {
-      "enName": "Memory",
-      "cnName": "追忆"
-    },
-    {
-      "enName": "Shadow of Thunderlight%27s Eyes",
-      "cnName": "雷光绝影的冷眼"
-    },
-    {
-      "enName": "Frantic Shadow",
-      "cnName": "乱影"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    }
+    { "enName": "Memory", "cnName": "追忆" },
+    { "enName": "Memory", "cnName": "追忆" },
+    { "enName": "Memory", "cnName": "追忆" },
+    { "enName": "Memory", "cnName": "追忆" },
+    { "enName": "Memory", "cnName": "追忆" },
+    { "enName": "Memory", "cnName": "追忆" },
+    { "enName": "Imploration Dagger", "cnName": "求告匕首" },
+    { "enName": "Imploration Dagger", "cnName": "求告匕首" },
+    { "enName": "Imploration Dagger", "cnName": "求告匕首" },
+    { "enName": "Imploration Dagger", "cnName": "求告匕首" },
+    { "enName": "Imploration Dagger", "cnName": "求告匕首" },
+    { "enName": "Shadow of Thunderlight%27s Eyes", "cnName": "雷光绝影的冷眼" },
+    { "enName": "Shadow of Thunderlight%27s Eyes", "cnName": "雷光绝影的冷眼" },
+    { "enName": "Shadow of Thunderlight%27s Eyes", "cnName": "雷光绝影的冷眼" },
+    { "enName": "Shadow of Thunderlight%27s Eyes", "cnName": "雷光绝影的冷眼" },
+    { "enName": "Frantic Shadow", "cnName": "乱影" },
+    { "enName": "Frantic Shadow", "cnName": "乱影" },
+    { "enName": "Frantic Shadow", "cnName": "乱影" },
+    { "enName": "Frantic Shadow", "cnName": "乱影" },
+    { "enName": "Frantic Shadow", "cnName": "乱影" },
+    { "enName": "Frantic Shadow", "cnName": "乱影" },
+    { "enName": "Frantic Shadow", "cnName": "乱影" },
+    { "enName": "Thief Short Dagger", "cnName": "窃贼短匕" },
+    { "enName": "Rusted Dagger", "cnName": "锈斑匕首" },
+    { "enName": "Slaughter Short Dagger", "cnName": "暗卫短匕" },
+    { "enName": "Poisoned Dagger", "cnName": "镀铅匕首" },
+    { "enName": "Assassin Short Dagger", "cnName": "刺客短匕" },
+    { "enName": "Voodoo Dagger", "cnName": "阴蛊匕首" },
+    { "enName": "Resentment Dirk", "cnName": "幽怨长匕" },
+    { "enName": "Violence Short Dagger", "cnName": "凶行短匕" },
+    { "enName": "Nightshade Dagger", "cnName": "夜瘴匕首" },
+    { "enName": "Kingslayer Short Dagger", "cnName": "弑君短匕" },
+    { "enName": "Cursed Dagger", "cnName": "受诅匕首" },
+    { "enName": "Godslaughter Short Dagger", "cnName": "诛灭短匕" },
+    { "enName": "Sorcerer%27s Dagger", "cnName": "巫王匕首" },
+    { "enName": "Hatred Dirk", "cnName": "深恨长匕" },
+    { "enName": "Esoteric Dagger", "cnName": "秘传之匕首" },
+    { "enName": "Illusory Dirk", "cnName": "虚幻长匕" },
+    { "enName": "Disillusion Dagger", "cnName": "幻灭之匕" },
+    { "enName": "Fools%27 Dagger", "cnName": "愚众之匕首" },
+    { "enName": "Blind Faith Dagger", "cnName": "盲信之匕首" },
+    { "enName": "Truth Speaker%27s Dagger", "cnName": "真理喉舌的匕首" },
+    { "enName": "Imploration Dagger", "cnName": "求告匕首" },
+    { "enName": "Memory", "cnName": "追忆" },
+    { "enName": "Shadow of Thunderlight%27s Eyes", "cnName": "雷光绝影的冷眼" },
+    { "enName": "Frantic Shadow", "cnName": "乱影" },
+    { "enName": "Imploration Dagger", "cnName": "求告匕首" },
+    { "enName": "Memory", "cnName": "追忆" },
+    { "enName": "Shadow of Thunderlight%27s Eyes", "cnName": "雷光绝影的冷眼" },
+    { "enName": "Frantic Shadow", "cnName": "乱影" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" }
   ]
 }

@@ -1,177 +1,48 @@
 {
   "equipmentType": "Cane",
   "baseGears": [
-    {
-      "enName": "Twisted Branch",
-      "cnName": "寒枝扭结"
-    },
-    {
-      "enName": "Twisted Branch",
-      "cnName": "寒枝扭结"
-    },
-    {
-      "enName": "Twisted Branch",
-      "cnName": "寒枝扭结"
-    },
-    {
-      "enName": "Twisted Branch",
-      "cnName": "寒枝扭结"
-    },
-    {
-      "enName": "Twisted Branch",
-      "cnName": "寒枝扭结"
-    },
-    {
-      "enName": "Wayfarer Cane",
-      "cnName": "云游者手杖"
-    },
-    {
-      "enName": "Rambone Cane",
-      "cnName": "羊骨手杖"
-    },
-    {
-      "enName": "Witness Cane",
-      "cnName": "见证者手杖"
-    },
-    {
-      "enName": "Snake-scale Cane",
-      "cnName": "蛇鳞手杖"
-    },
-    {
-      "enName": "Recluse Cane",
-      "cnName": "遁世者手杖"
-    },
-    {
-      "enName": "Wolf Fang Cane",
-      "cnName": "狼齿手杖"
-    },
-    {
-      "enName": "Omen Short Staff",
-      "cnName": "预兆短杖"
-    },
-    {
-      "enName": "Thinker Cane",
-      "cnName": "覃思者手杖"
-    },
-    {
-      "enName": "Leopard Jaw Cane",
-      "cnName": "豹颚手杖"
-    },
-    {
-      "enName": "Traitor Cane",
-      "cnName": "叛道者手杖"
-    },
-    {
-      "enName": "Lion Heart Cane",
-      "cnName": "狮心手杖"
-    },
-    {
-      "enName": "Villain Cane",
-      "cnName": "邪心者手杖"
-    },
-    {
-      "enName": "Dragonblood Cane",
-      "cnName": "龙鳞手杖"
-    },
-    {
-      "enName": "Foreshadow Short Staff",
-      "cnName": "噩兆短杖"
-    },
-    {
-      "enName": "Esoteric Cane",
-      "cnName": "秘传之手杖"
-    },
-    {
-      "enName": "Fallen Pactspirital Short Staff",
-      "cnName": "落花短杖"
-    },
-    {
-      "enName": "Obsidian Cane",
-      "cnName": "黑曜石手杖"
-    },
-    {
-      "enName": "Blue Amber Cane",
-      "cnName": "蓝纹琥珀手杖"
-    },
-    {
-      "enName": "Glimmering Fluorite Cane",
-      "cnName": "微光萤石手杖"
-    },
-    {
-      "enName": "Sleeping Sage%27s Cane",
-      "cnName": "安眠贤者的手杖"
-    },
-    {
-      "enName": "Twisted Branch",
-      "cnName": "寒枝扭结"
-    },
-    {
-      "enName": "Twisted Branch",
-      "cnName": "寒枝扭结"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    }
+    { "enName": "Twisted Branch", "cnName": "寒枝扭结" },
+    { "enName": "Twisted Branch", "cnName": "寒枝扭结" },
+    { "enName": "Twisted Branch", "cnName": "寒枝扭结" },
+    { "enName": "Twisted Branch", "cnName": "寒枝扭结" },
+    { "enName": "Twisted Branch", "cnName": "寒枝扭结" },
+    { "enName": "Wayfarer Cane", "cnName": "云游者手杖" },
+    { "enName": "Rambone Cane", "cnName": "羊骨手杖" },
+    { "enName": "Witness Cane", "cnName": "见证者手杖" },
+    { "enName": "Snake-scale Cane", "cnName": "蛇鳞手杖" },
+    { "enName": "Recluse Cane", "cnName": "遁世者手杖" },
+    { "enName": "Wolf Fang Cane", "cnName": "狼齿手杖" },
+    { "enName": "Omen Short Staff", "cnName": "预兆短杖" },
+    { "enName": "Thinker Cane", "cnName": "覃思者手杖" },
+    { "enName": "Leopard Jaw Cane", "cnName": "豹颚手杖" },
+    { "enName": "Traitor Cane", "cnName": "叛道者手杖" },
+    { "enName": "Lion Heart Cane", "cnName": "狮心手杖" },
+    { "enName": "Villain Cane", "cnName": "邪心者手杖" },
+    { "enName": "Dragonblood Cane", "cnName": "龙鳞手杖" },
+    { "enName": "Foreshadow Short Staff", "cnName": "噩兆短杖" },
+    { "enName": "Esoteric Cane", "cnName": "秘传之手杖" },
+    { "enName": "Fallen Pactspirital Short Staff", "cnName": "落花短杖" },
+    { "enName": "Obsidian Cane", "cnName": "黑曜石手杖" },
+    { "enName": "Blue Amber Cane", "cnName": "蓝纹琥珀手杖" },
+    { "enName": "Glimmering Fluorite Cane", "cnName": "微光萤石手杖" },
+    { "enName": "Sleeping Sage%27s Cane", "cnName": "安眠贤者的手杖" },
+    { "enName": "Twisted Branch", "cnName": "寒枝扭结" },
+    { "enName": "Twisted Branch", "cnName": "寒枝扭结" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" }
   ]
 }

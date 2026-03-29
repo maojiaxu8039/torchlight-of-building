@@ -3,13 +3,19 @@ const fs = require("fs");
 const path = require("path");
 
 function fetchUrl(url) {
-  return new Promise(function(resolve, reject) {
-    https.get(url, function(res) {
-      let data = "";
-      res.on("data", function(chunk) { data += chunk; });
-      res.on("end", function() { resolve(data); });
-      res.on("error", reject);
-    }).on("error", reject);
+  return new Promise((resolve, reject) => {
+    https
+      .get(url, (res) => {
+        let data = "";
+        res.on("data", (chunk) => {
+          data += chunk;
+        });
+        res.on("end", () => {
+          resolve(data);
+        });
+        res.on("error", reject);
+      })
+      .on("error", reject);
   });
 }
 
@@ -93,52 +99,57 @@ async function scrapePage(equipment) {
       fetchUrl("https://tlidb.com/en/" + equipment.slug),
       fetchUrl("https://tlidb.com/cn/" + equipment.slug),
     ]);
-    
+
     if (enHtml.length < 1000 || cnHtml.length < 1000) {
       return { affixes: [], translations: {} };
     }
-    
+
     const enById = {};
     const cnById = {};
-    
+
     const rowRegex = /<tr[^>]*>([\s\S]*?)<\/tr>/gi;
     let rowMatch;
-    
+
     while ((rowMatch = rowRegex.exec(enHtml)) !== null) {
       const row = rowMatch[1];
       const tdRegex = /<td[^>]*>([\s\S]*?)<\/td>/gi;
       const cells = [];
       let tdMatch;
-      
+
       while ((tdMatch = tdRegex.exec(row)) !== null) {
         cells.push(cleanText(tdMatch[1]));
       }
-      
+
       if (cells.length >= 3) {
         const idMatch = row.match(/data-modifier-id="(\d+)"/);
         const affixText = cells[0];
         const affixType = getAffixType(cells[2]);
-        
-        if (idMatch && affixText && affixType && !affixText.includes("Affix Effect")) {
-          enById[idMatch[1]] = { 
-            affix: affixText, 
-            type: affixType.includes("Prefix") ? "Prefix" : "Suffix", 
-            pool: getCraftingPool(cells[2]) 
+
+        if (
+          idMatch &&
+          affixText &&
+          affixType &&
+          !affixText.includes("Affix Effect")
+        ) {
+          enById[idMatch[1]] = {
+            affix: affixText,
+            type: affixType.includes("Prefix") ? "Prefix" : "Suffix",
+            pool: getCraftingPool(cells[2]),
           };
         }
       }
     }
-    
+
     while ((rowMatch = rowRegex.exec(cnHtml)) !== null) {
       const row = rowMatch[1];
       const tdRegex = /<td[^>]*>([\s\S]*?)<\/td>/gi;
       const cells = [];
       let tdMatch;
-      
+
       while ((tdMatch = tdRegex.exec(row)) !== null) {
         cells.push(cleanText(tdMatch[1]));
       }
-      
+
       if (cells.length >= 1) {
         const idMatch = row.match(/data-modifier-id="(\d+)"/);
         if (idMatch && cells[0]) {
@@ -146,14 +157,14 @@ async function scrapePage(equipment) {
         }
       }
     }
-    
+
     const affixes = [];
     const translations = {};
-    
-    Object.entries(enById).forEach(function(entry) {
+
+    Object.entries(enById).forEach((entry) => {
       const id = entry[0];
       const data = entry[1];
-      
+
       affixes.push({
         equipmentSlot: equipment.slot,
         equipmentType: equipment.type,
@@ -162,12 +173,12 @@ async function scrapePage(equipment) {
         tier: "1",
         craftableAffix: data.affix,
       });
-      
+
       if (cnById[id] && cnById[id] !== data.affix) {
         translations[data.affix] = cnById[id];
       }
     });
-    
+
     return { affixes, translations };
   } catch (e) {
     return { affixes: [], translations: {} };
@@ -176,78 +187,108 @@ async function scrapePage(equipment) {
 
 async function main() {
   console.log("=== 抓取 Prefix/Suffix 完整数据 ===\n");
-  
-  const outputDir = path.join(__dirname, "../src/data/gear-affix-prefix-suffix");
+
+  const outputDir = path.join(
+    __dirname,
+    "../src/data/gear-affix-prefix-suffix",
+  );
   if (fs.existsSync(outputDir)) {
     fs.rmSync(outputDir, { recursive: true });
   }
   fs.mkdirSync(outputDir);
-  
+
   const allTranslations = {};
   let totalAffixes = 0;
   let totalTranslations = 0;
-  
+
   // 按类型分组
   const byTypeAndEquipment = {};
-  
+
   for (let i = 0; i < equipmentList.length; i++) {
     const equipment = equipmentList[i];
-    
-    process.stdout.write("[" + (i + 1) + "/" + equipmentList.length + "] " + equipment.type + "... ");
-    
+
+    process.stdout.write(
+      "[" +
+        (i + 1) +
+        "/" +
+        equipmentList.length +
+        "] " +
+        equipment.type +
+        "... ",
+    );
+
     const result = await scrapePage(equipment);
-    
+
     totalAffixes += result.affixes.length;
     console.log(result.affixes.length + " 词缀");
-    
+
     // 按装备和类型分组
-    result.affixes.forEach(function(a) {
+    result.affixes.forEach((a) => {
       const key = equipment.type + "-" + a.affixType;
       if (!byTypeAndEquipment[key]) byTypeAndEquipment[key] = [];
       byTypeAndEquipment[key].push(a);
     });
-    
+
     Object.assign(allTranslations, result.translations);
     totalTranslations = Object.keys(allTranslations).length;
-    
-    await new Promise(function(r) { setTimeout(r, 100); });
+
+    await new Promise((r) => {
+      setTimeout(r, 100);
+    });
   }
-  
+
   // 生成文件
-  Object.entries(byTypeAndEquipment).forEach(function(entry) {
+  Object.entries(byTypeAndEquipment).forEach((entry) => {
     const key = entry[0];
     const items = entry[1];
     const [eqType, affixType] = key.split("-");
-    
-    const fileName = eqType.toLowerCase() + "-" + affixType.toLowerCase() + ".ts";
-    const exportName = eqType.toUpperCase().replace(/-/g, "_") + "_" + affixType.toUpperCase() + "_AFFIXES";
-    
+
+    const fileName =
+      eqType.toLowerCase() + "-" + affixType.toLowerCase() + ".ts";
+    const exportName =
+      eqType.toUpperCase().replace(/-/g, "_") +
+      "_" +
+      affixType.toUpperCase() +
+      "_AFFIXES";
+
     let content = "// Auto-generated from tlidb.com\n";
-    content += "import type { BaseGearAffix } from \"../../tli/gear-data-types\";\n\n";
-    content += "export const " + exportName + ": readonly BaseGearAffix[] = [\n";
-    
-    items.forEach(function(item) {
+    content +=
+      'import type { BaseGearAffix } from "../../tli/gear-data-types";\n\n';
+    content +=
+      "export const " + exportName + ": readonly BaseGearAffix[] = [\n";
+
+    items.forEach((item) => {
       content += "  {\n";
-      content += "    equipmentSlot: \"" + item.equipmentSlot + "\",\n";
-      content += "    equipmentType: \"" + item.equipmentType + "\",\n";
-      content += "    affixType: \"" + item.affixType + "\",\n";
-      content += "    craftingPool: \"" + item.craftingPool + "\",\n";
-      content += "    tier: \"" + item.tier + "\",\n";
-      content += "    craftableAffix: \"" + item.craftableAffix.replace(/"/g, '\\"') + "\",\n";
+      content += '    equipmentSlot: "' + item.equipmentSlot + '",\n';
+      content += '    equipmentType: "' + item.equipmentType + '",\n';
+      content += '    affixType: "' + item.affixType + '",\n';
+      content += '    craftingPool: "' + item.craftingPool + '",\n';
+      content += '    tier: "' + item.tier + '",\n';
+      content +=
+        '    craftableAffix: "' +
+        item.craftableAffix.replace(/"/g, '\\"') +
+        '",\n';
       content += "  },\n";
     });
-    
+
     content += "] as const;\n";
-    
+
     fs.writeFileSync(path.join(outputDir, fileName), content);
   });
-  
+
   // 保存翻译
-  const sortedTranslations = Object.entries(allTranslations).sort(function(a, b) { return b[0].length - a[0].length; });
+  const sortedTranslations = Object.entries(allTranslations).sort(
+    (a, b) => b[0].length - a[0].length,
+  );
   const resultTranslations = {};
-  sortedTranslations.forEach(function(entry) { resultTranslations[entry[0]] = entry[1]; });
-  fs.writeFileSync("src/data/translated-affixes/merged-all-translations.json", JSON.stringify(resultTranslations, null, 2));
-  
+  sortedTranslations.forEach((entry) => {
+    resultTranslations[entry[0]] = entry[1];
+  });
+  fs.writeFileSync(
+    "src/data/translated-affixes/merged-all-translations.json",
+    JSON.stringify(resultTranslations, null, 2),
+  );
+
   console.log("\n=== 统计 ===");
   console.log("总词缀: " + totalAffixes);
   console.log("总翻译: " + totalTranslations);

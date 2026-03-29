@@ -1,197 +1,53 @@
 {
   "equipmentType": "Tin_Staff",
   "baseGears": [
-    {
-      "enName": "Scorching Tempo",
-      "cnName": "狂热节奏"
-    },
-    {
-      "enName": "Scorching Tempo",
-      "cnName": "狂热节奏"
-    },
-    {
-      "enName": "Scorching Tempo",
-      "cnName": "狂热节奏"
-    },
-    {
-      "enName": "Scorching Tempo",
-      "cnName": "狂热节奏"
-    },
-    {
-      "enName": "Sage%27s Foresight",
-      "cnName": "智者远见"
-    },
-    {
-      "enName": "Sage%27s Foresight",
-      "cnName": "智者远见"
-    },
-    {
-      "enName": "Sage%27s Foresight",
-      "cnName": "智者远见"
-    },
-    {
-      "enName": "Sage%27s Foresight",
-      "cnName": "智者远见"
-    },
-    {
-      "enName": "Withervine Staff",
-      "cnName": "枯藤长杖"
-    },
-    {
-      "enName": "Bonewood Staff",
-      "cnName": "骨木长杖"
-    },
-    {
-      "enName": "Ivory Staff",
-      "cnName": "象牙长杖"
-    },
-    {
-      "enName": "Iron Staff",
-      "cnName": "精铁长杖"
-    },
-    {
-      "enName": "Viper Staff",
-      "cnName": "蝮蛇长杖"
-    },
-    {
-      "enName": "Gilt Staff",
-      "cnName": "鎏金长杖"
-    },
-    {
-      "enName": "Flower Sea Staff",
-      "cnName": "花海长杖"
-    },
-    {
-      "enName": "Monkey Staff",
-      "cnName": "灵猴长杖"
-    },
-    {
-      "enName": "White Crystal Staff",
-      "cnName": "白晶长杖"
-    },
-    {
-      "enName": "Black Feather Staff",
-      "cnName": "黑羽长杖"
-    },
-    {
-      "enName": "Twilight Staff",
-      "cnName": "暮色长杖"
-    },
-    {
-      "enName": "Voodoo Staff",
-      "cnName": "巫灵长杖"
-    },
-    {
-      "enName": "Sage%27s Staff",
-      "cnName": "贤者长杖"
-    },
-    {
-      "enName": "Devout Staff",
-      "cnName": "虔诚长杖"
-    },
-    {
-      "enName": "Wind God%27s Staff",
-      "cnName": "风神长杖"
-    },
-    {
-      "enName": "Warden%27s Staff",
-      "cnName": "狱卒长杖"
-    },
-    {
-      "enName": "Divinity Staff",
-      "cnName": "神权长杖"
-    },
-    {
-      "enName": "Southern Cross Staff",
-      "cnName": "南十字长杖"
-    },
-    {
-      "enName": "Centaur Staff",
-      "cnName": "半人马长杖"
-    },
-    {
-      "enName": "First Man%27s Scepter",
-      "cnName": "最初之人的权杖"
-    },
-    {
-      "enName": "Sage%27s Foresight",
-      "cnName": "智者远见"
-    },
-    {
-      "enName": "Scorching Tempo",
-      "cnName": "狂热节奏"
-    },
-    {
-      "enName": "Sage%27s Foresight",
-      "cnName": "智者远见"
-    },
-    {
-      "enName": "Scorching Tempo",
-      "cnName": "狂热节奏"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    }
+    { "enName": "Scorching Tempo", "cnName": "狂热节奏" },
+    { "enName": "Scorching Tempo", "cnName": "狂热节奏" },
+    { "enName": "Scorching Tempo", "cnName": "狂热节奏" },
+    { "enName": "Scorching Tempo", "cnName": "狂热节奏" },
+    { "enName": "Sage%27s Foresight", "cnName": "智者远见" },
+    { "enName": "Sage%27s Foresight", "cnName": "智者远见" },
+    { "enName": "Sage%27s Foresight", "cnName": "智者远见" },
+    { "enName": "Sage%27s Foresight", "cnName": "智者远见" },
+    { "enName": "Withervine Staff", "cnName": "枯藤长杖" },
+    { "enName": "Bonewood Staff", "cnName": "骨木长杖" },
+    { "enName": "Ivory Staff", "cnName": "象牙长杖" },
+    { "enName": "Iron Staff", "cnName": "精铁长杖" },
+    { "enName": "Viper Staff", "cnName": "蝮蛇长杖" },
+    { "enName": "Gilt Staff", "cnName": "鎏金长杖" },
+    { "enName": "Flower Sea Staff", "cnName": "花海长杖" },
+    { "enName": "Monkey Staff", "cnName": "灵猴长杖" },
+    { "enName": "White Crystal Staff", "cnName": "白晶长杖" },
+    { "enName": "Black Feather Staff", "cnName": "黑羽长杖" },
+    { "enName": "Twilight Staff", "cnName": "暮色长杖" },
+    { "enName": "Voodoo Staff", "cnName": "巫灵长杖" },
+    { "enName": "Sage%27s Staff", "cnName": "贤者长杖" },
+    { "enName": "Devout Staff", "cnName": "虔诚长杖" },
+    { "enName": "Wind God%27s Staff", "cnName": "风神长杖" },
+    { "enName": "Warden%27s Staff", "cnName": "狱卒长杖" },
+    { "enName": "Divinity Staff", "cnName": "神权长杖" },
+    { "enName": "Southern Cross Staff", "cnName": "南十字长杖" },
+    { "enName": "Centaur Staff", "cnName": "半人马长杖" },
+    { "enName": "First Man%27s Scepter", "cnName": "最初之人的权杖" },
+    { "enName": "Sage%27s Foresight", "cnName": "智者远见" },
+    { "enName": "Scorching Tempo", "cnName": "狂热节奏" },
+    { "enName": "Sage%27s Foresight", "cnName": "智者远见" },
+    { "enName": "Scorching Tempo", "cnName": "狂热节奏" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" }
   ]
 }

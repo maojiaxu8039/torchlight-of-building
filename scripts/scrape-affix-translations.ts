@@ -1,53 +1,52 @@
-import * as cheerio from 'cheerio';
-import * as fs from 'fs';
-import * as path from 'path';
-import { fileURLToPath } from 'url';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+import { writeFileSync } from "node:fs";
+import { join } from "node:path";
 
 const EQUIPMENT_TYPES = [
-  'Belt',
-  'Boots',
-  'Helmet',
-  'Gloves',
-  'Chest',
-  'Necklace',
-  'Ring',
-  'One-Handed_Sword',
-  'Two-Handed_Sword',
-  'One-Handed_Axe',
-  'Two-Handed_Axe',
-  'One-Handed_Hammer',
-  'Two-Handed_Hammer',
-  'Dagger',
-  'Wand',
-  'Staff',
-  'Bow',
-  'Crossbow',
-  'Pistol',
-  'Musket',
-  'Cane',
-  'Shield',
-  'Claw',
-  'Rod',
-  'Scepter',
-  'Fire_Cannon',
+  "Belt",
+  "DEX_Boots",
+  "INT_Boots",
+  "STR_Boots",
+  "Bow",
+  "Cane",
+  "DEX_Chest_Armor",
+  "INT_Chest_Armor",
+  "STR_Chest_Armor",
+  "Claw",
+  "Crossbow",
+  "Cudgel",
+  "Dagger",
+  "Fire_Cannon",
+  "DEX_Gloves",
+  "INT_Gloves",
+  "STR_Gloves",
+  "DEX_Helmet",
+  "INT_Helmet",
+  "STR_Helmet",
+  "Musket",
+  "Necklace",
+  "One-Handed_Axe",
+  "One-Handed_Hammer",
+  "One-Handed_Sword",
+  "Pistol",
+  "Ring",
+  "Rod",
+  "Scepter",
+  "DEX_Shield",
+  "INT_Shield",
+  "STR_Shield",
+  "Spirit_Ring",
+  "Tin_Staff",
+  "Two-Handed_Axe",
+  "Two-Handed_Hammer",
+  "Two-Handed_Sword",
+  "Wand",
 ];
 
-interface AffixTranslation {
-  modifierId: string;
-  enText: string;
-  cnText: string;
-}
-
-interface EquipmentAffixTranslations {
-  equipmentType: string;
-  affixes: AffixTranslation[];
+interface ModifierData {
+  [modifierId: string]: string;
 }
 
 async function fetchPage(url: string): Promise<string> {
-  console.log(`Fetching: ${url}`);
   const response = await fetch(url);
   if (!response.ok) {
     throw new Error(`Failed to fetch ${url}: ${response.status}`);
@@ -55,113 +54,166 @@ async function fetchPage(url: string): Promise<string> {
   return response.text();
 }
 
-function extractAffixes(html: string): Map<string, string> {
-  const $ = cheerio.load(html);
-  const affixes = new Map<string, string>();
+function parseModifiers(html: string): ModifierData {
+  const modifiers: ModifierData = {};
 
-  $('[data-modifier-id]').each((_, elem) => {
-    const modifierId = $(elem).attr('data-modifier-id');
-    if (modifierId) {
-      const text = $(elem).text()
-        .replace(/\s+/g, ' ')
-        .trim();
-      if (!affixes.has(modifierId)) {
-        affixes.set(modifierId, text);
-      }
+  const regex = /data-modifier-id="(\d+)"[^>]*>([\s\S]*?)<\/span>([^<]*)/gi;
+  let match;
+
+  while ((match = regex.exec(html)) !== null) {
+    const modifierId = match[1];
+    const textMod = match[2];
+    const suffix = match[3];
+
+    let valueText = textMod.replace(/<[^>]+>/g, "");
+    valueText = valueText.replace(/&ndash;/g, "-");
+    valueText = valueText.replace(/&amp;/g, "&");
+
+    let fullText = valueText + suffix;
+    fullText = fullText.replace(/\s+/g, " ").trim();
+    fullText = fullText.replace(/&nbsp;/g, " ");
+    fullText = fullText.replace(/\u2013/g, "-");
+    fullText = fullText.replace(/\u2014/g, "-");
+
+    if (fullText) {
+      modifiers[modifierId] = fullText;
     }
-  });
+  }
 
-  return affixes;
+  return modifiers;
 }
 
 async function scrapeEquipmentType(
-  equipmentType: string,
-  outputDir: string
-): Promise<EquipmentAffixTranslations> {
-  const enUrl = `https://tlidb.com/en/${equipmentType}`;
-  const cnUrl = `https://tlidb.com/cn/${equipmentType}`;
+  type: string,
+): Promise<{
+  type: string;
+  enCount: number;
+  cnCount: number;
+  matched: number;
+  enModifiers: ModifierData;
+  cnModifiers: ModifierData;
+}> {
+  const enUrl = `https://tlidb.com/en/${type}`;
+  const cnUrl = `https://tlidb.com/cn/${type}`;
 
   const [enHtml, cnHtml] = await Promise.all([
-    fetchPage(enUrl),
-    fetchPage(cnUrl),
+    fetchPage(enUrl).catch((e) => {
+      console.log(`  ⚠️  EN error: ${e.message}`);
+      return "";
+    }),
+    fetchPage(cnUrl).catch((e) => {
+      console.log(`  ⚠️  CN error: ${e.message}`);
+      return "";
+    }),
   ]);
 
-  const enAffixes = extractAffixes(enHtml);
-  const cnAffixes = extractAffixes(cnHtml);
+  const enModifiers = parseModifiers(enHtml);
+  const cnModifiers = parseModifiers(cnHtml);
 
-  const affixes: AffixTranslation[] = [];
-
-  enAffixes.forEach((enText, modifierId) => {
-    const cnText = cnAffixes.get(modifierId);
-    if (cnText) {
-      affixes.push({
-        modifierId,
-        enText,
-        cnText,
-      });
+  let matched = 0;
+  Object.keys(enModifiers).forEach((id) => {
+    if (cnModifiers[id]) {
+      matched++;
     }
   });
 
-  const result: EquipmentAffixTranslations = {
-    equipmentType,
-    affixes,
-  };
-
-  const outputFile = path.join(outputDir, `${equipmentType.toLowerCase()}.json`);
-  fs.writeFileSync(outputFile, JSON.stringify(result, null, 2), 'utf-8');
-  console.log(`Saved: ${outputFile} (${affixes.length} affixes)`);
-
-  return result;
-}
-
-async function scrapeAllAffixes(): Promise<void> {
-  const outputDir = path.join(__dirname, '../src/data/translated-affixes');
-
-  if (!fs.existsSync(outputDir)) {
-    fs.mkdirSync(outputDir, { recursive: true });
-  }
-
-  console.log('Starting to scrape affix translations...\n');
-
-  const allTranslations: EquipmentAffixTranslations[] = [];
-
-  for (const equipmentType of EQUIPMENT_TYPES) {
-    try {
-      const result = await scrapeEquipmentType(equipmentType, outputDir);
-      allTranslations.push(result);
-    } catch (error) {
-      console.error(`Error scraping ${equipmentType}:`, error);
-    }
-  }
-
-  const combinedOutputFile = path.join(outputDir, 'all-affix-translations.json');
-  fs.writeFileSync(combinedOutputFile, JSON.stringify(allTranslations, null, 2), 'utf-8');
-  console.log(`\nSaved combined file: ${combinedOutputFile}`);
-
-  const uniqueTranslations = new Map<string, { en: string; cn: string }>();
-  allTranslations.forEach(equipment => {
-    equipment.affixes.forEach(affix => {
-      if (!uniqueTranslations.has(affix.modifierId)) {
-        uniqueTranslations.set(affix.modifierId, {
-          en: affix.enText,
-          cn: affix.cnText,
-        });
-      }
-    });
-  });
-
-  const uniqueOutputFile = path.join(outputDir, 'unique-translations.json');
-  fs.writeFileSync(
-    uniqueOutputFile,
-    JSON.stringify(Object.fromEntries(uniqueTranslations), null, 2),
-    'utf-8'
+  console.log(
+    `📦 ${type}: EN ${Object.keys(enModifiers).length}, CN ${Object.keys(cnModifiers).length}, Matched ${matched}`,
   );
-  console.log(`Saved unique translations: ${uniqueOutputFile} (${uniqueTranslations.size} unique)`);
 
-  console.log('\n=== Summary ===');
-  console.log(`Total equipment types: ${allTranslations.length}`);
-  console.log(`Total affixes (with duplicates): ${allTranslations.reduce((sum, e) => sum + e.affixes.length, 0)}`);
-  console.log(`Unique affixes: ${uniqueTranslations.size}`);
+  return {
+    type,
+    enCount: Object.keys(enModifiers).length,
+    cnCount: Object.keys(cnModifiers).length,
+    matched,
+    enModifiers,
+    cnModifiers,
+  };
 }
 
-scrapeAllAffixes().catch(console.error);
+async function main() {
+  console.log("🚀 Starting affix translation scrape\n");
+  console.log("=".repeat(60));
+
+  const allTranslations: Record<string, string> = {};
+  const incompleteTranslations: string[] = [];
+  const enOnly: { type: string; id: string; text: string }[] = [];
+  const cnOnly: { type: string; id: string; text: string }[] = [];
+
+  let totalEn = 0;
+  let totalCn = 0;
+  let totalMatched = 0;
+
+  for (const type of EQUIPMENT_TYPES) {
+    try {
+      const result = await scrapeEquipmentType(type);
+      totalEn += result.enCount;
+      totalCn += result.cnCount;
+      totalMatched += result.matched;
+
+      Object.entries(result.enModifiers).forEach(([id, enText]) => {
+        if (result.cnModifiers[id]) {
+          allTranslations[enText] = result.cnModifiers[id];
+        } else {
+          incompleteTranslations.push(enText);
+          enOnly.push({ type, id, text: enText });
+        }
+      });
+
+      Object.entries(result.cnModifiers).forEach(([id, cnText]) => {
+        if (!result.enModifiers[id]) {
+          cnOnly.push({ type, id, text: cnText });
+        }
+      });
+    } catch (error) {
+      console.error(`Error processing ${type}:`, error);
+    }
+  }
+
+  console.log("\n" + "=".repeat(60));
+  console.log("\n📊 Summary:");
+  console.log(`   Total EN modifiers: ${totalEn}`);
+  console.log(`   Total CN modifiers: ${totalCn}`);
+  console.log(`   Matched: ${totalMatched}`);
+  console.log(`   Unique translations: ${Object.keys(allTranslations).length}`);
+  console.log(`   Incomplete (EN only): ${incompleteTranslations.length}`);
+  console.log(`   CN only: ${cnOnly.length}`);
+
+  const scriptsDir = join(process.cwd(), "scripts");
+
+  const translationsFile = join(scriptsDir, "scraped-translations.json");
+  writeFileSync(
+    translationsFile,
+    JSON.stringify(allTranslations, null, 2),
+    "utf-8",
+  );
+  console.log(`\n✅ Saved translations to ${translationsFile}`);
+
+  const incompleteFile = join(scriptsDir, "incomplete-translations.json");
+  writeFileSync(
+    incompleteFile,
+    JSON.stringify(incompleteTranslations, null, 2),
+    "utf-8",
+  );
+  console.log(`✅ Saved incomplete to ${incompleteFile}`);
+
+  const enOnlyFile = join(scriptsDir, "en-only-modifiers.json");
+  writeFileSync(enOnlyFile, JSON.stringify(enOnly, null, 2), "utf-8");
+  console.log(`✅ Saved EN-only to ${enOnlyFile}`);
+
+  const cnOnlyFile = join(scriptsDir, "cn-only-modifiers.json");
+  writeFileSync(cnOnlyFile, JSON.stringify(cnOnly, null, 2), "utf-8");
+  console.log(`✅ Saved CN-only to ${cnOnlyFile}`);
+
+  if (enOnly.length > 0) {
+    console.log("\n" + "=".repeat(60));
+    console.log("\n⚠️  Sample EN-only modifiers (first 20):");
+    enOnly.slice(0, 20).forEach((item) => {
+      console.log(`   [${item.type}] ${item.text}`);
+    });
+  }
+
+  console.log("\n✅ Scrape complete!");
+}
+
+main().catch(console.error);

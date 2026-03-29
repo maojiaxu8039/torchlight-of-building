@@ -102,7 +102,9 @@ function SkillsPage(): React.ReactNode {
       </div>
 
       <div>
-        <h2 className="mb-4 text-xl font-bold text-zinc-50"><Trans>Passive Skills</Trans></h2>
+        <h2 className="mb-4 text-xl font-bold text-zinc-50">
+          <Trans>Passive Skills</Trans>
+        </h2>
 
         <div className="space-y-3">
           {PASSIVE_SKILL_SLOT_KEYS.map((slotKey) => (

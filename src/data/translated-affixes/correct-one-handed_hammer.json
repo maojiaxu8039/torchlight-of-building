@@ -1,297 +1,78 @@
 {
   "equipmentType": "One-Handed_Hammer",
   "baseGears": [
-    {
-      "enName": "Scorching Words",
-      "cnName": "炽热真言"
-    },
-    {
-      "enName": "Scorching Words",
-      "cnName": "炽热真言"
-    },
-    {
-      "enName": "Scorching Words",
-      "cnName": "炽热真言"
-    },
-    {
-      "enName": "Scorching Words",
-      "cnName": "炽热真言"
-    },
-    {
-      "enName": "Scorching Words",
-      "cnName": "炽热真言"
-    },
-    {
-      "enName": "Misube%27s Refusal",
-      "cnName": "密修比的拒绝"
-    },
-    {
-      "enName": "Misube%27s Refusal",
-      "cnName": "密修比的拒绝"
-    },
-    {
-      "enName": "Misube%27s Refusal",
-      "cnName": "密修比的拒绝"
-    },
-    {
-      "enName": "Misube%27s Refusal",
-      "cnName": "密修比的拒绝"
-    },
-    {
-      "enName": "Misube%27s Refusal",
-      "cnName": "密修比的拒绝"
-    },
-    {
-      "enName": "Steel Stagnation",
-      "cnName": "钢铁凝滞"
-    },
-    {
-      "enName": "Steel Stagnation",
-      "cnName": "钢铁凝滞"
-    },
-    {
-      "enName": "Steel Stagnation",
-      "cnName": "钢铁凝滞"
-    },
-    {
-      "enName": "Steel Stagnation",
-      "cnName": "钢铁凝滞"
-    },
-    {
-      "enName": "Steel Stagnation",
-      "cnName": "钢铁凝滞"
-    },
-    {
-      "enName": "Frozen Will",
-      "cnName": "冰封之志"
-    },
-    {
-      "enName": "Frozen Will",
-      "cnName": "冰封之志"
-    },
-    {
-      "enName": "Frozen Will",
-      "cnName": "冰封之志"
-    },
-    {
-      "enName": "Frozen Will",
-      "cnName": "冰封之志"
-    },
-    {
-      "enName": "Frozen Will",
-      "cnName": "冰封之志"
-    },
-    {
-      "enName": "Frozen Will",
-      "cnName": "冰封之志"
-    },
-    {
-      "enName": "Interlocking Soul",
-      "cnName": "灵魂交错"
-    },
-    {
-      "enName": "Interlocking Soul",
-      "cnName": "灵魂交错"
-    },
-    {
-      "enName": "Interlocking Soul",
-      "cnName": "灵魂交错"
-    },
-    {
-      "enName": "Interlocking Soul",
-      "cnName": "灵魂交错"
-    },
-    {
-      "enName": "Interlocking Soul",
-      "cnName": "灵魂交错"
-    },
-    {
-      "enName": "Interlocking Soul",
-      "cnName": "灵魂交错"
-    },
-    {
-      "enName": "Witherbark Club",
-      "cnName": "枯木粗棒"
-    },
-    {
-      "enName": "Mossy Stone Hammer",
-      "cnName": "青苔石锤"
-    },
-    {
-      "enName": "Rusted Wooden Hammer",
-      "cnName": "锈钉木锤"
-    },
-    {
-      "enName": "Black Iron Maul",
-      "cnName": "黑铁重锤"
-    },
-    {
-      "enName": "War Hammer",
-      "cnName": "激战之锤"
-    },
-    {
-      "enName": "Oblivion Maul",
-      "cnName": "湮灭重锤"
-    },
-    {
-      "enName": "Prayer Hammer",
-      "cnName": "祷祝之锤"
-    },
-    {
-      "enName": "Nightmare Hammer",
-      "cnName": "噩梦之锤"
-    },
-    {
-      "enName": "Dragon%27s Roar Hammer",
-      "cnName": "龙鸣之锤"
-    },
-    {
-      "enName": "Tremor Wooden Hammer",
-      "cnName": "战栗木锤"
-    },
-    {
-      "enName": "Thorny Hammer",
-      "cnName": "荆棘之锤"
-    },
-    {
-      "enName": "Rocksplitter Mallet",
-      "cnName": "碎岩巨锤"
-    },
-    {
-      "enName": "Primeval War Hammer",
-      "cnName": "上古战锤"
-    },
-    {
-      "enName": "Nature Wooden Hammer",
-      "cnName": "生灵木锤"
-    },
-    {
-      "enName": "Redgold Hammer",
-      "cnName": "赤金之锤"
-    },
-    {
-      "enName": "Twilight Hammer",
-      "cnName": "暮色之锤"
-    },
-    {
-      "enName": "Quinn%27s Hammer",
-      "cnName": "奎因之锤"
-    },
-    {
-      "enName": "General%27s War Hammer",
-      "cnName": "将军的战锤"
-    },
-    {
-      "enName": "Melted Iron Hammer",
-      "cnName": "熔化的铁锤"
-    },
-    {
-      "enName": "Sierra Forge Light Hammer",
-      "cnName": "群山熔铸轻锤"
-    },
-    {
-      "enName": "Scorching Words",
-      "cnName": "炽热真言"
-    },
-    {
-      "enName": "Interlocking Soul",
-      "cnName": "灵魂交错"
-    },
-    {
-      "enName": "Frozen Will",
-      "cnName": "冰封之志"
-    },
-    {
-      "enName": "Misube%27s Refusal",
-      "cnName": "密修比的拒绝"
-    },
-    {
-      "enName": "Steel Stagnation",
-      "cnName": "钢铁凝滞"
-    },
-    {
-      "enName": "Scorching Words",
-      "cnName": "炽热真言"
-    },
-    {
-      "enName": "Interlocking Soul",
-      "cnName": "灵魂交错"
-    },
-    {
-      "enName": "Frozen Will",
-      "cnName": "冰封之志"
-    },
-    {
-      "enName": "Misube%27s Refusal",
-      "cnName": "密修比的拒绝"
-    },
-    {
-      "enName": "Steel Stagnation",
-      "cnName": "钢铁凝滞"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    }
+    { "enName": "Scorching Words", "cnName": "炽热真言" },
+    { "enName": "Scorching Words", "cnName": "炽热真言" },
+    { "enName": "Scorching Words", "cnName": "炽热真言" },
+    { "enName": "Scorching Words", "cnName": "炽热真言" },
+    { "enName": "Scorching Words", "cnName": "炽热真言" },
+    { "enName": "Misube%27s Refusal", "cnName": "密修比的拒绝" },
+    { "enName": "Misube%27s Refusal", "cnName": "密修比的拒绝" },
+    { "enName": "Misube%27s Refusal", "cnName": "密修比的拒绝" },
+    { "enName": "Misube%27s Refusal", "cnName": "密修比的拒绝" },
+    { "enName": "Misube%27s Refusal", "cnName": "密修比的拒绝" },
+    { "enName": "Steel Stagnation", "cnName": "钢铁凝滞" },
+    { "enName": "Steel Stagnation", "cnName": "钢铁凝滞" },
+    { "enName": "Steel Stagnation", "cnName": "钢铁凝滞" },
+    { "enName": "Steel Stagnation", "cnName": "钢铁凝滞" },
+    { "enName": "Steel Stagnation", "cnName": "钢铁凝滞" },
+    { "enName": "Frozen Will", "cnName": "冰封之志" },
+    { "enName": "Frozen Will", "cnName": "冰封之志" },
+    { "enName": "Frozen Will", "cnName": "冰封之志" },
+    { "enName": "Frozen Will", "cnName": "冰封之志" },
+    { "enName": "Frozen Will", "cnName": "冰封之志" },
+    { "enName": "Frozen Will", "cnName": "冰封之志" },
+    { "enName": "Interlocking Soul", "cnName": "灵魂交错" },
+    { "enName": "Interlocking Soul", "cnName": "灵魂交错" },
+    { "enName": "Interlocking Soul", "cnName": "灵魂交错" },
+    { "enName": "Interlocking Soul", "cnName": "灵魂交错" },
+    { "enName": "Interlocking Soul", "cnName": "灵魂交错" },
+    { "enName": "Interlocking Soul", "cnName": "灵魂交错" },
+    { "enName": "Witherbark Club", "cnName": "枯木粗棒" },
+    { "enName": "Mossy Stone Hammer", "cnName": "青苔石锤" },
+    { "enName": "Rusted Wooden Hammer", "cnName": "锈钉木锤" },
+    { "enName": "Black Iron Maul", "cnName": "黑铁重锤" },
+    { "enName": "War Hammer", "cnName": "激战之锤" },
+    { "enName": "Oblivion Maul", "cnName": "湮灭重锤" },
+    { "enName": "Prayer Hammer", "cnName": "祷祝之锤" },
+    { "enName": "Nightmare Hammer", "cnName": "噩梦之锤" },
+    { "enName": "Dragon%27s Roar Hammer", "cnName": "龙鸣之锤" },
+    { "enName": "Tremor Wooden Hammer", "cnName": "战栗木锤" },
+    { "enName": "Thorny Hammer", "cnName": "荆棘之锤" },
+    { "enName": "Rocksplitter Mallet", "cnName": "碎岩巨锤" },
+    { "enName": "Primeval War Hammer", "cnName": "上古战锤" },
+    { "enName": "Nature Wooden Hammer", "cnName": "生灵木锤" },
+    { "enName": "Redgold Hammer", "cnName": "赤金之锤" },
+    { "enName": "Twilight Hammer", "cnName": "暮色之锤" },
+    { "enName": "Quinn%27s Hammer", "cnName": "奎因之锤" },
+    { "enName": "General%27s War Hammer", "cnName": "将军的战锤" },
+    { "enName": "Melted Iron Hammer", "cnName": "熔化的铁锤" },
+    { "enName": "Sierra Forge Light Hammer", "cnName": "群山熔铸轻锤" },
+    { "enName": "Scorching Words", "cnName": "炽热真言" },
+    { "enName": "Interlocking Soul", "cnName": "灵魂交错" },
+    { "enName": "Frozen Will", "cnName": "冰封之志" },
+    { "enName": "Misube%27s Refusal", "cnName": "密修比的拒绝" },
+    { "enName": "Steel Stagnation", "cnName": "钢铁凝滞" },
+    { "enName": "Scorching Words", "cnName": "炽热真言" },
+    { "enName": "Interlocking Soul", "cnName": "灵魂交错" },
+    { "enName": "Frozen Will", "cnName": "冰封之志" },
+    { "enName": "Misube%27s Refusal", "cnName": "密修比的拒绝" },
+    { "enName": "Steel Stagnation", "cnName": "钢铁凝滞" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" }
   ]
 }

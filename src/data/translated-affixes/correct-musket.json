@@ -1,197 +1,53 @@
 {
   "equipmentType": "Musket",
   "baseGears": [
-    {
-      "enName": "King Lionheart%27s Ambition",
-      "cnName": "狮心王的热望"
-    },
-    {
-      "enName": "King Lionheart%27s Ambition",
-      "cnName": "狮心王的热望"
-    },
-    {
-      "enName": "King Lionheart%27s Ambition",
-      "cnName": "狮心王的热望"
-    },
-    {
-      "enName": "King Lionheart%27s Ambition",
-      "cnName": "狮心王的热望"
-    },
-    {
-      "enName": "Scorching Wave",
-      "cnName": "热潮"
-    },
-    {
-      "enName": "Scorching Wave",
-      "cnName": "热潮"
-    },
-    {
-      "enName": "Scorching Wave",
-      "cnName": "热潮"
-    },
-    {
-      "enName": "Scorching Wave",
-      "cnName": "热潮"
-    },
-    {
-      "enName": "Rusted Rifle",
-      "cnName": "锈斑长枪"
-    },
-    {
-      "enName": "Crude Iron Rifle",
-      "cnName": "粗铁长枪"
-    },
-    {
-      "enName": "Recruit%27s Musket",
-      "cnName": "新兵火枪"
-    },
-    {
-      "enName": "Iron Musket",
-      "cnName": "精铁火枪"
-    },
-    {
-      "enName": "Wolf Fang Rifle",
-      "cnName": "狼牙长枪"
-    },
-    {
-      "enName": "Blazing Rifle",
-      "cnName": "炙热长枪"
-    },
-    {
-      "enName": "Unpredictable Rifle",
-      "cnName": "诡谲长枪"
-    },
-    {
-      "enName": "Ripple Rifle",
-      "cnName": "波纹长枪"
-    },
-    {
-      "enName": "Eagle Rifle",
-      "cnName": "白鹰长枪"
-    },
-    {
-      "enName": "Toxic Rifle",
-      "cnName": "险恶长枪"
-    },
-    {
-      "enName": "Conflict Rifle",
-      "cnName": "战争长枪"
-    },
-    {
-      "enName": "Giant%27s Rifle",
-      "cnName": "巨人长枪"
-    },
-    {
-      "enName": "War Rifle",
-      "cnName": "激战长枪"
-    },
-    {
-      "enName": "Scarlet Rifle",
-      "cnName": "猩红长枪"
-    },
-    {
-      "enName": "Moonlight Rifle",
-      "cnName": "月光长枪"
-    },
-    {
-      "enName": "Warlord%27s Musket",
-      "cnName": "督军火枪"
-    },
-    {
-      "enName": "Imperial Rifle",
-      "cnName": "帝国长枪"
-    },
-    {
-      "enName": "Bannerlord%27s Musket",
-      "cnName": "掌旗官火枪"
-    },
-    {
-      "enName": "Personal Guard Musket",
-      "cnName": "近卫军火枪"
-    },
-    {
-      "enName": "War Repercussion Musket",
-      "cnName": "战争残响火枪"
-    },
-    {
-      "enName": "Scorching Wave",
-      "cnName": "热潮"
-    },
-    {
-      "enName": "King Lionheart%27s Ambition",
-      "cnName": "狮心王的热望"
-    },
-    {
-      "enName": "Scorching Wave",
-      "cnName": "热潮"
-    },
-    {
-      "enName": "King Lionheart%27s Ambition",
-      "cnName": "狮心王的热望"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    }
+    { "enName": "King Lionheart%27s Ambition", "cnName": "狮心王的热望" },
+    { "enName": "King Lionheart%27s Ambition", "cnName": "狮心王的热望" },
+    { "enName": "King Lionheart%27s Ambition", "cnName": "狮心王的热望" },
+    { "enName": "King Lionheart%27s Ambition", "cnName": "狮心王的热望" },
+    { "enName": "Scorching Wave", "cnName": "热潮" },
+    { "enName": "Scorching Wave", "cnName": "热潮" },
+    { "enName": "Scorching Wave", "cnName": "热潮" },
+    { "enName": "Scorching Wave", "cnName": "热潮" },
+    { "enName": "Rusted Rifle", "cnName": "锈斑长枪" },
+    { "enName": "Crude Iron Rifle", "cnName": "粗铁长枪" },
+    { "enName": "Recruit%27s Musket", "cnName": "新兵火枪" },
+    { "enName": "Iron Musket", "cnName": "精铁火枪" },
+    { "enName": "Wolf Fang Rifle", "cnName": "狼牙长枪" },
+    { "enName": "Blazing Rifle", "cnName": "炙热长枪" },
+    { "enName": "Unpredictable Rifle", "cnName": "诡谲长枪" },
+    { "enName": "Ripple Rifle", "cnName": "波纹长枪" },
+    { "enName": "Eagle Rifle", "cnName": "白鹰长枪" },
+    { "enName": "Toxic Rifle", "cnName": "险恶长枪" },
+    { "enName": "Conflict Rifle", "cnName": "战争长枪" },
+    { "enName": "Giant%27s Rifle", "cnName": "巨人长枪" },
+    { "enName": "War Rifle", "cnName": "激战长枪" },
+    { "enName": "Scarlet Rifle", "cnName": "猩红长枪" },
+    { "enName": "Moonlight Rifle", "cnName": "月光长枪" },
+    { "enName": "Warlord%27s Musket", "cnName": "督军火枪" },
+    { "enName": "Imperial Rifle", "cnName": "帝国长枪" },
+    { "enName": "Bannerlord%27s Musket", "cnName": "掌旗官火枪" },
+    { "enName": "Personal Guard Musket", "cnName": "近卫军火枪" },
+    { "enName": "War Repercussion Musket", "cnName": "战争残响火枪" },
+    { "enName": "Scorching Wave", "cnName": "热潮" },
+    { "enName": "King Lionheart%27s Ambition", "cnName": "狮心王的热望" },
+    { "enName": "Scorching Wave", "cnName": "热潮" },
+    { "enName": "King Lionheart%27s Ambition", "cnName": "狮心王的热望" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" }
   ]
 }

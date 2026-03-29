@@ -1,12 +1,12 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require("fs");
+const path = require("path");
 
-const outDir = path.join(__dirname, '../src/data/translated-affixes');
-const mergedFile = path.join(outDir, 'merged-all-translations.json');
-const tsFile = path.join(outDir, 'complete-affix-translations.ts');
+const outDir = path.join(__dirname, "../src/data/translated-affixes");
+const mergedFile = path.join(outDir, "merged-all-translations.json");
+const tsFile = path.join(outDir, "complete-affix-translations.ts");
 
 // 加载合并的翻译
-const translations = JSON.parse(fs.readFileSync(mergedFile, 'utf8'));
+const translations = JSON.parse(fs.readFileSync(mergedFile, "utf8"));
 
 console.log(`✅ Loaded ${Object.keys(translations).length} translations`);
 
@@ -32,11 +32,14 @@ export const getAffixNameTranslation = (enName: string): string => {
 };
 
 export const COMMON_STAT_NAMES = [
-${Object.keys(translations).slice(0, 30).map(en => `  '${en.replace(/'/g, "\\'")}',`).join('\n')}
+${Object.keys(translations)
+  .slice(0, 30)
+  .map((en) => `  '${en.replace(/'/g, "\\'")}',`)
+  .join("\n")}
 ];
 `;
 
 // 写入文件
-fs.writeFileSync(tsFile, tsContent, 'utf-8');
+fs.writeFileSync(tsFile, tsContent, "utf-8");
 
 console.log(`✅ Updated complete-affix-translations.ts`);

@@ -1,261 +1,69 @@
 {
   "equipmentType": "One-Handed_Sword",
   "baseGears": [
-    {
-      "enName": "Farewell Desire",
-      "cnName": "临别索求"
-    },
-    {
-      "enName": "Farewell Desire",
-      "cnName": "临别索求"
-    },
-    {
-      "enName": "Farewell Desire",
-      "cnName": "临别索求"
-    },
-    {
-      "enName": "Farewell Desire",
-      "cnName": "临别索求"
-    },
-    {
-      "enName": "Farewell Desire",
-      "cnName": "临别索求"
-    },
-    {
-      "enName": "Farewell Desire",
-      "cnName": "临别索求"
-    },
-    {
-      "enName": "Fleeting Regret",
-      "cnName": "虚握之恨"
-    },
-    {
-      "enName": "Fleeting Regret",
-      "cnName": "虚握之恨"
-    },
-    {
-      "enName": "Fleeting Regret",
-      "cnName": "虚握之恨"
-    },
-    {
-      "enName": "Fleeting Regret",
-      "cnName": "虚握之恨"
-    },
-    {
-      "enName": "Fleeting Regret",
-      "cnName": "虚握之恨"
-    },
-    {
-      "enName": "Thunder Branch",
-      "cnName": "雷枝"
-    },
-    {
-      "enName": "Thunder Branch",
-      "cnName": "雷枝"
-    },
-    {
-      "enName": "Thunder Branch",
-      "cnName": "雷枝"
-    },
-    {
-      "enName": "Thunder Branch",
-      "cnName": "雷枝"
-    },
-    {
-      "enName": "Oathkeeper",
-      "cnName": "立誓"
-    },
-    {
-      "enName": "Oathkeeper",
-      "cnName": "立誓"
-    },
-    {
-      "enName": "Oathkeeper",
-      "cnName": "立誓"
-    },
-    {
-      "enName": "Oathkeeper",
-      "cnName": "立誓"
-    },
-    {
-      "enName": "Oathkeeper",
-      "cnName": "立誓"
-    },
-    {
-      "enName": "Rusted Bronze Sword",
-      "cnName": "锈斑铜剑"
-    },
-    {
-      "enName": "Crude Iron Sword",
-      "cnName": "粗制铁剑"
-    },
-    {
-      "enName": "Recruit%27s Saber",
-      "cnName": "新兵军刀"
-    },
-    {
-      "enName": "Iron Sword",
-      "cnName": "精铁剑"
-    },
-    {
-      "enName": "Thorny Sword",
-      "cnName": "荆棘之剑"
-    },
-    {
-      "enName": "Battlefield Longsword",
-      "cnName": "战场长剑"
-    },
-    {
-      "enName": "Redgold Sword",
-      "cnName": "赤金之剑"
-    },
-    {
-      "enName": "Cold Blade",
-      "cnName": "冰冷利刃"
-    },
-    {
-      "enName": "Talon Sword",
-      "cnName": "刺爪之剑"
-    },
-    {
-      "enName": "Hurricane Short Sword",
-      "cnName": "飓风短剑"
-    },
-    {
-      "enName": "Blizzard Sword",
-      "cnName": "风雪之剑"
-    },
-    {
-      "enName": "Coldlight Sword",
-      "cnName": "寒光利剑"
-    },
-    {
-      "enName": "Hero%27s Longsword",
-      "cnName": "勇者长剑"
-    },
-    {
-      "enName": "Gilt Longsword",
-      "cnName": "鎏金长剑"
-    },
-    {
-      "enName": "Bone Stinger Sword",
-      "cnName": "刺骨之剑"
-    },
-    {
-      "enName": "Moonlight Long Blade",
-      "cnName": "月光长刀"
-    },
-    {
-      "enName": "Nameless Sword",
-      "cnName": "未名之剑"
-    },
-    {
-      "enName": "Forgotten Iron Sword",
-      "cnName": "被遗忘的铁剑"
-    },
-    {
-      "enName": "Unforgotten Long Blade",
-      "cnName": "被铭记的长刀"
-    },
-    {
-      "enName": "Shadowless Swordsman%27s Blade",
-      "cnName": "无影剑士的名刀"
-    },
-    {
-      "enName": "Thunder Branch",
-      "cnName": "雷枝"
-    },
-    {
-      "enName": "Oathkeeper",
-      "cnName": "立誓"
-    },
-    {
-      "enName": "Farewell Desire",
-      "cnName": "临别索求"
-    },
-    {
-      "enName": "Fleeting Regret",
-      "cnName": "虚握之恨"
-    },
-    {
-      "enName": "Thunder Branch",
-      "cnName": "雷枝"
-    },
-    {
-      "enName": "Oathkeeper",
-      "cnName": "立誓"
-    },
-    {
-      "enName": "Farewell Desire",
-      "cnName": "临别索求"
-    },
-    {
-      "enName": "Fleeting Regret",
-      "cnName": "虚握之恨"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    }
+    { "enName": "Farewell Desire", "cnName": "临别索求" },
+    { "enName": "Farewell Desire", "cnName": "临别索求" },
+    { "enName": "Farewell Desire", "cnName": "临别索求" },
+    { "enName": "Farewell Desire", "cnName": "临别索求" },
+    { "enName": "Farewell Desire", "cnName": "临别索求" },
+    { "enName": "Farewell Desire", "cnName": "临别索求" },
+    { "enName": "Fleeting Regret", "cnName": "虚握之恨" },
+    { "enName": "Fleeting Regret", "cnName": "虚握之恨" },
+    { "enName": "Fleeting Regret", "cnName": "虚握之恨" },
+    { "enName": "Fleeting Regret", "cnName": "虚握之恨" },
+    { "enName": "Fleeting Regret", "cnName": "虚握之恨" },
+    { "enName": "Thunder Branch", "cnName": "雷枝" },
+    { "enName": "Thunder Branch", "cnName": "雷枝" },
+    { "enName": "Thunder Branch", "cnName": "雷枝" },
+    { "enName": "Thunder Branch", "cnName": "雷枝" },
+    { "enName": "Oathkeeper", "cnName": "立誓" },
+    { "enName": "Oathkeeper", "cnName": "立誓" },
+    { "enName": "Oathkeeper", "cnName": "立誓" },
+    { "enName": "Oathkeeper", "cnName": "立誓" },
+    { "enName": "Oathkeeper", "cnName": "立誓" },
+    { "enName": "Rusted Bronze Sword", "cnName": "锈斑铜剑" },
+    { "enName": "Crude Iron Sword", "cnName": "粗制铁剑" },
+    { "enName": "Recruit%27s Saber", "cnName": "新兵军刀" },
+    { "enName": "Iron Sword", "cnName": "精铁剑" },
+    { "enName": "Thorny Sword", "cnName": "荆棘之剑" },
+    { "enName": "Battlefield Longsword", "cnName": "战场长剑" },
+    { "enName": "Redgold Sword", "cnName": "赤金之剑" },
+    { "enName": "Cold Blade", "cnName": "冰冷利刃" },
+    { "enName": "Talon Sword", "cnName": "刺爪之剑" },
+    { "enName": "Hurricane Short Sword", "cnName": "飓风短剑" },
+    { "enName": "Blizzard Sword", "cnName": "风雪之剑" },
+    { "enName": "Coldlight Sword", "cnName": "寒光利剑" },
+    { "enName": "Hero%27s Longsword", "cnName": "勇者长剑" },
+    { "enName": "Gilt Longsword", "cnName": "鎏金长剑" },
+    { "enName": "Bone Stinger Sword", "cnName": "刺骨之剑" },
+    { "enName": "Moonlight Long Blade", "cnName": "月光长刀" },
+    { "enName": "Nameless Sword", "cnName": "未名之剑" },
+    { "enName": "Forgotten Iron Sword", "cnName": "被遗忘的铁剑" },
+    { "enName": "Unforgotten Long Blade", "cnName": "被铭记的长刀" },
+    { "enName": "Shadowless Swordsman%27s Blade", "cnName": "无影剑士的名刀" },
+    { "enName": "Thunder Branch", "cnName": "雷枝" },
+    { "enName": "Oathkeeper", "cnName": "立誓" },
+    { "enName": "Farewell Desire", "cnName": "临别索求" },
+    { "enName": "Fleeting Regret", "cnName": "虚握之恨" },
+    { "enName": "Thunder Branch", "cnName": "雷枝" },
+    { "enName": "Oathkeeper", "cnName": "立誓" },
+    { "enName": "Farewell Desire", "cnName": "临别索求" },
+    { "enName": "Fleeting Regret", "cnName": "虚握之恨" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" }
   ]
 }

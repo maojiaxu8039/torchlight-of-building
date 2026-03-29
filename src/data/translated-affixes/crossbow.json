@@ -546,11 +546,7 @@
       "enText": "+(10–15)% gear Attack Speed",
       "cnText": "+(10–15)% 该装备攻击速度"
     },
-    {
-      "modifierId": "51330531",
-      "enText": "Have Fervor",
-      "cnText": "拥有战意"
-    },
+    { "modifierId": "51330531", "enText": "Have Fervor", "cnText": "拥有战意" },
     {
       "modifierId": "51330541",
       "enText": "+(3–4)% Projectile Damage for every point of Fervor Rating",

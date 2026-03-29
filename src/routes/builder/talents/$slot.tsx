@@ -142,7 +142,9 @@ function TalentsSlotPage(): React.ReactNode {
     (treeSlot: TreeSlot) => {
       const tree = loadout.talentPage.talentTrees[treeSlot];
       if (!tree || !tree.nodes.some((n) => n.points > 0)) return;
-      if (confirm(i18n._("Reset all points in this tree? This cannot be undone."))) {
+      if (
+        confirm(i18n._("Reset all points in this tree? This cannot be undone."))
+      ) {
         resetTree(treeSlot);
       }
     },
@@ -539,7 +541,9 @@ function TalentsSlotPage(): React.ReactNode {
             />
           </div>
         ) : (
-          <div className="py-12 text-center text-zinc-500">{i18n._("Loading tree...")}</div>
+          <div className="py-12 text-center text-zinc-500">
+            {i18n._("Loading tree...")}
+          </div>
         )}
       </div>
 

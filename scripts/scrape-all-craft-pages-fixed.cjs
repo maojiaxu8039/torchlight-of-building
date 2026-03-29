@@ -1,15 +1,17 @@
-const fs = require('fs');
-const path = require('path');
-const https = require('https');
+const fs = require("fs");
+const path = require("path");
+const https = require("https");
 
 function fetchUrl(url) {
   return new Promise((resolve, reject) => {
-    https.get(url, (res) => {
-      let data = '';
-      res.on('data', chunk => data += chunk);
-      res.on('end', () => resolve(data));
-      res.on('error', reject);
-    }).on('error', reject);
+    https
+      .get(url, (res) => {
+        let data = "";
+        res.on("data", (chunk) => (data += chunk));
+        res.on("end", () => resolve(data));
+        res.on("error", reject);
+      })
+      .on("error", reject);
   });
 }
 
@@ -20,16 +22,16 @@ function extractAllText(html) {
   const tdPattern = /<td[^>]*>([\s\S]*?)<\/td>/gi;
   let match;
   while ((match = tdPattern.exec(html)) !== null) {
-    let text = match[1]
-      .replace(/<[^>]+>/g, ' ')
-      .replace(/&nbsp;/g, ' ')
-      .replace(/&amp;/g, '&')
-      .replace(/&lt;/g, '<')
-      .replace(/&gt;/g, '>')
-      .replace(/&ndash;/g, '–')
-      .replace(/&mdash;/g, '—')
+    const text = match[1]
+      .replace(/<[^>]+>/g, " ")
+      .replace(/&nbsp;/g, " ")
+      .replace(/&amp;/g, "&")
+      .replace(/&lt;/g, "<")
+      .replace(/&gt;/g, ">")
+      .replace(/&ndash;/g, "–")
+      .replace(/&mdash;/g, "—")
       .replace(/&quot;/g, '"')
-      .replace(/\s+/g, ' ')
+      .replace(/\s+/g, " ")
       .trim();
 
     if (text && text.length > 3 && text.length < 500) {
@@ -41,9 +43,9 @@ function extractAllText(html) {
   const hoverPattern = /data-hover="([^"]+)"/g;
   while ((match = hoverPattern.exec(html)) !== null) {
     const text = match[1]
-      .replace(/&nbsp;/g, ' ')
-      .replace(/&amp;/g, '&')
-      .replace(/\s+/g, ' ')
+      .replace(/&nbsp;/g, " ")
+      .replace(/&amp;/g, "&")
+      .replace(/\s+/g, " ")
       .trim();
 
     if (text && text.length > 3) {
@@ -55,7 +57,7 @@ function extractAllText(html) {
 }
 
 function normalizeForMatch(text) {
-  return text.replace(/[\d\.\-\–\—]+/g, '#').replace(/\s+/g, ' ');
+  return text.replace(/[\d.\-–—]+/g, "#").replace(/\s+/g, " ");
 }
 
 async function scrapePage(page) {
@@ -75,7 +77,7 @@ async function scrapePage(page) {
     const translations = {};
     let matched = 0;
 
-    enTexts.forEach(enText => {
+    enTexts.forEach((enText) => {
       if (cnTexts.has(enText)) {
         if (!translations[enText]) {
           translations[enText] = enText;
@@ -84,45 +86,76 @@ async function scrapePage(page) {
       }
     });
 
-    return { page, matched, enTexts: enTexts.size, cnTexts: cnTexts.size, translations };
-
+    return {
+      page,
+      matched,
+      enTexts: enTexts.size,
+      cnTexts: cnTexts.size,
+      translations,
+    };
   } catch (error) {
     return { page, matched: 0, enTexts: 0, cnTexts: 0, error: error.message };
   }
 }
 
 async function main() {
-  console.log('🚀 Scraping all pages for translations...\n');
+  console.log("🚀 Scraping all pages for translations...\n");
 
-  const outDir = path.join(__dirname, '../src/data/translated-affixes');
+  const outDir = path.join(__dirname, "../src/data/translated-affixes");
   const allTranslations = {};
 
   const pages = [
-    'Craft',
-    'Belt', 'Necklace', 'Ring',
-    'One-Handed_Sword', 'Two-Handed_Sword',
-    'One-Handed_Axe', 'Two-Handed_Axe',
-    'One-Handed_Hammer', 'Two-Handed_Hammer',
-    'Dagger', 'Wand', 'Tin_Staff',
-    'Bow', 'Crossbow', 'Pistol', 'Musket',
-    'Cane', 'Shield', 'Claw', 'Rod', 'Scepter',
-    'Fire_Cannon', 'Spirit_Ring',
-    'DEX_Boots', 'INT_Boots', 'STR_Boots',
-    'DEX_Gloves', 'INT_Gloves', 'STR_Gloves',
-    'DEX_Helmet', 'INT_Helmet', 'STR_Helmet',
-    'DEX_Shield', 'INT_Shield', 'STR_Shield',
-    'Legendary_Gear',
-    'Active_Skill', 'Support_Skill', 'Passive_Skill',
-    'Activation_Medium_Skill',
-    'Noble_Support_Skill', 'Magnificent_Support_Skill',
-    'Pactspirit',
-    'Ethereal_Prism',
-    'Destiny',
-    'Corrosion',
-    'Dream_Talking',
-    'Blending_Rituals',
-    'TOWER_Sequence',
-    'Graft',
+    "Craft",
+    "Belt",
+    "Necklace",
+    "Ring",
+    "One-Handed_Sword",
+    "Two-Handed_Sword",
+    "One-Handed_Axe",
+    "Two-Handed_Axe",
+    "One-Handed_Hammer",
+    "Two-Handed_Hammer",
+    "Dagger",
+    "Wand",
+    "Tin_Staff",
+    "Bow",
+    "Crossbow",
+    "Pistol",
+    "Musket",
+    "Cane",
+    "Shield",
+    "Claw",
+    "Rod",
+    "Scepter",
+    "Fire_Cannon",
+    "Spirit_Ring",
+    "DEX_Boots",
+    "INT_Boots",
+    "STR_Boots",
+    "DEX_Gloves",
+    "INT_Gloves",
+    "STR_Gloves",
+    "DEX_Helmet",
+    "INT_Helmet",
+    "STR_Helmet",
+    "DEX_Shield",
+    "INT_Shield",
+    "STR_Shield",
+    "Legendary_Gear",
+    "Active_Skill",
+    "Support_Skill",
+    "Passive_Skill",
+    "Activation_Medium_Skill",
+    "Noble_Support_Skill",
+    "Magnificent_Support_Skill",
+    "Pactspirit",
+    "Ethereal_Prism",
+    "Destiny",
+    "Corrosion",
+    "Dream_Talking",
+    "Blending_Rituals",
+    "TOWER_Sequence",
+    "Graft",
   ];
 
   let totalMatched = 0;
@@ -133,7 +166,9 @@ async function main() {
     if (result.error) {
       console.log(`❌ ${result.page}: Error - ${result.error}`);
     } else {
-      console.log(`✅ ${result.page}: ${result.matched}/${result.enTexts} matched`);
+      console.log(
+        `✅ ${result.page}: ${result.matched}/${result.enTexts} matched`,
+      );
       Object.assign(allTranslations, result.translations || {});
       totalMatched += result.matched;
     }
@@ -145,20 +180,22 @@ async function main() {
 
   // 保存
   fs.writeFileSync(
-    path.join(outDir, 'all-website-exact-translations.json'),
+    path.join(outDir, "all-website-exact-translations.json"),
     JSON.stringify(allTranslations, null, 2),
-    'utf-8'
+    "utf-8",
   );
 
   console.log(`✅ Saved to all-website-exact-translations.json`);
 
   // 显示样本
-  console.log('\nSample translations:');
+  console.log("\nSample translations:");
   let count = 0;
-  Object.entries(allTranslations).slice(0, 15).forEach(([en, cn]) => {
-    console.log(`  ${en.substring(0, 60)}`);
-    count++;
-  });
+  Object.entries(allTranslations)
+    .slice(0, 15)
+    .forEach(([en, cn]) => {
+      console.log(`  ${en.substring(0, 60)}`);
+      count++;
+    });
 }
 
 main().catch(console.error);

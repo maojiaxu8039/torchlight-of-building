@@ -3,12 +3,14 @@ const fs = require("fs");
 
 function fetchUrl(url) {
   return new Promise((resolve, reject) => {
-    https.get(url, (res) => {
-      let data = "";
-      res.on("data", chunk => data += chunk);
-      res.on("end", () => resolve(data));
-      res.on("error", reject);
-    }).on("error", reject);
+    https
+      .get(url, (res) => {
+        let data = "";
+        res.on("data", (chunk) => (data += chunk));
+        res.on("end", () => resolve(data));
+        res.on("error", reject);
+      })
+      .on("error", reject);
   });
 }
 
@@ -47,19 +49,19 @@ function extractByType(html) {
     "Sweet Dream Affix": {},
     "Corrosion Base": {},
   };
-  
+
   const pattern = /data-modifier-id="(\d+)"[^>]*>([\s\S]*?)<\/span>/gi;
   let match;
-  
+
   while ((match = pattern.exec(html)) !== null) {
     const id = match[1];
-    let text = match[2]
+    const text = match[2]
       .replace(/<[^>]+>/g, " ")
       .replace(/&nbsp;/g, " ")
       .replace(/&ndash;/g, "–")
       .replace(/\s+/g, " ")
       .trim();
-    
+
     if (text && text.length > 2) {
       // 判断类型
       let type = "Base Affix";
@@ -72,11 +74,11 @@ function extractByType(html) {
       else if (text.includes("Ultimate Suffix")) type = "Ultimate Suffix";
       else if (text.includes("Sweet Dream")) type = "Sweet Dream Affix";
       else if (text.includes("Corrosion")) type = "Corrosion Base";
-      
+
       byType[type][id] = text;
     }
   }
-  
+
   return byType;
 }
 
@@ -84,18 +86,18 @@ async function scrapeEquipment(slug) {
   try {
     const [enHtml, cnHtml] = await Promise.all([
       fetchUrl(`https://tlidb.com/en/${slug}`),
-      fetchUrl(`https://tlidb.com/cn/${slug}`)
+      fetchUrl(`https://tlidb.com/cn/${slug}`),
     ]);
-    
+
     if (enHtml.length < 1000 || cnHtml.length < 1000) {
       return {};
     }
-    
+
     const enByType = extractByType(enHtml);
     const cnByType = extractByType(cnHtml);
-    
+
     const translations = {};
-    
+
     // 按类型匹配
     Object.entries(enByType).forEach(([type, enItems]) => {
       Object.entries(enItems).forEach(([id, enText]) => {
@@ -105,9 +107,8 @@ async function scrapeEquipment(slug) {
         }
       });
     });
-    
+
     return translations;
-    
   } catch (error) {
     return {};
   }
@@ -115,40 +116,47 @@ async function scrapeEquipment(slug) {
 
 async function main() {
   console.log("=== Scraping by equipment type ===\n");
-  
+
   const allTranslations = {};
-  
+
   for (const { slug, type } of equipmentList) {
     process.stdout.write(`${type} (${slug})... `);
     const translations = await scrapeEquipment(slug);
     Object.assign(allTranslations, translations);
     console.log(`✅ ${Object.keys(translations).length}`);
-    await new Promise(r => setTimeout(r, 100));
+    await new Promise((r) => setTimeout(r, 100));
   }
-  
+
   console.log(`\nTotal: ${Object.keys(allTranslations).length}`);
-  
+
   // 保存
   fs.writeFileSync(
     "src/data/translated-affixes/by-type-translations.json",
-    JSON.stringify(allTranslations, null, 2)
+    JSON.stringify(allTranslations, null, 2),
   );
-  
+
   // 合并到主文件
   const existing = JSON.parse(
-    fs.readFileSync("src/data/translated-affixes/merged-all-translations.json", "utf8")
+    fs.readFileSync(
+      "src/data/translated-affixes/merged-all-translations.json",
+      "utf8",
+    ),
   );
-  
+
   const merged = { ...existing, ...allTranslations };
-  const sorted = Object.entries(merged).sort((a, b) => b[0].length - a[0].length);
+  const sorted = Object.entries(merged).sort(
+    (a, b) => b[0].length - a[0].length,
+  );
   const result = {};
-  sorted.forEach(([en, cn]) => { result[en] = cn; });
-  
+  sorted.forEach(([en, cn]) => {
+    result[en] = cn;
+  });
+
   fs.writeFileSync(
     "src/data/translated-affixes/merged-all-translations.json",
-    JSON.stringify(result, null, 2)
+    JSON.stringify(result, null, 2),
   );
-  
+
   console.log("Saved!");
 }
 

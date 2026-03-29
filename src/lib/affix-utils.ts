@@ -5,7 +5,7 @@ import type {
   BaseGearAffix,
   EquipmentType,
 } from "@/src/tli/gear-data-types";
-import { getTranslatedAffixText } from "@/src/lib/affix-translator";
+import { getTranslatedAffixText, translateAffixObject } from "@/src/lib/affix-translator";
 
 export const FILTER_AFFIX_TYPES = [
   "Prefix",
@@ -63,7 +63,7 @@ export interface CollapsedAffixGroup {
 }
 
 export const formatAffixOption = (affix: BaseGearAffix): string => {
-  let display = getTranslatedAffixText(affix.craftableAffix);
+  let display = translateAffixObject(affix);
   display = display.replace(/\n/g, "/");
   if (display.length > 80) {
     display = `${display.substring(0, 77)}...`;
@@ -188,9 +188,11 @@ export const getSortedGroups = (affixGroups: CollapsedAffixGroup[]) => {
 export const getOptionsWithHeaders = (affixGroups: CollapsedAffixGroup[]) => {
   // Add the Basic, Advanced and Ultimate into the options as headers
   return affixGroups.map((group, index, array) => {
-    // 使用 affix.craftableAffix 生成翻译（和 AffixPreviewSection 保持一致）
+    // 使用 translateAffixObject 生成翻译
     const firstAffix = group.affixes[0];
-    const translatedLabel = firstAffix ? getTranslatedAffixText(firstAffix.craftableAffix) : getTranslatedAffixText(group.affixBaseName);
+    const translatedLabel = firstAffix
+      ? translateAffixObject(firstAffix)
+      : getTranslatedAffixText(group.affixBaseName);
     const option: { label: string; value: number; header?: string } = {
       label: translatedLabel,
       value: index,

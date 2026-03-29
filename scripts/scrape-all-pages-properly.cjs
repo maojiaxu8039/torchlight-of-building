@@ -1,36 +1,38 @@
-const fs = require('fs');
-const path = require('path');
-const https = require('https');
+const fs = require("fs");
+const path = require("path");
+const https = require("https");
 
 const PAGES = [
-  { url: 'Craft', name: 'Craft词缀' },
-  { url: 'Legendary_Gear', name: '传奇装备' },
-  { url: 'Talent', name: '神格石板/天赋' },
-  { url: 'Active_Skill', name: '主动技能' },
-  { url: 'Support_Skill', name: '辅助技能' },
-  { url: 'Passive_Skill', name: '被动技能' },
-  { url: 'Activation_Medium_Skill', name: '触媒技能' },
-  { url: 'Noble_Support_Skill', name: '崇高辅助技能' },
-  { url: 'Magnificent_Support_Skill', name: '华贵辅助技能' },
-  { url: 'Hero', name: '英雄' },
-  { url: 'Pactspirit', name: '契约之灵' },
-  { url: 'Ethereal_Prism', name: '异度棱镜' },
-  { url: 'Destiny', name: '命运' },
-  { url: 'Corrosion', name: '侵蚀' },
-  { url: 'Dream_Talking', name: '梦语' },
-  { url: 'Blending_Rituals', name: '调香秘仪' },
-  { url: 'TOWER_Sequence', name: '高塔序列' },
-  { url: 'Graft', name: '缝合' },
+  { url: "Craft", name: "Craft词缀" },
+  { url: "Legendary_Gear", name: "传奇装备" },
+  { url: "Talent", name: "神格石板/天赋" },
+  { url: "Active_Skill", name: "主动技能" },
+  { url: "Support_Skill", name: "辅助技能" },
+  { url: "Passive_Skill", name: "被动技能" },
+  { url: "Activation_Medium_Skill", name: "触媒技能" },
+  { url: "Noble_Support_Skill", name: "崇高辅助技能" },
+  { url: "Magnificent_Support_Skill", name: "华贵辅助技能" },
+  { url: "Hero", name: "英雄" },
+  { url: "Pactspirit", name: "契约之灵" },
+  { url: "Ethereal_Prism", name: "异度棱镜" },
+  { url: "Destiny", name: "命运" },
+  { url: "Corrosion", name: "侵蚀" },
+  { url: "Dream_Talking", name: "梦语" },
+  { url: "Blending_Rituals", name: "调香秘仪" },
+  { url: "TOWER_Sequence", name: "高塔序列" },
+  { url: "Graft", name: "缝合" },
 ];
 
 function fetchUrl(url) {
   return new Promise((resolve, reject) => {
-    https.get(url, (res) => {
-      let data = '';
-      res.on('data', chunk => data += chunk);
-      res.on('end', () => resolve(data));
-      res.on('error', reject);
-    }).on('error', reject);
+    https
+      .get(url, (res) => {
+        let data = "";
+        res.on("data", (chunk) => (data += chunk));
+        res.on("end", () => resolve(data));
+        res.on("error", reject);
+      })
+      .on("error", reject);
   });
 }
 
@@ -57,15 +59,15 @@ function extractByModifierId(html) {
 
     while ((tdMatch = tdPattern.exec(trContent)) !== null) {
       // 清理 HTML 标签，保留纯文本
-      let text = tdMatch[1]
-        .replace(/<[^>]+>/g, ' ')
-        .replace(/&nbsp;/g, ' ')
-        .replace(/&amp;/g, '&')
-        .replace(/&lt;/g, '<')
-        .replace(/&gt;/g, '>')
-        .replace(/&ndash;/g, '–')
-        .replace(/&mdash;/g, '—')
-        .replace(/\s+/g, ' ')
+      const text = tdMatch[1]
+        .replace(/<[^>]+>/g, " ")
+        .replace(/&nbsp;/g, " ")
+        .replace(/&amp;/g, "&")
+        .replace(/&lt;/g, "<")
+        .replace(/&gt;/g, ">")
+        .replace(/&ndash;/g, "–")
+        .replace(/&mdash;/g, "—")
+        .replace(/\s+/g, " ")
         .trim();
 
       if (text) tds.push(text);
@@ -93,13 +95,13 @@ function extractByHref(html) {
   while ((match = linkPattern.exec(html)) !== null) {
     const href = match[1];
     const text = match[2]
-      .replace(/&nbsp;/g, ' ')
-      .replace(/&amp;/g, '&')
-      .replace(/\s+/g, ' ')
+      .replace(/&nbsp;/g, " ")
+      .replace(/&amp;/g, "&")
+      .replace(/\s+/g, " ")
       .trim();
 
-    if (href && text && href.startsWith('/')) {
-      const enName = href.replace(/\//g, '').replace(/_/g, ' ');
+    if (href && text && href.startsWith("/")) {
+      const enName = href.replace(/\//g, "").replace(/_/g, " ");
       if (text !== enName && text.length > 1) {
         result.set(enName, text);
       }
@@ -124,7 +126,9 @@ async function scrapePage(page) {
     const enById = extractByModifierId(enHtml);
     const cnById = extractByModifierId(cnHtml);
 
-    console.log(`  Method 1 - EN modifier IDs: ${enById.size}, CN modifier IDs: ${cnById.size}`);
+    console.log(
+      `  Method 1 - EN modifier IDs: ${enById.size}, CN modifier IDs: ${cnById.size}`,
+    );
 
     const translations = {};
 
@@ -134,8 +138,8 @@ async function scrapePage(page) {
         const cnText = cnById.get(id);
         if (enText && cnText && enText !== cnText) {
           // 验证是否为有效翻译（长度相似，不是纯数字等）
-          const enLen = enText.replace(/[0-9\.\-\–\—\(\)\%]/g, '').length;
-          const cnLen = cnText.replace(/[0-9\u4e00-\u9fa5]/g, '').length;
+          const enLen = enText.replace(/[0-9.\-–—()%]/g, "").length;
+          const cnLen = cnText.replace(/[0-9\u4e00-\u9fa5]/g, "").length;
 
           if (enLen > 3 && cnLen > 0) {
             translations[enText] = cnText;
@@ -148,7 +152,9 @@ async function scrapePage(page) {
     const enByHref = extractByHref(enHtml);
     const cnByHref = extractByHref(cnHtml);
 
-    console.log(`  Method 2 - EN hrefs: ${enByHref.size}, CN hrefs: ${cnByHref.size}`);
+    console.log(
+      `  Method 2 - EN hrefs: ${enByHref.size}, CN hrefs: ${cnByHref.size}`,
+    );
 
     enByHref.forEach((enName, href) => {
       if (cnByHref.has(href)) {
@@ -162,7 +168,7 @@ async function scrapePage(page) {
     console.log(`  ✅ Total matched: ${Object.keys(translations).length}`);
 
     // 保存
-    const outDir = path.join(__dirname, '../src/data/translated-affixes');
+    const outDir = path.join(__dirname, "../src/data/translated-affixes");
     if (!fs.existsSync(outDir)) {
       fs.mkdirSync(outDir, { recursive: true });
     }
@@ -170,11 +176,10 @@ async function scrapePage(page) {
     fs.writeFileSync(
       path.join(outDir, `${page.name.toLowerCase()}-translations.json`),
       JSON.stringify(translations, null, 2),
-      'utf-8'
+      "utf-8",
     );
 
     return Object.keys(translations).length;
-
   } catch (error) {
     console.log(`  ❌ Error: ${error.message}`);
     return 0;
@@ -182,9 +187,9 @@ async function scrapePage(page) {
 }
 
 async function main() {
-  console.log('🚀 Starting proper scrape...\n');
+  console.log("🚀 Starting proper scrape...\n");
 
-  const outDir = path.join(__dirname, '../src/data/translated-affixes');
+  const outDir = path.join(__dirname, "../src/data/translated-affixes");
   if (!fs.existsSync(outDir)) {
     fs.mkdirSync(outDir, { recursive: true });
   }
@@ -196,32 +201,42 @@ async function main() {
     total += count;
   }
 
-  console.log('\n=================================================');
+  console.log("\n=================================================");
   console.log(`✅ Total translations scraped: ${total}`);
-  console.log('=================================================\n');
+  console.log("=================================================\n");
 
-  console.log('Now merging all translations into complete-affix-translations.ts...\n');
+  console.log(
+    "Now merging all translations into complete-affix-translations.ts...\n",
+  );
 
   // 合并所有翻译
   const allTranslations = {};
-  const translationFiles = fs.readdirSync(outDir)
-    .filter(f => f.endsWith('-translations.json') && !f.startsWith('complete-') && !f.startsWith('all-'));
+  const translationFiles = fs
+    .readdirSync(outDir)
+    .filter(
+      (f) =>
+        f.endsWith("-translations.json") &&
+        !f.startsWith("complete-") &&
+        !f.startsWith("all-"),
+    );
 
-  translationFiles.forEach(file => {
-    const data = JSON.parse(fs.readFileSync(path.join(outDir, file), 'utf8'));
+  translationFiles.forEach((file) => {
+    const data = JSON.parse(fs.readFileSync(path.join(outDir, file), "utf8"));
     Object.assign(allTranslations, data);
     console.log(`✅ ${file}: ${Object.keys(data).length} translations`);
   });
 
   // 保存合并文件
   fs.writeFileSync(
-    path.join(outDir, 'all-website-translations.json'),
+    path.join(outDir, "all-website-translations.json"),
     JSON.stringify(allTranslations, null, 2),
-    'utf-8'
+    "utf-8",
   );
 
-  console.log(`\n✅ Total merged: ${Object.keys(allTranslations).length} translations`);
-  console.log('\n✅ All done!');
+  console.log(
+    `\n✅ Total merged: ${Object.keys(allTranslations).length} translations`,
+  );
+  console.log("\n✅ All done!");
 }
 
 main().catch(console.error);

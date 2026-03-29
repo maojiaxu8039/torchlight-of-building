@@ -1,445 +1,115 @@
 {
   "equipmentType": "INT_Helmet",
   "baseGears": [
-    {
-      "enName": "Cold Breath",
-      "cnName": "冰冷呼吸"
-    },
-    {
-      "enName": "Cold Breath",
-      "cnName": "冰冷呼吸"
-    },
-    {
-      "enName": "Cold Breath",
-      "cnName": "冰冷呼吸"
-    },
-    {
-      "enName": "Cold Breath",
-      "cnName": "冰冷呼吸"
-    },
-    {
-      "enName": "Surging Inspiration",
-      "cnName": "涌动灵感"
-    },
-    {
-      "enName": "Surging Inspiration",
-      "cnName": "涌动灵感"
-    },
-    {
-      "enName": "Surging Inspiration",
-      "cnName": "涌动灵感"
-    },
-    {
-      "enName": "Surging Inspiration",
-      "cnName": "涌动灵感"
-    },
-    {
-      "enName": "Fiend Crown",
-      "cnName": "邪龙头冠"
-    },
-    {
-      "enName": "Fiend Crown",
-      "cnName": "邪龙头冠"
-    },
-    {
-      "enName": "Fiend Crown",
-      "cnName": "邪龙头冠"
-    },
-    {
-      "enName": "Fiend Crown",
-      "cnName": "邪龙头冠"
-    },
-    {
-      "enName": "Webbed Arcane Headscarf",
-      "cnName": "蛛网奥秘头巾"
-    },
-    {
-      "enName": "Webbed Arcane Headscarf",
-      "cnName": "蛛网奥秘头巾"
-    },
-    {
-      "enName": "Webbed Arcane Headscarf",
-      "cnName": "蛛网奥秘头巾"
-    },
-    {
-      "enName": "Webbed Arcane Headscarf",
-      "cnName": "蛛网奥秘头巾"
-    },
-    {
-      "enName": "Webbed Arcane Headscarf",
-      "cnName": "蛛网奥秘头巾"
-    },
-    {
-      "enName": "Siren Faceguard",
-      "cnName": "海妖面甲"
-    },
-    {
-      "enName": "Siren Faceguard",
-      "cnName": "海妖面甲"
-    },
-    {
-      "enName": "Siren Faceguard",
-      "cnName": "海妖面甲"
-    },
-    {
-      "enName": "Imperial Iron Sentry",
-      "cnName": "皇家铁卫"
-    },
-    {
-      "enName": "Imperial Iron Sentry",
-      "cnName": "皇家铁卫"
-    },
-    {
-      "enName": "Imperial Iron Sentry",
-      "cnName": "皇家铁卫"
-    },
-    {
-      "enName": "Imperial Iron Sentry",
-      "cnName": "皇家铁卫"
-    },
-    {
-      "enName": "Imperial Iron Sentry",
-      "cnName": "皇家铁卫"
-    },
-    {
-      "enName": "When Winter Comes",
-      "cnName": "霜起之时"
-    },
-    {
-      "enName": "When Winter Comes",
-      "cnName": "霜起之时"
-    },
-    {
-      "enName": "When Winter Comes",
-      "cnName": "霜起之时"
-    },
-    {
-      "enName": "When Winter Comes",
-      "cnName": "霜起之时"
-    },
-    {
-      "enName": "When Winter Comes",
-      "cnName": "霜起之时"
-    },
-    {
-      "enName": "Hekate%27s Vision",
-      "cnName": "巫神视界"
-    },
-    {
-      "enName": "Hekate%27s Vision",
-      "cnName": "巫神视界"
-    },
-    {
-      "enName": "Hekate%27s Vision",
-      "cnName": "巫神视界"
-    },
-    {
-      "enName": "Hekate%27s Vision",
-      "cnName": "巫神视界"
-    },
-    {
-      "enName": "Hekate%27s Vision",
-      "cnName": "巫神视界"
-    },
-    {
-      "enName": "Troublemaker",
-      "cnName": "捣乱份子"
-    },
-    {
-      "enName": "Troublemaker",
-      "cnName": "捣乱份子"
-    },
-    {
-      "enName": "Troublemaker",
-      "cnName": "捣乱份子"
-    },
-    {
-      "enName": "Troublemaker",
-      "cnName": "捣乱份子"
-    },
-    {
-      "enName": "Troublemaker",
-      "cnName": "捣乱份子"
-    },
-    {
-      "enName": "Troublemaker",
-      "cnName": "捣乱份子"
-    },
-    {
-      "enName": "Headless Crown",
-      "cnName": "无首之冕"
-    },
-    {
-      "enName": "Headless Crown",
-      "cnName": "无首之冕"
-    },
-    {
-      "enName": "Headless Crown",
-      "cnName": "无首之冕"
-    },
-    {
-      "enName": "Headless Crown",
-      "cnName": "无首之冕"
-    },
-    {
-      "enName": "Solid River",
-      "cnName": "凝河"
-    },
-    {
-      "enName": "Solid River",
-      "cnName": "凝河"
-    },
-    {
-      "enName": "Solid River",
-      "cnName": "凝河"
-    },
-    {
-      "enName": "Solid River",
-      "cnName": "凝河"
-    },
-    {
-      "enName": "Brainwave Emitter",
-      "cnName": "脑波迸发器"
-    },
-    {
-      "enName": "Brainwave Emitter",
-      "cnName": "脑波迸发器"
-    },
-    {
-      "enName": "Brainwave Emitter",
-      "cnName": "脑波迸发器"
-    },
-    {
-      "enName": "Malign Embrace",
-      "cnName": "恶意缠绵"
-    },
-    {
-      "enName": "Malign Embrace",
-      "cnName": "恶意缠绵"
-    },
-    {
-      "enName": "Malign Embrace",
-      "cnName": "恶意缠绵"
-    },
-    {
-      "enName": "Malign Embrace",
-      "cnName": "恶意缠绵"
-    },
-    {
-      "enName": "Herbalist%27s Headscarf",
-      "cnName": "草药师头巾"
-    },
-    {
-      "enName": "Scribe%27s Headscarf",
-      "cnName": "抄写员头巾"
-    },
-    {
-      "enName": "Acolyte%27s Crown",
-      "cnName": "吟游者头冠"
-    },
-    {
-      "enName": "Witchdoctor%27s Mask",
-      "cnName": "巫医面具"
-    },
-    {
-      "enName": "Disciple%27s Headscarf",
-      "cnName": "学徒头巾"
-    },
-    {
-      "enName": "Shaman%27s Headdress",
-      "cnName": "萨满头饰"
-    },
-    {
-      "enName": "Envoy%27s Mask",
-      "cnName": "神使面具"
-    },
-    {
-      "enName": "Respected Tutor%27s Face",
-      "cnName": "尊师之面"
-    },
-    {
-      "enName": "Elder Sage%27s Chapeau",
-      "cnName": "大贤者之冠"
-    },
-    {
-      "enName": "Imperishable Miter",
-      "cnName": "不灭者法冠"
-    },
-    {
-      "enName": "All Magic Crown",
-      "cnName": "万法之宝冠"
-    },
-    {
-      "enName": "Long Night Sorcerer%27s Mask",
-      "cnName": "长夜巫王假面"
-    },
-    {
-      "enName": "Siren Faceguard",
-      "cnName": "海妖面甲"
-    },
-    {
-      "enName": "Brainwave Emitter",
-      "cnName": "脑波迸发器"
-    },
-    {
-      "enName": "Cold Breath",
-      "cnName": "冰冷呼吸"
-    },
-    {
-      "enName": "Surging Inspiration",
-      "cnName": "涌动灵感"
-    },
-    {
-      "enName": "Fiend Crown",
-      "cnName": "邪龙头冠"
-    },
-    {
-      "enName": "Webbed Arcane Headscarf",
-      "cnName": "蛛网奥秘头巾"
-    },
-    {
-      "enName": "Imperial Iron Sentry",
-      "cnName": "皇家铁卫"
-    },
-    {
-      "enName": "When Winter Comes",
-      "cnName": "霜起之时"
-    },
-    {
-      "enName": "Hekate%27s Vision",
-      "cnName": "巫神视界"
-    },
-    {
-      "enName": "Troublemaker",
-      "cnName": "捣乱份子"
-    },
-    {
-      "enName": "Headless Crown",
-      "cnName": "无首之冕"
-    },
-    {
-      "enName": "Solid River",
-      "cnName": "凝河"
-    },
-    {
-      "enName": "Malign Embrace",
-      "cnName": "恶意缠绵"
-    },
-    {
-      "enName": "Siren Faceguard",
-      "cnName": "海妖面甲"
-    },
-    {
-      "enName": "Brainwave Emitter",
-      "cnName": "脑波迸发器"
-    },
-    {
-      "enName": "Cold Breath",
-      "cnName": "冰冷呼吸"
-    },
-    {
-      "enName": "Surging Inspiration",
-      "cnName": "涌动灵感"
-    },
-    {
-      "enName": "Fiend Crown",
-      "cnName": "邪龙头冠"
-    },
-    {
-      "enName": "Webbed Arcane Headscarf",
-      "cnName": "蛛网奥秘头巾"
-    },
-    {
-      "enName": "Imperial Iron Sentry",
-      "cnName": "皇家铁卫"
-    },
-    {
-      "enName": "When Winter Comes",
-      "cnName": "霜起之时"
-    },
-    {
-      "enName": "Hekate%27s Vision",
-      "cnName": "巫神视界"
-    },
-    {
-      "enName": "Troublemaker",
-      "cnName": "捣乱份子"
-    },
-    {
-      "enName": "Headless Crown",
-      "cnName": "无首之冕"
-    },
-    {
-      "enName": "Solid River",
-      "cnName": "凝河"
-    },
-    {
-      "enName": "Malign Embrace",
-      "cnName": "恶意缠绵"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    }
+    { "enName": "Cold Breath", "cnName": "冰冷呼吸" },
+    { "enName": "Cold Breath", "cnName": "冰冷呼吸" },
+    { "enName": "Cold Breath", "cnName": "冰冷呼吸" },
+    { "enName": "Cold Breath", "cnName": "冰冷呼吸" },
+    { "enName": "Surging Inspiration", "cnName": "涌动灵感" },
+    { "enName": "Surging Inspiration", "cnName": "涌动灵感" },
+    { "enName": "Surging Inspiration", "cnName": "涌动灵感" },
+    { "enName": "Surging Inspiration", "cnName": "涌动灵感" },
+    { "enName": "Fiend Crown", "cnName": "邪龙头冠" },
+    { "enName": "Fiend Crown", "cnName": "邪龙头冠" },
+    { "enName": "Fiend Crown", "cnName": "邪龙头冠" },
+    { "enName": "Fiend Crown", "cnName": "邪龙头冠" },
+    { "enName": "Webbed Arcane Headscarf", "cnName": "蛛网奥秘头巾" },
+    { "enName": "Webbed Arcane Headscarf", "cnName": "蛛网奥秘头巾" },
+    { "enName": "Webbed Arcane Headscarf", "cnName": "蛛网奥秘头巾" },
+    { "enName": "Webbed Arcane Headscarf", "cnName": "蛛网奥秘头巾" },
+    { "enName": "Webbed Arcane Headscarf", "cnName": "蛛网奥秘头巾" },
+    { "enName": "Siren Faceguard", "cnName": "海妖面甲" },
+    { "enName": "Siren Faceguard", "cnName": "海妖面甲" },
+    { "enName": "Siren Faceguard", "cnName": "海妖面甲" },
+    { "enName": "Imperial Iron Sentry", "cnName": "皇家铁卫" },
+    { "enName": "Imperial Iron Sentry", "cnName": "皇家铁卫" },
+    { "enName": "Imperial Iron Sentry", "cnName": "皇家铁卫" },
+    { "enName": "Imperial Iron Sentry", "cnName": "皇家铁卫" },
+    { "enName": "Imperial Iron Sentry", "cnName": "皇家铁卫" },
+    { "enName": "When Winter Comes", "cnName": "霜起之时" },
+    { "enName": "When Winter Comes", "cnName": "霜起之时" },
+    { "enName": "When Winter Comes", "cnName": "霜起之时" },
+    { "enName": "When Winter Comes", "cnName": "霜起之时" },
+    { "enName": "When Winter Comes", "cnName": "霜起之时" },
+    { "enName": "Hekate%27s Vision", "cnName": "巫神视界" },
+    { "enName": "Hekate%27s Vision", "cnName": "巫神视界" },
+    { "enName": "Hekate%27s Vision", "cnName": "巫神视界" },
+    { "enName": "Hekate%27s Vision", "cnName": "巫神视界" },
+    { "enName": "Hekate%27s Vision", "cnName": "巫神视界" },
+    { "enName": "Troublemaker", "cnName": "捣乱份子" },
+    { "enName": "Troublemaker", "cnName": "捣乱份子" },
+    { "enName": "Troublemaker", "cnName": "捣乱份子" },
+    { "enName": "Troublemaker", "cnName": "捣乱份子" },
+    { "enName": "Troublemaker", "cnName": "捣乱份子" },
+    { "enName": "Troublemaker", "cnName": "捣乱份子" },
+    { "enName": "Headless Crown", "cnName": "无首之冕" },
+    { "enName": "Headless Crown", "cnName": "无首之冕" },
+    { "enName": "Headless Crown", "cnName": "无首之冕" },
+    { "enName": "Headless Crown", "cnName": "无首之冕" },
+    { "enName": "Solid River", "cnName": "凝河" },
+    { "enName": "Solid River", "cnName": "凝河" },
+    { "enName": "Solid River", "cnName": "凝河" },
+    { "enName": "Solid River", "cnName": "凝河" },
+    { "enName": "Brainwave Emitter", "cnName": "脑波迸发器" },
+    { "enName": "Brainwave Emitter", "cnName": "脑波迸发器" },
+    { "enName": "Brainwave Emitter", "cnName": "脑波迸发器" },
+    { "enName": "Malign Embrace", "cnName": "恶意缠绵" },
+    { "enName": "Malign Embrace", "cnName": "恶意缠绵" },
+    { "enName": "Malign Embrace", "cnName": "恶意缠绵" },
+    { "enName": "Malign Embrace", "cnName": "恶意缠绵" },
+    { "enName": "Herbalist%27s Headscarf", "cnName": "草药师头巾" },
+    { "enName": "Scribe%27s Headscarf", "cnName": "抄写员头巾" },
+    { "enName": "Acolyte%27s Crown", "cnName": "吟游者头冠" },
+    { "enName": "Witchdoctor%27s Mask", "cnName": "巫医面具" },
+    { "enName": "Disciple%27s Headscarf", "cnName": "学徒头巾" },
+    { "enName": "Shaman%27s Headdress", "cnName": "萨满头饰" },
+    { "enName": "Envoy%27s Mask", "cnName": "神使面具" },
+    { "enName": "Respected Tutor%27s Face", "cnName": "尊师之面" },
+    { "enName": "Elder Sage%27s Chapeau", "cnName": "大贤者之冠" },
+    { "enName": "Imperishable Miter", "cnName": "不灭者法冠" },
+    { "enName": "All Magic Crown", "cnName": "万法之宝冠" },
+    { "enName": "Long Night Sorcerer%27s Mask", "cnName": "长夜巫王假面" },
+    { "enName": "Siren Faceguard", "cnName": "海妖面甲" },
+    { "enName": "Brainwave Emitter", "cnName": "脑波迸发器" },
+    { "enName": "Cold Breath", "cnName": "冰冷呼吸" },
+    { "enName": "Surging Inspiration", "cnName": "涌动灵感" },
+    { "enName": "Fiend Crown", "cnName": "邪龙头冠" },
+    { "enName": "Webbed Arcane Headscarf", "cnName": "蛛网奥秘头巾" },
+    { "enName": "Imperial Iron Sentry", "cnName": "皇家铁卫" },
+    { "enName": "When Winter Comes", "cnName": "霜起之时" },
+    { "enName": "Hekate%27s Vision", "cnName": "巫神视界" },
+    { "enName": "Troublemaker", "cnName": "捣乱份子" },
+    { "enName": "Headless Crown", "cnName": "无首之冕" },
+    { "enName": "Solid River", "cnName": "凝河" },
+    { "enName": "Malign Embrace", "cnName": "恶意缠绵" },
+    { "enName": "Siren Faceguard", "cnName": "海妖面甲" },
+    { "enName": "Brainwave Emitter", "cnName": "脑波迸发器" },
+    { "enName": "Cold Breath", "cnName": "冰冷呼吸" },
+    { "enName": "Surging Inspiration", "cnName": "涌动灵感" },
+    { "enName": "Fiend Crown", "cnName": "邪龙头冠" },
+    { "enName": "Webbed Arcane Headscarf", "cnName": "蛛网奥秘头巾" },
+    { "enName": "Imperial Iron Sentry", "cnName": "皇家铁卫" },
+    { "enName": "When Winter Comes", "cnName": "霜起之时" },
+    { "enName": "Hekate%27s Vision", "cnName": "巫神视界" },
+    { "enName": "Troublemaker", "cnName": "捣乱份子" },
+    { "enName": "Headless Crown", "cnName": "无首之冕" },
+    { "enName": "Solid River", "cnName": "凝河" },
+    { "enName": "Malign Embrace", "cnName": "恶意缠绵" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" }
   ]
 }

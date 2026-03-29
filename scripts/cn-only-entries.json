@@ -1,0 +1,13 @@
+[
+  { "id": "51422150", "text": "+40% 移动速度，持续", "type": "DEX_Helmet" },
+  { "id": "116710801", "text": "+1", "type": "DEX_Helmet" },
+  { "id": "116720901", "text": "+1", "type": "INT_Helmet" },
+  { "id": "116700801", "text": "+1", "type": "STR_Helmet" },
+  { "id": "116810401", "text": "+1哨卫数量上限", "type": "DEX_Shield" },
+  { "id": "116820401", "text": "+1哨卫数量上限", "type": "INT_Shield" },
+  { "id": "116800401", "text": "+1哨卫数量上限", "type": "STR_Shield" },
+  { "id": "51512560", "text": "+(45-60)% 几率造成双倍伤害", "type": "Ring" },
+  { "id": "140230100", "text": "+2引导层数下限", "type": "Belt" },
+  { "id": "140230101", "text": "+1引导层数下限", "type": "Belt" },
+  { "id": "140230180", "text": "+(2-3)引导层数下限", "type": "Belt" }
+]

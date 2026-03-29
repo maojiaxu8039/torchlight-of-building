@@ -1036,11 +1036,7 @@
       "enText": "+1 to Beam Skill Level",
       "cnText": "+1 射线技能等级"
     },
-    {
-      "modifierId": "51528221",
-      "enText": "+1 Beams",
-      "cnText": "+1 射线条数"
-    },
+    { "modifierId": "51528221", "enText": "+1 Beams", "cnText": "+1 射线条数" },
     {
       "modifierId": "680000",
       "enText": "+3% Fire Resistance",
@@ -1226,11 +1222,7 @@
       "enText": "+2 to Beam Skill Level",
       "cnText": "+2 射线技能等级"
     },
-    {
-      "modifierId": "51528220",
-      "enText": "+2 Beams",
-      "cnText": "+2 射线条数"
-    },
+    { "modifierId": "51528220", "enText": "+2 Beams", "cnText": "+2 射线条数" },
     {
       "modifierId": "51510110",
       "enText": "+65 Max Life per 10 levels",

@@ -1,321 +1,84 @@
 {
   "equipmentType": "Wand",
   "baseGears": [
-    {
-      "enName": "Jumble Ice",
-      "cnName": "凌汛"
-    },
-    {
-      "enName": "Jumble Ice",
-      "cnName": "凌汛"
-    },
-    {
-      "enName": "Jumble Ice",
-      "cnName": "凌汛"
-    },
-    {
-      "enName": "Jumble Ice",
-      "cnName": "凌汛"
-    },
-    {
-      "enName": "Shadow of Thunderlight%27s Fury",
-      "cnName": "雷光绝影之怒"
-    },
-    {
-      "enName": "Shadow of Thunderlight%27s Fury",
-      "cnName": "雷光绝影之怒"
-    },
-    {
-      "enName": "Shadow of Thunderlight%27s Fury",
-      "cnName": "雷光绝影之怒"
-    },
-    {
-      "enName": "Shadow of Thunderlight%27s Fury",
-      "cnName": "雷光绝影之怒"
-    },
-    {
-      "enName": "Spring Resurrection",
-      "cnName": "春日复苏"
-    },
-    {
-      "enName": "Spring Resurrection",
-      "cnName": "春日复苏"
-    },
-    {
-      "enName": "Spring Resurrection",
-      "cnName": "春日复苏"
-    },
-    {
-      "enName": "Spring Resurrection",
-      "cnName": "春日复苏"
-    },
-    {
-      "enName": "Fire Lord%27s Promise",
-      "cnName": "炎魔的允诺"
-    },
-    {
-      "enName": "Fire Lord%27s Promise",
-      "cnName": "炎魔的允诺"
-    },
-    {
-      "enName": "Fire Lord%27s Promise",
-      "cnName": "炎魔的允诺"
-    },
-    {
-      "enName": "Fire Lord%27s Promise",
-      "cnName": "炎魔的允诺"
-    },
-    {
-      "enName": "Fire Lord%27s Promise",
-      "cnName": "炎魔的允诺"
-    },
-    {
-      "enName": "Fire Lord%27s Promise",
-      "cnName": "炎魔的允诺"
-    },
-    {
-      "enName": "Oversight",
-      "cnName": "智者千虑"
-    },
-    {
-      "enName": "Oversight",
-      "cnName": "智者千虑"
-    },
-    {
-      "enName": "Scepter of Excommunication",
-      "cnName": "绝罚权杖"
-    },
-    {
-      "enName": "Scepter of Excommunication",
-      "cnName": "绝罚权杖"
-    },
-    {
-      "enName": "Scepter of Excommunication",
-      "cnName": "绝罚权杖"
-    },
-    {
-      "enName": "Fiery Oath",
-      "cnName": "炎誓"
-    },
-    {
-      "enName": "Fiery Oath",
-      "cnName": "炎誓"
-    },
-    {
-      "enName": "Fiery Oath",
-      "cnName": "炎誓"
-    },
-    {
-      "enName": "Fiery Oath",
-      "cnName": "炎誓"
-    },
-    {
-      "enName": "Fiery Oath",
-      "cnName": "炎誓"
-    },
-    {
-      "enName": "Fiery Oath",
-      "cnName": "炎誓"
-    },
-    {
-      "enName": "Withervine Wand",
-      "cnName": "枯藤法杖"
-    },
-    {
-      "enName": "Rambone Wand",
-      "cnName": "羊骨法杖"
-    },
-    {
-      "enName": "Carved Wooden Wand",
-      "cnName": "木雕法杖"
-    },
-    {
-      "enName": "Cuprite Wand",
-      "cnName": "赤铜法杖"
-    },
-    {
-      "enName": "Spiritwood Wand",
-      "cnName": "灵木法杖"
-    },
-    {
-      "enName": "Wind Spirit Wand",
-      "cnName": "风灵法杖"
-    },
-    {
-      "enName": "Voodoo Wand",
-      "cnName": "巫灵法杖"
-    },
-    {
-      "enName": "Flower Sea Wand",
-      "cnName": "花海法杖"
-    },
-    {
-      "enName": "Wiseman%27s Wand",
-      "cnName": "智者法杖"
-    },
-    {
-      "enName": "White Crystal Wand",
-      "cnName": "白晶法杖"
-    },
-    {
-      "enName": "Viper Wand",
-      "cnName": "蝮蛇法杖"
-    },
-    {
-      "enName": "Wraith Wand",
-      "cnName": "恶灵法杖"
-    },
-    {
-      "enName": "Bard%27s Wand",
-      "cnName": "吟游法杖"
-    },
-    {
-      "enName": "Sage Wand",
-      "cnName": "先贤法杖"
-    },
-    {
-      "enName": "Devout Wand",
-      "cnName": "虔诚法杖"
-    },
-    {
-      "enName": "Scarlet Wand",
-      "cnName": "猩红法杖"
-    },
-    {
-      "enName": "Azure Moon Wand",
-      "cnName": "苍月法杖"
-    },
-    {
-      "enName": "Wretched Wand",
-      "cnName": "失心者法杖"
-    },
-    {
-      "enName": "Heartflayer Wand",
-      "cnName": "夺心者法杖"
-    },
-    {
-      "enName": "Headless Cleric Wand",
-      "cnName": "无首学者法杖"
-    },
-    {
-      "enName": "Spring Resurrection",
-      "cnName": "春日复苏"
-    },
-    {
-      "enName": "Scepter of Excommunication",
-      "cnName": "绝罚权杖"
-    },
-    {
-      "enName": "Fire Lord%27s Promise",
-      "cnName": "炎魔的允诺"
-    },
-    {
-      "enName": "Jumble Ice",
-      "cnName": "凌汛"
-    },
-    {
-      "enName": "Shadow of Thunderlight%27s Fury",
-      "cnName": "雷光绝影之怒"
-    },
-    {
-      "enName": "Oversight",
-      "cnName": "智者千虑"
-    },
-    {
-      "enName": "Fiery Oath",
-      "cnName": "炎誓"
-    },
-    {
-      "enName": "Spring Resurrection",
-      "cnName": "春日复苏"
-    },
-    {
-      "enName": "Scepter of Excommunication",
-      "cnName": "绝罚权杖"
-    },
-    {
-      "enName": "Fire Lord%27s Promise",
-      "cnName": "炎魔的允诺"
-    },
-    {
-      "enName": "Jumble Ice",
-      "cnName": "凌汛"
-    },
-    {
-      "enName": "Shadow of Thunderlight%27s Fury",
-      "cnName": "雷光绝影之怒"
-    },
-    {
-      "enName": "Oversight",
-      "cnName": "智者千虑"
-    },
-    {
-      "enName": "Fiery Oath",
-      "cnName": "炎誓"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    },
-    {
-      "enName": "Shallow Dream Talking - Weapon",
-      "cnName": "浅白梦语-武器"
-    }
+    { "enName": "Jumble Ice", "cnName": "凌汛" },
+    { "enName": "Jumble Ice", "cnName": "凌汛" },
+    { "enName": "Jumble Ice", "cnName": "凌汛" },
+    { "enName": "Jumble Ice", "cnName": "凌汛" },
+    { "enName": "Shadow of Thunderlight%27s Fury", "cnName": "雷光绝影之怒" },
+    { "enName": "Shadow of Thunderlight%27s Fury", "cnName": "雷光绝影之怒" },
+    { "enName": "Shadow of Thunderlight%27s Fury", "cnName": "雷光绝影之怒" },
+    { "enName": "Shadow of Thunderlight%27s Fury", "cnName": "雷光绝影之怒" },
+    { "enName": "Spring Resurrection", "cnName": "春日复苏" },
+    { "enName": "Spring Resurrection", "cnName": "春日复苏" },
+    { "enName": "Spring Resurrection", "cnName": "春日复苏" },
+    { "enName": "Spring Resurrection", "cnName": "春日复苏" },
+    { "enName": "Fire Lord%27s Promise", "cnName": "炎魔的允诺" },
+    { "enName": "Fire Lord%27s Promise", "cnName": "炎魔的允诺" },
+    { "enName": "Fire Lord%27s Promise", "cnName": "炎魔的允诺" },
+    { "enName": "Fire Lord%27s Promise", "cnName": "炎魔的允诺" },
+    { "enName": "Fire Lord%27s Promise", "cnName": "炎魔的允诺" },
+    { "enName": "Fire Lord%27s Promise", "cnName": "炎魔的允诺" },
+    { "enName": "Oversight", "cnName": "智者千虑" },
+    { "enName": "Oversight", "cnName": "智者千虑" },
+    { "enName": "Scepter of Excommunication", "cnName": "绝罚权杖" },
+    { "enName": "Scepter of Excommunication", "cnName": "绝罚权杖" },
+    { "enName": "Scepter of Excommunication", "cnName": "绝罚权杖" },
+    { "enName": "Fiery Oath", "cnName": "炎誓" },
+    { "enName": "Fiery Oath", "cnName": "炎誓" },
+    { "enName": "Fiery Oath", "cnName": "炎誓" },
+    { "enName": "Fiery Oath", "cnName": "炎誓" },
+    { "enName": "Fiery Oath", "cnName": "炎誓" },
+    { "enName": "Fiery Oath", "cnName": "炎誓" },
+    { "enName": "Withervine Wand", "cnName": "枯藤法杖" },
+    { "enName": "Rambone Wand", "cnName": "羊骨法杖" },
+    { "enName": "Carved Wooden Wand", "cnName": "木雕法杖" },
+    { "enName": "Cuprite Wand", "cnName": "赤铜法杖" },
+    { "enName": "Spiritwood Wand", "cnName": "灵木法杖" },
+    { "enName": "Wind Spirit Wand", "cnName": "风灵法杖" },
+    { "enName": "Voodoo Wand", "cnName": "巫灵法杖" },
+    { "enName": "Flower Sea Wand", "cnName": "花海法杖" },
+    { "enName": "Wiseman%27s Wand", "cnName": "智者法杖" },
+    { "enName": "White Crystal Wand", "cnName": "白晶法杖" },
+    { "enName": "Viper Wand", "cnName": "蝮蛇法杖" },
+    { "enName": "Wraith Wand", "cnName": "恶灵法杖" },
+    { "enName": "Bard%27s Wand", "cnName": "吟游法杖" },
+    { "enName": "Sage Wand", "cnName": "先贤法杖" },
+    { "enName": "Devout Wand", "cnName": "虔诚法杖" },
+    { "enName": "Scarlet Wand", "cnName": "猩红法杖" },
+    { "enName": "Azure Moon Wand", "cnName": "苍月法杖" },
+    { "enName": "Wretched Wand", "cnName": "失心者法杖" },
+    { "enName": "Heartflayer Wand", "cnName": "夺心者法杖" },
+    { "enName": "Headless Cleric Wand", "cnName": "无首学者法杖" },
+    { "enName": "Spring Resurrection", "cnName": "春日复苏" },
+    { "enName": "Scepter of Excommunication", "cnName": "绝罚权杖" },
+    { "enName": "Fire Lord%27s Promise", "cnName": "炎魔的允诺" },
+    { "enName": "Jumble Ice", "cnName": "凌汛" },
+    { "enName": "Shadow of Thunderlight%27s Fury", "cnName": "雷光绝影之怒" },
+    { "enName": "Oversight", "cnName": "智者千虑" },
+    { "enName": "Fiery Oath", "cnName": "炎誓" },
+    { "enName": "Spring Resurrection", "cnName": "春日复苏" },
+    { "enName": "Scepter of Excommunication", "cnName": "绝罚权杖" },
+    { "enName": "Fire Lord%27s Promise", "cnName": "炎魔的允诺" },
+    { "enName": "Jumble Ice", "cnName": "凌汛" },
+    { "enName": "Shadow of Thunderlight%27s Fury", "cnName": "雷光绝影之怒" },
+    { "enName": "Oversight", "cnName": "智者千虑" },
+    { "enName": "Fiery Oath", "cnName": "炎誓" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" },
+    { "enName": "Shallow Dream Talking - Weapon", "cnName": "浅白梦语-武器" }
   ]
 }

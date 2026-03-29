@@ -1,189 +1,51 @@
 {
   "equipmentType": "DEX_Shield",
   "baseGears": [
-    {
-      "enName": "Silent Sentry Shield",
-      "cnName": "沉默守卫之盾"
-    },
-    {
-      "enName": "Silent Sentry Shield",
-      "cnName": "沉默守卫之盾"
-    },
-    {
-      "enName": "Silent Sentry Shield",
-      "cnName": "沉默守卫之盾"
-    },
-    {
-      "enName": "Silent Sentry Shield",
-      "cnName": "沉默守卫之盾"
-    },
-    {
-      "enName": "Electricity Amplifier",
-      "cnName": "电能增幅器"
-    },
-    {
-      "enName": "Electricity Amplifier",
-      "cnName": "电能增幅器"
-    },
-    {
-      "enName": "Electricity Amplifier",
-      "cnName": "电能增幅器"
-    },
-    {
-      "enName": "Electricity Amplifier",
-      "cnName": "电能增幅器"
-    },
-    {
-      "enName": "Reverse-Reverse-Reverse Mirror",
-      "cnName": "反反反面镜"
-    },
-    {
-      "enName": "Reverse-Reverse-Reverse Mirror",
-      "cnName": "反反反面镜"
-    },
-    {
-      "enName": "Reverse-Reverse-Reverse Mirror",
-      "cnName": "反反反面镜"
-    },
-    {
-      "enName": "Reverse-Reverse-Reverse Mirror",
-      "cnName": "反反反面镜"
-    },
-    {
-      "enName": "Aspiration Light Shield",
-      "cnName": "初心轻盾"
-    },
-    {
-      "enName": "Griffin Buckler",
-      "cnName": "狮鹫圆盾"
-    },
-    {
-      "enName": "Wind Spirit Light Shield",
-      "cnName": "风灵轻盾"
-    },
-    {
-      "enName": "Dragonfang Buckler",
-      "cnName": "龙牙圆盾"
-    },
-    {
-      "enName": "Hunter%27s Buckler",
-      "cnName": "猎手圆盾"
-    },
-    {
-      "enName": "Thunder Light Shield",
-      "cnName": "雷霆轻盾"
-    },
-    {
-      "enName": "Cursed Light Shield",
-      "cnName": "诅咒轻盾"
-    },
-    {
-      "enName": "Viper Buckler",
-      "cnName": "蝮蛇圆盾"
-    },
-    {
-      "enName": "Shadow Light Shield",
-      "cnName": "暗影轻盾"
-    },
-    {
-      "enName": "Wind God%27s Buckler",
-      "cnName": "风神圆盾"
-    },
-    {
-      "enName": "Conqueror Buckler",
-      "cnName": "征伐者圆盾"
-    },
-    {
-      "enName": "Lost Ranger%27s Light Shield",
-      "cnName": "迷途游侠的轻盾"
-    },
-    {
-      "enName": "Reverse-Reverse-Reverse Mirror",
-      "cnName": "反反反面镜"
-    },
-    {
-      "enName": "Silent Sentry Shield",
-      "cnName": "沉默守卫之盾"
-    },
-    {
-      "enName": "Electricity Amplifier",
-      "cnName": "电能增幅器"
-    },
-    {
-      "enName": "Reverse-Reverse-Reverse Mirror",
-      "cnName": "反反反面镜"
-    },
-    {
-      "enName": "Silent Sentry Shield",
-      "cnName": "沉默守卫之盾"
-    },
-    {
-      "enName": "Electricity Amplifier",
-      "cnName": "电能增幅器"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    }
+    { "enName": "Silent Sentry Shield", "cnName": "沉默守卫之盾" },
+    { "enName": "Silent Sentry Shield", "cnName": "沉默守卫之盾" },
+    { "enName": "Silent Sentry Shield", "cnName": "沉默守卫之盾" },
+    { "enName": "Silent Sentry Shield", "cnName": "沉默守卫之盾" },
+    { "enName": "Electricity Amplifier", "cnName": "电能增幅器" },
+    { "enName": "Electricity Amplifier", "cnName": "电能增幅器" },
+    { "enName": "Electricity Amplifier", "cnName": "电能增幅器" },
+    { "enName": "Electricity Amplifier", "cnName": "电能增幅器" },
+    { "enName": "Reverse-Reverse-Reverse Mirror", "cnName": "反反反面镜" },
+    { "enName": "Reverse-Reverse-Reverse Mirror", "cnName": "反反反面镜" },
+    { "enName": "Reverse-Reverse-Reverse Mirror", "cnName": "反反反面镜" },
+    { "enName": "Reverse-Reverse-Reverse Mirror", "cnName": "反反反面镜" },
+    { "enName": "Aspiration Light Shield", "cnName": "初心轻盾" },
+    { "enName": "Griffin Buckler", "cnName": "狮鹫圆盾" },
+    { "enName": "Wind Spirit Light Shield", "cnName": "风灵轻盾" },
+    { "enName": "Dragonfang Buckler", "cnName": "龙牙圆盾" },
+    { "enName": "Hunter%27s Buckler", "cnName": "猎手圆盾" },
+    { "enName": "Thunder Light Shield", "cnName": "雷霆轻盾" },
+    { "enName": "Cursed Light Shield", "cnName": "诅咒轻盾" },
+    { "enName": "Viper Buckler", "cnName": "蝮蛇圆盾" },
+    { "enName": "Shadow Light Shield", "cnName": "暗影轻盾" },
+    { "enName": "Wind God%27s Buckler", "cnName": "风神圆盾" },
+    { "enName": "Conqueror Buckler", "cnName": "征伐者圆盾" },
+    { "enName": "Lost Ranger%27s Light Shield", "cnName": "迷途游侠的轻盾" },
+    { "enName": "Reverse-Reverse-Reverse Mirror", "cnName": "反反反面镜" },
+    { "enName": "Silent Sentry Shield", "cnName": "沉默守卫之盾" },
+    { "enName": "Electricity Amplifier", "cnName": "电能增幅器" },
+    { "enName": "Reverse-Reverse-Reverse Mirror", "cnName": "反反反面镜" },
+    { "enName": "Silent Sentry Shield", "cnName": "沉默守卫之盾" },
+    { "enName": "Electricity Amplifier", "cnName": "电能增幅器" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" }
   ]
 }

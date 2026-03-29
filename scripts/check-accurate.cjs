@@ -24,7 +24,7 @@ async function main() {
   const lines = html.split("\n");
   let count = 0;
   console.log("\n包含 'Elemental' 的行:");
-  lines.forEach(function(line) {
+  lines.forEach((line) => {
     if (line.includes("Elemental")) {
       console.log(line.substring(0, 150));
       count++;

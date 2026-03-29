@@ -81,11 +81,7 @@
       "enText": "Gains 1 stack(s) of all Blessings when casting a Restoration Skill",
       "cnText": "释放回复技能时，获得 1 层所有祝福"
     },
-    {
-      "modifierId": "1502320",
-      "enText": "Has Hasten",
-      "cnText": "拥有迅捷"
-    },
+    { "modifierId": "1502320", "enText": "Has Hasten", "cnText": "拥有迅捷" },
     {
       "modifierId": "60062301",
       "enText": "+(3–5)% Max Elemental Resistance",
@@ -401,11 +397,7 @@
       "enText": "+(7–8)% Aura Effect",
       "cnText": "+(7–8)% 光环效果"
     },
-    {
-      "modifierId": "85023161",
-      "enText": "Has Hasten",
-      "cnText": "拥有迅捷"
-    },
+    { "modifierId": "85023161", "enText": "Has Hasten", "cnText": "拥有迅捷" },
     {
       "modifierId": "51530111",
       "enText": "+(165–176) Max Life",
@@ -761,11 +753,7 @@
       "enText": "+(6–10)% Fire and Cold Resistance",
       "cnText": "+(6–10)% 火焰与冰冷抗性"
     },
-    {
-      "modifierId": "51532241",
-      "enText": "+1 Beams",
-      "cnText": "+1 射线条数"
-    },
+    { "modifierId": "51532241", "enText": "+1 Beams", "cnText": "+1 射线条数" },
     {
       "modifierId": "51532251",
       "enText": "(-20–20)% additional Beam Length",
@@ -941,11 +929,7 @@
       "enText": "+(500–1000) Armor and Evasion",
       "cnText": "+(500–1000) 点护甲和闪避值"
     },
-    {
-      "modifierId": "51533731",
-      "enText": "Have Fervor",
-      "cnText": "拥有战意"
-    },
+    { "modifierId": "51533731", "enText": "Have Fervor", "cnText": "拥有战意" },
     {
       "modifierId": "51533741",
       "enText": "Has (60–70) point(s) of fixed Fervor Rating",
@@ -1081,11 +1065,7 @@
       "enText": "+1% Attack Speed per 40 Dexterity",
       "cnText": "每 40 点敏捷， +1% 攻击速度"
     },
-    {
-      "modifierId": "3401010",
-      "enText": "+1 Jumps",
-      "cnText": "+1 弹射次数"
-    },
+    { "modifierId": "3401010", "enText": "+1 Jumps", "cnText": "+1 弹射次数" },
     {
       "modifierId": "3401011",
       "enText": "+1 to Max Agility Blessing Stacks",
@@ -1471,26 +1451,10 @@
       "enText": "[Kinetic Conversion] 100% chance to gain a Barrier for every 5 m you moveRefreshes Barrier when gaining Barrier-40% additional Barrier Shield",
       "cnText": "[动能转化] 每移动 5 米， 100% 几率获得屏障获得屏障时，刷新屏障额外 -40% 屏障吸收量"
     },
-    {
-      "modifierId": "3704000",
-      "enText": "Divine Grace",
-      "cnText": "神明芳泽"
-    },
-    {
-      "modifierId": "3704001",
-      "enText": "Caged Fury",
-      "cnText": "笼中悍兽"
-    },
-    {
-      "modifierId": "3704002",
-      "enText": "Rotted Taboo",
-      "cnText": "腐烂禁果"
-    },
-    {
-      "modifierId": "3704003",
-      "enText": "Comradeship",
-      "cnText": "同袍之谊"
-    },
+    { "modifierId": "3704000", "enText": "Divine Grace", "cnText": "神明芳泽" },
+    { "modifierId": "3704001", "enText": "Caged Fury", "cnText": "笼中悍兽" },
+    { "modifierId": "3704002", "enText": "Rotted Taboo", "cnText": "腐烂禁果" },
+    { "modifierId": "3704003", "enText": "Comradeship", "cnText": "同袍之谊" },
     {
       "modifierId": "3704004",
       "enText": "Hallowed Journey",

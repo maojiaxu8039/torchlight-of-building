@@ -1,477 +1,123 @@
 {
   "equipmentType": "STR_Gloves",
   "baseGears": [
-    {
-      "enName": "Praise for Injury",
-      "cnName": "伤损礼赞"
-    },
-    {
-      "enName": "Praise for Injury",
-      "cnName": "伤损礼赞"
-    },
-    {
-      "enName": "Praise for Injury",
-      "cnName": "伤损礼赞"
-    },
-    {
-      "enName": "Praise for Injury",
-      "cnName": "伤损礼赞"
-    },
-    {
-      "enName": "Praise for Injury",
-      "cnName": "伤损礼赞"
-    },
-    {
-      "enName": "Boom Gloves",
-      "cnName": "砰砰手套"
-    },
-    {
-      "enName": "Boom Gloves",
-      "cnName": "砰砰手套"
-    },
-    {
-      "enName": "Boom Gloves",
-      "cnName": "砰砰手套"
-    },
-    {
-      "enName": "Boom Gloves",
-      "cnName": "砰砰手套"
-    },
-    {
-      "enName": "Ardor",
-      "cnName": "热忱"
-    },
-    {
-      "enName": "Ardor",
-      "cnName": "热忱"
-    },
-    {
-      "enName": "Ardor",
-      "cnName": "热忱"
-    },
-    {
-      "enName": "Ardor",
-      "cnName": "热忱"
-    },
-    {
-      "enName": "Varagon Shroud",
-      "cnName": "瓦拉冈裹躯布"
-    },
-    {
-      "enName": "Varagon Shroud",
-      "cnName": "瓦拉冈裹躯布"
-    },
-    {
-      "enName": "Varagon Shroud",
-      "cnName": "瓦拉冈裹躯布"
-    },
-    {
-      "enName": "Varagon Shroud",
-      "cnName": "瓦拉冈裹躯布"
-    },
-    {
-      "enName": "Varagon Shroud",
-      "cnName": "瓦拉冈裹躯布"
-    },
-    {
-      "enName": "Ghost Slaughter",
-      "cnName": "鬼途"
-    },
-    {
-      "enName": "Ghost Slaughter",
-      "cnName": "鬼途"
-    },
-    {
-      "enName": "Ghost Slaughter",
-      "cnName": "鬼途"
-    },
-    {
-      "enName": "Ghost Slaughter",
-      "cnName": "鬼途"
-    },
-    {
-      "enName": "Ghost Slaughter",
-      "cnName": "鬼途"
-    },
-    {
-      "enName": "Clenched Spring",
-      "cnName": "紧握的发条"
-    },
-    {
-      "enName": "Clenched Spring",
-      "cnName": "紧握的发条"
-    },
-    {
-      "enName": "Clenched Spring",
-      "cnName": "紧握的发条"
-    },
-    {
-      "enName": "Blade-dancer%27s Fingers",
-      "cnName": "舞锋者的双指"
-    },
-    {
-      "enName": "Blade-dancer%27s Fingers",
-      "cnName": "舞锋者的双指"
-    },
-    {
-      "enName": "Blade-dancer%27s Fingers",
-      "cnName": "舞锋者的双指"
-    },
-    {
-      "enName": "Blade-dancer%27s Fingers",
-      "cnName": "舞锋者的双指"
-    },
-    {
-      "enName": "Magnus%27 Laws",
-      "cnName": "玛格努斯的旧律"
-    },
-    {
-      "enName": "Magnus%27 Laws",
-      "cnName": "玛格努斯的旧律"
-    },
-    {
-      "enName": "Magnus%27 Laws",
-      "cnName": "玛格努斯的旧律"
-    },
-    {
-      "enName": "Magnus%27 Laws",
-      "cnName": "玛格努斯的旧律"
-    },
-    {
-      "enName": "Alloy Covenant",
-      "cnName": "合金圣约"
-    },
-    {
-      "enName": "Alloy Covenant",
-      "cnName": "合金圣约"
-    },
-    {
-      "enName": "Alloy Covenant",
-      "cnName": "合金圣约"
-    },
-    {
-      "enName": "Alloy Covenant",
-      "cnName": "合金圣约"
-    },
-    {
-      "enName": "Death%27s Touch",
-      "cnName": "凶神之手"
-    },
-    {
-      "enName": "Death%27s Touch",
-      "cnName": "凶神之手"
-    },
-    {
-      "enName": "Death%27s Touch",
-      "cnName": "凶神之手"
-    },
-    {
-      "enName": "Death%27s Touch",
-      "cnName": "凶神之手"
-    },
-    {
-      "enName": "Death%27s Touch",
-      "cnName": "凶神之手"
-    },
-    {
-      "enName": "Blade-Dancer%27s Edges",
-      "cnName": "舞锋者的群锋"
-    },
-    {
-      "enName": "Blade-Dancer%27s Edges",
-      "cnName": "舞锋者的群锋"
-    },
-    {
-      "enName": "Blade-Dancer%27s Edges",
-      "cnName": "舞锋者的群锋"
-    },
-    {
-      "enName": "Blade-Dancer%27s Edges",
-      "cnName": "舞锋者的群锋"
-    },
-    {
-      "enName": "Blade-Dancer%27s Edges",
-      "cnName": "舞锋者的群锋"
-    },
-    {
-      "enName": "Quantum Convergence",
-      "cnName": "量子汇流"
-    },
-    {
-      "enName": "Quantum Convergence",
-      "cnName": "量子汇流"
-    },
-    {
-      "enName": "Quantum Convergence",
-      "cnName": "量子汇流"
-    },
-    {
-      "enName": "Quantum Convergence",
-      "cnName": "量子汇流"
-    },
-    {
-      "enName": "Quantum Convergence",
-      "cnName": "量子汇流"
-    },
-    {
-      "enName": "Grandmaster%27s Hands",
-      "cnName": "宗师之手"
-    },
-    {
-      "enName": "Grandmaster%27s Hands",
-      "cnName": "宗师之手"
-    },
-    {
-      "enName": "Grandmaster%27s Hands",
-      "cnName": "宗师之手"
-    },
-    {
-      "enName": "Grandmaster%27s Hands",
-      "cnName": "宗师之手"
-    },
-    {
-      "enName": "Demons%27 Touch",
-      "cnName": "群魔之手"
-    },
-    {
-      "enName": "Demons%27 Touch",
-      "cnName": "群魔之手"
-    },
-    {
-      "enName": "Demons%27 Touch",
-      "cnName": "群魔之手"
-    },
-    {
-      "enName": "Demons%27 Touch",
-      "cnName": "群魔之手"
-    },
-    {
-      "enName": "Demons%27 Touch",
-      "cnName": "群魔之手"
-    },
-    {
-      "enName": "Brute Handguards",
-      "cnName": "蛮兵护手"
-    },
-    {
-      "enName": "Footman%27s Gauntlets",
-      "cnName": "方阵兵手甲"
-    },
-    {
-      "enName": "Paladin%27s Hands",
-      "cnName": "圣战者之手"
-    },
-    {
-      "enName": "Berserker%27s Hands",
-      "cnName": "狂战士之手"
-    },
-    {
-      "enName": "Iron Sentry%27s Hold",
-      "cnName": "铁卫之握"
-    },
-    {
-      "enName": "Packleader Handguards",
-      "cnName": "头狼护手"
-    },
-    {
-      "enName": "Mountain Lord Handguards",
-      "cnName": "高山领主护手"
-    },
-    {
-      "enName": "Divine Arbiter%27s Hands",
-      "cnName": "神圣仲裁者之手"
-    },
-    {
-      "enName": "Dragon Guardian Handguards",
-      "cnName": "龙圣卫护手"
-    },
-    {
-      "enName": "Fallen Knight Handguards",
-      "cnName": "堕落骑士护手"
-    },
-    {
-      "enName": "Old King%27s Rerebraces",
-      "cnName": "旧日王者的护臂"
-    },
-    {
-      "enName": "Ranger%27s Rusted Gauntlets",
-      "cnName": "游侠的生锈腕甲"
-    },
-    {
-      "enName": "Boom Gloves",
-      "cnName": "砰砰手套"
-    },
-    {
-      "enName": "Alloy Covenant",
-      "cnName": "合金圣约"
-    },
-    {
-      "enName": "Praise for Injury",
-      "cnName": "伤损礼赞"
-    },
-    {
-      "enName": "Ardor",
-      "cnName": "热忱"
-    },
-    {
-      "enName": "Varagon Shroud",
-      "cnName": "瓦拉冈裹躯布"
-    },
-    {
-      "enName": "Ghost Slaughter",
-      "cnName": "鬼途"
-    },
-    {
-      "enName": "Clenched Spring",
-      "cnName": "紧握的发条"
-    },
-    {
-      "enName": "Blade-dancer%27s Fingers",
-      "cnName": "舞锋者的双指"
-    },
-    {
-      "enName": "Magnus%27 Laws",
-      "cnName": "玛格努斯的旧律"
-    },
-    {
-      "enName": "Death%27s Touch",
-      "cnName": "凶神之手"
-    },
-    {
-      "enName": "Blade-Dancer%27s Edges",
-      "cnName": "舞锋者的群锋"
-    },
-    {
-      "enName": "Quantum Convergence",
-      "cnName": "量子汇流"
-    },
-    {
-      "enName": "Grandmaster%27s Hands",
-      "cnName": "宗师之手"
-    },
-    {
-      "enName": "Demons%27 Touch",
-      "cnName": "群魔之手"
-    },
-    {
-      "enName": "Boom Gloves",
-      "cnName": "砰砰手套"
-    },
-    {
-      "enName": "Alloy Covenant",
-      "cnName": "合金圣约"
-    },
-    {
-      "enName": "Praise for Injury",
-      "cnName": "伤损礼赞"
-    },
-    {
-      "enName": "Ardor",
-      "cnName": "热忱"
-    },
-    {
-      "enName": "Varagon Shroud",
-      "cnName": "瓦拉冈裹躯布"
-    },
-    {
-      "enName": "Ghost Slaughter",
-      "cnName": "鬼途"
-    },
-    {
-      "enName": "Clenched Spring",
-      "cnName": "紧握的发条"
-    },
-    {
-      "enName": "Blade-dancer%27s Fingers",
-      "cnName": "舞锋者的双指"
-    },
-    {
-      "enName": "Magnus%27 Laws",
-      "cnName": "玛格努斯的旧律"
-    },
-    {
-      "enName": "Death%27s Touch",
-      "cnName": "凶神之手"
-    },
-    {
-      "enName": "Blade-Dancer%27s Edges",
-      "cnName": "舞锋者的群锋"
-    },
-    {
-      "enName": "Quantum Convergence",
-      "cnName": "量子汇流"
-    },
-    {
-      "enName": "Grandmaster%27s Hands",
-      "cnName": "宗师之手"
-    },
-    {
-      "enName": "Demons%27 Touch",
-      "cnName": "群魔之手"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    }
+    { "enName": "Praise for Injury", "cnName": "伤损礼赞" },
+    { "enName": "Praise for Injury", "cnName": "伤损礼赞" },
+    { "enName": "Praise for Injury", "cnName": "伤损礼赞" },
+    { "enName": "Praise for Injury", "cnName": "伤损礼赞" },
+    { "enName": "Praise for Injury", "cnName": "伤损礼赞" },
+    { "enName": "Boom Gloves", "cnName": "砰砰手套" },
+    { "enName": "Boom Gloves", "cnName": "砰砰手套" },
+    { "enName": "Boom Gloves", "cnName": "砰砰手套" },
+    { "enName": "Boom Gloves", "cnName": "砰砰手套" },
+    { "enName": "Ardor", "cnName": "热忱" },
+    { "enName": "Ardor", "cnName": "热忱" },
+    { "enName": "Ardor", "cnName": "热忱" },
+    { "enName": "Ardor", "cnName": "热忱" },
+    { "enName": "Varagon Shroud", "cnName": "瓦拉冈裹躯布" },
+    { "enName": "Varagon Shroud", "cnName": "瓦拉冈裹躯布" },
+    { "enName": "Varagon Shroud", "cnName": "瓦拉冈裹躯布" },
+    { "enName": "Varagon Shroud", "cnName": "瓦拉冈裹躯布" },
+    { "enName": "Varagon Shroud", "cnName": "瓦拉冈裹躯布" },
+    { "enName": "Ghost Slaughter", "cnName": "鬼途" },
+    { "enName": "Ghost Slaughter", "cnName": "鬼途" },
+    { "enName": "Ghost Slaughter", "cnName": "鬼途" },
+    { "enName": "Ghost Slaughter", "cnName": "鬼途" },
+    { "enName": "Ghost Slaughter", "cnName": "鬼途" },
+    { "enName": "Clenched Spring", "cnName": "紧握的发条" },
+    { "enName": "Clenched Spring", "cnName": "紧握的发条" },
+    { "enName": "Clenched Spring", "cnName": "紧握的发条" },
+    { "enName": "Blade-dancer%27s Fingers", "cnName": "舞锋者的双指" },
+    { "enName": "Blade-dancer%27s Fingers", "cnName": "舞锋者的双指" },
+    { "enName": "Blade-dancer%27s Fingers", "cnName": "舞锋者的双指" },
+    { "enName": "Blade-dancer%27s Fingers", "cnName": "舞锋者的双指" },
+    { "enName": "Magnus%27 Laws", "cnName": "玛格努斯的旧律" },
+    { "enName": "Magnus%27 Laws", "cnName": "玛格努斯的旧律" },
+    { "enName": "Magnus%27 Laws", "cnName": "玛格努斯的旧律" },
+    { "enName": "Magnus%27 Laws", "cnName": "玛格努斯的旧律" },
+    { "enName": "Alloy Covenant", "cnName": "合金圣约" },
+    { "enName": "Alloy Covenant", "cnName": "合金圣约" },
+    { "enName": "Alloy Covenant", "cnName": "合金圣约" },
+    { "enName": "Alloy Covenant", "cnName": "合金圣约" },
+    { "enName": "Death%27s Touch", "cnName": "凶神之手" },
+    { "enName": "Death%27s Touch", "cnName": "凶神之手" },
+    { "enName": "Death%27s Touch", "cnName": "凶神之手" },
+    { "enName": "Death%27s Touch", "cnName": "凶神之手" },
+    { "enName": "Death%27s Touch", "cnName": "凶神之手" },
+    { "enName": "Blade-Dancer%27s Edges", "cnName": "舞锋者的群锋" },
+    { "enName": "Blade-Dancer%27s Edges", "cnName": "舞锋者的群锋" },
+    { "enName": "Blade-Dancer%27s Edges", "cnName": "舞锋者的群锋" },
+    { "enName": "Blade-Dancer%27s Edges", "cnName": "舞锋者的群锋" },
+    { "enName": "Blade-Dancer%27s Edges", "cnName": "舞锋者的群锋" },
+    { "enName": "Quantum Convergence", "cnName": "量子汇流" },
+    { "enName": "Quantum Convergence", "cnName": "量子汇流" },
+    { "enName": "Quantum Convergence", "cnName": "量子汇流" },
+    { "enName": "Quantum Convergence", "cnName": "量子汇流" },
+    { "enName": "Quantum Convergence", "cnName": "量子汇流" },
+    { "enName": "Grandmaster%27s Hands", "cnName": "宗师之手" },
+    { "enName": "Grandmaster%27s Hands", "cnName": "宗师之手" },
+    { "enName": "Grandmaster%27s Hands", "cnName": "宗师之手" },
+    { "enName": "Grandmaster%27s Hands", "cnName": "宗师之手" },
+    { "enName": "Demons%27 Touch", "cnName": "群魔之手" },
+    { "enName": "Demons%27 Touch", "cnName": "群魔之手" },
+    { "enName": "Demons%27 Touch", "cnName": "群魔之手" },
+    { "enName": "Demons%27 Touch", "cnName": "群魔之手" },
+    { "enName": "Demons%27 Touch", "cnName": "群魔之手" },
+    { "enName": "Brute Handguards", "cnName": "蛮兵护手" },
+    { "enName": "Footman%27s Gauntlets", "cnName": "方阵兵手甲" },
+    { "enName": "Paladin%27s Hands", "cnName": "圣战者之手" },
+    { "enName": "Berserker%27s Hands", "cnName": "狂战士之手" },
+    { "enName": "Iron Sentry%27s Hold", "cnName": "铁卫之握" },
+    { "enName": "Packleader Handguards", "cnName": "头狼护手" },
+    { "enName": "Mountain Lord Handguards", "cnName": "高山领主护手" },
+    { "enName": "Divine Arbiter%27s Hands", "cnName": "神圣仲裁者之手" },
+    { "enName": "Dragon Guardian Handguards", "cnName": "龙圣卫护手" },
+    { "enName": "Fallen Knight Handguards", "cnName": "堕落骑士护手" },
+    { "enName": "Old King%27s Rerebraces", "cnName": "旧日王者的护臂" },
+    { "enName": "Ranger%27s Rusted Gauntlets", "cnName": "游侠的生锈腕甲" },
+    { "enName": "Boom Gloves", "cnName": "砰砰手套" },
+    { "enName": "Alloy Covenant", "cnName": "合金圣约" },
+    { "enName": "Praise for Injury", "cnName": "伤损礼赞" },
+    { "enName": "Ardor", "cnName": "热忱" },
+    { "enName": "Varagon Shroud", "cnName": "瓦拉冈裹躯布" },
+    { "enName": "Ghost Slaughter", "cnName": "鬼途" },
+    { "enName": "Clenched Spring", "cnName": "紧握的发条" },
+    { "enName": "Blade-dancer%27s Fingers", "cnName": "舞锋者的双指" },
+    { "enName": "Magnus%27 Laws", "cnName": "玛格努斯的旧律" },
+    { "enName": "Death%27s Touch", "cnName": "凶神之手" },
+    { "enName": "Blade-Dancer%27s Edges", "cnName": "舞锋者的群锋" },
+    { "enName": "Quantum Convergence", "cnName": "量子汇流" },
+    { "enName": "Grandmaster%27s Hands", "cnName": "宗师之手" },
+    { "enName": "Demons%27 Touch", "cnName": "群魔之手" },
+    { "enName": "Boom Gloves", "cnName": "砰砰手套" },
+    { "enName": "Alloy Covenant", "cnName": "合金圣约" },
+    { "enName": "Praise for Injury", "cnName": "伤损礼赞" },
+    { "enName": "Ardor", "cnName": "热忱" },
+    { "enName": "Varagon Shroud", "cnName": "瓦拉冈裹躯布" },
+    { "enName": "Ghost Slaughter", "cnName": "鬼途" },
+    { "enName": "Clenched Spring", "cnName": "紧握的发条" },
+    { "enName": "Blade-dancer%27s Fingers", "cnName": "舞锋者的双指" },
+    { "enName": "Magnus%27 Laws", "cnName": "玛格努斯的旧律" },
+    { "enName": "Death%27s Touch", "cnName": "凶神之手" },
+    { "enName": "Blade-Dancer%27s Edges", "cnName": "舞锋者的群锋" },
+    { "enName": "Quantum Convergence", "cnName": "量子汇流" },
+    { "enName": "Grandmaster%27s Hands", "cnName": "宗师之手" },
+    { "enName": "Demons%27 Touch", "cnName": "群魔之手" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" }
   ]
 }

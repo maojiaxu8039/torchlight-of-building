@@ -39,10 +39,7 @@
     "en": "+(6–8)% Attack Speed",
     "cn": "+(6–8)% 攻击速度"
   },
-  "Quantity +1": {
-    "en": "Quantity +1",
-    "cn": "+1 数量"
-  },
+  "Quantity +1": { "en": "Quantity +1", "cn": "+1 数量" },
   "+(6–8)% additional Attack Damage": {
     "en": "+(6–8)% additional Attack Damage",
     "cn": "额外 +(6–8)% 攻击伤害"
@@ -55,10 +52,7 @@
     "en": "+(5–7)% Armor DMG Mitigation Penetration",
     "cn": "+(5–7)% 护甲减伤穿透"
   },
-  "+1 to Max Stacks": {
-    "en": "+1 to Max Stacks",
-    "cn": "+1 层数上限"
-  },
+  "+1 to Max Stacks": { "en": "+1 to Max Stacks", "cn": "+1 层数上限" },
   "+(4–8)% chance to gain 1 stack of on defeat": {
     "en": "+(4–8)% chance to gain 1 stack of on defeat",
     "cn": "击败时，+(4–8)% 几率获得 1 层"
@@ -91,10 +85,7 @@
     "en": "+(10–15)% Skill Area",
     "cn": "+(10–15)% 技能范围"
   },
-  "+(25–30)% Damage": {
-    "en": "+(25–30)% Damage",
-    "cn": "+(25–30)% 伤害"
-  },
+  "+(25–30)% Damage": { "en": "+(25–30)% Damage", "cn": "+(25–30)% 伤害" },
   "Adds (36–38) - (44–46) Physical Damage to the gear": {
     "en": "Adds (36–38) - (44–46) Physical Damage to the gear",
     "cn": "该装备附加 (36–38) - (44–46) 点物理伤害"
@@ -135,14 +126,8 @@
     "en": "+(64–90) Intelligence",
     "cn": "+(64–90) 智慧"
   },
-  "+(64–90) Dexterity": {
-    "en": "+(64–90) Dexterity",
-    "cn": "+(64–90) 敏捷"
-  },
-  "+(64–90) Strength": {
-    "en": "+(64–90) Strength",
-    "cn": "+(64–90) 力量"
-  },
+  "+(64–90) Dexterity": { "en": "+(64–90) Dexterity", "cn": "+(64–90) 敏捷" },
+  "+(64–90) Strength": { "en": "+(64–90) Strength", "cn": "+(64–90) 力量" },
   "+(18–25)% Armor DMG Mitigation Penetration": {
     "en": "+(18–25)% Armor DMG Mitigation Penetration",
     "cn": "+(18–25)% 护甲减伤穿透"
@@ -171,18 +156,12 @@
     "en": "+(43–52)% Gear Attack Speed. (-13–-12)% additional Attack Damage",
     "cn": "+(43–52)% 该装备攻击速度；额外 (-13–-12)% 攻击伤害"
   },
-  "+(14–18)%": {
-    "en": "+(14–18)%",
-    "cn": "+(14–18)%"
-  },
+  "+(14–18)%": { "en": "+(14–18)%", "cn": "+(14–18)%" },
   "+(77–108)% Physical Damage": {
     "en": "+(77–108)% Physical Damage",
     "cn": "+(77–108)% 物理伤害"
   },
-  "+(77–108)% Damage": {
-    "en": "+(77–108)% Damage",
-    "cn": "+(77–108)% 伤害"
-  },
+  "+(77–108)% Damage": { "en": "+(77–108)% Damage", "cn": "+(77–108)% 伤害" },
   "+(77–108)% Erosion Damage": {
     "en": "+(77–108)% Erosion Damage",
     "cn": "+(77–108)% 腐蚀伤害"
@@ -203,10 +182,7 @@
     "en": "+(64–90)% Critical Strike Damage",
     "cn": "+(64–90)% 暴击伤害"
   },
-  "+(54–75)% Effect": {
-    "en": "+(54–75)% Effect",
-    "cn": "+(54–75)% 效果"
-  },
+  "+(54–75)% Effect": { "en": "+(54–75)% Effect", "cn": "+(54–75)% 效果" },
   "+(52–72)% chance to": {
     "en": "+(52–72)% chance to",
     "cn": "+(52–72)% 几率"
@@ -267,10 +243,7 @@
     "en": "+10% additional damage on Critical Strike",
     "cn": "暴击时，额外 +10% 伤害"
   },
-  "+10%": {
-    "en": "+10%",
-    "cn": "+10%"
-  },
+  "+10%": { "en": "+10%", "cn": "+10%" },
   "Enemies have a 15% chance to explode when defeated by an Attack or Spell, dealing True Damage equal to 250% of their Max Life to enemies within a 6 m radius": {
     "en": "Enemies have a 15% chance to explode when defeated by an Attack or Spell, dealing True Damage equal to 250% of their Max Life to enemies within a 6 m radius",
     "cn": "攻击或者法术击败敌人时 15% 几率爆炸，对半径 6 米内的敌人造成被击败的敌人最大生命 250% 的真实伤害"
@@ -351,10 +324,7 @@
     "en": "+2 Horizontal Projectile while is not active",
     "cn": "不具有时，+2 直射投射物次数"
   },
-  "+2 when is active": {
-    "en": "+2 when is active",
-    "cn": "具有时，+2 次数"
-  },
+  "+2 when is active": { "en": "+2 when is active", "cn": "具有时，+2 次数" },
   "+(75–100)% Gear Physical Damage": {
     "en": "+(75–100)% Gear Physical Damage",
     "cn": "+(75–100)% 该装备物理伤害"
@@ -415,10 +385,7 @@
     "en": "Adds (35–40) - (45–50) Base Damage",
     "cn": "附加 (35–40) - (45–50) 基础伤害"
   },
-  "+20% chance": {
-    "en": "+20% chance",
-    "cn": "+20% 几率"
-  },
+  "+20% chance": { "en": "+20% chance", "cn": "+20% 几率" },
   "enemies defeated by you have a (40–50)% chance to explode, dealing True Damage equal to (16–20)% of their Max Life to enemies within a 6 m radius": {
     "en": "enemies defeated by you have a (40–50)% chance to explode, dealing True Damage equal to (16–20)% of their Max Life to enemies within a 6 m radius",
     "cn": "被你击败的敌人有 (40–50)% 几率爆炸，对半径 6 米内的敌人造成被击败的敌人最大生命 (16–20)% 的真实伤害"
@@ -639,14 +606,8 @@
     "en": "+(120–150)% Gear Physical Damage",
     "cn": "+(120–150)% 该装备物理伤害"
   },
-  "+40% Skill Area": {
-    "en": "+40% Skill Area",
-    "cn": "+40% 技能范围"
-  },
-  "+50% distance": {
-    "en": "+50% distance",
-    "cn": "+50% 距离"
-  },
+  "+40% Skill Area": { "en": "+40% Skill Area", "cn": "+40% 技能范围" },
+  "+50% distance": { "en": "+50% distance", "cn": "+50% 距离" },
   "Sweep Slash can cause .": {
     "en": "Sweep Slash can cause .",
     "cn": "挥击时，具有"
@@ -663,10 +624,7 @@
     "en": "+(30–40)% additional Area Damage for this skill when is consumed.",
     "cn": "消耗时，该次技能额外 +(30–40)% 范围伤害"
   },
-  "+50% Skill Area": {
-    "en": "+50% Skill Area",
-    "cn": "+50% 技能范围"
-  },
+  "+50% Skill Area": { "en": "+50% Skill Area", "cn": "+50% 技能范围" },
   "'s Restoration Speed is set to 150% of the default value": {
     "en": "'s Restoration Speed is set to 150% of the default value",
     "cn": "回复速度固定为默认值的 150%"
@@ -683,10 +641,7 @@
     "en": "+(50–70)% Cold Damage",
     "cn": "+(50–70)% 冰冷伤害"
   },
-  "+(10–15) to Max": {
-    "en": "+(10–15) to Max",
-    "cn": "+(10–15) 上限"
-  },
+  "+(10–15) to Max": { "en": "+(10–15) to Max", "cn": "+(10–15) 上限" },
   "Converts 100% of Physical Damage to Cold Damage": {
     "en": "Converts 100% of Physical Damage to Cold Damage",
     "cn": "100% 物理伤害转化为冰冷伤害"
@@ -819,10 +774,7 @@
     "en": "+(10–14)% Armor DMG Mitigation Penetration",
     "cn": "+(10–14)% 护甲减伤穿透"
   },
-  "+2 to Max Stacks": {
-    "en": "+2 to Max Stacks",
-    "cn": "+2 层数上限"
-  },
+  "+2 to Max Stacks": { "en": "+2 to Max Stacks", "cn": "+2 层数上限" },
   "+(48–64)% Gear Physical Damage": {
     "en": "+(48–64)% Gear Physical Damage",
     "cn": "+(48–64)% 该装备物理伤害"
@@ -843,10 +795,7 @@
     "en": "Adds (7–10) - (14–17) Physical Damage to the gear",
     "cn": "该装备附加 (7–10) - (14–17) 点物理伤害"
   },
-  "+(40–45)% Damage": {
-    "en": "+(40–45)% Damage",
-    "cn": "+(40–45)% 伤害"
-  },
+  "+(40–45)% Damage": { "en": "+(40–45)% Damage", "cn": "+(40–45)% 伤害" },
   "Damage Penetrates (8–12)% Resistance": {
     "en": "Damage Penetrates (8–12)% Resistance",
     "cn": "伤害穿透 (8–12)% 抗性"
@@ -927,10 +876,7 @@
     "en": "+(43–60)% additional Damage",
     "cn": "额外 +(43–60)% 伤害"
   },
-  "+(22–30)%": {
-    "en": "+(22–30)%",
-    "cn": "+(22–30)%"
-  },
+  "+(22–30)%": { "en": "+(22–30)%", "cn": "+(22–30)%" },
   "+(152–216)% Physical Damage": {
     "en": "+(152–216)% Physical Damage",
     "cn": "+(152–216)% 物理伤害"
@@ -1039,10 +985,7 @@
     "en": "+20% additional damage on Critical Strike",
     "cn": "暴击时，额外 +20% 伤害"
   },
-  "+16%": {
-    "en": "+16%",
-    "cn": "+16%"
-  },
+  "+16%": { "en": "+16%", "cn": "+16%" },
   "Enemies have a 30% chance to explode when defeated by an Attack or Spell, dealing True Damage equal to 250% of their Max Life to enemies within a 6 m radius": {
     "en": "Enemies have a 30% chance to explode when defeated by an Attack or Spell, dealing True Damage equal to 250% of their Max Life to enemies within a 6 m radius",
     "cn": "攻击或者法术击败敌人时 30% 几率爆炸，对半径 6 米内的敌人造成被击败的敌人最大生命 250% 的真实伤害"
@@ -1391,10 +1334,7 @@
     "en": "+3 Spell Skill Level",
     "cn": "+3 法术技能等级"
   },
-  "Max Stacks +2": {
-    "en": "Max Stacks +2",
-    "cn": "+2 层数上限"
-  },
+  "Max Stacks +2": { "en": "Max Stacks +2", "cn": "+2 层数上限" },
   "+2 +(8–10)% additional damage": {
     "en": "+2 +(8–10)% additional damage",
     "cn": "+2 次数额外 +(8–10)% 伤害"
@@ -1407,10 +1347,7 @@
     "en": "+(78–108)% Physical Damage",
     "cn": "+(78–108)% 物理伤害"
   },
-  "+(78–108)% Damage": {
-    "en": "+(78–108)% Damage",
-    "cn": "+(78–108)% 伤害"
-  },
+  "+(78–108)% Damage": { "en": "+(78–108)% Damage", "cn": "+(78–108)% 伤害" },
   "+(38–47)% Charge Speed": {
     "en": "+(38–47)% Charge Speed",
     "cn": "+(38–47)% 充能速度"
@@ -1459,18 +1396,12 @@
     "en": "+8% additional Spell Damage",
     "cn": "额外 +8% 法术伤害"
   },
-  "+16% Cast Speed": {
-    "en": "+16% Cast Speed",
-    "cn": "+16% 施法速度"
-  },
+  "+16% Cast Speed": { "en": "+16% Cast Speed", "cn": "+16% 施法速度" },
   "+55 Spell Critical Strike Rating": {
     "en": "+55 Spell Critical Strike Rating",
     "cn": "+55 法术暴击值"
   },
-  "+8%": {
-    "en": "+8%",
-    "cn": "+8%"
-  },
+  "+8%": { "en": "+8%", "cn": "+8%" },
   "+25% additional Hit Damage for skills cast by": {
     "en": "+25% additional Hit Damage for skills cast by",
     "cn": "释放的技能额外 +25% 击中伤害"
@@ -1507,10 +1438,7 @@
     "en": "+30% additional Spell Damage when you have at least 6 stack(s) of",
     "cn": "至少拥有 6 层时，额外 +30% 法术伤害"
   },
-  "-72% Spell Damage": {
-    "en": "-72% Spell Damage",
-    "cn": "-72% 法术伤害"
-  },
+  "-72% Spell Damage": { "en": "-72% Spell Damage", "cn": "-72% 法术伤害" },
   "+(80–100)% Spell Damage": {
     "en": "+(80–100)% Spell Damage",
     "cn": "+(80–100)% 法术伤害"
@@ -1547,10 +1475,7 @@
     "en": "+(60–80)% Spell Damage",
     "cn": "+(60–80)% 法术伤害"
   },
-  "+17% Cast Speed": {
-    "en": "+17% Cast Speed",
-    "cn": "+17% 施法速度"
-  },
+  "+17% Cast Speed": { "en": "+17% Cast Speed", "cn": "+17% 施法速度" },
   "(-20–-10)% Skill Effect Duration": {
     "en": "(-20–-10)% Skill Effect Duration",
     "cn": "(-20–-10)% 技能效果持续时间"
@@ -1591,10 +1516,7 @@
     "en": "+(1–2) Fire Skill Level",
     "cn": "+(1–2) 火焰技能等级"
   },
-  "+(4–5)%": {
-    "en": "+(4–5)%",
-    "cn": "+(4–5)% 火焰"
-  },
+  "+(4–5)%": { "en": "+(4–5)%", "cn": "+(4–5)% 火焰" },
   "+(150–200) Fire Spell Critical Strike Rating when at max": {
     "en": "+(150–200) Fire Spell Critical Strike Rating when at max",
     "cn": "达到上限时，+(150–200) 火焰法术暴击值"
@@ -1631,14 +1553,8 @@
     "en": "Adds (11–13) - (15–18) Erosion Damage to Minions",
     "cn": "召唤物附加 (11–13) - (15–18) 点腐蚀伤害"
   },
-  "+(15–20) Strength": {
-    "en": "+(15–20) Strength",
-    "cn": "+(15–20) 力量"
-  },
-  "+(15–20) Dexterity": {
-    "en": "+(15–20) Dexterity",
-    "cn": "+(15–20) 敏捷"
-  },
+  "+(15–20) Strength": { "en": "+(15–20) Strength", "cn": "+(15–20) 力量" },
+  "+(15–20) Dexterity": { "en": "+(15–20) Dexterity", "cn": "+(15–20) 敏捷" },
   "+(15–20) Intelligence": {
     "en": "+(15–20) Intelligence",
     "cn": "+(15–20) 智慧"
@@ -1835,10 +1751,7 @@
     "en": "+80 initial for Spirit Magi",
     "cn": "魔灵 +80 初始"
   },
-  "+ 10 per second": {
-    "en": "+ 10 per second",
-    "cn": "每秒增加 10 点"
-  },
+  "+ 10 per second": { "en": "+ 10 per second", "cn": "每秒增加 10 点" },
   "Triggers Lv. 10 Curse and Curse when a Minion deals damage. Cooldown: 1 sMinions can cast 1 additional Curse(s)": {
     "en": "Triggers Lv. 10 Curse and Curse when a Minion deals damage. Cooldown: 1 sMinions can cast 1 additional Curse(s)",
     "cn": "召唤物造成伤害时，触发 10 级诅咒和诅咒，冷却时间为 1 秒召唤物可以施加 1 个额外诅咒"
@@ -1863,14 +1776,8 @@
     "en": "When Minions deal damage, inflicts . Interval for each enemy: 1 sWhen Minions deal damage, inflicts . Interval for each enemy: 1 sWhen Minions deal damage, inflicts . Interval for each enemy: 1 s",
     "cn": "召唤物造成伤害时，施加，对每个敌人拥有 1 秒间隔时间召唤物造成伤害时，施加，对每个敌人拥有 1 秒间隔时间召唤物造成伤害时，施加，对每个敌人拥有 1 秒间隔时间"
   },
-  "+(10–14)% Effect": {
-    "en": "+(10–14)% Effect",
-    "cn": "+(10–14)% 效果"
-  },
-  "+(8–10)% Duration": {
-    "en": "+(8–10)% Duration",
-    "cn": "+(8–10)% 时间"
-  },
+  "+(10–14)% Effect": { "en": "+(10–14)% Effect", "cn": "+(10–14)% 效果" },
+  "+(8–10)% Duration": { "en": "+(8–10)% Duration", "cn": "+(8–10)% 时间" },
   "+(15–20)% Recovery Speed": {
     "en": "+(15–20)% Recovery Speed",
     "cn": "+(15–20)% 回复速度"
@@ -1879,10 +1786,7 @@
     "en": "+(6–8)% additional Damage Over Time",
     "cn": "额外 +(6–8)% 持续伤害"
   },
-  "+(6–8)% Effect": {
-    "en": "+(6–8)% Effect",
-    "cn": "+(6–8)% 效果"
-  },
+  "+(6–8)% Effect": { "en": "+(6–8)% Effect", "cn": "+(6–8)% 效果" },
   "+(77–108)% Damage Over Time": {
     "en": "+(77–108)% Damage Over Time",
     "cn": "+(77–108)% 持续伤害"
@@ -1911,10 +1815,7 @@
     "en": "+(36–48)% Duration",
     "cn": "+(36–48)% 持续时间"
   },
-  "+(54–75)% Duration": {
-    "en": "+(54–75)% Duration",
-    "cn": "+(54–75)% 时间"
-  },
+  "+(54–75)% Duration": { "en": "+(54–75)% Duration", "cn": "+(54–75)% 时间" },
   "+(89–125)% Recovery Speed": {
     "en": "+(89–125)% Recovery Speed",
     "cn": "+(89–125)% 回复速度"
@@ -1927,30 +1828,15 @@
     "en": "+16 inflicted per second+24% Effect",
     "cn": "+16 每秒施加值+24% 效果"
   },
-  "+25% Recovery Speed": {
-    "en": "+25% Recovery Speed",
-    "cn": "+25% 回复速度"
-  },
-  "+30% Duration": {
-    "en": "+30% Duration",
-    "cn": "+30% 时间"
-  },
-  "+10% Movement Speed": {
-    "en": "+10% Movement Speed",
-    "cn": "+10% 移动速度"
-  },
-  "+12% Duration": {
-    "en": "+12% Duration",
-    "cn": "+12% 持续时间"
-  },
+  "+25% Recovery Speed": { "en": "+25% Recovery Speed", "cn": "+25% 回复速度" },
+  "+30% Duration": { "en": "+30% Duration", "cn": "+30% 时间" },
+  "+10% Movement Speed": { "en": "+10% Movement Speed", "cn": "+10% 移动速度" },
+  "+12% Duration": { "en": "+12% Duration", "cn": "+12% 持续时间" },
   "Max Stacks -1Max Terra Quantity +1": {
     "en": "Max Stacks -1Max Terra Quantity +1",
     "cn": "-1 层数上限+1 地面数量上限"
   },
-  "+8% Effect": {
-    "en": "+8% Effect",
-    "cn": "+8% 效果"
-  },
+  "+8% Effect": { "en": "+8% Effect", "cn": "+8% 效果" },
   "-10% All Resistance when the enemy has max": {
     "en": "-10% All Resistance when the enemy has max",
     "cn": "敌人值达到上限时，-10% 所有抗性"
@@ -2143,10 +2029,7 @@
     "en": "+6 Spell Skill Level",
     "cn": "+6 法术技能等级"
   },
-  "Max Stacks +(3–4)": {
-    "en": "Max Stacks +(3–4)",
-    "cn": "+(3–4) 层数上限"
-  },
+  "Max Stacks +(3–4)": { "en": "Max Stacks +(3–4)", "cn": "+(3–4) 层数上限" },
   "+4 +(18–20)% additional damage": {
     "en": "+4 +(18–20)% additional damage",
     "cn": "+4 次数额外 +(18–20)% 伤害"
@@ -2207,10 +2090,7 @@
     "en": "+16% additional Spell Damage",
     "cn": "额外 +16% 法术伤害"
   },
-  "+32% Cast Speed": {
-    "en": "+32% Cast Speed",
-    "cn": "+32% 施法速度"
-  },
+  "+32% Cast Speed": { "en": "+32% Cast Speed", "cn": "+32% 施法速度" },
   "+110 Spell Critical Strike Rating": {
     "en": "+110 Spell Critical Strike Rating",
     "cn": "+110 法术暴击值"
@@ -2255,10 +2135,7 @@
     "en": "Only Fire Damage can be dealt",
     "cn": "只能造成火焰伤害"
   },
-  "+40 Max Mana": {
-    "en": "+40 Max Mana",
-    "cn": "+40 最大魔力"
-  },
+  "+40 Max Mana": { "en": "+40 Max Mana", "cn": "+40 最大魔力" },
   "Adds (24–28) - (54–64) Cold Damage to Attacks and Spells": {
     "en": "Adds (24–28) - (54–64) Cold Damage to Attacks and Spells",
     "cn": "攻击和法术附加 (24–28) - (54–64) 点冰冷伤害"
@@ -2319,10 +2196,7 @@
     "en": "Triggers Lv. 20 Ice Shot if you have inflicted Frostbite recently. Interval: 0.3s.",
     "cn": "如果最近施加过冰结状态，触发20级寒冰射击，间隔0.3秒"
   },
-  "+11% Cold Damage": {
-    "en": "+11% Cold Damage",
-    "cn": "+11% 冰冷伤害"
-  },
+  "+11% Cold Damage": { "en": "+11% Cold Damage", "cn": "+11% 冰冷伤害" },
   "Adds (56–59) - (64–67) Physical Damage to the gear": {
     "en": "Adds (56–59) - (64–67) Physical Damage to the gear",
     "cn": "该装备附加 (56–59) - (64–67) 点物理伤害"
@@ -2347,10 +2221,7 @@
     "en": "+(25–30)% gear Attack Speed",
     "cn": "+(25–30)% 该装备攻击速度"
   },
-  "+3": {
-    "en": "+3",
-    "cn": "+3 次数"
-  },
+  "+3": { "en": "+3", "cn": "+3 次数" },
   "+(20–30)% additional Projectile Damage": {
     "en": "+(20–30)% additional Projectile Damage",
     "cn": "额外 +(20–30)% 投射物伤害"
@@ -2407,10 +2278,7 @@
     "en": "+(25–35)% gear Attack Speed",
     "cn": "+(25–35)% 该装备攻击速度"
   },
-  "+50% Chance": {
-    "en": "+50% Chance",
-    "cn": "+50% 几率"
-  },
+  "+50% Chance": { "en": "+50% Chance", "cn": "+50% 几率" },
   "+20% additional distance": {
     "en": "+20% additional distance",
     "cn": "额外 +20% 距离"
@@ -2419,10 +2287,7 @@
     "en": "+(96–108)% additional Attack Damage when no enemies are",
     "cn": "没有敌人时，额外 +(96–108)% 攻击伤害"
   },
-  "-20% Movement Speed": {
-    "en": "-20% Movement Speed",
-    "cn": "-20% 移动速度"
-  },
+  "-20% Movement Speed": { "en": "-20% Movement Speed", "cn": "-20% 移动速度" },
   "Adds (107–112) - (116–121) Physical Damage to the gear": {
     "en": "Adds (107–112) - (116–121) Physical Damage to the gear",
     "cn": "该装备附加 (107–112) - (116–121) 点物理伤害"
@@ -2475,10 +2340,7 @@
     "en": "+(70–80)% Critical Strike Damage",
     "cn": "+(70–80)% 暴击伤害"
   },
-  "+(15–20) to Max": {
-    "en": "+(15–20) to Max",
-    "cn": "+(15–20) 上限"
-  },
+  "+(15–20) to Max": { "en": "+(15–20) to Max", "cn": "+(15–20) 上限" },
   "+(36–48)% additional damage against enemies": {
     "en": "+(36–48)% additional damage against enemies",
     "cn": "对的敌人，额外 +(36–48)% 伤害"
@@ -2507,10 +2369,7 @@
     "en": "+(60–70)% Projectile Damage",
     "cn": "+(60–70)% 投射物伤害"
   },
-  "Have": {
-    "en": "Have",
-    "cn": "拥有"
-  },
+  "Have": { "en": "Have", "cn": "拥有" },
   "+(3–4)% Projectile Damage for every point of": {
     "en": "+(3–4)% Projectile Damage for every point of",
     "cn": "每点，+(3–4)% 投射物伤害"
@@ -2579,14 +2438,8 @@
     "en": "Adds 112 - 134 Base Damage",
     "cn": "附加 112 - 134 基础伤害"
   },
-  "+(54–74) Max Life": {
-    "en": "+(54–74) Max Life",
-    "cn": "+(54–74) 最大生命"
-  },
-  "+(760–960) Armor": {
-    "en": "+(760–960) Armor",
-    "cn": "+(760–960) 护甲值"
-  },
+  "+(54–74) Max Life": { "en": "+(54–74) Max Life", "cn": "+(54–74) 最大生命" },
+  "+(760–960) Armor": { "en": "+(760–960) Armor", "cn": "+(760–960) 护甲值" },
   "+(5–10)% Fire Resistance": {
     "en": "+(5–10)% Fire Resistance",
     "cn": "+(5–10)% 火焰抗性"
@@ -2623,10 +2476,7 @@
     "en": "+(7–8)% Aura Effect",
     "cn": "+(7–8)% 光环效果"
   },
-  "+(3–5)% Max": {
-    "en": "+(3–5)% Max",
-    "cn": "+(3–5)%"
-  },
+  "+(3–5)% Max": { "en": "+(3–5)% Max", "cn": "+(3–5)%" },
   "Converts (16–20)% of Physical Damage taken to Fire Damage": {
     "en": "Converts (16–20)% of Physical Damage taken to Fire Damage",
     "cn": "(16–20)% 受到的物理伤害转化为火焰伤害"
@@ -2655,10 +2505,7 @@
     "en": "Triggers Lv. (15–20) Curse upon inflicting damage. Cooldown: 0.3 s",
     "cn": "造成伤害时，触发 (15–20) 级诅咒，冷却时间为 0.3 秒"
   },
-  "Immune to Immune to": {
-    "en": "Immune to Immune to",
-    "cn": "免疫免疫"
-  },
+  "Immune to Immune to": { "en": "Immune to Immune to", "cn": "免疫免疫" },
   "+(15–20)% Max Energy Shield": {
     "en": "+(15–20)% Max Energy Shield",
     "cn": "+(15–20)% 最大护盾"
@@ -2671,10 +2518,7 @@
     "en": "+(30–50)% Gear Armor",
     "cn": "+(30–50)% 该装备护甲值"
   },
-  "+(50–70)% damage": {
-    "en": "+(50–70)% damage",
-    "cn": "+(50–70)% 伤害"
-  },
+  "+(50–70)% damage": { "en": "+(50–70)% damage", "cn": "+(50–70)% 伤害" },
   "+(154–220) Max Life": {
     "en": "+(154–220) Max Life",
     "cn": "+(154–220) 最大生命"
@@ -2683,10 +2527,7 @@
     "en": "+(2017–2880) Gear Armor",
     "cn": "+(2017–2880) 该装备护甲值"
   },
-  "+(51–72)% damage": {
-    "en": "+(51–72)% damage",
-    "cn": "+(51–72)% 伤害"
-  },
+  "+(51–72)% damage": { "en": "+(51–72)% damage", "cn": "+(51–72)% 伤害" },
   "+(51–72)% Minion Damage": {
     "en": "+(51–72)% Minion Damage",
     "cn": "+(51–72)% 召唤物伤害"
@@ -2695,22 +2536,13 @@
     "en": "+(85–120) Max Mana",
     "cn": "+(85–120) 最大魔力"
   },
-  "+(10–13)%": {
-    "en": "+(10–13)%",
-    "cn": "+(10–13)%"
-  },
-  "+(43–60) Strength": {
-    "en": "+(43–60) Strength",
-    "cn": "+(43–60) 力量"
-  },
+  "+(10–13)%": { "en": "+(10–13)%", "cn": "+(10–13)%" },
+  "+(43–60) Strength": { "en": "+(43–60) Strength", "cn": "+(43–60) 力量" },
   "+(43–60) Intelligence": {
     "en": "+(43–60) Intelligence",
     "cn": "+(43–60) 智慧"
   },
-  "+(43–60) Dexterity": {
-    "en": "+(43–60) Dexterity",
-    "cn": "+(43–60) 敏捷"
-  },
+  "+(43–60) Dexterity": { "en": "+(43–60) Dexterity", "cn": "+(43–60) 敏捷" },
   "+(33–45)% Projectile Speed": {
     "en": "+(33–45)% Projectile Speed",
     "cn": "+(33–45)% 投射物速度"
@@ -2719,18 +2551,9 @@
     "en": "+(37–50)% chance to gain 1 stack of on defeat",
     "cn": "击败时，+(37–50)% 几率获得 1 层"
   },
-  "+(43–60)% Shield": {
-    "en": "+(43–60)% Shield",
-    "cn": "+(43–60)% 吸收量"
-  },
-  "+1 Max": {
-    "en": "+1 Max",
-    "cn": "上限 +1"
-  },
-  "Max Stacks +1": {
-    "en": "Max Stacks +1",
-    "cn": "+1 层数上限"
-  },
+  "+(43–60)% Shield": { "en": "+(43–60)% Shield", "cn": "+(43–60)% 吸收量" },
+  "+1 Max": { "en": "+1 Max", "cn": "上限 +1" },
+  "Max Stacks +1": { "en": "Max Stacks +1", "cn": "+1 层数上限" },
   "+(15–20)% Compensation": {
     "en": "+(15–20)% Compensation",
     "cn": "+(15–20)% 补偿"
@@ -2771,10 +2594,7 @@
     "en": "+(87–120)% Critical Strike Rating",
     "cn": "+(87–120)% 暴击值"
   },
-  "+(36–50)% Effect": {
-    "en": "+(36–50)% Effect",
-    "cn": "+(36–50)% 效果"
-  },
+  "+(36–50)% Effect": { "en": "+(36–50)% Effect", "cn": "+(36–50)% 效果" },
   "+(44–60)% Critical Strike Damage": {
     "en": "+(44–60)% Critical Strike Damage",
     "cn": "+(44–60)% 暴击伤害"
@@ -2787,10 +2607,7 @@
     "en": "+(18–24)% Attack and Cast Speed+(18–24)% Minion Attack and Cast Speed",
     "cn": "+(18–24)% 攻击与施法速度+(18–24)% 召唤物攻击与施法速度"
   },
-  "+(36–50)% Duration": {
-    "en": "+(36–50)% Duration",
-    "cn": "+(36–50)% 时间"
-  },
+  "+(36–50)% Duration": { "en": "+(36–50)% Duration", "cn": "+(36–50)% 时间" },
   "+(14–18)% Armor+(78–110) Max Life": {
     "en": "+(14–18)% Armor+(78–110) Max Life",
     "cn": "+(14–18)% 护甲值+(78–110) 最大生命"
@@ -2811,10 +2628,7 @@
     "en": "+(59–83)% Recovery Speed",
     "cn": "+(59–83)% 回复速度"
   },
-  "+(40–50)% Effect": {
-    "en": "+(40–50)% Effect",
-    "cn": "+(40–50)% 效果"
-  },
+  "+(40–50)% Effect": { "en": "+(40–50)% Effect", "cn": "+(40–50)% 效果" },
   "+(30–45)% chance to avoid": {
     "en": "+(30–45)% chance to avoid",
     "cn": "+(30–45)% 几率避免状态"
@@ -2823,10 +2637,7 @@
     "en": "Nearby enemies within 15 m have",
     "cn": "周围 15 米内的敌人拥有"
   },
-  "+50 Gear Armor": {
-    "en": "+50 Gear Armor",
-    "cn": "+50 该装备护甲值"
-  },
+  "+50 Gear Armor": { "en": "+50 Gear Armor", "cn": "+50 该装备护甲值" },
   "+(80–100) Max Life": {
     "en": "+(80–100) Max Life",
     "cn": "+(80–100) 最大生命"
@@ -2851,10 +2662,7 @@
     "en": "+(12–16)% Fire Resistance",
     "cn": "+(12–16)% 火焰抗性"
   },
-  "+(40–50) Strength": {
-    "en": "+(40–50) Strength",
-    "cn": "+(40–50) 力量"
-  },
+  "+(40–50) Strength": { "en": "+(40–50) Strength", "cn": "+(40–50) 力量" },
   "+1% Skill Area per 50 Strength": {
     "en": "+1% Skill Area per 50 Strength",
     "cn": "每 50 点力量， +1% 技能范围"
@@ -2951,10 +2759,7 @@
     "en": "Adds (92–108) - (122–138) Physical Damage to the",
     "cn": "附加 (92–108) - (122–138) 点物理伤害"
   },
-  "+(60–90) Strength": {
-    "en": "+(60–90) Strength",
-    "cn": "+(60–90) 力量"
-  },
+  "+(60–90) Strength": { "en": "+(60–90) Strength", "cn": "+(60–90) 力量" },
   "+(2–4)% Fire Resistance": {
     "en": "+(2–4)% Fire Resistance",
     "cn": "+(2–4)% 火焰抗性"
@@ -2987,10 +2792,7 @@
     "en": "Adds (25–30) - (31–36) Physical Damage to while is active",
     "cn": "具有时，附加 (25–30) - (31–36) 点物理伤害"
   },
-  "+(18–22)% Strength": {
-    "en": "+(18–22)% Strength",
-    "cn": "+(18–22)% 力量"
-  },
+  "+(18–22)% Strength": { "en": "+(18–22)% Strength", "cn": "+(18–22)% 力量" },
   "+4 Max Life per 10 Strength": {
     "en": "+4 Max Life per 10 Strength",
     "cn": "每 10 点力量， +4 点最大生命"
@@ -3007,10 +2809,7 @@
     "en": "+(2400–2800) Gear Armor",
     "cn": "+(2400–2800) 该装备护甲值"
   },
-  "(-12–-10)%": {
-    "en": "(-12–-10)%",
-    "cn": "(-12–-10)% 火焰"
-  },
+  "(-12–-10)%": { "en": "(-12–-10)%", "cn": "(-12–-10)% 火焰" },
   "Converts (40–50)% of Ice and Lightning Damage to Fire Damage": {
     "en": "Converts (40–50)% of Ice and Lightning Damage to Fire Damage",
     "cn": "(40–50)% 受到的冰霜，闪电伤害转化为火焰伤害"
@@ -3019,10 +2818,7 @@
     "en": "+(60–70)% additional Fire Damage",
     "cn": "额外 +(60–70)% 火焰伤害"
   },
-  "Inflicts on hit": {
-    "en": "Inflicts on hit",
-    "cn": "击中时，施加"
-  },
+  "Inflicts on hit": { "en": "Inflicts on hit", "cn": "击中时，施加" },
   "For each different Warcry cast, +(4–6) to the minimum number of enemies affected by Warcry for 8 s": {
     "en": "For each different Warcry cast, +(4–6) to the minimum number of enemies affected by Warcry for 8 s",
     "cn": "每释放一个不同的战吼，+(4–6) 战吼至少影响的敌人数量， 持续 8 秒"
@@ -3143,10 +2939,7 @@
     "en": "(50–70)% of the Projectile Speed bonus is also applied to Projectile Damage",
     "cn": "对于投射物速度的加成的 (50–70)% 同样作用于投射物伤害"
   },
-  "Immune to": {
-    "en": "Immune to",
-    "cn": "免疫"
-  },
+  "Immune to": { "en": "Immune to", "cn": "免疫" },
   "+(1500–2000) gear Evasion": {
     "en": "+(1500–2000) gear Evasion",
     "cn": "+(1500–2000) 该装备闪避值"
@@ -3155,10 +2948,7 @@
     "en": "+10% additional Lightning Damage",
     "cn": "额外 +10% 闪电伤害"
   },
-  "+(65–80)% Effect": {
-    "en": "+(65–80)% Effect",
-    "cn": "+(65–80)% 效果"
-  },
+  "+(65–80)% Effect": { "en": "+(65–80)% Effect", "cn": "+(65–80)% 效果" },
   "+150 Max Life and Max Energy Shield": {
     "en": "+150 Max Life and Max Energy Shield",
     "cn": "+150 最大生命和最大护盾"
@@ -3167,10 +2957,7 @@
     "en": "+(10–20)% Skill Area",
     "cn": "+(10–20)% 技能范围"
   },
-  "-40% Recovery Speed": {
-    "en": "-40% Recovery Speed",
-    "cn": "-40% 回复速度"
-  },
+  "-40% Recovery Speed": { "en": "-40% Recovery Speed", "cn": "-40% 回复速度" },
   "+20% Movement Speed for 2 s when a Terra Skill is cast": {
     "en": "+20% Movement Speed for 2 s when a Terra Skill is cast",
     "cn": "释放地面技能时，+20% 移动速度，持续 2 秒"
@@ -3243,10 +3030,7 @@
     "en": "+10% chance to avoid damage when there are no enemies +10% when there are only 1 enemies",
     "cn": "没有敌人时，+10% 几率避免伤害只有 1 个敌人时，+10%"
   },
-  "+200 Max Life": {
-    "en": "+200 Max Life",
-    "cn": "+200 最大生命"
-  },
+  "+200 Max Life": { "en": "+200 Max Life", "cn": "+200 最大生命" },
   "(-1–1) to All Skills' Levels": {
     "en": "(-1–1) to All Skills' Levels",
     "cn": "(-1–1) 全部技能等级"
@@ -3399,10 +3183,7 @@
     "en": "+(88–110) Max Life",
     "cn": "+(88–110) 最大生命"
   },
-  "+40% Skill Cost": {
-    "en": "+40% Skill Cost",
-    "cn": "+40% 技能消耗"
-  },
+  "+40% Skill Cost": { "en": "+40% Skill Cost", "cn": "+40% 技能消耗" },
   "+(8–12)% Cold Resistance": {
     "en": "+(8–12)% Cold Resistance",
     "cn": "+(8–12)% 冰冷抗性"
@@ -3439,10 +3220,7 @@
     "en": "+(90–150) Spirit Magi Critical Strike Rating",
     "cn": "+(90–150) 魔灵暴击值"
   },
-  "+(4–8)% Resistance": {
-    "en": "+(4–8)% Resistance",
-    "cn": "+(4–8)% 抗性"
-  },
+  "+(4–8)% Resistance": { "en": "+(4–8)% Resistance", "cn": "+(4–8)% 抗性" },
   "Gains when using an Empower Skill. Cooldown: 8 s": {
     "en": "Gains when using an Empower Skill. Cooldown: 8 s",
     "cn": "使用激发技能时，获得，冷却 8 秒"
@@ -3499,18 +3277,12 @@
     "en": "-20% additional Charge Speed",
     "cn": "额外 -20% 充能速度"
   },
-  "+2 Max Quantity": {
-    "en": "+2 Max Quantity",
-    "cn": "+2 数量上限"
-  },
+  "+2 Max Quantity": { "en": "+2 Max Quantity", "cn": "+2 数量上限" },
   "+(25–35)% additional damage on Critical Strike for each activated": {
     "en": "+(25–35)% additional damage on Critical Strike for each activated",
     "cn": "每有 1 个激活，暴击时额外 +(25–35)% 伤害"
   },
-  "Critical Strike": {
-    "en": "Critical Strike",
-    "cn": "暴击"
-  },
+  "Critical Strike": { "en": "Critical Strike", "cn": "暴击" },
   "Regenerates (0.5–1.0)% Life per second": {
     "en": "Regenerates (0.5–1.0)% Life per second",
     "cn": "每秒自然回复 (0.5–1.0)% 生命"
@@ -3547,10 +3319,7 @@
     "en": "+(12–15)% Attack and Spell Block Chance",
     "cn": "+(12–15)% 攻击与法术格挡率"
   },
-  "+(42–60) Strength": {
-    "en": "+(42–60) Strength",
-    "cn": "+(42–60) 力量"
-  },
+  "+(42–60) Strength": { "en": "+(42–60) Strength", "cn": "+(42–60) 力量" },
   "You can cast 1 additional Curses": {
     "en": "You can cast 1 additional Curses",
     "cn": "你可以施加 1 个额外诅咒"
@@ -3567,18 +3336,12 @@
     "en": "Regenerates (2–3)% Life per second",
     "cn": "每秒自然回复 (2–3)% 生命"
   },
-  "+(8–10)% Resistance": {
-    "en": "+(8–10)% Resistance",
-    "cn": "+(8–10)% 抗性"
-  },
+  "+(8–10)% Resistance": { "en": "+(8–10)% Resistance", "cn": "+(8–10)% 抗性" },
   "+(36–50)% Reaping Duration": {
     "en": "+(36–50)% Reaping Duration",
     "cn": "+(36–50)% 收割时间"
   },
-  "+(14–18)% Strength": {
-    "en": "+(14–18)% Strength",
-    "cn": "+(14–18)% 力量"
-  },
+  "+(14–18)% Strength": { "en": "+(14–18)% Strength", "cn": "+(14–18)% 力量" },
   "When dealing damage, inflicts . Interval for each enemy: 1 sWhen Minions deal damage, inflicts . Interval for each enemy: 1 s+(10–30)% Effect": {
     "en": "When dealing damage, inflicts . Interval for each enemy: 1 sWhen Minions deal damage, inflicts . Interval for each enemy: 1 s+(10–30)% Effect",
     "cn": "造成伤害时，施加，对每个敌人拥有 1 秒间隔时间召唤物造成伤害时，施加，对每个敌人拥有 1 秒间隔时间+(10–30)% 效果"
@@ -3595,18 +3358,9 @@
     "en": "Regenerates (7–8)% Life per second when taking Damage Over Time",
     "cn": "受到持续伤害时，每秒自然回复 (7–8)% 生命"
   },
-  "+1 Max Stacks": {
-    "en": "+1 Max Stacks",
-    "cn": "+1 层数上限"
-  },
-  "+3 Max Stacks": {
-    "en": "+3 Max Stacks",
-    "cn": "+3 层数上限"
-  },
-  "+(15–20) to": {
-    "en": "+(15–20) to",
-    "cn": "+(15–20)"
-  },
+  "+1 Max Stacks": { "en": "+1 Max Stacks", "cn": "+1 层数上限" },
+  "+3 Max Stacks": { "en": "+3 Max Stacks", "cn": "+3 层数上限" },
+  "+(15–20) to": { "en": "+(15–20) to", "cn": "+(15–20)" },
   "+(60–80) Fire Damage": {
     "en": "+(60–80) Fire Damage",
     "cn": "+(60–80) 火焰伤害"
@@ -3619,14 +3373,8 @@
     "en": "+(60–80) Cold Damage",
     "cn": "+(60–80) 冰冷伤害"
   },
-  "+2304 Gear Armor": {
-    "en": "+2304 Gear Armor",
-    "cn": "+2304 该装备护甲值"
-  },
-  "+50% Shield": {
-    "en": "+50% Shield",
-    "cn": "+50% 吸收量"
-  },
+  "+2304 Gear Armor": { "en": "+2304 Gear Armor", "cn": "+2304 该装备护甲值" },
+  "+50% Shield": { "en": "+50% Shield", "cn": "+50% 吸收量" },
   "Triggers Lv. (10–20) Reform every 4 s": {
     "en": "Triggers Lv. (10–20) Reform every 4 s",
     "cn": "每隔 4 秒，触发 (10–20) 级重整阵势"
@@ -3679,22 +3427,13 @@
     "en": "+50% Critical Strike Rating and Critical Strike Damage if you have consumed more than 100% Life recently",
     "cn": "如果最近消耗了超过 100% 生命，+50% 暴击值和暴击伤害"
   },
-  "+44 Max Life": {
-    "en": "+44 Max Life",
-    "cn": "+44 最大生命"
-  },
-  "+24 Max Mana": {
-    "en": "+24 Max Mana",
-    "cn": "+24 最大魔力"
-  },
+  "+44 Max Life": { "en": "+44 Max Life", "cn": "+44 最大生命" },
+  "+24 Max Mana": { "en": "+24 Max Mana", "cn": "+24 最大魔力" },
   "+70 Max Energy Shield": {
     "en": "+70 Max Energy Shield",
     "cn": "+70 最大护盾"
   },
-  "+7 to": {
-    "en": "+7 to",
-    "cn": "+7"
-  },
+  "+7 to": { "en": "+7 to", "cn": "+7" },
   "Triggers Lv. 10 Safeguard Field every 15s": {
     "en": "Triggers Lv. 10 Safeguard Field every 15s",
     "cn": "每隔 15 秒，触发 10 级绝境阵"
@@ -3707,30 +3446,12 @@
     "en": "(-12–-15)% additional damage taken at .",
     "cn": "时，额外 (-12–-15)% 受到的伤害"
   },
-  "+1 Max Mana": {
-    "en": "+1 Max Mana",
-    "cn": "+1 最大魔力"
-  },
-  "+1 to": {
-    "en": "+1 to",
-    "cn": "+1"
-  },
-  "+(10–12)%": {
-    "en": "+(10–12)%",
-    "cn": "+(10–12)%"
-  },
-  "+1 Max Life": {
-    "en": "+1 Max Life",
-    "cn": "+1 最大生命"
-  },
-  "+1 Max Energy Shield": {
-    "en": "+1 Max Energy Shield",
-    "cn": "+1 最大护盾"
-  },
-  "+(75–100) to": {
-    "en": "+(75–100) to",
-    "cn": "+(75–100)"
-  },
+  "+1 Max Mana": { "en": "+1 Max Mana", "cn": "+1 最大魔力" },
+  "+1 to": { "en": "+1 to", "cn": "+1" },
+  "+(10–12)%": { "en": "+(10–12)%", "cn": "+(10–12)%" },
+  "+1 Max Life": { "en": "+1 Max Life", "cn": "+1 最大生命" },
+  "+1 Max Energy Shield": { "en": "+1 Max Energy Shield", "cn": "+1 最大护盾" },
+  "+(75–100) to": { "en": "+(75–100) to", "cn": "+(75–100)" },
   "+1% Elemental Resistance per 40 stats, up to +20%": {
     "en": "+1% Elemental Resistance per 40 stats, up to +20%",
     "cn": "每 40 点属性， +1% 元素抗性，最多 +20%"
@@ -3739,10 +3460,7 @@
     "en": "+(1728–2016) Gear Armor",
     "cn": "+(1728–2016) 该装备护甲值"
   },
-  "+(66–88) Max Life": {
-    "en": "+(66–88) Max Life",
-    "cn": "+(66–88) 最大生命"
-  },
+  "+(66–88) Max Life": { "en": "+(66–88) Max Life", "cn": "+(66–88) 最大生命" },
   "+(8–11)% Erosion Resistance": {
     "en": "+(8–11)% Erosion Resistance",
     "cn": "+(8–11)% 腐蚀抗性"
@@ -3771,10 +3489,7 @@
     "en": "deal (20–30)% increasing damage",
     "cn": "伤害递增 (20–30)%"
   },
-  "+(8–10)% effect": {
-    "en": "+(8–10)% effect",
-    "cn": "+(8–10)% 效果"
-  },
+  "+(8–10)% effect": { "en": "+(8–10)% effect", "cn": "+(8–10)% 效果" },
   "+(176–264) Max Life": {
     "en": "+(176–264) Max Life",
     "cn": "+(176–264) 最大生命"
@@ -3795,10 +3510,7 @@
     "en": "+(3000–3100) Gear Armor",
     "cn": "+(3000–3100) 该装备护甲值"
   },
-  "+(50–70) Max Life": {
-    "en": "+(50–70) Max Life",
-    "cn": "+(50–70) 最大生命"
-  },
+  "+(50–70) Max Life": { "en": "+(50–70) Max Life", "cn": "+(50–70) 最大生命" },
   "+(20–24)% for Non-Physical Damage": {
     "en": "+(20–24)% for Non-Physical Damage",
     "cn": "对非物理伤害，+(20–24)%"
@@ -3839,10 +3551,7 @@
     "en": "Spirit Magi take 1000 Secondary Physical Damage when you are not at . Interval: 0.5 s.",
     "cn": "非时，魔灵受到 1000 点间接物理伤害，间隔 0.5 秒"
   },
-  "": {
-    "en": "",
-    "cn": ""
-  },
+  "": { "en": "", "cn": "" },
   "+50% Steadfast Aura Effect": {
     "en": "+50% Steadfast Aura Effect",
     "cn": "+50% 坚固光环效果"
@@ -3859,10 +3568,7 @@
     "en": "-20% additional Movement Speed",
     "cn": "额外 -20% 移动速度"
   },
-  "+(70–90) Max Life": {
-    "en": "+(70–90) Max Life",
-    "cn": "+(70–90) 最大生命"
-  },
+  "+(70–90) Max Life": { "en": "+(70–90) Max Life", "cn": "+(70–90) 最大生命" },
   "Demolisher Skills are supported by Lv. (20–25) Quick Return.": {
     "en": "Demolisher Skills are supported by Lv. (20–25) Quick Return.",
     "cn": "破击技能被 (20–25) 级快速回气辅助"
@@ -3875,10 +3581,7 @@
     "en": "+(2880–3744) Gear Armor",
     "cn": "+(2880–3744) 该装备护甲值"
   },
-  "+12% Strength": {
-    "en": "+12% Strength",
-    "cn": "+12% 力量"
-  },
+  "+12% Strength": { "en": "+12% Strength", "cn": "+12% 力量" },
   "Adds (2–3) - (4–5) Fire Damage per 10 Strength": {
     "en": "Adds (2–3) - (4–5) Fire Damage per 10 Strength",
     "cn": "每 10 点力量，附加 (2–3) - (4–5) 点火焰伤害"
@@ -3891,26 +3594,17 @@
     "en": "+(10–20)% Cold Resistance",
     "cn": "+(10–20)% 冰冷抗性"
   },
-  "+(20–30) to Max": {
-    "en": "+(20–30) to Max",
-    "cn": "+(20–30) 上限"
-  },
+  "+(20–30) to Max": { "en": "+(20–30) to Max", "cn": "+(20–30) 上限" },
   "Inflicts when dealing damage to enemies with a of 60 or above": {
     "en": "Inflicts when dealing damage to enemies with a of 60 or above",
     "cn": "对值达到 60 及以上的敌人，造成伤害时施加"
   },
-  "+1% Max Life": {
-    "en": "+1% Max Life",
-    "cn": "+1% 最大生命"
-  },
+  "+1% Max Life": { "en": "+1% Max Life", "cn": "+1% 最大生命" },
   "+1% Max Energy Shield": {
     "en": "+1% Max Energy Shield",
     "cn": "+1% 最大护盾"
   },
-  "+1% Max Mana": {
-    "en": "+1% Max Mana",
-    "cn": "+1% 最大魔力"
-  },
+  "+1% Max Mana": { "en": "+1% Max Mana", "cn": "+1% 最大魔力" },
   "When the sum of All Stats is (165–240) or less, -20% additional Elemental Damage taken": {
     "en": "When the sum of All Stats is (165–240) or less, -20% additional Elemental Damage taken",
     "cn": "全属性之和不超过 (165–240) 时，额外 -20% 受到的元素伤害"
@@ -3951,10 +3645,7 @@
     "en": "+(120–320) gear Evasion",
     "cn": "+(120–320) 该装备闪避值"
   },
-  "+55 Max Life": {
-    "en": "+55 Max Life",
-    "cn": "+55 最大生命"
-  },
+  "+55 Max Life": { "en": "+55 Max Life", "cn": "+55 最大生命" },
   "When moving, triggers a Lv. 20 Split Shot every 0.6s": {
     "en": "When moving, triggers a Lv. 20 Split Shot every 0.6s",
     "cn": "移动时，每隔 0.6 秒，触发 20 级分裂射击"
@@ -3967,14 +3658,8 @@
     "en": "Enlarges Physique by (10–15)%",
     "cn": "体型增大 (10–15)%"
   },
-  "+(50–60)% Damage": {
-    "en": "+(50–60)% Damage",
-    "cn": "+(50–60)% 伤害"
-  },
-  "+(6–8)% Resistance": {
-    "en": "+(6–8)% Resistance",
-    "cn": "+(6–8)% 抗性"
-  },
+  "+(50–60)% Damage": { "en": "+(50–60)% Damage", "cn": "+(50–60)% 伤害" },
+  "+(6–8)% Resistance": { "en": "+(6–8)% Resistance", "cn": "+(6–8)% 抗性" },
   "+1% Fire Damage per (10–12) Strength": {
     "en": "+1% Fire Damage per (10–12) Strength",
     "cn": "每 (10–12) 点力量， +1% 火焰伤害"
@@ -3991,22 +3676,10 @@
     "en": "+1% additional Elemental Damage for every (28–30) of the highest stat among Strength, Dexterity, and Intelligence",
     "cn": "每 (28–30) 点力量、敏捷和智慧中的最高的属性，额外 +1% 元素伤害"
   },
-  "+1% Strength": {
-    "en": "+1% Strength",
-    "cn": "+1% 力量"
-  },
-  "+1% Dexterity": {
-    "en": "+1% Dexterity",
-    "cn": "+1% 敏捷"
-  },
-  "+1% Intelligence": {
-    "en": "+1% Intelligence",
-    "cn": "+1% 智慧"
-  },
-  "+(6–10)% Resistance": {
-    "en": "+(6–10)% Resistance",
-    "cn": "+(6–10)% 抗性"
-  },
+  "+1% Strength": { "en": "+1% Strength", "cn": "+1% 力量" },
+  "+1% Dexterity": { "en": "+1% Dexterity", "cn": "+1% 敏捷" },
+  "+1% Intelligence": { "en": "+1% Intelligence", "cn": "+1% 智慧" },
+  "+(6–10)% Resistance": { "en": "+(6–10)% Resistance", "cn": "+(6–10)% 抗性" },
   "+(15–17)% additional damage and (-6–-5)% additional damage taken when two Resistances are identical (multiplies)": {
     "en": "+(15–17)% additional damage and (-6–-5)% additional damage taken when two Resistances are identical (multiplies)",
     "cn": "每有两个 抗性相同时， 额外 +(15–17)% 伤害，额外 (-6–-5)% 受到伤害（叠乘）"
@@ -4015,10 +3688,7 @@
     "en": "+50% Nimbleness Aura Effect",
     "cn": "+50% 灵敏光环效果"
   },
-  "+1 Max stacks": {
-    "en": "+1 Max stacks",
-    "cn": "+1 层数上限"
-  },
+  "+1 Max stacks": { "en": "+1 Max stacks", "cn": "+1 层数上限" },
   "When casting a Restoration Skill, +(20–30)% . The effect gradually falls off to 0 within 3s.": {
     "en": "When casting a Restoration Skill, +(20–30)% . The effect gradually falls off to 0 within 3s.",
     "cn": "释放回复技能时，+(20–30)% ，该效果在 3 秒内逐渐衰减至 0"
@@ -4039,10 +3709,7 @@
     "en": "+(2880–3744) gear Evasion",
     "cn": "+(2880–3744) 该装备闪避值"
   },
-  "+12% Dexterity": {
-    "en": "+12% Dexterity",
-    "cn": "+12% 敏捷"
-  },
+  "+12% Dexterity": { "en": "+12% Dexterity", "cn": "+12% 敏捷" },
   "Adds (1–2) - (5–6) Lightning Damage for every 10 Dexterity": {
     "en": "Adds (1–2) - (5–6) Lightning Damage for every 10 Dexterity",
     "cn": "每 10 点敏捷，附加 (1–2) - (5–6) 点闪电伤害"
@@ -4059,10 +3726,7 @@
     "en": "Gains 1 stacks of on Evasion",
     "cn": "闪避时，获得 1 层"
   },
-  "(-3–3)% Max": {
-    "en": "(-3–3)% Max",
-    "cn": "(-3–3)%"
-  },
+  "(-3–3)% Max": { "en": "(-3–3)% Max", "cn": "(-3–3)%" },
   "(-5–5)% Elemental Resistance": {
     "en": "(-5–5)% Elemental Resistance",
     "cn": "(-5–5)% 元素抗性"
@@ -4099,10 +3763,7 @@
     "en": "Main Skill is supported by Lv. (10–20) Psychic Burst",
     "cn": "核心技能被 (10–20) 级灵能乍泄辅助"
   },
-  "[Beacon] +2 Max": {
-    "en": "[Beacon] +2 Max",
-    "cn": "[灯塔] 上限 +2"
-  },
+  "[Beacon] +2 Max": { "en": "[Beacon] +2 Max", "cn": "[灯塔] 上限 +2" },
   "Unable to use Restoration Skills": {
     "en": "Unable to use Restoration Skills",
     "cn": "无法使用回复技能"
@@ -4187,14 +3848,8 @@
     "en": "+(1750–2000) Max Energy Shield",
     "cn": "+(1750–2000) 最大护盾"
   },
-  "+(4–6)%": {
-    "en": "+(4–6)%",
-    "cn": "+(4–6)% 火焰"
-  },
-  "+1%": {
-    "en": "+1%",
-    "cn": "+1% 冰冷"
-  },
+  "+(4–6)%": { "en": "+(4–6)%", "cn": "+(4–6)% 火焰" },
+  "+1%": { "en": "+1%", "cn": "+1% 冰冷" },
   "+(20–32)% Max Life, Max Mana, and Max Energy Shield": {
     "en": "+(20–32)% Max Life, Max Mana, and Max Energy Shield",
     "cn": "+(20–32)% 最大生命、最大魔力和最大护盾"
@@ -4223,10 +3878,7 @@
     "en": "+(270–280) gear Energy Shield",
     "cn": "+(270–280) 该装备护盾"
   },
-  "+60 Intelligence": {
-    "en": "+60 Intelligence",
-    "cn": "+60 智慧"
-  },
+  "+60 Intelligence": { "en": "+60 Intelligence", "cn": "+60 智慧" },
   "-60% Barrage Skill Wave Interval": {
     "en": "-60% Barrage Skill Wave Interval",
     "cn": "-60% 轰炸技能波次间隔"
@@ -4255,22 +3907,13 @@
     "en": "(-36–12)% Energy Shield Speed",
     "cn": "(-36–12)% 护盾速度"
   },
-  "+(8–12)% Duration": {
-    "en": "+(8–12)% Duration",
-    "cn": "+(8–12)% 时间"
-  },
-  "+(3–5)% Resistance": {
-    "en": "+(3–5)% Resistance",
-    "cn": "+(3–5)% 抗性"
-  },
+  "+(8–12)% Duration": { "en": "+(8–12)% Duration", "cn": "+(8–12)% 时间" },
+  "+(3–5)% Resistance": { "en": "+(3–5)% Resistance", "cn": "+(3–5)% 抗性" },
   "+(170–238) gear Energy Shield": {
     "en": "+(170–238) gear Energy Shield",
     "cn": "+(170–238) 该装备护盾"
   },
-  "+36% Intelligence": {
-    "en": "+36% Intelligence",
-    "cn": "+36% 智慧"
-  },
+  "+36% Intelligence": { "en": "+36% Intelligence", "cn": "+36% 智慧" },
   "Adds (297–317) - (413–433) Cold Damage when having at least 600 Intelligence": {
     "en": "Adds (297–317) - (413–433) Cold Damage when having at least 600 Intelligence",
     "cn": "至少有 600 点智慧时，附加 (297–317) - (413–433) 点冰冷伤害"
@@ -4315,14 +3958,8 @@
     "en": "no longer deals True Damage when it expires. Instead, it deals True Damage once every 0.33s while it lasts. The damage gains a 40% additional damage increment each time, up to 6 times",
     "cn": "持续时间结束时不再造成真实伤害，改为持续时间内每隔 0.33 秒造成 1 次真实伤害，每次额外递增 40%，上限 6 次"
   },
-  "-6%": {
-    "en": "-6%",
-    "cn": "-6% 腐蚀"
-  },
-  "+(21–30)%": {
-    "en": "+(21–30)%",
-    "cn": "+(21–30)%"
-  },
+  "-6%": { "en": "-6%", "cn": "-6% 腐蚀" },
+  "+(21–30)%": { "en": "+(21–30)%", "cn": "+(21–30)%" },
   "+(5–7)% Movement Speed": {
     "en": "+(5–7)% Movement Speed",
     "cn": "+(5–7)% 移动速度"
@@ -4335,10 +3972,7 @@
     "en": "+(15–20)% Erosion Resistance Penetration and +(10–15)% and if you have used a Erosion Skill recently",
     "cn": "如果最近使用过腐蚀技能，+(15–20)% 腐蚀抗性穿透，+(10–15)% 与"
   },
-  "+(60–80) Max Life": {
-    "en": "+(60–80) Max Life",
-    "cn": "+(60–80) 最大生命"
-  },
+  "+(60–80) Max Life": { "en": "+(60–80) Max Life", "cn": "+(60–80) 最大生命" },
   "-100% Critical Strike Rating+100% Critical Strike Damage": {
     "en": "-100% Critical Strike Rating+100% Critical Strike Damage",
     "cn": "-100% 暴击值+100% 暴击伤害"
@@ -4467,10 +4101,7 @@
     "en": "+(17–24)% Attack and Cast Speed+(17–24)% Minion Attack and Cast Speed",
     "cn": "+(17–24)% 攻击与施法速度+(17–24)% 召唤物攻击与施法速度"
   },
-  "+(37–50)% Duration": {
-    "en": "+(37–50)% Duration",
-    "cn": "+(37–50)% 时间"
-  },
+  "+(37–50)% Duration": { "en": "+(37–50)% Duration", "cn": "+(37–50)% 时间" },
   "+1 +(4–5)% additional damage for every (multiplies)": {
     "en": "+1 +(4–5)% additional damage for every (multiplies)",
     "cn": "+1 次数每 1 次，额外 +(4–5)% 伤害（叠乘）"
@@ -4483,10 +4114,7 @@
     "en": "+(12–15)% EffectGains for 1 s after losing",
     "cn": "+(12–15)% 效果失去 1 秒后获得"
   },
-  "+(70–90) Strength": {
-    "en": "+(70–90) Strength",
-    "cn": "+(70–90) 力量"
-  },
+  "+(70–90) Strength": { "en": "+(70–90) Strength", "cn": "+(70–90) 力量" },
   "+(140–160) Max Life": {
     "en": "+(140–160) Max Life",
     "cn": "+(140–160) 最大生命"
@@ -4495,10 +4123,7 @@
     "en": "+20% chance to inflict",
     "cn": "+20% 几率"
   },
-  "+80% Damage": {
-    "en": "+80% Damage",
-    "cn": "+80% 伤害"
-  },
+  "+80% Damage": { "en": "+80% Damage", "cn": "+80% 伤害" },
   "enemies defeated by you have a (15–20)% chance to explode, dealing True Damage equal to (80–100)% of their Max Life to enemies within a 6 m radius": {
     "en": "enemies defeated by you have a (15–20)% chance to explode, dealing True Damage equal to (80–100)% of their Max Life to enemies within a 6 m radius",
     "cn": "被你击败的 状态下的敌人有 (15–20)% 几率爆炸，对半径 6 米内的敌人造成被击败的敌人最大生命 (80–100)% 真实伤害"
@@ -4515,22 +4140,13 @@
     "en": "Triggers Lv. (15–25) Groundshaker when inflicting Paralysis. Interval: 1.5s.",
     "cn": "造成瘫痪时，触发 (15–25) 级震撼大地，该效果有 1.5 秒间隔时间"
   },
-  "+(2–8)%": {
-    "en": "+(2–8)%",
-    "cn": "+(2–8)%"
-  },
-  "Double": {
-    "en": "Double",
-    "cn": "量翻倍"
-  },
+  "+(2–8)%": { "en": "+(2–8)%", "cn": "+(2–8)%" },
+  "Double": { "en": "Double", "cn": "量翻倍" },
   "+(110–154) Max Life": {
     "en": "+(110–154) Max Life",
     "cn": "+(110–154) 最大生命"
   },
-  "Unable to gain": {
-    "en": "Unable to gain",
-    "cn": "无法获得"
-  },
+  "Unable to gain": { "en": "Unable to gain", "cn": "无法获得" },
   "[Tenacity] +100% chance to gain 1 stack(s) of when hitting an enemy+1 to Max Stacks": {
     "en": "[Tenacity] +100% chance to gain 1 stack(s) of when hitting an enemy+1 to Max Stacks",
     "cn": "[坚韧] 击中敌人时，+100% 几率获得 1 层+1 层数上限"
@@ -4555,10 +4171,7 @@
     "en": "Consumes (10–12)% of current Life and Energy Shield per second while is active",
     "cn": "拥有时，每秒消耗 (10–12)% 当前生命与护盾"
   },
-  "Loses Fervor at": {
-    "en": "Loses Fervor at",
-    "cn": "进入状态时，失去战意"
-  },
+  "Loses Fervor at": { "en": "Loses Fervor at", "cn": "进入状态时，失去战意" },
   "Adds (1–2) - (3–4) Physical Damage to Attacks per (1000–1200) Armor": {
     "en": "Adds (1–2) - (3–4) Physical Damage to Attacks per (1000–1200) Armor",
     "cn": "每 (1000–1200) 点护甲值，攻击附加 (1–2) - (3–4) 点物理伤害"
@@ -4771,10 +4384,7 @@
     "en": "+(22–25)% Projectile Damage",
     "cn": "+(22–25)% 投射物伤害"
   },
-  "+2": {
-    "en": "+2",
-    "cn": "+2 次数"
-  },
+  "+2": { "en": "+2", "cn": "+2 次数" },
   "+(3–4)% additional damage dealt by Horizontal Projectiles after each (multiplies)": {
     "en": "+(3–4)% additional damage dealt by Horizontal Projectiles after each (multiplies)",
     "cn": "直射投射物每 1 次，额外 +(3–4)% 伤害（叠乘）"
@@ -4815,10 +4425,7 @@
     "en": "+(1500–2000) gear Evasion+(300–400) gear Energy Shield",
     "cn": "+(1500–2000) 该装备闪避值+(300–400) 该装备护盾"
   },
-  "+(8–12)%": {
-    "en": "+(8–12)%",
-    "cn": "+(8–12)%"
-  },
+  "+(8–12)%": { "en": "+(8–12)%", "cn": "+(8–12)%" },
   "+1 Per Second for every +4% Effect": {
     "en": "+1 Per Second for every +4% Effect",
     "cn": "每 +4% 效果，+1 每秒施加值"
@@ -4847,10 +4454,7 @@
     "en": "Main Skill is supported by Lv. (15–20) Raging Slash",
     "cn": "核心技能被 (15–20) 级的怒斩辅助"
   },
-  "+(40–70) Max Life": {
-    "en": "+(40–70) Max Life",
-    "cn": "+(40–70) 最大生命"
-  },
+  "+(40–70) Max Life": { "en": "+(40–70) Max Life", "cn": "+(40–70) 最大生命" },
   "+(6–10)% Attack Speed": {
     "en": "+(6–10)% Attack Speed",
     "cn": "+(6–10)% 攻击速度"
@@ -4907,14 +4511,8 @@
     "en": "+(14–16)% additional Combo Finisher Damage to an enemy for every Infiltration Effect the enemy has",
     "cn": "敌人每有一种渗透效果，连携终结技对其额外 +(14–16)% 伤害"
   },
-  "+(50–60) Max Life": {
-    "en": "+(50–60) Max Life",
-    "cn": "+(50–60) 最大生命"
-  },
-  "+(20–30) Dexterity": {
-    "en": "+(20–30) Dexterity",
-    "cn": "+(20–30) 敏捷"
-  },
+  "+(50–60) Max Life": { "en": "+(50–60) Max Life", "cn": "+(50–60) 最大生命" },
+  "+(20–30) Dexterity": { "en": "+(20–30) Dexterity", "cn": "+(20–30) 敏捷" },
   "+(40–80)% Melee Damage if you have recently moved more than 10 m": {
     "en": "+(40–80)% Melee Damage if you have recently moved more than 10 m",
     "cn": "如果最近移动了超过 10 米，+(40–80)% 近战伤害"
@@ -4939,18 +4537,12 @@
     "en": "+(75–100)% Fire Damage if you have used a Cold Skill recently",
     "cn": "如果最近使用过冰冷技能， +(75–100)% 火焰伤害"
   },
-  "+(5–8) to Max": {
-    "en": "+(5–8) to Max",
-    "cn": "+(5–8) 上限"
-  },
+  "+(5–8) to Max": { "en": "+(5–8) to Max", "cn": "+(5–8) 上限" },
   "When defeating a enemy, - 20% current cooldown of potion and Mobility skills": {
     "en": "When defeating a enemy, - 20% current cooldown of potion and Mobility skills",
     "cn": "击败状态下的敌人时，回复技能和位移技能 -20% 当前冷却时间"
   },
-  "+1 Max Charges": {
-    "en": "+1 Max Charges",
-    "cn": "+1 充能点数上限"
-  },
+  "+1 Max Charges": { "en": "+1 Max Charges", "cn": "+1 充能点数上限" },
   "Converts 50% of Mana Cost to Life Cost": {
     "en": "Converts 50% of Mana Cost to Life Cost",
     "cn": "魔力消耗的 50% 转换为生命消耗"
@@ -4995,10 +4587,7 @@
     "en": "+5% Critical Strike Rating and Critical Strike Damage for every (880–900) Mana consumed recently",
     "cn": "最近每消耗 (880–900) 魔力， +5% 暴击值和暴击伤害"
   },
-  "+(5–10)%": {
-    "en": "+(5–10)%",
-    "cn": "+(5–10)%"
-  },
+  "+(5–10)%": { "en": "+(5–10)%", "cn": "+(5–10)%" },
   "Adds (12–16)% of Max Life to Minion Energy Shield": {
     "en": "Adds (12–16)% of Max Life to Minion Energy Shield",
     "cn": "召唤物附加 (12–16)% 最大生命的护盾"
@@ -5071,10 +4660,7 @@
     "en": "+(30–35) Intelligence",
     "cn": "+(30–35) 智慧"
   },
-  "+(30–35) Strength": {
-    "en": "+(30–35) Strength",
-    "cn": "+(30–35) 力量"
-  },
+  "+(30–35) Strength": { "en": "+(30–35) Strength", "cn": "+(30–35) 力量" },
   "+(25–30)% additional Melee Physical Damage when the character is only affected by 1 Aura": {
     "en": "+(25–30)% additional Melee Physical Damage when the character is only affected by 1 Aura",
     "cn": "自身只受 1 个光环影响时，额外 +(25–30)% 近战物理伤害"
@@ -5151,10 +4737,7 @@
     "en": "Triggers Lv. 20 Stoneskin when moving. Interval: 2 s",
     "cn": "移动时，触发 20 级石肤术，间隔 2 秒"
   },
-  "Has": {
-    "en": "Has",
-    "cn": "拥有"
-  },
+  "Has": { "en": "Has", "cn": "拥有" },
   "+1 Physical Skill Level": {
     "en": "+1 Physical Skill Level",
     "cn": "+1 物理技能等级"
@@ -5219,18 +4802,12 @@
     "en": "Triggers Lv. (6–10) Blurry Steps upon starting to move. Interval: 1 s",
     "cn": "开始移动时， 触发 (6–10) 级迷踪步，间隔 1 秒"
   },
-  "+154 Max Life": {
-    "en": "+154 Max Life",
-    "cn": "+154 最大生命"
-  },
+  "+154 Max Life": { "en": "+154 Max Life", "cn": "+154 最大生命" },
   "Regenerates 36 Life per second while moving": {
     "en": "Regenerates 36 Life per second while moving",
     "cn": "移动时，每秒自然回复 36 生命"
   },
-  "+20% Movement Speed": {
-    "en": "+20% Movement Speed",
-    "cn": "+20% 移动速度"
-  },
+  "+20% Movement Speed": { "en": "+20% Movement Speed", "cn": "+20% 移动速度" },
   "+(30–40)% damage against enemies": {
     "en": "+(30–40)% damage against enemies",
     "cn": "+(30–40)% 对的敌人造成的伤害"
@@ -5263,10 +4840,7 @@
     "en": "+11% Fire Resistance",
     "cn": "+11% 火焰抗性"
   },
-  "+8% Movement Speed": {
-    "en": "+8% Movement Speed",
-    "cn": "+8% 移动速度"
-  },
+  "+8% Movement Speed": { "en": "+8% Movement Speed", "cn": "+8% 移动速度" },
   "Regenerates 3% Life per secondRegenerates 3% Life per second when taking Damage Over Time": {
     "en": "Regenerates 3% Life per secondRegenerates 3% Life per second when taking Damage Over Time",
     "cn": "每秒自然回复 3% 生命受到持续伤害时，每秒自然回复 3% 生命"
@@ -5299,14 +4873,8 @@
     "en": "Triggers Lv. 15 Flame Jet when using a Mobility Skill. Interval: 1 s",
     "cn": "使用位移技能时，触发一次 15 级烈焰释放，该效果有 1 秒间隔时间"
   },
-  "+48% Skill Area": {
-    "en": "+48% Skill Area",
-    "cn": "+48% 技能范围"
-  },
-  "+20% Charge Speed": {
-    "en": "+20% Charge Speed",
-    "cn": "+20% 充能速度"
-  },
+  "+48% Skill Area": { "en": "+48% Skill Area", "cn": "+48% 技能范围" },
+  "+20% Charge Speed": { "en": "+20% Charge Speed", "cn": "+20% 充能速度" },
   "+(1000–1500) Gear Armor": {
     "en": "+(1000–1500) Gear Armor",
     "cn": "+(1000–1500) 该装备护甲值"
@@ -5327,10 +4895,7 @@
     "en": "+(150–250) Max Life",
     "cn": "+(150–250) 最大生命"
   },
-  "+5%": {
-    "en": "+5%",
-    "cn": "+5% 火焰"
-  },
+  "+5%": { "en": "+5%", "cn": "+5% 火焰" },
   "Max Terra Quantity bonus is set to 1": {
     "en": "Max Terra Quantity bonus is set to 1",
     "cn": "地面数量上限的加成固定为 1"
@@ -5347,10 +4912,7 @@
     "en": "+(17–22)% additional Evasion while moving",
     "cn": "移动时，额外 +(17–22)% 闪避值"
   },
-  "+50% Movement Speed": {
-    "en": "+50% Movement Speed",
-    "cn": "+50% 移动速度"
-  },
+  "+50% Movement Speed": { "en": "+50% Movement Speed", "cn": "+50% 移动速度" },
   "+(15–30)% Aura effect when affected by (4–5) or more Auras": {
     "en": "+(15–30)% Aura effect when affected by (4–5) or more Auras",
     "cn": "被 (4–5) 个或以上的光环影响时，+(15–30)% 光环效果"
@@ -5455,18 +5017,12 @@
     "en": "For every 1 Evasion(s) in the last 10s, +(7–10)% additional damage (multiplies). Stacks up to 5 times",
     "cn": "最近 10 秒内每闪避 1 次，额外 +(7–10)% 伤害（叠乘），上限 5 层"
   },
-  "+10% Resistance": {
-    "en": "+10% Resistance",
-    "cn": "+10% 抗性"
-  },
+  "+10% Resistance": { "en": "+10% Resistance", "cn": "+10% 抗性" },
   "[Master Escapist] +1 Max stacksGains 1 stacks of on Evasion": {
     "en": "[Master Escapist] +1 Max stacksGains 1 stacks of on Evasion",
     "cn": "[逃脱大师] +1 层数上限闪避时，获得 1 层"
   },
-  "+1% Max": {
-    "en": "+1% Max",
-    "cn": "+1%"
-  },
+  "+1% Max": { "en": "+1% Max", "cn": "+1%" },
   "(-70–-50)% Effect received": {
     "en": "(-70–-50)% Effect received",
     "cn": "(-70–-50)% 受到效果"
@@ -5647,10 +5203,7 @@
     "en": "[More With Less] +30% additional Damage Over Time-10% additional Damage Over Time Duration",
     "cn": "[事半功倍] 额外 +30% 持续伤害额外 -10% 持续伤害持续时间"
   },
-  "+(44–55) Max Life": {
-    "en": "+(44–55) Max Life",
-    "cn": "+(44–55) 最大生命"
-  },
+  "+(44–55) Max Life": { "en": "+(44–55) Max Life", "cn": "+(44–55) 最大生命" },
   "Regenerates (15–20) Life per second": {
     "en": "Regenerates (15–20) Life per second",
     "cn": "每秒自然回复 (15–20) 生命"
@@ -5703,18 +5256,12 @@
     "en": "-30% player Movement Speed",
     "cn": "-30% 玩家移动速度"
   },
-  "+40 Max Life": {
-    "en": "+40 Max Life",
-    "cn": "+40 最大生命"
-  },
+  "+40 Max Life": { "en": "+40 Max Life", "cn": "+40 最大生命" },
   "For every that affects you, +(10–12)% Movement Speed": {
     "en": "For every that affects you, +(10–12)% Movement Speed",
     "cn": "自身每受 1 个影响，+(10–12)% 移动速度"
   },
-  "+5% Movement Speed": {
-    "en": "+5% Movement Speed",
-    "cn": "+5% 移动速度"
-  },
+  "+5% Movement Speed": { "en": "+5% Movement Speed", "cn": "+5% 移动速度" },
   "+(20–25)% Cold Resistance": {
     "en": "+(20–25)% Cold Resistance",
     "cn": "+(20–25)% 冰冷抗性"
@@ -5727,10 +5274,7 @@
     "en": "+1 Max when Movement Speed is not higher than 200% of base",
     "cn": "移动速度不高于基础值的 200% 时，上限 +1"
   },
-  "+(10–14)% Armor": {
-    "en": "+(10–14)% Armor",
-    "cn": "+(10–14)% 护甲值"
-  },
+  "+(10–14)% Armor": { "en": "+(10–14)% Armor", "cn": "+(10–14)% 护甲值" },
   "+(8–10)% Attack and Spell Block Chance": {
     "en": "+(8–10)% Attack and Spell Block Chance",
     "cn": "+(8–10)% 攻击和法术格挡率"
@@ -5739,30 +5283,18 @@
     "en": "+(6–8)% additional damage",
     "cn": "额外 +(6–8)% 伤害"
   },
-  "+(35–40) Strength": {
-    "en": "+(35–40) Strength",
-    "cn": "+(35–40) 力量"
-  },
-  "+(35–40) Dexterity": {
-    "en": "+(35–40) Dexterity",
-    "cn": "+(35–40) 敏捷"
-  },
+  "+(35–40) Strength": { "en": "+(35–40) Strength", "cn": "+(35–40) 力量" },
+  "+(35–40) Dexterity": { "en": "+(35–40) Dexterity", "cn": "+(35–40) 敏捷" },
   "+(35–40) Intelligence": {
     "en": "+(35–40) Intelligence",
     "cn": "+(35–40) 智慧"
   },
-  "+(1–2)%": {
-    "en": "+(1–2)%",
-    "cn": "+(1–2)% 火焰"
-  },
+  "+(1–2)%": { "en": "+(1–2)%", "cn": "+(1–2)% 火焰" },
   "Has a (5–10)% chance to avoid Blocked damage": {
     "en": "Has a (5–10)% chance to avoid Blocked damage",
     "cn": "有 (5–10)% 几率避免被格挡的伤害"
   },
-  "+(5–8)%": {
-    "en": "+(5–8)%",
-    "cn": "+(5–8)%"
-  },
+  "+(5–8)%": { "en": "+(5–8)%", "cn": "+(5–8)%" },
   "+(8–12)% Attack Block Chance": {
     "en": "+(8–12)% Attack Block Chance",
     "cn": "+(8–12)% 攻击格挡率"
@@ -5775,10 +5307,7 @@
     "en": "+(3–5)% Max Energy Shield",
     "cn": "+(3–5)% 最大护盾"
   },
-  "+(3–5)% Max Life": {
-    "en": "+(3–5)% Max Life",
-    "cn": "+(3–5)% 最大生命"
-  },
+  "+(3–5)% Max Life": { "en": "+(3–5)% Max Life", "cn": "+(3–5)% 最大生命" },
   "+(3025–4320) Gear Armor": {
     "en": "+(3025–4320) Gear Armor",
     "cn": "+(3025–4320) 该装备护甲值"
@@ -5799,10 +5328,7 @@
     "en": "+(18–24)% Max Life",
     "cn": "+(18–24)% 最大生命"
   },
-  "+(12–15)%": {
-    "en": "+(12–15)%",
-    "cn": "+(12–15)%"
-  },
+  "+(12–15)%": { "en": "+(12–15)%", "cn": "+(12–15)%" },
   "+(22–30)% Elemental and Erosion Resistance PenetrationMinion Damage penetrates (22–30)% Elemental Resistance": {
     "en": "+(22–30)% Elemental and Erosion Resistance PenetrationMinion Damage penetrates (22–30)% Elemental Resistance",
     "cn": "+(22–30)% 元素和腐蚀抗性穿透召唤物伤害穿透 (22–30)% 元素抗性"
@@ -5855,10 +5381,7 @@
     "en": "+(22–30)% additional gained from Shield",
     "cn": "额外 +(22–30)% 从盾牌获得的"
   },
-  "+(7–8)% Max": {
-    "en": "+(7–8)% Max",
-    "cn": "+(7–8)%"
-  },
+  "+(7–8)% Max": { "en": "+(7–8)% Max", "cn": "+(7–8)%" },
   "+3% Critical Strike Rating and Critical Strike Damage for every 5% of Attack Block": {
     "en": "+3% Critical Strike Rating and Critical Strike Damage for every 5% of Attack Block",
     "cn": "每 5% 攻击格挡， +3% 暴击值和暴击伤害"
@@ -5867,18 +5390,12 @@
     "en": "+100% chance to gain a stack of when using a Melee Skill",
     "cn": "使用近战技能时，+100% 几率获得一层"
   },
-  "+8% Resistance": {
-    "en": "+8% Resistance",
-    "cn": "+8% 抗性"
-  },
+  "+8% Resistance": { "en": "+8% Resistance", "cn": "+8% 抗性" },
   "+15% Max Life and Max Mana": {
     "en": "+15% Max Life and Max Mana",
     "cn": "+15% 最大生命和最大魔力"
   },
-  "+40% from Shield": {
-    "en": "+40% from Shield",
-    "cn": "+40% 从盾牌获得的"
-  },
+  "+40% from Shield": { "en": "+40% from Shield", "cn": "+40% 从盾牌获得的" },
   "+10% Attack and Spell Block Chance": {
     "en": "+10% Attack and Spell Block Chance",
     "cn": "+10% 攻击与法术格挡率"
@@ -5923,10 +5440,7 @@
     "en": "+(10–13)% Attack Block Chance",
     "cn": "+(10–13)% 攻击格挡率"
   },
-  "+(44–66) Max Life": {
-    "en": "+(44–66) Max Life",
-    "cn": "+(44–66) 最大生命"
-  },
+  "+(44–66) Max Life": { "en": "+(44–66) Max Life", "cn": "+(44–66) 最大生命" },
   "+(150–300) Physical Damage": {
     "en": "+(150–300) Physical Damage",
     "cn": "+(150–300) 物理伤害"
@@ -5963,10 +5477,7 @@
     "en": "+(3456–4032) Gear Armor",
     "cn": "+(3456–4032) 该装备护甲值"
   },
-  "+198 Max Life": {
-    "en": "+198 Max Life",
-    "cn": "+198 最大生命"
-  },
+  "+198 Max Life": { "en": "+198 Max Life", "cn": "+198 最大生命" },
   "+(10–14)% Attack and Spell Block Chance": {
     "en": "+(10–14)% Attack and Spell Block Chance",
     "cn": "+(10–14)% 攻击与法术格挡率"
@@ -5999,10 +5510,7 @@
     "en": "applied gains an additional effect: -8% Fire Resistance, -2% Max Fire Resistance",
     "cn": "施加的获得额外效果：-8% 火焰抗性，-2% 火焰抗性上限"
   },
-  "+(10–14)% Evasion": {
-    "en": "+(10–14)% Evasion",
-    "cn": "+(10–14)% 闪避值"
-  },
+  "+(10–14)% Evasion": { "en": "+(10–14)% Evasion", "cn": "+(10–14)% 闪避值" },
   "+(3025–4320) gear Evasion": {
     "en": "+(3025–4320) gear Evasion",
     "cn": "+(3025–4320) 该装备闪避值"
@@ -6031,10 +5539,7 @@
     "en": "+(15–32)% Lightning Resistance",
     "cn": "+(15–32)% 闪电抗性"
   },
-  "-5%": {
-    "en": "-5%",
-    "cn": "-5% 闪电"
-  },
+  "-5%": { "en": "-5%", "cn": "-5% 闪电" },
   "+(1–3) Lightning Skill Level": {
     "en": "+(1–3) Lightning Skill Level",
     "cn": "+(1–3) 闪电技能等级"
@@ -6083,10 +5588,7 @@
     "en": "Triggers Lv. 20 Secret Origin Unleash every 6s",
     "cn": "每隔 6 秒，触发 20 级秘源释放"
   },
-  "+(8–16)%": {
-    "en": "+(8–16)%",
-    "cn": "+(8–16)%"
-  },
+  "+(8–16)%": { "en": "+(8–16)%", "cn": "+(8–16)%" },
   "+72% Spell Block Chance": {
     "en": "+72% Spell Block Chance",
     "cn": "+72% 法术格挡率"
@@ -6119,18 +5621,12 @@
     "en": "+(27–38)% Attack and Spell Block Chance",
     "cn": "+(27–38)% 攻击与法术格挡率"
   },
-  "+20%": {
-    "en": "+20%",
-    "cn": "+20%"
-  },
+  "+20%": { "en": "+20%", "cn": "+20%" },
   "enemies when Blocking": {
     "en": "enemies when Blocking",
     "cn": "格挡时，使敌人"
   },
-  "+(3–4)% Resistance": {
-    "en": "+(3–4)% Resistance",
-    "cn": "+(3–4)% 抗性"
-  },
+  "+(3–4)% Resistance": { "en": "+(3–4)% Resistance", "cn": "+(3–4)% 抗性" },
   "+(20–24)% damage +(20–24)% Minion Damage": {
     "en": "+(20–24)% damage +(20–24)% Minion Damage",
     "cn": "+(20–24)% 伤害+(20–24)% 召唤物伤害"
@@ -6175,22 +5671,13 @@
     "en": "+(245–350) Max Energy Shield",
     "cn": "+(245–350) 最大护盾"
   },
-  "+(27–36)% Armor": {
-    "en": "+(27–36)% Armor",
-    "cn": "+(27–36)% 护甲值"
-  },
-  "+(27–36)% Evasion": {
-    "en": "+(27–36)% Evasion",
-    "cn": "+(27–36)% 闪避值"
-  },
+  "+(27–36)% Armor": { "en": "+(27–36)% Armor", "cn": "+(27–36)% 护甲值" },
+  "+(27–36)% Evasion": { "en": "+(27–36)% Evasion", "cn": "+(27–36)% 闪避值" },
   "+(35–48) initial for Spirit Magi": {
     "en": "+(35–48) initial for Spirit Magi",
     "cn": "魔灵 +(35–48) 初始"
   },
-  "+(15–20)%": {
-    "en": "+(15–20)%",
-    "cn": "+(15–20)%"
-  },
+  "+(15–20)%": { "en": "+(15–20)%", "cn": "+(15–20)%" },
   "+(22–30)% Compensation for Steadfast": {
     "en": "+(22–30)% Compensation for Steadfast",
     "cn": "+(22–30)% 坚固补偿"
@@ -6215,10 +5702,7 @@
     "en": "Has . Minions have +(20–30)% Erosion Damage+(20–30)% Minion Erosion Damage",
     "cn": "拥有；召唤物拥有+(20–30)% 腐蚀伤害+(20–30)% 召唤物腐蚀伤害"
   },
-  "+(23–32)% Chance": {
-    "en": "+(23–32)% Chance",
-    "cn": "+(23–32)% 几率"
-  },
+  "+(23–32)% Chance": { "en": "+(23–32)% Chance", "cn": "+(23–32)% 几率" },
   "+2 Minion Skill Level": {
     "en": "+2 Minion Skill Level",
     "cn": "+2 召唤召唤物的技能等级"
@@ -6235,10 +5719,7 @@
     "en": "You can apply 1 additional to enemies+(5–8)% Damage Enhancement",
     "cn": "你可以对敌人附着 1 个额外+(5–8)% 伤害加深"
   },
-  "+(36–50)% Damage": {
-    "en": "+(36–50)% Damage",
-    "cn": "+(36–50)% 伤害"
-  },
+  "+(36–50)% Damage": { "en": "+(36–50)% Damage", "cn": "+(36–50)% 伤害" },
   "+(42–60)% Critical Strike Damage": {
     "en": "+(42–60)% Critical Strike Damage",
     "cn": "+(42–60)% 暴击伤害"
@@ -6251,10 +5732,7 @@
     "en": "+(14–18)% Blessing Duration",
     "cn": "+(14–18)% 祝福持续时间"
   },
-  "+(8–10)%": {
-    "en": "+(8–10)%",
-    "cn": "+(8–10)%"
-  },
+  "+(8–10)%": { "en": "+(8–10)%", "cn": "+(8–10)%" },
   "100% chance to gain a for every 5 m you move": {
     "en": "100% chance to gain a for every 5 m you move",
     "cn": "每移动 5 米， 100% 几率获得"
@@ -6271,14 +5749,8 @@
     "en": "+(23–32)% additional Duration",
     "cn": "+(23–32)% 持续时间"
   },
-  "+(5–15) Dexterity": {
-    "en": "+(5–15) Dexterity",
-    "cn": "+(5–15) 敏捷"
-  },
-  "+(20–30) Max Life": {
-    "en": "+(20–30) Max Life",
-    "cn": "+(20–30) 最大生命"
-  },
+  "+(5–15) Dexterity": { "en": "+(5–15) Dexterity", "cn": "+(5–15) 敏捷" },
+  "+(20–30) Max Life": { "en": "+(20–30) Max Life", "cn": "+(20–30) 最大生命" },
   "33% chance to gain +3 when using the Shadow Strike skill": {
     "en": "33% chance to gain +3 when using the Shadow Strike skill",
     "cn": "使用影袭技能时，有 33% 几率 +3 数量"
@@ -6303,10 +5775,7 @@
     "en": "+(29–36)% Area Damage if no enemies are defeated recently",
     "cn": "如果最近没有击败敌人， +(29–36)% 范围伤害"
   },
-  "+(25–36)% Armor": {
-    "en": "+(25–36)% Armor",
-    "cn": "+(25–36)% 护甲值"
-  },
+  "+(25–36)% Armor": { "en": "+(25–36)% Armor", "cn": "+(25–36)% 护甲值" },
   "+(3–4)% additional damage per 10000 Armor": {
     "en": "+(3–4)% additional damage per 10000 Armor",
     "cn": "每 10000 点护甲值，额外 +(3–4)% 伤害"
@@ -6443,22 +5912,13 @@
     "en": "+16% Projectile Speed",
     "cn": "+16% 投射物速度"
   },
-  "+(14–18) to": {
-    "en": "+(14–18) to",
-    "cn": "+(14–18)"
-  },
-  "+25 to": {
-    "en": "+25 to",
-    "cn": "+25"
-  },
+  "+(14–18) to": { "en": "+(14–18) to", "cn": "+(14–18)" },
+  "+25 to": { "en": "+25 to", "cn": "+25" },
   "+(19–24)% Cooldown Recovery Speed": {
     "en": "+(19–24)% Cooldown Recovery Speed",
     "cn": "+(19–24)% 冷却回复速度"
   },
-  "Cannot restore Life": {
-    "en": "Cannot restore Life",
-    "cn": "无法回复生命"
-  },
+  "Cannot restore Life": { "en": "Cannot restore Life", "cn": "无法回复生命" },
   "+(60–80)% Mana Regeneration Speed": {
     "en": "+(60–80)% Mana Regeneration Speed",
     "cn": "+(60–80)% 魔力自然回复速度"
@@ -6555,18 +6015,12 @@
     "en": "Trigger Lv. (10–19) on hit. Cooldown: 1 s.",
     "cn": "击中敌人时，触发 (10–19) 级诅咒，冷却时间为 1 秒"
   },
-  "+(3–5)%": {
-    "en": "+(3–5)%",
-    "cn": "+(3–5)% 腐蚀"
-  },
+  "+(3–5)%": { "en": "+(3–5)%", "cn": "+(3–5)% 腐蚀" },
   "+(9–12)% Elemental Resistance": {
     "en": "+(9–12)% Elemental Resistance",
     "cn": "+(9–12)% 元素抗性"
   },
-  "+(30–40)%": {
-    "en": "+(30–40)%",
-    "cn": "+(30–40)%"
-  },
+  "+(30–40)%": { "en": "+(30–40)%", "cn": "+(30–40)%" },
   "Max Terra Quantity bonus is set to 0": {
     "en": "Max Terra Quantity bonus is set to 0",
     "cn": "地面数量上限的加成固定为 0"
@@ -6619,10 +6073,7 @@
     "en": "Gains (5–10) points of for every 3 m of movement",
     "cn": "每移动 3 米，获得 (5–10) 点"
   },
-  "+(40–60)% Effect": {
-    "en": "+(40–60)% Effect",
-    "cn": "+(40–60)% 效果"
-  },
+  "+(40–60)% Effect": { "en": "+(40–60)% Effect", "cn": "+(40–60)% 效果" },
   "Consumes 20% of Max Life and inflicts 50 Affliction to enemies when at . Interval: 1s": {
     "en": "Consumes 20% of Max Life and inflicts 50 Affliction to enemies when at . Interval: 1s",
     "cn": "时，消耗 20% 最大生命，对敌人施加 50 加剧值，间隔 1 秒"
@@ -6631,10 +6082,7 @@
     "en": "Restores 10% Life when not at . Interval: 1s",
     "cn": "非时，回复 10% 生命，间隔 1 秒"
   },
-  "+(6–10)%": {
-    "en": "+(6–10)%",
-    "cn": "+(6–10)%"
-  },
+  "+(6–10)%": { "en": "+(6–10)%", "cn": "+(6–10)%" },
   "+(65–75)% Critical Strike Damage": {
     "en": "+(65–75)% Critical Strike Damage",
     "cn": "+(65–75)% 暴击伤害"
@@ -6727,10 +6175,7 @@
     "en": "Spirit Magi are immune to Elemental Damage",
     "cn": "魔灵免疫元素伤害"
   },
-  "+(5–10)% Max Life": {
-    "en": "+(5–10)% Max Life",
-    "cn": "+(5–10)% 最大生命"
-  },
+  "+(5–10)% Max Life": { "en": "+(5–10)% Max Life", "cn": "+(5–10)% 最大生命" },
   "+(50–70)% Erosion Damage": {
     "en": "+(50–70)% Erosion Damage",
     "cn": "+(50–70)% 腐蚀伤害"
@@ -6755,10 +6200,7 @@
     "en": "For each Attack Horizontal Projectile Skill used recently, +(5–6)% Effect. Stacks up to 10 time(s)",
     "cn": "最近每使用一次攻击直射投射物技能，+(5–6)% 效果，最多增加 10 层"
   },
-  "+60 Max Life": {
-    "en": "+60 Max Life",
-    "cn": "+60 最大生命"
-  },
+  "+60 Max Life": { "en": "+60 Max Life", "cn": "+60 最大生命" },
   "+(30–50)% Skill Area": {
     "en": "+(30–50)% Skill Area",
     "cn": "+(30–50)% 技能范围"
@@ -6811,10 +6253,7 @@
     "en": "Gains (1–2) Combo Point(s) on Critical Strike from Combo Finishers. Each skill cast can only trigger this effect once. During , this effect only takes effect on the first skill cast when Spell Burst is activated",
     "cn": "连携终结技暴击时，获得 (1–2) 点连携点；每次技能仅能触发 1 次该效果；时，该效果仅对激活迸发时的首次技能生效"
   },
-  "+(30–40) to": {
-    "en": "+(30–40) to",
-    "cn": "+(30–40)"
-  },
+  "+(30–40) to": { "en": "+(30–40) to", "cn": "+(30–40)" },
   "+1 Passive Skill Level for each empty Active Skill Slot": {
     "en": "+1 Passive Skill Level for each empty Active Skill Slot",
     "cn": "每个未安装主动技能的主动技能槽位 +1 被动技能等级"
@@ -6827,10 +6266,7 @@
     "en": "+(90–100) Max Energy Shield",
     "cn": "+(90–100) 最大护盾"
   },
-  "+(10–12) to": {
-    "en": "+(10–12) to",
-    "cn": "+(10–12)"
-  },
+  "+(10–12) to": { "en": "+(10–12) to", "cn": "+(10–12)" },
   "Damage penetrates (25–35)% Resistance of enemiesDamage penetrates (25–35)% Resistance of enemies": {
     "en": "Damage penetrates (25–35)% Resistance of enemiesDamage penetrates (25–35)% Resistance of enemies",
     "cn": "对的敌人，伤害穿透 (25–35)% 抗性对的敌人，伤害穿透 (25–35)% 抗性"
@@ -6855,14 +6291,8 @@
     "en": "Seals 10% Max Mana. Gains",
     "cn": "封印 10% 最大魔力，获得"
   },
-  "+1 Max Quantity": {
-    "en": "+1 Max Quantity",
-    "cn": "+1 数量上限"
-  },
-  "+50% Duration": {
-    "en": "+50% Duration",
-    "cn": "+50% 持续时间"
-  },
+  "+1 Max Quantity": { "en": "+1 Max Quantity", "cn": "+1 数量上限" },
+  "+50% Duration": { "en": "+50% Duration", "cn": "+50% 持续时间" },
   "+(50–80) Critical Strike Rating": {
     "en": "+(50–80) Critical Strike Rating",
     "cn": "+(50–80) 暴击值"
@@ -6875,14 +6305,8 @@
     "en": "+(20–25)% chance to launch one more wave when casting a Barrage Skill",
     "cn": "释放轰炸技能时，有 +(20–25)% 概率该次轰炸技能总波次+1"
   },
-  "+(15–20)% effect": {
-    "en": "+(15–20)% effect",
-    "cn": "+(15–20)% 效果"
-  },
-  "Immune to curse": {
-    "en": "Immune to curse",
-    "cn": "免疫诅咒"
-  },
+  "+(15–20)% effect": { "en": "+(15–20)% effect", "cn": "+(15–20)% 效果" },
+  "Immune to curse": { "en": "Immune to curse", "cn": "免疫诅咒" },
   "Adds (18–20)% of Physical Damage as Fire Damage": {
     "en": "Adds (18–20)% of Physical Damage as Fire Damage",
     "cn": "附加 (18–20)% 物理伤害的火焰伤害"
@@ -6907,18 +6331,9 @@
     "en": "Gains when casting an Attack Skill",
     "cn": "释放攻击技能时，获得"
   },
-  "+5% XP earned": {
-    "en": "+5% XP earned",
-    "cn": "+5% 获得经验值"
-  },
-  "+(8–10)% Strength": {
-    "en": "+(8–10)% Strength",
-    "cn": "+(8–10)% 力量"
-  },
-  "+(8–10)% Dexterity": {
-    "en": "+(8–10)% Dexterity",
-    "cn": "+(8–10)% 敏捷"
-  },
+  "+5% XP earned": { "en": "+5% XP earned", "cn": "+5% 获得经验值" },
+  "+(8–10)% Strength": { "en": "+(8–10)% Strength", "cn": "+(8–10)% 力量" },
+  "+(8–10)% Dexterity": { "en": "+(8–10)% Dexterity", "cn": "+(8–10)% 敏捷" },
   "+(8–10)% Intelligence": {
     "en": "+(8–10)% Intelligence",
     "cn": "+(8–10)% 智慧"
@@ -6943,10 +6358,7 @@
     "en": "+(13–17)% Armor DMG Mitigation Penetration",
     "cn": "+(13–17)% 护甲减伤穿透"
   },
-  "+(35–50)% Duration": {
-    "en": "+(35–50)% Duration",
-    "cn": "+(35–50)% 时间"
-  },
+  "+(35–50)% Duration": { "en": "+(35–50)% Duration", "cn": "+(35–50)% 时间" },
   "+(37–50)% Recovery Speed": {
     "en": "+(37–50)% Recovery Speed",
     "cn": "+(37–50)% 回复速度"
@@ -6963,10 +6375,7 @@
     "en": "+(9–12)% Resistance+(9–12)% Erosion Resistance",
     "cn": "+(9–12)% 抗性+(9–12)% 腐蚀抗性"
   },
-  "+(36–50)% effect": {
-    "en": "+(36–50)% effect",
-    "cn": "+(36–50)% 效果"
-  },
+  "+(36–50)% effect": { "en": "+(36–50)% effect", "cn": "+(36–50)% 效果" },
   "+(19–26)% chance to deal Double Damage": {
     "en": "+(19–26)% chance to deal Double Damage",
     "cn": "+(19–26)% 几率造成双倍伤害"
@@ -7023,30 +6432,18 @@
     "en": "enemies have a (10–15)% chance to explode when defeated, dealing True Damage equal to (80–100)% of their Max Life to enemies within a 6 m radius",
     "cn": "击败被的敌人时 (10–15)% 几率爆炸，对半径 6 米内的敌人造成被击败的敌人最大生命 (80–100)% 的真实伤害"
   },
-  "+(11–12) to": {
-    "en": "+(11–12) to",
-    "cn": "+(11–12)"
-  },
-  "+8% Max Life": {
-    "en": "+8% Max Life",
-    "cn": "+8% 最大生命"
-  },
+  "+(11–12) to": { "en": "+(11–12) to", "cn": "+(11–12)" },
+  "+8% Max Life": { "en": "+8% Max Life", "cn": "+8% 最大生命" },
   "+9% Max Energy Shield": {
     "en": "+9% Max Energy Shield",
     "cn": "+9% 最大护盾"
   },
-  "+120% Fire Damage": {
-    "en": "+120% Fire Damage",
-    "cn": "+120% 火焰伤害"
-  },
+  "+120% Fire Damage": { "en": "+120% Fire Damage", "cn": "+120% 火焰伤害" },
   "+(10–15)% chance to targets": {
     "en": "+(10–15)% chance to targets",
     "cn": "+(10–15)% 几率"
   },
-  "Cannot inflict Reap": {
-    "en": "Cannot inflict Reap",
-    "cn": "无法造成收割"
-  },
+  "Cannot inflict Reap": { "en": "Cannot inflict Reap", "cn": "无法造成收割" },
   "+(10–15)% Max Life and Max Energy Shield": {
     "en": "+(10–15)% Max Life and Max Energy Shield",
     "cn": "+(10–15)% 最大生命和最大护盾"
@@ -7071,10 +6468,7 @@
     "en": "+(7–11) Dexterity and Intelligence",
     "cn": "+(7–11) 点敏捷与智慧"
   },
-  "+(36–43)% Damage": {
-    "en": "+(36–43)% Damage",
-    "cn": "+(36–43)% 伤害"
-  },
+  "+(36–43)% Damage": { "en": "+(36–43)% Damage", "cn": "+(36–43)% 伤害" },
   "+3% Cold and Lightning Resistance": {
     "en": "+3% Cold and Lightning Resistance",
     "cn": "+3% 冰冷与闪电抗性"
@@ -7087,10 +6481,7 @@
     "en": "Adds a stack of for 2 s on hit",
     "cn": "击中敌人时，附加一层，持续 2 秒"
   },
-  "+(60–70) Max Life": {
-    "en": "+(60–70) Max Life",
-    "cn": "+(60–70) 最大生命"
-  },
+  "+(60–70) Max Life": { "en": "+(60–70) Max Life", "cn": "+(60–70) 最大生命" },
   "If only 1 Ring is equipped, +35% Injury Buffer": {
     "en": "If only 1 Ring is equipped, +35% Injury Buffer",
     "cn": "如果只装备了一个戒指，+35% 受伤缓冲"
@@ -7107,10 +6498,7 @@
     "en": "If only 1 Ring is equipped, -99% Life Regeneration Speed",
     "cn": "如果只装备了一个戒指，-99% 生命自然回复速度"
   },
-  "+(25–30) Max Mana": {
-    "en": "+(25–30) Max Mana",
-    "cn": "+(25–30) 最大魔力"
-  },
+  "+(25–30) Max Mana": { "en": "+(25–30) Max Mana", "cn": "+(25–30) 最大魔力" },
   "If only 1 Ring is equipped, the Main Skill is supported by a Lv. (1–7) Added Fire Damage": {
     "en": "If only 1 Ring is equipped, the Main Skill is supported by a Lv. (1–7) Added Fire Damage",
     "cn": "如果只装备了一个戒指，则核心技能被 (1–7) 级附加火焰伤害辅助"
@@ -7155,10 +6543,7 @@
     "en": "+(35–42)% Fire and Lightning Resistance",
     "cn": "+(35–42)% 火焰与闪电抗性"
   },
-  "Cannot inflict": {
-    "en": "Cannot inflict",
-    "cn": "无法造成"
-  },
+  "Cannot inflict": { "en": "Cannot inflict", "cn": "无法造成" },
   "+10 Defensive Skill Level": {
     "en": "+10 Defensive Skill Level",
     "cn": "+10 防护技能等级"
@@ -7171,10 +6556,7 @@
     "en": "+(35–42)% Cold and Erosion Resistance",
     "cn": "+(35–42)% 冰冷与腐蚀抗性"
   },
-  "+40%": {
-    "en": "+40%",
-    "cn": "+40%"
-  },
+  "+40%": { "en": "+40%", "cn": "+40%" },
   "+(10–12)% Resistance": {
     "en": "+(10–12)% Resistance",
     "cn": "+(10–12)% 抗性"
@@ -7219,10 +6601,7 @@
     "en": "+(5–6)% Fire and Cold Resistance",
     "cn": "+(5–6)% 火焰与冰冷抗性"
   },
-  "+66 Max Life": {
-    "en": "+66 Max Life",
-    "cn": "+66 最大生命"
-  },
+  "+66 Max Life": { "en": "+66 Max Life", "cn": "+66 最大生命" },
   "+(7–10)% Attack and Cast Speed": {
     "en": "+(7–10)% Attack and Cast Speed",
     "cn": "+(7–10)% 攻击和施法速度"
@@ -7243,18 +6622,12 @@
     "en": "Enemies taking Damage Over Time from Terra are immune to",
     "cn": "受到地面持续伤害的敌人免疫"
   },
-  "+20 Max Life": {
-    "en": "+20 Max Life",
-    "cn": "+20 最大生命"
-  },
+  "+20 Max Life": { "en": "+20 Max Life", "cn": "+20 最大生命" },
   "+10% Max Life and Max Energy Shield": {
     "en": "+10% Max Life and Max Energy Shield",
     "cn": "+10% 最大生命和最大护盾"
   },
-  "+10% Effect": {
-    "en": "+10% Effect",
-    "cn": "+10% 效果"
-  },
+  "+10% Effect": { "en": "+10% Effect", "cn": "+10% 效果" },
   "Grants 1s after losing when equipped in the left Ring slot": {
     "en": "Grants 1s after losing when equipped in the left Ring slot",
     "cn": "装备在左侧戒指槽位时，失去 1 秒后获得"
@@ -7327,18 +6700,12 @@
     "en": "+1 to Beam Skill Level",
     "cn": "+1 射线技能等级"
   },
-  "+1 Beams": {
-    "en": "+1 Beams",
-    "cn": "+1 射线条数"
-  },
+  "+1 Beams": { "en": "+1 Beams", "cn": "+1 射线条数" },
   "+(6–8)% Minion Movement Speed, Attack Speed, and Cast Speed": {
     "en": "+(6–8)% Minion Movement Speed, Attack Speed, and Cast Speed",
     "cn": "+(6–8)% 召唤物移动速度，攻击速度和施法速度"
   },
-  "+ 3 per second": {
-    "en": "+ 3 per second",
-    "cn": "每秒增加 3 点"
-  },
+  "+ 3 per second": { "en": "+ 3 per second", "cn": "每秒增加 3 点" },
   "+32 initial for Spirit Magi": {
     "en": "+32 initial for Spirit Magi",
     "cn": "魔灵 +32 初始"
@@ -7459,10 +6826,7 @@
     "en": "+(3–4)% Compensation",
     "cn": "+(3–4)% 补偿"
   },
-  "+(5–6)% Resistance": {
-    "en": "+(5–6)% Resistance",
-    "cn": "+(5–6)% 抗性"
-  },
+  "+(5–6)% Resistance": { "en": "+(5–6)% Resistance", "cn": "+(5–6)% 抗性" },
   "+1 to Max Summonable Synthetic Troops": {
     "en": "+1 to Max Summonable Synthetic Troops",
     "cn": "+1 智械召唤物数量上限"
@@ -7475,10 +6839,7 @@
     "en": "Converts 50% of Minion Physical Damage to Erosion Damage",
     "cn": "召唤物 50% 物理伤害转化为腐蚀伤害"
   },
-  "+(40–60) Max Mana": {
-    "en": "+(40–60) Max Mana",
-    "cn": "+(40–60) 最大魔力"
-  },
+  "+(40–60) Max Mana": { "en": "+(40–60) Max Mana", "cn": "+(40–60) 最大魔力" },
   "+(20–25)% Cooldown Recovery Speed": {
     "en": "+(20–25)% Cooldown Recovery Speed",
     "cn": "+(20–25)% 冷却回复速度"
@@ -7559,10 +6920,7 @@
     "en": "+(271–385)% Critical Strike Rating against enemies-30% additional Hit Damage",
     "cn": "对状态下的敌人， +(271–385)% 暴击值额外 -30% 击中伤害"
   },
-  "+1 limit": {
-    "en": "+1 limit",
-    "cn": "+1 上限"
-  },
+  "+1 limit": { "en": "+1 limit", "cn": "+1 上限" },
   "Reaps 0.12 s of Damage Over Time when inflicting . The effect has a 1 s Recovery Time against the same target": {
     "en": "Reaps 0.12 s of Damage Over Time when inflicting . The effect has a 1 s Recovery Time against the same target",
     "cn": "造成时，收割 0.12 秒持续伤害，该效果对同一目标有 1 秒回复时间"
@@ -7639,10 +6997,7 @@
     "en": "+(10–12)% Max Life and Max Mana",
     "cn": "+(10–12)% 最大生命和最大魔力"
   },
-  "+(16–20) to": {
-    "en": "+(16–20) to",
-    "cn": "+(16–20)"
-  },
+  "+(16–20) to": { "en": "+(16–20) to", "cn": "+(16–20)" },
   "+(10–16)% Erosion Resistance": {
     "en": "+(10–16)% Erosion Resistance",
     "cn": "+(10–16)% 腐蚀抗性"
@@ -7675,10 +7030,7 @@
     "en": "Regenerates (5–7) Mana per second",
     "cn": "每秒自然回复 (5–7) 魔力"
   },
-  "+(6–8)%": {
-    "en": "+(6–8)%",
-    "cn": "+(6–8)%"
-  },
+  "+(6–8)%": { "en": "+(6–8)%", "cn": "+(6–8)%" },
   "+(20–30)% Ailment Damage Enhancement": {
     "en": "+(20–30)% Ailment Damage Enhancement",
     "cn": "+(20–30)% 异常伤害加深"
@@ -7759,10 +7111,7 @@
     "en": "You have a Lv. (25–30) when at",
     "cn": "时，你拥有 (25–30) 级"
   },
-  "+(5–10) Strength": {
-    "en": "+(5–10) Strength",
-    "cn": "+(5–10) 力量"
-  },
+  "+(5–10) Strength": { "en": "+(5–10) Strength", "cn": "+(5–10) 力量" },
   "+(10–15)% Max Life": {
     "en": "+(10–15)% Max Life",
     "cn": "+(10–15)% 最大生命"
@@ -7823,10 +7172,7 @@
     "en": "Regenerates 1% Life per second",
     "cn": "每秒自然回复 1% 生命"
   },
-  "+30% Minion Damage": {
-    "en": "+30% Minion Damage",
-    "cn": "+30% 召唤物伤害"
-  },
+  "+30% Minion Damage": { "en": "+30% Minion Damage", "cn": "+30% 召唤物伤害" },
   "Gains 8 every second for 3 s when Minions land a Critical Strike": {
     "en": "Gains 8 every second for 3 s when Minions land a Critical Strike",
     "cn": "召唤物暴击时，每秒获得 8 点，持续 3 秒"
@@ -7859,10 +7205,7 @@
     "en": "(-20–20)% additional Beam Length",
     "cn": "额外 (-20–20)% 射线长度"
   },
-  "+(20–25) to": {
-    "en": "+(20–25) to",
-    "cn": "+(20–25)"
-  },
+  "+(20–25) to": { "en": "+(20–25) to", "cn": "+(20–25)" },
   "Gains 1 stacks of when taking Erosion Damage": {
     "en": "Gains 1 stacks of when taking Erosion Damage",
     "cn": "受到腐蚀伤害时，获得 1 层"
@@ -7875,14 +7218,8 @@
     "en": "Restores 20% of Max Life and Mana per 4 s when is active",
     "cn": "拥有时，每 4 秒回复 20% 最大生命和魔力"
   },
-  "+(5–15)%": {
-    "en": "+(5–15)%",
-    "cn": "+(5–15)%"
-  },
-  "(-20–20)% Effect": {
-    "en": "(-20–20)% Effect",
-    "cn": "(-20–20)% 效果"
-  },
+  "+(5–15)%": { "en": "+(5–15)%", "cn": "+(5–15)%" },
+  "(-20–20)% Effect": { "en": "(-20–20)% Effect", "cn": "(-20–20)% 效果" },
   "gains an additional effect: +0.3% Movement Speed for every point of Blur Rating": {
     "en": "gains an additional effect: +0.3% Movement Speed for every point of Blur Rating",
     "cn": "获得额外效果：每点迷踪值，+0.3% 移动速度"
@@ -7955,14 +7292,8 @@
     "en": "+50% chance to gain 1 stacks of upon defeating an",
     "cn": "击败时，+50% 几率获得 1 层"
   },
-  "+10 Intelligence": {
-    "en": "+10 Intelligence",
-    "cn": "+10 智慧"
-  },
-  "+(10–15)%": {
-    "en": "+(10–15)%",
-    "cn": "+(10–15)%"
-  },
+  "+10 Intelligence": { "en": "+10 Intelligence", "cn": "+10 智慧" },
+  "+(10–15)%": { "en": "+(10–15)%", "cn": "+(10–15)%" },
   "Every 5 time(s) a Fire Skill is cast, gains for 1 s": {
     "en": "Every 5 time(s) a Fire Skill is cast, gains for 1 s",
     "cn": "每释放 5 次火焰技能，获得，持续 1 秒"
@@ -8015,10 +7346,7 @@
     "en": "(-20–-10)% Intelligence",
     "cn": "(-20–-10)% 智慧"
   },
-  "-10 Skill Cost": {
-    "en": "-10 Skill Cost",
-    "cn": "-10 技能消耗"
-  },
+  "-10 Skill Cost": { "en": "-10 Skill Cost", "cn": "-10 技能消耗" },
   "Regenerates (4–6)% of Life per second when is charging": {
     "en": "Regenerates (4–6)% of Life per second when is charging",
     "cn": "充能时，每秒自然回复 (4–6)% 生命"
@@ -8027,58 +7355,22 @@
     "en": "Gains (1–2) stack(s) of a random Blessing when activating",
     "cn": "激活时，获得 (1–2) 层随机祝福"
   },
-  "+90 Strength": {
-    "en": "+90 Strength",
-    "cn": "+90 力量"
-  },
-  "+90 Dexterity": {
-    "en": "+90 Dexterity",
-    "cn": "+90 敏捷"
-  },
-  "+90 Intelligence": {
-    "en": "+90 Intelligence",
-    "cn": "+90 智慧"
-  },
-  "+330 Max Life": {
-    "en": "+330 Max Life",
-    "cn": "+330 最大生命"
-  },
-  "+180 Max Mana": {
-    "en": "+180 Max Mana",
-    "cn": "+180 最大魔力"
-  },
-  "+4320 Armor": {
-    "en": "+4320 Armor",
-    "cn": "+4320 护甲值"
-  },
-  "+4320 Evasion": {
-    "en": "+4320 Evasion",
-    "cn": "+4320 闪避值"
-  },
+  "+90 Strength": { "en": "+90 Strength", "cn": "+90 力量" },
+  "+90 Dexterity": { "en": "+90 Dexterity", "cn": "+90 敏捷" },
+  "+90 Intelligence": { "en": "+90 Intelligence", "cn": "+90 智慧" },
+  "+330 Max Life": { "en": "+330 Max Life", "cn": "+330 最大生命" },
+  "+180 Max Mana": { "en": "+180 Max Mana", "cn": "+180 最大魔力" },
+  "+4320 Armor": { "en": "+4320 Armor", "cn": "+4320 护甲值" },
+  "+4320 Evasion": { "en": "+4320 Evasion", "cn": "+4320 闪避值" },
   "+525 Max Energy Shield": {
     "en": "+525 Max Energy Shield",
     "cn": "+525 最大护盾"
   },
-  "+36% Attack Speed": {
-    "en": "+36% Attack Speed",
-    "cn": "+36% 攻击速度"
-  },
-  "+36% Cast Speed": {
-    "en": "+36% Cast Speed",
-    "cn": "+36% 施法速度"
-  },
-  "+30% Movement Speed": {
-    "en": "+30% Movement Speed",
-    "cn": "+30% 移动速度"
-  },
-  "+90% damage": {
-    "en": "+90% damage",
-    "cn": "+90% 伤害"
-  },
-  "+90% Minion Damage": {
-    "en": "+90% Minion Damage",
-    "cn": "+90% 召唤物伤害"
-  },
+  "+36% Attack Speed": { "en": "+36% Attack Speed", "cn": "+36% 攻击速度" },
+  "+36% Cast Speed": { "en": "+36% Cast Speed", "cn": "+36% 施法速度" },
+  "+30% Movement Speed": { "en": "+30% Movement Speed", "cn": "+30% 移动速度" },
+  "+90% damage": { "en": "+90% damage", "cn": "+90% 伤害" },
+  "+90% Minion Damage": { "en": "+90% Minion Damage", "cn": "+90% 召唤物伤害" },
   "+36% Minion Attack Speed": {
     "en": "+36% Minion Attack Speed",
     "cn": "+36% 召唤物攻击速度"
@@ -8095,14 +7387,8 @@
     "en": "+(18–22)% Movement Speed",
     "cn": "+(18–22)% 移动速度"
   },
-  "+(2–4)%": {
-    "en": "+(2–4)%",
-    "cn": "+(2–4)% 火焰"
-  },
-  "+32% Skill Area": {
-    "en": "+32% Skill Area",
-    "cn": "+32% 技能范围"
-  },
+  "+(2–4)%": { "en": "+(2–4)%", "cn": "+(2–4)% 火焰" },
+  "+32% Skill Area": { "en": "+32% Skill Area", "cn": "+32% 技能范围" },
   "+(38–42)% Critical Strike Damage": {
     "en": "+(38–42)% Critical Strike Damage",
     "cn": "+(38–42)% 暴击伤害"
@@ -8111,22 +7397,13 @@
     "en": "+30% Projectile Speed",
     "cn": "+30% 投射物速度"
   },
-  "+16% Attack Speed": {
-    "en": "+16% Attack Speed",
-    "cn": "+16% 攻击速度"
-  },
-  "+(20–30)% Effect": {
-    "en": "+(20–30)% Effect",
-    "cn": "+(20–30)% 效果"
-  },
+  "+16% Attack Speed": { "en": "+16% Attack Speed", "cn": "+16% 攻击速度" },
+  "+(20–30)% Effect": { "en": "+(20–30)% Effect", "cn": "+(20–30)% 效果" },
   "+(24–32)% Recovery Speed": {
     "en": "+(24–32)% Recovery Speed",
     "cn": "+(24–32)% 回复速度"
   },
-  "+(44–52)% damage": {
-    "en": "+(44–52)% damage",
-    "cn": "+(44–52)% 伤害"
-  },
+  "+(44–52)% damage": { "en": "+(44–52)% damage", "cn": "+(44–52)% 伤害" },
   "+(10–14)% Max Life": {
     "en": "+(10–14)% Max Life",
     "cn": "+(10–14)% 最大生命"
@@ -8135,22 +7412,10 @@
     "en": "+(10–14)% Max Energy Shield",
     "cn": "+(10–14)% 最大护盾"
   },
-  "+(30–42)% Armor": {
-    "en": "+(30–42)% Armor",
-    "cn": "+(30–42)% 护甲值"
-  },
-  "+(30–42)% Evasion": {
-    "en": "+(30–42)% Evasion",
-    "cn": "+(30–42)% 闪避值"
-  },
-  "+(34–38)% Armor": {
-    "en": "+(34–38)% Armor",
-    "cn": "+(34–38)% 护甲值"
-  },
-  "+(34–38)% Evasion": {
-    "en": "+(34–38)% Evasion",
-    "cn": "+(34–38)% 闪避值"
-  },
+  "+(30–42)% Armor": { "en": "+(30–42)% Armor", "cn": "+(30–42)% 护甲值" },
+  "+(30–42)% Evasion": { "en": "+(30–42)% Evasion", "cn": "+(30–42)% 闪避值" },
+  "+(34–38)% Armor": { "en": "+(34–38)% Armor", "cn": "+(34–38)% 护甲值" },
+  "+(34–38)% Evasion": { "en": "+(34–38)% Evasion", "cn": "+(34–38)% 闪避值" },
   "+(28–31)% Minion Critical Strike Damage": {
     "en": "+(28–31)% Minion Critical Strike Damage",
     "cn": "+(28–31)% 召唤物暴击伤害"
@@ -8195,10 +7460,7 @@
     "en": "+52% Projectile Speed",
     "cn": "+52% 投射物速度"
   },
-  "+(26–40)% Effect": {
-    "en": "+(26–40)% Effect",
-    "cn": "+(26–40)% 效果"
-  },
+  "+(26–40)% Effect": { "en": "+(26–40)% Effect", "cn": "+(26–40)% 效果" },
   "+(26–40)% Recovery Speed": {
     "en": "+(26–40)% Recovery Speed",
     "cn": "+(26–40)% 回复速度"
@@ -8211,14 +7473,8 @@
     "en": "+(14–20)% Max Energy Shield",
     "cn": "+(14–20)% 最大护盾"
   },
-  "+(40–46)% Armor": {
-    "en": "+(40–46)% Armor",
-    "cn": "+(40–46)% 护甲值"
-  },
-  "+(40–46)% Evasion": {
-    "en": "+(40–46)% Evasion",
-    "cn": "+(40–46)% 闪避值"
-  },
+  "+(40–46)% Armor": { "en": "+(40–46)% Armor", "cn": "+(40–46)% 护甲值" },
+  "+(40–46)% Evasion": { "en": "+(40–46)% Evasion", "cn": "+(40–46)% 闪避值" },
   "+(46–58)% attack Critical Strike Damage": {
     "en": "+(46–58)% attack Critical Strike Damage",
     "cn": "+(46–58)% 攻击暴击伤害"
@@ -8311,10 +7567,7 @@
     "en": "+(21–31)% Spell Block Chance",
     "cn": "+(21–31)% 法术格挡率"
   },
-  "+(18–23)% effect": {
-    "en": "+(18–23)% effect",
-    "cn": "+(18–23)% 效果"
-  },
+  "+(18–23)% effect": { "en": "+(18–23)% effect", "cn": "+(18–23)% 效果" },
   "+(22–27)% Max Mana": {
     "en": "+(22–27)% Max Mana",
     "cn": "+(22–27)% 最大魔力"
@@ -8399,10 +7652,7 @@
     "en": "[Shrink Back] Gains every 1s+50% Shield-12% Elemental Resistance",
     "cn": "[龟缩] 每隔 1 秒，获得+50% 吸收量-12% 元素抗性"
   },
-  "+10% Aura Effect": {
-    "en": "+10% Aura Effect",
-    "cn": "+10% 光环效果"
-  },
+  "+10% Aura Effect": { "en": "+10% Aura Effect", "cn": "+10% 光环效果" },
   "+10% Compensation for Aura Skills": {
     "en": "+10% Compensation for Aura Skills",
     "cn": "+10% 光环技能补偿"
@@ -8431,10 +7681,7 @@
     "en": "The triggered skill +10% Effect Duration",
     "cn": "+10% 被触发技能的效果持续时间"
   },
-  "+40% Focus Speed": {
-    "en": "+40% Focus Speed",
-    "cn": "+40% 贯注速度"
-  },
+  "+40% Focus Speed": { "en": "+40% Focus Speed", "cn": "+40% 贯注速度" },
   "+12% Compensation for Focus Skills": {
     "en": "+12% Compensation for Focus Skills",
     "cn": "+12% 贯注技能补偿"
@@ -8511,10 +7758,7 @@
     "en": "+60% Slash Strike Skill Damage",
     "cn": "+60% 挥斩技能伤害"
   },
-  "+15% chance.": {
-    "en": "+15% chance.",
-    "cn": "+15% 几率"
-  },
+  "+15% chance.": { "en": "+15% chance.", "cn": "+15% 几率" },
   "+60% Horizontal Projectile Damage": {
     "en": "+60% Horizontal Projectile Damage",
     "cn": "+60% 直射投射物伤害"
@@ -8555,10 +7799,7 @@
     "en": "Max Stacks +1-2% additional damage",
     "cn": "+1 层数上限额外 -2% 伤害"
   },
-  "+33% Recovery Speed": {
-    "en": "+33% Recovery Speed",
-    "cn": "+33% 回复速度"
-  },
+  "+33% Recovery Speed": { "en": "+33% Recovery Speed", "cn": "+33% 回复速度" },
   "+21% chance to launch one more wave when casting a Barrage Skill": {
     "en": "+21% chance to launch one more wave when casting a Barrage Skill",
     "cn": "释放轰炸技能时，有 +21% 概率该次轰炸技能总波次+1"
@@ -8631,14 +7872,8 @@
     "en": "+15% when there are no",
     "cn": "没有时，+15%"
   },
-  "+(23–26)% Damage": {
-    "en": "+(23–26)% Damage",
-    "cn": "+(23–26)% 伤害"
-  },
-  "+(23–26)% Chance": {
-    "en": "+(23–26)% Chance",
-    "cn": "+(23–26)% 几率"
-  },
+  "+(23–26)% Damage": { "en": "+(23–26)% Damage", "cn": "+(23–26)% 伤害" },
+  "+(23–26)% Chance": { "en": "+(23–26)% Chance", "cn": "+(23–26)% 几率" },
   "+(15–16)% additional Duration": {
     "en": "+(15–16)% additional Duration",
     "cn": "+(15–16)% 持续时间"

@@ -2,7 +2,12 @@ const fs = require("fs");
 
 console.log("=== 添加关键翻译 ===\n");
 
-const translations = JSON.parse(fs.readFileSync("src/data/translated-affixes/merged-all-translations.json", "utf8"));
+const translations = JSON.parse(
+  fs.readFileSync(
+    "src/data/translated-affixes/merged-all-translations.json",
+    "utf8",
+  ),
+);
 
 // 关键翻译
 const criticalTranslations = {
@@ -15,9 +20,12 @@ const criticalTranslations = {
   "Immune to Slow": "免疫减速",
   "Immune to Weaken": "免疫虚弱",
   "Immune to Numbed": "免疫麻痹",
-  "Gains a stack of Fortitude when using a Melee Skill (-8--6)% additional damage taken": "使用近战技能时，获得一层强硬额外 (-8--6)% 受到的伤害",
-  "Gains a stack of Fortitude when using a Melee Skill (-5--3)% additional damage taken": "使用近战技能时，获得一层强硬额外 (-5--3)% 受到的伤害",
-  "Gains a stack of Fortitude when using a Melee Skill (-2--1)% additional damage taken": "使用近战技能时，获得一层强硬额外 (-2--1)% 受到的伤害",
+  "Gains a stack of Fortitude when using a Melee Skill (-8--6)% additional damage taken":
+    "使用近战技能时，获得一层强硬额外 (-8--6)% 受到的伤害",
+  "Gains a stack of Fortitude when using a Melee Skill (-5--3)% additional damage taken":
+    "使用近战技能时，获得一层强硬额外 (-5--3)% 受到的伤害",
+  "Gains a stack of Fortitude when using a Melee Skill (-2--1)% additional damage taken":
+    "使用近战技能时，获得一层强硬额外 (-2--1)% 受到的伤害",
   "+2 to Max Channeled Stacks": "+2 引导层数上限",
   "Min Channeled Stacks +2": "+2 引导层数下限",
   "+1 to Max Channeled Stacks": "+1 引导层数上限",
@@ -33,15 +41,17 @@ const criticalTranslations = {
   "+(4-6)% Max Energy Shield": "+(4-6)% 最大护盾",
   "+(5-10)% Skill Area": "+(5-10)% 技能范围",
   "+(3-5)% Max Elemental Resistance": "+(3-5)% 最大元素抗性",
-  "Restoration Skills: +(30-40)% Restoration Effect": "回复技能： +(30-40)% 回复效果",
-  "Restoration Skills: (-20--15)% Restoration Duration": "回复技能： (-20--15)% 回复持续时间",
+  "Restoration Skills: +(30-40)% Restoration Effect":
+    "回复技能： +(30-40)% 回复效果",
+  "Restoration Skills: (-20--15)% Restoration Duration":
+    "回复技能： (-20--15)% 回复持续时间",
 };
 
 let added = 0;
-Object.entries(criticalTranslations).forEach(function(entry) {
+Object.entries(criticalTranslations).forEach((entry) => {
   const en = entry[0];
   const cn = entry[1];
-  
+
   if (!translations[en]) {
     translations[en] = cn;
     added++;
@@ -51,9 +61,16 @@ Object.entries(criticalTranslations).forEach(function(entry) {
 console.log("添加了 " + added + " 个关键翻译");
 
 // 保存
-const sorted = Object.entries(translations).sort((a, b) => b[0].length - a[0].length);
+const sorted = Object.entries(translations).sort(
+  (a, b) => b[0].length - a[0].length,
+);
 const result = {};
-sorted.forEach(e => { result[e[0]] = e[1]; });
-fs.writeFileSync("src/data/translated-affixes/merged-all-translations.json", JSON.stringify(result, null, 2));
+sorted.forEach((e) => {
+  result[e[0]] = e[1];
+});
+fs.writeFileSync(
+  "src/data/translated-affixes/merged-all-translations.json",
+  JSON.stringify(result, null, 2),
+);
 
 console.log("总计: " + Object.keys(result).length + " 条翻译");

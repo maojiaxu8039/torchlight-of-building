@@ -1,18 +1,21 @@
-import * as fs from 'fs';
-import * as path from 'path';
-import { fileURLToPath } from 'url';
+import * as fs from "fs";
+import * as path from "path";
+import { fileURLToPath } from "url";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const outputDir = path.join(__dirname, '../src/data/translated-affixes');
+const outputDir = path.join(__dirname, "../src/data/translated-affixes");
 
 const existingCoreData = JSON.parse(
-  fs.readFileSync(path.join(outputDir, 'unique-translations.json'), 'utf-8')
+  fs.readFileSync(path.join(outputDir, "unique-translations.json"), "utf-8"),
 );
 
 const craftData = JSON.parse(
-  fs.readFileSync(path.join(outputDir, 'craft-unique-affix-translations.json'), 'utf-8')
+  fs.readFileSync(
+    path.join(outputDir, "craft-unique-affix-translations.json"),
+    "utf-8",
+  ),
 );
 
 const merged: Record<string, string> = {};
@@ -29,13 +32,13 @@ Object.entries(craftData).forEach(([en, data]) => {
 
 function escapeString(str: string): string {
   return str
-    .replace(/\\/g, '\\\\')
+    .replace(/\\/g, "\\\\")
     .replace(/'/g, "\\'")
     .replace(/"/g, '\\"')
-    .replace(/`/g, '\\`')
-    .replace(/\$/g, '\\$')
-    .replace(/\{/g, '\\{')
-    .replace(/\}/g, '\\}');
+    .replace(/`/g, "\\`")
+    .replace(/\$/g, "\\$")
+    .replace(/\{/g, "\\{")
+    .replace(/\}/g, "\\}");
 }
 
 const sortedKeys = Object.keys(merged).sort((a, b) => {
@@ -46,16 +49,16 @@ const sortedKeys = Object.keys(merged).sort((a, b) => {
 });
 
 const sortedTranslations: Record<string, string> = {};
-sortedKeys.forEach(key => {
+sortedKeys.forEach((key) => {
   sortedTranslations[key] = merged[key];
 });
 
 const lines: string[] = [];
-lines.push('// Auto-generated file - Do not edit manually');
-lines.push('// Generated from tlidb.com EN/CN translations');
-lines.push('// Complete affix translations (Core + Craft)');
-lines.push('');
-lines.push('export const AFFIX_NAME_TRANSLATIONS: Record<string, string> = {');
+lines.push("// Auto-generated file - Do not edit manually");
+lines.push("// Generated from tlidb.com EN/CN translations");
+lines.push("// Complete affix translations (Core + Craft)");
+lines.push("");
+lines.push("export const AFFIX_NAME_TRANSLATIONS: Record<string, string> = {");
 
 Object.entries(sortedTranslations).forEach(([en, cn]) => {
   const escapedEn = escapeString(en);
@@ -63,25 +66,29 @@ Object.entries(sortedTranslations).forEach(([en, cn]) => {
   lines.push(`  '${escapedEn}': '${escapedCn}',`);
 });
 
-lines.push('};');
-lines.push('');
-lines.push('export const getAffixNameTranslation = (enName: string): string => {');
+lines.push("};");
+lines.push("");
+lines.push(
+  "export const getAffixNameTranslation = (enName: string): string => {",
+);
 lines.push("  const lower = enName.toLowerCase();");
-lines.push('  return AFFIX_NAME_TRANSLATIONS[lower] ?? enName;');
-lines.push('};');
-lines.push('');
-lines.push('export const COMMON_STAT_NAMES = [');
+lines.push("  return AFFIX_NAME_TRANSLATIONS[lower] ?? enName;");
+lines.push("};");
+lines.push("");
+lines.push("export const COMMON_STAT_NAMES = [");
 
-Object.keys(sortedTranslations).slice(0, 30).forEach(en => {
-  const escapedEn = escapeString(en);
-  lines.push(`  '${escapedEn}',`);
-});
+Object.keys(sortedTranslations)
+  .slice(0, 30)
+  .forEach((en) => {
+    const escapedEn = escapeString(en);
+    lines.push(`  '${escapedEn}',`);
+  });
 
-lines.push('];');
+lines.push("];");
 
-const outputFile = path.join(outputDir, 'complete-affix-translations.ts');
-fs.writeFileSync(outputFile, lines.join('\n'), 'utf-8');
+const outputFile = path.join(outputDir, "complete-affix-translations.ts");
+fs.writeFileSync(outputFile, lines.join("\n"), "utf-8");
 
-console.log('=== Fixed Complete Translations ===');
+console.log("=== Fixed Complete Translations ===");
 console.log(`Total translations: ${Object.keys(sortedTranslations).length}`);
 console.log(`Generated: ${outputFile}`);

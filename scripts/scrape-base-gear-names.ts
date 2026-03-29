@@ -1,38 +1,38 @@
-import * as cheerio from 'cheerio';
-import * as fs from 'fs';
-import * as path from 'path';
-import { fileURLToPath } from 'url';
+import * as cheerio from "cheerio";
+import * as fs from "fs";
+import * as path from "path";
+import { fileURLToPath } from "url";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const EQUIPMENT_TYPES = [
-  'Belt',
-  'Boots',
-  'Helmet',
-  'Gloves',
-  'Chest',
-  'Necklace',
-  'Ring',
-  'One-Handed_Sword',
-  'Two-Handed_Sword',
-  'One-Handed_Axe',
-  'Two-Handed_Axe',
-  'One-Handed_Hammer',
-  'Two-Handed_Hammer',
-  'Dagger',
-  'Wand',
-  'Staff',
-  'Bow',
-  'Crossbow',
-  'Pistol',
-  'Musket',
-  'Cane',
-  'Shield',
-  'Claw',
-  'Rod',
-  'Scepter',
-  'Fire_Cannon',
+  "Belt",
+  "Boots",
+  "Helmet",
+  "Gloves",
+  "Chest",
+  "Necklace",
+  "Ring",
+  "One-Handed_Sword",
+  "Two-Handed_Sword",
+  "One-Handed_Axe",
+  "Two-Handed_Axe",
+  "One-Handed_Hammer",
+  "Two-Handed_Hammer",
+  "Dagger",
+  "Wand",
+  "Staff",
+  "Bow",
+  "Crossbow",
+  "Pistol",
+  "Musket",
+  "Cane",
+  "Shield",
+  "Claw",
+  "Rod",
+  "Scepter",
+  "Fire_Cannon",
 ];
 
 interface BaseGearTranslation {
@@ -54,22 +54,22 @@ async function fetchPage(url: string): Promise<string> {
   return response.text();
 }
 
-function extractBaseGearNames(html: string, equipmentType: string): BaseGearTranslation[] {
+function extractBaseGearNames(
+  html: string,
+  equipmentType: string,
+): BaseGearTranslation[] {
   const $ = cheerio.load(html);
   const translations: BaseGearTranslation[] = [];
 
-  $('a[data-hover]').each((_, elem) => {
+  $("a[data-hover]").each((_, elem) => {
     const $elem = $(elem);
-    const href = $elem.attr('href');
+    const href = $elem.attr("href");
     const text = $elem.text().trim();
 
-    if (href && text && href !== '#') {
-      const enName = href.replace(/_/g, ' ');
+    if (href && text && href !== "#") {
+      const enName = href.replace(/_/g, " ");
       if (enName && text !== enName) {
-        translations.push({
-          enName,
-          cnName: text,
-        });
+        translations.push({ enName, cnName: text });
       }
     }
   });
@@ -78,13 +78,13 @@ function extractBaseGearNames(html: string, equipmentType: string): BaseGearTran
 }
 
 async function scrapeAllBaseGearNames(): Promise<void> {
-  const outputDir = path.join(__dirname, '../src/data/translated-affixes');
+  const outputDir = path.join(__dirname, "../src/data/translated-affixes");
 
   if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true });
   }
 
-  console.log('Starting to scrape base gear name translations...\n');
+  console.log("Starting to scrape base gear name translations...\n");
 
   const allTranslations: EquipmentBaseGearTranslations[] = [];
 
@@ -100,8 +100,11 @@ async function scrapeAllBaseGearNames(): Promise<void> {
         baseGears,
       };
 
-      const outputFile = path.join(outputDir, `base-gear-${equipmentType.toLowerCase()}.json`);
-      fs.writeFileSync(outputFile, JSON.stringify(result, null, 2), 'utf-8');
+      const outputFile = path.join(
+        outputDir,
+        `base-gear-${equipmentType.toLowerCase()}.json`,
+      );
+      fs.writeFileSync(outputFile, JSON.stringify(result, null, 2), "utf-8");
       console.log(`Saved: ${outputFile} (${baseGears.length} base gears)`);
 
       allTranslations.push(result);
@@ -110,26 +113,38 @@ async function scrapeAllBaseGearNames(): Promise<void> {
     }
   }
 
-  const combinedOutputFile = path.join(outputDir, 'all-base-gear-translations.json');
-  fs.writeFileSync(combinedOutputFile, JSON.stringify(allTranslations, null, 2), 'utf-8');
+  const combinedOutputFile = path.join(
+    outputDir,
+    "all-base-gear-translations.json",
+  );
+  fs.writeFileSync(
+    combinedOutputFile,
+    JSON.stringify(allTranslations, null, 2),
+    "utf-8",
+  );
   console.log(`\nSaved combined file: ${combinedOutputFile}`);
 
   const uniqueTranslations = new Map<string, string>();
-  allTranslations.forEach(equipment => {
-    equipment.baseGears.forEach(baseGear => {
+  allTranslations.forEach((equipment) => {
+    equipment.baseGears.forEach((baseGear) => {
       if (!uniqueTranslations.has(baseGear.enName)) {
         uniqueTranslations.set(baseGear.enName, baseGear.cnName);
       }
     });
   });
 
-  const uniqueOutputFile = path.join(outputDir, 'unique-base-gear-translations.json');
+  const uniqueOutputFile = path.join(
+    outputDir,
+    "unique-base-gear-translations.json",
+  );
   fs.writeFileSync(
     uniqueOutputFile,
     JSON.stringify(Object.fromEntries(uniqueTranslations), null, 2),
-    'utf-8'
+    "utf-8",
   );
-  console.log(`Saved unique translations: ${uniqueOutputFile} (${uniqueTranslations.size} unique)`);
+  console.log(
+    `Saved unique translations: ${uniqueOutputFile} (${uniqueTranslations.size} unique)`,
+  );
 
   const tsContent = `// Auto-generated file - Do not edit manually
 // Generated from tlidb.com CN translations
@@ -137,8 +152,11 @@ async function scrapeAllBaseGearNames(): Promise<void> {
 export const BASE_GEAR_NAME_TRANSLATIONS: Record<string, string> = {
 ${Array.from(uniqueTranslations.entries())
   .sort((a, b) => a[0].localeCompare(b[0]))
-  .map(([en, cn]) => `  '${en.replace(/'/g, "\\'")}': '${cn.replace(/'/g, "\\'")}',`)
-  .join('\n')}
+  .map(
+    ([en, cn]) =>
+      `  '${en.replace(/'/g, "\\'")}': '${cn.replace(/'/g, "\\'")}',`,
+  )
+  .join("\n")}
 };
 
 export const getBaseGearNameTranslation = (enName: string): string => {
@@ -146,16 +164,18 @@ export const getBaseGearNameTranslation = (enName: string): string => {
 };
 `;
 
-  const tsOutputFile = path.join(outputDir, 'base-gear-name-translations.ts');
-  fs.writeFileSync(tsOutputFile, tsContent, 'utf-8');
+  const tsOutputFile = path.join(outputDir, "base-gear-name-translations.ts");
+  fs.writeFileSync(tsOutputFile, tsContent, "utf-8");
   console.log(`Generated TypeScript file: ${tsOutputFile}`);
 
-  console.log('\n=== Summary ===');
+  console.log("\n=== Summary ===");
   console.log(`Total equipment types: ${allTranslations.length}`);
-  console.log(`Total base gears: ${allTranslations.reduce((sum, e) => sum + e.baseGears.length, 0)}`);
+  console.log(
+    `Total base gears: ${allTranslations.reduce((sum, e) => sum + e.baseGears.length, 0)}`,
+  );
   console.log(`Unique base gears: ${uniqueTranslations.size}`);
 
-  console.log('\n=== Sample Translations ===');
+  console.log("\n=== Sample Translations ===");
   let count = 0;
   uniqueTranslations.forEach((cn, en) => {
     if (count < 10) {

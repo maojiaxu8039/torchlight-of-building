@@ -2,13 +2,19 @@ const https = require("https");
 const fs = require("fs");
 
 function fetchUrl(url) {
-  return new Promise(function(resolve, reject) {
-    https.get(url, function(res) {
-      let data = "";
-      res.on("data", function(chunk) { data += chunk; });
-      res.on("end", function() { resolve(data); });
-      res.on("error", reject);
-    }).on("error", reject);
+  return new Promise((resolve, reject) => {
+    https
+      .get(url, (res) => {
+        let data = "";
+        res.on("data", (chunk) => {
+          data += chunk;
+        });
+        res.on("end", () => {
+          resolve(data);
+        });
+        res.on("error", reject);
+      })
+      .on("error", reject);
   });
 }
 
@@ -62,43 +68,54 @@ async function scrapePage(slug) {
       fetchUrl("https://tlidb.com/en/" + slug),
       fetchUrl("https://tlidb.com/cn/" + slug),
     ]);
-    
+
     if (enHtml.length < 1000 || cnHtml.length < 1000) {
       return {};
     }
-    
+
     const enById = {};
     const cnById = {};
-    
+
     // 提取整个 <td> 单元格内容
-    const pattern = /<td><span data-modifier-id="(\d+)"[^>]*>([\s\S]*?)<\/span><\/td>/gi;
+    const pattern =
+      /<td><span data-modifier-id="(\d+)"[^>]*>([\s\S]*?)<\/span><\/td>/gi;
     let match;
-    
+
     while ((match = pattern.exec(enHtml)) !== null) {
       const id = match[1];
-      let text = match[2].replace(/<[^>]+>/g, " ").replace(/&nbsp;/g, " ").replace(/&ndash;/g, "-").replace(/\s+/g, " ").trim();
+      const text = match[2]
+        .replace(/<[^>]+>/g, " ")
+        .replace(/&nbsp;/g, " ")
+        .replace(/&ndash;/g, "-")
+        .replace(/\s+/g, " ")
+        .trim();
       if (text && text.length > 2) {
         enById[id] = text;
       }
     }
-    
+
     while ((match = pattern.exec(cnHtml)) !== null) {
       const id = match[1];
-      let text = match[2].replace(/<[^>]+>/g, " ").replace(/&nbsp;/g, " ").replace(/&ndash;/g, "-").replace(/\s+/g, " ").trim();
+      const text = match[2]
+        .replace(/<[^>]+>/g, " ")
+        .replace(/&nbsp;/g, " ")
+        .replace(/&ndash;/g, "-")
+        .replace(/\s+/g, " ")
+        .trim();
       if (text && text.length > 2) {
         cnById[id] = text;
       }
     }
-    
+
     const translations = {};
-    Object.entries(enById).forEach(function(entry) {
+    Object.entries(enById).forEach((entry) => {
       const id = entry[0];
       const enText = entry[1];
       if (cnById[id] && enText !== cnById[id]) {
         translations[enText] = cnById[id];
       }
     });
-    
+
     return translations;
   } catch (e) {
     return {};
@@ -107,31 +124,45 @@ async function scrapePage(slug) {
 
 async function main() {
   console.log("=== 全面抓取所有装备词缀 (修复版) ===\n");
-  
+
   const allTranslations = {};
   let total = 0;
-  
+
   for (const item of equipmentList) {
     process.stdout.write(item.type + "... ");
     const translations = await scrapePage(item.slug);
     total += Object.keys(translations).length;
     Object.assign(allTranslations, translations);
     console.log(Object.keys(translations).length + " 条");
-    await new Promise(function(r) { setTimeout(r, 100); });
+    await new Promise((r) => {
+      setTimeout(r, 100);
+    });
   }
-  
+
   console.log("\n总计: " + total + " 条翻译");
-  
+
   // 读取现有翻译并合并
-  const existing = JSON.parse(fs.readFileSync("src/data/translated-affixes/merged-all-translations.json", "utf8"));
+  const existing = JSON.parse(
+    fs.readFileSync(
+      "src/data/translated-affixes/merged-all-translations.json",
+      "utf8",
+    ),
+  );
   const merged = Object.assign({}, existing, allTranslations);
-  
+
   // 重新排序
-  const sorted = Object.entries(merged).sort(function(a, b) { return b[0].length - a[0].length; });
+  const sorted = Object.entries(merged).sort(
+    (a, b) => b[0].length - a[0].length,
+  );
   const result = {};
-  sorted.forEach(function(entry) { result[entry[0]] = entry[1]; });
-  
-  fs.writeFileSync("src/data/translated-affixes/merged-all-translations.json", JSON.stringify(result, null, 2));
+  sorted.forEach((entry) => {
+    result[entry[0]] = entry[1];
+  });
+
+  fs.writeFileSync(
+    "src/data/translated-affixes/merged-all-translations.json",
+    JSON.stringify(result, null, 2),
+  );
   console.log("保存到 merged-all-translations.json");
 }
 

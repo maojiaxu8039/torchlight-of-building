@@ -1,187 +1,231 @@
-const https = require('https');
-const fs = require('fs');
-const path = require('path');
+const https = require("https");
+const http = require("http");
+const fs = require("fs");
+const path = require("path");
+
+const EQUIPMENT_TYPES = [
+  "DEX_Boots",
+  "INT_Boots",
+  "STR_Boots",
+  "DEX_Gloves",
+  "INT_Gloves",
+  "STR_Gloves",
+  "DEX_Helmet",
+  "INT_Helmet",
+  "STR_Helmet",
+  "DEX_Chest",
+  "INT_Chest",
+  "STR_Chest",
+  "DEX_Shield",
+  "INT_Shield",
+  "STR_Shield",
+  "DEX_Bow",
+  "DEX_Crossbow",
+  "DEX_Musket",
+  "DEX_Pistol",
+  "INT_Wand",
+  "INT_Rod",
+  "INT_Scepter",
+  "INT_TinStaff",
+  "STR_Dagger",
+  "STR_OneHandedAxe",
+  "STR_OneHandedHammer",
+  "STR_OneHandedSword",
+  "STR_TwoHandedAxe",
+  "STR_TwoHandedHammer",
+  "STR_TwoHandedSword",
+  "STR_Cudgel",
+  "STR_Claw",
+  "INT_Cane",
+  "FireCannon",
+  "Necklace",
+  "Ring",
+  "SpiritRing",
+  "Belt",
+];
 
 function fetchUrl(url) {
   return new Promise((resolve, reject) => {
-    https.get(url, (res) => {
-      let data = '';
-      res.on('data', chunk => data += chunk);
-      res.on('end', () => resolve(data));
-      res.on('error', reject);
-    }).on('error', reject);
+    const client = url.startsWith("https") ? https : http;
+    const request = client.get(url, (res) => {
+      let data = "";
+      res.on("data", (chunk) => (data += chunk));
+      res.on("end", () => resolve(data));
+    });
+    request.on("error", reject);
+    request.setTimeout(10000, () => {
+      request.destroy();
+      reject(new Error(`Timeout: ${url}`));
+    });
   });
 }
 
-// 中英文对照表（根据用户提供）
-const EN_TO_CN = {
-  // 头部
-  'STR_Helmet': '力量头部',
-  'DEX_Helmet': '敏捷头部',
-  'INT_Helmet': '智慧头部',
-  
-  // 胸甲
-  'STR_Breastplate': '力量胸甲',
-  'DEX_Breastplate': '敏捷胸甲',
-  'INT_Breastplate': '智慧胸甲',
-  
-  // 手套
-  'STR_Gloves': '力量手套',
-  'DEX_Gloves': '敏捷手套',
-  'INT_Gloves': '智慧手套',
-  
-  // 鞋子
-  'STR_Boots': '力量鞋子',
-  'DEX_Boots': '敏捷鞋子',
-  'INT_Boots': '智慧鞋子',
-  
-  // 单手武器
-  'Claw': '爪',
-  'Dagger': '匕首',
-  'One_Handed_Sword': '单手剑',
-  'One_Handed_Hammer': '单手锤',
-  'One_Handed_Axe': '单手斧',
-  'Staff': '法杖',
-  'Rod': '灵杖',
-  'Wand': '魔杖',
-  'Cane': '手杖',
-  'Pistol': '手枪',
-  
-  // 双手武器
-  'Two_Handed_Sword': '双手剑',
-  'Two_Handed_Hammer': '双手锤',
-  'Two_Handed_Axe': '双手斧',
-  'Tin_Staff': '锡杖',
-  'War_Staff': '武杖',
-  'Bow': '弓',
-  'Crossbow': '弩',
-  'Musket': '火枪',
-  'Cannon': '火炮',
-  
-  // 盾牌
-  'STR_Shield': '力量盾牌',
-  'DEX_Shield': '敏捷盾牌',
-  'INT_Shield': '智慧盾牌',
-  
-  // 饰品
-  'Necklace': '项链',
-  'Ring': '戒指',
-  'Belt': '腰带',
-  'Spirit_Ring': '灵戒',
-  
-  // 英雄
-  'Memory': '英雄追忆',
-  'Divinity_Slate': '神格石板',
-  'Destiny': '命运',
-  'Prism': '异度棱镜',
-  
-  // 渴瘾症
-  'Vorax_Limb:_Head': '渴瘾肢体：脑部',
-  'Vorax_Limb:_Chest': '渴瘾肢体：胸部',
-  'Vorax_Limb:_Hands': '渴瘾肢体：手部',
-  'Vorax_Limb:_Legs': '渴瘾肢体：腿部',
-  'Vorax_Aberrant_Limb:_Legs': '渴瘾异肢：腿部',
-  'Vorax_Limb:_Neck': '渴瘾肢体：颈部',
-  'Vorax_Limb:_Digits': '渴瘾肢体：指部',
-  'Vorax_Aberrant_Limb:_Digits': '渴瘾异肢：指部',
-  'Vorax_Limb:_Waist': '渴瘾肢体：腰部',
-  'Vorax_Aberrant_Limb:_Waist': '渴瘾异肢：腰部',
-};
-
-async function scrapePage(enSlug, cnSlug) {
+async function scrapePage(url) {
   try {
-    const [enHtml, cnHtml] = await Promise.all([
-      fetchUrl(`https://tlidb.com/en/${enSlug}`),
-      fetchUrl(`https://tlidb.com/cn/${cnSlug}`),
-    ]);
-    
-    const enById = {};
-    const cnById = {};
-    
-    // Pattern: data-modifier-id="ID">...text...</span>
-    const pattern = /data-modifier-id="(\d+)"[^>]*>([\s\S]*?)<\/span>/gi;
+    const html = await fetchUrl(url);
+    const modifierMap = {};
+    const regex =
+      /data-modifier-id="(\d+)"[^>]*>.*?<span class="text-mod">([^<]*)<\/span>\s*([^(</]+)/g;
     let match;
-    
-    while ((match = pattern.exec(enHtml)) !== null) {
+    while ((match = regex.exec(html)) !== null) {
       const id = match[1];
-      let text = match[2].replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/&ndash;/g, '–').replace(/\s+/g, ' ').trim();
-      if (text && text.length > 2) {
-        enById[id] = text;
-      }
+      const value = match[2].replace(/&ndash;/g, "-").replace(/&amp;/g, "&");
+      const text = match[3].replace(/<[^>]+>/g, "").trim();
+      modifierMap[id] = value + text;
     }
-    
-    while ((match = pattern.exec(cnHtml)) !== null) {
-      const id = match[1];
-      let text = match[2].replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/&ndash;/g, '–').replace(/\s+/g, ' ').trim();
-      if (text && text.length > 2) {
-        cnById[id] = text;
-      }
-    }
-    
-    // Match
-    const translations = {};
-    Object.entries(enById).forEach(([id, enText]) => {
-      if (cnById[id] && enText !== cnById[id]) {
-        const enLen = enText.replace(/[\d\.\-\–\(\)\%]/g, '').length;
-        const cnLen = cnById[id].replace(/[\d\u4e00-\u9fa5]/g, '').length;
-        if (enLen > 2 && cnLen > 0) {
-          translations[enText] = cnById[id];
-        }
-      }
-    });
-    
-    return translations;
-    
+    return modifierMap;
   } catch (error) {
-    console.log(`  Error: ${error.message}`);
+    console.log(`  ⚠️  Error fetching ${url}: ${error.message}`);
     return {};
   }
 }
 
-async function main() {
-  console.log('=== Scraping all equipment pages ===\n');
-  
-  const allTranslations = {};
-  
-  for (const [enSlug, cnName] of Object.entries(EN_TO_CN)) {
-    process.stdout.write(`${cnName} (${enSlug})... `);
-    
-    const translations = await scrapePage(enSlug, enSlug);
-    
-    if (Object.keys(translations).length > 0) {
-      Object.assign(allTranslations, translations);
-      console.log(`✅ ${Object.keys(translations).length}`);
+async function scrapeEquipmentType(type) {
+  console.log(`\n📦 Scraping: ${type}`);
+
+  const enUrl = `https://tlidb.com/en/${type}`;
+  const cnUrl = `https://tlidb.com/cn/${type}`;
+
+  const [enPage, cnPage] = await Promise.all([
+    scrapePage(enUrl),
+    scrapePage(cnUrl),
+  ]);
+
+  const enCount = Object.keys(enPage).length;
+  const cnCount = Object.keys(cnPage).length;
+
+  let matched = 0;
+  const translations = {};
+  const enOnly = [];
+  const cnOnly = [];
+
+  Object.keys(enPage).forEach((id) => {
+    if (cnPage[id]) {
+      translations[enPage[id]] = cnPage[id];
+      matched++;
     } else {
-      console.log(`❌ (no data)`);
+      enOnly.push({ id, text: enPage[id] });
     }
-    
-    await new Promise(r => setTimeout(r, 100));
-  }
-  
-  console.log(`\n=== Summary ===`);
-  console.log(`Total new translations: ${Object.keys(allTranslations).length}`);
-  
-  // Save
-  const outDir = path.join(__dirname, '../src/data/translated-affixes');
-  
-  const existingPath = path.join(outDir, 'merged-all-translations.json');
-  const existing = fs.existsSync(existingPath)
-    ? JSON.parse(fs.readFileSync(existingPath, 'utf8'))
-    : {};
-  
-  const merged = { ...existing, ...allTranslations };
-  
-  const sorted = Object.entries(merged).sort((a, b) => b[0].length - a[0].length);
-  const sortedTranslations = {};
-  sorted.forEach(([en, cn]) => {
-    sortedTranslations[en] = cn;
   });
-  
-  fs.writeFileSync(existingPath, JSON.stringify(sortedTranslations, null, 2), 'utf-8');
-  
-  console.log(`Existing: ${Object.keys(existing).length}`);
-  console.log(`Total now: ${Object.keys(sortedTranslations).length}`);
-  console.log(`\n✅ Done!`);
+
+  Object.keys(cnPage).forEach((id) => {
+    if (!enPage[id]) {
+      cnOnly.push({ id, text: cnPage[id] });
+    }
+  });
+
+  console.log(`  EN: ${enCount}, CN: ${cnCount}, Matched: ${matched}`);
+
+  if (enOnly.length > 0) {
+    console.log(`  ⚠️  EN only (${enOnly.length}):`);
+    enOnly
+      .slice(0, 5)
+      .forEach((item) =>
+        console.log(`     [${item.id}] ${item.text.substring(0, 60)}...`),
+      );
+    if (enOnly.length > 5)
+      console.log(`     ... and ${enOnly.length - 5} more`);
+  }
+
+  if (cnOnly.length > 0) {
+    console.log(`  ⚠️  CN only (${cnOnly.length}):`);
+    cnOnly
+      .slice(0, 5)
+      .forEach((item) =>
+        console.log(`     [${item.id}] ${item.text.substring(0, 60)}...`),
+      );
+    if (cnOnly.length > 5)
+      console.log(`     ... and ${cnOnly.length - 5} more`);
+  }
+
+  return { type, enCount, cnCount, matched, translations, enOnly, cnOnly };
 }
 
-main();
+async function main() {
+  console.log("🚀 Starting comprehensive scrape of tlidb.com\n");
+  console.log("=".repeat(60));
+
+  const allResults = [];
+  const allTranslations = {};
+  const allEnOnly = [];
+  const allCnOnly = [];
+
+  let totalEn = 0;
+  let totalCn = 0;
+  let totalMatched = 0;
+
+  for (const type of EQUIPMENT_TYPES) {
+    try {
+      const result = await scrapeEquipmentType(type);
+      allResults.push(result);
+      totalEn += result.enCount;
+      totalCn += result.cnCount;
+      totalMatched += result.matched;
+      allEnOnly.push(...result.enOnly.map((item) => ({ ...item, type })));
+      allCnOnly.push(...result.cnOnly.map((item) => ({ ...item, type })));
+
+      Object.assign(allTranslations, result.translations);
+    } catch (error) {
+      console.error(`Error processing ${type}:`, error);
+    }
+  }
+
+  console.log("\n" + "=".repeat(60));
+  console.log("\n📊 Summary:");
+  console.log(`   Total EN entries: ${totalEn}`);
+  console.log(`   Total CN entries: ${totalCn}`);
+  console.log(`   Total Matched: ${totalMatched}`);
+  console.log(`   Match rate: ${((totalMatched / totalEn) * 100).toFixed(1)}%`);
+
+  const outputDir = path.join(__dirname, "../src/data/translated-affiffs");
+
+  const scrapedFile = path.join(__dirname, "scraped-translations.json");
+  fs.writeFileSync(
+    scrapedFile,
+    JSON.stringify(allTranslations, null, 2),
+    "utf-8",
+  );
+  console.log(`\n✅ Saved scraped translations to ${scrapedFile}`);
+
+  const enOnlyFile = path.join(__dirname, "en-only-entries.json");
+  fs.writeFileSync(enOnlyFile, JSON.stringify(allEnOnly, null, 2), "utf-8");
+  console.log(`✅ Saved EN-only entries to ${enOnlyFile}`);
+  console.log(`   Total EN-only entries: ${allEnOnly.length}`);
+
+  const cnOnlyFile = path.join(__dirname, "cn-only-entries.json");
+  fs.writeFileSync(cnOnlyFile, JSON.stringify(allCnOnly, null, 2), "utf-8");
+  console.log(`✅ Saved CN-only entries to ${cnOnlyFile}`);
+  console.log(`   Total CN-only entries: ${allCnOnly.length}`);
+
+  console.log("\n" + "=".repeat(60));
+  console.log("\n⚠️  EN-only entries (need manual CN matching):");
+  if (allEnOnly.length > 0) {
+    allEnOnly.slice(0, 30).forEach((item) => {
+      console.log(`   [${item.type}] [${item.id}] ${item.text}`);
+    });
+    if (allEnOnly.length > 30) {
+      console.log(
+        `   ... and ${allEnOnly.length - 30} more (see en-only-entries.json)`,
+      );
+    }
+  } else {
+    console.log("   None! All entries have CN matches.");
+  }
+
+  console.log("\n" + "=".repeat(60));
+  console.log("\n⚠️  CN-only entries (need manual EN matching):");
+  if (allCnOnly.length > 0) {
+    allCnOnly.slice(0, 30).forEach((item) => {
+      console.log(`   [${item.type}] [${item.id}] ${item.text}`);
+    });
+    if (allCnOnly.length > 30) {
+      console.log(
+        `   ... and ${allCnOnly.length - 30} more (see cn-only-entries.json)`,
+      );
+    }
+  } else {
+    console.log("   None!");
+  }
+}
+
+main().catch(console.error);

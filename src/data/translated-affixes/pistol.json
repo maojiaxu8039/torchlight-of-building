@@ -586,11 +586,7 @@
       "enText": "+(25–30)% gear Attack Speed",
       "cnText": "+(25–30)% 该装备攻击速度"
     },
-    {
-      "modifierId": "51320731",
-      "enText": "+3 Jumps",
-      "cnText": "+3 弹射次数"
-    },
+    { "modifierId": "51320731", "enText": "+3 Jumps", "cnText": "+3 弹射次数" },
     {
       "modifierId": "51320741",
       "enText": "+(20–30)% additional Projectile Damage",
@@ -801,11 +797,7 @@
       "enText": "+(40–45)% gear Attack Speed",
       "cnText": "+(40–45)% 该装备攻击速度"
     },
-    {
-      "modifierId": "51320730",
-      "enText": "+4 Jumps",
-      "cnText": "+4 弹射次数"
-    },
+    { "modifierId": "51320730", "enText": "+4 Jumps", "cnText": "+4 弹射次数" },
     {
       "modifierId": "51320740",
       "enText": "+(30–40)% additional Projectile Damage",

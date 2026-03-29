@@ -1,18 +1,25 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require("fs");
+const path = require("path");
 
-const outDir = path.join(__dirname, '../src/data/translated-affixes');
-const tsFile = path.join(outDir, 'complete-affix-translations.ts');
+const outDir = path.join(__dirname, "../src/data/translated-affixes");
+const tsFile = path.join(outDir, "complete-affix-translations.ts");
 
 // 加载所有翻译文件
 const allTranslations = {};
-const files = fs.readdirSync(outDir).filter(f => f.endsWith('-translations.json') && !f.startsWith('complete-') && !f.startsWith('all-'));
+const files = fs
+  .readdirSync(outDir)
+  .filter(
+    (f) =>
+      f.endsWith("-translations.json") &&
+      !f.startsWith("complete-") &&
+      !f.startsWith("all-"),
+  );
 
-files.forEach(file => {
+files.forEach((file) => {
   try {
-    const data = JSON.parse(fs.readFileSync(path.join(outDir, file), 'utf8'));
+    const data = JSON.parse(fs.readFileSync(path.join(outDir, file), "utf8"));
     Object.entries(data).forEach(([en, cn]) => {
-      if (typeof cn === 'string' && cn.length > 0) {
+      if (typeof cn === "string" && cn.length > 0) {
         allTranslations[en] = cn;
       }
     });
@@ -21,7 +28,9 @@ files.forEach(file => {
   }
 });
 
-console.log(`✅ Total valid translations: ${Object.keys(allTranslations).length}`);
+console.log(
+  `✅ Total valid translations: ${Object.keys(allTranslations).length}`,
+);
 
 // 生成完整的 TS 文件内容
 let tsContent = `// Auto-generated file - Do not edit manually
@@ -45,11 +54,14 @@ export const getAffixNameTranslation = (enName: string): string => {
 };
 
 export const COMMON_STAT_NAMES = [
-${Object.keys(allTranslations).slice(0, 30).map(en => `  '${en.replace(/'/g, "\\'")}',`).join('\n')}
+${Object.keys(allTranslations)
+  .slice(0, 30)
+  .map((en) => `  '${en.replace(/'/g, "\\'")}',`)
+  .join("\n")}
 ];
 `;
 
 // 写入文件
-fs.writeFileSync(tsFile, tsContent, 'utf-8');
+fs.writeFileSync(tsFile, tsContent, "utf-8");
 
 console.log(`✅ Rebuilt complete-affix-translations.ts`);

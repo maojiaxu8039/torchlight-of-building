@@ -17,6 +17,7 @@ import {
 } from "./tlidb-tools";
 
 interface BaseGearAffix {
+  modifierId?: string;
   equipmentSlot: EquipmentSlot;
   equipmentType: EquipmentType;
   affixType: AffixType;
@@ -152,8 +153,10 @@ const parseSequences = (
 
     const modifier = parseModifierText($(tds[0]), $);
     const tier = extractTierFromTooltip($row);
+    const modifierId = $row.find("[data-modifier-id]").attr("data-modifier-id");
 
     affixes.push({
+      modifierId,
       equipmentSlot: slot,
       equipmentType,
       affixType: "Tower Sequence",
@@ -258,8 +261,10 @@ const parseSimpleAffixTable = (
 
     const tier = $(tds[0]).text().trim();
     const modifier = parseModifierText($(tds[1]), $);
+    const modifierId = $row.find("[data-modifier-id]").attr("data-modifier-id");
 
     affixes.push({
+      modifierId,
       equipmentSlot: slot,
       equipmentType,
       affixType,
@@ -327,8 +332,10 @@ const parseCraftAffixes = (
         const tier = $(tds[0]).text().trim();
         const modifier = parseModifierText($(tds[1]), $);
         const library = $(tds[4]).text().trim();
+        const modifierId = $row.find("[data-modifier-id]").attr("data-modifier-id");
 
         affixes.push({
+          modifierId,
           equipmentSlot: slot,
           equipmentType,
           affixType,
@@ -566,8 +573,6 @@ const main = async (options: Options): Promise<void> => {
   console.log(
     `Generated base gear file with ${allBaseGear.length} total items`,
   );
-
-  execSync("pnpm format", { stdio: "inherit" });
 };
 
 program

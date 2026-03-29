@@ -1,25 +1,27 @@
-const https = require('https');
-const fs = require('fs');
-const path = require('path');
+const https = require("https");
+const fs = require("fs");
+const path = require("path");
 
 function fetchUrl(url) {
   return new Promise((resolve, reject) => {
-    https.get(url, (res) => {
-      let data = '';
-      res.on('data', chunk => data += chunk);
-      res.on('end', () => resolve(data));
-      res.on('error', reject);
-    }).on('error', reject);
+    https
+      .get(url, (res) => {
+        let data = "";
+        res.on("data", (chunk) => (data += chunk));
+        res.on("end", () => resolve(data));
+        res.on("error", reject);
+      })
+      .on("error", reject);
   });
 }
 
 async function extractVorax() {
-  console.log('=== Extracting Vorax Limb translations ===\n');
+  console.log("=== Extracting Vorax Limb translations ===\n");
 
   try {
     const [enHtml, cnHtml] = await Promise.all([
-      fetchUrl('https://tlidb.com/en/Vorax_Limb%3A_Hands'),
-      fetchUrl('https://tlidb.com/cn/Vorax_Limb%3A_Hands'),
+      fetchUrl("https://tlidb.com/en/Vorax_Limb%3A_Hands"),
+      fetchUrl("https://tlidb.com/cn/Vorax_Limb%3A_Hands"),
     ]);
 
     console.log(`EN size: ${enHtml.length}, CN size: ${cnHtml.length}`);
@@ -33,7 +35,7 @@ async function extractVorax() {
     const enByModifier = {};
     const cnByModifier = {};
 
-    enRows.forEach(row => {
+    enRows.forEach((row) => {
       const modifierMatch = row.match(/data-modifier-id="([^"]+)"/);
       if (modifierMatch) {
         const id = modifierMatch[1];
@@ -41,7 +43,11 @@ async function extractVorax() {
         const tds = row.match(/<td[^>]*>([\s\S]*?)<\/td>/gi) || [];
         if (tds.length > 0) {
           const lastTd = tds[tds.length - 1];
-          const text = lastTd.replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').trim();
+          const text = lastTd
+            .replace(/<[^>]+>/g, " ")
+            .replace(/&nbsp;/g, " ")
+            .replace(/\s+/g, " ")
+            .trim();
           if (text && text.length > 5) {
             enByModifier[id] = text;
           }
@@ -49,14 +55,18 @@ async function extractVorax() {
       }
     });
 
-    cnRows.forEach(row => {
+    cnRows.forEach((row) => {
       const modifierMatch = row.match(/data-modifier-id="([^"]+)"/);
       if (modifierMatch) {
         const id = modifierMatch[1];
         const tds = row.match(/<td[^>]*>([\s\S]*?)<\/td>/gi) || [];
         if (tds.length > 0) {
           const lastTd = tds[tds.length - 1];
-          const text = lastTd.replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').trim();
+          const text = lastTd
+            .replace(/<[^>]+>/g, " ")
+            .replace(/&nbsp;/g, " ")
+            .replace(/\s+/g, " ")
+            .trim();
           if (text && text.length > 5) {
             cnByModifier[id] = text;
           }
@@ -81,24 +91,25 @@ async function extractVorax() {
     console.log(`Matched: ${matched}`);
 
     // Save
-    const outDir = path.join(__dirname, '../src/data/translated-affixes');
+    const outDir = path.join(__dirname, "../src/data/translated-affixes");
     fs.writeFileSync(
-      path.join(outDir, 'vorax-limb-translations.json'),
+      path.join(outDir, "vorax-limb-translations.json"),
       JSON.stringify(translations, null, 2),
-      'utf-8'
+      "utf-8",
     );
 
     console.log(`\n✅ Saved ${Object.keys(translations).length} translations`);
 
     // Show sample
-    console.log('\nSample:');
+    console.log("\nSample:");
     let count = 0;
-    Object.entries(translations).slice(0, 5).forEach(([en, cn]) => {
-      console.log(`  ${en.substring(0, 50)}`);
-      console.log(`    → ${cn.substring(0, 50)}`);
-      count++;
-    });
-
+    Object.entries(translations)
+      .slice(0, 5)
+      .forEach(([en, cn]) => {
+        console.log(`  ${en.substring(0, 50)}`);
+        console.log(`    → ${cn.substring(0, 50)}`);
+        count++;
+      });
   } catch (error) {
     console.log(`❌ Error: ${error.message}`);
   }

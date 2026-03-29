@@ -1,433 +1,112 @@
 {
   "equipmentType": "INT_Gloves",
   "baseGears": [
-    {
-      "enName": "Ice and Fire",
-      "cnName": "冰火交融"
-    },
-    {
-      "enName": "Ice and Fire",
-      "cnName": "冰火交融"
-    },
-    {
-      "enName": "Ice and Fire",
-      "cnName": "冰火交融"
-    },
-    {
-      "enName": "Ice Pulse",
-      "cnName": "寒冰法脉"
-    },
-    {
-      "enName": "Ice Pulse",
-      "cnName": "寒冰法脉"
-    },
-    {
-      "enName": "Ice Pulse",
-      "cnName": "寒冰法脉"
-    },
-    {
-      "enName": "Ice Pulse",
-      "cnName": "寒冰法脉"
-    },
-    {
-      "enName": "Ice Pulse",
-      "cnName": "寒冰法脉"
-    },
-    {
-      "enName": "Sage%27s Insight",
-      "cnName": "贤者的洞察"
-    },
-    {
-      "enName": "Sage%27s Insight",
-      "cnName": "贤者的洞察"
-    },
-    {
-      "enName": "Sage%27s Insight",
-      "cnName": "贤者的洞察"
-    },
-    {
-      "enName": "Sage%27s Insight",
-      "cnName": "贤者的洞察"
-    },
-    {
-      "enName": "Sage%27s Insight",
-      "cnName": "贤者的洞察"
-    },
-    {
-      "enName": "Sage%27s Insight",
-      "cnName": "贤者的洞察"
-    },
-    {
-      "enName": "Tyrant%27s Iron Fist",
-      "cnName": "暴君的铁腕"
-    },
-    {
-      "enName": "Tyrant%27s Iron Fist",
-      "cnName": "暴君的铁腕"
-    },
-    {
-      "enName": "Tyrant%27s Iron Fist",
-      "cnName": "暴君的铁腕"
-    },
-    {
-      "enName": "Tyrant%27s Iron Fist",
-      "cnName": "暴君的铁腕"
-    },
-    {
-      "enName": "Miniature Void Sea",
-      "cnName": "掌中虚海"
-    },
-    {
-      "enName": "Miniature Void Sea",
-      "cnName": "掌中虚海"
-    },
-    {
-      "enName": "Miniature Void Sea",
-      "cnName": "掌中虚海"
-    },
-    {
-      "enName": "Miniature Void Sea",
-      "cnName": "掌中虚海"
-    },
-    {
-      "enName": "Miniature Void Sea",
-      "cnName": "掌中虚海"
-    },
-    {
-      "enName": "Miniature Void Sea",
-      "cnName": "掌中虚海"
-    },
-    {
-      "enName": "Israfel%27s Laws",
-      "cnName": "伊斯拉菲尔的旧律"
-    },
-    {
-      "enName": "Israfel%27s Laws",
-      "cnName": "伊斯拉菲尔的旧律"
-    },
-    {
-      "enName": "Israfel%27s Laws",
-      "cnName": "伊斯拉菲尔的旧律"
-    },
-    {
-      "enName": "Israfel%27s Laws",
-      "cnName": "伊斯拉菲尔的旧律"
-    },
-    {
-      "enName": "Aeterna Martyr",
-      "cnName": "殉永恒者"
-    },
-    {
-      "enName": "Aeterna Martyr",
-      "cnName": "殉永恒者"
-    },
-    {
-      "enName": "Aeterna Martyr",
-      "cnName": "殉永恒者"
-    },
-    {
-      "enName": "Aeterna Martyr",
-      "cnName": "殉永恒者"
-    },
-    {
-      "enName": "Aeterna Martyr",
-      "cnName": "殉永恒者"
-    },
-    {
-      "enName": "Archmage%27s Hands",
-      "cnName": "大法师之手"
-    },
-    {
-      "enName": "Archmage%27s Hands",
-      "cnName": "大法师之手"
-    },
-    {
-      "enName": "Archmage%27s Hands",
-      "cnName": "大法师之手"
-    },
-    {
-      "enName": "Archmage%27s Hands",
-      "cnName": "大法师之手"
-    },
-    {
-      "enName": "Archmage%27s Hands",
-      "cnName": "大法师之手"
-    },
-    {
-      "enName": "Vow%27s Grasp",
-      "cnName": "孤誓之握"
-    },
-    {
-      "enName": "Vow%27s Grasp",
-      "cnName": "孤誓之握"
-    },
-    {
-      "enName": "Vow%27s Grasp",
-      "cnName": "孤誓之握"
-    },
-    {
-      "enName": "Vow%27s Grasp",
-      "cnName": "孤誓之握"
-    },
-    {
-      "enName": "Providential Grace",
-      "cnName": "神意恩典"
-    },
-    {
-      "enName": "Providential Grace",
-      "cnName": "神意恩典"
-    },
-    {
-      "enName": "Providential Grace",
-      "cnName": "神意恩典"
-    },
-    {
-      "enName": "Providential Grace",
-      "cnName": "神意恩典"
-    },
-    {
-      "enName": "Providential Grace",
-      "cnName": "神意恩典"
-    },
-    {
-      "enName": "Hand of Malice",
-      "cnName": "仇恶之手"
-    },
-    {
-      "enName": "Hand of Malice",
-      "cnName": "仇恶之手"
-    },
-    {
-      "enName": "Hand of Malice",
-      "cnName": "仇恶之手"
-    },
-    {
-      "enName": "Hand of Malice",
-      "cnName": "仇恶之手"
-    },
-    {
-      "enName": "Grasp of Truth",
-      "cnName": "真知之握"
-    },
-    {
-      "enName": "Grasp of Truth",
-      "cnName": "真知之握"
-    },
-    {
-      "enName": "Grasp of Truth",
-      "cnName": "真知之握"
-    },
-    {
-      "enName": "Grasp of Truth",
-      "cnName": "真知之握"
-    },
-    {
-      "enName": "Herbalist%27s Gloves",
-      "cnName": "草药师手套"
-    },
-    {
-      "enName": "Scribe Handguards",
-      "cnName": "抄写员护手"
-    },
-    {
-      "enName": "Acolyte Handguards",
-      "cnName": "吟游者之手"
-    },
-    {
-      "enName": "Witchdoctor%27s Gloves",
-      "cnName": "巫医手套"
-    },
-    {
-      "enName": "Disciple Handguards",
-      "cnName": "学徒护手"
-    },
-    {
-      "enName": "Shaman%27s Hands",
-      "cnName": "萨满之手"
-    },
-    {
-      "enName": "Envoy%27s Hands",
-      "cnName": "神使之手"
-    },
-    {
-      "enName": "Respected Tutor%27s Gloves",
-      "cnName": "尊师手套"
-    },
-    {
-      "enName": "Elder Sage%27s Long Gloves",
-      "cnName": "大贤者的长手套"
-    },
-    {
-      "enName": "Imperishable Touch",
-      "cnName": "不灭者之触"
-    },
-    {
-      "enName": "All Magic Grip",
-      "cnName": "万法之轻握"
-    },
-    {
-      "enName": "Long Night Sorcerer%27s Wristband",
-      "cnName": "长夜巫王手带"
-    },
-    {
-      "enName": "Ice Pulse",
-      "cnName": "寒冰法脉"
-    },
-    {
-      "enName": "Vow%27s Grasp",
-      "cnName": "孤誓之握"
-    },
-    {
-      "enName": "Providential Grace",
-      "cnName": "神意恩典"
-    },
-    {
-      "enName": "Hand of Malice",
-      "cnName": "仇恶之手"
-    },
-    {
-      "enName": "Ice and Fire",
-      "cnName": "冰火交融"
-    },
-    {
-      "enName": "Sage%27s Insight",
-      "cnName": "贤者的洞察"
-    },
-    {
-      "enName": "Tyrant%27s Iron Fist",
-      "cnName": "暴君的铁腕"
-    },
-    {
-      "enName": "Miniature Void Sea",
-      "cnName": "掌中虚海"
-    },
-    {
-      "enName": "Israfel%27s Laws",
-      "cnName": "伊斯拉菲尔的旧律"
-    },
-    {
-      "enName": "Aeterna Martyr",
-      "cnName": "殉永恒者"
-    },
-    {
-      "enName": "Archmage%27s Hands",
-      "cnName": "大法师之手"
-    },
-    {
-      "enName": "Grasp of Truth",
-      "cnName": "真知之握"
-    },
-    {
-      "enName": "Ice Pulse",
-      "cnName": "寒冰法脉"
-    },
-    {
-      "enName": "Vow%27s Grasp",
-      "cnName": "孤誓之握"
-    },
-    {
-      "enName": "Providential Grace",
-      "cnName": "神意恩典"
-    },
-    {
-      "enName": "Hand of Malice",
-      "cnName": "仇恶之手"
-    },
-    {
-      "enName": "Ice and Fire",
-      "cnName": "冰火交融"
-    },
-    {
-      "enName": "Sage%27s Insight",
-      "cnName": "贤者的洞察"
-    },
-    {
-      "enName": "Tyrant%27s Iron Fist",
-      "cnName": "暴君的铁腕"
-    },
-    {
-      "enName": "Miniature Void Sea",
-      "cnName": "掌中虚海"
-    },
-    {
-      "enName": "Israfel%27s Laws",
-      "cnName": "伊斯拉菲尔的旧律"
-    },
-    {
-      "enName": "Aeterna Martyr",
-      "cnName": "殉永恒者"
-    },
-    {
-      "enName": "Archmage%27s Hands",
-      "cnName": "大法师之手"
-    },
-    {
-      "enName": "Grasp of Truth",
-      "cnName": "真知之握"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Energy Core",
-      "cnName": "能量核心"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    },
-    {
-      "enName": "Shallow Dream Talking - Armor",
-      "cnName": "浅白梦语-防具"
-    }
+    { "enName": "Ice and Fire", "cnName": "冰火交融" },
+    { "enName": "Ice and Fire", "cnName": "冰火交融" },
+    { "enName": "Ice and Fire", "cnName": "冰火交融" },
+    { "enName": "Ice Pulse", "cnName": "寒冰法脉" },
+    { "enName": "Ice Pulse", "cnName": "寒冰法脉" },
+    { "enName": "Ice Pulse", "cnName": "寒冰法脉" },
+    { "enName": "Ice Pulse", "cnName": "寒冰法脉" },
+    { "enName": "Ice Pulse", "cnName": "寒冰法脉" },
+    { "enName": "Sage%27s Insight", "cnName": "贤者的洞察" },
+    { "enName": "Sage%27s Insight", "cnName": "贤者的洞察" },
+    { "enName": "Sage%27s Insight", "cnName": "贤者的洞察" },
+    { "enName": "Sage%27s Insight", "cnName": "贤者的洞察" },
+    { "enName": "Sage%27s Insight", "cnName": "贤者的洞察" },
+    { "enName": "Sage%27s Insight", "cnName": "贤者的洞察" },
+    { "enName": "Tyrant%27s Iron Fist", "cnName": "暴君的铁腕" },
+    { "enName": "Tyrant%27s Iron Fist", "cnName": "暴君的铁腕" },
+    { "enName": "Tyrant%27s Iron Fist", "cnName": "暴君的铁腕" },
+    { "enName": "Tyrant%27s Iron Fist", "cnName": "暴君的铁腕" },
+    { "enName": "Miniature Void Sea", "cnName": "掌中虚海" },
+    { "enName": "Miniature Void Sea", "cnName": "掌中虚海" },
+    { "enName": "Miniature Void Sea", "cnName": "掌中虚海" },
+    { "enName": "Miniature Void Sea", "cnName": "掌中虚海" },
+    { "enName": "Miniature Void Sea", "cnName": "掌中虚海" },
+    { "enName": "Miniature Void Sea", "cnName": "掌中虚海" },
+    { "enName": "Israfel%27s Laws", "cnName": "伊斯拉菲尔的旧律" },
+    { "enName": "Israfel%27s Laws", "cnName": "伊斯拉菲尔的旧律" },
+    { "enName": "Israfel%27s Laws", "cnName": "伊斯拉菲尔的旧律" },
+    { "enName": "Israfel%27s Laws", "cnName": "伊斯拉菲尔的旧律" },
+    { "enName": "Aeterna Martyr", "cnName": "殉永恒者" },
+    { "enName": "Aeterna Martyr", "cnName": "殉永恒者" },
+    { "enName": "Aeterna Martyr", "cnName": "殉永恒者" },
+    { "enName": "Aeterna Martyr", "cnName": "殉永恒者" },
+    { "enName": "Aeterna Martyr", "cnName": "殉永恒者" },
+    { "enName": "Archmage%27s Hands", "cnName": "大法师之手" },
+    { "enName": "Archmage%27s Hands", "cnName": "大法师之手" },
+    { "enName": "Archmage%27s Hands", "cnName": "大法师之手" },
+    { "enName": "Archmage%27s Hands", "cnName": "大法师之手" },
+    { "enName": "Archmage%27s Hands", "cnName": "大法师之手" },
+    { "enName": "Vow%27s Grasp", "cnName": "孤誓之握" },
+    { "enName": "Vow%27s Grasp", "cnName": "孤誓之握" },
+    { "enName": "Vow%27s Grasp", "cnName": "孤誓之握" },
+    { "enName": "Vow%27s Grasp", "cnName": "孤誓之握" },
+    { "enName": "Providential Grace", "cnName": "神意恩典" },
+    { "enName": "Providential Grace", "cnName": "神意恩典" },
+    { "enName": "Providential Grace", "cnName": "神意恩典" },
+    { "enName": "Providential Grace", "cnName": "神意恩典" },
+    { "enName": "Providential Grace", "cnName": "神意恩典" },
+    { "enName": "Hand of Malice", "cnName": "仇恶之手" },
+    { "enName": "Hand of Malice", "cnName": "仇恶之手" },
+    { "enName": "Hand of Malice", "cnName": "仇恶之手" },
+    { "enName": "Hand of Malice", "cnName": "仇恶之手" },
+    { "enName": "Grasp of Truth", "cnName": "真知之握" },
+    { "enName": "Grasp of Truth", "cnName": "真知之握" },
+    { "enName": "Grasp of Truth", "cnName": "真知之握" },
+    { "enName": "Grasp of Truth", "cnName": "真知之握" },
+    { "enName": "Herbalist%27s Gloves", "cnName": "草药师手套" },
+    { "enName": "Scribe Handguards", "cnName": "抄写员护手" },
+    { "enName": "Acolyte Handguards", "cnName": "吟游者之手" },
+    { "enName": "Witchdoctor%27s Gloves", "cnName": "巫医手套" },
+    { "enName": "Disciple Handguards", "cnName": "学徒护手" },
+    { "enName": "Shaman%27s Hands", "cnName": "萨满之手" },
+    { "enName": "Envoy%27s Hands", "cnName": "神使之手" },
+    { "enName": "Respected Tutor%27s Gloves", "cnName": "尊师手套" },
+    { "enName": "Elder Sage%27s Long Gloves", "cnName": "大贤者的长手套" },
+    { "enName": "Imperishable Touch", "cnName": "不灭者之触" },
+    { "enName": "All Magic Grip", "cnName": "万法之轻握" },
+    { "enName": "Long Night Sorcerer%27s Wristband", "cnName": "长夜巫王手带" },
+    { "enName": "Ice Pulse", "cnName": "寒冰法脉" },
+    { "enName": "Vow%27s Grasp", "cnName": "孤誓之握" },
+    { "enName": "Providential Grace", "cnName": "神意恩典" },
+    { "enName": "Hand of Malice", "cnName": "仇恶之手" },
+    { "enName": "Ice and Fire", "cnName": "冰火交融" },
+    { "enName": "Sage%27s Insight", "cnName": "贤者的洞察" },
+    { "enName": "Tyrant%27s Iron Fist", "cnName": "暴君的铁腕" },
+    { "enName": "Miniature Void Sea", "cnName": "掌中虚海" },
+    { "enName": "Israfel%27s Laws", "cnName": "伊斯拉菲尔的旧律" },
+    { "enName": "Aeterna Martyr", "cnName": "殉永恒者" },
+    { "enName": "Archmage%27s Hands", "cnName": "大法师之手" },
+    { "enName": "Grasp of Truth", "cnName": "真知之握" },
+    { "enName": "Ice Pulse", "cnName": "寒冰法脉" },
+    { "enName": "Vow%27s Grasp", "cnName": "孤誓之握" },
+    { "enName": "Providential Grace", "cnName": "神意恩典" },
+    { "enName": "Hand of Malice", "cnName": "仇恶之手" },
+    { "enName": "Ice and Fire", "cnName": "冰火交融" },
+    { "enName": "Sage%27s Insight", "cnName": "贤者的洞察" },
+    { "enName": "Tyrant%27s Iron Fist", "cnName": "暴君的铁腕" },
+    { "enName": "Miniature Void Sea", "cnName": "掌中虚海" },
+    { "enName": "Israfel%27s Laws", "cnName": "伊斯拉菲尔的旧律" },
+    { "enName": "Aeterna Martyr", "cnName": "殉永恒者" },
+    { "enName": "Archmage%27s Hands", "cnName": "大法师之手" },
+    { "enName": "Grasp of Truth", "cnName": "真知之握" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Energy Core", "cnName": "能量核心" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" },
+    { "enName": "Shallow Dream Talking - Armor", "cnName": "浅白梦语-防具" }
   ]
 }
