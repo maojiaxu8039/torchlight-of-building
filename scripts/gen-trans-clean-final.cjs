@@ -2,7 +2,7 @@ const fs = require("fs");
 const https = require("https");
 const http = require("http");
 
-const BASE_URL = "https://tlidb.com/cn";
+const BASE_URL = "https://tlidb.com";
 const GEAR_TYPE_DIR = ".garbage/tlidb/gear";
 const OUTPUT_FILE = "src/data/translated-affixes/complete-affix-translations.ts";
 
@@ -69,8 +69,7 @@ function delay(ms) {
 
 function cleanText(text) {
   let result = text;
-  
-  // 移除 tooltip 属性
+
   result = result.replace(/data-bs-title="[^"]*"/gi, "");
   result = result.replace(/data-bs-html="[^"]*"/gi, "");
   result = result.replace(/data-bs-toggle="[^"]*"/gi, "");
@@ -78,54 +77,47 @@ function cleanText(text) {
   result = result.replace(/data-tip="[^"]*"/gi, "");
   result = result.replace(/data-section="[^"]*"/gi, "");
   result = result.replace(/data-tier="[^"]*"/gi, "");
-  
-  // 提取嵌套 span 的完整内容
-  let parts = [];
-  
-  // 尝试匹配 <span data-modifier-id=...><...></span><td>
-  const modSpanRegex = /<span[^>]*data-modifier-id[^>]*>([\s\S]*?)<\/span>\s*<td>/gi;
-  let m;
-  while ((m = modSpanRegex.exec(result))) {
-    let content = m[1];
-    content = content.replace(/<[^>]+>/g, ' ');
-    content = content.replace(/\s+/g, ' ').trim();
-    if (content) {
-      parts.push(content);
-    }
+
+  // 提取外层 span 内的所有内容（包括嵌套标签的文本）
+  const outerSpanRegex = /^[^>]*>([\s\S]*)<\/span>/i;
+  const outerMatch = text.match(outerSpanRegex);
+  if (outerMatch) {
+    result = outerMatch[1];
   }
-  
-  // 如果没有匹配到，尝试匹配到下一个 <td> 之前
-  if (parts.length === 0) {
-    // 匹配 data-modifier-id 后的完整内容到 <td>
-    const altRegex = /data-modifier-id[^>]*>([\s\S]*?)<td>/gi;
-    while ((m = altRegex.exec(result))) {
-      let content = m[1];
-      content = content.replace(/<[^>]+>/g, ' ');
-      content = content.replace(/\s+/g, ' ').trim();
-      if (content) {
-        parts.push(content);
+
+  // 提取外层 span 内的文本，保留原始结构
+  if (result.includes('class="text-mod"')) {
+    // 提取所有 text-mod span 的文本
+    let parts = [];
+    const textModRegex = /<span[^>]*class="text-mod"[^>]*>([\s\S]*?)<\/span>/gi;
+    let m;
+    while ((m = textModRegex.exec(result))) {
+      parts.push(m[1].trim());
+    }
+    
+    // 如果找到了 text-mod，提取原始文本作为模板
+    if (parts.length > 0) {
+      let template = result;
+      let final = '';
+      let lastIndex = 0;
+      
+      // 重新匹配获取位置信息
+      const regex = /<span[^>]*class="text-mod"[^>]*>([\s\S]*?)<\/span>/gi;
+      while ((m = regex.exec(template))) {
+        const before = template.substring(lastIndex, m.index);
+        final += before + m[1].trim();
+        lastIndex = m.index + m[0].length;
       }
+      
+      // 添加剩余文本
+      final += template.substring(lastIndex);
+      result = final.trim();
     }
   }
-  
-  if (parts.length > 0) {
-    result = parts.join(' ');
-  } else {
-    result = result.replace(/<[^>]+>/g, ' ');
-  }
-  
-  // 清理其他标签
-  result = result.replace(/<div[^>]*>/gi, " ");
-  result = result.replace(/<\/div>/gi, " ");
-  result = result.replace(/<hr[^>]*>/gi, " ");
-  result = result.replace(/<br\s*\/?>/gi, " ");
-  result = result.replace(/<i[^>]*>.*?<\/i>/gi, "");
-  result = result.replace(/<e[^>]*>([^<]*)<\/e>/gi, "$1");
-  result = result.replace(/<a[^>]*>([^<]*)<\/a>/gi, "$1");
-  result = result.replace(/<img[^>]*>/gi, "");
-  result = result.replace(/<span[^>]*>/gi, "");
-  result = result.replace(/<\/span>/gi, "");
-  result = result.replace(/<[^>]+>/g, "");
+
+  // 清理所有 HTML
+  result = result.replace(/<\/?[^>]*>/gi, ' ');
+  result = result.replace(/<[^>]+>/g, ' ');
   result = result.replace(/&nbsp;/g, " ");
   result = result.replace(/&ndash;/g, "-");
   result = result.replace(/&amp;/g, "&");
@@ -133,97 +125,87 @@ function cleanText(text) {
   result = result.replace(/&lt;/g, "<");
   result = result.replace(/\|/g, " ");
   result = result.replace(/\//g, " ");
-  
+
   return result.replace(/\s+/g, ' ').trim();
 }
 
 function parseAffixes(html) {
   const affixes = {};
-  
-  const idRegex = /data-modifier-id="(\d+)"[^>]*>([\s\S]*?)(?=<td|data-modifier-id="|$)/gi;
+
+  const idRegex = /data-modifier-id="(\d+)"[^>]*>([\s\S]*?)(?=data-modifier-id="|$)/gi;
   let idMatch;
-  
+
   while ((idMatch = idRegex.exec(html)) !== null) {
     const modifierId = idMatch[1];
     let text = idMatch[2];
-    
+
+    text = text.replace(/data-modifier-id="[^"]*"/gi, '');
+
     text = cleanText(text);
-    
-    // 移除末尾的数字
-    text = text.replace(/\s+\d{3,6}$/, '').trim();
-    text = text.replace(/\s+\d+$/, '').trim();
-    text = text.replace(/\s+[\u4e00-\u9fa5]+\d+$/, '').trim();
-    text = text.replace(/<td>\d+<\/?td>\s*$/gi, '').trim();
-    text = text.replace(/<td>\d+\s*$/gi, '').trim();
-    text = text.replace(/\s*(腰部|胸部|鞋子|手套|头盔|盾牌|武器|单手|双手|颈部|戒指|护符)[^"]*$/i, '').trim();
-    text = text.replace(/\s*需求等级\s*\d+\s*$/, '').trim();
-    text = text.replace(/\s*(?:进阶|初阶|高阶)词缀[^"]*$/g, '').trim();
-    text = text.replace(/\s*(?:进阶|初阶|高阶)序列[^"]*$/g, '').trim();
-    text = text.replace(/\s*(?:进阶|初阶|高阶)加工[^"]*$/g, '').trim();
-    
+
     if (text && modifierId) {
       if (!affixes[modifierId]) {
         affixes[modifierId] = text;
       }
     }
   }
-  
+
   return affixes;
 }
 
 async function main() {
   console.log("🚀 Generating translations\n");
-  
+
   const files = fs.readdirSync(GEAR_TYPE_DIR).filter(f => f.endsWith(".html"));
   console.log(`Found ${files.length} HTML files\n`);
-  
+
   const translations = {};
   let totalEn = 0;
   let totalCn = 0;
   let matched = 0;
-  
+
   for (const file of files) {
     const enPath = `${GEAR_TYPE_DIR}/${file}`;
     const enHtml = fs.readFileSync(enPath, "utf-8");
     const enAffixes = parseAffixes(enHtml);
-    
-    const cnUrl = `${BASE_URL}/${encodeURIComponent(CN_URL_MAP[file.replace('.html', '')] || file.replace('.html', ''))}`;
-    
+
+    const cnUrl = `${BASE_URL}/cn/${CN_URL_MAP[file.replace('.html', '')] || file.replace('.html', '')}`;
+
     try {
       console.log(`Processing: ${file} (EN: ${Object.keys(enAffixes).length})`);
       const cnHtml = await fetchUrl(cnUrl);
       const cnAffixes = parseAffixes(cnHtml);
-      
+
       totalEn += Object.keys(enAffixes).length;
       totalCn += Object.keys(cnAffixes).length;
-      
+
       Object.keys(enAffixes).forEach(id => {
         if (cnAffixes[id]) {
           translations[id] = cnAffixes[id];
           matched++;
         }
       });
-      
+
       console.log(`  CN: ${Object.keys(cnAffixes).length}, Matched: ${matched}`);
     } catch (error) {
       console.error(`  Error: ${error.message}`);
     }
-    
+
     await delay(300);
   }
-  
+
   console.log("\n" + "=".repeat(60));
   console.log(`\n📊 Summary:`);
   console.log(`   Total EN: ${totalEn}`);
   console.log(`   Total CN: ${totalCn}`);
   console.log(`   Matched: ${matched}`);
   console.log(`   Unique translations: ${Object.keys(translations).length}`);
-  
+
   console.log("\n📋 Sample translations:");
   Object.values(translations).slice(0, 5).forEach(t => {
     console.log(`  ${t}`);
   });
-  
+
   const now = new Date().toISOString();
   const tsContent = `// This file is auto-generated
 // Do not modify manually
@@ -235,7 +217,7 @@ export const AFFIX_TRANSLATIONS: Record<string, string> = ${JSON.stringify(trans
 // Alias for backwards compatibility
 export const AFFIX_NAME_TRANSLATIONS = AFFIX_TRANSLATIONS;
 `;
-  
+
   fs.writeFileSync(OUTPUT_FILE, tsContent);
   console.log(`\n✅ Generated ${OUTPUT_FILE}`);
 }
