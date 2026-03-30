@@ -78,41 +78,29 @@ function cleanText(text) {
   result = result.replace(/data-section="[^"]*"/gi, "");
   result = result.replace(/data-tier="[^"]*"/gi, "");
 
-  // 提取外层 span 内的所有内容（包括嵌套标签的文本）
-  const outerSpanRegex = /^[^>]*>([\s\S]*)<\/span>/i;
-  const outerMatch = text.match(outerSpanRegex);
-  if (outerMatch) {
-    result = outerMatch[1];
-  }
-
-  // 提取外层 span 内的文本，保留原始结构
+  // 提取所有 text-mod span 的内容，保留原始结构
   if (result.includes('class="text-mod"')) {
-    // 提取所有 text-mod span 的文本
     let parts = [];
-    const textModRegex = /<span[^>]*class="text-mod"[^>]*>([\s\S]*?)<\/span>/gi;
+    let lastIndex = 0;
+    const regex = /<span[^>]*class="text-mod"[^>]*>([\s\S]*?)<\/span>/gi;
     let m;
-    while ((m = textModRegex.exec(result))) {
+    
+    while ((m = regex.exec(result))) {
+      // 添加 text-mod 之前的文本（移除 HTML 标签）
+      const before = result.substring(lastIndex, m.index);
+      const cleanBefore = before.replace(/<[^>]+>/g, '').trim();
+      if (cleanBefore) parts.push(cleanBefore);
+      // 添加 text-mod 内的文本
       parts.push(m[1].trim());
+      lastIndex = m.index + m[0].length;
     }
     
-    // 如果找到了 text-mod，提取原始文本作为模板
-    if (parts.length > 0) {
-      let template = result;
-      let final = '';
-      let lastIndex = 0;
-      
-      // 重新匹配获取位置信息
-      const regex = /<span[^>]*class="text-mod"[^>]*>([\s\S]*?)<\/span>/gi;
-      while ((m = regex.exec(template))) {
-        const before = template.substring(lastIndex, m.index);
-        final += before + m[1].trim();
-        lastIndex = m.index + m[0].length;
-      }
-      
-      // 添加剩余文本
-      final += template.substring(lastIndex);
-      result = final.trim();
-    }
+    // 添加剩余文本（移除 HTML 标签）
+    const remaining = result.substring(lastIndex);
+    const cleanRemaining = remaining.replace(/<[^>]+>/g, '').trim();
+    if (cleanRemaining) parts.push(cleanRemaining);
+    
+    result = parts.join(' ');
   }
 
   // 清理所有 HTML
@@ -132,16 +120,33 @@ function cleanText(text) {
 function parseAffixes(html) {
   const affixes = {};
 
-  const idRegex = /data-modifier-id="(\d+)"[^>]*>([\s\S]*?)(?=data-modifier-id="|$)/gi;
+  // 匹配所有 data-modifier-id
+  const idRegex = /data-modifier-id="(\d+)"/gi;
   let idMatch;
 
   while ((idMatch = idRegex.exec(html)) !== null) {
     const modifierId = idMatch[1];
-    let text = idMatch[2];
+    // 找到 data-modifier-id 后面的第一个 > 的位置
+    const gtIdx = html.indexOf('>', idMatch.index);
+    if (gtIdx === -1) continue;
+    const startIdx = gtIdx + 1;
 
-    text = text.replace(/data-modifier-id="[^"]*"/gi, '');
+    // 找到外层的 </span>
+    let endIdx = html.indexOf('</span>', startIdx);
+    if (endIdx === -1) continue;
 
-    text = cleanText(text);
+    // 提取词缀内容
+    let content = html.substring(startIdx, endIdx);
+
+    // 检查是否有嵌套的 </span>
+    const nestedEndIdx = html.indexOf('</span>', endIdx + 7);
+    if (nestedEndIdx !== -1 && nestedEndIdx - endIdx < 100) {
+      // 有嵌套，更新结束位置
+      endIdx = nestedEndIdx;
+      content = html.substring(startIdx, endIdx);
+    }
+
+    const text = cleanText(content);
 
     if (text && modifierId) {
       if (!affixes[modifierId]) {
