@@ -37,7 +37,9 @@ export const HeroMemoryItem: React.FC<HeroMemoryItemProps> = ({
           ({memory.affixes.length} affixes)
         </span>
         {isEquipped && (
-          <span className="text-xs text-green-500 font-medium"><Trans>Equipped</Trans></span>
+          <span className="text-xs text-green-500 font-medium">
+            <Trans>Equipped</Trans>
+          </span>
         )}
       </div>
 
@@ -63,7 +65,9 @@ export const HeroMemoryItem: React.FC<HeroMemoryItemProps> = ({
                       lineIdx > 0 ? "mt-1 pt-1 border-t border-zinc-800" : ""
                     }
                   >
-                    <div className="text-xs text-zinc-400">{getTranslatedAffixText(line.text)}</div>
+                    <div className="text-xs text-zinc-400">
+                      {getTranslatedAffixText(line.text)}
+                    </div>
                     {line.mods === undefined && (
                       <div className="text-xs text-red-500">
                         (Mod not supported in TOB yet)
@@ -75,7 +79,9 @@ export const HeroMemoryItem: React.FC<HeroMemoryItemProps> = ({
             ))}
           </div>
         ) : (
-          <p className="text-xs text-zinc-500 italic"><Trans>No affixes</Trans></p>
+          <p className="text-xs text-zinc-500 italic">
+            <Trans>No affixes</Trans>
+          </p>
         )}
       </Tooltip>
     </div>

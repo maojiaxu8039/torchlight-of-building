@@ -56,7 +56,11 @@ export const SkillSelector: React.FC<SkillSelectorProps> = ({
       />
       {availableSkills.length === 0 && (
         <p className="mt-2 text-sm text-zinc-500">
-          <Trans>No implemented active skills enabled. Enable an active skill in the Skills section (currently supported: Berserking Blade, Frost Spike, Spectral Slash).</Trans>
+          <Trans>
+            No implemented active skills enabled. Enable an active skill in the
+            Skills section (currently supported: Berserking Blade, Frost Spike,
+            Spectral Slash).
+          </Trans>
         </p>
       )}
     </div>

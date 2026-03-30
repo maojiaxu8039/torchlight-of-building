@@ -42,7 +42,9 @@ const MemoryTooltipContent: React.FC<{ memory: HeroMemory }> = ({ memory }) => (
                     lineIdx > 0 ? "mt-1 pt-1 border-t border-zinc-800" : ""
                   }
                 >
-                  <div className="text-xs text-zinc-400">{getTranslatedAffixText(line.text)}</div>
+                  <div className="text-xs text-zinc-400">
+                    {getTranslatedAffixText(line.text)}
+                  </div>
                   {line.mods === undefined && (
                     <div className="text-xs text-red-500">
                       (Mod not supported in TOB yet)
@@ -54,7 +56,9 @@ const MemoryTooltipContent: React.FC<{ memory: HeroMemory }> = ({ memory }) => (
           ))}
         </div>
       ) : (
-        <p className="text-xs text-zinc-500 italic"><Trans>No affixes</Trans></p>
+        <p className="text-xs text-zinc-500 italic">
+          <Trans>No affixes</Trans>
+        </p>
       )}
     </TooltipContent>
   </>
@@ -295,7 +299,9 @@ const TraitRow = ({
       <div className="flex items-start gap-4">
         {!isLevel1 && slot !== undefined && (
           <div className="w-48 flex-shrink-0">
-            <div className="text-xs text-zinc-500 mb-2">{i18n._(memoryType)}</div>
+            <div className="text-xs text-zinc-500 mb-2">
+              {i18n._(memoryType)}
+            </div>
             <SearchableSelect
               value={equippedMemory?.id}
               onChange={(value) => onMemoryEquip(slot, value)}
@@ -341,7 +347,8 @@ const TraitRow = ({
         <div className="flex-1">
           <div className="text-sm font-semibold text-amber-400 mb-2 flex items-center gap-2">
             <span>
-              {i18n._("Level")} {level} {isLevel1 && `(${i18n._("Auto-selected")})`}
+              {i18n._("Level")} {level}{" "}
+              {isLevel1 && `(${i18n._("Auto-selected")})`}
             </span>
             {selectedTraitA !== undefined &&
               (() => {
@@ -392,7 +399,9 @@ export const TraitSelector = ({
 }: TraitSelectorProps) => {
   return (
     <div className="bg-zinc-900 rounded-lg p-6 border border-zinc-700">
-      <h2 className="text-xl font-semibold mb-4 text-zinc-50"><Trans>Hero Traits</Trans></h2>
+      <h2 className="text-xl font-semibold mb-4 text-zinc-50">
+        <Trans>Hero Traits</Trans>
+      </h2>
       <div className="space-y-4">
         {TRAIT_LEVELS.map((level) => (
           <TraitRow

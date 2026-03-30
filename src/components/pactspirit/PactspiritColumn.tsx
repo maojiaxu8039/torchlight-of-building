@@ -83,7 +83,9 @@ export const PactspiritColumn: React.FC<PactspiritColumnProps> = ({
 
       {/* Pactspirit Selector */}
       <div className="mb-4">
-        <label className="block text-sm text-zinc-400 mb-1">{i18n._("Pactspirit")}</label>
+        <label className="block text-sm text-zinc-400 mb-1">
+          {i18n._("Pactspirit")}
+        </label>
         <SearchableSelect
           value={slot?.pactspiritName}
           onChange={onPactspiritSelect}
@@ -126,7 +128,9 @@ export const PactspiritColumn: React.FC<PactspiritColumnProps> = ({
                   lineIdx > 0 ? "mt-1 pt-1 border-t border-zinc-800" : ""
                 }
               >
-                <div className="text-xs text-zinc-400">{getTranslatedAffixText(line.text)}</div>
+                <div className="text-xs text-zinc-400">
+                  {getTranslatedAffixText(line.text)}
+                </div>
                 {line.mods === undefined && (
                   <div className="text-xs text-red-500">
                     (Mod not supported in TOB yet)

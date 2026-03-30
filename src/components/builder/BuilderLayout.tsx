@@ -67,7 +67,8 @@ export const BuilderLayout = ({ children }: BuilderLayoutProps) => {
       setCurrentLocale(getStoredLocale());
     };
     window.addEventListener("locale-changed", handleLocaleChange);
-    return () => window.removeEventListener("locale-changed", handleLocaleChange);
+    return () =>
+      window.removeEventListener("locale-changed", handleLocaleChange);
   }, []);
 
   const handleSetLocale = (locale: string) => {

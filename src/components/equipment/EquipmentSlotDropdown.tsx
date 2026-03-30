@@ -31,13 +31,16 @@ const OptionWithTooltip: React.FC<OptionWithTooltipProps> = ({
 
   // 直接使用 affixes[0].affixLines[0].text，和 OptionWithTooltip 完全相同
   const statsText = useMemo(
-    () => (affixes.length > 0 && affixes[0].affixLines.length > 0 ? affixes[0].affixLines[0].text : null),
-    [affixes]
+    () =>
+      affixes.length > 0 && affixes[0].affixLines.length > 0
+        ? affixes[0].affixLines[0].text
+        : null,
+    [affixes],
   );
 
   const translatedStatsText = useMemo(
-    () => statsText ? getTranslatedAffixText(statsText) : null,
-    [statsText]
+    () => (statsText ? getTranslatedAffixText(statsText) : null),
+    [statsText],
   );
 
   return (
@@ -52,7 +55,9 @@ const OptionWithTooltip: React.FC<OptionWithTooltipProps> = ({
       onMouseLeave={() => setIsHovered(false)}
     >
       <span className={selected ? "text-amber-400" : ""}>
-        {item.legendaryName ?? getBaseGearNameTranslation(item.baseGearName) ?? item.equipmentType}
+        {item.legendaryName ??
+          getBaseGearNameTranslation(item.baseGearName) ??
+          item.equipmentType}
       </span>
       {translatedStatsText && (
         <span className="text-zinc-500 ml-2 text-xs">
@@ -91,21 +96,32 @@ export const EquipmentSlotDropdown: React.FC<EquipmentSlotDropdownProps> = ({
 }) => {
   // 使用和 OptionWithTooltip 完全相同的计算逻辑
   const options = useMemo(
-    () => compatibleItems.map((item) => {
-      const affixes = getGearAffixes(item);
-      // 直接使用 affixes[0].affixLines[0].text
-      const statsText = (affixes.length > 0 && affixes[0].affixLines.length > 0 ? affixes[0].affixLines[0].text : null);
-      const translatedStatsText = statsText ? getTranslatedAffixText(statsText) : null;
-      
-      return {
-        // biome-ignore lint/style/noNonNullAssertion: inventory items always have id
-        value: item.id!,
-        label: item.legendaryName ?? getBaseGearNameTranslation(item.baseGearName) ?? item.equipmentType,
-        // 使用和 OptionWithTooltip 完全相同的翻译结果
-        sublabel: translatedStatsText ? `${translatedStatsText} (${affixes.length})` : `${affixes.length} affixes`,
-      };
-    }),
-    [compatibleItems]
+    () =>
+      compatibleItems.map((item) => {
+        const affixes = getGearAffixes(item);
+        // 直接使用 affixes[0].affixLines[0].text
+        const statsText =
+          affixes.length > 0 && affixes[0].affixLines.length > 0
+            ? affixes[0].affixLines[0].text
+            : null;
+        const translatedStatsText = statsText
+          ? getTranslatedAffixText(statsText)
+          : null;
+
+        return {
+          // biome-ignore lint/style/noNonNullAssertion: inventory items always have id
+          value: item.id!,
+          label:
+            item.legendaryName ??
+            getBaseGearNameTranslation(item.baseGearName) ??
+            item.equipmentType,
+          // 使用和 OptionWithTooltip 完全相同的翻译结果
+          sublabel: translatedStatsText
+            ? `${translatedStatsText} (${affixes.length})`
+            : `${affixes.length} affixes`,
+        };
+      }),
+    [compatibleItems],
   );
 
   const renderOption = (

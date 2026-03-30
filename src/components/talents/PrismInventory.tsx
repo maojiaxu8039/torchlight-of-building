@@ -58,11 +58,17 @@ export const PrismInventory: React.FC<PrismInventoryProps> = ({
         <div className="mb-3 p-2 rounded bg-purple-500/10 border border-purple-500/30">
           <p className="text-sm text-purple-300">
             {hasPrismPlaced
-              ? i18n._("A prism is already placed. Remove it first to place a different one.")
+              ? i18n._(
+                  "A prism is already placed. Remove it first to place a different one.",
+                )
               : selectedPrismId
                 ? isOnGodGoddessTree
-                  ? i18n._("Switch to a Profession Tree (Slots 2-4) to place the prism.")
-                  : i18n._("Click on an empty talent node to place the prism, or click the prism again to deselect.")
+                  ? i18n._(
+                      "Switch to a Profession Tree (Slots 2-4) to place the prism.",
+                    )
+                  : i18n._(
+                      "Click on an empty talent node to place the prism, or click the prism again to deselect.",
+                    )
                 : i18n._("Click a prism to select it for placement.")}
           </p>
         </div>

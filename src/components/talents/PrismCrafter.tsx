@@ -140,7 +140,9 @@ export const PrismCrafter: React.FC<PrismCrafterProps> = ({
   return (
     <div>
       <div className="mb-4">
-        <label className="mb-2 block text-sm text-zinc-400">{i18n._("Rarity")}</label>
+        <label className="mb-2 block text-sm text-zinc-400">
+          {i18n._("Rarity")}
+        </label>
         <div className="flex gap-2">
           {PRISM_RARITIES.map((r) => (
             <button
@@ -162,7 +164,9 @@ export const PrismCrafter: React.FC<PrismCrafterProps> = ({
       </div>
 
       <div className="mb-4">
-        <label className="mb-2 block text-sm text-zinc-400">{i18n._("Base Affix")}</label>
+        <label className="mb-2 block text-sm text-zinc-400">
+          {i18n._("Base Affix")}
+        </label>
         <SearchableSelect
           value={baseAffix}
           onChange={setBaseAffix}
@@ -263,7 +267,9 @@ export const PrismCrafter: React.FC<PrismCrafterProps> = ({
           disabled={!canSave}
           className="flex-1 rounded bg-amber-600 px-4 py-2 text-white transition-colors hover:bg-amber-500 disabled:cursor-not-allowed disabled:bg-zinc-600"
         >
-          {editingPrism !== undefined ? i18n._("Update Prism") : i18n._("Save to Inventory")}
+          {editingPrism !== undefined
+            ? i18n._("Update Prism")
+            : i18n._("Save to Inventory")}
         </button>
         {onCancel !== undefined && (
           <button

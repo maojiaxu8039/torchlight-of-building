@@ -60,7 +60,8 @@ const InverseImageCrafterInner: React.FC<InverseImageCrafterInnerProps> = ({
       <div className="space-y-4">
         <div>
           <label className="mb-2 block text-sm text-zinc-400">
-            {i18n._("All Reflected Micro Talent Effects")} ({formatModifier(microEffect)})
+            {i18n._("All Reflected Micro Talent Effects")} (
+            {formatModifier(microEffect)})
           </label>
           <div className="flex items-center gap-3">
             <span className="text-xs text-zinc-500">-100%</span>
@@ -87,7 +88,8 @@ const InverseImageCrafterInner: React.FC<InverseImageCrafterInnerProps> = ({
 
         <div>
           <label className="mb-2 block text-sm text-zinc-400">
-            {i18n._("All Reflected Medium Talent Effects")} ({formatModifier(mediumEffect)})
+            {i18n._("All Reflected Medium Talent Effects")} (
+            {formatModifier(mediumEffect)})
           </label>
           <div className="flex items-center gap-3">
             <span className="text-xs text-zinc-500">-100%</span>
@@ -158,7 +160,9 @@ const InverseImageCrafterInner: React.FC<InverseImageCrafterInnerProps> = ({
           disabled={!validation.valid}
           className="flex-1 rounded bg-cyan-600 px-4 py-2 text-white transition-colors hover:bg-cyan-500 disabled:cursor-not-allowed disabled:bg-zinc-600"
         >
-          {editingInverseImage ? i18n._("Update Inverse Image") : i18n._("Save to Inventory")}
+          {editingInverseImage
+            ? i18n._("Update Inverse Image")
+            : i18n._("Save to Inventory")}
         </button>
         {onCancel && (
           <button

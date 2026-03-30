@@ -43,7 +43,9 @@ export const SlateTooltipContent: React.FC<{ slate: DivinitySlate }> = ({
                     lineIdx > 0 ? "mt-1 pt-1 border-t border-zinc-800" : ""
                   }
                 >
-                  <div className="text-xs text-zinc-400">{getTranslatedAffixText(line.text)}</div>
+                  <div className="text-xs text-zinc-400">
+                    {getTranslatedAffixText(line.text)}
+                  </div>
                   {line.mods === undefined && (
                     <div className="text-xs text-red-500">
                       (Mod not supported in TOB yet)

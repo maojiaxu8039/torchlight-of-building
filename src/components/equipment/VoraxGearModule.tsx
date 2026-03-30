@@ -766,7 +766,11 @@ export const VoraxGearModule: React.FC<VoraxGearModuleProps> = ({
                     : "bg-zinc-700 text-zinc-300 hover:bg-zinc-600"
                 }`}
               >
-                {slot.isCorrupted ? <Trans>Corruption</Trans> : <Trans>Normal</Trans>}
+                {slot.isCorrupted ? (
+                  <Trans>Corruption</Trans>
+                ) : (
+                  <Trans>Normal</Trans>
+                )}
               </button>
             )}
             <button
@@ -778,7 +782,11 @@ export const VoraxGearModule: React.FC<VoraxGearModuleProps> = ({
                   : "bg-zinc-700 text-zinc-300 hover:bg-zinc-600"
               }`}
             >
-              {slot.type === "regular" ? <Trans>Regular</Trans> : <Trans>Legendary</Trans>}
+              {slot.type === "regular" ? (
+                <Trans>Regular</Trans>
+              ) : (
+                <Trans>Legendary</Trans>
+              )}
             </button>
           </div>
         </div>

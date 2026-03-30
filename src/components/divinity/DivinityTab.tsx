@@ -61,7 +61,9 @@ export const DivinityTab: React.FC<DivinityTabProps> = ({
   return (
     <div className="flex gap-8">
       <div className="flex flex-col gap-4">
-        <h3 className="text-lg font-medium text-zinc-200">{i18n._("Divinity Grid")}</h3>
+        <h3 className="text-lg font-medium text-zinc-200">
+          {i18n._("Divinity Grid")}
+        </h3>
         <DivinityGrid
           divinityPage={divinityPage}
           onMoveSlate={onMoveSlate}

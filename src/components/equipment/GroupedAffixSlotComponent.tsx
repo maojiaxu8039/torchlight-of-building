@@ -82,14 +82,17 @@ export const GroupedAffixSlotComponent = ({
   const sortedAffixGroups = getSortedGroups(availableGroups);
   const sortedOptionsWithHeaders = getOptionsWithHeaders(sortedAffixGroups);
 
+  const selectedGroupIndex =
+    selectedGroup !== undefined
+      ? sortedAffixGroups.findIndex(
+          (group) => group.affixBaseName === selectedGroup.affixBaseName,
+        )
+      : undefined;
+
   return (
     <div>
       <SearchableSelect
-        value={
-          selectedGroup !== undefined
-            ? sortedAffixGroups.indexOf(selectedGroup)
-            : undefined
-        }
+        value={selectedGroupIndex}
         onChange={(value) => {
           if (value === null || value === undefined) {
             onAffixSelect(slotIndex, "");

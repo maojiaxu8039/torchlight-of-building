@@ -166,7 +166,9 @@ export const ImportItemsModal = ({
     const { items, errors } = parseImportedItems(trimmed);
 
     if (items.length === 0) {
-      setError(errors.length > 0 ? errors.join("\n") : i18n._("No valid items found"));
+      setError(
+        errors.length > 0 ? errors.join("\n") : i18n._("No valid items found"),
+      );
       return;
     }
 
@@ -195,7 +197,9 @@ export const ImportItemsModal = ({
   return (
     <Modal isOpen={isOpen} onClose={onClose} title={i18n._("Import Items")}>
       <ModalDescription>
-        {i18n._("See the user guide for instructions on how to generate item descriptions from in-game screenshots.")}
+        {i18n._(
+          "See the user guide for instructions on how to generate item descriptions from in-game screenshots.",
+        )}
       </ModalDescription>
 
       <textarea

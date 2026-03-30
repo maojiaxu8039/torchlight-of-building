@@ -1,0 +1,371 @@
++(12-15)% Cast Speed
++(12-15)% Cast Speed
++(12-15)% Cast Speed
+Gains Attack Aggression when casting an Attack Skill +(40-60)% Attack Aggression Effect
+Gains Attack Aggression when casting an Attack Skill +(10-30)% Attack Aggression Effect
++(12-16)% additional damage when a Skill consumes Demolisher Charge
+Eliminates enemies under (5-7)% Life upon inflicting damage
++1 Main Skill Level
++(33-38)% additional Attack Damage after standing still for 0.1s. (-16--15)% additional Attack Speed
++(25-32)% additional Attack Damage after standing still for 0.1s. (-14--13)% additional Attack Speed
++(12-16)% additional damage when a Skill consumes Demolisher Charge
+Eliminates enemies under (5-7)% Life upon inflicting damage
++(26-32)% chance to Multistrike
+Multistrikes deal (10-16)% increasing damage
++(5-10)% chance to gain 1 stack of Agility Blessing on defeat
++1 Melee Skill Level
+Reaps 0.08 s of Ignite Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target
+Reaps 0.07 s of Ignite Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target
++(26-32)% chance to Multistrike
+Multistrikes deal (10-16)% increasing damage
++(25-30)% Projectile Speed
+Max Terra Quantity +1 +5% additional damage
+Max Terra Quantity +1 +1% additional damage
+Max Terra Quantity +1 -10% additional damage
++5% XP earned
++5% Movement Speed
+Immune to Trauma Immune to Wilt
++(8-10)% Strength
++(8-10)% Dexterity
++(8-10)% Intelligence
++(15-25)% Max Life
++(15-25)% Max Energy Shield
++1 to Max Tenacity Blessing Stacks +5% additional damage
++1 to Max Agility Blessing Stacks +5% additional damage
++1 to Max Focus Blessing Stacks +5% additional damage
++15% Max Mana. +(100-120) Skill Cost
++8% Max Mana. +(40-60) Skill Cost
++1 Combo Points gained from Combo Starters +(3-5)% additional damage
++1 Combo Points gained from Combo Starters +(1-2)% additional damage
++1 Combo Points gained from Combo Starters (-5--3)% additional damage
++(13-16)% Elemental Resistance +(13-16)% Erosion Resistance
++(9-12)% Elemental Resistance +(9-12)% Erosion Resistance
++(7-8)% Elemental Resistance +(7-8)% Erosion Resistance
++(51-65)% Fervor effect
++(26-35)% Fervor effect
++(21-25)% Fervor effect
+Triggers Lv. 20 Frost Touch Curse upon inflicting damage. Cooldown: 0.2 s
+When dealing damage, inflicts Fire Infiltration. Interval for each enemy: 2 s
+Inflicts Cold Infiltration when dealing damage. Interval for each enemy: 2 s
+When dealing damage, inflicts Lightning Infiltration. Interval for each enemy: 2 s
++(5-8)% Elemental and Erosion Resistance Penetration for Minions
++(20-30)% Minion Damage
++(30-40)% Minion Critical Strike Rating
++(25-32)% Minion Critical Strike Damage
+Adds (83-85) - (110-112) Cold Damage to Minions
+Adds (42-44) - (55-57) Cold Damage to Minions
+Adds (30-32) - (40-42) Cold Damage to Minions
+Adds (22-24) - (30-32) Cold Damage to Minions
+Adds (87-89) - (106-108) Erosion Damage to Minions
+Adds (44-46) - (53-55) Erosion Damage to Minions
+Adds (31-33) - (39-41) Erosion Damage to Minions
+Adds (23-25) - (29-31) Erosion Damage to Minions
+Adds (87-89) - (106-108) Physical Damage to Minions
+Adds (44-46) - (53-55) Physical Damage to Minions
+Adds (31-33) - (39-41) Physical Damage to Minions
+Adds (23-25) - (29-31) Physical Damage to Minions
++1 to Max Summonable Synthetic Troops +(10-12)% additional Minion Damage
++1 to Max Summonable Synthetic Troops +(6-8)% additional Minion Damage
++(3-4) Minion Skill Level
++(3-4) Main Skill Level
++(37-47)% Attack and Cast Speed +(37-47)% Minion Attack and Cast Speed
++(27-36)% Attack and Cast Speed +(27-36)% Minion Attack and Cast Speed
++(19-26)% Attack and Cast Speed +(19-26)% Minion Attack and Cast Speed
++(14-18)% Attack and Cast Speed +(14-18)% Minion Attack and Cast Speed
++(10-13)% Attack and Cast Speed +(10-13)% Minion Attack and Cast Speed
+Triggers Lv. 10 Entangled Pain Curse and Timid Curse when a Minion deals damage. Cooldown: 1 s Minions can cast 1 additional Curse(s)
+-80 Minion Critical Strike Rating +200% Minion Critical Strike Damage
++120% Radical Order Aura Effect -20% additional Radical Order Sealed Mana Compensation
+When Minions deal damage, inflicts Fire Infiltration. Interval for each enemy: 1 s When Minions deal damage, inflicts Lightning Infiltration. Interval for each enemy: 1 s When Minions deal damage, inflicts Cold Infiltration. Interval for each enemy: 1 s
+Reaps 0.08 s of Damage Over Time when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target
+Reaps 0.07 s of Damage Over Time when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target
++(2-3) Physical Skill Level
++(2-3) Lightning Skill Level
++(2-3) Cold Skill Level
++(2-3) Fire Skill Level
++(2-3) Erosion Skill Level
++(3-4) Spell Skill Level
++(37-47)% Cast Speed +(37-47)% Minion Cast Speed
++(26-36)% Cast Speed +(26-36)% Minion Cast Speed
++(19-25)% Cast Speed +(19-25)% Minion Cast Speed
+Max Terra Quantity +1 +5% additional damage
+Max Terra Quantity +1 +1% additional damage
+Max Terra Quantity +1 -10% additional damage
++16 Affliction inflicted per second +24% Affliction Effect
+Max Terra Charge Stacks -1 Max Terra Quantity +1
++120% Deep Pain Aura -20% additional Deep Pain Sealed Mana Compensation
++20% Movement Speed when standing on a Terra Skill. The effect lasts 2s. +100% Skill Area when standing on a Terra Skill. Lasts for 2 s
++1 to Max Tenacity Blessing Stacks -1 to Max Focus Blessing Stacks +1 to Max Agility Blessing Stacks
++(10-14)% Evasion
++(8-10)% Attack and Spell Block Chance
++(6-8)% additional damage
++(35-40) Strength
++(35-40) Dexterity
++(35-40) Intelligence
++(4-5)% Max Elemental and Erosion Resistance
++(1-2)% Max Fire Resistance
++(1-2)% Max Cold Resistance
++(1-2)% Max Lightning Resistance
+Has a (5-10)% chance to avoid Blocked damage
++(5-8)% Block Ratio
++(8-12)% Attack Block Chance
++(12-15)% Spell Block Chance
++(3-5)% Max Energy Shield
++(109-140)% damage +(109-140)% Minion Damage
++(77-108)% damage +(77-108)% Minion Damage
++(55-76)% damage +(55-76)% Minion Damage
++(44-54)% damage +(44-54)% Minion Damage
++(36-43)% damage +(36-43)% Minion Damage
++(25-31)% Max Life
++(13-17)% Max Life
++(11-12)% Max Life
++(29-39)% Elemental and Erosion Resistance Penetration Minion Damage penetrates (29-39)% Elemental Resistance
++(22-30)% Elemental and Erosion Resistance Penetration Minion Damage penetrates (22-30)% Elemental Resistance
++(18-21)% Elemental and Erosion Resistance Penetration Minion Damage penetrates (18-21)% Elemental Resistance
++(13-15)% Elemental and Erosion Resistance Penetration Minion Damage penetrates (13-15)% Elemental Resistance
++(26-33)% Armor DMG Mitigation Penetration +(26-33)% Armor DMG Mitigation Penetration for Minions
++(19-25)% Armor DMG Mitigation Penetration +(19-25)% Armor DMG Mitigation Penetration for Minions
++(14-18)% Armor DMG Mitigation Penetration +(14-18)% Armor DMG Mitigation Penetration for Minions
++(11-13)% Armor DMG Mitigation Penetration +(11-13)% Armor DMG Mitigation Penetration for Minions
+Restores (5-6)% Life on Block. Interval: 0.3s
++(34-47)% Attack and Cast Speed +(34-47)% Minion Attack and Cast Speed
++(22-25)% Attack and Cast Speed +(22-25)% Minion Attack and Cast Speed
++(16-18)% Attack and Cast Speed +(16-18)% Minion Attack and Cast Speed
+Max Sentry Quantity +1 +5% additional damage
++(9-10)% Max Elemental Resistance
++(5-6)% Max Elemental Resistance
++(3-4)% Max Elemental Resistance
++1% Attack Speed and Movement Speed for every 6% of Attack or Spell Block
++(10-14)% Evasion
++(8-10)% Attack and Spell Block Chance
++(6-8)% additional damage
++(35-40) Strength
++(35-40) Dexterity
++(35-40) Intelligence
++(4-5)% Max Elemental and Erosion Resistance
++100% chance to gain a stack of Fortitude when using a Melee Skill
+Converts 25% of Physical Damage taken to random Elemental Damage -25% Defense
++15% Armor Effective Rate for Non-Physical Damage +2400 Gear Armor
+Spell Damage will not further reduce Evasion by default +1680 gear Evasion
+Energy Shield starts to Charge when Blocking +40% Energy Shield Charge Speed
++(8-10)% Attack and Spell Block Chance
++(6-8)% additional damage
++(35-40) Strength
++(35-40) Dexterity
++(35-40) Intelligence
++(4-5)% Max Elemental and Erosion Resistance
++(1-2)% Max Fire Resistance
++(1-2)% Max Cold Resistance
++(1-2)% Max Lightning Resistance
+Has a (5-10)% chance to avoid Blocked damage
++(5-8)% Block Ratio
++(8-12)% Attack Block Chance
++(12-15)% Spell Block Chance
++(3-5)% Max Energy Shield
++(109-140)% damage +(109-140)% Minion Damage
++(77-108)% damage +(77-108)% Minion Damage
++(55-76)% damage +(55-76)% Minion Damage
++(44-54)% damage +(44-54)% Minion Damage
++(36-43)% damage +(36-43)% Minion Damage
++(25-31)% Max Energy Shield
++(13-17)% Max Energy Shield
++(11-12)% Max Energy Shield
++(9-10)% Max Energy Shield
++(29-39)% Elemental and Erosion Resistance Penetration Minion Damage penetrates (29-39)% Elemental Resistance
++(22-30)% Elemental and Erosion Resistance Penetration Minion Damage penetrates (22-30)% Elemental Resistance
++(18-21)% Elemental and Erosion Resistance Penetration Minion Damage penetrates (18-21)% Elemental Resistance
++(13-15)% Elemental and Erosion Resistance Penetration Minion Damage penetrates (13-15)% Elemental Resistance
++(26-33)% Armor DMG Mitigation Penetration +(26-33)% Armor DMG Mitigation Penetration for Minions
++(19-25)% Armor DMG Mitigation Penetration +(19-25)% Armor DMG Mitigation Penetration for Minions
++(14-18)% Armor DMG Mitigation Penetration +(14-18)% Armor DMG Mitigation Penetration for Minions
++(11-13)% Armor DMG Mitigation Penetration +(11-13)% Armor DMG Mitigation Penetration for Minions
+Restores (5-6)% Energy Shield on Block. Interval: 0.3s
++(34-47)% Attack and Cast Speed +(34-47)% Minion Attack and Cast Speed
++(22-25)% Attack and Cast Speed +(22-25)% Minion Attack and Cast Speed
++(16-18)% Attack and Cast Speed +(16-18)% Minion Attack and Cast Speed
+Max Sentry Quantity +1 +5% additional damage
++(9-10)% Max Elemental Resistance
++(5-6)% Max Elemental Resistance
++(3-4)% Max Elemental Resistance
++(8-10)% Attack and Spell Block Chance
++(6-8)% additional damage
++(35-40) Strength
++(35-40) Dexterity
++(35-40) Intelligence
++(4-5)% Max Elemental and Erosion Resistance
++100% chance to gain a stack of Fortitude when using a Melee Skill
+Converts 25% of Physical Damage taken to random Elemental Damage -25% Defense
++15% Armor Effective Rate for Non-Physical Damage +2400 Gear Armor
+Spell Damage will not further reduce Evasion by default +1680 gear Evasion
+Energy Shield starts to Charge when Blocking +40% Energy Shield Charge Speed
++(10-14)% Armor
++(8-10)% Attack and Spell Block Chance
++(6-8)% additional damage
++(35-40) Strength
++(35-40) Dexterity
++(35-40) Intelligence
++(4-5)% Max Elemental and Erosion Resistance
++(1-2)% Max Fire Resistance
++(1-2)% Max Cold Resistance
++(1-2)% Max Lightning Resistance
+Has a (5-10)% chance to avoid Blocked damage
++(5-8)% Block Ratio
++(8-12)% Attack Block Chance
++(12-15)% Spell Block Chance
++(3-5)% Max Energy Shield
++(109-140)% damage +(109-140)% Minion Damage
++(77-108)% damage +(77-108)% Minion Damage
++(55-76)% damage +(55-76)% Minion Damage
++(44-54)% damage +(44-54)% Minion Damage
++(36-43)% damage +(36-43)% Minion Damage
++(25-31)% Max Life
++(13-17)% Max Life
++(11-12)% Max Life
++(29-39)% Elemental and Erosion Resistance Penetration Minion Damage penetrates (29-39)% Elemental Resistance
++(22-30)% Elemental and Erosion Resistance Penetration Minion Damage penetrates (22-30)% Elemental Resistance
++(18-21)% Elemental and Erosion Resistance Penetration Minion Damage penetrates (18-21)% Elemental Resistance
++(13-15)% Elemental and Erosion Resistance Penetration Minion Damage penetrates (13-15)% Elemental Resistance
++(26-33)% Armor DMG Mitigation Penetration +(26-33)% Armor DMG Mitigation Penetration for Minions
++(19-25)% Armor DMG Mitigation Penetration +(19-25)% Armor DMG Mitigation Penetration for Minions
++(14-18)% Armor DMG Mitigation Penetration +(14-18)% Armor DMG Mitigation Penetration for Minions
++(11-13)% Armor DMG Mitigation Penetration +(11-13)% Armor DMG Mitigation Penetration for Minions
+Restores (5-6)% Life on Block. Interval: 0.3s
++(34-47)% Attack and Cast Speed +(34-47)% Minion Attack and Cast Speed
++(22-25)% Attack and Cast Speed +(22-25)% Minion Attack and Cast Speed
++(16-18)% Attack and Cast Speed +(16-18)% Minion Attack and Cast Speed
+Max Sentry Quantity +1 +5% additional damage
++(9-10)% Max Elemental Resistance
++(5-6)% Max Elemental Resistance
++(3-4)% Max Elemental Resistance
++(10-14)% Armor
++(8-10)% Attack and Spell Block Chance
++(6-8)% additional damage
++(35-40) Strength
++(35-40) Dexterity
++(35-40) Intelligence
++(4-5)% Max Elemental and Erosion Resistance
++100% chance to gain a stack of Fortitude when using a Melee Skill
+Converts 25% of Physical Damage taken to random Elemental Damage -25% Defense
++15% Armor Effective Rate for Non-Physical Damage +2400 Gear Armor
+Spell Damage will not further reduce Evasion by default +1680 gear Evasion
+Energy Shield starts to Charge when Blocking +40% Energy Shield Charge Speed
++(6-8)% Minion Movement Speed, Attack Speed, and Cast Speed
++ 3 Command per second
++32 initial Growth for Spirit Magi
+Triggers Lv. 20 Dazzled Curse when Minions deal damage. Cooldown: 0.2 s
+Triggers Lv. 20 Timid Curse when Minions deal damage. Cooldown: 0.2 s
+Triggers Lv. 20 Entangled Pain Curse when Minions deal damage. Cooldown: 0.2 s
+Gains Attack Aggression when Minions land a Critical Strike
+Gains Spell Aggression when Minion Spells land a Critical Strike
++5% XP earned
++5% Movement Speed
+Immune to Trauma Immune to Wilt
++(8-10)% Strength
++(8-10)% Dexterity
++(8-10)% Intelligence
++(15-25)% Max Life
++(15-25)% Max Energy Shield
+Adds (55-57) - (73-75) Cold Damage to Minions
+Adds (27-29) - (37-39) Cold Damage to Minions
+Adds (20-22) - (26-28) Cold Damage to Minions
+Adds (14-16) - (20-22) Cold Damage to Minions
+Adds (58-60) - (71-73) Erosion Damage to Minions
+Adds (29-31) - (35-37) Erosion Damage to Minions
+Adds (21-23) - (25-27) Erosion Damage to Minions
+Adds (15-17) - (19-21) Erosion Damage to Minions
+Adds (58-60) - (71-73) Physical Damage to Minions
+Adds (29-31) - (35-37) Physical Damage to Minions
+Adds (21-23) - (25-27) Physical Damage to Minions
+Adds (15-17) - (19-21) Physical Damage to Minions
+Gains Attack Aggression when Minions land a Critical Strike +(5-8)% additional Minion Damage
+Gains Attack Aggression when Minions land a Critical Strike +(3-4)% additional Minion Damage
+Gains Spell Aggression when Minion Spells land a Critical Strike +(5-8)% additional Minion Damage
+Gains Spell Aggression when Minion Spells land a Critical Strike +(3-4)% additional Minion Damage
++1 to Max Tenacity Blessing Stacks +5% additional Minion Damage
++1 to Max Agility Blessing Stacks +5% additional Minion Damage
++1 to Max Focus Blessing Stacks +5% additional Minion Damage
+Gains Hasten when Minions land a Critical Strike +(5-8)% additional Minion Attack and Cast Speed
+Gains Hasten when Minions land a Critical Strike +(3-4)% additional Minion Attack and Cast Speed
++ 5 Command per second
++(13-16)% Elemental Resistance +(13-16)% Erosion Resistance
++(9-12)% Elemental Resistance +(9-12)% Erosion Resistance
++(7-8)% Elemental Resistance +(7-8)% Erosion Resistance
++6% Elemental Resistance +6% Erosion Resistance
++(6-8)% Minion Movement Speed, Attack Speed, and Cast Speed
++ 3 Command per second
++32 initial Growth for Spirit Magi
+Triggers Lv. 20 Dazzled Curse when Minions deal damage. Cooldown: 0.2 s
+Triggers Lv. 20 Timid Curse when Minions deal damage. Cooldown: 0.2 s
+Triggers Lv. 20 Entangled Pain Curse when Minions deal damage. Cooldown: 0.2 s
+Triggers Lv. 20 Frost Touch Curse upon inflicting damage. Cooldown: 0.2 s
+When Minions deal damage, inflicts Fire Infiltration. Interval for each enemy: 2 s
+When Minions deal damage, inflicts Lightning Infiltration. Interval for each enemy: 2 s
+When Minions deal damage, inflicts Cold Infiltration. Interval for each enemy: 2 s
+Adds (25-30) - (33-38) Physical Damage to Spells
+Adds (24-29) - (34-39) Fire Damage to Spells
+Adds (24-29) - (34-39) Cold Damage to Spells
+Adds (1-3) - (60-65) Lightning Damage to Spells
+Adds (26-31) - (32-37) Erosion Damage to Spells
++(40-48)% Spell Damage
++(12-16)% Cast Speed
++(12-16)% additional Spell Damage
++(4-5) Main Skill Level
++(7-8) Spell Skill Level
++(4-5) Spell Skill Level
++4 Jumps +(25-30)% additional damage
++4 Jumps +(18-20)% additional damage
++(73-94)% Cast Speed +(73-94)% Minion Cast Speed
++(51-72)% Cast Speed +(51-72)% Minion Cast Speed
++(37-50)% Cast Speed +(37-50)% Minion Cast Speed
++(30-36)% Cast Speed +(30-36)% Minion Cast Speed
++4 Beams +(20-30)% additional damage
++4 Beams +(5-10)% additional damage
++4 Beams (-20--10)% additional damage
++(61-78)% additional damage when channeling
++(32-43)% additional damage when channeling
++(23-31)% additional damage when channeling
++(6-8)% additional Spell Damage
+The Main Skill is supported by Lv. 25 Control Spell +25% additional Spell Damage
++200% Spell Amplification Aura -30% additional Spell Amplification Sealed Mana Compensation
++70% additional damage -10% additional Cast Speed
+-2 to Max Tenacity Blessing Stacks +2 to Max Focus Blessing Stacks +2 to Max Agility Blessing Stacks
++(12-16)% additional damage against Traumatized enemies
++(12-18)% additional Steep Strike Damage
++(6-8)% additional Steep Strike Damage
++(28-32)% additional damage when a Skill consumes Demolisher Charge
+Eliminates enemies under (10-14)% Life upon inflicting damage
++(1-2) Main Skill Level
++(50-58)% additional Attack Damage after standing still for 0.1s. (-16--15)% additional Attack Speed
++(37-49)% additional Attack Damage after standing still for 0.1s. (-14--13)% additional Attack Speed
++(14-16)% additional damage when a Skill consumes Demolisher Charge
+Eliminates enemies under (5-7)% Life upon inflicting damage
++(60-64)% chance to Multistrike
+Multistrikes deal (28-32)% increasing damage
++1 Melee Skill Level
++(30-32)% chance to Multistrike
+Multistrikes deal (14-16)% increasing damage
++(2-3) Physical Skill Level
++(2-3) Lightning Skill Level
++(2-3) Cold Skill Level
++(2-3) Fire Skill Level
++(2-3) Erosion Skill Level
++(3-4) Spell Skill Level
++2 Jumps +(12-16)% additional damage
++2 Jumps +(8-10)% additional damage
++(34-47)% Cast Speed +(34-47)% Minion Cast Speed
++(26-36)% Cast Speed +(26-36)% Minion Cast Speed
++(22-25)% Cast Speed +(22-25)% Minion Cast Speed
++(16-18)% Cast Speed +(16-18)% Minion Cast Speed
++2 Parabolic Projectile Split Quantity +(8-12)% additional Projectile Damage
++1 Parabolic Projectile Split Quantity +(12-16)% additional Projectile Damage
+-15% additional Cast Speed +(54-69)% additional Spell Damage
+-15% additional Cast Speed +(38-53)% additional Spell Damage
+-15% additional Cast Speed +(28-37)% additional Spell Damage
+-15% additional Cast Speed +(22-27)% additional Spell Damage
+-15% additional Cast Speed +(18-21)% additional Spell Damage
+Max Terra Quantity +1 +5% additional damage
+Max Terra Quantity +1 +1% additional damage
+Max Terra Quantity +1 -10% additional damage
++120% Spell Amplification Aura -20% additional Spell Amplification Sealed Mana Compensation
++35% additional damage -10% additional Cast Speed
+-1 to Max Tenacity Blessing Stacks +1 to Max Focus Blessing Stacks +1 to Max Agility Blessing Stacks

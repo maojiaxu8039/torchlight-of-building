@@ -1,0 +1,2922 @@
+{
+  "foundInScraped": [
+    { "en": "+(5-10)% Fire Resistance", "cn": "+(5-10)% 火焰抗性" },
+    { "en": "+(5-10)% Cold Resistance", "cn": "+(5-10)% 冰冷抗性" },
+    { "en": "+(5-10)% Lightning Resistance", "cn": "+(5-10)% 闪电抗性" },
+    { "en": "+(5-10)% Erosion Resistance", "cn": "+(5-10)% 腐蚀抗性" },
+    { "en": "+(8-10)% Movement Speed", "cn": "+(8-10)% 移动速度" },
+    {
+      "en": "+(20-25)% Cooldown Recovery Speed",
+      "cn": "+(20-25)% 冷却回复速度"
+    },
+    {
+      "en": "+(20-25)% Skill Effect Duration",
+      "cn": "+(20-25)% 技能效果持续时间"
+    },
+    { "en": "+(7-8)% Aura Effect", "cn": "+(7-8)% 光环效果" },
+    { "en": "+(3-5)% Max Life", "cn": "+(3-5)% 最大生命" },
+    { "en": "+(4-6)% Max Energy Shield", "cn": "+(4-6)% 最大护盾" },
+    { "en": "+(5-10)% Skill Area", "cn": "+(5-10)% 技能范围" },
+    {
+      "en": "+(20-30)% Charged Flames Aura",
+      "cn": "+(20-30)% 烈焰充能光环效果"
+    },
+    {
+      "en": "+(20-30)% Frigid Domain Aura Effect",
+      "cn": "+(20-30)% 冰寒领域光环效果"
+    },
+    {
+      "en": "+(20-30)% Electric Conversion Aura",
+      "cn": "+(20-30)% 电能转化光环效果"
+    },
+    {
+      "en": "+(20-30)% Weapon Amplification Aura",
+      "cn": "+(20-30)% 武器增幅光环效果"
+    },
+    { "en": "+(20-30)% Deep Pain Aura", "cn": "+(20-30)% 深层苦痛光环效果" },
+    {
+      "en": "+(20-30)% Spell Amplification Aura",
+      "cn": "+(20-30)% 法术增幅光环效果"
+    },
+    {
+      "en": "+(20-30)% Precise Projectiles Aura effect",
+      "cn": "+(20-30)% 精准投射光环效果"
+    },
+    { "en": "+(20-30)% Fearless Aura", "cn": "+(20-30)% 狂猛光环效果" },
+    { "en": "+(20-30)% Cruelty Aura Effect", "cn": "+(20-30)% 暴虐光环效果" },
+    {
+      "en": "+(20-30)% Radical Order Aura Effect",
+      "cn": "+(20-30)% 激进号令光环效果"
+    },
+    {
+      "en": "(-50--40)% additional Damage Over Time taken when a Restoration Skill is active",
+      "cn": "(-50--40)% 受到的持续伤害"
+    },
+    { "en": "+(73-94)% damage", "cn": "+(73-94)% 伤害" },
+    { "en": "+(51-72)% damage", "cn": "+(51-72)% 伤害" },
+    { "en": "+(37-50)% damage", "cn": "+(37-50)% 伤害" },
+    { "en": "+(30-36)% damage", "cn": "+(30-36)% 伤害" },
+    { "en": "+(24-29)% damage", "cn": "+(24-29)% 伤害" },
+    { "en": "+(66-94)% Minion Damage", "cn": "+(66-94)% 召唤物伤害" },
+    { "en": "+(51-72)% Minion Damage", "cn": "+(51-72)% 召唤物伤害" },
+    { "en": "+(43-50)% Minion Damage", "cn": "+(43-50)% 召唤物伤害" },
+    { "en": "+(31-36)% Minion Damage", "cn": "+(31-36)% 召唤物伤害" },
+    { "en": "+(24-29)% Minion Damage", "cn": "+(24-29)% 召唤物伤害" },
+    {
+      "en": "+(16-20)% Attack and Spell Block Chance",
+      "cn": "+(16-20)% 攻击与法术格挡率"
+    },
+    {
+      "en": "+(12-15)% Attack and Spell Block Chance",
+      "cn": "+(12-15)% 攻击与法术格挡率"
+    },
+    {
+      "en": "+(9-11)% Attack and Spell Block Chance",
+      "cn": "+(9-11)% 攻击与法术格挡率"
+    },
+    {
+      "en": "+(7-8)% Attack and Spell Block Chance",
+      "cn": "+(7-8)% 攻击与法术格挡率"
+    },
+    { "en": "+(25-35)% Fire Resistance", "cn": "+(25-35)% 火焰抗性" },
+    { "en": "+(19-27)% Fire Resistance", "cn": "+(19-27)% 火焰抗性" },
+    { "en": "+(16-19)% Fire Resistance", "cn": "+(16-19)% 火焰抗性" },
+    { "en": "+(11-14)% Fire Resistance", "cn": "+(11-14)% 火焰抗性" },
+    { "en": "+(9-11)% Fire Resistance", "cn": "+(9-11)% 火焰抗性" },
+    { "en": "+(25-35)% Cold Resistance", "cn": "+(25-35)% 冰冷抗性" },
+    { "en": "+(19-27)% Cold Resistance", "cn": "+(19-27)% 冰冷抗性" },
+    { "en": "+(16-19)% Cold Resistance", "cn": "+(16-19)% 冰冷抗性" },
+    { "en": "+(11-14)% Cold Resistance", "cn": "+(11-14)% 冰冷抗性" },
+    { "en": "+(9-11)% Cold Resistance", "cn": "+(9-11)% 冰冷抗性" },
+    { "en": "+(25-35)% Lightning Resistance", "cn": "+(25-35)% 闪电抗性" },
+    { "en": "+(19-27)% Lightning Resistance", "cn": "+(19-27)% 闪电抗性" },
+    { "en": "+(16-19)% Lightning Resistance", "cn": "+(16-19)% 闪电抗性" },
+    { "en": "+(11-14)% Lightning Resistance", "cn": "+(11-14)% 闪电抗性" },
+    { "en": "+(9-11)% Lightning Resistance", "cn": "+(9-11)% 闪电抗性" },
+    { "en": "+(25-35)% Erosion Resistance", "cn": "+(25-35)% 腐蚀抗性" },
+    { "en": "+(19-27)% Erosion Resistance", "cn": "+(19-27)% 腐蚀抗性" },
+    { "en": "+(16-19)% Erosion Resistance", "cn": "+(16-19)% 腐蚀抗性" },
+    { "en": "+(11-14)% Erosion Resistance", "cn": "+(11-14)% 腐蚀抗性" },
+    { "en": "+(9-11)% Erosion Resistance", "cn": "+(9-11)% 腐蚀抗性" },
+    { "en": "+(37-47)% Focus Speed", "cn": "+(37-47)% 贯注速度" },
+    { "en": "+(26-36)% Focus Speed", "cn": "+(26-36)% 贯注速度" },
+    { "en": "+(19-25)% Focus Speed", "cn": "+(19-25)% 贯注速度" },
+    { "en": "+(33-42)% Max Mana", "cn": "+(33-42)% 最大魔力" },
+    { "en": "+(23-32)% Max Mana", "cn": "+(23-32)% 最大魔力" },
+    { "en": "+(17-22)% Max Mana", "cn": "+(17-22)% 最大魔力" },
+    { "en": "+(14-16)% Max Mana", "cn": "+(14-16)% 最大魔力" },
+    { "en": "+(11-13)% Max Mana", "cn": "+(11-13)% 最大魔力" },
+    {
+      "en": "+(25-31)% Skill Effect Duration",
+      "cn": "+(25-31)% 技能效果持续时间"
+    },
+    {
+      "en": "+(18-24)% Skill Effect Duration",
+      "cn": "+(18-24)% 技能效果持续时间"
+    },
+    {
+      "en": "+(13-17)% Skill Effect Duration",
+      "cn": "+(13-17)% 技能效果持续时间"
+    },
+    {
+      "en": "+(10-12)% Skill Effect Duration",
+      "cn": "+(10-12)% 技能效果持续时间"
+    },
+    {
+      "en": "+(22-31)% Cooldown Recovery Speed",
+      "cn": "+(22-31)% 冷却回复速度"
+    },
+    {
+      "en": "+(17-24)% Cooldown Recovery Speed",
+      "cn": "+(17-24)% 冷却回复速度"
+    },
+    {
+      "en": "+(14-17)% Cooldown Recovery Speed",
+      "cn": "+(14-17)% 冷却回复速度"
+    },
+    {
+      "en": "+(10-12)% Cooldown Recovery Speed",
+      "cn": "+(10-12)% 冷却回复速度"
+    },
+    {
+      "en": "+(27-34)% chance to deal Double Damage",
+      "cn": "+(27-34)% 几率造成双倍伤害"
+    },
+    {
+      "en": "+(19-26)% chance to deal Double Damage",
+      "cn": "+(19-26)% 几率造成双倍伤害"
+    },
+    {
+      "en": "+(14-18)% chance to deal Double Damage",
+      "cn": "+(14-18)% 几率造成双倍伤害"
+    },
+    {
+      "en": "+(10-13)% chance to deal Double Damage",
+      "cn": "+(10-13)% 几率造成双倍伤害"
+    },
+    {
+      "en": "+(40-50)% chance to launch one more wave when casting a Barrage Skill",
+      "cn": "+(40-50)% 概率该次轰炸技能总波次+1"
+    },
+    {
+      "en": "+(30-37)% chance to launch one more wave when casting a Barrage Skill",
+      "cn": "+(30-37)% 概率该次轰炸技能总波次+1"
+    },
+    {
+      "en": "+(20-28)% chance to launch one more wave when casting a Barrage Skill",
+      "cn": "+(20-28)% 概率该次轰炸技能总波次+1"
+    },
+    { "en": "+(20-24)% Skill Area", "cn": "+(20-24)% 技能范围" },
+    { "en": "+(20-25)% Movement Speed", "cn": "+(20-25)% 移动速度" },
+    {
+      "en": "+(12-20)% Critical Strike Damage Mitigation",
+      "cn": "+(12-20)% 暴击伤害减免"
+    },
+    { "en": "+(15-20)% Movement Speed", "cn": "+(15-20)% 移动速度" },
+    {
+      "en": "+(30-40)% Cooldown Recovery Speed for Mobility Skills",
+      "cn": "+(30-40)% 位移技能冷却回复速度"
+    },
+    { "en": "+(15-20)% Max Energy Shield", "cn": "+(15-20)% 最大护盾" },
+    { "en": "+(15-20)% Max Life", "cn": "+(15-20)% 最大生命" },
+    { "en": "+(30-50)% gear Evasion", "cn": "+(30-50)% 该装备闪避值" },
+    { "en": "+(50-70)% damage", "cn": "+(50-70)% 伤害" },
+    {
+      "en": "+(15-20)% Cooldown Recovery Speed",
+      "cn": "+(15-20)% 冷却回复速度"
+    },
+    { "en": "+(73-94)% Minion Damage", "cn": "+(73-94)% 召唤物伤害" },
+    { "en": "+(37-50)% Minion Damage", "cn": "+(37-50)% 召唤物伤害" },
+    { "en": "+(30-36)% Minion Damage", "cn": "+(30-36)% 召唤物伤害" },
+    {
+      "en": "+(61-78)% Critical Strike Damage Mitigation",
+      "cn": "+(61-78)% 暴击伤害减免"
+    },
+    {
+      "en": "+(43-60)% Critical Strike Damage Mitigation",
+      "cn": "+(43-60)% 暴击伤害减免"
+    },
+    {
+      "en": "+(31-42)% Critical Strike Damage Mitigation",
+      "cn": "+(31-42)% 暴击伤害减免"
+    },
+    {
+      "en": "+(25-30)% Critical Strike Damage Mitigation",
+      "cn": "+(25-30)% 暴击伤害减免"
+    },
+    {
+      "en": "+(19-24)% Critical Strike Damage Mitigation",
+      "cn": "+(19-24)% 暴击伤害减免"
+    },
+    { "en": "+(46-59)% Projectile Speed", "cn": "+(46-59)% 投射物速度" },
+    { "en": "+(33-45)% Projectile Speed", "cn": "+(33-45)% 投射物速度" },
+    { "en": "+(24-32)% Projectile Speed", "cn": "+(24-32)% 投射物速度" },
+    { "en": "+(17-23)% Projectile Speed", "cn": "+(17-23)% 投射物速度" },
+    { "en": "+(12-16)% Projectile Speed", "cn": "+(12-16)% 投射物速度" },
+    { "en": "+(16-20)% additional Max Life", "cn": "+(16-20)% 最大生命" },
+    { "en": "+(12-15)% additional Max Life", "cn": "+(12-15)% 最大生命" },
+    { "en": "+(9-11)% additional Max Life", "cn": "+(9-11)% 最大生命" },
+    { "en": "+(7-8)% additional Max Life", "cn": "+(7-8)% 最大生命" },
+    { "en": "+6% additional Max Life", "cn": "+6% 最大生命" },
+    {
+      "en": "+(31-40)% chance to avoid Spell Damage",
+      "cn": "+(31-40)% 几率避免法术伤害"
+    },
+    {
+      "en": "+(26-30)% chance to avoid Spell Damage",
+      "cn": "+(26-30)% 几率避免法术伤害"
+    },
+    {
+      "en": "+(21-25)% chance to avoid Spell Damage",
+      "cn": "+(21-25)% 几率避免法术伤害"
+    },
+    {
+      "en": "+(16-20)% chance to avoid Spell Damage",
+      "cn": "+(16-20)% 几率避免法术伤害"
+    },
+    {
+      "en": "+(10-15)% chance to avoid Spell Damage",
+      "cn": "+(10-15)% 几率避免法术伤害"
+    },
+    {
+      "en": "(21-26)% of damage is taken from Mana before life",
+      "cn": "(21-26)% 的伤害优先抵扣魔力"
+    },
+    {
+      "en": "(15-20)% of damage is taken from Mana before life",
+      "cn": "(15-20)% 的伤害优先抵扣魔力"
+    },
+    {
+      "en": "(11-14)% of damage is taken from Mana before life",
+      "cn": "(11-14)% 的伤害优先抵扣魔力"
+    },
+    {
+      "en": "(8-10)% of damage is taken from Mana before life",
+      "cn": "(8-10)% 的伤害优先抵扣魔力"
+    },
+    {
+      "en": "(6-7)% of damage is taken from Mana before life",
+      "cn": "(6-7)% 的伤害优先抵扣魔力"
+    },
+    { "en": "+(121-156)% Critical Strike Rating", "cn": "+(121-156)% 暴击值" },
+    { "en": "+(87-120)% Critical Strike Rating", "cn": "+(87-120)% 暴击值" },
+    { "en": "+(62-86)% Critical Strike Rating", "cn": "+(62-86)% 暴击值" },
+    { "en": "+(45-61)% Critical Strike Rating", "cn": "+(45-61)% 暴击值" },
+    { "en": "+(30-44)% Critical Strike Rating", "cn": "+(30-44)% 暴击值" },
+    { "en": "+(41-52)% Movement Speed", "cn": "+(41-52)% 移动速度" },
+    { "en": "+(29-40)% Movement Speed", "cn": "+(29-40)% 移动速度" },
+    { "en": "+(21-28)% Movement Speed", "cn": "+(21-28)% 移动速度" },
+    { "en": "+(17-20)% Movement Speed", "cn": "+(17-20)% 移动速度" },
+    { "en": "+(14-16)% Movement Speed", "cn": "+(14-16)% 移动速度" },
+    { "en": "+(61-78)% Critical Strike Damage", "cn": "+(61-78)% 暴击伤害" },
+    { "en": "+(44-60)% Critical Strike Damage", "cn": "+(44-60)% 暴击伤害" },
+    { "en": "+(32-43)% Critical Strike Damage", "cn": "+(32-43)% 暴击伤害" },
+    { "en": "+(23-31)% Critical Strike Damage", "cn": "+(23-31)% 暴击伤害" },
+    { "en": "+(16-22)% Critical Strike Damage", "cn": "+(16-22)% 暴击伤害" },
+    { "en": "+(51-65)% Reaping Duration", "cn": "+(51-65)% 收割时间" },
+    { "en": "+(36-50)% Reaping Duration", "cn": "+(36-50)% 收割时间" },
+    { "en": "+(26-35)% Reaping Duration", "cn": "+(26-35)% 收割时间" },
+    { "en": "+(21-25)% Reaping Duration", "cn": "+(21-25)% 收割时间" },
+    { "en": "+(17-20)% Reaping Duration", "cn": "+(17-20)% 收割时间" },
+    {
+      "en": "+(27-34)% Cooldown Recovery Speed",
+      "cn": "+(27-34)% 冷却回复速度"
+    },
+    {
+      "en": "+(19-26)% Cooldown Recovery Speed",
+      "cn": "+(19-26)% 冷却回复速度"
+    },
+    {
+      "en": "+(14-18)% Cooldown Recovery Speed",
+      "cn": "+(14-18)% 冷却回复速度"
+    },
+    {
+      "en": "+(11-13)% Cooldown Recovery Speed",
+      "cn": "+(11-13)% 冷却回复速度"
+    },
+    {
+      "en": "+(23-29)% additional Evasion while moving",
+      "cn": "+(23-29)% 闪避值"
+    },
+    {
+      "en": "+(17-22)% additional Evasion while moving",
+      "cn": "+(17-22)% 闪避值"
+    },
+    {
+      "en": "+(12-16)% additional Evasion while moving",
+      "cn": "+(12-16)% 闪避值"
+    },
+    {
+      "en": "+(9-11)% additional Evasion while moving",
+      "cn": "+(9-11)% 闪避值"
+    },
+    { "en": "+(6-8)% additional Evasion while moving", "cn": "+(6-8)% 闪避值" },
+    { "en": "+(30-50)% gear Energy Shield", "cn": "+(30-50)% 该装备护盾" },
+    { "en": "+(61-86)% gear Energy Shield", "cn": "+(61-86)% 该装备护盾" },
+    { "en": "+(47-66)% gear Energy Shield", "cn": "+(47-66)% 该装备护盾" },
+    { "en": "+(39-46)% gear Energy Shield", "cn": "+(39-46)% 该装备护盾" },
+    { "en": "+(28-33)% gear Energy Shield", "cn": "+(28-33)% 该装备护盾" },
+    { "en": "+(23-26)% gear Energy Shield", "cn": "+(23-26)% 该装备护盾" },
+    {
+      "en": "+(16-20)% additional Max Energy Shield",
+      "cn": "+(16-20)% 最大护盾"
+    },
+    {
+      "en": "+(12-15)% additional Max Energy Shield",
+      "cn": "+(12-15)% 最大护盾"
+    },
+    {
+      "en": "+(9-11)% additional Max Energy Shield",
+      "cn": "+(9-11)% 最大护盾"
+    },
+    { "en": "+(7-8)% additional Max Energy Shield", "cn": "+(7-8)% 最大护盾" },
+    { "en": "+6% additional Max Energy Shield", "cn": "+6% 最大护盾" },
+    {
+      "en": "+(18-22)% additional Max Energy Shield while moving",
+      "cn": "+(18-22)% 最大护盾"
+    },
+    {
+      "en": "+(13-17)% additional Max Energy Shield while moving",
+      "cn": "+(13-17)% 最大护盾"
+    },
+    {
+      "en": "+(10-12)% additional Max Energy Shield while moving",
+      "cn": "+(10-12)% 最大护盾"
+    },
+    {
+      "en": "+(8-9)% additional Max Energy Shield while moving",
+      "cn": "+(8-9)% 最大护盾"
+    },
+    {
+      "en": "+(6-7)% additional Max Energy Shield while moving",
+      "cn": "+(6-7)% 最大护盾"
+    },
+    { "en": "+(30-50)% Gear Armor", "cn": "+(30-50)% 该装备护甲值" },
+    {
+      "en": "+(23-29)% additional Armor while moving",
+      "cn": "+(23-29)% 护甲值"
+    },
+    {
+      "en": "+(17-22)% additional Armor while moving",
+      "cn": "+(17-22)% 护甲值"
+    },
+    {
+      "en": "+(12-16)% additional Armor while moving",
+      "cn": "+(12-16)% 护甲值"
+    },
+    { "en": "+(9-11)% additional Armor while moving", "cn": "+(9-11)% 护甲值" },
+    { "en": "+(6-8)% additional Armor while moving", "cn": "+(6-8)% 护甲值" },
+    { "en": "+(40-48)% Physical Damage", "cn": "+(40-48)% 物理伤害" },
+    { "en": "+(40-48)% Elemental Damage", "cn": "+(40-48)% 元素伤害" },
+    { "en": "+(40-48)% Erosion Damage", "cn": "+(40-48)% 腐蚀伤害" },
+    { "en": "+(40-48)% Ranged Damage", "cn": "+(40-48)% 远程伤害" },
+    { "en": "+(12-16)% Attack Speed", "cn": "+(12-16)% 攻击速度" },
+    {
+      "en": "+(12-16)% Elemental and Erosion Resistance Penetration",
+      "cn": "+(12-16)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "en": "+(10-14)% Armor DMG Mitigation Penetration",
+      "cn": "+(10-14)% 护甲减伤穿透"
+    },
+    {
+      "en": "+(48-64)% Gear Physical Damage",
+      "cn": "+(48-64)% 该装备物理伤害"
+    },
+    {
+      "en": "+(15-25)% Gear Physical Damage",
+      "cn": "+(15-25)% 该装备物理伤害"
+    },
+    { "en": "+(5-8)% gear Attack Speed", "cn": "+(5-8)% 该装备攻击速度" },
+    {
+      "en": "+(3-6)% Attack Critical Strike Rating for this gear",
+      "cn": "+(3-6)% 该装备攻击暴击值"
+    },
+    { "en": "+(15-20)% Projectile Speed", "cn": "+(15-20)% 投射物速度" },
+    { "en": "+(197-281)% Projectile Damage", "cn": "+(197-281)% 投射物伤害" },
+    { "en": "+(152-216)% Projectile Damage", "cn": "+(152-216)% 投射物伤害" },
+    { "en": "+(127-151)% Projectile Damage", "cn": "+(127-151)% 投射物伤害" },
+    { "en": "+(91-108)% Projectile Damage", "cn": "+(91-108)% 投射物伤害" },
+    { "en": "+(73-86)% Projectile Damage", "cn": "+(73-86)% 投射物伤害" },
+    {
+      "en": "+(81-104)% Gear Physical Damage",
+      "cn": "+(81-104)% 该装备物理伤害"
+    },
+    {
+      "en": "+(49-80)% Gear Physical Damage",
+      "cn": "+(49-80)% 该装备物理伤害"
+    },
+    {
+      "en": "+(33-48)% Gear Physical Damage",
+      "cn": "+(33-48)% 该装备物理伤害"
+    },
+    {
+      "en": "+(22-32)% Gear Physical Damage",
+      "cn": "+(22-32)% 该装备物理伤害"
+    },
+    { "en": "+(9-21)% Gear Physical Damage", "cn": "+(9-21)% 该装备物理伤害" },
+    {
+      "en": "+(46-59)% Attack and Spell Block Chance",
+      "cn": "+(46-59)% 攻击与法术格挡率"
+    },
+    {
+      "en": "+(51-64)% Armor DMG Mitigation Penetration",
+      "cn": "+(51-64)% 护甲减伤穿透"
+    },
+    {
+      "en": "+(36-50)% Armor DMG Mitigation Penetration",
+      "cn": "+(36-50)% 护甲减伤穿透"
+    },
+    {
+      "en": "+(30-35)% Armor DMG Mitigation Penetration",
+      "cn": "+(30-35)% 护甲减伤穿透"
+    },
+    {
+      "en": "+(22-25)% Armor DMG Mitigation Penetration",
+      "cn": "+(22-25)% 护甲减伤穿透"
+    },
+    {
+      "en": "+(17-20)% Armor DMG Mitigation Penetration",
+      "cn": "+(17-20)% 护甲减伤穿透"
+    },
+    {
+      "en": "+(61-78)% Elemental and Erosion Resistance Penetration",
+      "cn": "+(61-78)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "en": "+(43-60)% Elemental and Erosion Resistance Penetration",
+      "cn": "+(43-60)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "en": "+(31-42)% Elemental and Erosion Resistance Penetration",
+      "cn": "+(31-42)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "en": "+(25-30)% Elemental and Erosion Resistance Penetration",
+      "cn": "+(25-30)% 元素和腐蚀抗性穿透"
+    },
+    { "en": "+(33-42)% gear Attack Speed", "cn": "+(33-42)% 该装备攻击速度" },
+    { "en": "+(23-32)% gear Attack Speed", "cn": "+(23-32)% 该装备攻击速度" },
+    { "en": "+(17-22)% gear Attack Speed", "cn": "+(17-22)% 该装备攻击速度" },
+    { "en": "+(14-16)% gear Attack Speed", "cn": "+(14-16)% 该装备攻击速度" },
+    { "en": "+(11-13)% gear Attack Speed", "cn": "+(11-13)% 该装备攻击速度" },
+    { "en": "+(217-281)% Physical Damage", "cn": "+(217-281)% 物理伤害" },
+    { "en": "+(152-216)% Physical Damage", "cn": "+(152-216)% 物理伤害" },
+    { "en": "+(109-151)% Physical Damage", "cn": "+(109-151)% 物理伤害" },
+    { "en": "+(87-108)% Physical Damage", "cn": "+(87-108)% 物理伤害" },
+    { "en": "+(70-86)% Physical Damage", "cn": "+(70-86)% 物理伤害" },
+    { "en": "+(217-281)% Erosion Damage", "cn": "+(217-281)% 腐蚀伤害" },
+    { "en": "+(152-216)% Erosion Damage", "cn": "+(152-216)% 腐蚀伤害" },
+    { "en": "+(109-151)% Erosion Damage", "cn": "+(109-151)% 腐蚀伤害" },
+    { "en": "+(87-108)% Erosion Damage", "cn": "+(87-108)% 腐蚀伤害" },
+    { "en": "+(70-86)% Erosion Damage", "cn": "+(70-86)% 腐蚀伤害" },
+    {
+      "en": "+(51-65)% Attack Critical Strike Rating for this gear",
+      "cn": "+(51-65)% 该装备攻击暴击值"
+    },
+    {
+      "en": "+(36-50)% Attack Critical Strike Rating for this gear",
+      "cn": "+(36-50)% 该装备攻击暴击值"
+    },
+    {
+      "en": "+(26-35)% Attack Critical Strike Rating for this gear",
+      "cn": "+(26-35)% 该装备攻击暴击值"
+    },
+    {
+      "en": "+(21-25)% Attack Critical Strike Rating for this gear",
+      "cn": "+(21-25)% 该装备攻击暴击值"
+    },
+    {
+      "en": "+(17-20)% Attack Critical Strike Rating for this gear",
+      "cn": "+(17-20)% 该装备攻击暴击值"
+    },
+    { "en": "+(328-468)% Critical Strike Rating", "cn": "+(328-468)% 暴击值" },
+    { "en": "+(252-360)% Critical Strike Rating", "cn": "+(252-360)% 暴击值" },
+    { "en": "+(212-252)% Critical Strike Rating", "cn": "+(212-252)% 暴击值" },
+    { "en": "+(151-180)% Critical Strike Rating", "cn": "+(151-180)% 暴击值" },
+    { "en": "+(121-144)% Critical Strike Rating", "cn": "+(121-144)% 暴击值" },
+    {
+      "en": "+(181-234)% Critical Strike Damage",
+      "cn": "+(181-234)% 暴击伤害"
+    },
+    {
+      "en": "+(127-180)% Critical Strike Damage",
+      "cn": "+(127-180)% 暴击伤害"
+    },
+    { "en": "+(91-126)% Critical Strike Damage", "cn": "+(91-126)% 暴击伤害" },
+    { "en": "+(73-90)% Critical Strike Damage", "cn": "+(73-90)% 暴击伤害" },
+    { "en": "+(59-72)% Critical Strike Damage", "cn": "+(59-72)% 暴击伤害" },
+    { "en": "+(120-140)% Focus Speed", "cn": "+(120-140)% 贯注速度" },
+    { "en": "+(90-110)% Focus Speed", "cn": "+(90-110)% 贯注速度" },
+    { "en": "+(60-80)% Focus Speed", "cn": "+(60-80)% 贯注速度" },
+    {
+      "en": "+(61-78)% additional Projectile Damage",
+      "cn": "+(61-78)% 投射物伤害"
+    },
+    {
+      "en": "+(43-60)% additional Projectile Damage",
+      "cn": "+(43-60)% 投射物伤害"
+    },
+    {
+      "en": "+(31-42)% additional Projectile Damage",
+      "cn": "+(31-42)% 投射物伤害"
+    },
+    {
+      "en": "+(25-30)% additional Projectile Damage",
+      "cn": "+(25-30)% 投射物伤害"
+    },
+    {
+      "en": "+(96-120)% Focus Damage Enhancement",
+      "cn": "+(96-120)% 贯注伤害加深"
+    },
+    {
+      "en": "+(70-90)% Focus Damage Enhancement",
+      "cn": "+(70-90)% 贯注伤害加深"
+    },
+    {
+      "en": "+(40-60)% Focus Damage Enhancement",
+      "cn": "+(40-60)% 贯注伤害加深"
+    },
+    { "en": "+(20-24)% Physical Damage", "cn": "+(20-24)% 物理伤害" },
+    { "en": "+(20-24)% Elemental Damage", "cn": "+(20-24)% 元素伤害" },
+    { "en": "+(20-24)% Erosion Damage", "cn": "+(20-24)% 腐蚀伤害" },
+    { "en": "+(20-24)% Ranged Damage", "cn": "+(20-24)% 远程伤害" },
+    { "en": "+(6-8)% Attack Speed", "cn": "+(6-8)% 攻击速度" },
+    {
+      "en": "+(6-8)% Elemental and Erosion Resistance Penetration",
+      "cn": "+(6-8)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "en": "+(5-7)% Armor DMG Mitigation Penetration",
+      "cn": "+(5-7)% 护甲减伤穿透"
+    },
+    {
+      "en": "+(24-32)% Gear Physical Damage",
+      "cn": "+(24-32)% 该装备物理伤害"
+    },
+    {
+      "en": "+(6-8)% additional Projectile Damage",
+      "cn": "+(6-8)% 投射物伤害"
+    },
+    {
+      "en": "+(5-8)% chance to trigger the Main Spell Skill 1 additional time when using it",
+      "cn": "+(5-8)% 几率额外触发一次"
+    },
+    { "en": "+(10-16)% Cast Speed", "cn": "+(10-16)% 施法速度" },
+    { "en": "+(20-30)% Spell Damage", "cn": "+(20-30)% 法术伤害" },
+    {
+      "en": "+(30-40)% Spell Critical Strike Rating",
+      "cn": "+(30-40)% 法术暴击值"
+    },
+    { "en": "+(25-32)% Critical Strike Damage", "cn": "+(25-32)% 暴击伤害" },
+    { "en": "+(6-10)% Cooldown Recovery Speed", "cn": "+(6-10)% 冷却回复速度" },
+    { "en": "+(109-140)% Projectile Damage", "cn": "+(109-140)% 投射物伤害" },
+    { "en": "+(78-108)% Projectile Damage", "cn": "+(78-108)% 投射物伤害" },
+    { "en": "+(56-77)% Projectile Damage", "cn": "+(56-77)% 投射物伤害" },
+    { "en": "+(40-55)% Projectile Damage", "cn": "+(40-55)% 投射物伤害" },
+    { "en": "+(27-39)% Projectile Damage", "cn": "+(27-39)% 投射物伤害" },
+    {
+      "en": "+(101-130)% Gear Physical Damage",
+      "cn": "+(101-130)% 该装备物理伤害"
+    },
+    {
+      "en": "+(56-100)% Gear Physical Damage",
+      "cn": "+(56-100)% 该装备物理伤害"
+    },
+    {
+      "en": "+(46-55)% Gear Physical Damage",
+      "cn": "+(46-55)% 该装备物理伤害"
+    },
+    {
+      "en": "+(36-45)% Gear Physical Damage",
+      "cn": "+(36-45)% 该装备物理伤害"
+    },
+    {
+      "en": "+(26-35)% Gear Physical Damage",
+      "cn": "+(26-35)% 该装备物理伤害"
+    },
+    {
+      "en": "+(31-39)% Attack and Spell Block Chance",
+      "cn": "+(31-39)% 攻击与法术格挡率"
+    },
+    {
+      "en": "+(26-32)% Armor DMG Mitigation Penetration",
+      "cn": "+(26-32)% 护甲减伤穿透"
+    },
+    {
+      "en": "+(18-25)% Armor DMG Mitigation Penetration",
+      "cn": "+(18-25)% 护甲减伤穿透"
+    },
+    {
+      "en": "+(15-17)% Armor DMG Mitigation Penetration",
+      "cn": "+(15-17)% 护甲减伤穿透"
+    },
+    {
+      "en": "+(11-12)% Armor DMG Mitigation Penetration",
+      "cn": "+(11-12)% 护甲减伤穿透"
+    },
+    {
+      "en": "+(9-10)% Armor DMG Mitigation Penetration",
+      "cn": "+(9-10)% 护甲减伤穿透"
+    },
+    {
+      "en": "+(31-39)% Elemental and Erosion Resistance Penetration",
+      "cn": "+(31-39)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "en": "+(22-30)% Elemental and Erosion Resistance Penetration",
+      "cn": "+(22-30)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "en": "+(16-21)% Elemental and Erosion Resistance Penetration",
+      "cn": "+(16-21)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "en": "+(12-15)% Elemental and Erosion Resistance Penetration",
+      "cn": "+(12-15)% 元素和腐蚀抗性穿透"
+    },
+    { "en": "+(29-41)% gear Attack Speed", "cn": "+(29-41)% 该装备攻击速度" },
+    { "en": "+(19-22)% gear Attack Speed", "cn": "+(19-22)% 该装备攻击速度" },
+    { "en": "+(109-140)% Physical Damage", "cn": "+(109-140)% 物理伤害" },
+    { "en": "+(77-108)% Physical Damage", "cn": "+(77-108)% 物理伤害" },
+    { "en": "+(55-76)% Physical Damage", "cn": "+(55-76)% 物理伤害" },
+    { "en": "+(44-54)% Physical Damage", "cn": "+(44-54)% 物理伤害" },
+    { "en": "+(36-43)% Physical Damage", "cn": "+(36-43)% 物理伤害" },
+    { "en": "+(109-140)% Erosion Damage", "cn": "+(109-140)% 腐蚀伤害" },
+    { "en": "+(77-108)% Erosion Damage", "cn": "+(77-108)% 腐蚀伤害" },
+    { "en": "+(55-76)% Erosion Damage", "cn": "+(55-76)% 腐蚀伤害" },
+    { "en": "+(44-54)% Erosion Damage", "cn": "+(44-54)% 腐蚀伤害" },
+    { "en": "+(36-43)% Erosion Damage", "cn": "+(36-43)% 腐蚀伤害" },
+    {
+      "en": "+(47-64)% Attack Critical Strike Rating for this gear",
+      "cn": "+(47-64)% 该装备攻击暴击值"
+    },
+    {
+      "en": "+(30-35)% Attack Critical Strike Rating for this gear",
+      "cn": "+(30-35)% 该装备攻击暴击值"
+    },
+    {
+      "en": "+(22-25)% Attack Critical Strike Rating for this gear",
+      "cn": "+(22-25)% 该装备攻击暴击值"
+    },
+    { "en": "+(166-234)% Critical Strike Rating", "cn": "+(166-234)% 暴击值" },
+    { "en": "+(128-180)% Critical Strike Rating", "cn": "+(128-180)% 暴击值" },
+    { "en": "+(107-126)% Critical Strike Rating", "cn": "+(107-126)% 暴击值" },
+    { "en": "+(77-90)% Critical Strike Rating", "cn": "+(77-90)% 暴击值" },
+    { "en": "+(61-72)% Critical Strike Rating", "cn": "+(61-72)% 暴击值" },
+    { "en": "+(91-117)% Critical Strike Damage", "cn": "+(91-117)% 暴击伤害" },
+    { "en": "+(64-90)% Critical Strike Damage", "cn": "+(64-90)% 暴击伤害" },
+    { "en": "+(46-63)% Critical Strike Damage", "cn": "+(46-63)% 暴击伤害" },
+    { "en": "+(37-45)% Critical Strike Damage", "cn": "+(37-45)% 暴击伤害" },
+    { "en": "+(30-36)% Critical Strike Damage", "cn": "+(30-36)% 暴击伤害" },
+    { "en": "+(60-70)% Focus Speed", "cn": "+(60-70)% 贯注速度" },
+    { "en": "+(45-54)% Focus Speed", "cn": "+(45-54)% 贯注速度" },
+    { "en": "+(30-40)% Focus Speed", "cn": "+(30-40)% 贯注速度" },
+    {
+      "en": "+(41-52)% chance to deal Double Damage",
+      "cn": "+(41-52)% 几率造成双倍伤害"
+    },
+    {
+      "en": "+(29-40)% chance to deal Double Damage",
+      "cn": "+(29-40)% 几率造成双倍伤害"
+    },
+    {
+      "en": "+(21-28)% chance to deal Double Damage",
+      "cn": "+(21-28)% 几率造成双倍伤害"
+    },
+    {
+      "en": "+(17-20)% chance to deal Double Damage",
+      "cn": "+(17-20)% 几率造成双倍伤害"
+    },
+    {
+      "en": "+(48-60)% Focus Damage Enhancement",
+      "cn": "+(48-60)% 贯注伤害加深"
+    },
+    {
+      "en": "+(35-45)% Focus Damage Enhancement",
+      "cn": "+(35-45)% 贯注伤害加深"
+    },
+    {
+      "en": "+(20-30)% Focus Damage Enhancement",
+      "cn": "+(20-30)% 贯注伤害加深"
+    },
+    { "en": "+(11-13)% Elemental Resistance", "cn": "+(11-13)% 元素抗性" },
+    { "en": "+(8-10)% Elemental Resistance", "cn": "+(8-10)% 元素抗性" },
+    { "en": "+(21-26)% Aura Effect", "cn": "+(21-26)% 光环效果" },
+    { "en": "+(15-20)% Aura Effect", "cn": "+(15-20)% 光环效果" },
+    { "en": "+(11-14)% Aura Effect", "cn": "+(11-14)% 光环效果" },
+    { "en": "+(9-10)% Aura Effect", "cn": "+(9-10)% 光环效果" },
+    {
+      "en": "+(61-78)% Mana Regeneration Speed",
+      "cn": "+(61-78)% 魔力自然回复速度"
+    },
+    {
+      "en": "+(43-60)% Mana Regeneration Speed",
+      "cn": "+(43-60)% 魔力自然回复速度"
+    },
+    {
+      "en": "+(31-42)% Mana Regeneration Speed",
+      "cn": "+(31-42)% 魔力自然回复速度"
+    },
+    {
+      "en": "+(25-30)% Mana Regeneration Speed",
+      "cn": "+(25-30)% 魔力自然回复速度"
+    },
+    {
+      "en": "+(20-24)% Mana Regeneration Speed",
+      "cn": "+(20-24)% 魔力自然回复速度"
+    },
+    { "en": "+(21-26)% additional Armor", "cn": "+(21-26)% 护甲值" },
+    { "en": "+(20-24)% Melee Damage", "cn": "+(20-24)% 近战伤害" },
+    { "en": "+(6-8)% additional Attack Damage", "cn": "+(6-8)% 攻击伤害" },
+    { "en": "+(5-8)% Movement Speed", "cn": "+(5-8)% 移动速度" },
+    { "en": "+(10-15)% Skill Area", "cn": "+(10-15)% 技能范围" },
+    { "en": "+(109-140)% Melee Damage", "cn": "+(109-140)% 近战伤害" },
+    { "en": "+(77-108)% Melee Damage", "cn": "+(77-108)% 近战伤害" },
+    { "en": "+(55-76)% Melee Damage", "cn": "+(55-76)% 近战伤害" },
+    { "en": "+(44-54)% Melee Damage", "cn": "+(44-54)% 近战伤害" },
+    { "en": "+(36-43)% Melee Damage", "cn": "+(36-43)% 近战伤害" },
+    {
+      "en": "+(23-29)% Attack and Spell Block Chance",
+      "cn": "+(23-29)% 攻击与法术格挡率"
+    },
+    {
+      "en": "+(13-17)% Armor DMG Mitigation Penetration",
+      "cn": "+(13-17)% 护甲减伤穿透"
+    },
+    {
+      "en": "+(55-65)% Ailment Damage Enhancement",
+      "cn": "+(55-65)% 异常伤害加深"
+    },
+    {
+      "en": "+(40-50)% Ailment Damage Enhancement",
+      "cn": "+(40-50)% 异常伤害加深"
+    },
+    {
+      "en": "+(25-35)% Ailment Damage Enhancement",
+      "cn": "+(25-35)% 异常伤害加深"
+    },
+    {
+      "en": "+(20-24)% Elemental and Erosion Resistance Penetration",
+      "cn": "+(20-24)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "en": "(61-78)% additional damage applied to Life",
+      "cn": "(61-78)% 伤害"
+    },
+    {
+      "en": "(43-60)% additional damage applied to Life",
+      "cn": "(43-60)% 伤害"
+    },
+    {
+      "en": "(31-42)% additional damage applied to Life",
+      "cn": "(31-42)% 伤害"
+    },
+    {
+      "en": "+(110-130)% Ailment Damage Enhancement",
+      "cn": "+(110-130)% 异常伤害加深"
+    },
+    {
+      "en": "+(80-100)% Ailment Damage Enhancement",
+      "cn": "+(80-100)% 异常伤害加深"
+    },
+    {
+      "en": "+(60-70)% Ailment Damage Enhancement",
+      "cn": "+(60-70)% 异常伤害加深"
+    },
+    { "en": "+(40-48)% Melee Damage", "cn": "+(40-48)% 近战伤害" },
+    { "en": "+(12-16)% additional Attack Damage", "cn": "+(12-16)% 攻击伤害" },
+    {
+      "en": "+(12-16)% additional damage when channeling",
+      "cn": "+(12-16)% 伤害"
+    },
+    { "en": "+(18-24)% Cast Speed", "cn": "+(18-24)% 施法速度" },
+    { "en": "+(35-45)% Spell Damage", "cn": "+(35-45)% 法术伤害" },
+    {
+      "en": "+(50-60)% Spell Critical Strike Rating",
+      "cn": "+(50-60)% 法术暴击值"
+    },
+    { "en": "+(40-48)% Critical Strike Damage", "cn": "+(40-48)% 暴击伤害" },
+    { "en": "+(8-15)% Cooldown Recovery Speed", "cn": "+(8-15)% 冷却回复速度" },
+    { "en": "+(217-281)% Melee Damage", "cn": "+(217-281)% 近战伤害" },
+    { "en": "+(152-216)% Melee Damage", "cn": "+(152-216)% 近战伤害" },
+    { "en": "+(109-151)% Melee Damage", "cn": "+(109-151)% 近战伤害" },
+    { "en": "+(87-108)% Melee Damage", "cn": "+(87-108)% 近战伤害" },
+    { "en": "+(70-86)% Melee Damage", "cn": "+(70-86)% 近战伤害" },
+    { "en": "+(6-8)% additional damage when channeling", "cn": "+(6-8)% 伤害" },
+    {
+      "en": "+(28-39)% Elemental and Erosion Resistance Penetration",
+      "cn": "+(28-39)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "en": "+(18-21)% Elemental and Erosion Resistance Penetration",
+      "cn": "+(18-21)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "en": "+(13-15)% Elemental and Erosion Resistance Penetration",
+      "cn": "+(13-15)% 元素和腐蚀抗性穿透"
+    },
+    { "en": "+(12-15)% Attack Speed", "cn": "+(12-15)% 攻击速度" },
+    { "en": "+(12-15)% Cast Speed", "cn": "+(12-15)% 施法速度" },
+    { "en": "+(111-156)% Critical Strike Rating", "cn": "+(111-156)% 暴击值" },
+    { "en": "+(85-120)% Critical Strike Rating", "cn": "+(85-120)% 暴击值" },
+    { "en": "+(71-84)% Critical Strike Rating", "cn": "+(71-84)% 暴击值" },
+    { "en": "+(51-60)% Critical Strike Rating", "cn": "+(51-60)% 暴击值" },
+    { "en": "+(41-48)% Critical Strike Rating", "cn": "+(41-48)% 暴击值" },
+    {
+      "en": "(-50--30)% Curse effect against you",
+      "cn": "(-50--30)% 受到诅咒效果"
+    },
+    {
+      "en": "+(55-78)% Mana Regeneration Speed",
+      "cn": "+(55-78)% 魔力自然回复速度"
+    },
+    {
+      "en": "+(42-60)% Mana Regeneration Speed",
+      "cn": "+(42-60)% 魔力自然回复速度"
+    },
+    {
+      "en": "+(35-42)% Mana Regeneration Speed",
+      "cn": "+(35-42)% 魔力自然回复速度"
+    },
+    { "en": "+(17-21)% Max Energy Shield", "cn": "+(17-21)% 最大护盾" },
+    { "en": "+(12-16)% Max Energy Shield", "cn": "+(12-16)% 最大护盾" },
+    { "en": "+(9-11)% Max Energy Shield", "cn": "+(9-11)% 最大护盾" },
+    { "en": "+(7-8)% Max Energy Shield", "cn": "+(7-8)% 最大护盾" },
+    { "en": "+6% Max Energy Shield", "cn": "+6% 最大护盾" },
+    { "en": "+(2-3)% damage per stack of any Blessing", "cn": "+(2-3)% 伤害" },
+    { "en": "+(30-40)% Skill Area", "cn": "+(30-40)% 技能范围" },
+    {
+      "en": "+(15-20)% Skill Effect Duration",
+      "cn": "+(15-20)% 技能效果持续时间"
+    },
+    { "en": "+(37-47)% Armor", "cn": "+(37-47)% 护甲值" },
+    { "en": "+(27-36)% Armor", "cn": "+(27-36)% 护甲值" },
+    { "en": "+(19-26)% Armor", "cn": "+(19-26)% 护甲值" },
+    { "en": "+(14-18)% Armor", "cn": "+(14-18)% 护甲值" },
+    { "en": "+(10-13)% Armor", "cn": "+(10-13)% 护甲值" },
+    { "en": "+(37-47)% Evasion", "cn": "+(37-47)% 闪避值" },
+    { "en": "+(27-36)% Evasion", "cn": "+(27-36)% 闪避值" },
+    { "en": "+(19-26)% Evasion", "cn": "+(19-26)% 闪避值" },
+    { "en": "+(14-18)% Evasion", "cn": "+(14-18)% 闪避值" },
+    { "en": "+(10-13)% Evasion", "cn": "+(10-13)% 闪避值" },
+    { "en": "+(19-23)% Projectile Speed", "cn": "+(19-23)% 投射物速度" },
+    { "en": "+(42-60)% Critical Strike Damage", "cn": "+(42-60)% 暴击伤害" },
+    { "en": "+(35-42)% Critical Strike Damage", "cn": "+(35-42)% 暴击伤害" },
+    { "en": "+(25-30)% Critical Strike Damage", "cn": "+(25-30)% 暴击伤害" },
+    { "en": "+(20-24)% Critical Strike Damage", "cn": "+(20-24)% 暴击伤害" },
+    { "en": "+(19-23)% Blessing Duration", "cn": "+(19-23)% 祝福持续时间" },
+    { "en": "+(14-18)% Blessing Duration", "cn": "+(14-18)% 祝福持续时间" },
+    { "en": "+(10-13)% Blessing Duration", "cn": "+(10-13)% 祝福持续时间" },
+    { "en": "+(8-9)% Blessing Duration", "cn": "+(8-9)% 祝福持续时间" },
+    { "en": "+7% Blessing Duration", "cn": "+7% 祝福持续时间" },
+    { "en": "+(7-8)% damage per stack of any Blessing", "cn": "+(7-8)% 伤害" },
+    { "en": "+(5-6)% damage per stack of any Blessing", "cn": "+(5-6)% 伤害" },
+    { "en": "+(25-30)% Projectile Speed", "cn": "+(25-30)% 投射物速度" },
+    { "en": "+(6-8)% Attack and Cast Speed", "cn": "+(6-8)% 攻击和施法速度" },
+    {
+      "en": "+(20-25)% chance to launch one more wave when casting a Barrage Skill",
+      "cn": "+(20-25)% 概率该次轰炸技能总波次+1"
+    },
+    { "en": "+(8-10)% Strength", "cn": "+(8-10)% 力量" },
+    { "en": "+(8-10)% Dexterity", "cn": "+(8-10)% 敏捷" },
+    { "en": "+(8-10)% Intelligence", "cn": "+(8-10)% 智慧" },
+    { "en": "+(6-8)% Cast Speed", "cn": "+(6-8)% 施法速度" },
+    { "en": "+(15-25)% Max Life", "cn": "+(15-25)% 最大生命" },
+    { "en": "+(15-25)% Max Energy Shield", "cn": "+(15-25)% 最大护盾" },
+    {
+      "en": "+(21-26)% Elemental and Erosion Resistance Penetration",
+      "cn": "+(21-26)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "en": "+(15-20)% Elemental and Erosion Resistance Penetration",
+      "cn": "+(15-20)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "en": "+(11-14)% Elemental and Erosion Resistance Penetration",
+      "cn": "+(11-14)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "en": "+(8-10)% Elemental and Erosion Resistance Penetration",
+      "cn": "+(8-10)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "en": "+(6-7)% Elemental and Erosion Resistance Penetration",
+      "cn": "+(6-7)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "en": "+(18-22)% Armor DMG Mitigation Penetration",
+      "cn": "+(18-22)% 护甲减伤穿透"
+    },
+    {
+      "en": "+(10-12)% Armor DMG Mitigation Penetration",
+      "cn": "+(10-12)% 护甲减伤穿透"
+    },
+    {
+      "en": "+(8-9)% Armor DMG Mitigation Penetration",
+      "cn": "+(8-9)% 护甲减伤穿透"
+    },
+    { "en": "+(20-24)% Minion Damage", "cn": "+(20-24)% 召唤物伤害" },
+    {
+      "en": "+(6-8)% Minion Attack and Cast Speed",
+      "cn": "+(6-8)% 召唤物攻击与施法速度"
+    },
+    { "en": "+(6-8)% additional Minion Damage", "cn": "+(6-8)% 召唤物伤害" },
+    {
+      "en": "+(5-7)% Armor DMG Mitigation Penetration for Minions",
+      "cn": "+(5-7)% 护甲减伤穿透"
+    },
+    {
+      "en": "+(5-8)% Elemental and Erosion Resistance Penetration for Minions",
+      "cn": "+(5-8)% 元素和腐蚀抗性穿透"
+    },
+    { "en": "+(20-30)% Minion Damage", "cn": "+(20-30)% 召唤物伤害" },
+    {
+      "en": "+(30-40)% Minion Critical Strike Rating",
+      "cn": "+(30-40)% 召唤物暴击值"
+    },
+    {
+      "en": "+(25-32)% Minion Critical Strike Damage",
+      "cn": "+(25-32)% 召唤物暴击伤害"
+    },
+    { "en": "+(109-140)% Minion Damage", "cn": "+(109-140)% 召唤物伤害" },
+    { "en": "+(77-108)% Minion Damage", "cn": "+(77-108)% 召唤物伤害" },
+    { "en": "+(55-76)% Minion Damage", "cn": "+(55-76)% 召唤物伤害" },
+    { "en": "+(44-54)% Minion Damage", "cn": "+(44-54)% 召唤物伤害" },
+    { "en": "+(36-43)% Minion Damage", "cn": "+(36-43)% 召唤物伤害" },
+    { "en": "+(46-59)% Minion Max Life", "cn": "+(46-59)% 召唤物最大生命" },
+    { "en": "+(33-45)% Minion Max Life", "cn": "+(33-45)% 召唤物最大生命" },
+    { "en": "+(24-32)% Minion Max Life", "cn": "+(24-32)% 召唤物最大生命" },
+    { "en": "+(19-23)% Minion Max Life", "cn": "+(19-23)% 召唤物最大生命" },
+    { "en": "+(15-18)% Minion Max Life", "cn": "+(15-18)% 召唤物最大生命" },
+    {
+      "en": "+(26-36)% Armor DMG Mitigation Penetration for Minions",
+      "cn": "+(26-36)% 护甲减伤穿透"
+    },
+    {
+      "en": "+(18-25)% Armor DMG Mitigation Penetration for Minions",
+      "cn": "+(18-25)% 护甲减伤穿透"
+    },
+    {
+      "en": "+(12-17)% Armor DMG Mitigation Penetration for Minions",
+      "cn": "+(12-17)% 护甲减伤穿透"
+    },
+    {
+      "en": "+(7-11)% Armor DMG Mitigation Penetration for Minions",
+      "cn": "+(7-11)% 护甲减伤穿透"
+    },
+    {
+      "en": "+(5-6)% Armor DMG Mitigation Penetration for Minions",
+      "cn": "+(5-6)% 护甲减伤穿透"
+    },
+    {
+      "en": "+(28-39)% Elemental and Erosion Resistance Penetration for Minions",
+      "cn": "+(28-39)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "en": "+(22-30)% Elemental and Erosion Resistance Penetration for Minions",
+      "cn": "+(22-30)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "en": "+(18-21)% Elemental and Erosion Resistance Penetration for Minions",
+      "cn": "+(18-21)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "en": "+(13-15)% Elemental and Erosion Resistance Penetration for Minions",
+      "cn": "+(13-15)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "en": "+(109-140)% Physical Damage for Minions",
+      "cn": "+(109-140)% 物理伤害"
+    },
+    {
+      "en": "+(77-108)% Physical Damage for Minions",
+      "cn": "+(77-108)% 物理伤害"
+    },
+    {
+      "en": "+(55-76)% Physical Damage for Minions",
+      "cn": "+(55-76)% 物理伤害"
+    },
+    {
+      "en": "+(44-54)% Physical Damage for Minions",
+      "cn": "+(44-54)% 物理伤害"
+    },
+    {
+      "en": "+(36-43)% Physical Damage for Minions",
+      "cn": "+(36-43)% 物理伤害"
+    },
+    {
+      "en": "+(109-140)% Minion Elemental Damage",
+      "cn": "+(109-140)% 召唤物元素伤害"
+    },
+    {
+      "en": "+(77-108)% Minion Elemental Damage",
+      "cn": "+(77-108)% 召唤物元素伤害"
+    },
+    {
+      "en": "+(55-76)% Minion Elemental Damage",
+      "cn": "+(55-76)% 召唤物元素伤害"
+    },
+    {
+      "en": "+(44-54)% Minion Elemental Damage",
+      "cn": "+(44-54)% 召唤物元素伤害"
+    },
+    {
+      "en": "+(36-43)% Minion Elemental Damage",
+      "cn": "+(36-43)% 召唤物元素伤害"
+    },
+    {
+      "en": "+(109-140)% Minion Erosion Damage",
+      "cn": "+(109-140)% 召唤物腐蚀伤害"
+    },
+    {
+      "en": "+(77-108)% Minion Erosion Damage",
+      "cn": "+(77-108)% 召唤物腐蚀伤害"
+    },
+    {
+      "en": "+(55-76)% Minion Erosion Damage",
+      "cn": "+(55-76)% 召唤物腐蚀伤害"
+    },
+    {
+      "en": "+(44-54)% Minion Erosion Damage",
+      "cn": "+(44-54)% 召唤物腐蚀伤害"
+    },
+    {
+      "en": "+(36-43)% Minion Erosion Damage",
+      "cn": "+(36-43)% 召唤物腐蚀伤害"
+    },
+    {
+      "en": "+(181-234)% Minion Critical Strike Rating",
+      "cn": "+(181-234)% 召唤物暴击值"
+    },
+    {
+      "en": "+(127-180)% Minion Critical Strike Rating",
+      "cn": "+(127-180)% 召唤物暴击值"
+    },
+    {
+      "en": "+(91-126)% Minion Critical Strike Rating",
+      "cn": "+(91-126)% 召唤物暴击值"
+    },
+    {
+      "en": "+(73-90)% Minion Critical Strike Rating",
+      "cn": "+(73-90)% 召唤物暴击值"
+    },
+    {
+      "en": "+(59-72)% Minion Critical Strike Rating",
+      "cn": "+(59-72)% 召唤物暴击值"
+    },
+    { "en": "+(73-94)% Minion Skill Area", "cn": "+(73-94)% 召唤物技能范围" },
+    { "en": "+(51-72)% Minion Skill Area", "cn": "+(51-72)% 召唤物技能范围" },
+    { "en": "+(37-50)% Minion Skill Area", "cn": "+(37-50)% 召唤物技能范围" },
+    { "en": "+(30-36)% Minion Skill Area", "cn": "+(30-36)% 召唤物技能范围" },
+    { "en": "+(24-29)% Minion Skill Area", "cn": "+(24-29)% 召唤物技能范围" },
+    {
+      "en": "+(151-195)% Minion Critical Strike Damage",
+      "cn": "+(151-195)% 召唤物暴击伤害"
+    },
+    {
+      "en": "+(106-150)% Minion Critical Strike Damage",
+      "cn": "+(106-150)% 召唤物暴击伤害"
+    },
+    {
+      "en": "+(76-105)% Minion Critical Strike Damage",
+      "cn": "+(76-105)% 召唤物暴击伤害"
+    },
+    {
+      "en": "+(61-75)% Minion Critical Strike Damage",
+      "cn": "+(61-75)% 召唤物暴击伤害"
+    },
+    {
+      "en": "+(49-60)% Minion Critical Strike Damage",
+      "cn": "+(49-60)% 召唤物暴击伤害"
+    },
+    {
+      "en": "+(41-52)% chance for Minions to deal Double Damage",
+      "cn": "+(41-52)% 几率造成双倍伤害"
+    },
+    {
+      "en": "+(29-40)% chance for Minions to deal Double Damage",
+      "cn": "+(29-40)% 几率造成双倍伤害"
+    },
+    {
+      "en": "+(21-28)% chance for Minions to deal Double Damage",
+      "cn": "+(21-28)% 几率造成双倍伤害"
+    },
+    {
+      "en": "+(17-20)% chance for Minions to deal Double Damage",
+      "cn": "+(17-20)% 几率造成双倍伤害"
+    },
+    { "en": "+(20-24)% Spell Damage", "cn": "+(20-24)% 法术伤害" },
+    { "en": "+(6-8)% additional Damage Over Time", "cn": "+(6-8)% 持续伤害" },
+    { "en": "+(109-140)% Damage Over Time", "cn": "+(109-140)% 持续伤害" },
+    { "en": "+(77-108)% Damage Over Time", "cn": "+(77-108)% 持续伤害" },
+    { "en": "+(55-76)% Damage Over Time", "cn": "+(55-76)% 持续伤害" },
+    { "en": "+(44-54)% Damage Over Time", "cn": "+(44-54)% 持续伤害" },
+    { "en": "+(36-43)% Damage Over Time", "cn": "+(36-43)% 持续伤害" },
+    {
+      "en": "(31-39)% additional damage applied to Life",
+      "cn": "(31-39)% 伤害"
+    },
+    {
+      "en": "(22-30)% additional damage applied to Life",
+      "cn": "(22-30)% 伤害"
+    },
+    {
+      "en": "(16-21)% additional damage applied to Life",
+      "cn": "(16-21)% 伤害"
+    },
+    {
+      "en": "(12-15)% additional damage applied to Life",
+      "cn": "(12-15)% 伤害"
+    },
+    { "en": "+(78-108)% Physical Damage", "cn": "+(78-108)% 物理伤害" },
+    { "en": "+(56-77)% Physical Damage", "cn": "+(56-77)% 物理伤害" },
+    { "en": "+(40-55)% Physical Damage", "cn": "+(40-55)% 物理伤害" },
+    { "en": "+(27-39)% Physical Damage", "cn": "+(27-39)% 物理伤害" },
+    { "en": "+(10-14)% Evasion", "cn": "+(10-14)% 闪避值" },
+    {
+      "en": "+(8-10)% Attack and Spell Block Chance",
+      "cn": "+(8-10)% 攻击和法术格挡率"
+    },
+    { "en": "+(6-8)% additional damage", "cn": "+(6-8)% 伤害" },
+    { "en": "+(8-12)% Attack Block Chance", "cn": "+(8-12)% 攻击格挡率" },
+    { "en": "+(12-15)% Spell Block Chance", "cn": "+(12-15)% 法术格挡率" },
+    { "en": "+(3-5)% Max Energy Shield", "cn": "+(3-5)% 最大护盾" },
+    {
+      "en": "+(20-25)% Attack and Spell Block Chance",
+      "cn": "+(20-25)% 攻击与法术格挡率"
+    },
+    {
+      "en": "+(14-19)% Attack and Spell Block Chance",
+      "cn": "+(14-19)% 攻击与法术格挡率"
+    },
+    {
+      "en": "+(11-13)% Attack and Spell Block Chance",
+      "cn": "+(11-13)% 攻击与法术格挡率"
+    },
+    {
+      "en": "+(9-10)% Attack and Spell Block Chance",
+      "cn": "+(9-10)% 攻击与法术格挡率"
+    },
+    {
+      "en": "(-15--13)% additional Physical Damage taken",
+      "cn": "(-15--13)% 受到的物理伤害"
+    },
+    {
+      "en": "(-12--10)% additional Physical Damage taken",
+      "cn": "(-12--10)% 受到的物理伤害"
+    },
+    {
+      "en": "(-9--7)% additional Physical Damage taken",
+      "cn": "(-9--7)% 受到的物理伤害"
+    },
+    { "en": "+(25-31)% Max Life", "cn": "+(25-31)% 最大生命" },
+    { "en": "+(18-24)% Max Life", "cn": "+(18-24)% 最大生命" },
+    { "en": "+(13-17)% Max Life", "cn": "+(13-17)% 最大生命" },
+    { "en": "+(11-12)% Max Life", "cn": "+(11-12)% 最大生命" },
+    { "en": "+(41-45)% Fire Resistance", "cn": "+(41-45)% 火焰抗性" },
+    { "en": "+(29-40)% Fire Resistance", "cn": "+(29-40)% 火焰抗性" },
+    { "en": "+(21-28)% Fire Resistance", "cn": "+(21-28)% 火焰抗性" },
+    { "en": "+(17-20)% Fire Resistance", "cn": "+(17-20)% 火焰抗性" },
+    { "en": "+(14-16)% Fire Resistance", "cn": "+(14-16)% 火焰抗性" },
+    { "en": "+(41-45)% Cold Resistance", "cn": "+(41-45)% 冰冷抗性" },
+    { "en": "+(29-40)% Cold Resistance", "cn": "+(29-40)% 冰冷抗性" },
+    { "en": "+(21-28)% Cold Resistance", "cn": "+(21-28)% 冰冷抗性" },
+    { "en": "+(17-20)% Cold Resistance", "cn": "+(17-20)% 冰冷抗性" },
+    { "en": "+(14-16)% Cold Resistance", "cn": "+(14-16)% 冰冷抗性" },
+    { "en": "+(41-45)% Lightning Resistance", "cn": "+(41-45)% 闪电抗性" },
+    { "en": "+(29-40)% Lightning Resistance", "cn": "+(29-40)% 闪电抗性" },
+    { "en": "+(21-28)% Lightning Resistance", "cn": "+(21-28)% 闪电抗性" },
+    { "en": "+(17-20)% Lightning Resistance", "cn": "+(17-20)% 闪电抗性" },
+    { "en": "+(14-16)% Lightning Resistance", "cn": "+(14-16)% 闪电抗性" },
+    { "en": "+(41-45)% Erosion Resistance", "cn": "+(41-45)% 腐蚀抗性" },
+    { "en": "+(29-40)% Erosion Resistance", "cn": "+(29-40)% 腐蚀抗性" },
+    { "en": "+(21-28)% Erosion Resistance", "cn": "+(21-28)% 腐蚀抗性" },
+    { "en": "+(17-20)% Erosion Resistance", "cn": "+(17-20)% 腐蚀抗性" },
+    { "en": "+(14-16)% Erosion Resistance", "cn": "+(14-16)% 腐蚀抗性" },
+    { "en": "+(165-234)% Critical Strike Rating", "cn": "+(165-234)% 暴击值" },
+    { "en": "+(127-180)% Critical Strike Rating", "cn": "+(127-180)% 暴击值" },
+    { "en": "+(76-90)% Critical Strike Rating", "cn": "+(76-90)% 暴击值" },
+    { "en": "+(83-117)% Critical Strike Damage", "cn": "+(83-117)% 暴击伤害" },
+    { "en": "+(54-63)% Critical Strike Damage", "cn": "+(54-63)% 暴击伤害" },
+    { "en": "+(38-45)% Critical Strike Damage", "cn": "+(38-45)% 暴击伤害" },
+    { "en": "+(31-36)% Critical Strike Damage", "cn": "+(31-36)% 暴击伤害" },
+    { "en": "+(49-72)% Warcry Effect", "cn": "+(49-72)% 战吼技能的效果" },
+    { "en": "+(37-48)% Warcry Effect", "cn": "+(37-48)% 战吼技能的效果" },
+    { "en": "+(29-36)% Warcry Effect", "cn": "+(29-36)% 战吼技能的效果" },
+    { "en": "+(25-31)% Max Energy Shield", "cn": "+(25-31)% 最大护盾" },
+    { "en": "+(18-24)% Max Energy Shield", "cn": "+(18-24)% 最大护盾" },
+    { "en": "+(13-17)% Max Energy Shield", "cn": "+(13-17)% 最大护盾" },
+    { "en": "+(11-12)% Max Energy Shield", "cn": "+(11-12)% 最大护盾" },
+    { "en": "+(9-10)% Max Energy Shield", "cn": "+(9-10)% 最大护盾" },
+    {
+      "en": "+(91-117)% Mana Regeneration Speed",
+      "cn": "+(91-117)% 魔力自然回复速度"
+    },
+    {
+      "en": "+(64-90)% Mana Regeneration Speed",
+      "cn": "+(64-90)% 魔力自然回复速度"
+    },
+    {
+      "en": "+(46-63)% Mana Regeneration Speed",
+      "cn": "+(46-63)% 魔力自然回复速度"
+    },
+    {
+      "en": "+(37-45)% Mana Regeneration Speed",
+      "cn": "+(37-45)% 魔力自然回复速度"
+    },
+    {
+      "en": "+(30-36)% Mana Regeneration Speed",
+      "cn": "+(30-36)% 魔力自然回复速度"
+    },
+    { "en": "+(10-14)% Armor", "cn": "+(10-14)% 护甲值" },
+    {
+      "en": "+(6-8)% Minion Movement Speed, Attack Speed, and Cast Speed",
+      "cn": "+(6-8)% 召唤物移动速度，攻击速度和施法速度"
+    },
+    {
+      "en": "+(17-24)% Life Regeneration Speed",
+      "cn": "+(17-24)% 生命自然回复速度"
+    },
+    {
+      "en": "+(11-16)% Life Regeneration Speed",
+      "cn": "+(11-16)% 生命自然回复速度"
+    },
+    {
+      "en": "+(6-10)% Life Regeneration Speed",
+      "cn": "+(6-10)% 生命自然回复速度"
+    },
+    {
+      "en": "+(2-5)% Life Regeneration Speed",
+      "cn": "+(2-5)% 生命自然回复速度"
+    },
+    {
+      "en": "+(25-31)% Minion Life Regeneration Speed",
+      "cn": "+(25-31)%  召唤物生命自然回复速度"
+    },
+    {
+      "en": "+(18-24)% Minion Life Regeneration Speed",
+      "cn": "+(18-24)%  召唤物生命自然回复速度"
+    },
+    {
+      "en": "+(13-17)% Minion Life Regeneration Speed",
+      "cn": "+(13-17)%  召唤物生命自然回复速度"
+    },
+    {
+      "en": "+(11-12)% Minion Life Regeneration Speed",
+      "cn": "+(11-12)%  召唤物生命自然回复速度"
+    },
+    {
+      "en": "+(9-10)% Minion Life Regeneration Speed",
+      "cn": "+(9-10)%  召唤物生命自然回复速度"
+    },
+    { "en": "+(52-72)% Minion Damage", "cn": "+(52-72)% 召唤物伤害" },
+    { "en": "+(38-51)% Minion Damage", "cn": "+(38-51)% 召唤物伤害" },
+    { "en": "+(27-37)% Minion Damage", "cn": "+(27-37)% 召唤物伤害" },
+    { "en": "+(18-26)% Minion Damage", "cn": "+(18-26)% 召唤物伤害" },
+    {
+      "en": "+(21-26)% Elemental and Erosion Resistance Penetration for Minions",
+      "cn": "+(21-26)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "en": "+(15-20)% Elemental and Erosion Resistance Penetration for Minions",
+      "cn": "+(15-20)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "en": "+(11-14)% Elemental and Erosion Resistance Penetration for Minions",
+      "cn": "+(11-14)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "en": "+(9-10)% Elemental and Erosion Resistance Penetration for Minions",
+      "cn": "+(9-10)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "en": "+(18-22)% Armor DMG Mitigation Penetration for Minions",
+      "cn": "+(18-22)% 护甲减伤穿透"
+    },
+    {
+      "en": "+(13-17)% Armor DMG Mitigation Penetration for Minions",
+      "cn": "+(13-17)% 护甲减伤穿透"
+    },
+    {
+      "en": "+(10-12)% Armor DMG Mitigation Penetration for Minions",
+      "cn": "+(10-12)% 护甲减伤穿透"
+    },
+    {
+      "en": "+(8-9)% Armor DMG Mitigation Penetration for Minions",
+      "cn": "+(8-9)% 护甲减伤穿透"
+    },
+    {
+      "en": "+(121-156)% Minion Critical Strike Rating",
+      "cn": "+(121-156)% 召唤物暴击值"
+    },
+    {
+      "en": "+(87-120)% Minion Critical Strike Rating",
+      "cn": "+(87-120)% 召唤物暴击值"
+    },
+    {
+      "en": "+(62-86)% Minion Critical Strike Rating",
+      "cn": "+(62-86)% 召唤物暴击值"
+    },
+    {
+      "en": "+(45-61)% Minion Critical Strike Rating",
+      "cn": "+(45-61)% 召唤物暴击值"
+    },
+    {
+      "en": "+(30-44)% Minion Critical Strike Rating",
+      "cn": "+(30-44)% 召唤物暴击值"
+    },
+    {
+      "en": "+(61-78)% Minion Critical Strike Damage",
+      "cn": "+(61-78)% 召唤物暴击伤害"
+    },
+    {
+      "en": "+(44-60)% Minion Critical Strike Damage",
+      "cn": "+(44-60)% 召唤物暴击伤害"
+    },
+    {
+      "en": "+(32-43)% Minion Critical Strike Damage",
+      "cn": "+(32-43)% 召唤物暴击伤害"
+    },
+    {
+      "en": "+(23-31)% Minion Critical Strike Damage",
+      "cn": "+(23-31)% 召唤物暴击伤害"
+    },
+    {
+      "en": "+(16-22)% Minion Critical Strike Damage",
+      "cn": "+(16-22)% 召唤物暴击伤害"
+    },
+    { "en": "+(56-72)% Minion Max Life", "cn": "+(56-72)% 召唤物最大生命" },
+    { "en": "+(40-55)% Minion Max Life", "cn": "+(40-55)% 召唤物最大生命" },
+    { "en": "+(29-39)% Minion Max Life", "cn": "+(29-39)% 召唤物最大生命" },
+    { "en": "+(23-28)% Minion Max Life", "cn": "+(23-28)% 召唤物最大生命" },
+    { "en": "+(19-22)% Minion Max Life", "cn": "+(19-22)% 召唤物最大生命" },
+    {
+      "en": "+(27-34)% chance for Minions to deal Double Damage",
+      "cn": "+(27-34)% 几率造成双倍伤害"
+    },
+    {
+      "en": "+(19-26)% chance for Minions to deal Double Damage",
+      "cn": "+(19-26)% 几率造成双倍伤害"
+    },
+    {
+      "en": "+(14-18)% chance for Minions to deal Double Damage",
+      "cn": "+(14-18)% 几率造成双倍伤害"
+    },
+    {
+      "en": "+(11-13)% chance for Minions to deal Double Damage",
+      "cn": "+(11-13)% 几率造成双倍伤害"
+    },
+    { "en": "+(40-48)% Spell Damage", "cn": "+(40-48)% 法术伤害" },
+    { "en": "+(12-16)% Cast Speed", "cn": "+(12-16)% 施法速度" },
+    { "en": "+(12-16)% additional Spell Damage", "cn": "+(12-16)% 法术伤害" },
+    { "en": "+(217-281)% Spell Damage", "cn": "+(217-281)% 法术伤害" },
+    { "en": "+(152-216)% Spell Damage", "cn": "+(152-216)% 法术伤害" },
+    { "en": "+(109-151)% Spell Damage", "cn": "+(109-151)% 法术伤害" },
+    { "en": "+(87-108)% Spell Damage", "cn": "+(87-108)% 法术伤害" },
+    { "en": "+(70-86)% Spell Damage", "cn": "+(70-86)% 法术伤害" },
+    {
+      "en": "+(51-65)% Armor DMG Mitigation Penetration",
+      "cn": "+(51-65)% 护甲减伤穿透"
+    },
+    {
+      "en": "+(26-35)% Armor DMG Mitigation Penetration",
+      "cn": "+(26-35)% 护甲减伤穿透"
+    },
+    {
+      "en": "+(21-25)% Armor DMG Mitigation Penetration",
+      "cn": "+(21-25)% 护甲减伤穿透"
+    },
+    {
+      "en": "+(44-60)% Elemental and Erosion Resistance Penetration",
+      "cn": "+(44-60)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "en": "+(32-43)% Elemental and Erosion Resistance Penetration",
+      "cn": "+(32-43)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "en": "+(23-31)% Elemental and Erosion Resistance Penetration",
+      "cn": "+(23-31)% 元素和腐蚀抗性穿透"
+    },
+    {
+      "en": "+(16-22)% Elemental and Erosion Resistance Penetration",
+      "cn": "+(16-22)% 元素和腐蚀抗性穿透"
+    },
+    { "en": "+(197-281)% Physical Damage", "cn": "+(197-281)% 物理伤害" },
+    { "en": "+(127-151)% Physical Damage", "cn": "+(127-151)% 物理伤害" },
+    { "en": "+(91-108)% Physical Damage", "cn": "+(91-108)% 物理伤害" },
+    { "en": "+(73-86)% Physical Damage", "cn": "+(73-86)% 物理伤害" },
+    {
+      "en": "+(181-234)% Mana Regeneration Speed",
+      "cn": "+(181-234)% 魔力自然回复速度"
+    },
+    {
+      "en": "+(127-180)% Mana Regeneration Speed",
+      "cn": "+(127-180)% 魔力自然回复速度"
+    },
+    {
+      "en": "+(91-126)% Mana Regeneration Speed",
+      "cn": "+(91-126)% 魔力自然回复速度"
+    },
+    {
+      "en": "+(73-90)% Mana Regeneration Speed",
+      "cn": "+(73-90)% 魔力自然回复速度"
+    },
+    {
+      "en": "+(59-72)% Mana Regeneration Speed",
+      "cn": "+(59-72)% 魔力自然回复速度"
+    },
+    { "en": "+(88-125)% Max Mana", "cn": "+(88-125)% 最大魔力" },
+    { "en": "+(68-96)% Max Mana", "cn": "+(68-96)% 最大魔力" },
+    { "en": "+(57-67)% Max Mana", "cn": "+(57-67)% 最大魔力" },
+    { "en": "+(41-48)% Max Mana", "cn": "+(41-48)% 最大魔力" },
+    { "en": "+(32-38)% Max Mana", "cn": "+(32-38)% 最大魔力" },
+    {
+      "en": "+(181-234)% Spell Critical Strike Damage",
+      "cn": "+(181-234)% 法术暴击伤害"
+    },
+    {
+      "en": "+(127-180)% Spell Critical Strike Damage",
+      "cn": "+(127-180)% 法术暴击伤害"
+    },
+    {
+      "en": "+(91-126)% Spell Critical Strike Damage",
+      "cn": "+(91-126)% 法术暴击伤害"
+    },
+    {
+      "en": "+(73-90)% Spell Critical Strike Damage",
+      "cn": "+(73-90)% 法术暴击伤害"
+    },
+    {
+      "en": "+(59-72)% Spell Critical Strike Damage",
+      "cn": "+(59-72)% 法术暴击伤害"
+    },
+    { "en": "+(361-468)% Critical Strike Rating", "cn": "+(361-468)% 暴击值" },
+    { "en": "+(253-360)% Critical Strike Rating", "cn": "+(253-360)% 暴击值" },
+    { "en": "+(181-252)% Critical Strike Rating", "cn": "+(181-252)% 暴击值" },
+    { "en": "+(145-180)% Critical Strike Rating", "cn": "+(145-180)% 暴击值" },
+    { "en": "+(116-144)% Critical Strike Rating", "cn": "+(116-144)% 暴击值" },
+    {
+      "en": "+(61-78)% additional damage when channeling",
+      "cn": "+(61-78)% 伤害"
+    },
+    {
+      "en": "+(44-60)% additional damage when channeling",
+      "cn": "+(44-60)% 伤害"
+    },
+    {
+      "en": "+(32-43)% additional damage when channeling",
+      "cn": "+(32-43)% 伤害"
+    },
+    {
+      "en": "+(23-31)% additional damage when channeling",
+      "cn": "+(23-31)% 伤害"
+    },
+    { "en": "+(6-8)% additional Spell Damage", "cn": "+(6-8)% 法术伤害" },
+    { "en": "+(109-140)% Spell Damage", "cn": "+(109-140)% 法术伤害" },
+    { "en": "+(77-108)% Spell Damage", "cn": "+(77-108)% 法术伤害" },
+    { "en": "+(55-76)% Spell Damage", "cn": "+(55-76)% 法术伤害" },
+    { "en": "+(44-54)% Spell Damage", "cn": "+(44-54)% 法术伤害" },
+    { "en": "+(36-43)% Spell Damage", "cn": "+(36-43)% 法术伤害" },
+    {
+      "en": "+(26-36)% Armor DMG Mitigation Penetration",
+      "cn": "+(26-36)% 护甲减伤穿透"
+    },
+    {
+      "en": "+(12-17)% Armor DMG Mitigation Penetration",
+      "cn": "+(12-17)% 护甲减伤穿透"
+    },
+    {
+      "en": "+(7-11)% Armor DMG Mitigation Penetration",
+      "cn": "+(7-11)% 护甲减伤穿透"
+    },
+    {
+      "en": "+(5-6)% Armor DMG Mitigation Penetration",
+      "cn": "+(5-6)% 护甲减伤穿透"
+    },
+    { "en": "+(44-62)% Max Mana", "cn": "+(44-62)% 最大魔力" },
+    { "en": "+(34-48)% Max Mana", "cn": "+(34-48)% 最大魔力" },
+    { "en": "+(28-34)% Max Mana", "cn": "+(28-34)% 最大魔力" },
+    { "en": "+(20-24)% Max Mana", "cn": "+(20-24)% 最大魔力" },
+    { "en": "+(16-19)% Max Mana", "cn": "+(16-19)% 最大魔力" },
+    {
+      "en": "+(91-117)% Spell Critical Strike Damage",
+      "cn": "+(91-117)% 法术暴击伤害"
+    },
+    {
+      "en": "+(64-90)% Spell Critical Strike Damage",
+      "cn": "+(64-90)% 法术暴击伤害"
+    },
+    {
+      "en": "+(46-63)% Spell Critical Strike Damage",
+      "cn": "+(46-63)% 法术暴击伤害"
+    },
+    {
+      "en": "+(37-45)% Spell Critical Strike Damage",
+      "cn": "+(37-45)% 法术暴击伤害"
+    },
+    {
+      "en": "+(30-36)% Spell Critical Strike Damage",
+      "cn": "+(30-36)% 法术暴击伤害"
+    },
+    { "en": "+(181-234)% Critical Strike Rating", "cn": "+(181-234)% 暴击值" },
+    { "en": "+(91-126)% Critical Strike Rating", "cn": "+(91-126)% 暴击值" },
+    { "en": "+(73-90)% Critical Strike Rating", "cn": "+(73-90)% 暴击值" },
+    { "en": "+(59-72)% Critical Strike Rating", "cn": "+(59-72)% 暴击值" }
+  ],
+  "notFound": [
+    "+(54-74) Max Life",
+    "+(40-60) Max Mana",
+    "+(87-117) Max Energy Shield",
+    "+(6-8)% Sealed Mana Compensation",
+    "Immune to Paralysis\\nImmune to Blinding",
+    "Immune to Slow\\nImmune to Weaken",
+    "+(3-5)% Max Elemental Resistance",
+    "Restoration Skills: +(30-40)% Restoration Effect",
+    "Restoration Skills: (-20--15)% Restoration Duration",
+    "Immune to crowd control effects",
+    "Owns 1 additional stack(s) of Fortitude",
+    "+(221-286) Max Life",
+    "+(155-220) Max Life",
+    "+(111-154) Max Life",
+    "+(89-110) Max Life",
+    "+(71-88) Max Life",
+    "+(121-156) Max Mana",
+    "+(85-120) Max Mana",
+    "+(61-84) Max Mana",
+    "+(49-60) Max Mana",
+    "+(39-48) Max Mana",
+    "+(351-455) Max Energy Shield",
+    "+(246-350) Max Energy Shield",
+    "+(176-245) Max Energy Shield",
+    "+(141-175) Max Energy Shield",
+    "+(113-140) Max Energy Shield",
+    "+(24-30)% chance for Attacks to inflict Taunt on enemies on hit",
+    "+(17-23)% chance for Attacks to inflict Taunt on enemies on hit",
+    "+(13-16)% chance for Attacks to inflict Taunt on enemies on hit",
+    "+(10-12)% chance for Attacks to inflict Taunt on enemies on hit",
+    "+(8-9)% chance for Attacks to inflict Taunt on enemies on hit",
+    "+(61-78) Strength",
+    "+(43-60) Strength",
+    "+(31-42) Strength",
+    "+(25-30) Strength",
+    "+(20-24) Strength",
+    "+(61-78) Dexterity",
+    "+(43-60) Dexterity",
+    "+(31-42) Dexterity",
+    "+(25-30) Dexterity",
+    "+(20-24) Dexterity",
+    "+(61-78) Intelligence",
+    "+(43-60) Intelligence",
+    "+(31-42) Intelligence",
+    "+(25-30) Intelligence",
+    "+(20-24) Intelligence",
+    "+(21-26)% Defense",
+    "+(15-20)% Defense",
+    "+(11-14)% Defense",
+    "+(8-10)% Defense",
+    "+(6-7)% Defense",
+    "Barrage Skills +(26-32)% damage increase per wave",
+    "Barrage Skills +(20-25)% damage increase per wave",
+    "Barrage Skills +(12-18)% damage increase per wave",
+    "Gains a stack of Fortitude when using a Melee Skill\\n(-8--6)% additional damage taken",
+    "Gains a stack of Fortitude when using a Melee Skill\\n(-5--3)% additional damage taken",
+    "Gains a stack of Fortitude when using a Melee Skill\\n(-2--1)% additional damage taken",
+    "Has Profane. Minions have Profane\\n+(40-50)% Erosion Damage\\n+(40-50)% Minion Erosion Damage",
+    "Has Profane. Minions have Profane\\n+(20-30)% Erosion Damage\\n+(20-30)% Minion Erosion Damage",
+    "+(33-42)% Deterioration Chance",
+    "+(23-32)% Deterioration Chance",
+    "+(17-22)% Deterioration Chance",
+    "+(14-16)% Deterioration Chance",
+    "(-18--16)% additional damage taken at Low Mana",
+    "(-15--12)% additional damage taken at Low Mana",
+    "(-11--9)% additional damage taken at Low Mana",
+    "+2 to Max Channeled Stacks",
+    "Min Channeled Stacks +2",
+    "+(386-500)% Critical Strike Rating against Traumatized enemies\\n-30% additional Hit Damage",
+    "+(271-385)% Critical Strike Rating against Traumatized enemies\\n-30% additional Hit Damage",
+    "+(194-270)% Critical Strike Rating against Traumatized enemies\\n-30% additional Hit Damage",
+    "+(155-193)% Critical Strike Rating against Traumatized enemies\\n-30% additional Hit Damage",
+    "+(124-154)% Critical Strike Rating against Traumatized enemies\\n-30% additional Hit Damage",
+    "+1 Ignite limit\\n+5% additional Ignite Damage",
+    "+1 Ignite limit",
+    "+(51-65)% Deterioration Damage",
+    "+(36-50)% Deterioration Damage",
+    "+(26-35)% Deterioration Damage",
+    "+(21-25)% Deterioration Damage",
+    "Reaps 0.16 s of Damage Over Time when inflicting Trauma. The effect has a 1 s Recovery Time against the same target",
+    "Reaps 0.12 s of Damage Over Time when inflicting Trauma. The effect has a 1 s Recovery Time against the same target",
+    "Reaps 0.09 s of Damage Over Time when inflicting Trauma. The effect has a 1 s Recovery Time against the same target",
+    "Reaps 0.06 s of Damage Over Time when inflicting Trauma. The effect has a 1 s Recovery Time against the same target",
+    "Reaps 0.04 s of Damage Over Time when inflicting Trauma. The effect has a 1 s Recovery Time against the same target",
+    "Reaps 0.16 s of Damage Over Time when inflicting Ignite. The effect has a 1 s Recovery Time against the same target",
+    "Reaps 0.12 s of Damage Over Time when inflicting Ignite. The effect has a 1 s Recovery Time against the same target",
+    "Reaps 0.09 s of Damage Over Time when inflicting Ignite. The effect has a 1 s Recovery Time against the same target",
+    "Reaps 0.06 s of Damage Over Time when inflicting Ignite. The effect has a 1 s Recovery Time against the same target",
+    "Reaps 0.04 s of Damage Over Time when inflicting Ignite. The effect has a 1 s Recovery Time against the same target",
+    "Reaps 0.16 s of Damage Over Time when inflicting Wilt. The effect has a 1 s Recovery Time against the same target",
+    "Reaps 0.12 s of Damage Over Time when inflicting Wilt. The effect has a 1 s Recovery Time against the same target",
+    "Reaps 0.09 s of Damage Over Time when inflicting Wilt. The effect has a 1 s Recovery Time against the same target",
+    "Reaps 0.06 s of Damage Over Time when inflicting Wilt. The effect has a 1 s Recovery Time against the same target",
+    "Reaps 0.04 s of Damage Over Time when inflicting Wilt. The effect has a 1 s Recovery Time against the same target",
+    "+(26-32)% Ailment Duration",
+    "+(16-24)% Ailment Duration",
+    "+(10-14)% Ailment Duration",
+    "+(5-8)% Ailment Duration",
+    "+(51-65)% Affliction Effect",
+    "+(36-50)% Affliction Effect",
+    "+(26-35)% Affliction Effect",
+    "+(21-25)% Affliction Effect",
+    "+(17-20)% Affliction Effect",
+    "Warcry is cast immediately\\n+2 Max Warcry Skill Charges",
+    "Warcry is cast immediately\\n+1 Max Warcry Skill Charges",
+    "+(10-12)% Elemental Resistance\\n+(12-15)% chance to avoid Elemental Ailment",
+    "+(7-9)% Elemental Resistance\\n+(12-15)% chance to avoid Elemental Ailment",
+    "+6% Elemental Resistance\\n+(9-11)% chance to avoid Elemental Ailment",
+    "+(4-5)% Elemental Resistance\\n+(6-8)% chance to avoid Elemental Ailment",
+    "+(49-62) initial Growth for Spirit Magi",
+    "+(35-48) initial Growth for Spirit Magi",
+    "+(25-34) initial Growth for Spirit Magi",
+    "+(54-68)% Wilt Duration",
+    "+(37-52)% Wilt Duration",
+    "+(27-36)% Wilt Duration",
+    "+(22-26)% Wilt Duration",
+    "+(19-21)% Wilt Duration",
+    "+(33-42)% additional Deterioration Duration",
+    "+(23-32)% additional Deterioration Duration",
+    "+(17-22)% additional Deterioration Duration",
+    "+(14-16)% additional Deterioration Duration",
+    "+(760-960) Evasion",
+    "+(15-20) Strength",
+    "+(15-20) Dexterity",
+    "+(15-20) Intelligence",
+    "+(6-8)% Elemental and Erosion Resistance Penetration\\n+(6-8)% Elemental and Erosion Resistance Penetration for Minions",
+    "+(5-7)% Armor DMG Mitigation Penetration\\n+(5-7)% Armor DMG Mitigation Penetration for Minions",
+    "Converts (36-45)% of Erosion Damage taken to Lightning Damage",
+    "Converts (16-20)% of Physical Damage taken to Lightning Damage",
+    "+1 Mobility Skill Level",
+    "Regenerates 1% Mana per second while moving",
+    "Regenerates 1% of Life per second while moving",
+    "+(154-220) Max Life",
+    "+(129-154) Max Life",
+    "+(92-110) Max Life",
+    "+(74-88) Max Life",
+    "+(2881-3744) gear Evasion",
+    "+(2017-2880) gear Evasion",
+    "+(1441-2016) gear Evasion",
+    "+(1153-1440) gear Evasion",
+    "+(923-1152) gear Evasion",
+    "70% chance to gain Blur per (5-10) m you move",
+    "50% chance to gain Blur per (5-10) m you move",
+    "+(31-40)% Spell Burst Charge Speed\\n+10% chance to immediately gain 1 stack(s) of Spell Burst Charge when using a skill. Interval: 0.03s",
+    "+(21-30)% Spell Burst Charge Speed\\n+10% chance to immediately gain 1 stack(s) of Spell Burst Charge when using a skill. Interval: 0.03s",
+    "+(10-20)% Spell Burst Charge Speed\\n+10% chance to immediately gain 1 stack(s) of Spell Burst Charge when using a skill. Interval: 0.03s",
+    "Triggers Lv. (11-20) Aim while standing still. Interval: 1 s",
+    "Triggers Lv. (6-10) Aim while standing still. Interval: 1 s",
+    "Triggers Lv. (1-5) Aim while standing still. Interval: 1 s",
+    "Converts (21-26)% of Physical Damage taken to Lightning Damage",
+    "Converts (12-15)% of Physical Damage taken to Lightning Damage",
+    "Converts (46-60)% of Erosion Damage taken to Lightning Damage",
+    "Converts (27-35)% of Erosion Damage taken to Lightning Damage",
+    "-45% additional Damage Over Time taken when having at least 50000 Evasion",
+    "-35% additional Damage Over Time taken when having at least 50000 Evasion",
+    "-30% additional Damage Over Time taken when having at least 50000 Evasion",
+    "-25% additional Damage Over Time taken when having at least 50000 Evasion",
+    "Regenerates 4% of Life per second while moving",
+    "Regenerates 2% of Life per second while moving",
+    "+(25-31)% Attack and Cast Speed\\n+(25-31)% Minion Attack and Cast Speed",
+    "+(18-24)% Attack and Cast Speed\\n+(18-24)% Minion Attack and Cast Speed",
+    "+(13-17)% Attack and Cast Speed\\n+(13-17)% Minion Attack and Cast Speed",
+    "+(10-12)% Attack and Cast Speed\\n+(10-12)% Minion Attack and Cast Speed",
+    "+(7-9)% Attack and Cast Speed\\n+(7-9)% Minion Attack and Cast Speed",
+    "Has Hasten\\n+(9-12)% Attack Speed, Cast Speed, and Movement Speed when having Hasten",
+    "Has Hasten\\n+(5-8)% Attack Speed, Cast Speed, and Movement Speed when having Hasten",
+    "+(84-108)% Reaping Recovery Speed",
+    "+(59-83)% Reaping Recovery Speed",
+    "+(43-58)% Reaping Recovery Speed",
+    "+(34-42)% Reaping Recovery Speed",
+    "For every 5 m moved, gains 1 stack(s) of Deflection",
+    "For every 6 m moved, gains 1 stack(s) of Deflection",
+    "Triggers Lv. (11-20) Blurry Steps upon starting to move. Interval: 1 s",
+    "Triggers Lv. (6-10) Blurry Steps upon starting to move. Interval: 1 s",
+    "Triggers Lv. (1-5) Blurry Steps upon starting to move. Interval: 1 s",
+    "+(50-68)% chance to avoid Elemental Ailments",
+    "+(30-45)% chance to avoid Elemental Ailments",
+    "+(21-27)% chance to avoid Elemental Ailments",
+    "+(4-6)% Energy Shield Charge Speed",
+    "Converts (36-45)% of Erosion Damage taken to Cold Damage",
+    "Converts (16-20)% of Physical Damage taken to Cold Damage",
+    "+(341-442) gear Energy Shield",
+    "+(239-340) gear Energy Shield",
+    "+(171-238) gear Energy Shield",
+    "+(137-170) gear Energy Shield",
+    "+(110-136) gear Energy Shield",
+    "Converts (21-26)% of Physical Damage taken to Cold Damage",
+    "Converts (12-15)% of Physical Damage taken to Cold Damage",
+    "Converts (46-60)% of Erosion Damage taken to Cold Damage",
+    "Converts (27-35)% of Erosion Damage taken to Cold Damage",
+    "-45% additional Damage Over Time taken when you have at least 8000 Max Energy Shield",
+    "-35% additional Damage Over Time taken when you have at least 8000 Max Energy Shield",
+    "-30% additional Damage Over Time taken when you have at least 8000 Max Energy Shield",
+    "-25% additional Damage Over Time taken when you have at least 8000 Max Energy Shield",
+    "Restores 4% Energy Shield per second while moving",
+    "Restores 2% Energy Shield per second while moving",
+    "+(760-960) Armor",
+    "Converts (36-45)% of Erosion Damage taken to Fire Damage",
+    "Converts (16-20)% of Physical Damage taken to Fire Damage",
+    "+(2881-3744) Gear Armor",
+    "+(2017-2880) Gear Armor",
+    "+(1441-2016) Gear Armor",
+    "+(1153-1440) Gear Armor",
+    "+(923-1152) Gear Armor",
+    "-45% additional Damage Over Time taken when having at least 50000 Armor",
+    "-35% additional Damage Over Time taken when having at least 50000 Armor",
+    "-30% additional Damage Over Time taken when having at least 50000 Armor",
+    "-25% additional Damage Over Time taken when having at least 50000 Armor",
+    "Converts (21-26)% of Physical Damage taken to Fire Damage",
+    "Converts (12-15)% of Physical Damage taken to Fire Damage",
+    "Converts (46-60)% of Erosion Damage taken to Fire Damage",
+    "Converts (27-35)% of Erosion Damage taken to Fire Damage",
+    "Adds (25-30) - (33-38) Physical Damage to Attacks",
+    "Adds (24-29) - (34-39) Fire Damage to Attacks",
+    "Adds (24-29) - (34-39) Cold Damage to Attacks",
+    "Adds (1-3) - (60-65) Lightning Damage to Attacks",
+    "Adds (26-31) - (32-37) Erosion Damage to Attacks",
+    "+2 Horizontal Projectile Penetration(s)",
+    "+2 to Max Tenacity Blessing Stacks",
+    "+2 to Max Agility Blessing Stacks",
+    "+2 to Max Focus Blessing Stacks",
+    "Adds (64-68) - (80-84) Physical Damage to the gear",
+    "Lucky Critical Strike\\n(-50--40)% Critical Strike Rating",
+    "Enemies have a (20-25)% chance to explode when defeated by an Attack or Spell, dealing True Damage equal to (250-300)% of their Max Life to enemies within a 6 m radius",
+    "+(6-12)% chance to gain 1 stack of Agility Blessing on defeat",
+    "Damage Penetrates (8-12)% Elemental Resistance",
+    "Adds (7-10) - (14-17) Physical Damage to the gear",
+    "+(40-45)% Elemental Damage",
+    "+(1-2) Projectile Skill Level",
+    "Adds (93-95) - (113-115) Physical Damage to the gear",
+    "Adds (71-73) - (87-89) Physical Damage to the gear",
+    "Adds (42-44) - (52-54) Physical Damage to the gear",
+    "Adds (28-30) - (34-36) Physical Damage to the gear",
+    "Adds (18-20) - (22-24) Physical Damage to the gear",
+    "Adds (198-200) - (256-270) Fire Damage to the gear",
+    "Adds (152-154) - (197-208) Fire Damage to the gear",
+    "Adds (59-61) - (76-82) Fire Damage to the gear",
+    "Adds (29-31) - (38-41) Fire Damage to the gear",
+    "Adds (10-12) - (13-16) Fire Damage to the gear",
+    "Adds (200-202) - (266-268) Cold Damage to the gear",
+    "Adds (154-156) - (204-206) Cold Damage to the gear",
+    "Adds (59-61) - (79-81) Cold Damage to the gear",
+    "Adds (29-31) - (39-41) Cold Damage to the gear",
+    "Adds (10-12) - (14-16) Cold Damage to the gear",
+    "Adds (22-24) - (444-446) Lightning Damage to the gear",
+    "Adds (17-19) - (341-343) Lightning Damage to the gear",
+    "Adds (6-8) - (132-134) Lightning Damage to the gear",
+    "Adds (3-5) - (66-68) Lightning Damage to the gear",
+    "Adds (1-2) - (24-26) Lightning Damage to the gear",
+    "Adds (214-216) - (252-254) Erosion Damage to the gear",
+    "Adds (165-167) - (193-195) Erosion Damage to the gear",
+    "Adds (63-65) - (75-77) Erosion Damage to the gear",
+    "Adds (31-33) - (37-39) Erosion Damage to the gear",
+    "Adds (11-13) - (13-15) Erosion Damage to the gear",
+    "+(181-234) Dexterity",
+    "+(127-180) Dexterity",
+    "+(91-126) Dexterity",
+    "+(73-90) Dexterity",
+    "+(59-72) Dexterity",
+    "+(181-234) Strength",
+    "+(127-180) Strength",
+    "+(91-126) Strength",
+    "+(73-90) Strength",
+    "+(59-72) Strength",
+    "+(181-234) Intelligence",
+    "+(127-180) Intelligence",
+    "+(91-126) Intelligence",
+    "+(73-90) Intelligence",
+    "+(59-72) Intelligence",
+    "Multistrikes deal (121-156)% increasing damage",
+    "Multistrikes deal (85-120)% increasing damage",
+    "Multistrikes deal (61-84)% increasing damage",
+    "Multistrikes deal (49-60)% increasing damage",
+    "+7 to Attack Skill Level",
+    "+5 to Attack Skill Level",
+    "+(111-145)% Gear Physical Damage\\nAdds (69-71) - (85-87) Physical Damage to the gear",
+    "+(77-110)% Gear Physical Damage\\nAdds (53-55) - (65-67) Physical Damage to the gear",
+    "Adds (77-79) - (438-440) Elemental Damage to the gear\\n-100% Gear Physical Damage",
+    "Adds (59-61) - (337-339) Elemental Damage to the gear\\n-100% Gear Physical Damage",
+    "Adds (23-25) - (133-135) Elemental Damage to the gear\\n-100% Gear Physical Damage",
+    "+(31-39)% Life Regain",
+    "+(22-30)% Life Regain",
+    "+(16-21)% Life Regain",
+    "+(13-15)% Life Regain",
+    "+(11-12)% Life Regain",
+    "+(31-39)% Energy Shield Regain",
+    "+(22-30)% Energy Shield Regain",
+    "+(16-21)% Energy Shield Regain",
+    "+(13-15)% Energy Shield Regain",
+    "+(11-12)% Energy Shield Regain",
+    "+(217-281)% Elemental Damage",
+    "+(152-216)% Elemental Damage",
+    "+(109-151)% Elemental Damage",
+    "+(87-108)% Elemental Damage",
+    "+(70-86)% Elemental Damage",
+    "+(66-94)% Attack and Cast Speed\\n+(66-94)% Minion Attack and Cast Speed",
+    "+(51-72)% Attack and Cast Speed\\n+(51-72)% Minion Attack and Cast Speed",
+    "+(43-50)% Attack and Cast Speed\\n+(43-50)% Minion Attack and Cast Speed",
+    "+(31-36)% Attack and Cast Speed\\n+(31-36)% Minion Attack and Cast Speed",
+    "+(151-195)% Affliction Effect",
+    "+(106-150)% Affliction Effect",
+    "+(76-105)% Affliction Effect",
+    "+(61-75)% Affliction Effect",
+    "+(49-60)% Affliction Effect",
+    "+(145-187)% chance to Multistrike",
+    "+(102-144)% chance to Multistrike",
+    "+(73-101)% chance to Multistrike",
+    "+(59-72)% chance to Multistrike",
+    "+(47-58)% chance to Multistrike",
+    "Max Sentry Quantity +2\\n+10% additional damage",
+    "Adds (10-13) - (14-19) Physical Damage to Attacks",
+    "Adds (9-14) - (15-20) Fire Damage to Attacks",
+    "Adds (10-13) - (14-19) Cold Damage to Attacks",
+    "Adds (1-2) - (28-32) Lightning Damage to Attacks",
+    "Adds (11-13) - (15-18) Erosion Damage to Attacks",
+    "Adds (32-34) - (40-42) Physical Damage to the gear",
+    "Lucky Critical Strike\\n(-80--50)% Critical Strike Rating",
+    "+16% additional damage for Main-Hand Weapons",
+    "+16% all stats",
+    "Main Skill is supported by Lv. 25 Multiple Projectiles\\n+25% additional Projectile Damage",
+    "Attack Horizontal Projectiles will return after reaching their max range and will hit enemies on their path again\\n-30% additional Projectile Damage",
+    "+200% Precise Projectiles Aura effect\\n-30% additional Precise Projectiles Sealed Mana Compensation",
+    "+80% Gear Physical Damage\\n-20% Attack Critical Strike Rating for this gear",
+    "+30% additional Deterioration Damage\\n10% chance to inflict 2 additional stack(s) of Deterioration",
+    "+50% Gear Elemental Damage\\n-25% Gear Physical Damage",
+    "+(4-8)% chance to gain 1 stack of Focus Blessing on defeat",
+    "Damage Penetrates (5-8)% Elemental Resistance",
+    "Adds (5-8)% of Elemental Damage as Erosion Damage",
+    "Adds (47-49) - (57-59) Physical Damage to the gear",
+    "Adds (36-38) - (44-46) Physical Damage to the gear",
+    "Adds (21-23) - (25-27) Physical Damage to the gear",
+    "Adds (13-15) - (17-19) Physical Damage to the gear",
+    "Adds (9-11) - (11-13) Physical Damage to the gear",
+    "Adds (161-163) - (208-220) Fire Damage to the gear",
+    "Adds (123-125) - (160-169) Fire Damage to the gear",
+    "Adds (47-49) - (62-67) Fire Damage to the gear",
+    "Adds (23-25) - (30-33) Fire Damage to the gear",
+    "Adds (8-10) - (11-14) Fire Damage to the gear",
+    "Adds (162-164) - (216-218) Cold Damage to the gear",
+    "Adds (125-127) - (165-167) Cold Damage to the gear",
+    "Adds (48-50) - (64-66) Cold Damage to the gear",
+    "Adds (23-25) - (31-33) Cold Damage to the gear",
+    "Adds (8-10) - (12-14) Cold Damage to the gear",
+    "Adds (18-20) - (360-362) Lightning Damage to the gear",
+    "Adds (14-16) - (276-278) Lightning Damage to the gear",
+    "Adds (5-7) - (107-109) Lightning Damage to the gear",
+    "Adds (2-4) - (52-54) Lightning Damage to the gear",
+    "Adds (1-2) - (20-22) Lightning Damage to the gear",
+    "Adds (174-176) - (204-206) Erosion Damage to the gear",
+    "Adds (133-135) - (157-159) Erosion Damage to the gear",
+    "Adds (51-53) - (61-63) Erosion Damage to the gear",
+    "Adds (25-27) - (29-31) Erosion Damage to the gear",
+    "Adds (9-11) - (11-13) Erosion Damage to the gear",
+    "+(91-117) Dexterity",
+    "+(64-90) Dexterity",
+    "+(46-63) Dexterity",
+    "+(37-45) Dexterity",
+    "+(30-36) Dexterity",
+    "+(91-117) Intelligence",
+    "+(64-90) Intelligence",
+    "+(46-63) Intelligence",
+    "+(37-45) Intelligence",
+    "+(30-36) Intelligence",
+    "+(91-117) Strength",
+    "+(64-90) Strength",
+    "+(46-63) Strength",
+    "+(37-45) Strength",
+    "+(30-36) Strength",
+    "+(3-4) to Attack Skill Level",
+    "+2 to Attack Skill Level",
+    "Adds (62-64) - (356-358) Elemental Damage to the gear\\n-100% Gear Physical Damage",
+    "Adds (47-49) - (272-274) Elemental Damage to the gear\\n-100% Gear Physical Damage",
+    "Adds (18-20) - (107-109) Elemental Damage to the gear\\n-100% Gear Physical Damage",
+    "+(19-23)% Life Regain",
+    "+(14-18)% Life Regain",
+    "+(10-13)% Life Regain",
+    "+(8-9)% Life Regain",
+    "+7% Life Regain",
+    "+(19-23)% Energy Shield Regain",
+    "+(14-18)% Energy Shield Regain",
+    "+(10-13)% Energy Shield Regain",
+    "+(8-9)% Energy Shield Regain",
+    "+7% Energy Shield Regain",
+    "+(109-140)% Elemental Damage",
+    "+(77-108)% Elemental Damage",
+    "+(55-76)% Elemental Damage",
+    "+(44-54)% Elemental Damage",
+    "+(36-43)% Elemental Damage",
+    "+(33-47)% Attack and Cast Speed\\n+(33-47)% Minion Attack and Cast Speed",
+    "+(26-36)% Attack and Cast Speed\\n+(26-36)% Minion Attack and Cast Speed",
+    "+(21-25)% Attack and Cast Speed\\n+(21-25)% Minion Attack and Cast Speed",
+    "+(15-18)% Attack and Cast Speed\\n+(15-18)% Minion Attack and Cast Speed",
+    "+8% additional damage for Main-Hand Weapons",
+    "+10% all stats",
+    "+120% Precise Projectiles Aura effect\\n-20% additional Precise Projectiles Sealed Mana Compensation",
+    "+15% additional Deterioration Damage\\n10% chance to inflict 1 additional stack(s) of Deterioration",
+    "+25% Gear Elemental Damage\\n-25% Gear Physical Damage",
+    "Regenerates (0.5-1.0)% Life per second",
+    "+1 Support Skill Level",
+    "(-6--4)% additional Physical Damage taken",
+    "+(10-15)% Attack and Spell Block Chance while standing still",
+    "Immune to Elemental Ailments",
+    "+(8-10)% Elemental and Erosion Resistance",
+    "50% chance to gain Hardened when you are hit",
+    "+(3361-4368) gear Evasion",
+    "+(2353-3360) gear Evasion",
+    "+(1681-2352) gear Evasion",
+    "+(1345-1680) gear Evasion",
+    "+(1076-1344) gear Evasion",
+    "+(17-21)% Max Life",
+    "+(12-16)% Max Life",
+    "+(9-11)% Max Life",
+    "+(7-8)% Max Life",
+    "+6% Max Life",
+    "+6% Attack and Spell Block Chance",
+    "+(21-26)% Sealed Mana Compensation",
+    "+(15-20)% Sealed Mana Compensation",
+    "+(8-12)% Sealed Mana Compensation",
+    "You can cast 1 additional Curses\\n+(8-10)% Curse Effect",
+    "Enemies have a (10-15)% chance to explode when defeated by an Attack or Spell, dealing True Damage equal to (200-250)% of their Max Life to enemies within a 6 m radius",
+    "+(21-26)% additional Evasion",
+    "+(15-20)% additional Evasion",
+    "+(11-14)% additional Evasion",
+    "+(8-10)% additional Evasion",
+    "+(6-7)% additional Evasion",
+    "Regenerates 4% Life per second",
+    "Regenerates 2% Life per second",
+    "+(6-7)% Elemental Resistance",
+    "+5% Elemental Resistance",
+    "+(19-23)% Dexterity",
+    "+(14-18)% Dexterity",
+    "+(10-13)% Dexterity",
+    "+(8-9)% Dexterity",
+    "+7% Dexterity",
+    "When dealing damage, inflicts Lightning Infiltration. Interval for each enemy: 1 s\\nWhen Minions deal damage, inflicts Lightning Infiltration. Interval for each enemy: 1 s\\n+(40-60)% Lightning Infiltration Effect",
+    "When dealing damage, inflicts Lightning Infiltration. Interval for each enemy: 1 s\\nWhen Minions deal damage, inflicts Lightning Infiltration. Interval for each enemy: 1 s\\n+(10-30)% Lightning Infiltration Effect",
+    "+(136-176) Attack and Spell Critical Strike Rating",
+    "+(96-135) Attack and Spell Critical Strike Rating",
+    "Regenerates (9-10)% Life per second when taking Damage Over Time",
+    "Regenerates (7-8)% Life per second when taking Damage Over Time",
+    "Regenerates (5-6)% Life per second when taking Damage Over Time",
+    "Regenerates 4% Life per second when taking Damage Over Time",
+    "+(401-520) gear Energy Shield",
+    "+(281-400) gear Energy Shield",
+    "+(201-280) gear Energy Shield",
+    "+(161-200) gear Energy Shield",
+    "+(129-160) gear Energy Shield",
+    "+(19-23)% Intelligence",
+    "+(14-18)% Intelligence",
+    "+(10-13)% Intelligence",
+    "+(8-9)% Intelligence",
+    "+7% Intelligence",
+    "Inflicts Cold Infiltration when dealing damage. Interval for each enemy: 1 s\\nWhen Minions deal damage, inflicts Cold Infiltration. Interval for each enemy: 1 s\\n+(40-60)% Cold Infiltration Effect",
+    "Inflicts Cold Infiltration when dealing damage. Interval for each enemy: 1 s\\nWhen Minions deal damage, inflicts Cold Infiltration. Interval for each enemy: 1 s\\n+(10-30)% Cold Infiltration Effect",
+    "+(13-14)% Armor Effective Rate for Non-Physical Damage",
+    "+(3361-4368) Gear Armor",
+    "+(2353-3360) Gear Armor",
+    "+(1681-2352) Gear Armor",
+    "+(1345-1680) Gear Armor",
+    "+(1076-1344) Gear Armor",
+    "+(55-78) Strength",
+    "+(42-60) Strength",
+    "+(35-42) Strength",
+    "+(15-20)% additional Armor",
+    "+(11-14)% additional Armor",
+    "+(8-10)% additional Armor",
+    "+(6-7)% additional Armor",
+    "Regenerates (2-3)% Life per second",
+    "+(19-23)% Strength",
+    "+(14-18)% Strength",
+    "+(10-13)% Strength",
+    "+(8-9)% Strength",
+    "+7% Strength",
+    "When dealing damage, inflicts Fire Infiltration. Interval for each enemy: 1 s\\nWhen Minions deal damage, inflicts Fire Infiltration. Interval for each enemy: 1 s\\n+(40-60)% Fire Infiltration Effect",
+    "When dealing damage, inflicts Fire Infiltration. Interval for each enemy: 1 s\\nWhen Minions deal damage, inflicts Fire Infiltration. Interval for each enemy: 1 s\\n+(10-30)% Fire Infiltration Effect",
+    "+(69-95) Attack and Spell Critical Strike Rating",
+    "+(55-68) Attack and Spell Critical Strike Rating",
+    "+(44-54) Attack and Spell Critical Strike Rating",
+    "+(4-8)% chance to gain 1 stack of Agility Blessing on defeat",
+    "Adds (2-4) - (8-10) Physical Damage to the gear",
+    "+(25-30)% Elemental Damage",
+    "Adds 630 - 1470 Base Trauma Damage",
+    "Adds 480 - 1120 Base Trauma Damage",
+    "Adds 330 - 770 Base Trauma Damage",
+    "Adds 240 - 560 Base Trauma Damage",
+    "Adds 180 - 420 Base Trauma Damage",
+    "Reaps (0.19-0.24) s of Trauma Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+    "Reaps (0.13-0.18) s of Trauma Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+    "Reaps (0.09-0.12) s of Trauma Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+    "Reaps 0.08 s of Trauma Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+    "Reaps 0.07 s of Trauma Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+    "Multistrikes deal (61-78)% increasing damage",
+    "Multistrikes deal (43-60)% increasing damage",
+    "Multistrikes deal (31-42)% increasing damage",
+    "Multistrikes deal (25-30)% increasing damage",
+    "+(31-39)% additional Trauma Damage",
+    "+(22-30)% additional Trauma Damage",
+    "+(16-21)% additional Trauma Damage",
+    "+(55-61)% Gear Attack Speed. (-12--11)% additional Attack Damage",
+    "+(43-52)% Gear Attack Speed. (-13--12)% additional Attack Damage",
+    "+(39-42)% Gear Attack Speed. (-15--14)% additional Attack Damage",
+    "+(34-36)% Gear Attack Speed. (-15--14)% additional Attack Damage",
+    "+(31-33)% Gear Attack Speed. -15% additional Attack Damage",
+    "+(76-98)% Affliction Effect",
+    "+(54-75)% Affliction Effect",
+    "+(39-53)% Affliction Effect",
+    "+(31-38)% Affliction Effect",
+    "+(25-30)% Affliction Effect",
+    "+(73-94)% chance to Multistrike",
+    "+(52-72)% chance to Multistrike",
+    "+(38-51)% chance to Multistrike",
+    "+(27-37)% chance to Multistrike",
+    "+(18-26)% chance to Multistrike",
+    "Shadow Quantity +2\\n+(10-15)% additional Shadow Damage",
+    "Shadow Quantity +2\\n-5% additional Shadow Damage",
+    "+120% Fearless Aura\\n-20% additional Fearless Sealed Mana Compensation",
+    "Enemies have a 30% chance to explode when defeated, dealing True Damage equal to (50-100)% of their Max Life to enemies within a 6 m radius",
+    "+(6-12)% chance to gain 1 stack of Tenacity Blessing on defeat",
+    "Eliminates enemies under (5-8)% Life upon inflicting damage",
+    "+(8-12)% chance to deal double Trauma Damage",
+    "Adds 1260 - 2940 Base Trauma Damage",
+    "Adds 960 - 2240 Base Trauma Damage",
+    "Adds 660 - 1540 Base Trauma Damage",
+    "Adds 360 - 840 Base Trauma Damage",
+    "Reaps (0.37-0.48) s of Trauma Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+    "Reaps (0.25-0.36) s of Trauma Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+    "Reaps (0.18-0.24) s of Trauma Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+    "Reaps 0.16 s of Trauma Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+    "Reaps 0.14 s of Trauma Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+    "+(61-78)% additional Trauma Damage",
+    "+(43-60)% additional Trauma Damage",
+    "+(31-42)% additional Trauma Damage",
+    "+(81-104)% Knockback distance\\n+14% additional damage",
+    "+(58-80)% Knockback distance\\n+10% additional damage",
+    "+(6-12)% chance to gain 1 stack of Focus Blessing on defeat",
+    "Adds (7-12)% of Elemental Damage as Erosion Damage",
+    "+(1-2) Support Skill Level",
+    "+(3-4) to Max Channeled Stacks",
+    "+(1-2) to Max Channeled Stacks",
+    "Min Channeled Stacks +(3-4)",
+    "Min Channeled Stacks +(1-2)",
+    "+(251-325)% Demolisher Charge Restoration Speed",
+    "+(176-250)% Demolisher Charge Restoration Speed",
+    "+(126-175)% Demolisher Charge Restoration Speed",
+    "+(101-125)% Demolisher Charge Restoration Speed",
+    "+(81-100)% Demolisher Charge Restoration Speed",
+    "+60% Steep Strike chance.\\n+(49-62)% additional Steep Strike Damage",
+    "+46% Steep Strike chance.\\n+(35-48)% additional Steep Strike Damage",
+    "+32% Steep Strike chance.\\n+(25-34)% additional Steep Strike Damage",
+    "+24% Steep Strike chance.\\n+(20-24)% additional Steep Strike Damage",
+    "+18% Steep Strike chance.\\n+(16-19)% additional Steep Strike Damage",
+    "Main Skill is supported by Lv. 25 Steamroll\\n+25% additional Melee Damage",
+    "+200% Fearless Aura\\n-30% additional Fearless Sealed Mana Compensation",
+    "+120% Gear Physical Damage\\n-20% Attack Critical Strike Rating for this gear",
+    "+(5-10) Affliction inflicted per second",
+    "(5-8)% chance to inflict 1 additional stack(s) of Wilt",
+    "Wilted enemies defeated by you will explode, dealing True Damage equal to (50-100)% of their Max Life to enemies within a 6 m radius",
+    "Adds 72 - 88 Base Wilt Damage",
+    "Adds 56 - 67 Base Wilt Damage",
+    "Adds 38 - 46 Base Wilt Damage",
+    "Adds 28 - 35 Base Wilt Damage",
+    "Adds 21 - 25 Base Wilt Damage",
+    "Reaps (0.19-0.24) s of Wilt Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+    "Reaps (0.13-0.18) s of Wilt Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+    "Reaps (0.09-0.12) s of Wilt Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+    "Reaps 0.08 s of Wilt Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+    "Reaps 0.07 s of Wilt Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+    "+(31-39)% additional Wilt Damage",
+    "+(22-30)% additional Wilt Damage",
+    "+(16-21)% additional Wilt Damage",
+    "+(74-94)% chance to Multistrike",
+    "+(57-72)% chance to Multistrike",
+    "+(48-50)% chance to Multistrike",
+    "+(34-36)% chance to Multistrike",
+    "+(27-29)% chance to Multistrike",
+    "+(1-2) to Parabolic Projectile Splits quantity",
+    "Adds 144 - 176 Base Wilt Damage",
+    "Adds 112 - 134 Base Wilt Damage",
+    "Adds 76 - 92 Base Wilt Damage",
+    "Adds 56 - 70 Base Wilt Damage",
+    "Adds 42 - 50 Base Wilt Damage",
+    "Reaps (0.37-0.48) s of Wilt Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+    "Reaps (0.25-0.36) s of Wilt Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+    "Reaps (0.18-0.24) s of Wilt Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+    "Reaps 0.16 s of Wilt Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+    "Reaps 0.14 s of Wilt Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+    "+(61-78)% additional Wilt Damage",
+    "+(43-60)% additional Wilt Damage",
+    "+(31-42)% additional Wilt Damage",
+    "Max Terra Quantity +2\\n+10% additional damage",
+    "Max Terra Quantity +2\\n+1% additional damage",
+    "Max Terra Quantity +2\\n-20% additional damage",
+    "+100% chance to Paralyze the target on hit",
+    "Converts 50% of Physical Damage to Cold Damage",
+    "Converts 50% of Physical Damage to Fire Damage",
+    "Converts 50% of Physical Damage to Erosion Damage",
+    "+(15-20)% chance to Blind the target on hit",
+    "+(15-20)% chance to Mark the target on hit",
+    "+(15-20)% chance to inflict Paralysis on hit",
+    "Lucky Critical Strike\\n(-150--120) Critical Strike Rating",
+    "Gains a stack of Fortitude when using a Melee Skill",
+    "Inflicts Frail when dealing Spell Damage",
+    "Gains a stack of Torment when Reaping",
+    "Adds (58-60) - (71-73) Physical Damage to Attacks and Spells",
+    "Adds (44-46) - (54-56) Physical Damage to Attacks and Spells",
+    "Adds (26-28) - (32-34) Physical Damage to Attacks and Spells",
+    "Adds (17-19) - (21-23) Physical Damage to Attacks and Spells",
+    "Adds (11-13) - (13-15) Physical Damage to Attacks and Spells",
+    "Adds (54-56) - (71-76) Fire Damage to Attacks and Spells",
+    "Adds (42-44) - (54-59) Fire Damage to Attacks and Spells",
+    "Adds (25-27) - (32-36) Fire Damage to Attacks and Spells",
+    "Adds (16-18) - (21-24) Fire Damage to Attacks and Spells",
+    "Adds (10-12) - (13-16) Fire Damage to Attacks and Spells",
+    "Adds (55-57) - (73-75) Cold Damage to Attacks and Spells",
+    "Adds (42-44) - (56-58) Cold Damage to Attacks and Spells",
+    "Adds (25-27) - (33-35) Cold Damage to Attacks and Spells",
+    "Adds (16-18) - (22-24) Cold Damage to Attacks and Spells",
+    "Adds (10-12) - (14-16) Cold Damage to Attacks and Spells",
+    "Adds (6-8) - (123-125) Lightning Damage to Attacks and Spells",
+    "Adds (4-6) - (94-96) Lightning Damage to Attacks and Spells",
+    "Adds (2-4) - (56-58) Lightning Damage to Attacks and Spells",
+    "Adds (1-3) - (37-39) Lightning Damage to Attacks and Spells",
+    "Adds (1-2) - (24-26) Lightning Damage to Attacks and Spells",
+    "Adds (13-16)% of Physical Damage as Lightning Damage",
+    "Adds (9-12)% of Physical Damage as Lightning Damage",
+    "Adds (7-8)% of Physical Damage as Lightning Damage",
+    "Adds 6% of Physical Damage as Lightning Damage",
+    "Adds 5% of Physical Damage as Lightning Damage",
+    "Adds (13-16)% of Lightning Damage as Erosion Damage",
+    "Adds (9-12)% of Lightning Damage as Erosion Damage",
+    "Adds (7-8)% of Lightning Damage as Erosion Damage",
+    "Adds 6% of Lightning Damage as Erosion Damage",
+    "Adds 5% of Lightning Damage as Erosion Damage",
+    "Adds (55-57) - (73-75) Erosion Damage to Attacks and Spells",
+    "Adds (42-44) - (56-58) Erosion Damage to Attacks and Spells",
+    "Adds (25-27) - (33-35) Erosion Damage to Attacks and Spells",
+    "Adds (16-18) - (22-24) Erosion Damage to Attacks and Spells",
+    "Adds (10-12) - (14-16) Erosion Damage to Attacks and Spells",
+    "+(9-10)% additional Fire Damage and +(16-18)% Fire Penetration when you have at least 8 stack(s) of Tenacity Blessing",
+    "+(6-8)% additional Fire Damage and +(12-15)% Fire Penetration when you have at least 8 stack(s) of Tenacity Blessing",
+    "+(3-5)% additional Fire Damage and +(9-11)% Fire Penetration when you have at least 8 stack(s) of Tenacity Blessing",
+    "+(9-10)% additional Lightning Damage and +(16-18)% Lightning Penetration when you have at least 8 stack(s) of Agility Blessing",
+    "+(6-8)% additional Lightning Damage and +(12-15)% Lightning Penetration when you have at least 8 stack(s) of Agility Blessing",
+    "+(3-5)% additional Lightning Damage and +(9-11)% Lightning Penetration when you have at least 8 stack(s) of Agility Blessing",
+    "+(9-10)% additional Cold Damage and +(16-18)% Cold Penetration when you have at least 8 stack(s) of Focus Blessing",
+    "+(6-8)% additional Cold Damage and +(12-15)% Cold Penetration when you have at least 8 stack(s) of Focus Blessing",
+    "+(3-5)% additional Cold Damage and +(9-11)% Cold Penetration when you have at least 8 stack(s) of Focus Blessing",
+    "+(26-30)% additional Minion Damage when you have (1-8) Minion(s)",
+    "+(21-25)% additional Minion Damage when you have (1-8) Minion(s)",
+    "+(15-20)% additional Minion Damage when you have (1-8) Minion(s)",
+    "Regenerates (121-156) Life per second",
+    "Regenerates (85-120) Life per second",
+    "Regenerates (61-84) Life per second",
+    "Regenerates (49-60) Life per second",
+    "Regenerates (39-48) Life per second",
+    "+(22-31)% Attack and Cast Speed\\n+(22-31)% Minion Attack and Cast Speed",
+    "+(17-24)% Attack and Cast Speed\\n+(17-24)% Minion Attack and Cast Speed",
+    "+(14-17)% Attack and Cast Speed\\n+(14-17)% Minion Attack and Cast Speed",
+    "+(37-50)% Reaping Duration",
+    "+(27-36)% Reaping Duration",
+    "+(19-26)% Reaping Duration",
+    "+(49-62)% Skill Area\\n+(49-62)% Minion Skill Area",
+    "+(35-48)% Skill Area\\n+(35-48)% Minion Skill Area",
+    "+(25-34)% Skill Area\\n+(25-34)% Minion Skill Area",
+    "+(20-24)% Skill Area\\n+(20-24)% Minion Skill Area",
+    "+(16-19)% Skill Area\\n+(16-19)% Minion Skill Area",
+    "+1 Jumps\\n+6% additional damage for every Jump (multiplies)",
+    "+1 Jumps\\n+(4-5)% additional damage for every Jump (multiplies)",
+    "+1 Jumps\\n+(2-3)% additional damage for every Jump (multiplies)",
+    "+(26-30)% additional damage while having Fervor",
+    "+(21-25)% additional damage while having Fervor",
+    "+(15-20)% additional damage while having Fervor",
+    "+(16-20)% Blur Effect\\nGains Blur for 1 s after losing Blur",
+    "+(12-15)% Blur Effect\\nGains Blur for 1 s after losing Blur",
+    "+(8-10)% Blur Effect\\nGains Blur for 1 s after losing Blur",
+    "Adds (13-16)% of Physical Damage to Cold Damage",
+    "Adds (9-12)% of Physical Damage to Cold Damage",
+    "Adds (7-8)% of Physical Damage to Cold Damage",
+    "Adds 6% of Physical Damage to Cold Damage",
+    "Adds 5% of Physical Damage to Cold Damage",
+    "Adds (13-16)% of Cold Damage as Erosion Damage",
+    "Adds (9-12)% of Cold Damage as Erosion Damage",
+    "Adds (7-8)% of Cold Damage as Erosion Damage",
+    "Adds 6% of Cold Damage as Erosion Damage",
+    "Adds 5% of Cold Damage as Erosion Damage",
+    "Adds (13-16)% of Physical Damage as Fire Damage",
+    "Adds (9-12)% of Physical Damage as Fire Damage",
+    "Adds (7-8)% of Physical Damage as Fire Damage",
+    "Adds 6% of Physical Damage as Fire Damage",
+    "Adds 5% of Physical Damage as Fire Damage",
+    "Adds (13-16)% of Fire Damage as Erosion Damage",
+    "Adds (9-12)% of Fire Damage as Erosion Damage",
+    "Adds (7-8)% of Fire Damage as Erosion Damage",
+    "Adds 6% of Fire Damage as Erosion Damage",
+    "Adds 5% of Fire Damage as Erosion Damage",
+    "When dealing damage, inflicts Lightning Infiltration. Interval for each enemy: 1 s\\nWhen Minions deal damage, inflicts Lightning Infiltration. Interval for each enemy: 1 s",
+    "Has Profane. Minions have Profane",
+    "+(10-15)% Sealed Mana Compensation",
+    "Triggers Lv. (15-20) Timid Curse upon inflicting damage. Cooldown: 0.3 s",
+    "Triggers Lv. (15-20) Entangled Pain Curse upon inflicting damage. Cooldown: 0.3 s",
+    "Immune to Blinding\\nImmune to Paralysis",
+    "+(14-17)% Block Ratio",
+    "+(10-13)% Block Ratio",
+    "+(8-9)% Block Ratio",
+    "+(51-65)% chance to gain 1 stack of Agility Blessing on defeat",
+    "+(37-50)% chance to gain 1 stack of Agility Blessing on defeat",
+    "+(27-36)% chance to gain 1 stack of Agility Blessing on defeat",
+    "+(19-26)% chance to gain 1 stack of Agility Blessing on defeat",
+    "+(13-18)% chance to gain 1 stack of Agility Blessing on defeat",
+    "+(61-78)% Barrier Shield",
+    "+(43-60)% Barrier Shield",
+    "+(31-42)% Barrier Shield",
+    "+(25-30)% Barrier Shield",
+    "+(20-24)% Barrier Shield",
+    "Converts (8-9)% of Physical Damage taken to Lightning Damage",
+    "+1 Max Spell Burst\\n+10% additional Hit Damage for skills cast by Spell Burst",
+    "+1 Max Spell Burst",
+    "Max Terra Charge Stacks +1\\n+30% Terra Charge Recovery Speed",
+    "Max Terra Charge Stacks +1",
+    "+(11-14)% Sealed Mana Compensation",
+    "(-20--16)% additional Damage dealt by Nearby enemies",
+    "(-15--12)% additional Damage dealt by Nearby enemies",
+    "(-11--9)% additional Damage dealt by Nearby enemies",
+    "(11-15)% chance to gain a Barrier on defeat",
+    "+(19-23)% Evasion\\n+(111-143) Max Life",
+    "+(14-18)% Evasion\\n+(78-110) Max Life",
+    "+(10-13)% Evasion\\n+(56-77) Max Life",
+    "+(10-13)% Evasion\\n+(45-55) Max Life",
+    "+7% Evasion\\n+(36-44) Max Life",
+    "+(10-11) Support Skill Level",
+    "+(6-9) Support Skill Level",
+    "+(4-5) Support Skill Level",
+    "+(25-31)% additional damage taken by Nearby enemies",
+    "+(18-24)% additional damage taken by Nearby enemies",
+    "+(13-17)% additional damage taken by Nearby enemies",
+    "+(51-65)% Numbed Effect",
+    "+(40-50)% Numbed Effect",
+    "+(30-38)% Numbed Effect",
+    "+(22-28)% Numbed Effect",
+    "+(15-20)% Numbed Effect",
+    "Inflicts Cold Infiltration when dealing damage. Interval for each enemy: 1 s\\nWhen Minions deal damage, inflicts Cold Infiltration. Interval for each enemy: 1 s",
+    "+(51-65)% chance to gain 1 stack of Focus Blessing on defeat",
+    "+(37-50)% chance to gain 1 stack of Focus Blessing on defeat",
+    "+(27-36)% chance to gain 1 stack of Focus Blessing on defeat",
+    "+(19-26)% chance to gain 1 stack of Focus Blessing on defeat",
+    "+(13-18)% chance to gain 1 stack of Focus Blessing on defeat",
+    "Converts (8-9)% of Physical Damage taken to Cold Damage",
+    "When dealing damage, inflicts Fire Infiltration. Interval for each enemy: 1 s\\nWhen Minions deal damage, inflicts Fire Infiltration. Interval for each enemy: 1 s",
+    "+(2622-3744) Gear Armor",
+    "+(1694-2016) Gear Armor",
+    "+(1210-1440) Gear Armor",
+    "+(968-1152) Gear Armor",
+    "+(51-65)% chance to gain 1 stack of Tenacity Blessing on defeat",
+    "+(37-50)% chance to gain 1 stack of Tenacity Blessing on defeat",
+    "+(27-36)% chance to gain 1 stack of Tenacity Blessing on defeat",
+    "+(19-26)% chance to gain 1 stack of Tenacity Blessing on defeat",
+    "+(13-18)% chance to gain 1 stack of Tenacity Blessing on defeat",
+    "Converts (8-9)% of Physical Damage taken to Fire Damage",
+    "+(19-23)% Armor\\n+(11-143) Max Life",
+    "+(14-18)% Armor\\n+(78-110) Max Life",
+    "+(10-13)% Armor\\n+(56-77) Max Life",
+    "+(10-13)% Armor\\n+(45-55) Max Life",
+    "+7% Armor\\n+(36-44) Max Life",
+    "+(12-15)% chance for Attacks to inflict Damaging Ailments",
+    "Adds 910 - 1690 Base Ignite Damage",
+    "Adds 700 - 1300 Base Ignite Damage",
+    "Adds 490 - 910 Base Ignite Damage",
+    "Adds 350 - 650 Base Ignite Damage",
+    "Adds 250 - 470 Base Ignite Damage",
+    "Reaps (0.37-0.48) s of Ignite Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+    "Reaps (0.25-0.36) s of Ignite Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+    "Reaps (0.18-0.24) s of Ignite Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+    "Reaps 0.16 s of Ignite Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+    "Reaps 0.14 s of Ignite Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+    "+(61-78)% additional Ignite Damage",
+    "+(43-60)% additional Ignite Damage",
+    "+(31-42)% additional Ignite Damage",
+    "+(3-4)% Elemental Resistance",
+    "+(20-24)% damage\\n+(20-24)% Minion Damage",
+    "+(26-30)% chance to avoid Elemental Ailments",
+    "Immune to Frostbite",
+    "Immune to Frostbite\\nImmune to Numbed",
+    "Immune to Ignite\\nImmune to Numbed",
+    "+(10-15)% Sealed Mana Compensation for Charged Flames",
+    "+(10-15)% Sealed Mana Compensation for Frigid Domain",
+    "+(10-15)% Sealed Mana Compensation for Electric Conversion",
+    "+(10-15)% Sealed Mana Compensation for Weapon Amplification",
+    "+(10-15)% Sealed Mana Compensation for Deep Pain",
+    "+(60-80) Attack and Spell Critical Strike Rating",
+    "+(319-455) Max Energy Shield",
+    "+(245-350) Max Energy Shield",
+    "+(206-245) Max Energy Shield",
+    "+(147-175) Max Energy Shield",
+    "+(118-140) Max Energy Shield",
+    "+(20-24) initial Growth for Spirit Magi",
+    "+(16-19) initial Growth for Spirit Magi",
+    "+(31-39)% Sealed Mana Compensation for Steadfast",
+    "+(22-30)% Sealed Mana Compensation for Steadfast",
+    "+(16-21)% Sealed Mana Compensation for Steadfast",
+    "+(13-15)% Sealed Mana Compensation for Steadfast",
+    "+(11-12)% Sealed Mana Compensation for Steadfast",
+    "+(31-39)% Sealed Mana Compensation for Nimbleness",
+    "+(22-30)% Sealed Mana Compensation for Nimbleness",
+    "+(16-21)% Sealed Mana Compensation for Nimbleness",
+    "+(13-15)% Sealed Mana Compensation for Nimbleness",
+    "+(11-12)% Sealed Mana Compensation for Nimbleness",
+    "+(31-39)% Sealed Mana Compensation for Energy Fortress",
+    "+(22-30)% Sealed Mana Compensation for Energy Fortress",
+    "+(16-21)% Sealed Mana Compensation for Energy Fortress",
+    "+(13-15)% Sealed Mana Compensation for Energy Fortress",
+    "+(11-12)% Sealed Mana Compensation for Energy Fortress",
+    "Gains Attack Aggression when casting an Attack Skill\\n+(40-60)% Attack Aggression Effect",
+    "Gains Attack Aggression when casting an Attack Skill\\n+(10-30)% Attack Aggression Effect",
+    "Gains Spell Aggression when casting a Spell Skill\\n+(40-60)% Spell Aggression Effect",
+    "Gains Spell Aggression when casting a Spell Skill\\n+(10-30)% Spell Aggression Effect",
+    "[Beacon] +2 Max Spell Burst",
+    "+(1-2) Active Skill Level",
+    "Have Fervor\\n+5% additional damage",
+    "Have Fervor",
+    "Multistrikes deal (36-52)% increasing damage",
+    "Multistrikes deal (28-40)% increasing damage",
+    "Multistrikes deal (24-28)% increasing damage",
+    "Multistrikes deal (17-20)% increasing damage",
+    "You can apply 1 additional Tangle(s) to enemies\\n+(12-15)% Tangle Damage Enhancement",
+    "You can apply 1 additional Tangle(s) to enemies\\n+(5-8)% Tangle Damage Enhancement",
+    "80% chance to gain 1 charge stacks when using a Terra Skill",
+    "40% chance to gain 1 charge stacks when using a Terra Skill",
+    "20% chance to gain 1 charge stacks when using a Terra Skill",
+    "+(11-13)% all stats",
+    "+(8-10)% all stats",
+    "+(6-7)% all stats",
+    "+5% all stats",
+    "+4% all stats",
+    "100% chance to gain a Barrier for every 5 m you move\\n+25% Barrier Shield",
+    "100% chance to gain a Barrier for every 5 m you move",
+    "+(8-10)% Sealed Mana Compensation",
+    "+1% damage per 8 stats",
+    "+1% damage per 16 stats",
+    "+1% damage per 24 stats",
+    "+(6-8)% additional damage against Traumatized enemies",
+    "+(6-9)% additional Steep Strike Damage",
+    "+(4-8)% chance to gain 1 stack of Tenacity Blessing on defeat",
+    "+(11-12)% Elemental and Erosion Resistance Penetration",
+    "+30% Steep Strike chance.\\n+(23-29)% additional Steep Strike Damage",
+    "+23% Steep Strike chance.\\n+(16-22)% additional Steep Strike Damage",
+    "+16% Steep Strike chance.\\n+(12-15)% additional Steep Strike Damage",
+    "+12% Steep Strike chance.\\n+(10-11)% additional Steep Strike Damage",
+    "+9% Steep Strike chance.\\n+(8-9)% additional Steep Strike Damage",
+    "+(126-163)% Demolisher Charge Restoration Speed",
+    "+(89-125)% Demolisher Charge Restoration Speed",
+    "+(64-88)% Demolisher Charge Restoration Speed",
+    "+(51-63)% Demolisher Charge Restoration Speed",
+    "+(41-50)% Demolisher Charge Restoration Speed",
+    "+(55-65)% Combo Damage Enhancement if the Combo Finisher cast recently consumes at least 8 Combo Point(s)",
+    "+(40-50)% Combo Damage Enhancement if the Combo Finisher cast recently consumes at least 8 Combo Point(s)",
+    "+(25-35)% Combo Damage Enhancement if the Combo Finisher cast recently consumes at least 8 Combo Point(s)",
+    "+(12-16)% additional damage when a Skill consumes Demolisher Charge",
+    "Eliminates enemies under (5-7)% Life upon inflicting damage",
+    "+(64-74)% additional Attack Damage after standing still for 0.1s. -20% additional Attack Speed",
+    "+(55-63)% additional Attack Damage after standing still for 0.1s. -20% additional Attack Speed",
+    "+(39-52)% additional Attack Damage after standing still for 0.1s. -20% additional Attack Speed",
+    "+(33-38)% additional Attack Damage after standing still for 0.1s. (-16--15)% additional Attack Speed",
+    "+(25-32)% additional Attack Damage after standing still for 0.1s. (-14--13)% additional Attack Speed",
+    "+(26-32)% chance to Multistrike",
+    "Multistrikes deal (10-16)% increasing damage",
+    "+(5-10)% chance to gain 1 stack of Agility Blessing on defeat",
+    "Adds 455 - 845 Base Ignite Damage",
+    "Adds 245 - 455 Base Ignite Damage",
+    "Adds 175 - 325 Base Ignite Damage",
+    "Adds 125 - 235 Base Ignite Damage",
+    "Reaps (0.19-0.24) s of Ignite Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+    "Reaps (0.13-0.18) s of Ignite Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+    "Reaps (0.09-0.12) s of Ignite Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+    "Reaps 0.08 s of Ignite Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+    "Reaps 0.07 s of Ignite Damage when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+    "+(31-39)% additional Ignite Damage",
+    "+(22-30)% additional Ignite Damage",
+    "+(16-21)% additional Ignite Damage",
+    "Max Terra Quantity +1\\n+5% additional damage",
+    "Max Terra Quantity +1\\n+1% additional damage",
+    "Max Terra Quantity +1\\n-10% additional damage",
+    "+(15-20)% Fervor effect",
+    "Immune to Trauma",
+    "Immune to Wilt",
+    "Adds (18-20)% of Physical Damage as Fire Damage",
+    "Adds (18-20)% of Physical Damage to Cold Damage",
+    "Adds (18-20)% of Physical Damage as Lightning Damage",
+    "Adds (18-20)% of Physical Damage as Erosion Damage",
+    "Gains Spell Aggression when casting a Spell Skill",
+    "Gains Attack Aggression when casting an Attack Skill",
+    "Immune to Trauma\\nImmune to Wilt",
+    "+(5-6)% Elemental Resistance",
+    "+1 to Max Tenacity Blessing Stacks\\n+5% additional damage",
+    "+1 to Max Agility Blessing Stacks\\n+5% additional damage",
+    "+1 to Max Focus Blessing Stacks\\n+5% additional damage",
+    "+15% Max Mana. +(100-120) Skill Cost",
+    "+8% Max Mana. +(40-60) Skill Cost",
+    "+(46-65)% Reaping Duration",
+    "+(35-50)% Reaping Duration",
+    "+(29-35)% Reaping Duration",
+    "+(51-65)% Terra Charge Recovery Speed",
+    "+(37-50)% Terra Charge Recovery Speed",
+    "+(27-36)% Terra Charge Recovery Speed",
+    "+(19-26)% Terra Charge Recovery Speed",
+    "+(13-18)% Terra Charge Recovery Speed",
+    "+1 Combo Points gained from Combo Starters\\n+(3-5)% additional damage",
+    "+1 Combo Points gained from Combo Starters\\n+(1-2)% additional damage",
+    "+1 Combo Points gained from Combo Starters\\n(-5--3)% additional damage",
+    "+(23-26) to Max Frostbite Rating",
+    "+(15-20) to Max Frostbite Rating",
+    "+(11-14) to Max Frostbite Rating",
+    "+(8-10) to Max Frostbite Rating",
+    "+(6-7) to Max Frostbite Rating",
+    "+(13-16)% Elemental Resistance\\n+(13-16)% Erosion Resistance",
+    "+(9-12)% Elemental Resistance\\n+(9-12)% Erosion Resistance",
+    "+(7-8)% Elemental Resistance\\n+(7-8)% Erosion Resistance",
+    "+(51-65)% Fervor effect",
+    "+(36-50)% Fervor effect",
+    "+(26-35)% Fervor effect",
+    "+(21-25)% Fervor effect",
+    "+(25-30)% additional damage for Main-Hand Weapons",
+    "+(18-23)% additional damage for Main-Hand Weapons",
+    "+(10-15)% additional damage for Main-Hand Weapons",
+    "+(25-30)% additional damage against Frozen enemies",
+    "+(18-23)% additional damage against Frozen enemies",
+    "+(10-15)% additional damage against Frozen enemies",
+    "Triggers Lv. 20 Frost Touch Curse upon inflicting damage. Cooldown: 0.2 s",
+    "When dealing damage, inflicts Fire Infiltration. Interval for each enemy: 2 s",
+    "When dealing damage, inflicts Lightning Infiltration. Interval for each enemy: 2 s",
+    "Adds (10-13) - (14-19) Physical Damage to Minions",
+    "Adds (9-14) - (15-20) Fire Damage to Minions",
+    "Adds (10-13) - (14-19) Cold Damage to Minions",
+    "Adds (1-2) - (28-32) Lightning Damage to Minions",
+    "Adds (11-13) - (15-18) Erosion Damage to Minions",
+    "+100% chance to gain 1 stack of Tenacity Blessing when casting a skill. Interval: 1 s",
+    "+100% chance to gain 1 stack of Focus Blessing when casting a Summon Skill. Interval: 1 s",
+    "Minion Damage penetrates (6-8)% Elemental Resistance",
+    "Adds (82-84) - (106-113) Fire Damage to Minions",
+    "Adds (63-65) - (82-87) Fire Damage to Minions",
+    "Adds (41-43) - (53-58) Fire Damage to Minions",
+    "Adds (30-32) - (39-42) Fire Damage to Minions",
+    "Adds (22-24) - (29-32) Fire Damage to Minions",
+    "Adds (83-85) - (110-112) Cold Damage to Minions",
+    "Adds (64-66) - (85-87) Cold Damage to Minions",
+    "Adds (42-44) - (55-57) Cold Damage to Minions",
+    "Adds (30-32) - (40-42) Cold Damage to Minions",
+    "Adds (22-24) - (30-32) Cold Damage to Minions",
+    "Adds (9-11) - (184-186) Lightning Damage to Minions",
+    "Adds (7-9) - (142-144) Lightning Damage to Minions",
+    "Adds (4-6) - (93-95) Lightning Damage to Minions",
+    "Adds (3-5) - (67-69) Lightning Damage to Minions",
+    "Adds (1-4) - (50-52) Lightning Damage to Minions",
+    "Adds (87-89) - (106-108) Erosion Damage to Minions",
+    "Adds (67-69) - (82-84) Erosion Damage to Minions",
+    "Adds (44-46) - (53-55) Erosion Damage to Minions",
+    "Adds (31-33) - (39-41) Erosion Damage to Minions",
+    "Adds (23-25) - (29-31) Erosion Damage to Minions",
+    "Adds (87-89) - (106-108) Physical Damage to Minions",
+    "Adds (67-69) - (82-84) Physical Damage to Minions",
+    "Adds (44-46) - (53-55) Physical Damage to Minions",
+    "Adds (31-33) - (39-41) Physical Damage to Minions",
+    "Adds (23-25) - (29-31) Physical Damage to Minions",
+    "+(31-39)% chance for Spirit Magi to use an Enhanced Skill",
+    "+(22-30)% chance for Spirit Magi to use an Enhanced Skill",
+    "+(16-21)% chance for Spirit Magi to use an Enhanced Skill",
+    "+(13-15)% chance for Spirit Magi to use an Enhanced Skill",
+    "+(11-12)% chance for Spirit Magi to use an Enhanced Skill",
+    "+1 to Max Summonable Synthetic Troops\\n+(10-12)% additional Minion Damage",
+    "+1 to Max Summonable Synthetic Troops\\n+(6-8)% additional Minion Damage",
+    "+(3-4) Minion Skill Level",
+    "+(3-4) Main Skill Level",
+    "+2 Main Skill Level",
+    "+(37-47)% Attack and Cast Speed\\n+(37-47)% Minion Attack and Cast Speed",
+    "+(27-36)% Attack and Cast Speed\\n+(27-36)% Minion Attack and Cast Speed",
+    "+(19-26)% Attack and Cast Speed\\n+(19-26)% Minion Attack and Cast Speed",
+    "+(14-18)% Attack and Cast Speed\\n+(14-18)% Minion Attack and Cast Speed",
+    "+(10-13)% Attack and Cast Speed\\n+(10-13)% Minion Attack and Cast Speed",
+    "Regenerates (181-234) Life per second",
+    "Regenerates (130-180) Life per second",
+    "Regenerates (93-129) Life per second",
+    "Regenerates (67-92) Life per second",
+    "Regenerates (45-66) Life per second",
+    "+(25-31)% Energy Shield Charge Speed",
+    "+(18-24)% Energy Shield Charge Speed",
+    "+(13-17)% Energy Shield Charge Speed",
+    "+(10-12)% Energy Shield Charge Speed",
+    "+(7-9)% Energy Shield Charge Speed",
+    "+(126-163) Minion Critical Strike Rating",
+    "+(89-125) Minion Critical Strike Rating",
+    "+(64-88) Minion Critical Strike Rating",
+    "+(51-63) Minion Critical Strike Rating",
+    "+(41-50) Minion Critical Strike Rating",
+    "+(41-52)% additional Spirit Magus Enhanced Skill Damage and Ailment Damage dealt by Enhanced Skills",
+    "+(29-40)% additional Spirit Magus Enhanced Skill Damage and Ailment Damage dealt by Enhanced Skills",
+    "+(21-28)% additional Spirit Magus Enhanced Skill Damage and Ailment Damage dealt by Enhanced Skills",
+    "+(17-20)% additional Spirit Magus Enhanced Skill Damage and Ailment Damage dealt by Enhanced Skills",
+    "+(14-16)% additional Spirit Magus Enhanced Skill Damage and Ailment Damage dealt by Enhanced Skills",
+    "+(61-78)% additional Spirit Magus Ultimate Damage and Ailment Damage dealt by Ultimate.",
+    "+(43-60)% additional Spirit Magus Ultimate Damage and Ailment Damage dealt by Ultimate.",
+    "+(31-42)% additional Spirit Magus Ultimate Damage and Ailment Damage dealt by Ultimate.",
+    "+(25-30)% additional Spirit Magus Ultimate Damage and Ailment Damage dealt by Ultimate.",
+    "+(20-24)% additional Spirit Magus Ultimate Damage and Ailment Damage dealt by Ultimate.",
+    "+(36-46)% additional damage for Synthetic Troop Minions when having at least 40 Command",
+    "+(26-35)% additional damage for Synthetic Troop Minions when having at least 40 Command",
+    "+(19-25)% additional damage for Synthetic Troop Minions when having at least 40 Command",
+    "+(14-18)% additional damage for Synthetic Troop Minions when having at least 40 Command",
+    "+(10-13)% additional damage for Synthetic Troop Minions when having at least 40 Command",
+    "+8% all stats",
+    "+80 initial Growth for Spirit Magi",
+    "+ 10 Command per second",
+    "Triggers Lv. 10 Entangled Pain Curse and Timid Curse when a Minion deals damage. Cooldown: 1 s\\nMinions can cast 1 additional Curse(s)",
+    "-80 Minion Critical Strike Rating\\n+200% Minion Critical Strike Damage",
+    "+120% Radical Order Aura Effect\\n-20% additional Radical Order Sealed Mana Compensation",
+    "Triggers Lv. 20 Dark Gate when moving. Interval: 4 s",
+    "When Minions deal damage, inflicts Fire Infiltration. Interval for each enemy: 1 s\\nWhen Minions deal damage, inflicts Lightning Infiltration. Interval for each enemy: 1 s\\nWhen Minions deal damage, inflicts Cold Infiltration. Interval for each enemy: 1 s",
+    "+(10-14)% Affliction Effect",
+    "+(8-10)% Reaping Duration",
+    "+(15-20)% Reaping Recovery Speed",
+    "+(6-8)% Blur Effect",
+    "+(181-234) Max Mana",
+    "+(127-180) Max Mana",
+    "+(91-126) Max Mana",
+    "+(73-90) Max Mana",
+    "+(59-72) Max Mana",
+    "+(150-188) Affliction inflicted per second",
+    "+(120-144) Affliction inflicted per second",
+    "+(101-115) Affliction inflicted per second",
+    "+(85-100) Affliction inflicted per second",
+    "+(65-84) Affliction inflicted per second",
+    "Reaps (0.19-0.24) s of Damage Over Time when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+    "Reaps (0.13-0.18) s of Damage Over Time when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+    "Reaps (0.09-0.12) s of Damage Over Time when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+    "Reaps 0.08 s of Damage Over Time when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+    "Reaps 0.07 s of Damage Over Time when dealing Damage Over Time. The effect has a 1 s Recovery Time against the same target",
+    "+(331-429) Max Life",
+    "+(232-330) Max Life",
+    "+(166-231) Max Life",
+    "+(133-165) Max Life",
+    "+(107-132) Max Life",
+    "+(526-683) Max Energy Shield",
+    "+(369-525) Max Energy Shield",
+    "+(264-368) Max Energy Shield",
+    "+(211-263) Max Energy Shield",
+    "+(169-210) Max Energy Shield",
+    "+(2-3) Physical Skill Level",
+    "+(2-3) Lightning Skill Level",
+    "+(2-3) Cold Skill Level",
+    "+(2-3) Fire Skill Level",
+    "+(2-3) Erosion Skill Level",
+    "Max Terra Charge Stacks +3",
+    "Max Terra Charge Stacks +2",
+    "+(3-4) Spell Skill Level",
+    "+2 Spell Skill Level",
+    "+(78-108)% Elemental Damage",
+    "+(56-77)% Elemental Damage",
+    "+(40-55)% Elemental Damage",
+    "+(27-39)% Elemental Damage",
+    "+(37-47)% Cast Speed\\n+(37-47)% Minion Cast Speed",
+    "+(26-36)% Cast Speed\\n+(26-36)% Minion Cast Speed",
+    "+(19-25)% Cast Speed\\n+(19-25)% Minion Cast Speed",
+    "+(50-62)% Ignite Duration",
+    "+(36-48)% Ignite Duration",
+    "+(26-34)% Ignite Duration",
+    "+(50-62)% Trauma Duration",
+    "+(36-48)% Trauma Duration",
+    "+(26-34)% Trauma Duration",
+    "+(50-62)% Wilt Duration",
+    "+(36-48)% Wilt Duration",
+    "+(26-34)% Wilt Duration",
+    "+(76-98)% Reaping Duration",
+    "+(54-75)% Reaping Duration",
+    "+(39-53)% Reaping Duration",
+    "+(31-38)% Reaping Duration",
+    "+(25-30)% Reaping Duration",
+    "+(126-163)% Reaping Recovery Speed",
+    "+(89-125)% Reaping Recovery Speed",
+    "+(64-88)% Reaping Recovery Speed",
+    "+(51-63)% Reaping Recovery Speed",
+    "+16 Affliction inflicted per second\\n+24% Affliction Effect",
+    "+25% Reaping Recovery Speed",
+    "+30% Reaping Duration",
+    "+12% Ailment Duration",
+    "Max Terra Charge Stacks -1\\nMax Terra Quantity +1",
+    "+8% Blur Effect",
+    "-10% All Resistance when the enemy has max Affliction",
+    "Upon inflicting damage, +8% additional Ailment Damage (multiplies) for every type of Ailment the enemy has",
+    "+120% Deep Pain Aura\\n-20% additional Deep Pain Sealed Mana Compensation",
+    "+20% Movement Speed when standing on a Terra Skill. The effect lasts 2s.\\n+100% Skill Area when standing on a Terra Skill. Lasts for 2 s",
+    "+160 Affliction inflicted per second",
+    "+1 to Max Tenacity Blessing Stacks\\n-1 to Max Focus Blessing Stacks\\n+1 to Max Agility Blessing Stacks",
+    "+(35-40) Strength",
+    "+(35-40) Dexterity",
+    "+(35-40) Intelligence",
+    "+(4-5)% Max Elemental and Erosion Resistance",
+    "+(1-2)% Max Fire Resistance",
+    "+(1-2)% Max Cold Resistance",
+    "+(1-2)% Max Lightning Resistance",
+    "Has a (5-10)% chance to avoid Blocked damage",
+    "+(5-8)% Block Ratio",
+    "+(4321-5616) gear Evasion",
+    "+(3025-4320) gear Evasion",
+    "+(2161-3024) gear Evasion",
+    "+(1729-2160) gear Evasion",
+    "+(1383-1728) gear Evasion",
+    "+(109-140)% damage\\n+(109-140)% Minion Damage",
+    "+(77-108)% damage\\n+(77-108)% Minion Damage",
+    "+(55-76)% damage\\n+(55-76)% Minion Damage",
+    "+(44-54)% damage\\n+(44-54)% Minion Damage",
+    "+(36-43)% damage\\n+(36-43)% Minion Damage",
+    "+(16-20)% Block Ratio",
+    "+(12-15)% Block Ratio",
+    "+(9-11)% Block Ratio",
+    "+(7-8)% Block Ratio",
+    "+(29-39)% Elemental and Erosion Resistance Penetration\\nMinion Damage penetrates (29-39)% Elemental Resistance",
+    "+(22-30)% Elemental and Erosion Resistance Penetration\\nMinion Damage penetrates (22-30)% Elemental Resistance",
+    "+(18-21)% Elemental and Erosion Resistance Penetration\\nMinion Damage penetrates (18-21)% Elemental Resistance",
+    "+(13-15)% Elemental and Erosion Resistance Penetration\\nMinion Damage penetrates (13-15)% Elemental Resistance",
+    "+(3-4) Active Skill Level",
+    "+(26-33)% Armor DMG Mitigation Penetration\\n+(26-33)% Armor DMG Mitigation Penetration for Minions",
+    "+(19-25)% Armor DMG Mitigation Penetration\\n+(19-25)% Armor DMG Mitigation Penetration for Minions",
+    "+(14-18)% Armor DMG Mitigation Penetration\\n+(14-18)% Armor DMG Mitigation Penetration for Minions",
+    "+(11-13)% Armor DMG Mitigation Penetration\\n+(11-13)% Armor DMG Mitigation Penetration for Minions",
+    "Regenerates (177-234) Life per second",
+    "Regenerates (136-180) Life per second",
+    "Regenerates (114-126) Life per second",
+    "Regenerates (82-90) Life per second",
+    "Regenerates (65-72) Life per second",
+    "Restores (5-6)% Life on Block. Interval: 0.3s",
+    "+(15-18)% Elemental Resistance",
+    "+(10-14)% Elemental Resistance",
+    "+(6-9)% Elemental Resistance",
+    "+(3-5)% Elemental Resistance",
+    "+(34-47)% Attack and Cast Speed\\n+(34-47)% Minion Attack and Cast Speed",
+    "+(22-25)% Attack and Cast Speed\\n+(22-25)% Minion Attack and Cast Speed",
+    "+(16-18)% Attack and Cast Speed\\n+(16-18)% Minion Attack and Cast Speed",
+    "+2 Max Warcry Skill Charges",
+    "Max Sentry Quantity +1\\n+5% additional damage",
+    "+(31-39)% additional Defense gained from Shield",
+    "+(22-30)% additional Defense gained from Shield",
+    "+(16-21)% additional Defense gained from Shield",
+    "+(13-15)% additional Defense gained from Shield",
+    "+(9-10)% Max Elemental Resistance",
+    "+(7-8)% Max Elemental Resistance",
+    "+(5-6)% Max Elemental Resistance",
+    "+(3-4)% Max Elemental Resistance",
+    "+1% Attack Speed and Movement Speed for every 6% of Attack or Spell Block",
+    "+1% Attack Speed and Movement Speed for every (7-8)% of Attack or Spell Block",
+    "+1% Attack Speed and Movement Speed for every (8-9)% of Attack or Spell Block",
+    "+100% chance to gain a stack of Fortitude when using a Melee Skill",
+    "+8% Elemental Resistance",
+    "+40% Defense from Shield",
+    "+8% Block Ratio Upper limit",
+    "Converts 25% of Physical Damage taken to random Elemental Damage\\n-25% Defense",
+    "+15% Armor Effective Rate for Non-Physical Damage\\n+2400 Gear Armor",
+    "Spell Damage will not further reduce Evasion by default\\n+1680 gear Evasion",
+    "Energy Shield starts to Charge when Blocking\\n+40% Energy Shield Charge Speed",
+    "+(311-442) Max Energy Shield",
+    "+(239-340) Max Energy Shield",
+    "+(201-238) Max Energy Shield",
+    "+(143-170) Max Energy Shield",
+    "+(115-136) Max Energy Shield",
+    "Restores (5-6)% Energy Shield on Block. Interval: 0.3s",
+    "+(11-12)% Energy Shield Charge Speed",
+    "+(9-10)% Energy Shield Charge Speed",
+    "+(26-33)% additional Defense gained from Shield",
+    "+(19-25)% additional Defense gained from Shield",
+    "+(14-18)% additional Defense gained from Shield",
+    "+(11-13)% additional Defense gained from Shield",
+    "+2% Cast Speed and Skill Area for every 5% of Spell Block",
+    "+1% Cast Speed and Skill Area for every 4% of Spell Block",
+    "+(4321-5616) Gear Armor",
+    "+(3025-4320) Gear Armor",
+    "+(2161-3024) Gear Armor",
+    "+(1729-2160) Gear Armor",
+    "+(1383-1728) Gear Armor",
+    "+5% Critical Strike Rating and Critical Strike Damage for every 5% of Attack Block",
+    "+2% Critical Strike Rating and Critical Strike Damage for every 5% of Attack Block",
+    "Gains Attack Aggression when Minions land a Critical Strike",
+    "Gains Spell Aggression when Minion Spells land a Critical Strike",
+    "Adds (54-56) - (71-76) Fire Damage to Minions",
+    "Adds (42-44) - (54-59) Fire Damage to Minions",
+    "Adds (27-29) - (35-39) Fire Damage to Minions",
+    "Adds (19-21) - (25-29) Fire Damage to Minions",
+    "Adds (14-16) - (19-22) Fire Damage to Minions",
+    "Adds (55-57) - (73-75) Cold Damage to Minions",
+    "Adds (42-44) - (56-58) Cold Damage to Minions",
+    "Adds (27-29) - (37-39) Cold Damage to Minions",
+    "Adds (20-22) - (26-28) Cold Damage to Minions",
+    "Adds (14-16) - (20-22) Cold Damage to Minions",
+    "Adds (6-8) - (123-125) Lightning Damage to Minions",
+    "Adds (4-6) - (94-96) Lightning Damage to Minions",
+    "Adds (2-4) - (62-64) Lightning Damage to Minions",
+    "Adds (1-3) - (45-47) Lightning Damage to Minions",
+    "Adds (1-3) - (33-35) Lightning Damage to Minions",
+    "Adds (58-60) - (71-73) Erosion Damage to Minions",
+    "Adds (44-46) - (54-56) Erosion Damage to Minions",
+    "Adds (29-31) - (35-37) Erosion Damage to Minions",
+    "Adds (21-23) - (25-27) Erosion Damage to Minions",
+    "Adds (15-17) - (19-21) Erosion Damage to Minions",
+    "Adds (58-60) - (71-73) Physical Damage to Minions",
+    "Adds (44-46) - (54-56) Physical Damage to Minions",
+    "Adds (29-31) - (35-37) Physical Damage to Minions",
+    "Adds (21-23) - (25-27) Physical Damage to Minions",
+    "Adds (15-17) - (19-21) Physical Damage to Minions",
+    "Gains Attack Aggression when Minions land a Critical Strike\\n+(5-8)% additional Minion Damage",
+    "Gains Attack Aggression when Minions land a Critical Strike\\n+(3-4)% additional Minion Damage",
+    "Gains Spell Aggression when Minion Spells land a Critical Strike\\n+(5-8)% additional Minion Damage",
+    "Gains Spell Aggression when Minion Spells land a Critical Strike\\n+(3-4)% additional Minion Damage",
+    "+1 to Max Tenacity Blessing Stacks\\n+5% additional Minion Damage",
+    "+1 to Max Agility Blessing Stacks\\n+5% additional Minion Damage",
+    "+1 to Max Focus Blessing Stacks\\n+5% additional Minion Damage",
+    "While Reconjuring, Spirit Magi regenerate (16-20)% Life per second",
+    "While Reconjuring, Spirit Magi regenerate (12-15)% Life per second",
+    "While Reconjuring, Spirit Magi regenerate (9-11)% Life per second",
+    "While Reconjuring, Spirit Magi regenerate (7-8)% Life per second",
+    "Gains Hasten when Minions land a Critical Strike\\n+(5-8)% additional Minion Attack and Cast Speed",
+    "Gains Hasten when Minions land a Critical Strike\\n+(3-4)% additional Minion Attack and Cast Speed",
+    "+ (11-13) Command per second",
+    "+ (8-10) Command per second",
+    "+ (6-7) Command per second",
+    "+ 5 Command per second",
+    "+6% Elemental Resistance\\n+6% Erosion Resistance",
+    "+(81-104) initial Growth for Spirit Magi",
+    "+(57-80) initial Growth for Spirit Magi",
+    "+(41-56) initial Growth for Spirit Magi",
+    "+(33-40) initial Growth for Spirit Magi",
+    "+(27-32) initial Growth for Spirit Magi",
+    "When Minions deal damage, inflicts Fire Infiltration. Interval for each enemy: 2 s",
+    "When Minions deal damage, inflicts Lightning Infiltration. Interval for each enemy: 2 s",
+    "When Minions deal damage, inflicts Cold Infiltration. Interval for each enemy: 2 s",
+    "Adds (25-30) - (33-38) Physical Damage to Spells",
+    "Adds (24-29) - (34-39) Fire Damage to Spells",
+    "Adds (24-29) - (34-39) Cold Damage to Spells",
+    "Adds (1-3) - (60-65) Lightning Damage to Spells",
+    "Adds (26-31) - (32-37) Erosion Damage to Spells",
+    "+(361-468) Max Mana",
+    "+(253-360) Max Mana",
+    "+(181-252) Max Mana",
+    "+(145-180) Max Mana",
+    "+(116-144) Max Mana",
+    "Adds (166-168) - (215-226) Fire Damage to Spells",
+    "Adds (127-129) - (164-174) Fire Damage to Spells",
+    "Adds (76-78) - (98-105) Fire Damage to Spells",
+    "Adds (50-52) - (65-70) Fire Damage to Spells",
+    "Adds (33-35) - (43-47) Fire Damage to Spells",
+    "Adds (168-170) - (222-224) Cold Damage to Spells",
+    "Adds (128-130) - (170-172) Cold Damage to Spells",
+    "Adds (76-78) - (102-104) Cold Damage to Spells",
+    "Adds (51-53) - (67-69) Cold Damage to Spells",
+    "Adds (33-35) - (45-47) Cold Damage to Spells",
+    "Adds (19-21) - (371-373) Lightning Damage to Spells",
+    "Adds (14-16) - (284-286) Lightning Damage to Spells",
+    "Adds (8-10) - (170-172) Lightning Damage to Spells",
+    "Adds (5-7) - (113-115) Lightning Damage to Spells",
+    "Adds (1-5) - (75-77) Lightning Damage to Spells",
+    "Adds (179-181) - (211-213) Erosion Damage to Spells",
+    "Adds (137-139) - (161-163) Erosion Damage to Spells",
+    "Adds (82-84) - (96-98) Erosion Damage to Spells",
+    "Adds (54-56) - (64-66) Erosion Damage to Spells",
+    "Adds (36-38) - (42-44) Erosion Damage to Spells",
+    "Adds (179-181) - (211-213) Physical Damage to Spells",
+    "Adds (137-139) - (161-163) Physical Damage to Spells",
+    "Adds (82-84) - (96-98) Physical Damage to Spells",
+    "Adds (54-56) - (64-66) Physical Damage to Spells",
+    "Adds (36-38) - (42-44) Physical Damage to Spells",
+    "+(4-5) Main Skill Level",
+    "Min Channeled Stacks +5",
+    "+5 to Max Channeled Stacks",
+    "+(7-8) Spell Skill Level",
+    "+(4-5) Spell Skill Level",
+    "Max Terra Charge Stacks +(5-6)",
+    "Max Terra Charge Stacks +(3-4)",
+    "Max Terra Charge Stacks +(1-2)",
+    "+4 Jumps\\n+(25-30)% additional damage",
+    "+4 Jumps\\n+(18-20)% additional damage",
+    "+(73-94)% Cast Speed\\n+(73-94)% Minion Cast Speed",
+    "+(51-72)% Cast Speed\\n+(51-72)% Minion Cast Speed",
+    "+(37-50)% Cast Speed\\n+(37-50)% Minion Cast Speed",
+    "+(30-36)% Cast Speed\\n+(30-36)% Minion Cast Speed",
+    "+(197-281)% Elemental Damage",
+    "+(127-151)% Elemental Damage",
+    "+(91-108)% Elemental Damage",
+    "+(73-86)% Elemental Damage",
+    "+(100-130)% Spell Burst Charge Speed",
+    "+(76-95)% Spell Burst Charge Speed",
+    "+(51-72)% Spell Burst Charge Speed",
+    "+(40-50)% Spell Burst Charge Speed",
+    "+(32-36)% Spell Burst Charge Speed",
+    "+(251-325) Spell Critical Strike Rating",
+    "+(176-250) Spell Critical Strike Rating",
+    "+(126-175) Spell Critical Strike Rating",
+    "+(101-125) Spell Critical Strike Rating",
+    "+(81-100) Spell Critical Strike Rating",
+    "+4 Beams\\n+(20-30)% additional damage",
+    "+4 Beams\\n+(5-10)% additional damage",
+    "+4 Beams\\n(-20--10)% additional damage",
+    "+(110-130)% Combo Damage Enhancement if the Combo Finisher cast recently consumes at least 8 Combo Point(s)",
+    "+(80-100)% Combo Damage Enhancement if the Combo Finisher cast recently consumes at least 8 Combo Point(s)",
+    "+(50-70)% Combo Damage Enhancement if the Combo Finisher cast recently consumes at least 8 Combo Point(s)",
+    "+(150-170)% Tangle Damage Enhancement",
+    "+(120-140)% Tangle Damage Enhancement",
+    "+(80-110)% Tangle Damage Enhancement",
+    "Adds (10-13) - (14-19) Physical Damage to Spells",
+    "Adds (9-14) - (15-20) Fire Damage to Spells",
+    "Adds (10-13) - (14-19) Cold Damage to Spells",
+    "Adds (1-2) - (28-32) Lightning Damage to Spells",
+    "Adds (11-13) - (15-18) Erosion Damage to Spells",
+    "+50% additional Hit Damage for skills cast by Spell Burst",
+    "The Main Skill is supported by Lv. 25 Control Spell\\n+25% additional Spell Damage",
+    "+200% Spell Amplification Aura\\n-30% additional Spell Amplification Sealed Mana Compensation",
+    "+70% additional damage\\n-10% additional Cast Speed",
+    "-2 to Max Tenacity Blessing Stacks\\n+2 to Max Focus Blessing Stacks\\n+2 to Max Agility Blessing Stacks",
+    "+(12-16)% additional damage against Traumatized enemies",
+    "+(12-18)% additional Steep Strike Damage",
+    "+(6-8)% additional Steep Strike Damage",
+    "+(28-32)% additional damage when a Skill consumes Demolisher Charge",
+    "Eliminates enemies under (10-14)% Life upon inflicting damage",
+    "+(1-2) Main Skill Level",
+    "+(101-124)% additional Attack Damage after standing still for 0.1s. -20% additional Attack Speed",
+    "+(80-100)% additional Attack Damage after standing still for 0.1s. -20% additional Attack Speed",
+    "+(59-79)% additional Attack Damage after standing still for 0.1s. -20% additional Attack Speed",
+    "+(50-58)% additional Attack Damage after standing still for 0.1s. (-16--15)% additional Attack Speed",
+    "+(37-49)% additional Attack Damage after standing still for 0.1s. (-14--13)% additional Attack Speed",
+    "+(61-78)% additional Melee Damage",
+    "+(43-60)% additional Melee Damage",
+    "+(31-42)% additional Melee Damage",
+    "+(25-30)% additional Melee Damage",
+    "+(20-24)% additional Melee Damage",
+    "+(14-16)% additional damage when a Skill consumes Demolisher Charge",
+    "+(60-64)% chance to Multistrike",
+    "Multistrikes deal (28-32)% increasing damage",
+    "+(30-32)% chance to Multistrike",
+    "Multistrikes deal (14-16)% increasing damage",
+    "Adds (82-84) - (106-113) Fire Damage to Spells",
+    "Adds (63-65) - (82-87) Fire Damage to Spells",
+    "Adds (41-43) - (53-58) Fire Damage to Spells",
+    "Adds (30-32) - (39-42) Fire Damage to Spells",
+    "Adds (22-24) - (29-32) Fire Damage to Spells",
+    "Adds (83-85) - (110-112) Cold Damage to Spells",
+    "Adds (64-66) - (85-87) Cold Damage to Spells",
+    "Adds (42-44) - (55-57) Cold Damage to Spells",
+    "Adds (30-32) - (40-42) Cold Damage to Spells",
+    "Adds (22-24) - (30-32) Cold Damage to Spells",
+    "Adds (9-11) - (184-186) Lightning Damage to Spells",
+    "Adds (7-9) - (142-144) Lightning Damage to Spells",
+    "Adds (4-6) - (93-95) Lightning Damage to Spells",
+    "Adds (3-5) - (67-69) Lightning Damage to Spells",
+    "Adds (1-4) - (50-52) Lightning Damage to Spells",
+    "Adds (87-89) - (106-108) Erosion Damage to Spells",
+    "Adds (67-69) - (82-84) Erosion Damage to Spells",
+    "Adds (44-46) - (53-55) Erosion Damage to Spells",
+    "Adds (31-33) - (39-41) Erosion Damage to Spells",
+    "Adds (23-25) - (29-31) Erosion Damage to Spells",
+    "Adds (87-89) - (106-108) Physical Damage to Spells",
+    "Adds (67-69) - (82-84) Physical Damage to Spells",
+    "Adds (44-46) - (53-55) Physical Damage to Spells",
+    "Adds (31-33) - (39-41) Physical Damage to Spells",
+    "Adds (23-25) - (29-31) Physical Damage to Spells",
+    "+2 Jumps\\n+(12-16)% additional damage",
+    "+2 Jumps\\n+(8-10)% additional damage",
+    "+(34-47)% Cast Speed\\n+(34-47)% Minion Cast Speed",
+    "+(22-25)% Cast Speed\\n+(22-25)% Minion Cast Speed",
+    "+(16-18)% Cast Speed\\n+(16-18)% Minion Cast Speed",
+    "+(50-64)% Spell Burst Charge Speed",
+    "+(38-47)% Spell Burst Charge Speed",
+    "+(26-36)% Spell Burst Charge Speed",
+    "+(22-25)% Spell Burst Charge Speed",
+    "+(16-18)% Spell Burst Charge Speed",
+    "+(126-163) Spell Critical Strike Rating",
+    "+(89-125) Spell Critical Strike Rating",
+    "+(64-88) Spell Critical Strike Rating",
+    "+(51-63) Spell Critical Strike Rating",
+    "+(41-50) Spell Critical Strike Rating",
+    "+(62-88)% additional Hit Damage for skills cast by Spell Burst",
+    "+(48-68)% additional Hit Damage for skills cast by Spell Burst",
+    "+(40-47)% additional Hit Damage for skills cast by Spell Burst",
+    "+(29-34)% additional Hit Damage for skills cast by Spell Burst",
+    "+2 Parabolic Projectile Split Quantity\\n+(8-12)% additional Projectile Damage",
+    "+1 Parabolic Projectile Split Quantity\\n+(12-16)% additional Projectile Damage",
+    "-15% additional Cast Speed\\n+(54-69)% additional Spell Damage",
+    "-15% additional Cast Speed\\n+(38-53)% additional Spell Damage",
+    "-15% additional Cast Speed\\n+(28-37)% additional Spell Damage",
+    "-15% additional Cast Speed\\n+(22-27)% additional Spell Damage",
+    "-15% additional Cast Speed\\n+(18-21)% additional Spell Damage",
+    "+(75-85)% Tangle Damage Enhancement",
+    "+(60-70)% Tangle Damage Enhancement",
+    "+(40-55)% Tangle Damage Enhancement",
+    "+25% additional Hit Damage for skills cast by Spell Burst",
+    "The Main Skill is supported by Lv. 25 Control Spell",
+    "+120% Spell Amplification Aura\\n-20% additional Spell Amplification Sealed Mana Compensation",
+    "+35% additional damage\\n-10% additional Cast Speed",
+    "-1 to Max Tenacity Blessing Stacks\\n+1 to Max Focus Blessing Stacks\\n+1 to Max Agility Blessing Stacks"
+  ]
+}

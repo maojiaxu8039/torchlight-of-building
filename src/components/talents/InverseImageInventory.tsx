@@ -53,19 +53,29 @@ export const InverseImageInventory: React.FC<InverseImageInventoryProps> = ({
 
   const getStatusMessage = (): string => {
     if (hasInverseImagePlaced) {
-      return i18n._("An inverse image is already placed. Remove it first to place a different one.");
+      return i18n._(
+        "An inverse image is already placed. Remove it first to place a different one.",
+      );
     }
     if (selectedInverseImageId) {
       if (isOnGodGoddessTree) {
-        return i18n._("Switch to a Profession Tree (Slots 2-4) to place the inverse image.");
+        return i18n._(
+          "Switch to a Profession Tree (Slots 2-4) to place the inverse image.",
+        );
       }
       if (hasPrismPlaced) {
-        return i18n._("Switch to a tree without a prism to place the inverse image.");
+        return i18n._(
+          "Switch to a tree without a prism to place the inverse image.",
+        );
       }
       if (treeHasPoints) {
-        return i18n._("Reset the tree's points to 0 before placing an inverse image.");
+        return i18n._(
+          "Reset the tree's points to 0 before placing an inverse image.",
+        );
       }
-      return i18n._("Click on an empty talent node (not in center column) to place the inverse image, or click it again to deselect.");
+      return i18n._(
+        "Click on an empty talent node (not in center column) to place the inverse image, or click it again to deselect.",
+      );
     }
     return i18n._("Click an inverse image to select it for placement.");
   };
@@ -88,7 +98,9 @@ export const InverseImageInventory: React.FC<InverseImageInventoryProps> = ({
 
       {inverseImages.length === 0 ? (
         <p className="text-sm text-zinc-500">
-          {i18n._("No inverse images crafted yet. Create one using the crafter!")}
+          {i18n._(
+            "No inverse images crafted yet. Create one using the crafter!",
+          )}
         </p>
       ) : (
         <div className="flex flex-col gap-2 max-h-96 overflow-y-auto">

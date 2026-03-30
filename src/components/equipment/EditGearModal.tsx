@@ -757,7 +757,9 @@ export const EditGearModal = ({
                         baseGearOptions[baseStats.affixIndex] !== undefined && (
                           <div className="mt-1 flex items-center gap-2">
                             <span className="text-xs text-zinc-400">
-                              {getBaseGearNameTranslation(baseGearOptions[baseStats.affixIndex].name)}
+                              {getBaseGearNameTranslation(
+                                baseGearOptions[baseStats.affixIndex].name,
+                              )}
                             </span>
                             <button
                               type="button"

@@ -12,7 +12,12 @@ export const AboutModal = ({
   onClose,
 }: AboutModalProps): React.ReactNode => {
   return (
-    <Modal isOpen={isOpen} onClose={onClose} title={i18n._("About")} maxWidth="sm">
+    <Modal
+      isOpen={isOpen}
+      onClose={onClose}
+      title={i18n._("About")}
+      maxWidth="sm"
+    >
       <div className="space-y-3 mb-6 text-sm">
         <p className="text-zinc-300">
           <a

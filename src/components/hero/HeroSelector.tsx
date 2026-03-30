@@ -17,7 +17,9 @@ export const HeroSelector = ({
 
   return (
     <div className="bg-zinc-900 rounded-lg p-6 border border-zinc-700">
-      <h2 className="text-xl font-semibold mb-4 text-zinc-50"><Trans>Select Hero</Trans></h2>
+      <h2 className="text-xl font-semibold mb-4 text-zinc-50">
+        <Trans>Select Hero</Trans>
+      </h2>
       <SearchableSelect
         value={selectedHero}
         onChange={onHeroChange}

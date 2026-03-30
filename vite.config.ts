@@ -9,18 +9,28 @@ export default defineConfig({
   server: { port: 3000 },
   build: {
     rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ["react", "react-dom"],
+          router: ["@tanstack/react-router"],
+          state: ["zustand", "immer"],
+          utils: ["remeda", "ts-pattern", "zod"],
+          i18n: ["@lingui/core", "@lingui/react"],
+        },
+        chunkFileNames: "assets/[name]-[hash].js",
+        entryFileNames: "assets/[name]-[hash].js",
+      },
       onwarn(warning, warn) {
-        // Catch warnings related to dynamic-import-vars plugin
         if (
           warning.plugin === "vite:dynamic-import-vars" ||
           warning.code === "DYNAMIC_IMPORT_VARIABLE"
         ) {
           throw new Error(`Invalid dynamic import path: ${warning.message}`);
         }
-        // Other warnings are displayed normally
         warn(warning);
       },
     },
+    chunkSizeWarningLimit: 600,
   },
   plugins: [
     tsconfigPaths(),

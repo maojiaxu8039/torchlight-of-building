@@ -99,7 +99,11 @@ export const PrismSection: React.FC<PrismSectionProps> = ({
       <Modal
         isOpen={isModalOpen}
         onClose={handleClose}
-        title={editingPrism !== undefined ? i18n._("Edit Prism") : i18n._("Craft Prism")}
+        title={
+          editingPrism !== undefined
+            ? i18n._("Edit Prism")
+            : i18n._("Craft Prism")
+        }
         dismissible={false}
       >
         <PrismCrafter

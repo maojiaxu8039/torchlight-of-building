@@ -59,7 +59,8 @@ export const MemoryInventory = ({
     <div className="bg-zinc-900 rounded-lg p-4 border border-zinc-700">
       <div className="flex items-center justify-between mb-2">
         <h2 className="text-base font-semibold text-zinc-50">
-          {i18n._("Memory Inventory")} ({heroMemoryList.length} {i18n._("items")})
+          {i18n._("Memory Inventory")} ({heroMemoryList.length}{" "}
+          {i18n._("items")})
         </h2>
         <div className="flex gap-2">
           <button
@@ -102,7 +103,7 @@ export const MemoryInventory = ({
       </div>
       {heroMemoryList.length === 0 ? (
         <p className="text-zinc-500 italic text-center py-4">
-          {i18n._("No memories in inventory. Click \"Craft Memory\" to add one.")}
+          {i18n._('No memories in inventory. Click "Craft Memory" to add one.')}
         </p>
       ) : (
         <div className="space-y-1 max-h-96 overflow-y-auto">

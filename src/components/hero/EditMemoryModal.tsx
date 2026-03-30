@@ -71,7 +71,9 @@ const AffixSlot = ({
       {hasSelection && (
         <>
           <div className="flex justify-between items-center mb-1">
-            <label className="text-xs text-zinc-500"><Trans>Quality</Trans></label>
+            <label className="text-xs text-zinc-500">
+              <Trans>Quality</Trans>
+            </label>
             <span className="text-xs font-medium text-zinc-50">{quality}%</span>
           </div>
           <input
@@ -145,7 +147,9 @@ const MemoryPreview = ({
   return (
     <div className="space-y-2">
       {memoryType !== undefined && (
-        <div className="text-sm font-semibold text-amber-400">{i18n._(memoryType)}</div>
+        <div className="text-sm font-semibold text-amber-400">
+          {i18n._(memoryType)}
+        </div>
       )}
 
       {baseStat !== undefined && (
@@ -411,7 +415,10 @@ export const EditMemoryModal = ({
     closeModal();
   };
 
-  const title = mode === "create" ? i18n._("Craft Hero Memory") : i18n._("Edit Hero Memory");
+  const title =
+    mode === "create"
+      ? i18n._("Craft Hero Memory")
+      : i18n._("Edit Hero Memory");
 
   return (
     <Modal

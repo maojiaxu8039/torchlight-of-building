@@ -12,7 +12,9 @@ export const GearTooltipContent: React.FC<{ item: Gear }> = ({ item }) => {
   return (
     <>
       <TooltipTitle>
-        {item.legendaryName ?? getBaseGearNameTranslation(item.baseGearName) ?? item.equipmentType}
+        {item.legendaryName ??
+          getBaseGearNameTranslation(item.baseGearName) ??
+          item.equipmentType}
       </TooltipTitle>
       {isLegendary && (
         <div className="text-xs text-zinc-500 mb-2">{item.equipmentType}</div>
@@ -43,7 +45,9 @@ export const GearTooltipContent: React.FC<{ item: Gear }> = ({ item }) => {
                     lineIdx > 0 ? "mt-1 pt-1 border-t border-zinc-800" : ""
                   }
                 >
-                  <div className="text-xs text-zinc-400">{getTranslatedAffixText(line.text)}</div>
+                  <div className="text-xs text-zinc-400">
+                    {getTranslatedAffixText(line.text)}
+                  </div>
                   {line.mods === undefined && (
                     <div className="text-xs text-red-500">
                       (Mod not supported in TOB yet)

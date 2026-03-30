@@ -104,7 +104,9 @@ export const SupportSkillSelectedTooltipContent: React.FC<
                 key={i}
                 className={i > 0 ? "mt-1 pt-1 border-t border-zinc-800" : ""}
               >
-                <div className="text-xs text-zinc-400">{getTranslatedAffixText(affix.text)}</div>
+                <div className="text-xs text-zinc-400">
+                  {getTranslatedAffixText(affix.text)}
+                </div>
                 {!isImplemented && (
                   <div className="text-xs text-red-500">
                     (Mod not supported in TOB yet)
@@ -115,7 +117,9 @@ export const SupportSkillSelectedTooltipContent: React.FC<
           })}
         </div>
       ) : (
-        <div className="text-xs text-zinc-500 italic">{i18n._("No affixes")}</div>
+        <div className="text-xs text-zinc-500 italic">
+          {i18n._("No affixes")}
+        </div>
       )}
     </>
   );

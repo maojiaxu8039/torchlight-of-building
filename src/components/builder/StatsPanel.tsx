@@ -226,7 +226,10 @@ const SpellBurstDpsSection = ({
         value={formatStatValue.dps(summary.avgDps)}
         highlight
       />
-      <StatLine label={i18n._("Bursts/sec")} value={summary.burstsPerSec.toFixed(2)} />
+      <StatLine
+        label={i18n._("Bursts/sec")}
+        value={summary.burstsPerSec.toFixed(2)}
+      />
       <StatLine
         label={i18n._("Max Spell Burst")}
         value={formatStatValue.integer(summary.maxSpellBurst)}
@@ -271,7 +274,9 @@ export const StatsPanel = (): React.ReactNode => {
 
   return (
     <div className="rounded-lg border border-zinc-700 bg-zinc-900 p-4">
-      <h3 className="mb-3 text-lg font-semibold text-zinc-50"><Trans>Stats Summary</Trans></h3>
+      <h3 className="mb-3 text-lg font-semibold text-zinc-50">
+        <Trans>Stats Summary</Trans>
+      </h3>
 
       <div className="space-y-0.5">
         {hasDamageStats && offenseSummary !== undefined ? (
@@ -459,7 +464,10 @@ export const StatsPanel = (): React.ReactNode => {
           </>
         ) : (
           <p className="mb-3 text-sm text-zinc-400">
-            <Trans>Select an active skill in the Calculations tab to view damage stats.</Trans>
+            <Trans>
+              Select an active skill in the Calculations tab to view damage
+              stats.
+            </Trans>
           </p>
         )}
 

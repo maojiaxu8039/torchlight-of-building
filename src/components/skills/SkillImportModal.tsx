@@ -65,7 +65,9 @@ export const SkillImportModal = ({
   return (
     <Modal isOpen={isOpen} onClose={onClose} title={i18n._("Import Skills")}>
       <ModalDescription>
-        {i18n._("See the user guide for instructions on how to generate skill data from in-game screenshots.")}
+        {i18n._(
+          "See the user guide for instructions on how to generate skill data from in-game screenshots.",
+        )}
       </ModalDescription>
 
       <textarea

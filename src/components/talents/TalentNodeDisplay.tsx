@@ -156,7 +156,9 @@ export const TalentNodeDisplay: React.FC<TalentNodeDisplayProps> = ({
               title={
                 canRemovePrism
                   ? i18n._("Remove prism")
-                  : i18n._("Cannot remove: dependent nodes have points allocated")
+                  : i18n._(
+                      "Cannot remove: dependent nodes have points allocated",
+                    )
               }
             >
               ×
@@ -171,7 +173,12 @@ export const TalentNodeDisplay: React.FC<TalentNodeDisplayProps> = ({
         >
           <TooltipTitle>
             <span className="text-purple-400">
-              {prism.rarity === "legendary" ? <Trans>Legendary</Trans> : <Trans>Rare</Trans>} <Trans>Prism</Trans>
+              {prism.rarity === "legendary" ? (
+                <Trans>Legendary</Trans>
+              ) : (
+                <Trans>Rare</Trans>
+              )}{" "}
+              <Trans>Prism</Trans>
             </span>
           </TooltipTitle>
           <TooltipContent>{prism.baseAffix}</TooltipContent>
@@ -184,7 +191,9 @@ export const TalentNodeDisplay: React.FC<TalentNodeDisplayProps> = ({
                   : "mt-2 pt-2 border-t border-zinc-700"
               }
             >
-              <div className="text-xs text-zinc-400">{getTranslatedAffixText(affix.text)}</div>
+              <div className="text-xs text-zinc-400">
+                {getTranslatedAffixText(affix.text)}
+              </div>
               {affix.type === "unsupported" && (
                 <div className="text-xs text-red-500">
                   (Mod not supported in TOB yet)

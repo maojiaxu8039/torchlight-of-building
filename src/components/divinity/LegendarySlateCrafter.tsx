@@ -38,14 +38,21 @@ const createMinimalAffix = (text: string): Affix => ({
   affixLines: text.split(/\n/).map((line) => ({ text: line })),
 });
 
-const LEGENDARY_SLATE_TRANSLATIONS: Record<string, { displayName: string; description: string }> = {
+const LEGENDARY_SLATE_TRANSLATIONS: Record<
+  string,
+  { displayName: string; description: string }
+> = {
   "sparks-of-moth-fire": {
     displayName: i18n._("Sparks of Moth Fire"),
-    description: i18n._("1x1 slate that copies a talent from an adjacent direction"),
+    description: i18n._(
+      "1x1 slate that copies a talent from an adjacent direction",
+    ),
   },
   "sparks-set-prairie": {
     displayName: i18n._("When Sparks Set the Prairie Ablaze"),
-    description: i18n._("1x1 slate that copies talents from all adjacent slates"),
+    description: i18n._(
+      "1x1 slate that copies talents from all adjacent slates",
+    ),
   },
   "corner-of-divinity": {
     displayName: i18n._("A Corner of Divinity"),
@@ -75,10 +82,10 @@ const SLATE_TRANSFORM_LABELS = {
 };
 
 const AFFIX_TYPE_LABELS: Record<string, string> = {
-  "Micro": i18n._("Micro"),
-  "Medium": i18n._("Medium"),
+  Micro: i18n._("Micro"),
+  Medium: i18n._("Medium"),
   "Legendary Medium": i18n._("Legendary Medium"),
-  "Core": i18n._("Core"),
+  Core: i18n._("Core"),
   "Micro/Medium/Legendary": i18n._("Micro/Medium/Legendary"),
   "Medium/Legendary": i18n._("Medium/Legendary"),
   "Medium/Legendary/Core": i18n._("Medium/Legendary/Core"),
@@ -89,11 +96,26 @@ const translateAffixLabel = (label: string): string => {
 };
 
 const FIXED_AFFIX_TRANSLATIONS: Record<string, string> = {
-  "Copies the last Talent on the adjacent slate above to this slate. Unable to copy the Core Talent.": i18n._("Copies the last Talent on the adjacent slate above to this slate. Unable to copy the Core Talent."),
-  "Copies the last Talent on the adjacent slate on the left to this slate. Unable to copy the Core Talent.": i18n._("Copies the last Talent on the adjacent slate on the left to this slate. Unable to copy the Core Talent."),
-  "Copies the last Talent on the adjacent slate below this slate. Unable to copy the Core Talents.": i18n._("Copies the last Talent on the adjacent slate below this slate. Unable to copy the Core Talents."),
-  "Copies the last Talent on the adjacent slate on the right to this slate. Unable to copy the Core Talent.": i18n._("Copies the last Talent on the adjacent slate on the right to this slate. Unable to copy the Core Talent."),
-  "Copies the last Talent on all adjacent slates. Unable to copy Core Talents.": i18n._("Copies the last Talent on all adjacent slates. Unable to copy Core Talents."),
+  "Copies the last Talent on the adjacent slate above to this slate. Unable to copy the Core Talent.":
+    i18n._(
+      "Copies the last Talent on the adjacent slate above to this slate. Unable to copy the Core Talent.",
+    ),
+  "Copies the last Talent on the adjacent slate on the left to this slate. Unable to copy the Core Talent.":
+    i18n._(
+      "Copies the last Talent on the adjacent slate on the left to this slate. Unable to copy the Core Talent.",
+    ),
+  "Copies the last Talent on the adjacent slate below this slate. Unable to copy the Core Talents.":
+    i18n._(
+      "Copies the last Talent on the adjacent slate below this slate. Unable to copy the Core Talents.",
+    ),
+  "Copies the last Talent on the adjacent slate on the right to this slate. Unable to copy the Core Talent.":
+    i18n._(
+      "Copies the last Talent on the adjacent slate on the right to this slate. Unable to copy the Core Talent.",
+    ),
+  "Copies the last Talent on all adjacent slates. Unable to copy Core Talents.":
+    i18n._(
+      "Copies the last Talent on all adjacent slates. Unable to copy Core Talents.",
+    ),
 };
 
 const translateFixedAffix = (text: string): string => {
@@ -294,10 +316,14 @@ export const LegendarySlateCrafter: React.FC<LegendarySlateCrafterProps> = ({
                     : "bg-zinc-700 text-zinc-300 hover:bg-zinc-600"
                 }`}
               >
-                <div className="font-medium">{LEGENDARY_SLATE_TRANSLATIONS[key]?.displayName ?? tmpl.displayName}</div>
+                <div className="font-medium">
+                  {LEGENDARY_SLATE_TRANSLATIONS[key]?.displayName ??
+                    tmpl.displayName}
+                </div>
                 {tmpl.description !== undefined && (
                   <div className="text-xs text-zinc-400 mt-0.5">
-                    {LEGENDARY_SLATE_TRANSLATIONS[key]?.description ?? tmpl.description}
+                    {LEGENDARY_SLATE_TRANSLATIONS[key]?.description ??
+                      tmpl.description}
                   </div>
                 )}
               </button>
@@ -417,7 +443,8 @@ export const LegendarySlateCrafter: React.FC<LegendarySlateCrafterProps> = ({
           {!hasFixedAffixes && (
             <div className="mb-4">
               <label className="mb-2 block text-sm text-zinc-400">
-                {i18n._("Affixes")} ({selectedAffixes.length}/{template.affixSlots.length})
+                {i18n._("Affixes")} ({selectedAffixes.length}/
+                {template.affixSlots.length})
               </label>
               <div className="flex flex-col gap-2">
                 {affixSlots.map((affix, slotIndex) => {

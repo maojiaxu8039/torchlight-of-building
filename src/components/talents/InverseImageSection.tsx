@@ -77,7 +77,9 @@ export const InverseImageSection: React.FC<InverseImageSectionProps> = ({
   return (
     <div>
       <div className="mb-4 flex items-center justify-between">
-        <h2 className="text-xl font-bold text-zinc-50">{i18n._("Inverse Images")}</h2>
+        <h2 className="text-xl font-bold text-zinc-50">
+          {i18n._("Inverse Images")}
+        </h2>
         <button
           type="button"
           onClick={handleOpenCraft}

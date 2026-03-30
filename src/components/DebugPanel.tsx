@@ -413,7 +413,8 @@ export const DebugPanel: React.FC<DebugPanelProps> = ({
     if (editMode) return i18n._("Debug: SaveData (Edit Mode)");
     if (view === "saveData") return i18n._("Debug: SaveData (Raw)");
     if (view === "loadout") return i18n._("Debug: Loadout (Parsed)");
-    if (view === "unparseable") return i18n._("Debug: Unimplemented", { 0: totalIssues });
+    if (view === "unparseable")
+      return i18n._("Debug: Unimplemented", { 0: totalIssues });
     return i18n._("Debug: Affixes", { 0: loadoutAffixLines.length });
   };
   const title = getTitle();
@@ -422,7 +423,10 @@ export const DebugPanel: React.FC<DebugPanelProps> = ({
     { key: "saveData", label: i18n._("Raw") },
     { key: "loadout", label: i18n._("Parsed") },
     { key: "unparseable", label: i18n._("Issues", { 0: totalIssues }) },
-    { key: "affixes", label: i18n._("Affixes", { 0: loadoutAffixLines.length }) },
+    {
+      key: "affixes",
+      label: i18n._("Affixes", { 0: loadoutAffixLines.length }),
+    },
   ];
 
   const matchingPaths = useMemo(() => {
@@ -480,7 +484,8 @@ export const DebugPanel: React.FC<DebugPanelProps> = ({
               />
               {searchTerm !== "" && (
                 <span className="text-xs text-zinc-400">
-                  {matchCount} {matchCount === 1 ? i18n._("match") : i18n._("matches")}
+                  {matchCount}{" "}
+                  {matchCount === 1 ? i18n._("match") : i18n._("matches")}
                 </span>
               )}
             </div>
@@ -553,7 +558,11 @@ export const DebugPanel: React.FC<DebugPanelProps> = ({
             onClick={() => setDebugPanelExpanded(!debugPanelExpanded)}
             className="px-3 py-1 bg-zinc-800 border border-zinc-700 hover:bg-zinc-700 text-zinc-50 text-sm rounded transition-colors"
           >
-            {debugPanelExpanded ? <Trans>Minimize</Trans> : <Trans>Expand</Trans>}
+            {debugPanelExpanded ? (
+              <Trans>Minimize</Trans>
+            ) : (
+              <Trans>Expand</Trans>
+            )}
           </button>
           <button
             type="button"

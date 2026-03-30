@@ -39,7 +39,9 @@ export const InventoryItem: React.FC<InventoryItemProps> = ({
       <div className="flex items-center gap-2">
         <span className="font-medium text-zinc-50 text-sm">
           {i18n._(
-            item.legendaryName ?? getBaseGearNameTranslation(item.baseGearName) ?? item.equipmentType,
+            item.legendaryName ??
+              getBaseGearNameTranslation(item.baseGearName) ??
+              item.equipmentType,
           )}
         </span>
         {isLegendary && (
